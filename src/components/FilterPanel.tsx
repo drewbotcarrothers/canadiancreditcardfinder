@@ -1,7 +1,4 @@
-'use client';
-
-import { useRouter, useSearchParams } from 'next/navigation';
-import { FilterState } from '@/lib/types';
+import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
 
 interface FilterPanelProps {
     categories: string[];
@@ -17,8 +14,7 @@ const FEE_RANGES = [
 ];
 
 export default function FilterPanel({ categories, issuers, rewardsPrograms }: FilterPanelProps) {
-    const router = useRouter();
-    const searchParams = useSearchParams();
+    const { searchParams, pushSearch } = useUrlSearchParams();
 
     const getFilterValues = (key: string): string[] => {
         return searchParams.get(key)?.split(',').filter(Boolean) || [];
@@ -36,7 +32,7 @@ export default function FilterPanel({ categories, issuers, rewardsPrograms }: Fi
         } else {
             params.delete(key);
         }
-        router.push(`/?${params.toString()}`);
+        pushSearch(params, '/');
     };
 
     const toggleFilter = (key: string, value: string, currentValues: string[]) => {
@@ -47,7 +43,7 @@ export default function FilterPanel({ categories, issuers, rewardsPrograms }: Fi
     };
 
     const clearAllFilters = () => {
-        router.push('/');
+        pushSearch(new URLSearchParams(), '/');
     };
 
     const hasActiveFilters = selectedCategories.length > 0 ||
@@ -69,7 +65,6 @@ export default function FilterPanel({ categories, issuers, rewardsPrograms }: Fi
                 )}
             </div>
 
-            {/* Category Filter */}
             <div className="mb-6">
                 <h3 className="font-medium text-gray-900 mb-3">Category</h3>
                 <div className="space-y-2">
@@ -89,7 +84,6 @@ export default function FilterPanel({ categories, issuers, rewardsPrograms }: Fi
                 </div>
             </div>
 
-            {/* Issuer Filter */}
             <div className="mb-6">
                 <h3 className="font-medium text-gray-900 mb-3">Issuer</h3>
                 <div className="space-y-2 max-h-48 overflow-y-auto">
@@ -109,7 +103,6 @@ export default function FilterPanel({ categories, issuers, rewardsPrograms }: Fi
                 </div>
             </div>
 
-            {/* Annual Fee Filter */}
             <div className="mb-6">
                 <h3 className="font-medium text-gray-900 mb-3">Annual Fee</h3>
                 <div className="flex flex-wrap gap-2">
@@ -128,7 +121,6 @@ export default function FilterPanel({ categories, issuers, rewardsPrograms }: Fi
                 </div>
             </div>
 
-            {/* Rewards Program Filter */}
             <div>
                 <h3 className="font-medium text-gray-900 mb-3">Rewards Program</h3>
                 <div className="space-y-2 max-h-48 overflow-y-auto">

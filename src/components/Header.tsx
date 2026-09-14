@@ -1,12 +1,7 @@
-'use client';
-
-import Link from 'next/link';
-import Image from 'next/image';
 import { useState } from 'react';
-import { useCompare } from '@/context/CompareContext';
+import { useCompare } from '../hooks/useCompare';
 
 export default function Header() {
-
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
     const { compareCards } = useCompare();
     const compareCount = compareCards.length;
@@ -15,15 +10,12 @@ export default function Header() {
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    {/* Logo */}
-                    <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
+                    <a href="/" className="flex items-center space-x-2 sm:space-x-3">
                         <div className="relative w-8 h-8 sm:w-10 sm:h-10">
-                            <Image
+                            <img
                                 src="/images/logo.png"
                                 alt="Canadian Credit Card Finder Logo"
-                                fill
-                                className="object-contain"
-                                priority
+                                className="absolute inset-0 w-full h-full object-contain"
                             />
                         </div>
                         <span className="font-bold text-lg text-gray-900 hidden sm:block">
@@ -32,18 +24,17 @@ export default function Header() {
                         <span className="font-bold text-lg text-gray-900 sm:hidden">
                             CCCF
                         </span>
-                    </Link>
+                    </a>
 
-                    {/* Desktop Navigation */}
                     <nav className="hidden md:flex items-center space-x-8">
-                        <Link
+                        <a
                             href="/"
                             className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
                         >
                             Home
-                        </Link>
-                        <Link
-                            href="/compare"
+                        </a>
+                        <a
+                            href="/compare/"
                             className="text-gray-600 hover:text-gray-900 font-medium transition-colors flex items-center"
                         >
                             Compare
@@ -52,10 +43,9 @@ export default function Header() {
                                     {compareCount}
                                 </span>
                             )}
-                        </Link>
+                        </a>
                     </nav>
 
-                    {/* Mobile Menu Button */}
                     <button
                         className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
                         onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -71,19 +61,18 @@ export default function Header() {
                     </button>
                 </div>
 
-                {/* Mobile Navigation */}
                 {mobileMenuOpen && (
                     <nav className="md:hidden py-4 border-t border-gray-200">
                         <div className="flex flex-col space-y-4">
-                            <Link
+                            <a
                                 href="/"
                                 className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Home
-                            </Link>
-                            <Link
-                                href="/compare"
+                            </a>
+                            <a
+                                href="/compare/"
                                 className="text-gray-600 hover:text-gray-900 font-medium transition-colors flex items-center"
                                 onClick={() => setMobileMenuOpen(false)}
                             >
@@ -93,7 +82,7 @@ export default function Header() {
                                         {compareCount}
                                     </span>
                                 )}
-                            </Link>
+                            </a>
                         </div>
                     </nav>
                 )}

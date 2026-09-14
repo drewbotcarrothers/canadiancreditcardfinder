@@ -29,6 +29,8 @@ interface CSVRow {
     Product_Link: string;
 }
 
+let cachedCards: CreditCard[] | null = null;
+
 function parseCSV(csvText: string): CreditCard[] {
     const result = Papa.parse<CSVRow>(csvText, {
         header: true,
@@ -66,11 +68,18 @@ function parseCSV(csvText: string): CreditCard[] {
 }
 
 export async function getCards(): Promise<CreditCard[]> {
-    const response = await fetch(CSV_URL, {
-        next: { revalidate: 3600 }
-    });
+    if (cachedCards) {
+        return cachedCards;
+    }
+
+    const response = await fetch(CSV_URL);
+    if (!response.ok) {
+        throw new Error(`Failed to load credit card data (${response.status} ${response.statusText})`);
+    }
+
     const csvText = await response.text();
-    return parseCSV(csvText);
+    cachedCards = parseCSV(csvText);
+    return cachedCards;
 }
 
 export async function getCardBySlug(slug: string): Promise<CreditCard | null> {

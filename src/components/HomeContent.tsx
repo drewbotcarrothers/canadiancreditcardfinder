@@ -1,11 +1,9 @@
-'use client';
-
-import { useSearchParams } from 'next/navigation';
-import { CreditCard, SortOption } from '@/lib/types';
-import { parseFeeRange, parseBonusValue } from '@/lib/utils';
-import FilterPanel from '@/components/FilterPanel';
-import CardGrid from '@/components/CardGrid';
 import { useState } from 'react';
+import { CreditCard, SortOption } from '../lib/types';
+import { parseBonusValue, parseFeeRange } from '../lib/utils';
+import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
+import FilterPanel from './FilterPanel';
+import CardGrid from './CardGrid';
 
 interface HomeContentProps {
     cards: CreditCard[];
@@ -15,29 +13,24 @@ interface HomeContentProps {
 }
 
 export default function HomeContent({ cards, categories, issuers, rewardsPrograms }: HomeContentProps) {
-    const searchParams = useSearchParams();
+    const { searchParams } = useUrlSearchParams();
     const [sortBy, setSortBy] = useState<SortOption>('featured');
     const [showMobileFilters, setShowMobileFilters] = useState(false);
 
-    // Parse filters from URL
     const selectedCategories = searchParams.get('category')?.split(',').filter(Boolean) || [];
     const selectedIssuers = searchParams.get('issuer')?.split(',').filter(Boolean) || [];
     const selectedFeeRanges = searchParams.get('fee')?.split(',').filter(Boolean) || [];
     const selectedRewardsPrograms = searchParams.get('rewards')?.split(',').filter(Boolean) || [];
 
-    // Filter cards
     let filteredCards = cards.filter(card => {
-        // Category filter
         if (selectedCategories.length > 0 && !selectedCategories.includes(card.category)) {
             return false;
         }
 
-        // Issuer filter
         if (selectedIssuers.length > 0 && !selectedIssuers.includes(card.issuer)) {
             return false;
         }
 
-        // Fee range filter
         if (selectedFeeRanges.length > 0) {
             const matchesFee = selectedFeeRanges.some(range => {
                 const { min, max } = parseFeeRange(range);
@@ -46,7 +39,6 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
             if (!matchesFee) return false;
         }
 
-        // Rewards program filter
         if (selectedRewardsPrograms.length > 0 && !selectedRewardsPrograms.includes(card.rewardsProgram)) {
             return false;
         }
@@ -54,7 +46,6 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
         return true;
     });
 
-    // Sort cards
     filteredCards = [...filteredCards].sort((a, b) => {
         switch (sortBy) {
             case 'fee-low-high':
@@ -79,7 +70,6 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
             <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
-                {/* Filter Panel - Desktop */}
                 <aside className="hidden lg:block lg:col-span-1">
                     <div className="sticky top-24">
                         <FilterPanel
@@ -90,9 +80,7 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
                     </div>
                 </aside>
 
-                {/* Main Content */}
                 <div className="lg:col-span-3">
-                    {/* Results Header */}
                     <div className="bg-white rounded-xl shadow-md p-4 mb-6">
                         <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
                             <div className="flex items-center gap-4">
@@ -101,7 +89,6 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
                                     <span className="font-semibold text-gray-900">{cards.length}</span> cards
                                 </p>
 
-                                {/* Mobile Filter Button */}
                                 <button
                                     className="lg:hidden flex items-center gap-2 px-4 py-2 bg-gray-100 rounded-lg text-gray-700 font-medium"
                                     onClick={() => setShowMobileFilters(true)}
@@ -118,7 +105,6 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
                                 </button>
                             </div>
 
-                            {/* Sort Dropdown */}
                             <div className="flex items-center gap-2">
                                 <label htmlFor="sort" className="text-gray-600 text-sm">Sort by:</label>
                                 <select
@@ -137,12 +123,10 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
                         </div>
                     </div>
 
-                    {/* Card Grid */}
                     <CardGrid cards={filteredCards} />
                 </div>
             </div>
 
-            {/* Mobile Filter Modal */}
             {showMobileFilters && (
                 <div className="fixed inset-0 z-50 lg:hidden">
                     <div className="absolute inset-0 bg-black/50" onClick={() => setShowMobileFilters(false)} />

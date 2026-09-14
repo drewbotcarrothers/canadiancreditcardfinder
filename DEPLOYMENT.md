@@ -1,54 +1,54 @@
 # Deploying to Hostinger
 
-This guide explains how to deploy your Canadian Credit Card Finder website to Hostinger using the static export files.
+The site is a static Astro build. Hostinger does not need a Node server at runtime. Use GitHub auto-deploy (or upload the `dist/` folder) with the settings below.
 
-## Prerequisites
+## Hostinger GitHub auto-deploy
 
-*   A Hostinger account with a hosting plan.
-*   Access to the **File Manager** (or FTP) in your Hostinger dashboard.
-*   The `out` folder generated on your local machine (Desktop/Google Antigravity/Canadian_Credit_Card_Finder/app/out).
+In the Hostinger website / Git deployment settings:
 
-## Step 1: Locate Your Build Files
+| Setting | Value |
+| --- | --- |
+| Repository | `drewbotcarrothers/canadiancreditcardfinder` |
+| Branch | `main` (or the branch you deploy from) |
+| Build command | `npm install && npm run build` |
+| Node version | 20 or newer |
+| Publish / output directory | `dist` |
 
-After running the build, all the necessary files are in the `out` folder inside your project directory:
+After a successful build, Hostinger should publish the contents of `dist/` to `public_html`.
 
-`.../Canadian_Credit_Card_Finder/app/out/`
+The production output includes:
 
-This folder contains:
-*   `index.html` (Home page)
-*   `compare.html` (Compare page)
-*   `card/` (Folder containing all individual card pages)
-*   `_next/` (Static assets like CSS and JS)
-*   `images/` (Card images)
+* `index.html` — homepage
+* `compare/index.html` — compare page
+* `card/<slug>/index.html` — individual card pages (trailing-slash URLs)
+* `sitemap.xml`
+* `_astro/` — hashed CSS and JS
+* `images/` — logo and card images
+* `ads.txt`
 
-## Step 2: Upload to Hostinger
+## Manual upload (optional)
 
-1.  Log in to your **Hostinger Dashboard**.
-2.  Go to **Websites** and click **Manage** next to your domain (`canadiancreditcardfinder.com`).
-3.  Scroll down to the **Files** section and click on **File Manager**.
-4.  Navigate into the `public_html` folder.
-    *   *Note: If there are default files here (like `default.php`), delete them.*
-5.  **Upload the contents of the `out` folder**:
-    *   Select all files and folders **INSIDE** the `out` folder (`index.html`, `_next`, `card`, etc.).
-    *   Drag and drop them directly into the `public_html` directory in Hostinger's File Manager.
-    *   Alternatively, use the **Upload** button (top right) -> **Folder** (or zipped archive if you prefer to zip `out` content first and unzip on server).
+1. Run `npm install` and `npm run build` locally.
+2. In Hostinger File Manager, open `public_html`.
+3. Upload the **contents** of the `dist/` folder (not the folder itself).
+4. Remove leftover default files such as `default.php` if they are present.
 
-## Step 3: Verify Deployment
+## Verify deployment
 
-1.  Visit your website URL (e.g., `https://canadiancreditcardfinder.com`).
-2.  Check that the homepage loads.
-3.  Click on a card to see if the product page loads (e.g., `/card/westjet-rbc-mastercard`).
-4.  Try the "Compare" page.
+1. Open `https://canadiancreditcardfinder.com`.
+2. Confirm the homepage listing and filters load.
+3. Open a card page such as `/card/westjet-rbc-mastercard/`.
+4. Use **Add to Compare** and open `/compare/`.
 
 ## Troubleshooting
 
-*   **404 Errors**: Ensure you uploaded the `_next` folder. This contains the styling and scripts.
-*   **Images Missing**: Ensure the `images` folder was uploaded correctly.
-*   **Changes not showing**: You might need to clear your browser cache or Hostinger's cache (if enabled).
+* **404 on card or compare pages:** Confirm the publish directory is `dist` (not `out` or `.next`) and that directory-style paths (`compare/index.html`, `card/<slug>/index.html`) were uploaded.
+* **Missing styles or scripts:** Upload the `_astro/` folder from `dist/`.
+* **Missing images:** Confirm `images/` from `dist/` is on the server.
+* **Stale site:** Clear the browser cache and Hostinger cache if enabled.
 
-## Future Updates
+## Future updates
 
-To update your site:
-1.  Run `npm run build` locally.
-2.  Delete the old files in `public_html` on Hostinger.
-3.  Upload the new contents of the `out` folder.
+Push to the connected GitHub branch. Hostinger will run `npm install && npm run build` and publish `dist/`.
+
+If you deploy manually, rebuild locally and replace the contents of `public_html` with the new `dist/` files.

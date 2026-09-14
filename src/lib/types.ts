@@ -34,7 +34,7 @@ export interface FilterState {
   rewardsPrograms: string[];
 }
 
-export type SortOption = 
+export type SortOption =
   | 'featured'
   | 'fee-low-high'
   | 'fee-high-low'
