@@ -1,6 +1,4 @@
-'use client';
-
-import { CreditCard } from '@/lib/types';
+import type { CreditCard } from '../lib/types';
 import CardItem from './CardItem';
 
 interface CardGridProps {

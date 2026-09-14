@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CompareContent from '../components/CompareContent';
+import { getCards } from '../lib/data';
+
+const cards = await getCards();
+---
+
+<BaseLayout
+    title="Compare Credit Cards Side-by-Side | Canadian Credit Card Finder"
+    description="Compare up to 3 Canadian credit cards side by side. See fees, rates, rewards to find your best match at Canadian Credit Card Finder."
+>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div class="text-center mb-8">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                Compare Credit Cards
+            </h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Select up to 3 cards to compare side by side. Find the best card for your needs.
+            </p>
+        </div>
+
+        <CompareContent client:load allCards={cards} />
+    </div>
+</BaseLayout>

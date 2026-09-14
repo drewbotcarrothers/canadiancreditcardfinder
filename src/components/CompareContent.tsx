@@ -1,58 +1,46 @@
-'use client';
-
-import { useState, useEffect } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
-import Link from 'next/link';
-import { useCompare } from '@/context/CompareContext';
-import { CreditCard } from '@/lib/types';
-import { parseBonusValue } from '@/lib/utils';
-import CardImage from '@/components/CardImage';
+import { useEffect, useState } from 'react';
+import { useCompare } from '../hooks/useCompare';
+import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
+import type { CreditCard } from '../lib/types';
+import { parseBonusValue } from '../lib/utils';
+import CardImage from './CardImage';
 
 interface CompareContentProps {
     allCards: CreditCard[];
 }
 
 export default function CompareContent({ allCards }: CompareContentProps) {
-    const router = useRouter();
-    const searchParams = useSearchParams();
+    const { searchParams, replaceSearch } = useUrlSearchParams();
     const [showSelector, setShowSelector] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
+    const [hasHydratedFromUrl, setHasHydratedFromUrl] = useState(false);
 
-    const { compareCards, addCard, removeCard, clearCards } = useCompare();
+    const { compareCards, addCard, removeCard, setCompareCards } = useCompare();
 
-    // Sync URL with Context
     useEffect(() => {
         const urlCards = searchParams.get('cards')?.split(',').filter(Boolean) || [];
 
-        // If URL has cards and they differ from context (e.g. shared link), sync to context
-        // But only if we haven't already synced (to avoid loops if context update triggers url update)
-        // Actually, easiest is: URL is source of truth IF present on mount?
-        // Let's go with: Context is source of truth.
-        // But if URL has params, we usually want to load them.
-
         if (urlCards.length > 0) {
-            // Check if different
             const isDifferent = urlCards.length !== compareCards.length || !urlCards.every(c => compareCards.includes(c));
             if (isDifferent) {
-                // We prefer the URL tokens if they exist (sharing scenario)
-                // But wait, this might override local work.
-                // Let's say: If URL params exist, they merge or replace?
-                // Let's replace for now as "loading a comparison"
-                clearCards();
-                urlCards.forEach(slug => addCard(slug));
+                setCompareCards(urlCards);
             }
         }
-    }, []); // Run once on mount
 
-    // Update URL when Context changes
+        setHasHydratedFromUrl(true);
+        // Sync shared/bookmarked compare URLs once on mount.
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
+
     useEffect(() => {
+        if (!hasHydratedFromUrl) return;
+
+        const params = new URLSearchParams();
         if (compareCards.length > 0) {
-            const url = `/compare?cards=${compareCards.join(',')}`;
-            router.replace(url, { scroll: false });
-        } else {
-            router.replace('/compare', { scroll: false });
+            params.set('cards', compareCards.join(','));
         }
-    }, [compareCards, router]);
+        replaceSearch(params, '/compare/');
+    }, [compareCards, hasHydratedFromUrl, replaceSearch]);
 
     const selectedCards = compareCards
         .map(slug => allCards.find(c => c.slug === slug))
@@ -70,7 +58,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
             card.issuer.toLowerCase().includes(searchTerm.toLowerCase()))
     );
 
-    // Helper to find best value
     const getBestValue = (getValue: (c: CreditCard) => number, type: 'lowest' | 'highest') => {
         if (selectedCards.length === 0) return null;
         const values = selectedCards.map(getValue);
@@ -84,7 +71,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
 
     return (
         <div>
-            {/* Card Selection Slots */}
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8">
                 {[0, 1, 2].map(index => {
                     const card = selectedCards[index];
@@ -136,7 +122,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                 })}
             </div>
 
-            {/* Comparison Table */}
             {selectedCards.length > 0 ? (
                 <div className="bg-white rounded-xl shadow-md overflow-hidden">
                     <div className="overflow-x-auto">
@@ -148,18 +133,17 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     </th>
                                     {selectedCards.map(card => (
                                         <th key={card.id} className="px-6 py-4 text-center">
-                                            <Link
-                                                href={`/card/${card.slug}`}
+                                            <a
+                                                href={`/card/${card.slug}/`}
                                                 className="text-sm font-semibold text-gray-900 hover:text-red-600 transition-colors"
                                             >
                                                 {card.creditCardName}
-                                            </Link>
+                                            </a>
                                         </th>
                                     ))}
                                 </tr>
                             </thead>
                             <tbody className="divide-y divide-gray-100">
-                                {/* Card Image */}
                                 <tr>
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Card</td>
                                     {selectedCards.map(card => (
@@ -176,7 +160,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Issuer */}
                                 <tr className="bg-gray-50/50">
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Issuer</td>
                                     {selectedCards.map(card => (
@@ -186,7 +169,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Category */}
                                 <tr>
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Category</td>
                                     {selectedCards.map(card => (
@@ -198,7 +180,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Annual Fee */}
                                 <tr className="bg-gray-50/50">
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Annual Fee</td>
                                     {selectedCards.map(card => (
@@ -213,7 +194,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Purchase Interest Rate */}
                                 <tr>
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Purchase Rate</td>
                                     {selectedCards.map(card => (
@@ -228,7 +208,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Cash Advance Rate */}
                                 <tr className="bg-gray-50/50">
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Cash Advance Rate</td>
                                     {selectedCards.map(card => (
@@ -243,7 +222,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Rewards Program */}
                                 <tr>
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Rewards Program</td>
                                     {selectedCards.map(card => (
@@ -253,7 +231,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Welcome Bonus */}
                                 <tr className="bg-gray-50/50">
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Welcome Bonus</td>
                                     {selectedCards.map(card => (
@@ -263,7 +240,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Bonus Value */}
                                 <tr>
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Bonus Value</td>
                                     {selectedCards.map(card => {
@@ -281,7 +257,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     })}
                                 </tr>
 
-                                {/* Insurance */}
                                 <tr className="bg-gray-50/50">
                                     <td className="px-6 py-4 text-sm font-medium text-gray-600">Insurance</td>
                                     {selectedCards.map(card => (
@@ -291,7 +266,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                     ))}
                                 </tr>
 
-                                {/* Apply Button */}
                                 <tr>
                                     <td className="px-6 py-4"></td>
                                     {selectedCards.map(card => (
@@ -333,7 +307,6 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                 </div>
             )}
 
-            {/* Card Selector Modal */}
             {showSelector && (
                 <div className="fixed inset-0 z-50 flex items-center justify-center">
                     <div className="absolute inset-0 bg-black/50" onClick={() => setShowSelector(false)} />

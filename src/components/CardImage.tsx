@@ -1,6 +1,3 @@
-'use client';
-
-import Image from 'next/image';
 import { useState } from 'react';
 
 interface CardImageProps {
@@ -26,26 +23,25 @@ export default function CardImage({ src, alt, fill, className, priority, width, 
 
     if (fill) {
         return (
-            <Image
+            <img
                 src={imgSrc}
                 alt={alt}
-                fill
-                className={className}
-                priority={priority}
+                className={`absolute inset-0 w-full h-full ${className ?? ''}`}
                 onError={handleError}
+                loading={priority ? 'eager' : 'lazy'}
             />
         );
     }
 
     return (
-        <Image
+        <img
             src={imgSrc}
             alt={alt}
             width={width || 300}
             height={height || 189}
             className={className}
-            priority={priority}
             onError={handleError}
+            loading={priority ? 'eager' : 'lazy'}
         />
     );
 }

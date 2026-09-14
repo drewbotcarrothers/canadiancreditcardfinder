@@ -1,0 +1,61 @@
+---
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="bg-gray-50 border-t border-gray-200 mt-auto">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="relative w-10 h-10">
+                        <img
+                            src="/images/logo.png"
+                            alt="Canadian Credit Card Finder Logo"
+                            class="absolute inset-0 w-full h-full object-contain"
+                        />
+                    </div>
+                    <span class="font-bold text-lg text-gray-900">
+                        Canadian Credit Card Finder
+                    </span>
+                </div>
+                <p class="text-gray-600 text-sm max-w-md">
+                    Helping Canadians find the best credit cards for their needs.
+                    Compare rewards, cashback, travel, and low interest cards.
+                </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row sm:justify-end gap-8">
+                <div>
+                    <h3 class="font-semibold text-gray-900 mb-3">Navigation</h3>
+                    <ul class="space-y-2">
+                        <li>
+                            <a href="/" class="text-gray-600 hover:text-red-600 transition-colors text-sm">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/compare/" class="text-gray-600 hover:text-red-600 transition-colors text-sm">
+                                Compare Cards
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-8 pt-8 border-t border-gray-200">
+            <p class="text-gray-500 text-xs leading-relaxed">
+                <strong>Disclaimer:</strong> Information provided on this website is believed to be accurate
+                but is not guaranteed. Please verify all details with the card issuer before applying.
+                Credit card offers, terms, and conditions are subject to change without notice.
+                We may receive compensation from partners when you apply for credit cards through our links.
+            </p>
+        </div>
+
+        <div class="mt-6 pt-6 border-t border-gray-200 text-center">
+            <p class="text-gray-500 text-sm">
+                © {currentYear} Canadian Credit Card Finder. All rights reserved.
+            </p>
+        </div>
+    </div>
+</footer>

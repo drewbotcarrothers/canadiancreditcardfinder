@@ -1,5 +1,5 @@
 import Papa from 'papaparse';
-import { CreditCard } from './types';
+import type { CreditCard } from './types';
 import { slugify } from './utils';
 
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSLuyK4CeRn7azPK5NonipsptqpA6bAb4eQI7CjaoqWL0ojE1v9D4igzNR9Raw_-uhBMdsugEU1Wns6/pub?gid=272625262&single=true&output=csv';
@@ -28,6 +28,8 @@ interface CSVRow {
     Insurance: string;
     Product_Link: string;
 }
+
+let cachedCards: CreditCard[] | null = null;
 
 function parseCSV(csvText: string): CreditCard[] {
     const result = Papa.parse<CSVRow>(csvText, {
@@ -66,11 +68,18 @@ function parseCSV(csvText: string): CreditCard[] {
 }
 
 export async function getCards(): Promise<CreditCard[]> {
-    const response = await fetch(CSV_URL, {
-        next: { revalidate: 3600 }
-    });
+    if (cachedCards) {
+        return cachedCards;
+    }
+
+    const response = await fetch(CSV_URL);
+    if (!response.ok) {
+        throw new Error(`Failed to load credit card data (${response.status} ${response.statusText})`);
+    }
+
     const csvText = await response.text();
-    return parseCSV(csvText);
+    cachedCards = parseCSV(csvText);
+    return cachedCards;
 }
 
 export async function getCardBySlug(slug: string): Promise<CreditCard | null> {

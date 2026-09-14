@@ -1,14 +1,10 @@
-'use client';
-
-import { useRouter } from 'next/navigation';
-import { useCompare } from '@/context/CompareContext';
+import { useCompare } from '../hooks/useCompare';
 
 interface AddToCompareButtonProps {
     slug: string;
 }
 
 export default function AddToCompareButton({ slug }: AddToCompareButtonProps) {
-    const router = useRouter();
     const { compareCards, addCard, removeCard } = useCompare();
     const isInCompare = compareCards.includes(slug);
     const canAddToCompare = compareCards.length < 3;
@@ -17,11 +13,11 @@ export default function AddToCompareButton({ slug }: AddToCompareButtonProps) {
         if (isInCompare) {
             const newCards = compareCards.filter(s => s !== slug);
             removeCard(slug);
-            router.push(`/compare?cards=${newCards.join(',')}`);
+            window.location.assign(newCards.length > 0 ? `/compare/?cards=${newCards.join(',')}` : '/compare/');
         } else if (canAddToCompare) {
             const newCards = [...compareCards, slug];
             addCard(slug);
-            router.push(`/compare?cards=${newCards.join(',')}`);
+            window.location.assign(`/compare/?cards=${newCards.join(',')}`);
         }
     };
 
