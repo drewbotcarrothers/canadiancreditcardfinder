@@ -38,7 +38,7 @@ function parseCSV(csvText: string): CreditCard[] {
     return result.data.map((row) => ({
         id: parseInt(row.ID) || 0,
         creditCardName: row.Credit_Card_Name || '',
-        imageFile: row.Image_File || '',
+        imageFile: row.Image_File || 'placeholder.png',
         issuer: row.Issuer || '',
         category: row.Category || '',
         annualFee: parseFloat(row.Annual_Fee?.replace(/[$,]/g, '') || '0'),

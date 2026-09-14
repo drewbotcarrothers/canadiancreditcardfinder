@@ -1,8 +1,9 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import { useCompare } from '@/context/CompareContext';
 import { CreditCard } from '@/lib/types';
 import { parseBonusValue } from '@/lib/utils';
 import CardImage from '@/components/CardImage';
@@ -17,31 +18,54 @@ export default function CompareContent({ allCards }: CompareContentProps) {
     const [showSelector, setShowSelector] = useState(false);
     const [searchTerm, setSearchTerm] = useState('');
 
-    const selectedSlugs = searchParams.get('cards')?.split(',').filter(Boolean) || [];
-    const selectedCards = selectedSlugs
+    const { compareCards, addCard, removeCard, clearCards } = useCompare();
+
+    // Sync URL with Context
+    useEffect(() => {
+        const urlCards = searchParams.get('cards')?.split(',').filter(Boolean) || [];
+
+        // If URL has cards and they differ from context (e.g. shared link), sync to context
+        // But only if we haven't already synced (to avoid loops if context update triggers url update)
+        // Actually, easiest is: URL is source of truth IF present on mount?
+        // Let's go with: Context is source of truth.
+        // But if URL has params, we usually want to load them.
+
+        if (urlCards.length > 0) {
+            // Check if different
+            const isDifferent = urlCards.length !== compareCards.length || !urlCards.every(c => compareCards.includes(c));
+            if (isDifferent) {
+                // We prefer the URL tokens if they exist (sharing scenario)
+                // But wait, this might override local work.
+                // Let's say: If URL params exist, they merge or replace?
+                // Let's replace for now as "loading a comparison"
+                clearCards();
+                urlCards.forEach(slug => addCard(slug));
+            }
+        }
+    }, []); // Run once on mount
+
+    // Update URL when Context changes
+    useEffect(() => {
+        if (compareCards.length > 0) {
+            const url = `/compare?cards=${compareCards.join(',')}`;
+            router.replace(url, { scroll: false });
+        } else {
+            router.replace('/compare', { scroll: false });
+        }
+    }, [compareCards, router]);
+
+    const selectedCards = compareCards
         .map(slug => allCards.find(c => c.slug === slug))
         .filter((c): c is CreditCard => c !== undefined);
 
-    const addCard = (slug: string) => {
-        if (selectedSlugs.length < 3 && !selectedSlugs.includes(slug)) {
-            const newSlugs = [...selectedSlugs, slug];
-            router.push(`/compare?cards=${newSlugs.join(',')}`);
-        }
+    const handleAddCard = (slug: string) => {
+        addCard(slug);
         setShowSelector(false);
         setSearchTerm('');
     };
 
-    const removeCard = (slug: string) => {
-        const newSlugs = selectedSlugs.filter(s => s !== slug);
-        if (newSlugs.length > 0) {
-            router.push(`/compare?cards=${newSlugs.join(',')}`);
-        } else {
-            router.push('/compare');
-        }
-    };
-
     const filteredCards = allCards.filter(card =>
-        !selectedSlugs.includes(card.slug) &&
+        !compareCards.includes(card.slug) &&
         (card.creditCardName.toLowerCase().includes(searchTerm.toLowerCase()) ||
             card.issuer.toLowerCase().includes(searchTerm.toLowerCase()))
     );
@@ -96,7 +120,7 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                             ) : (
                                 <button
                                     onClick={() => setShowSelector(true)}
-                                    disabled={selectedSlugs.length >= 3}
+                                    disabled={compareCards.length >= 3}
                                     className="flex flex-col items-center text-gray-500 hover:text-red-600 transition-colors"
                                 >
                                     <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center mb-2">
@@ -339,7 +363,7 @@ export default function CompareContent({ allCards }: CompareContentProps) {
                                 {filteredCards.map(card => (
                                     <button
                                         key={card.id}
-                                        onClick={() => addCard(card.slug)}
+                                        onClick={() => handleAddCard(card.slug)}
                                         className="flex items-center gap-4 p-4 bg-gray-50 hover:bg-red-50 rounded-xl transition-colors text-left"
                                     >
                                         <div className="relative w-16 h-12 flex-shrink-0">

@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import { getCards } from '@/lib/data';
 
+export const dynamic = 'force-static';
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const cards = await getCards();
     const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://canadiancreditcardfinder.com';

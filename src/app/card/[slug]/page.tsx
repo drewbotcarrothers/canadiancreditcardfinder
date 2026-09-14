@@ -1,9 +1,11 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
+import { Suspense } from 'react';
 import { getCardBySlug, getCards, getRelatedCards } from '@/lib/data';
 import CardGrid from '@/components/CardGrid';
 import CardImage from '@/components/CardImage';
+import AddToCompareButton from '@/components/AddToCompareButton';
 
 interface PageProps {
     params: Promise<{ slug: string }>;
@@ -92,9 +94,13 @@ export default async function CardPage({ params }: PageProps) {
                             >
                                 Apply Now
                             </a>
-                            <button className="border-2 border-red-600 text-red-600 hover:bg-red-50 py-3 px-8 rounded-lg font-semibold transition-colors">
-                                + Add to Compare
-                            </button>
+                            <Suspense fallback={
+                                <button className="border-2 border-gray-200 text-gray-400 py-3 px-8 rounded-lg font-semibold cursor-not-allowed">
+                                    Loading...
+                                </button>
+                            }>
+                                <AddToCompareButton slug={card.slug} />
+                            </Suspense>
                         </div>
                     </div>
                 </div>
@@ -194,40 +200,71 @@ export default async function CardPage({ params }: PageProps) {
                     <h2 className="text-2xl font-bold text-gray-900 mb-6">Rewards & Features</h2>
 
                     {card.rewardsProgram && (
-                        <div className="mb-4">
-                            <p className="font-medium text-gray-900 mb-1">Rewards Program</p>
-                            <p className="text-gray-700">{card.rewardsProgram}</p>
+                        <div className="mb-6">
+                            <h3 className="font-bold text-gray-900 mb-2">Rewards Program</h3>
+                            <p className="text-gray-700 bg-gray-50 p-4 rounded-lg border border-gray-100">
+                                {card.rewardsProgram}
+                            </p>
                         </div>
                     )}
 
                     {card.features && (
-                        <div className="mb-4">
-                            <p className="font-medium text-gray-900 mb-1">Key Features</p>
-                            <p className="text-gray-700">{card.features}</p>
+                        <div className="mb-6">
+                            <h3 className="font-bold text-gray-900 mb-2">Key Highlights</h3>
+                            <div className="text-gray-700 prose prose-sm max-w-none">
+                                <p>{card.features}</p>
+                            </div>
                         </div>
                     )}
 
                     {card.featuresDetailed && (
-                        <div className="bg-gray-50 rounded-lg p-4">
-                            <p className="text-sm text-gray-600 preserve-whitespace">{card.featuresDetailed}</p>
+                        <div>
+                            <h3 className="font-bold text-gray-900 mb-2">Detailed Benefits</h3>
+                            <div className="bg-gray-50 rounded-lg p-6 border border-gray-100">
+                                <p className="text-sm text-gray-600 preserve-whitespace whitespace-pre-wrap leading-relaxed">
+                                    {card.featuresDetailed}
+                                </p>
+                            </div>
                         </div>
                     )}
                 </section>
             )}
 
-            {/* Insurance */}
+            {/* Insurance Coverage */}
             {card.insurance && (
                 <section className="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-6">Insurance Coverage</h2>
-                    <p className="text-gray-700 preserve-whitespace">{card.insurance}</p>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                        <span className="w-8 h-8 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center mr-3">
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                            </svg>
+                        </span>
+                        Insurance Coverage
+                    </h2>
+                    <div className="bg-blue-50/50 rounded-xl p-6 border border-blue-100">
+                        <p className="text-gray-700 preserve-whitespace whitespace-pre-wrap leading-relaxed">
+                            {card.insurance}
+                        </p>
+                    </div>
                 </section>
             )}
 
-            {/* Eligibility */}
+            {/* Eligibility Requirements */}
             {card.cardEligibility && (
                 <section className="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8">
-                    <h2 className="text-2xl font-bold text-gray-900 mb-6">Eligibility Requirements</h2>
-                    <p className="text-gray-700 preserve-whitespace">{card.cardEligibility}</p>
+                    <h2 className="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                        <span className="w-8 h-8 bg-green-100 text-green-600 rounded-lg flex items-center justify-center mr-3">
+                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4" />
+                            </svg>
+                        </span>
+                        Eligibility Requirements
+                    </h2>
+                    <div className="bg-green-50/50 rounded-xl p-6 border border-green-100">
+                        <p className="text-gray-700 preserve-whitespace whitespace-pre-wrap leading-relaxed">
+                            {card.cardEligibility}
+                        </p>
+                    </div>
                 </section>
             )}
 
@@ -253,7 +290,9 @@ export default async function CardPage({ params }: PageProps) {
             {relatedCards.length > 0 && (
                 <section>
                     <h2 className="text-2xl font-bold text-gray-900 mb-6">You Might Also Like</h2>
-                    <CardGrid cards={relatedCards} />
+                    <Suspense fallback={<div>Loading related cards...</div>}>
+                        <CardGrid cards={relatedCards} />
+                    </Suspense>
                 </section>
             )}
 

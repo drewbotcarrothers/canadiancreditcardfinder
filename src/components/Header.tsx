@@ -1,13 +1,14 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
-import { useSearchParams } from 'next/navigation';
+import { useCompare } from '@/context/CompareContext';
 
 export default function Header() {
+
     const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-    const searchParams = useSearchParams();
-    const compareCards = searchParams.get('cards')?.split(',').filter(Boolean) || [];
+    const { compareCards } = useCompare();
     const compareCount = compareCards.length;
 
     return (
@@ -15,9 +16,15 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center space-x-2">
-                        <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
-                            <span className="text-white font-bold text-sm">CC</span>
+                    <Link href="/" className="flex items-center space-x-2 sm:space-x-3">
+                        <div className="relative w-8 h-8 sm:w-10 sm:h-10">
+                            <Image
+                                src="/images/logo.png"
+                                alt="Canadian Credit Card Finder Logo"
+                                fill
+                                className="object-contain"
+                                priority
+                            />
                         </div>
                         <span className="font-bold text-lg text-gray-900 hidden sm:block">
                             Canadian Credit Card Finder

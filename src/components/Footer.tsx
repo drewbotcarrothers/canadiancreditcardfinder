@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export default function Footer() {
     const currentYear = new Date().getFullYear();
@@ -9,9 +10,14 @@ export default function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Brand */}
                     <div>
-                        <div className="flex items-center space-x-2 mb-4">
-                            <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold text-sm">CC</span>
+                        <div className="flex items-center space-x-3 mb-4">
+                            <div className="relative w-10 h-10">
+                                <Image
+                                    src="/images/logo.png"
+                                    alt="Canadian Credit Card Finder Logo"
+                                    fill
+                                    className="object-contain"
+                                />
                             </div>
                             <span className="font-bold text-lg text-gray-900">
                                 Canadian Credit Card Finder
