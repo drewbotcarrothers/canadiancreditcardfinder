@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useCompare } from '../hooks/useCompare';
 import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
-import { CreditCard } from '../lib/types';
+import type { CreditCard } from '../lib/types';
 import { parseBonusValue } from '../lib/utils';
 import CardImage from './CardImage';
 

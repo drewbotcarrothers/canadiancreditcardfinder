@@ -1,5 +1,5 @@
 import Papa from 'papaparse';
-import { CreditCard } from './types';
+import type { CreditCard } from './types';
 import { slugify } from './utils';
 
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSLuyK4CeRn7azPK5NonipsptqpA6bAb4eQI7CjaoqWL0ojE1v9D4igzNR9Raw_-uhBMdsugEU1Wns6/pub?gid=272625262&single=true&output=csv';

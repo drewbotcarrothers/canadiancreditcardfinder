@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { CreditCard, SortOption } from '../lib/types';
+import type { CreditCard, SortOption } from '../lib/types';
 import { parseBonusValue, parseFeeRange } from '../lib/utils';
 import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
 import FilterPanel from './FilterPanel';

@@ -1,5 +1,5 @@
 import { useCompare } from '../hooks/useCompare';
-import { CreditCard } from '../lib/types';
+import type { CreditCard } from '../lib/types';
 import { truncateText } from '../lib/utils';
 import CardImage from './CardImage';
 
