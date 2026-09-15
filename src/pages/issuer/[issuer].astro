@@ -2,23 +2,23 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
-import { getCardsForHub } from '../../lib/data';
-import { getHubBySlug, getHubSlugs, isHubSlug } from '../../lib/hubs';
+import { getCardsForIssuerHub } from '../../lib/data';
+import { getIssuerHubBySlug, getIssuerHubSlugs, isIssuerHubSlug } from '../../lib/issuers';
 
 export async function getStaticPaths() {
-    return getHubSlugs().map((useCase) => ({
-        params: { useCase },
+    return getIssuerHubSlugs().map((issuer) => ({
+        params: { issuer },
     }));
 }
 
-const { useCase } = Astro.params;
+const { issuer } = Astro.params;
 
-if (!useCase || !isHubSlug(useCase)) {
-    throw new Error(`Unknown hub: ${useCase ?? '(missing)'}`);
+if (!issuer || !isIssuerHubSlug(issuer)) {
+    throw new Error(`Unknown issuer hub: ${issuer ?? '(missing)'}`);
 }
 
-const hub = getHubBySlug(useCase);
-const hubCards = await getCardsForHub(useCase);
+const hub = getIssuerHubBySlug(issuer);
+const hubCards = await getCardsForIssuerHub(issuer);
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
 const jsonLd = {
@@ -64,7 +64,7 @@ const jsonLd = {
         </header>
 
         <div class="mb-8">
-            <HubLinks currentSlug={hub.slug} />
+            <HubLinks currentIssuerSlug={hub.slug} showIssuers />
         </div>
 
         <div class="bg-white rounded-xl shadow-md p-4 mb-6">
@@ -92,7 +92,7 @@ const jsonLd = {
 
         <section class="mt-10">
             <h2 class="text-lg font-semibold text-gray-900 mb-4">More ways to browse</h2>
-            <HubLinks currentSlug={hub.slug} showIssuers />
+            <HubLinks currentIssuerSlug={hub.slug} showIssuers />
         </section>
 
         <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
