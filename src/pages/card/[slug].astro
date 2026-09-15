@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AddToCompareButton from '../../components/AddToCompareButton';
 import CardGrid from '../../components/CardGrid';
+import { cardImageSrc, PLACEHOLDER_IMAGE_SRC } from '../../lib/cardImage';
 import { getCards, getRelatedCards } from '../../lib/data';
 import { getIssuerHubForName } from '../../lib/issuers';
 import type { CreditCard } from '../../lib/types';
@@ -21,6 +22,7 @@ interface Props {
 const { card } = Astro.props;
 const relatedCards = await getRelatedCards(card, 3);
 const issuerHub = getIssuerHubForName(card.issuer);
+const imageSrc = cardImageSrc(card.imageFile);
 const title = `${card.creditCardName} | ${card.issuer} | Canadian Credit Card Finder`;
 const description = `${card.creditCardName} from ${card.issuer}. Annual fee: ${card.annualFeeDisplay}. Interest: ${card.purchaseInterestRateDisplay}. ${card.welcomeBonus}. Compare and apply at Canadian Credit Card Finder.`;
 const jsonLd = {
@@ -69,13 +71,13 @@ const jsonLd = {
 
         <section class="bg-white rounded-2xl shadow-lg p-6 lg:p-10 mb-8">
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
-                <div class="relative h-64 lg:h-80 bg-gradient-to-br from-gray-100 to-gray-50 rounded-xl flex items-center justify-center p-8">
-                    <div class="relative w-full h-full">
+                <div class="relative bg-gradient-to-br from-gray-100 to-gray-50 rounded-xl flex items-center justify-center p-8">
+                    <div class="relative w-full max-w-md aspect-[1.586/1]">
                         <img
-                            src={`/images/cards/${card.imageFile}`}
+                            src={imageSrc}
                             alt={`${card.creditCardName} credit card`}
                             class="absolute inset-0 w-full h-full object-contain"
-                            onerror="this.onerror=null;this.src='/images/cards/placeholder.png'"
+                            onerror={`this.onerror=null;this.src='${PLACEHOLDER_IMAGE_SRC}'`}
                         />
                     </div>
                 </div>

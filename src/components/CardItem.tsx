@@ -21,46 +21,57 @@ export default function CardItem({ card }: CardItemProps) {
         }
     };
 
-    return (
-        <div className="bg-white rounded-xl shadow-md hover:shadow-lg transition-all duration-200 overflow-hidden group">
-            <div className="relative h-48 bg-gradient-to-br from-gray-100 to-gray-50 flex items-center justify-center p-6">
-                <a href={`/card/${card.slug}/`} className="relative w-full h-full block">
-                    <CardImage
-                        src={`/images/cards/${card.imageFile}`}
-                        alt={`${card.creditCardName} credit card`}
-                        fill
-                        className="object-contain"
-                    />
-                </a>
-                <span className="absolute top-3 left-3 bg-gray-100 text-gray-700 text-xs font-medium px-3 py-1 rounded-full">
-                    {card.category}
-                </span>
-            </div>
+    const bonusHeadline = card.welcomeBonusValue?.trim()
+        || (card.welcomeBonus ? truncateText(card.welcomeBonus, 42) : '—');
+    const isNoFee = Number.isFinite(card.annualFee) && card.annualFee === 0;
 
-            <div className="p-5">
+    return (
+        <article className="bg-white rounded-2xl border border-gray-200 shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-red-200 transition-all duration-200 overflow-hidden group h-full flex flex-col">
+            <a href={`/card/${card.slug}/`} className="relative block bg-gradient-to-br from-gray-100 via-gray-50 to-white border-b border-gray-100">
+                {card.category && (
+                    <span className="absolute top-3 left-3 z-10 bg-white/95 text-gray-700 text-[11px] font-semibold tracking-wide px-2.5 py-1 rounded-full border border-gray-200 shadow-sm">
+                        {card.category}
+                    </span>
+                )}
+                <div className="px-6 pt-11 pb-5">
+                    <div className="relative mx-auto w-full max-w-[260px] aspect-[1.586/1]">
+                        <CardImage
+                            src={card.imageFile}
+                            alt={`${card.creditCardName} credit card`}
+                            fill
+                        />
+                    </div>
+                </div>
+            </a>
+
+            <div className="p-5 flex flex-col flex-1">
                 <a href={`/card/${card.slug}/`} className="block">
-                    <h3 className="font-semibold text-lg text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
+                    <h3 className="font-semibold text-lg leading-snug text-gray-900 mb-1 group-hover:text-red-600 transition-colors">
                         {card.creditCardName}
                     </h3>
                 </a>
                 <p className="text-gray-500 text-sm mb-4">by {card.issuer}</p>
 
-                <div className="space-y-2 mb-5">
-                    <div className="flex justify-between items-center">
-                        <span className="text-gray-600 text-sm">Annual Fee</span>
-                        <span className="font-semibold text-gray-900">{card.annualFeeDisplay}</span>
+                <div className="grid grid-cols-2 gap-2 mb-5">
+                    <div className={`rounded-xl border px-3 py-2.5 ${isNoFee ? 'bg-gray-50 border-gray-200' : 'bg-gray-50 border-gray-100'}`}>
+                        <p className="text-[11px] font-semibold uppercase tracking-wide text-gray-500 mb-0.5">
+                            Annual fee
+                        </p>
+                        <p className="text-lg font-bold text-gray-900 leading-tight">
+                            {card.annualFeeDisplay}
+                        </p>
                     </div>
-                    {card.welcomeBonus && (
-                        <div className="flex justify-between items-start">
-                            <span className="text-gray-600 text-sm">Welcome Bonus</span>
-                            <span className="text-sm text-gray-700 text-right max-w-[60%]">
-                                {truncateText(card.welcomeBonus, 60)}
-                            </span>
-                        </div>
-                    )}
+                    <div className="rounded-xl border border-red-100 bg-red-50 px-3 py-2.5">
+                        <p className="text-[11px] font-semibold uppercase tracking-wide text-red-700/80 mb-0.5">
+                            Welcome bonus
+                        </p>
+                        <p className="text-sm font-semibold text-gray-900 leading-snug line-clamp-2">
+                            {bonusHeadline}
+                        </p>
+                    </div>
                 </div>
 
-                <div className="flex gap-3">
+                <div className="flex gap-3 mt-auto">
                     <a
                         href={`/card/${card.slug}/`}
                         className="flex-1 bg-red-600 hover:bg-red-700 text-white text-center py-2.5 px-4 rounded-lg font-medium transition-colors text-sm"
@@ -68,6 +79,7 @@ export default function CardItem({ card }: CardItemProps) {
                         View Details
                     </a>
                     <button
+                        type="button"
                         onClick={handleCompareClick}
                         disabled={!isInCompare && !canAddToCompare}
                         className={`py-2.5 px-4 rounded-lg font-medium text-sm transition-colors border-2 ${isInCompare
@@ -82,6 +94,6 @@ export default function CardItem({ card }: CardItemProps) {
                     </button>
                 </div>
             </div>
-        </div>
+        </article>
     );
 }
