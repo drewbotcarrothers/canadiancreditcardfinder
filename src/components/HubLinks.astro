@@ -1,0 +1,38 @@
+---
+import { HUBS, type HubSlug } from '../lib/hubs';
+
+interface Props {
+    currentSlug?: HubSlug;
+}
+
+const { currentSlug } = Astro.props;
+---
+
+<nav aria-label="Related pages" class="flex flex-wrap gap-2">
+    <a
+        href="/"
+        class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+    >
+        All cards
+    </a>
+    <a
+        href="/compare/"
+        class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+    >
+        Compare
+    </a>
+    {HUBS.map((hub) => (
+        hub.slug === currentSlug ? (
+            <span class="inline-flex items-center rounded-full border border-red-600 bg-red-600 px-4 py-2 text-sm font-medium text-white">
+                {hub.navLabel}
+            </span>
+        ) : (
+            <a
+                href={`/best/${hub.slug}/`}
+                class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+            >
+                {hub.navLabel}
+            </a>
+        )
+    ))}
+</nav>
