@@ -2,7 +2,7 @@ import Papa from 'papaparse';
 import type { CreditCard } from './types';
 import { slugify } from './utils';
 
-const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vSLuyK4CeRn7azPK5NonipsptqpA6bAb4eQI7CjaoqWL0ojE1v9D4igzNR9Raw_-uhBMdsugEU1Wns6/pub?gid=272625262&single=true&output=csv';
+const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQNMup_DS4IXwkwpnueP7v4q3KZoLxZyBPHWKr5b2g8CMUohPXZ8jpzuAzFVYOHKG-cWfHODG7H6Arw/pub?gid=272625262&single=true&output=csv'
 
 interface CSVRow {
     ID: string;
