@@ -1,6 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCards } from '../lib/data';
 import { HUBS } from '../lib/hubs';
+import { ISSUER_HUBS } from '../lib/issuers';
 
 export const GET: APIRoute = async ({ site }) => {
     const cards = await getCards();
@@ -12,6 +13,11 @@ export const GET: APIRoute = async ({ site }) => {
         { loc: `${baseUrl}/compare/`, changefreq: 'weekly', priority: '0.9' },
         ...HUBS.map((hub) => ({
             loc: `${baseUrl}/best/${hub.slug}/`,
+            changefreq: 'weekly',
+            priority: '0.9',
+        })),
+        ...ISSUER_HUBS.map((hub) => ({
+            loc: `${baseUrl}/issuer/${hub.slug}/`,
             changefreq: 'weekly',
             priority: '0.9',
         })),

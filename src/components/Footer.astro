@@ -1,5 +1,6 @@
 ---
 import { HUBS } from '../lib/hubs';
+import { ISSUER_HUBS } from '../lib/issuers';
 
 const currentYear = new Date().getFullYear();
 ---
@@ -49,6 +50,21 @@ const currentYear = new Date().getFullYear();
                             <li>
                                 <a
                                     href={`/best/${hub.slug}/`}
+                                    class="text-gray-600 hover:text-red-600 transition-colors text-sm"
+                                >
+                                    {hub.navLabel}
+                                </a>
+                            </li>
+                        ))}
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-900 mb-3">Issuers</h3>
+                    <ul class="space-y-2">
+                        {ISSUER_HUBS.map((hub) => (
+                            <li>
+                                <a
+                                    href={`/issuer/${hub.slug}/`}
                                     class="text-gray-600 hover:text-red-600 transition-colors text-sm"
                                 >
                                     {hub.navLabel}
