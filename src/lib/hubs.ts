@@ -9,6 +9,7 @@ export const HUB_SLUGS = [
     'groceries',
     'low-interest',
     'us-dollar',
+    'premium',
 ] as const;
 
 export type HubSlug = (typeof HUB_SLUGS)[number];
@@ -38,6 +39,10 @@ const GROCERY_WORD = /grocer(?:y|ies)/i;
 const GROCERY_BANNER = /\bsobeys\b|\bsafeway\b|\bfreshco\b|\bfoodland\b|\bpc\s*optimum\b/i;
 const GROCERY_FOCUSED_NAME =
     /\bcostco\b|\btriangle\b|\btangerine money-back\b|\bpc\s+(mastercard|world)|pc financial/i;
+const PREMIUM_ANNUAL_FEE_CAD = 120;
+const PREMIUM_TIER_NAME =
+    /infinite\s*privilege|world\s*elite|world\s*legend|\breserve\b|\bascend\b|visa\s*infinite|the platinum card|odyssey visa infinite privilege/i;
+const BASIC_CASH_BACK_NAME = /simplii financial cash back|simplycash card from/i;
 
 export const HUBS: HubDefinition[] = [
     {
@@ -127,6 +132,17 @@ export const HUBS: HubDefinition[] = [
             'U.S. dollar credit cards issued in Canada bill in USD, which can reduce conversion fees when you spend with U.S. merchants. You typically need a U.S. dollar bank account to pay the statement. Compare annual fees, rewards, and whether the card is worth it for how often you pay in USD. The cards below currently list US as the category in our data.',
         navLabel: 'U.S. Dollar',
         teaser: 'USD billing for U.S. spending from Canada',
+    },
+    {
+        slug: 'premium',
+        title: 'Best Premium Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        h1: 'Best Premium Credit Cards in Canada (2026)',
+        description:
+            'Compare the best premium credit cards in Canada for 2026. See Infinite Privilege, World Elite, and high-fee travel and rewards cards.',
+        intro:
+            'Premium credit cards in Canada usually charge a higher annual fee in exchange for stronger earn rates, travel insurance, lounge access, or a larger welcome bonus. Typical names include Visa Infinite Privilege, World Elite, Reserve, and The Platinum Card. Weigh the fee against benefits you will actually use — a $150 card can be a better fit than a $599 card if you will not use the extras. The cards below currently show an annual fee of at least $120 in our data, excluding student products and basic cash-back cards that only meet the fee cut.',
+        navLabel: 'Premium',
+        teaser: 'Higher-fee Infinite Privilege, World Elite, and Platinum cards',
     },
 ];
 
@@ -220,6 +236,22 @@ function groceryHaystack(card: CreditCard): string {
     return `${card.features} ${card.featuresDetailed} ${card.rewardsProgram} ${card.creditCardName}`;
 }
 
+export function isPremiumCard(card: CreditCard): boolean {
+    if (isStudentCard(card)) {
+        return false;
+    }
+
+    if (!Number.isFinite(card.annualFee) || card.annualFee < PREMIUM_ANNUAL_FEE_CAD) {
+        return false;
+    }
+
+    if (BASIC_CASH_BACK_NAME.test(card.creditCardName) && !PREMIUM_TIER_NAME.test(card.creditCardName)) {
+        return false;
+    }
+
+    return true;
+}
+
 export function isGroceryCard(card: CreditCard): boolean {
     const nameAndIssuer = `${card.creditCardName} ${card.issuer}`;
     if (GROCERY_FOCUSED_NAME.test(nameAndIssuer)) {
@@ -256,5 +288,7 @@ export function filterCardsForHub(cards: CreditCard[], slug: HubSlug): CreditCar
             return cards.filter(isLowInterestCard);
         case 'us-dollar':
             return cards.filter(isUsDollarCard);
+        case 'premium':
+            return cards.filter(isPremiumCard);
     }
 }
