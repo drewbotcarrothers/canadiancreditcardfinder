@@ -1,5 +1,6 @@
 import Papa from 'papaparse';
 import type { CreditCard } from './types';
+import { filterCardsForHub, type HubSlug } from './hubs';
 import { slugify } from './utils';
 
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQNMup_DS4IXwkwpnueP7v4q3KZoLxZyBPHWKr5b2g8CMUohPXZ8jpzuAzFVYOHKG-cWfHODG7H6Arw/pub?gid=272625262&single=true&output=csv'
@@ -107,4 +108,9 @@ export async function getRelatedCards(card: CreditCard, limit = 4): Promise<Cred
     return cards
         .filter(c => c.id !== card.id && (c.category === card.category || c.issuer === card.issuer))
         .slice(0, limit);
+}
+
+export async function getCardsForHub(slug: HubSlug): Promise<CreditCard[]> {
+    const cards = await getCards();
+    return filterCardsForHub(cards, slug);
 }

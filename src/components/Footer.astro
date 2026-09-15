@@ -1,4 +1,6 @@
 ---
+import { HUBS } from '../lib/hubs';
+
 const currentYear = new Date().getFullYear();
 ---
 
@@ -38,6 +40,21 @@ const currentYear = new Date().getFullYear();
                                 Compare Cards
                             </a>
                         </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-semibold text-gray-900 mb-3">Best of</h3>
+                    <ul class="space-y-2">
+                        {HUBS.map((hub) => (
+                            <li>
+                                <a
+                                    href={`/best/${hub.slug}/`}
+                                    class="text-gray-600 hover:text-red-600 transition-colors text-sm"
+                                >
+                                    {hub.navLabel}
+                                </a>
+                            </li>
+                        ))}
                     </ul>
                 </div>
             </div>
