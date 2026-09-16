@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, type ReactNode } from 'react';
 import type { CreditCard, SortOption } from '../lib/types';
 import { parseBonusValue, parseFeeRange } from '../lib/utils';
 import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
@@ -10,9 +10,10 @@ interface HomeContentProps {
     categories: string[];
     issuers: string[];
     rewardsPrograms: string[];
+    children?: ReactNode;
 }
 
-export default function HomeContent({ cards, categories, issuers, rewardsPrograms }: HomeContentProps) {
+export default function HomeContent({ cards, categories, issuers, rewardsPrograms, children }: HomeContentProps) {
     const { searchParams } = useUrlSearchParams();
     const [sortBy, setSortBy] = useState<SortOption>('featured');
     const [showMobileFilters, setShowMobileFilters] = useState(false);
@@ -122,6 +123,8 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
                             </div>
                         </div>
                     </div>
+
+                    {children}
 
                     <CardGrid cards={filteredCards} />
                 </div>

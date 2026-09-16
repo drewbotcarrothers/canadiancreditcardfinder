@@ -7,8 +7,7 @@ import {
     getUniqueIssuers,
     getUniqueRewardsPrograms,
 } from '../lib/data';
-import { HUBS } from '../lib/hubs';
-import { ISSUER_HUBS } from '../lib/issuers';
+import BrowseSections from '../components/BrowseSections.astro';
 
 const [cards, categories, issuers, rewardsPrograms] = await Promise.all([
     getCards(),
@@ -34,45 +33,13 @@ const [cards, categories, issuers, rewardsPrograms] = await Promise.all([
         </div>
     </section>
 
-    <section class="bg-white border-b border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <h2 class="text-lg font-semibold text-gray-900 mb-4">Browse by use case</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                {HUBS.map((hub) => (
-                    <a
-                        href={`/best/${hub.slug}/`}
-                        class="block rounded-xl border border-gray-200 bg-gray-50 p-5 hover:border-red-600 hover:shadow-md transition-all"
-                    >
-                        <p class="font-semibold text-gray-900 mb-1">{hub.navLabel}</p>
-                        <p class="text-sm text-gray-600">{hub.teaser}</p>
-                    </a>
-                ))}
-            </div>
-        </div>
-    </section>
-
-    <section class="bg-gray-50 border-b border-gray-200">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <h2 class="text-lg font-semibold text-gray-900 mb-4">Browse by issuer</h2>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4">
-                {ISSUER_HUBS.map((hub) => (
-                    <a
-                        href={`/issuer/${hub.slug}/`}
-                        class="block rounded-xl border border-gray-200 bg-white p-5 hover:border-red-600 hover:shadow-md transition-all"
-                    >
-                        <p class="font-semibold text-gray-900 mb-1">{hub.navLabel}</p>
-                        <p class="text-sm text-gray-600">{hub.teaser}</p>
-                    </a>
-                ))}
-            </div>
-        </div>
-    </section>
-
     <HomeContent
         client:load
         cards={cards}
         categories={categories}
         issuers={issuers}
         rewardsPrograms={rewardsPrograms}
-    />
+    >
+        <BrowseSections />
+    </HomeContent>
 </BaseLayout>
