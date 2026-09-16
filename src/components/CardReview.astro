@@ -1,0 +1,213 @@
+---
+import type { CreditCard } from '../lib/types';
+import type { CardEditorialReview } from '../content/reviews/types';
+import type { HubDefinition } from '../lib/hubs';
+import type { IssuerHubDefinition } from '../lib/issuers';
+import { renderInlineMarkdown, renderMarkdownParagraphs } from '../lib/inlineMarkdown';
+import { estimateWelcomeFeeMath } from '../lib/reviewMath';
+import { formatCurrency } from '../lib/utils';
+
+interface Props {
+    card: CreditCard;
+    review: CardEditorialReview;
+    relatedCards: CreditCard[];
+    issuerHub: IssuerHubDefinition | null;
+    hubs: HubDefinition[];
+}
+
+const { card, review, relatedCards, issuerHub, hubs } = Astro.props;
+const math = estimateWelcomeFeeMath(card);
+---
+
+<article class="space-y-8" aria-label={`${card.creditCardName} editorial review`}>
+    <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Who this card is for</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-3">A good fit if you…</h3>
+                <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5">
+                    {review.whoItsFor.map((item) => (
+                        <li set:html={renderInlineMarkdown(item)} />
+                    ))}
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-lg font-semibold text-gray-900 mb-3">Skip it if you…</h3>
+                <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5">
+                    {review.whoShouldSkip.map((item) => (
+                        <li set:html={renderInlineMarkdown(item)} />
+                    ))}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">Pros and cons</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div class="rounded-xl border border-green-100 bg-green-50/50 p-5">
+                <h3 class="text-lg font-semibold text-green-900 mb-3">Pros</h3>
+                <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5">
+                    {review.pros.map((item) => (
+                        <li set:html={renderInlineMarkdown(item)} />
+                    ))}
+                </ul>
+            </div>
+            <div class="rounded-xl border border-red-100 bg-red-50/40 p-5">
+                <h3 class="text-lg font-semibold text-red-900 mb-3">Cons</h3>
+                <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5">
+                    {review.cons.map((item) => (
+                        <li set:html={renderInlineMarkdown(item)} />
+                    ))}
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Fees and value: is the annual fee worth it?</h2>
+        <div class="mb-6 rounded-xl border border-gray-200 bg-gray-50 p-5">
+                <p class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-3">
+                    First-year snapshot (estimate)
+                </p>
+                <dl class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
+                    <div>
+                        <dt class="text-gray-500">Annual fee in our data</dt>
+                        <dd class="text-lg font-bold text-gray-900">{card.annualFeeDisplay}</dd>
+                        {math.ongoingFee !== null && (
+                            <p class="text-xs text-gray-500 mt-1">
+                                Detail also lists {formatCurrency(math.ongoingFee)} as an ongoing annual fee.
+                                The estimate below uses that higher figure.
+                            </p>
+                        )}
+                    </div>
+                    <div>
+                        <dt class="text-gray-500">Welcome bonus value in our data</dt>
+                        <dd class="text-lg font-bold text-gray-900">
+                            {card.welcomeBonusValue || 'Not listed'}
+                        </dd>
+                    </div>
+                    <div>
+                        <dt class="text-gray-500">Bonus minus fee (estimate)</dt>
+                        <dd class="text-lg font-bold text-gray-900">
+                            {math.net !== null ? formatCurrency(math.net) : '—'}
+                        </dd>
+                    </div>
+                </dl>
+                <p class="text-xs text-gray-500 mt-4 leading-relaxed">
+                    This is a simple comparison of the sheet’s estimated welcome-bonus value against the
+                    annual fee. It ignores rewards on spending, credits you have to remember to use, and
+                    interest if you carry a balance. Offers change — verify with the issuer.
+                </p>
+        </div>
+        <div
+            class="text-gray-700 leading-relaxed space-y-4 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+            set:html={renderMarkdownParagraphs(review.feesAndValue)}
+        />
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Rewards and earn rates explained</h2>
+        {card.rewardsProgram && (
+            <p class="text-sm text-gray-500 mb-4">
+                Program in our data: <span class="font-semibold text-gray-800">{card.rewardsProgram}</span>
+            </p>
+        )}
+        <div
+            class="text-gray-700 leading-relaxed space-y-4 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+            set:html={renderMarkdownParagraphs(review.rewardsExplained)}
+        />
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-4">Welcome bonus: how to unlock it</h2>
+        {card.welcomeBonus ? (
+            <p class="text-gray-800 font-medium mb-4">{card.welcomeBonus}</p>
+        ) : (
+            <p class="text-gray-600 mb-4">
+                Our current data does not list a welcome bonus for this card.
+            </p>
+        )}
+        <div
+            class="text-gray-700 leading-relaxed space-y-4 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+            set:html={renderMarkdownParagraphs(review.welcomeBonus)}
+        />
+        {card.welcomeBonusEligibility && (
+            <p class="text-sm text-gray-500 mt-4 leading-relaxed">
+                <strong class="text-gray-700">Eligibility in our data:</strong>{' '}
+                {card.welcomeBonusEligibility}
+            </p>
+        )}
+    </section>
+
+    <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+        <h2 class="text-2xl font-bold text-gray-900 mb-6">FAQ</h2>
+        <div class="divide-y divide-gray-100">
+            {review.faqs.map((faq) => (
+                <div class="py-5 first:pt-0 last:pb-0">
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                    <div
+                        class="text-gray-700 leading-relaxed [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+                        set:html={renderMarkdownParagraphs(faq.answer)}
+                    />
+                </div>
+            ))}
+        </div>
+    </section>
+
+    {(hubs.length > 0 || issuerHub || relatedCards.length > 0) && (
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">Compare related cards and guides</h2>
+            <p class="text-gray-600 mb-6 leading-relaxed">
+                More Canadian credit card lists that match this product, plus a few cards people usually
+                compare it with.
+            </p>
+            <div class="flex flex-wrap gap-2 mb-6">
+                {issuerHub && (
+                    <a
+                        href={`/issuer/${issuerHub.slug}/`}
+                        class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                    >
+                        {issuerHub.navLabel} cards
+                    </a>
+                )}
+                {hubs.map((hub) => (
+                    <a
+                        href={`/best/${hub.slug}/`}
+                        class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                    >
+                        Best {hub.navLabel.toLowerCase()} cards
+                    </a>
+                ))}
+            </div>
+            {relatedCards.length > 0 && (
+                <ul class="space-y-2">
+                    {relatedCards.map((related) => (
+                        <li>
+                            <a
+                                href={`/card/${related.slug}/`}
+                                class="text-red-600 hover:text-red-700 font-medium underline underline-offset-2"
+                            >
+                                {related.creditCardName} review
+                            </a>
+                            <span class="text-gray-500 text-sm">
+                                {' '}
+                                · {related.issuer} · {related.annualFeeDisplay} annual fee
+                            </span>
+                        </li>
+                    ))}
+                </ul>
+            )}
+        </section>
+    )}
+
+    <aside class="text-sm text-gray-500 leading-relaxed px-1">
+        <p>
+            This {card.creditCardName} review is for general information only and is not financial advice,
+            a credit offer, or a recommendation that you apply. Fees, rates, welcome bonuses, and
+            eligibility change. Confirm every figure with {card.issuer} before you apply. Canadian Credit
+            Card Finder may earn a commission if you apply through links on this page, at no extra cost
+            to you.
+        </p>
+    </aside>
+</article>
