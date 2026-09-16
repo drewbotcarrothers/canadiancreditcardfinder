@@ -292,3 +292,7 @@ export function filterCardsForHub(cards: CreditCard[], slug: HubSlug): CreditCar
             return cards.filter(isPremiumCard);
     }
 }
+
+export function getMatchingHubsForCard(card: CreditCard): HubDefinition[] {
+    return HUBS.filter((hub) => filterCardsForHub([card], hub.slug).length > 0);
+}

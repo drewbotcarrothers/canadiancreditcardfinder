@@ -2,9 +2,12 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import AddToCompareButton from '../../components/AddToCompareButton';
 import CardGrid from '../../components/CardGrid';
+import CardReview from '../../components/CardReview.astro';
 import { cardImageSrc, PLACEHOLDER_IMAGE_SRC } from '../../lib/cardImage';
-import { getCards, getRelatedCards } from '../../lib/data';
+import { getCardEditorialReview, getReviewHubs } from '../../reviews';
+import { getCards, getCardsBySlugs, getRelatedCards } from '../../lib/data';
 import { getIssuerHubForName } from '../../lib/issuers';
+import { renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
 import type { CreditCard } from '../../lib/types';
 
 export async function getStaticPaths() {
@@ -20,15 +23,26 @@ interface Props {
 }
 
 const { card } = Astro.props;
-const relatedCards = await getRelatedCards(card, 3);
+const review = getCardEditorialReview(card.slug);
+const reviewRelated = review ? await getCardsBySlugs(review.relatedCardSlugs) : [];
+const relatedCards =
+    reviewRelated.length > 0 ? reviewRelated : await getRelatedCards(card, 3);
+const reviewHubs = review ? getReviewHubs(card, review) : [];
 const issuerHub = getIssuerHubForName(card.issuer);
 const imageSrc = cardImageSrc(card.imageFile);
-const title = `${card.creditCardName} | ${card.issuer} | Canadian Credit Card Finder`;
-const description = `${card.creditCardName} from ${card.issuer}. Annual fee: ${card.annualFeeDisplay}. Interest: ${card.purchaseInterestRateDisplay}. ${card.welcomeBonus}. Compare and apply at Canadian Credit Card Finder.`;
-const jsonLd = {
+const heading = review?.h1 ?? card.creditCardName;
+const title = review
+    ? `${review.seoTitle} | Canadian Credit Card Finder`
+    : `${card.creditCardName} | ${card.issuer} | Canadian Credit Card Finder`;
+const description = review
+    ? review.metaDescription
+    : `${card.creditCardName} from ${card.issuer}. Annual fee: ${card.annualFeeDisplay}. Interest: ${card.purchaseInterestRateDisplay}. ${card.welcomeBonus}. Compare and apply at Canadian Credit Card Finder.`;
+
+const productJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: card.creditCardName,
+    description,
     brand: {
         '@type': 'Brand',
         name: card.issuer,
@@ -40,11 +54,29 @@ const jsonLd = {
         priceCurrency: 'CAD',
     },
 };
+
+const faqJsonLd =
+    review && review.faqs.length > 0
+        ? {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: review.faqs.map((faq) => ({
+                  '@type': 'Question',
+                  name: faq.question,
+                  acceptedAnswer: {
+                      '@type': 'Answer',
+                      text: faq.answer.replace(/\[([^\]]+)\]\((\/[^)]+)\)/g, '$1'),
+                  },
+              })),
+          }
+        : null;
+
+const jsonLd = faqJsonLd ? [productJsonLd, faqJsonLd] : productJsonLd;
 ---
 
 <BaseLayout title={title} description={description}>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <nav class="mb-6">
+        <nav class="mb-6" aria-label="Breadcrumb">
             <ol class="flex items-center space-x-2 text-sm">
                 <li>
                     <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">
@@ -70,7 +102,7 @@ const jsonLd = {
         </nav>
 
         <section class="bg-white rounded-2xl shadow-lg p-6 lg:p-10 mb-8">
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
                 <div class="relative bg-gradient-to-br from-gray-100 to-gray-50 rounded-xl flex items-center justify-center p-8">
                     <div class="relative w-full max-w-md aspect-[1.586/1]">
                         <img
@@ -87,7 +119,7 @@ const jsonLd = {
                         {card.category}
                     </span>
                     <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-2">
-                        {card.creditCardName}
+                        {heading}
                     </h1>
                     <p class="text-lg text-gray-600 mb-6">
                         {issuerHub ? (
@@ -104,6 +136,13 @@ const jsonLd = {
                             <>by {card.issuer}</>
                         )}
                     </p>
+
+                    {review && (
+                        <div
+                            class="text-gray-700 leading-relaxed mb-6 space-y-3 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+                            set:html={renderMarkdownParagraphs(review.intro)}
+                        />
+                    )}
 
                     <div class="flex flex-col sm:flex-row gap-4">
                         <a
@@ -274,6 +313,18 @@ const jsonLd = {
                     </p>
                 </div>
             </section>
+        )}
+
+        {review && (
+            <div class="mb-8">
+                <CardReview
+                    card={card}
+                    review={review}
+                    relatedCards={relatedCards}
+                    issuerHub={issuerHub}
+                    hubs={reviewHubs}
+                />
+            </div>
         )}
 
         <section class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 lg:p-12 text-center text-white mb-8">

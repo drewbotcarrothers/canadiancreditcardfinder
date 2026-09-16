@@ -111,6 +111,15 @@ export async function getRelatedCards(card: CreditCard, limit = 4): Promise<Cred
         .slice(0, limit);
 }
 
+export async function getCardsBySlugs(slugs: string[]): Promise<CreditCard[]> {
+    const cards = await getCards();
+    const bySlug = new Map(cards.map((card) => [card.slug, card]));
+    return slugs.flatMap((slug) => {
+        const match = bySlug.get(slug);
+        return match ? [match] : [];
+    });
+}
+
 export async function getCardsForHub(slug: HubSlug): Promise<CreditCard[]> {
     const cards = await getCards();
     return filterCardsForHub(cards, slug);
