@@ -33,7 +33,7 @@ const review: CardEditorialReview = {
         'Grocery 3% currently stops after an annual cap. After that you are not on a grocery World Elite anymore.',
         'CT Money is awkward if you do not redeem at participating stores. It is not Aeroplan and not a Visa statement credit.',
         'Our current sheet does not list a welcome bonus, detailed offer, or dollar value. Additional-card and insurance columns are also empty — confirm those with Canadian Tire Bank.',
-        'There is no Canadian Tire Bank issuer hub on this site. Compare in the related cards below rather than hunting a missing /issuer/ page.',
+        'There is no Canadian Tire Bank issuer hub on this site. Compare in the related cards below rather than inventing a bank hub URL.',
     ],
     feesAndValue:
         'The annual fee in our table is $0, so year-two cost is the opportunity cost of putting spend here instead of on a 2% category card. World Elite is worth the harder income test when CT-family spend is large and grocery spend will use that 3% cap. If you fail income or barely shop the banners, the regular Triangle Mastercard still pays 4% at Canadian Tire without the World Elite bar — you give up grocery and catch-all earn. The first-year snapshot on this page will not show a signup cushion because welcome-bonus columns are empty. Offers change. Pay in full. A 21.99% purchase rate will delete CT Money faster than a spring catalogue.',
