@@ -17,9 +17,11 @@ import bmoBlueRewardsMastercard from './bmo-blue-rewards-mastercard';
 import bmoBlueRewardsWorldEliteMastercard from './bmo-blue-rewards-world-elite-mastercard';
 import bmoCashbackMastercard from './bmo-cashback-mastercard';
 import bmoCashbackWorldEliteMastercard from './bmo-cashback-world-elite-mastercard';
+import bmoEclipseRiseVisaCard from './bmo-eclipse-rise-visa-card';
 import bmoEclipseVisaInfiniteCard from './bmo-eclipse-visa-infinite-card';
 import bmoEclipseVisaInfinitePrivilegeCard from './bmo-eclipse-visa-infinite-privilege-card';
 import bmoViporterWorldEliteMastercard from './bmo-viporter-world-elite-mastercard';
+import brimMastercard from './brim-mastercard';
 import brimWorldEliteMastercard from './brim-world-elite-mastercard';
 import cibcAeroplanVisaCard from './cibc-aeroplan-visa-card';
 import cibcAeroplanVisaInfiniteCard from './cibc-aeroplan-visa-infinite-card';
@@ -30,11 +32,17 @@ import cibcAventuraVisaInfiniteCard from './cibc-aventura-visa-infinite-card';
 import cibcAventuraVisaInfinitePrivilegeCard from './cibc-aventura-visa-infinite-privilege-card';
 import cibcCostcoMastercard from './cibc-costco-mastercard';
 import cibcDividendPlatinumVisaCard from './cibc-dividend-platinum-visa-card';
+import cibcDividendVisaCard from './cibc-dividend-visa-card';
 import cibcDividendVisaInfiniteCard from './cibc-dividend-visa-infinite-card';
+import desjardinsOdysseyGoldVisa from './desjardins-odyssey-gold-visa';
 import desjardinsOdysseyVisaInfinitePrivilege from './desjardins-odyssey-visa-infinite-privilege';
+import desjardinsOdysseyWorldEliteMastercard from './desjardins-odyssey-world-elite-mastercard';
+import homeTrustPreferredVisa from './home-trust-preferred-visa';
 import marriottBonvoyAmericanExpressCard from './marriott-bonvoy-american-express-card';
+import mbnaRewardsPlatinumPlusMastercard from './mbna-rewards-platinum-plus-mastercard';
 import mbnaRewardsWorldEliteMastercard from './mbna-rewards-world-elite-mastercard';
 import nationalBankWorldEliteMastercard from './national-bank-world-elite-mastercard';
+import nationalBankWorldMastercard from './national-bank-world-mastercard';
 import pcMastercard from './pc-mastercard';
 import pcWorldEliteMastercard from './pc-world-elite-mastercard';
 import pcWorldMastercard from './pc-world-mastercard';
@@ -51,6 +59,7 @@ import rogersRedWorldEliteMastercard from './rogers-red-world-elite-mastercard';
 import rogersRedWorldLegendMastercard from './rogers-red-world-legend-mastercard';
 import rogersRedWorldMastercard from './rogers-red-world-mastercard';
 import scotiaMomentumNoFeeVisaCard from './scotia-momentum-no-fee-visa-card';
+import scotiaMomentumVisaCard from './scotia-momentum-visa-card';
 import scotiaMomentumVisaInfiniteCard from './scotia-momentum-visa-infinite-card';
 import scotiabankAmericanExpressCard from './scotiabank-american-express-card';
 import scotiabankGoldAmericanExpressCard from './scotiabank-gold-american-express-card';
@@ -70,6 +79,7 @@ import tdCashBackVisaCard from './td-cash-back-visa-card';
 import tdCashBackVisaInfiniteCard from './td-cash-back-visa-infinite-card';
 import tdFirstClassTravelVisaInfiniteCard from './td-first-class-travel-visa-infinite-card';
 import tdPlatinumTravelVisaCard from './td-platinum-travel-visa-card';
+import tdRewardsVisaCard from './td-rewards-visa-card';
 import thePlatinumCard from './the-platinum-card';
 import triangleMastercard from './triangle-mastercard';
 import triangleWorldEliteMastercard from './triangle-world-elite-mastercard';
@@ -148,6 +158,16 @@ const REVIEW_LIST: CardEditorialReview[] = [
     rogersRedWorldMastercard,
     tdPlatinumTravelVisaCard,
     rbcCashBackMastercard,
+    desjardinsOdysseyWorldEliteMastercard,
+    desjardinsOdysseyGoldVisa,
+    cibcDividendVisaCard,
+    bmoEclipseRiseVisaCard,
+    brimMastercard,
+    nationalBankWorldMastercard,
+    scotiaMomentumVisaCard,
+    tdRewardsVisaCard,
+    homeTrustPreferredVisa,
+    mbnaRewardsPlatinumPlusMastercard,
 ];
 
 const reviewsBySlug = new Map(REVIEW_LIST.map((review) => [review.slug, review]));
