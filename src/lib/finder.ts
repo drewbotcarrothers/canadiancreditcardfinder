@@ -342,7 +342,8 @@ export function isGasTransitCard(card: CreditCard): boolean {
 }
 
 export function isDiningCard(card: CreditCard): boolean {
-    return DINING.test(featureHaystack(card));
+    const cleaned = featureHaystack(card).replace(/from dining to[^.]*\.?/gi, ' ');
+    return DINING.test(cleaned);
 }
 
 export function isTravelSpendCard(card: CreditCard): boolean {
@@ -430,6 +431,57 @@ function matchesSpend(card: CreditCard, spend: FinderSpend | undefined): boolean
     }
 }
 
+function extractCategoryMultiplier(haystack: string, categoryPattern: RegExp): number {
+    const patterns = [
+        new RegExp(`(\\d+(?:\\.\\d+)?)\\s*[x×][\\s\\S]{0,80}${categoryPattern.source}`, 'i'),
+        new RegExp(`${categoryPattern.source}[\\s\\S]{0,80}(\\d+(?:\\.\\d+)?)\\s*[x×]`, 'i'),
+        new RegExp(`(\\d+(?:\\.\\d+)?)\\s*%[\\s\\S]{0,80}${categoryPattern.source}`, 'i'),
+    ];
+
+    let best = 0;
+    for (const pattern of patterns) {
+        const match = haystack.match(pattern);
+        if (match) {
+            const value = parseFloat(match[1]);
+            if (Number.isFinite(value) && value > best) {
+                best = value;
+            }
+        }
+    }
+
+    return best;
+}
+
+function spendMultiplierBoost(card: CreditCard, spend: FinderSpend | undefined): number {
+    if (!spend || spend === 'general') {
+        return 0;
+    }
+
+    const haystack = featureHaystack(card);
+    let multiplier = 0;
+
+    switch (spend) {
+        case 'groceries':
+            multiplier = extractCategoryMultiplier(haystack, /grocer(?:y|ies)/i);
+            break;
+        case 'gas':
+            multiplier = extractCategoryMultiplier(haystack, /(?:\bgas\b|\btransit\b|ride[\s-]?share)/i);
+            break;
+        case 'dining':
+            multiplier = extractCategoryMultiplier(haystack, /(?:dining|restaurants?|food delivery)/i);
+            break;
+        case 'travel':
+            multiplier = extractCategoryMultiplier(haystack, /(?:\btravel\b|\bflights?\b|\bhotels?\b)/i);
+            break;
+    }
+
+    if (multiplier <= 1) {
+        return 0;
+    }
+
+    return Math.min(28, multiplier * 5);
+}
+
 interface FilterFlags {
     goal: boolean;
     fee: boolean;
@@ -505,7 +557,8 @@ function scoreCard(card: CreditCard, answers: FinderAnswers): number {
     }
 
     if (matchesSpend(card, answers.spend)) {
-        score += 35;
+        score += 40;
+        score += spendMultiplierBoost(card, answers.spend);
     }
 
     if (answers.goal === 'travel') {
@@ -536,7 +589,7 @@ function scoreCard(card: CreditCard, answers: FinderAnswers): number {
 
     const bonus = parseBonusValue(card.welcomeBonusValue);
     if (bonus > 0) {
-        score += Math.min(22, bonus / 20);
+        score += Math.min(12, bonus / 40);
     }
 
     if (answers.goal === 'travel' && answers.fee === 'premium' && isPremiumCard(card)) {
