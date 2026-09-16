@@ -1,7 +1,7 @@
 import type { CardEditorialReview } from './types';
 
 const review: CardEditorialReview = {
-    slug: 'scotiabank-scene-visa-card',
+    slug: 'scotiabank-scene-plus-visa-card',
     seoTitle: 'Scotiabank Scene+ Visa Card Review (2026) — Fees, Rewards & Is It Worth It?',
     h1: 'Scotiabank Scene+ Visa Card Review',
     primaryKeyword: 'scotiabank scene+ visa card review',
