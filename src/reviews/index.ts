@@ -20,6 +20,7 @@ import bmoCashbackWorldEliteMastercard from './bmo-cashback-world-elite-masterca
 import bmoEclipseRiseVisaCard from './bmo-eclipse-rise-visa-card';
 import bmoEclipseVisaInfiniteCard from './bmo-eclipse-visa-infinite-card';
 import bmoEclipseVisaInfinitePrivilegeCard from './bmo-eclipse-visa-infinite-privilege-card';
+import bmoPreferredRateMastercard from './bmo-preferred-rate-mastercard';
 import bmoViporterWorldEliteMastercard from './bmo-viporter-world-elite-mastercard';
 import brimMastercard from './brim-mastercard';
 import brimWorldEliteMastercard from './brim-world-elite-mastercard';
@@ -34,6 +35,10 @@ import cibcCostcoMastercard from './cibc-costco-mastercard';
 import cibcDividendPlatinumVisaCard from './cibc-dividend-platinum-visa-card';
 import cibcDividendVisaCard from './cibc-dividend-visa-card';
 import cibcDividendVisaInfiniteCard from './cibc-dividend-visa-infinite-card';
+import cibcSelectVisaCard from './cibc-select-visa-card';
+import desjardinsCashBackMastercard from './desjardins-cash-back-mastercard';
+import desjardinsCashBackVisa from './desjardins-cash-back-visa';
+import desjardinsCashBackWorldEliteMastercard from './desjardins-cash-back-world-elite-mastercard';
 import desjardinsOdysseyGoldVisa from './desjardins-odyssey-gold-visa';
 import desjardinsOdysseyVisaInfinitePrivilege from './desjardins-odyssey-visa-infinite-privilege';
 import desjardinsOdysseyWorldEliteMastercard from './desjardins-odyssey-world-elite-mastercard';
@@ -41,6 +46,9 @@ import homeTrustPreferredVisa from './home-trust-preferred-visa';
 import marriottBonvoyAmericanExpressCard from './marriott-bonvoy-american-express-card';
 import mbnaRewardsPlatinumPlusMastercard from './mbna-rewards-platinum-plus-mastercard';
 import mbnaRewardsWorldEliteMastercard from './mbna-rewards-world-elite-mastercard';
+import mbnaSmartCashPlatinumPlusMastercard from './mbna-smart-cash-platinum-plus-mastercard';
+import mbnaSmartCashWorldMastercard from './mbna-smart-cash-world-mastercard';
+import nationalBankEchoCashbackMastercard from './national-bank-echo-cashback-mastercard';
 import nationalBankWorldEliteMastercard from './national-bank-world-elite-mastercard';
 import nationalBankWorldMastercard from './national-bank-world-mastercard';
 import pcMastercard from './pc-mastercard';
@@ -58,6 +66,7 @@ import rogersRedMastercard from './rogers-red-mastercard';
 import rogersRedWorldEliteMastercard from './rogers-red-world-elite-mastercard';
 import rogersRedWorldLegendMastercard from './rogers-red-world-legend-mastercard';
 import rogersRedWorldMastercard from './rogers-red-world-mastercard';
+import scotiaMomentumMastercardCreditCard from './scotia-momentum-mastercard-credit-card';
 import scotiaMomentumNoFeeVisaCard from './scotia-momentum-no-fee-visa-card';
 import scotiaMomentumVisaCard from './scotia-momentum-visa-card';
 import scotiaMomentumVisaInfiniteCard from './scotia-momentum-visa-infinite-card';
@@ -78,6 +87,7 @@ import tdAeroplanVisaPlatinumCreditCard from './td-aeroplan-visa-platinum-credit
 import tdCashBackVisaCard from './td-cash-back-visa-card';
 import tdCashBackVisaInfiniteCard from './td-cash-back-visa-infinite-card';
 import tdFirstClassTravelVisaInfiniteCard from './td-first-class-travel-visa-infinite-card';
+import tdLowRateVisaCard from './td-low-rate-visa-card';
 import tdPlatinumTravelVisaCard from './td-platinum-travel-visa-card';
 import tdRewardsVisaCard from './td-rewards-visa-card';
 import thePlatinumCard from './the-platinum-card';
@@ -168,6 +178,16 @@ const REVIEW_LIST: CardEditorialReview[] = [
     tdRewardsVisaCard,
     homeTrustPreferredVisa,
     mbnaRewardsPlatinumPlusMastercard,
+    desjardinsCashBackWorldEliteMastercard,
+    desjardinsCashBackMastercard,
+    desjardinsCashBackVisa,
+    mbnaSmartCashWorldMastercard,
+    mbnaSmartCashPlatinumPlusMastercard,
+    scotiaMomentumMastercardCreditCard,
+    nationalBankEchoCashbackMastercard,
+    bmoPreferredRateMastercard,
+    tdLowRateVisaCard,
+    cibcSelectVisaCard,
 ];
 
 const reviewsBySlug = new Map(REVIEW_LIST.map((review) => [review.slug, review]));
