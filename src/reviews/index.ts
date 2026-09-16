@@ -12,13 +12,16 @@ import americanExpressAeroplanReserveCard from './american-express-aeroplan-rese
 import americanExpressCobaltCard from './american-express-cobalt-card';
 import americanExpressGoldRewardsCard from './american-express-gold-rewards-card';
 import americanExpressGreenCard from './american-express-green-card';
+import bmoAscendWorldEliteMastercard from './bmo-ascend-world-elite-mastercard';
 import bmoBlueRewardsMastercard from './bmo-blue-rewards-mastercard';
 import bmoBlueRewardsWorldEliteMastercard from './bmo-blue-rewards-world-elite-mastercard';
 import bmoCashbackMastercard from './bmo-cashback-mastercard';
 import bmoCashbackWorldEliteMastercard from './bmo-cashback-world-elite-mastercard';
 import bmoEclipseVisaInfiniteCard from './bmo-eclipse-visa-infinite-card';
 import bmoEclipseVisaInfinitePrivilegeCard from './bmo-eclipse-visa-infinite-privilege-card';
+import bmoViporterWorldEliteMastercard from './bmo-viporter-world-elite-mastercard';
 import brimWorldEliteMastercard from './brim-world-elite-mastercard';
+import cibcAeroplanVisaCard from './cibc-aeroplan-visa-card';
 import cibcAeroplanVisaInfiniteCard from './cibc-aeroplan-visa-infinite-card';
 import cibcAeroplanVisaInfinitePrivilegeCard from './cibc-aeroplan-visa-infinite-privilege-card';
 import cibcAventuraGoldVisaCard from './cibc-aventura-gold-visa-card';
@@ -26,21 +29,27 @@ import cibcAventuraVisaCard from './cibc-aventura-visa-card';
 import cibcAventuraVisaInfiniteCard from './cibc-aventura-visa-infinite-card';
 import cibcAventuraVisaInfinitePrivilegeCard from './cibc-aventura-visa-infinite-privilege-card';
 import cibcCostcoMastercard from './cibc-costco-mastercard';
+import cibcDividendPlatinumVisaCard from './cibc-dividend-platinum-visa-card';
 import cibcDividendVisaInfiniteCard from './cibc-dividend-visa-infinite-card';
+import desjardinsOdysseyVisaInfinitePrivilege from './desjardins-odyssey-visa-infinite-privilege';
 import marriottBonvoyAmericanExpressCard from './marriott-bonvoy-american-express-card';
+import mbnaRewardsWorldEliteMastercard from './mbna-rewards-world-elite-mastercard';
 import nationalBankWorldEliteMastercard from './national-bank-world-elite-mastercard';
 import pcMastercard from './pc-mastercard';
 import pcWorldEliteMastercard from './pc-world-elite-mastercard';
+import pcWorldMastercard from './pc-world-mastercard';
 import rbcAvionVisaInfinite from './rbc-avion-visa-infinite';
 import rbcAvionVisaInfinitePrivilege from './rbc-avion-visa-infinite-privilege';
 import rbcAvionVisaPlatinum from './rbc-avion-visa-platinum';
 import rbcBritishAirwaysVisaInfinite from './rbc-british-airways-visa-infinite';
+import rbcCashBackMastercard from './rbc-cash-back-mastercard';
 import rbcCashBackPreferredWorldEliteMastercard from './rbc-cash-back-preferred-world-elite-mastercard';
 import rbcIonPlusVisa from './rbc-ion-plus-visa';
 import rbcIonVisa from './rbc-ion-visa';
 import rogersRedMastercard from './rogers-red-mastercard';
 import rogersRedWorldEliteMastercard from './rogers-red-world-elite-mastercard';
 import rogersRedWorldLegendMastercard from './rogers-red-world-legend-mastercard';
+import rogersRedWorldMastercard from './rogers-red-world-mastercard';
 import scotiaMomentumNoFeeVisaCard from './scotia-momentum-no-fee-visa-card';
 import scotiaMomentumVisaInfiniteCard from './scotia-momentum-visa-infinite-card';
 import scotiabankAmericanExpressCard from './scotiabank-american-express-card';
@@ -60,6 +69,7 @@ import tdAeroplanVisaPlatinumCreditCard from './td-aeroplan-visa-platinum-credit
 import tdCashBackVisaCard from './td-cash-back-visa-card';
 import tdCashBackVisaInfiniteCard from './td-cash-back-visa-infinite-card';
 import tdFirstClassTravelVisaInfiniteCard from './td-first-class-travel-visa-infinite-card';
+import tdPlatinumTravelVisaCard from './td-platinum-travel-visa-card';
 import thePlatinumCard from './the-platinum-card';
 import triangleMastercard from './triangle-mastercard';
 import triangleWorldEliteMastercard from './triangle-world-elite-mastercard';
@@ -128,6 +138,16 @@ const REVIEW_LIST: CardEditorialReview[] = [
     scotiabankAmericanExpressCard,
     scotiaMomentumNoFeeVisaCard,
     brimWorldEliteMastercard,
+    bmoViporterWorldEliteMastercard,
+    bmoAscendWorldEliteMastercard,
+    cibcDividendPlatinumVisaCard,
+    cibcAeroplanVisaCard,
+    desjardinsOdysseyVisaInfinitePrivilege,
+    mbnaRewardsWorldEliteMastercard,
+    pcWorldMastercard,
+    rogersRedWorldMastercard,
+    tdPlatinumTravelVisaCard,
+    rbcCashBackMastercard,
 ];
 
 const reviewsBySlug = new Map(REVIEW_LIST.map((review) => [review.slug, review]));
