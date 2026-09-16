@@ -1,9 +1,9 @@
-import type { CreditCard } from '../../lib/types';
+import type { CreditCard } from '../lib/types';
 import {
     getHubBySlug,
     getMatchingHubsForCard,
     type HubDefinition,
-} from '../../lib/hubs';
+} from '../lib/hubs';
 import type { CardEditorialReview } from './types';
 
 import americanExpressAeroplanCard from './american-express-aeroplan-card';

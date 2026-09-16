@@ -1,4 +1,4 @@
-import type { HubSlug } from '../../lib/hubs';
+import type { HubSlug } from '../lib/hubs';
 
 export interface ReviewFaq {
     question: string;
