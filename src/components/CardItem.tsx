@@ -74,7 +74,7 @@ export default function CardItem({ card }: CardItemProps) {
                 <div className="flex gap-3 mt-auto">
                     <a
                         href={`/card/${card.slug}/`}
-                        className="flex-1 bg-red-600 hover:bg-red-700 text-white text-center py-2.5 px-4 rounded-lg font-medium transition-colors text-sm"
+                        className="flex-1 border border-gray-300 bg-white text-gray-700 text-center py-2.5 px-4 rounded-lg font-medium text-sm transition-colors hover:border-gray-400 hover:bg-gray-50 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2"
                     >
                         View Details
                     </a>
