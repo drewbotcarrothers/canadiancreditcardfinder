@@ -6,12 +6,12 @@ type IconPart =
     | { tag: 'path'; d: string }
     | { tag: 'circle'; cx: number; cy: number; r: number }
     | { tag: 'line'; x1: number; y1: number; x2: number; y2: number }
-    | { tag: 'rect'; x: number; y: number; width: number; height: number; rx: number }
-    | { tag: 'text'; content: string; fontSize: number };
+    | { tag: 'rect'; x: number; y: number; width: number; height: number; rx: number };
 
 // Outline icons adapted from Lucide (ISC). Multiple elements stay as separate
 // SVG nodes so shapes are not flattened into a single broken path `d`.
-const USE_CASE_ICONS: Record<HubSlug, IconPart[]> = {
+// no-annual-fee uses a "$0" label in the tile — SVG text is unreadable at 20px.
+const USE_CASE_ICONS: Record<Exclude<HubSlug, 'no-annual-fee'>, IconPart[]> = {
     travel: [
         {
             tag: 'path',
@@ -22,10 +22,6 @@ const USE_CASE_ICONS: Record<HubSlug, IconPart[]> = {
         { tag: 'rect', x: 2, y: 6, width: 20, height: 12, rx: 2 },
         { tag: 'circle', cx: 12, cy: 12, r: 2 },
         { tag: 'path', d: 'M6 12h.01M18 12h.01' },
-    ],
-    'no-annual-fee': [
-        { tag: 'circle', cx: 12, cy: 12, r: 9 },
-        { tag: 'text', content: '$0', fontSize: 9 },
     ],
     students: [
         {
@@ -101,48 +97,40 @@ const ISSUER_BADGES: Record<IssuerHubSlug, { label: string; bg: string }> = {
                     class="group flex items-start gap-3 rounded-xl border border-gray-200 bg-gray-50 p-3.5 hover:border-red-600 hover:bg-white hover:shadow-md transition-all"
                 >
                     <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white border border-gray-200 text-red-600 group-hover:border-red-200 group-hover:bg-red-50 transition-colors">
-                        <svg
-                            class="h-5 w-5"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="1.75"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            aria-hidden="true"
-                        >
-                            {USE_CASE_ICONS[hub.slug].map((part) =>
-                                part.tag === 'path' ? (
-                                    <path d={part.d} />
-                                ) : part.tag === 'circle' ? (
-                                    <circle cx={part.cx} cy={part.cy} r={part.r} />
-                                ) : part.tag === 'line' ? (
-                                    <line x1={part.x1} y1={part.y1} x2={part.x2} y2={part.y2} />
-                                ) : part.tag === 'rect' ? (
-                                    <rect
-                                        x={part.x}
-                                        y={part.y}
-                                        width={part.width}
-                                        height={part.height}
-                                        rx={part.rx}
-                                    />
-                                ) : (
-                                    <text
-                                        x="12"
-                                        y="12"
-                                        text-anchor="middle"
-                                        dominant-baseline="central"
-                                        fill="currentColor"
-                                        stroke="none"
-                                        font-size={part.fontSize}
-                                        font-weight="700"
-                                        font-family="ui-sans-serif, system-ui, sans-serif"
-                                    >
-                                        {part.content}
-                                    </text>
-                                )
-                            )}
-                        </svg>
+                        {hub.slug === 'no-annual-fee' ? (
+                            <span class="text-[15px] font-bold leading-none tabular-nums tracking-tight" aria-hidden="true">
+                                $0
+                            </span>
+                        ) : (
+                            <svg
+                                class="h-5 w-5"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="1.75"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                aria-hidden="true"
+                            >
+                                {USE_CASE_ICONS[hub.slug].map((part) =>
+                                    part.tag === 'path' ? (
+                                        <path d={part.d} />
+                                    ) : part.tag === 'circle' ? (
+                                        <circle cx={part.cx} cy={part.cy} r={part.r} />
+                                    ) : part.tag === 'line' ? (
+                                        <line x1={part.x1} y1={part.y1} x2={part.x2} y2={part.y2} />
+                                    ) : (
+                                        <rect
+                                            x={part.x}
+                                            y={part.y}
+                                            width={part.width}
+                                            height={part.height}
+                                            rx={part.rx}
+                                        />
+                                    )
+                                )}
+                            </svg>
+                        )}
                     </span>
                     <span class="min-w-0">
                         <span class="block font-semibold text-gray-900 group-hover:text-red-600 transition-colors">
