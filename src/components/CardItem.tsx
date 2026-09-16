@@ -5,9 +5,11 @@ import CardImage from './CardImage';
 
 interface CardItemProps {
     card: CreditCard;
+    reason?: string;
+    showApply?: boolean;
 }
 
-export default function CardItem({ card }: CardItemProps) {
+export default function CardItem({ card, reason, showApply = false }: CardItemProps) {
     const { compareCards, addCard, removeCard } = useCompare();
 
     const isInCompare = compareCards.includes(card.slug);
@@ -71,6 +73,13 @@ export default function CardItem({ card }: CardItemProps) {
                     </div>
                 </div>
 
+                {reason && (
+                    <p className="text-sm text-gray-600 leading-relaxed mb-5">
+                        <span className="font-semibold text-gray-900">Why this card: </span>
+                        {reason}
+                    </p>
+                )}
+
                 <div className="flex gap-3 mt-auto">
                     <a
                         href={`/card/${card.slug}/`}
@@ -78,6 +87,16 @@ export default function CardItem({ card }: CardItemProps) {
                     >
                         View Details
                     </a>
+                    {showApply && card.productLink.trim() && (
+                        <a
+                            href={card.productLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex-1 bg-red-600 hover:bg-red-700 text-white text-center py-2.5 px-4 rounded-lg font-medium text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-red-500 focus-visible:ring-offset-2"
+                        >
+                            Apply
+                        </a>
+                    )}
                     <button
                         type="button"
                         onClick={handleCompareClick}

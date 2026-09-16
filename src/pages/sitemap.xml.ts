@@ -10,6 +10,7 @@ export const GET: APIRoute = async ({ site }) => {
 
     const urls = [
         { loc: `${baseUrl}/`, changefreq: 'daily', priority: '1.0' },
+        { loc: `${baseUrl}/finder/`, changefreq: 'weekly', priority: '0.9' },
         { loc: `${baseUrl}/compare/`, changefreq: 'weekly', priority: '0.9' },
         ...HUBS.map((hub) => ({
             loc: `${baseUrl}/best/${hub.slug}/`,

@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import FinderContent from '../components/FinderContent';
+import { getCards } from '../lib/data';
+
+const cards = await getCards();
+---
+
+<BaseLayout
+    title="Credit Card Finder — Best Card for You (2026) | Canadian Credit Card Finder"
+    description="Canadians answer a few questions to get a personalized credit card recommendation."
+>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">
+                        Home
+                    </a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">Credit Card Finder</li>
+            </ol>
+        </nav>
+
+        <header class="text-center mb-8">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                Credit Card Finder
+            </h1>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Answer a few questions and we will narrow our live Canadian card catalog to a top match
+                plus a few alternatives. Approval is never guaranteed.
+            </p>
+        </header>
+
+        <FinderContent client:load cards={cards} />
+    </div>
+</BaseLayout>
