@@ -11,11 +11,21 @@ import americanExpressAeroplanReserveCard from './american-express-aeroplan-rese
 import americanExpressCobaltCard from './american-express-cobalt-card';
 import americanExpressGoldRewardsCard from './american-express-gold-rewards-card';
 import bmoCashbackWorldEliteMastercard from './bmo-cashback-world-elite-mastercard';
+import cibcAeroplanVisaInfiniteCard from './cibc-aeroplan-visa-infinite-card';
+import cibcDividendVisaInfiniteCard from './cibc-dividend-visa-infinite-card';
+import nationalBankWorldEliteMastercard from './national-bank-world-elite-mastercard';
+import rbcAvionVisaInfinite from './rbc-avion-visa-infinite';
+import rbcAvionVisaInfinitePrivilege from './rbc-avion-visa-infinite-privilege';
 import rogersRedWorldEliteMastercard from './rogers-red-world-elite-mastercard';
+import scotiabankGoldAmericanExpressCard from './scotiabank-gold-american-express-card';
 import scotiabankPassportVisaInfiniteCard from './scotiabank-passport-visa-infinite-card';
+import simpliiFinancialCashBackVisa from './simplii-financial-cash-back-visa';
+import tangerineMoneyBackCreditCard from './tangerine-money-back-credit-card';
 import tdAeroplanVisaInfiniteCard from './td-aeroplan-visa-infinite-card';
 import tdAeroplanVisaInfinitePrivilegeCreditCard from './td-aeroplan-visa-infinite-privilege-credit-card';
+import tdCashBackVisaInfiniteCard from './td-cash-back-visa-infinite-card';
 import thePlatinumCard from './the-platinum-card';
+import westjetRbcWorldEliteMastercard from './westjet-rbc-world-elite-mastercard';
 
 const REVIEW_LIST: CardEditorialReview[] = [
     americanExpressCobaltCard,
@@ -28,6 +38,16 @@ const REVIEW_LIST: CardEditorialReview[] = [
     scotiabankPassportVisaInfiniteCard,
     rogersRedWorldEliteMastercard,
     bmoCashbackWorldEliteMastercard,
+    rbcAvionVisaInfinite,
+    tangerineMoneyBackCreditCard,
+    simpliiFinancialCashBackVisa,
+    westjetRbcWorldEliteMastercard,
+    cibcAeroplanVisaInfiniteCard,
+    scotiabankGoldAmericanExpressCard,
+    rbcAvionVisaInfinitePrivilege,
+    tdCashBackVisaInfiniteCard,
+    cibcDividendVisaInfiniteCard,
+    nationalBankWorldEliteMastercard,
 ];
 
 const reviewsBySlug = new Map(REVIEW_LIST.map((review) => [review.slug, review]));
