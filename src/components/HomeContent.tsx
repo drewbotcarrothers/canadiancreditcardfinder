@@ -1,13 +1,13 @@
 import { useEffect, useState, type ReactNode } from 'react';
-import { HOMEPAGE_CARD_PAGE_SIZE } from '../lib/homepage';
-import type { CreditCard, SortOption } from '../lib/types';
+import { HOMEPAGE_CARD_PAGE_SIZE, type HomepageCard } from '../lib/homepage';
+import type { SortOption } from '../lib/types';
 import { parseBonusValue, parseFeeRange } from '../lib/utils';
 import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
 import FilterPanel from './FilterPanel';
 import CardGrid from './CardGrid';
 
 interface HomeContentProps {
-    cards: CreditCard[];
+    cards: HomepageCard[];
     categories: string[];
     issuers: string[];
     rewardsPrograms: string[];

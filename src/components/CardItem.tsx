@@ -1,11 +1,11 @@
 import { useCompare } from '../hooks/useCompare';
 import { CARD_IMAGE_HEIGHT, CARD_IMAGE_WIDTH } from '../lib/cardImage';
-import type { CreditCard } from '../lib/types';
+import type { HomepageCard } from '../lib/homepage';
 import { truncateText } from '../lib/utils';
 import CardImage from './CardImage';
 
 interface CardItemProps {
-    card: CreditCard;
+    card: HomepageCard;
     reason?: string;
     showApply?: boolean;
 }
