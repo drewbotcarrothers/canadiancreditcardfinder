@@ -1,6 +1,10 @@
 const CARDS_PREFIX = '/images/cards/';
 const PLACEHOLDER_FILE = 'placeholder.png';
 
+/** Intrinsic size of files in `public/images/cards/` (used for CLS). */
+export const CARD_IMAGE_WIDTH = 250;
+export const CARD_IMAGE_HEIGHT = 200;
+
 /**
  * Sheet filenames that exist on disk only as a placeholder copy,
  * while a real asset is stored under a nearby name.

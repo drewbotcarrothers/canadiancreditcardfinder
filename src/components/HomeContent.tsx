@@ -1,4 +1,5 @@
-import { useState, type ReactNode } from 'react';
+import { useEffect, useState, type ReactNode } from 'react';
+import { HOMEPAGE_CARD_PAGE_SIZE } from '../lib/homepage';
 import type { CreditCard, SortOption } from '../lib/types';
 import { parseBonusValue, parseFeeRange } from '../lib/utils';
 import { useUrlSearchParams } from '../hooks/useUrlSearchParams';
@@ -17,6 +18,7 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
     const { searchParams } = useUrlSearchParams();
     const [sortBy, setSortBy] = useState<SortOption>('featured');
     const [showMobileFilters, setShowMobileFilters] = useState(false);
+    const [visibleCount, setVisibleCount] = useState(HOMEPAGE_CARD_PAGE_SIZE);
 
     const selectedCategories = searchParams.get('category')?.split(',').filter(Boolean) || [];
     const selectedIssuers = searchParams.get('issuer')?.split(',').filter(Boolean) || [];
@@ -67,6 +69,21 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
         selectedIssuers.length > 0 ||
         selectedFeeRanges.length > 0 ||
         selectedRewardsPrograms.length > 0;
+
+    const filterKey = [
+        sortBy,
+        selectedCategories.join(','),
+        selectedIssuers.join(','),
+        selectedFeeRanges.join(','),
+        selectedRewardsPrograms.join(','),
+    ].join('|');
+
+    useEffect(() => {
+        setVisibleCount(HOMEPAGE_CARD_PAGE_SIZE);
+    }, [filterKey]);
+
+    const visibleCards = filteredCards.slice(0, visibleCount);
+    const remainingCount = filteredCards.length - visibleCards.length;
 
     return (
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
@@ -126,7 +143,19 @@ export default function HomeContent({ cards, categories, issuers, rewardsProgram
 
                     {children}
 
-                    <CardGrid cards={filteredCards} />
+                    <CardGrid cards={visibleCards} />
+
+                    {remainingCount > 0 && (
+                        <div className="mt-8 flex justify-center">
+                            <button
+                                type="button"
+                                onClick={() => setVisibleCount((count) => count + HOMEPAGE_CARD_PAGE_SIZE)}
+                                className="border border-gray-300 bg-white text-gray-800 hover:border-gray-400 hover:bg-gray-50 font-medium py-2.5 px-6 rounded-lg transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gray-400 focus-visible:ring-offset-2"
+                            >
+                                Load more
+                            </button>
+                        </div>
+                    )}
                 </div>
             </div>
 

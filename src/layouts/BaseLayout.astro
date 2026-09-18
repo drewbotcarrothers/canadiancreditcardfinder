@@ -43,11 +43,6 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
             gtag('js', new Date());
             gtag('config', 'G-L2C4VZJVWC');
         </script>
-        <script
-            is:inline
-            async
-            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7909541570116920"
-            crossorigin="anonymous"></script>
         <style is:global>
             :root {
                 --font-inter: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -60,5 +55,49 @@ const canonical = new URL(Astro.url.pathname, Astro.site).href;
             <slot />
         </main>
         <Footer />
+        <script is:inline>
+            (function () {
+                var ADSENSE_CLIENT = 'ca-pub-7909541570116920';
+                var ADSENSE_SRC =
+                    'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' +
+                    ADSENSE_CLIENT;
+                var loaded = false;
+
+                function fillExistingSlots() {
+                    var adsbygoogle = (window.adsbygoogle = window.adsbygoogle || []);
+                    var slots = document.querySelectorAll('ins.adsbygoogle');
+                    for (var i = 0; i < slots.length; i++) {
+                        if (!slots[i].getAttribute('data-adsbygoogle-status')) {
+                            adsbygoogle.push({});
+                        }
+                    }
+                }
+
+                function loadAdSense() {
+                    if (loaded) return;
+                    loaded = true;
+                    var script = document.createElement('script');
+                    script.async = true;
+                    script.src = ADSENSE_SRC;
+                    script.crossOrigin = 'anonymous';
+                    script.onload = fillExistingSlots;
+                    document.head.appendChild(script);
+                }
+
+                function scheduleLoad() {
+                    if ('requestIdleCallback' in window) {
+                        requestIdleCallback(loadAdSense, { timeout: 2000 });
+                    } else {
+                        setTimeout(loadAdSense, 2000);
+                    }
+                }
+
+                if (document.readyState === 'complete') {
+                    scheduleLoad();
+                } else {
+                    window.addEventListener('load', scheduleLoad, { once: true });
+                }
+            })();
+        </script>
     </body>
 </html>

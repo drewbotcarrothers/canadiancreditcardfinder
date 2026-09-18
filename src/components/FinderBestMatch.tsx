@@ -1,4 +1,5 @@
 import { useCompare } from '../hooks/useCompare';
+import { CARD_IMAGE_HEIGHT, CARD_IMAGE_WIDTH } from '../lib/cardImage';
 import type { CreditCard } from '../lib/types';
 import { truncateText } from '../lib/utils';
 import CardImage from './CardImage';
@@ -39,12 +40,14 @@ export default function FinderBestMatch({ card, reason }: FinderBestMatchProps) 
                     className="relative block bg-gradient-to-br from-gray-100 via-gray-50 to-white rounded-xl border border-gray-100"
                 >
                     <div className="px-6 py-8">
-                        <div className="relative mx-auto w-full max-w-[280px] aspect-[1.586/1]">
+                        <div className="relative mx-auto w-full max-w-[280px] aspect-[250/200]">
                             <CardImage
                                 src={card.imageFile}
                                 alt={`${card.creditCardName} credit card`}
                                 fill
                                 priority
+                                width={CARD_IMAGE_WIDTH}
+                                height={CARD_IMAGE_HEIGHT}
                             />
                         </div>
                     </div>

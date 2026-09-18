@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { cardImageSrc, PLACEHOLDER_IMAGE_SRC } from '../lib/cardImage';
+import { CARD_IMAGE_HEIGHT, CARD_IMAGE_WIDTH, cardImageSrc, PLACEHOLDER_IMAGE_SRC } from '../lib/cardImage';
 
 interface CardImageProps {
     src: string;
@@ -54,14 +54,20 @@ export default function CardImage({ src, alt, fill, className, priority, width, 
         return <CardPlaceholder alt={alt} fill={fill} className={className} />;
     }
 
+    const imageWidth = width ?? CARD_IMAGE_WIDTH;
+    const imageHeight = height ?? CARD_IMAGE_HEIGHT;
+
     if (fill) {
         return (
             <img
                 src={imgSrc}
                 alt={alt}
+                width={imageWidth}
+                height={imageHeight}
                 className={`absolute inset-0 w-full h-full object-contain ${className ?? ''}`}
                 onError={handleError}
                 loading={priority ? 'eager' : 'lazy'}
+                fetchPriority={priority ? 'high' : undefined}
             />
         );
     }
@@ -70,11 +76,13 @@ export default function CardImage({ src, alt, fill, className, priority, width, 
         <img
             src={imgSrc}
             alt={alt}
-            width={width || 300}
-            height={height || 189}
+            width={imageWidth}
+            height={imageHeight}
             className={className}
+            style={{ aspectRatio: `${imageWidth} / ${imageHeight}` }}
             onError={handleError}
             loading={priority ? 'eager' : 'lazy'}
+            fetchPriority={priority ? 'high' : undefined}
         />
     );
 }
