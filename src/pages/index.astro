@@ -7,14 +7,16 @@ import {
     getUniqueIssuers,
     getUniqueRewardsPrograms,
 } from '../lib/data';
+import { toHomepageCard } from '../lib/homepage';
 import BrowseSections from '../components/BrowseSections.astro';
 
-const [cards, categories, issuers, rewardsPrograms] = await Promise.all([
+const [allCards, categories, issuers, rewardsPrograms] = await Promise.all([
     getCards(),
     getUniqueCategories(),
     getUniqueIssuers(),
     getUniqueRewardsPrograms(),
 ]);
+const cards = allCards.map(toHomepageCard);
 ---
 
 <BaseLayout

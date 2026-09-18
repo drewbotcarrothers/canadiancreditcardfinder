@@ -1,8 +1,8 @@
-import type { CreditCard } from '../lib/types';
+import type { HomepageCard } from '../lib/homepage';
 import CardItem from './CardItem';
 
 interface CardGridProps {
-    cards: CreditCard[];
+    cards: HomepageCard[];
 }
 
 export default function CardGrid({ cards }: CardGridProps) {
