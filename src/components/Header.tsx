@@ -40,6 +40,12 @@ export default function Header() {
                             Finder
                         </a>
                         <a
+                            href="/guides/"
+                            className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                        >
+                            Guides
+                        </a>
+                        <a
                             href="/compare/"
                             className="text-gray-600 hover:text-gray-900 font-medium transition-colors flex items-center"
                         >
@@ -83,6 +89,13 @@ export default function Header() {
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Finder
+                            </a>
+                            <a
+                                href="/guides/"
+                                className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Guides
                             </a>
                             <a
                                 href="/compare/"

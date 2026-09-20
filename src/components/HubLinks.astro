@@ -26,6 +26,9 @@ const activePillClass =
     <a href="/compare/" class={pillClass}>
         Compare
     </a>
+    <a href="/guides/" class={pillClass}>
+        Guides
+    </a>
     {HUBS.map((hub) =>
         hub.slug === currentSlug ? (
             <span class={activePillClass}>{hub.navLabel}</span>

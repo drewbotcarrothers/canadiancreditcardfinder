@@ -1,0 +1,158 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import CardGrid from '../../components/CardGrid';
+import HubLinks from '../../components/HubLinks.astro';
+import { getCardsBySlugs } from '../../lib/data';
+import { GUIDE_DISCLAIMER, getGuides, type GuideEntry } from '../../lib/guides';
+import { toHomepageCard } from '../../lib/homepage';
+import { render } from 'astro:content';
+
+export async function getStaticPaths() {
+    const guides = await getGuides();
+    return guides.map((guide) => ({
+        params: { slug: guide.id },
+        props: { guide },
+    }));
+}
+
+interface Props {
+    guide: GuideEntry;
+}
+
+const { guide } = Astro.props;
+const { Content } = await render(guide);
+const relatedCards = await getCardsBySlugs(guide.data.relatedCardSlugs);
+
+if (relatedCards.length !== guide.data.relatedCardSlugs.length) {
+    const found = new Set(relatedCards.map((card) => card.slug));
+    const missing = guide.data.relatedCardSlugs.filter((slug) => !found.has(slug));
+    throw new Error(`Guide "${guide.id}" links to unknown card slugs: ${missing.join(', ')}`);
+}
+
+const publishedAt = guide.data.publishedAt;
+const updatedAt = guide.data.updatedAt ?? publishedAt;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const title = `${guide.data.title} | Canadian Credit Card Finder`;
+const dateOptions: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
+
+const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: guide.data.title,
+    description: guide.data.description,
+    keywords: guide.data.primaryKeyword,
+    datePublished: publishedAt.toISOString(),
+    dateModified: updatedAt.toISOString(),
+    url: canonical,
+    mainEntityOfPage: canonical,
+    inLanguage: 'en-CA',
+    author: {
+        '@type': 'Organization',
+        name: 'Canadian Credit Card Finder',
+        url: new URL('/', Astro.site).href,
+    },
+    publisher: {
+        '@type': 'Organization',
+        name: 'Canadian Credit Card Finder',
+        url: new URL('/', Astro.site).href,
+    },
+};
+---
+
+<BaseLayout title={title} description={guide.data.description}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">Home</a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li>
+                    <a href="/guides/" class="text-gray-500 hover:text-red-600 transition-colors">
+                        Guides
+                    </a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">{guide.data.title}</li>
+            </ol>
+        </nav>
+
+        <article>
+            <header class="mb-8 max-w-3xl">
+                <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                    {guide.data.title}
+                </h1>
+                <p class="text-lg text-gray-600 leading-relaxed mb-4">
+                    {guide.data.excerpt}
+                </p>
+                <p class="text-sm text-gray-500">
+                    Updated {updatedAt.toLocaleDateString('en-CA', dateOptions)}
+                </p>
+            </header>
+
+            <div class="bg-white rounded-2xl shadow-md p-6 lg:p-10 mb-10">
+                <div class="guide-prose">
+                    <Content />
+                </div>
+            </div>
+        </article>
+
+        <section class="mb-10" aria-labelledby="guide-related-cards-heading">
+            <h2 id="guide-related-cards-heading" class="text-2xl font-bold text-gray-900 mb-4">
+                Cards mentioned in this guide
+            </h2>
+            <p class="text-gray-600 mb-6 max-w-3xl">
+                Fees, welcome bonuses, and earn rates live on these pages. Open a card before you apply.
+            </p>
+            <CardGrid client:load cards={relatedCards.map(toHomepageCard)} />
+        </section>
+
+        <section class="mb-10" aria-labelledby="guide-hubs-heading">
+            <h2 id="guide-hubs-heading" class="text-lg font-semibold text-gray-900 mb-4">
+                Related hubs
+            </h2>
+            <nav class="flex flex-wrap gap-2" aria-label="Guide hub links">
+                {
+                    guide.data.hubLinks.map((hub) => (
+                        <a
+                            href={hub.href}
+                            class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                        >
+                            {hub.label}
+                        </a>
+                    ))
+                }
+            </nav>
+        </section>
+
+        <section
+            class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 lg:p-12 text-center text-white mb-10"
+        >
+            <h2 class="text-2xl lg:text-3xl font-bold mb-4">Compare cards for your spend</h2>
+            <p class="text-gray-300 mb-6 max-w-2xl mx-auto">
+                Use the finder if you want a short list from our live Canadian catalog, then read the
+                full card pages before you apply.
+            </p>
+            <a
+                href="/finder/"
+                class="inline-block bg-red-600 hover:bg-red-700 text-white py-3 px-8 rounded-lg font-semibold transition-colors"
+            >
+                Open the finder
+            </a>
+        </section>
+
+        <aside class="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-10">
+            <p class="text-sm text-gray-600 leading-relaxed">
+                <strong class="text-gray-800">Disclaimer:</strong>
+                {GUIDE_DISCLAIMER}
+            </p>
+        </aside>
+
+        <section>
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">More ways to browse</h2>
+            <HubLinks showIssuers />
+        </section>
+
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    </div>
+</BaseLayout>
