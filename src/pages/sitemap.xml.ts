@@ -1,10 +1,11 @@
 import type { APIRoute } from 'astro';
 import { getCards } from '../lib/data';
+import { getGuides, guidePath } from '../lib/guides';
 import { HUBS } from '../lib/hubs';
 import { ISSUER_HUBS } from '../lib/issuers';
 
 export const GET: APIRoute = async ({ site }) => {
-    const cards = await getCards();
+    const [cards, guides] = await Promise.all([getCards(), getGuides()]);
     const baseUrl = (site?.origin || 'https://canadiancreditcardfinder.com').replace(/\/$/, '');
     const lastModified = new Date().toISOString();
 
@@ -12,6 +13,7 @@ export const GET: APIRoute = async ({ site }) => {
         { loc: `${baseUrl}/`, changefreq: 'daily', priority: '1.0' },
         { loc: `${baseUrl}/finder/`, changefreq: 'weekly', priority: '0.9' },
         { loc: `${baseUrl}/compare/`, changefreq: 'weekly', priority: '0.9' },
+        { loc: `${baseUrl}/guides/`, changefreq: 'weekly', priority: '0.9' },
         ...HUBS.map((hub) => ({
             loc: `${baseUrl}/best/${hub.slug}/`,
             changefreq: 'weekly',
@@ -21,6 +23,11 @@ export const GET: APIRoute = async ({ site }) => {
             loc: `${baseUrl}/issuer/${hub.slug}/`,
             changefreq: 'weekly',
             priority: '0.9',
+        })),
+        ...guides.map((guide) => ({
+            loc: `${baseUrl}${guidePath(guide)}`,
+            changefreq: 'weekly',
+            priority: '0.8',
         })),
         ...cards.map((card) => ({
             loc: `${baseUrl}/card/${card.slug}/`,
