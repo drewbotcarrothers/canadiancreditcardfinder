@@ -35,6 +35,7 @@ src/
 public/
   images/           # Logo and card images
   ads.txt
+  robots.txt
 ```
 
 ## Deploy

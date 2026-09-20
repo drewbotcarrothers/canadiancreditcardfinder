@@ -22,6 +22,7 @@ The production output includes:
 * `compare/index.html` — compare page
 * `card/<slug>/index.html` — individual card pages (trailing-slash URLs)
 * `sitemap.xml`
+* `robots.txt`
 * `_astro/` — hashed CSS and JS
 * `images/` — logo and card images
 * `ads.txt`
