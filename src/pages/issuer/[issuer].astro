@@ -2,7 +2,9 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
+import RelatedGuide from '../../components/RelatedGuide.astro';
 import { getCardsForIssuerHub } from '../../lib/data';
+import { getRelatedGuidesForIssuer } from '../../lib/guides';
 import { getIssuerHubBySlug, getIssuerHubSlugs, isIssuerHubSlug } from '../../lib/issuers';
 
 export async function getStaticPaths() {
@@ -19,6 +21,7 @@ if (!issuer || !isIssuerHubSlug(issuer)) {
 
 const hub = getIssuerHubBySlug(issuer);
 const hubCards = await getCardsForIssuerHub(issuer);
+const relatedGuides = await getRelatedGuidesForIssuer(issuer);
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
 const jsonLd = {
@@ -62,6 +65,8 @@ const jsonLd = {
                 {hub.intro}
             </p>
         </header>
+
+        <RelatedGuide guides={relatedGuides} />
 
         <div class="mb-8">
             <HubLinks currentIssuerSlug={hub.slug} showIssuers />

@@ -1,0 +1,42 @@
+---
+import { guidePath, type GuideEntry } from '../lib/guides';
+
+interface Props {
+    guides: GuideEntry[];
+    heading?: string;
+}
+
+const { guides, heading } = Astro.props;
+const title = heading ?? (guides.length === 1 ? 'Related guide' : 'Related guides');
+---
+
+{
+    guides.length > 0 && (
+        <section class="mb-8" aria-labelledby="related-guide-heading">
+            <h2 id="related-guide-heading" class="text-lg font-semibold text-gray-900 mb-4">
+                {title}
+            </h2>
+            <div class:list={[guides.length > 1 && 'grid grid-cols-1 md:grid-cols-2 gap-4']}>
+                {guides.map((guide) => (
+                    <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all card-hover">
+                        <h3 class="text-xl font-bold text-gray-900 mb-2">
+                            <a href={guidePath(guide)} class="hover:text-red-600 transition-colors">
+                                {guide.data.title}
+                            </a>
+                        </h3>
+                        <p class="text-gray-600 leading-relaxed mb-4">{guide.data.excerpt}</p>
+                        <a
+                            href={guidePath(guide)}
+                            class="inline-flex items-center font-semibold text-red-600 hover:text-red-700 transition-colors"
+                        >
+                            Read the guide
+                            <span aria-hidden="true" class="ml-1">
+                                →
+                            </span>
+                        </a>
+                    </article>
+                ))}
+            </div>
+        </section>
+    )
+}
