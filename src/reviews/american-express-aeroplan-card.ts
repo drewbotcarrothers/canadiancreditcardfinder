@@ -30,7 +30,7 @@ const review: CardEditorialReview = {
     ],
     cons: [
         '1x on “everything else” is ordinary. Groceries, gas, and retail need a second card if you care about earn.',
-        'The purchase and cash-advance rates in our data are high even by Canadian card standards. This is a pay-in-full card.',
+        'This is a charge card: the balance must be paid in full each month. Amex publishes a 30% annual interest rate on balances not paid in full — treat it as pay-in-full, not a revolving card.',
         'No insurance block is filled in on the current sheet, so do not assume travel medical coverage. Check the issuer guide before you fly.',
         'American Express merchant acceptance still forces a backup card for some Canadian grocers, clinics, and online checkouts.',
         'Part of the welcome bonus currently sits in month 13, which is a long time to keep a card you might otherwise cancel.',
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Aeroplan points, not Membership Rewards. Eligible purchases made directly with Air Canada and Air Canada Vacations earn 2x. Eligible dining and food delivery in Canada earns 1.5x. Everything else earns 1x. Points can be used for Air Canada flights (including partner award charts that cover a much wider map than Air Canada’s own metal), and the current features also mention merchandise, gift cards, hotels, cars, and vacation packages. Flight rewards are usually where Aeroplan earns its reputation. Preferred pricing for Basic Cardmembers, when it applies, can reduce the points needed on some Air Canada reward seats — confirm that in your Aeroplan account at booking time. If you would rather have points that are not tied to one airline group, look at [Gold Rewards](/card/american-express-gold-rewards-card/) instead.',
     welcomeBonus:
-        'The current offer in our data is split: a main Aeroplan deposit after a first-three-months spend requirement, then a smaller deposit if you spend again in month 13. That second chunk is a retention hook. Current or former cardmembers with this card are not eligible for the listed offers. If you recently held an American Express Aeroplan Card, assume you will get the earn rates and not the bonus unless the live terms say otherwise. Hit the spend with planned travel and everyday bills, not manufactured spend.',
+        'The current Amex offer (verified 2026-10-03 on americanexpress.com compare-cards) is split: 35,000 Aeroplan points after spending $7,500 within the first 6 months, then an additional 10,000 points if you spend $1,000 in month 13. That second chunk is a retention hook. Current or former cardmembers with this card are not eligible for the listed offers. If you recently held an American Express Aeroplan Card, assume you will get the earn rates and not the bonus unless the live terms say otherwise. Hit the spend with planned travel and everyday bills, not manufactured spend.',
     faqs: [
         {
             question: 'Is the American Express Aeroplan Card worth it?',
