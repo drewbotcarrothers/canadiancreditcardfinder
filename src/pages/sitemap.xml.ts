@@ -1,7 +1,7 @@
 import type { APIRoute } from 'astro';
 import { getCards } from '../lib/data';
 import { getGuides, guidePath } from '../lib/guides';
-import { HUBS } from '../lib/hubs';
+import { INDEXABLE_HUBS } from '../lib/hubs';
 import { ISSUER_HUBS } from '../lib/issuers';
 
 export const GET: APIRoute = async ({ site }) => {
@@ -14,7 +14,8 @@ export const GET: APIRoute = async ({ site }) => {
         { loc: `${baseUrl}/finder/`, changefreq: 'weekly', priority: '0.9' },
         { loc: `${baseUrl}/compare/`, changefreq: 'weekly', priority: '0.9' },
         { loc: `${baseUrl}/guides/`, changefreq: 'weekly', priority: '0.9' },
-        ...HUBS.map((hub) => ({
+        // Redirected hubs (e.g. /best/us-dollar/) are excluded: they 301 to their guide.
+        ...INDEXABLE_HUBS.map((hub) => ({
             loc: `${baseUrl}/best/${hub.slug}/`,
             changefreq: 'weekly',
             priority: '0.9',

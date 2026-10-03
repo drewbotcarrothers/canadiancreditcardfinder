@@ -26,6 +26,7 @@ The production output includes:
 * `_astro/` — hashed CSS and JS
 * `images/` — logo and card images
 * `ads.txt`
+* `.htaccess` — 301s `www` → `https://canadiancreditcardfinder.com` and retired URLs (e.g. `/best/us-dollar/` → the USD guide). It is a dotfile: if you upload manually, make sure hidden files are shown/uploaded. It replaces any `.htaccess` already in `public_html`.
 
 ## Manual upload (optional)
 

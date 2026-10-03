@@ -1,0 +1,24 @@
+# Canadian Credit Card Finder - Apache/LiteSpeed rules (Hostinger).
+# Astro copies this file to dist/.htaccess; Hostinger publishes dist/ to public_html.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # 1) www -> apex, always on https (one hop, works for http:// and https:// www).
+    RewriteCond %{HTTP_HOST} ^www\.canadiancreditcardfinder\.com$ [NC]
+    RewriteRule ^(.*)$ https://canadiancreditcardfinder.com/$1 [R=301,L]
+
+    # 2) http -> https on the apex is already enforced by Hostinger's edge (hcdn returns
+    #    301 http://canadiancreditcardfinder.com/* -> https://... before the origin), so it
+    #    is intentionally not repeated here: the edge may reach the origin over plain http,
+    #    and an origin-side %{HTTPS} check could then loop. If Hostinger's "Force HTTPS"
+    #    is ever turned off, re-enable it there (hPanel > Security > SSL) rather than here.
+
+    # 3) Consolidated hub pages (keep in sync with redirectTo in src/lib/hubs.ts).
+    #    /best/us-dollar and /best/us-dollar/ (and anything below) -> USD guide.
+    RewriteRule ^best/us-dollar(/.*)?$ https://canadiancreditcardfinder.com/guides/best-us-dollar-credit-cards-canada/ [R=301,L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    RedirectMatch 301 ^/best/us-dollar(/.*)?$ https://canadiancreditcardfinder.com/guides/best-us-dollar-credit-cards-canada/
+</IfModule>
