@@ -9,4 +9,4 @@ export const LEGAL_LAST_UPDATED_ISO = '2026-10-04';
 export const SITE_NAME = 'Canadian Credit Card Finder';
 export const SITE_DOMAIN = 'canadiancreditcardfinder.com';
 export const OPERATOR_NAME = 'Andrew';
-export const CONTACT_EMAIL = 'TODO-replace-me@example.com';
+export const CONTACT_EMAIL = 'contact@canadiancreditcardfinder.com';
