@@ -34,6 +34,8 @@ export const GET: APIRoute = async ({ site }) => {
             changefreq: 'weekly',
             priority: '0.8',
         })),
+        { loc: `${baseUrl}/privacy/`, changefreq: 'yearly', priority: '0.3' },
+        { loc: `${baseUrl}/terms/`, changefreq: 'yearly', priority: '0.3' },
     ];
 
     const body = `<?xml version="1.0" encoding="UTF-8"?>
