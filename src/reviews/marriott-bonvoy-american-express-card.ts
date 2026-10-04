@@ -60,7 +60,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does the Marriott Bonvoy Amex charge foreign-exchange fees?',
             answer:
-                'Canadian American Express personal cards are often compared as kinder on foreign-currency purchases than typical bank Visas, but confirm the cardmember agreement. You will still need a Visa or Mastercard where hotels or restaurants abroad skip Amex.',
+                'Assume yes. American Express Canada’s cardmember agreements add a currency conversion commission on purchases in other currencies, at the rate set out in the card’s information box. Treat this as a card that charges FX and confirm the current rate before a trip. You will still need a Visa or Mastercard where hotels or restaurants abroad skip Amex.',
         },
         {
             question: 'Marriott Bonvoy vs an airline cobrand?',

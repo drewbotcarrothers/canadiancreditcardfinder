@@ -66,7 +66,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Infinite Privilege cards add a foreign-conversion fee on foreign-currency purchases. Aventura Privilege is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm CIBC’s current FX rate in the agreement.',
+                'Most Canadian Visa Infinite Privilege cards add a foreign-conversion fee on foreign-currency purchases. Aventura Privilege is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm CIBC’s current FX rate in the agreement.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries', 'premium'],

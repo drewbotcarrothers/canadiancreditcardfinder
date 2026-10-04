@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian World Mastercards add a foreign-conversion fee on foreign-currency purchases. Our features highlight LoungeKey and insurance, not a no-FX policy. For overseas spend, compare Passport Infinite or an American Express personal card, and confirm National Bank’s current FX rate in the agreement.',
+                'Most Canadian World Mastercards add a foreign-conversion fee on foreign-currency purchases. Our features highlight LoungeKey and insurance, not a no-FX policy. For overseas spend, compare Passport Infinite, and confirm National Bank’s current FX rate in the agreement.',
         },
     ],
     extraHubSlugs: ['travel'],

@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian World Elite Mastercards add a foreign-conversion fee on foreign-currency purchases. This is a WestJet cobrand, not a no-FX card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm RBC’s current FX rate in the agreement.',
+                'Most Canadian World Elite Mastercards add a foreign-conversion fee on foreign-currency purchases. This is a WestJet cobrand, not a no-FX card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm RBC’s current FX rate in the agreement.',
         },
         {
             question: 'WestJet RBC World Elite vs RBC Avion Visa Infinite?',

@@ -60,12 +60,12 @@ const review: CardEditorialReview = {
         {
             question: 'CIBC Aeroplan Visa vs American Express Aeroplan?',
             answer:
-                'CIBC wins on Visa acceptance, a $0 fee in our data, and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) typically wins on dining earn and Amex FX treatment, with weaker grocery coverage and a fee. If Visa at the supermarket is the constraint and Infinite income is not in reach, this $0 cobrand is the CIBC door.',
+                'CIBC wins on Visa acceptance, a $0 fee in our data, and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) typically wins on dining earn, with weaker grocery coverage and a fee. If Visa at the supermarket is the constraint and Infinite income is not in reach, this $0 cobrand is the CIBC door.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Visas add a foreign-conversion fee on foreign-currency transactions. This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm CIBC’s current FX rate in the agreement.',
+                'Most Canadian no-fee Visas add a foreign-conversion fee on foreign-currency transactions. This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm CIBC’s current FX rate in the agreement.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries', 'no-annual-fee'],

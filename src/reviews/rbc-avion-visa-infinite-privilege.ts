@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Infinite Privilege cards still add a foreign-conversion fee on foreign-currency purchases. Privilege is not marketed as a no-FX card in our features. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm RBC’s current FX rate in the agreement.',
+                'Most Canadian Visa Infinite Privilege cards still add a foreign-conversion fee on foreign-currency purchases. Privilege is not marketed as a no-FX card in our features. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm RBC’s current FX rate in the agreement.',
         },
         {
             question: 'Avion Infinite Privilege vs The Platinum Card?',

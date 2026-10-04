@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Canadian American Express personal cards typically do not add a separate foreign-transaction fee. That helps on overseas spend where Amex is accepted. Confirm the current agreement, and carry a Visa or Mastercard for the rest of the trip.',
+                'Assume yes. American Express Canada’s cardmember agreements add a currency conversion commission on purchases in other currencies, at the rate set out in the card’s information box. Treat this as a card that charges FX and confirm the current rate before a trip. For heavy overseas spend, a no-FX card such as [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) is the better trip card, and you will want a Visa or Mastercard where Amex is not accepted anyway.',
         },
         {
             question: 'American Express Aeroplan vs TD Aeroplan Visa Infinite?',

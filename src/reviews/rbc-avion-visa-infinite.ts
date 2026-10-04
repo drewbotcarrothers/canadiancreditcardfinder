@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does the RBC Avion Visa Infinite charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Infinite cards add a foreign-conversion fee on foreign-currency purchases. This Avion card is not marketed as a no-FX product. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm RBC’s current FX rate in the cardmember agreement.',
+                'Most Canadian Visa Infinite cards add a foreign-conversion fee on foreign-currency purchases. This Avion card is not marketed as a no-FX product. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm RBC’s current FX rate in the cardmember agreement.',
         },
         {
             question: 'RBC Avion Visa Infinite vs Infinite Privilege?',

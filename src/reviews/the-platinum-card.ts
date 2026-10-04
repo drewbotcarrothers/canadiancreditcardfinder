@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does The Platinum Card have foreign-exchange fees?',
             answer:
-                'Canadian American Express personal cards typically do not add a separate foreign-transaction fee. Platinum is often used abroad for that reason, together with lounge access. Always confirm the current agreement, and keep a backup Visa or Mastercard for merchants that do not take Amex.',
+                'Assume yes. American Express Canada’s cardmember agreements add a currency conversion commission on purchases in other currencies, at the rate set out in the card’s information box. Treat this as a card that charges FX and confirm the current rate before a trip. Platinum earns its keep abroad through lounges and travel benefits, not FX savings; keep a no-FX Visa or Mastercard for big foreign-currency purchases and merchants that do not take Amex.',
         },
         {
             question: 'Platinum vs American Express Aeroplan Reserve?',
