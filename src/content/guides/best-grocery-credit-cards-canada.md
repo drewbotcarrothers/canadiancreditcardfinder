@@ -1,7 +1,7 @@
 ---
 title: "Best Credit Cards for Groceries in Canada"
 description: "Best grocery credit cards in Canada for 2026: Amex Gold vs Cobalt, PC Optimum, Scene+ at Sobeys, Tangerine, Costco, and when a 4% Visa Infinite is worth the fee."
-excerpt: "Match the card to the banner you already shop. Gold Rewards and grocery Visas win supermarkets; Cobalt wins dining; Optimum and Scene+ only pay at their stores."
+excerpt: "Match the card to the banner you already shop. Gold Rewards wins uncapped supermarket earn; Cobalt’s 5x includes stand-alone grocery inside a monthly cap; Optimum and Scene+ only pay at their stores."
 primaryKeyword: "best grocery credit card canada"
 publishedAt: 2026-09-20
 sortOrder: 7
@@ -14,9 +14,9 @@ relatedCardSlugs:
   - tangerine-money-back-credit-card
 ---
 
-**The best grocery credit card in Canada is the one that pays extra at the banner you already use, on a network that banner accepts.** If you shop a supermarket that takes American Express, [Gold Rewards](/card/american-express-gold-rewards-card/) is the Membership Rewards grocery card (2x on eligible grocery, gas, and drugstore in our review). If you shop Loblaws-family stores, a $0 [PC World Elite Mastercard](/card/pc-world-elite-mastercard/) (if you meet the income test) keeps earning in PC Optimum. If you shop Sobeys, Safeway, FreshCo, or Foodland and will pay an Amex fee — or get it waived with a Scotia account — [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/) is the 6x Scene+ grocery specialist in our current features. If you want simple cash and Mastercard acceptance, [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) with grocery selected is the $0 default.
+**The best grocery credit card in Canada is the one that pays extra at the banner you already use, on a network that banner accepts.** If you shop a supermarket that takes American Express, [Gold Rewards](/card/american-express-gold-rewards-card/) is the uncapped Membership Rewards grocery card (2x on eligible grocery, gas, and drugstore). [Cobalt](/card/american-express-cobalt-card/) also pays 5x at stand-alone grocery stores, shared with dining and delivery up to $2,500 a month. If you shop Loblaws-family stores, a $0 [PC World Elite Mastercard](/card/pc-world-elite-mastercard/) (if you meet the income test) keeps earning in PC Optimum. If you shop Sobeys, Safeway, FreshCo, or Foodland and will pay an Amex fee — or get it waived with a Scotia account — [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/) is the 6x Scene+ grocery specialist in our current features. If you want simple cash and Mastercard acceptance, [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) with grocery selected is the $0 default.
 
-[Cobalt](/card/american-express-cobalt-card/) is not a grocery card. It is a dining card. That mix-up is the most expensive error in this category. Details sit in [Cobalt vs Gold Rewards](/guides/amex-cobalt-vs-gold-rewards/).
+The mix-up is treating Cobalt’s stand-alone grocery 5x as ordinary 1x, or treating that 5x as uncapped. The $2,500 combined monthly cap is shared with dining and delivery; above it, those purchases earn 1x. Details sit in [Cobalt vs Gold Rewards](/guides/amex-cobalt-vs-gold-rewards/).
 
 Browse the live set on the [grocery hub](/best/groceries/). Confirm every multiplier and cap on the card page.
 
