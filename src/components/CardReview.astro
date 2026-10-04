@@ -1,7 +1,7 @@
 ---
 import type { CreditCard } from '../lib/types';
 import type { CardEditorialReview } from '../reviews/types';
-import type { HubDefinition } from '../lib/hubs';
+import { hubPath, type HubDefinition } from '../lib/hubs';
 import type { IssuerHubDefinition } from '../lib/issuers';
 import { renderInlineMarkdown, renderMarkdownParagraphs } from '../lib/inlineMarkdown';
 import { estimateWelcomeFeeMath } from '../lib/reviewMath';
@@ -173,7 +173,7 @@ const math = estimateWelcomeFeeMath(card);
                 )}
                 {hubs.map((hub) => (
                     <a
-                        href={`/best/${hub.slug}/`}
+                        href={hubPath(hub)}
                         class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
                     >
                         Best {hub.navLabel.toLowerCase()} cards

@@ -5,8 +5,11 @@ excerpt: "A USD-billed Canadian card is worth it when you already keep a U.S. do
 primaryKeyword: "best us dollar credit card canada"
 publishedAt: 2026-09-20
 sortOrder: 9
+updatedAt: 2026-10-03
+hubCardList: us-dollar
 hubLinks:
-  - { href: "/best/us-dollar/", label: "Best U.S. dollar cards" }
+  - { href: "/best/travel/", label: "Best travel cards" }
+  - { href: "/best/premium/", label: "Best premium cards" }
 relatedCardSlugs:
   - td-u-s-dollar-visa-card
   - bmo-u-s-dollar-mastercard
@@ -18,7 +21,7 @@ relatedCardSlugs:
 
 If you do **not** have a USD account, you will still convert CAD when you pay the bill. The card did not make USD “free.” If your foreign spend is euros or sterling, this product class is the wrong tool — use a no-FX CAD card such as [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) instead. See [how to choose a travel card](/guides/how-to-choose-travel-credit-card-canada/).
 
-The live inventory is on the [U.S. dollar hub](/best/us-dollar/). Fees are often quoted in **USD**. Do not compare a $39 USD fee to a $120 CAD fee without converting.
+Every U.S. dollar card in our data is listed [further down this page](#all-us-dollar-cards). Fees are often quoted in **USD**. Do not compare a $39 USD fee to a $120 CAD fee without converting.
 
 ## CAD card with FX versus USD billing versus paying cash
 
@@ -92,6 +95,6 @@ Euro side trips on a USD card still convert. One card cannot be the only foreign
 
 ## What to do next
 
-Open the [U.S. dollar hub](/best/us-dollar/) and the USD card at the bank where you already keep dollars. If you do not keep dollars, read the [travel guide](/guides/how-to-choose-travel-credit-card-canada/) and consider Passport or CAD Amex instead. The [finder](/finder/) can still help if USD billing is only one of several constraints.
+Check the [full U.S. dollar card list](#all-us-dollar-cards) below and the USD card at the bank where you already keep dollars. If you do not keep dollars, read the [travel guide](/guides/how-to-choose-travel-credit-card-canada/) and consider Passport or CAD Amex instead. The [finder](/finder/) can still help if USD billing is only one of several constraints.
 
 Fees are in USD unless the page says otherwise. Offers change. This is not financial advice. Verify funding rules with the issuer.

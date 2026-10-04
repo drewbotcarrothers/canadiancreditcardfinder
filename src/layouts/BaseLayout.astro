@@ -50,17 +50,22 @@ const ogImage = new URL(image, Astro.site).href;
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
             rel="stylesheet"
         />
-        <script
-            is:inline
-            async
-            src="https://www.googletagmanager.com/gtag/js?id=G-L2C4VZJVWC"></script>
         <script is:inline>
+            // Only load GA4 on the production hostname. Skips localhost, 127.0.0.1,
+            // www, preview/staging hosts, and file:// so dev hits never reach GA4.
+            window.__CCCF_IS_PROD__ = window.location.hostname === 'canadiancreditcardfinder.com';
             window.dataLayer = window.dataLayer || [];
             function gtag() {
                 dataLayer.push(arguments);
             }
-            gtag('js', new Date());
-            gtag('config', 'G-L2C4VZJVWC');
+            if (window.__CCCF_IS_PROD__) {
+                var gaScript = document.createElement('script');
+                gaScript.async = true;
+                gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-L2C4VZJVWC';
+                document.head.appendChild(gaScript);
+                gtag('js', new Date());
+                gtag('config', 'G-L2C4VZJVWC');
+            }
         </script>
         <style is:global>
             :root {
@@ -76,6 +81,8 @@ const ogImage = new URL(image, Astro.site).href;
         <Footer />
         <script is:inline>
             (function () {
+                // AdSense is production-only too (see GA4 guard in <head>).
+                if (!window.__CCCF_IS_PROD__) return;
                 var ADSENSE_CLIENT = 'ca-pub-7909541570116920';
                 var ADSENSE_SRC =
                     'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' +

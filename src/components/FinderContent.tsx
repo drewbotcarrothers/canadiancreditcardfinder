@@ -1,5 +1,5 @@
 import { useMemo, useState } from 'react';
-import { HUBS, type HubSlug } from '../lib/hubs';
+import { HUBS, hubPath, type HubSlug } from '../lib/hubs';
 import {
     applyFinderAnswer,
     FINDER_QUESTIONS,
@@ -252,7 +252,7 @@ function RelatedHubs({ hubs }: { hubs: HubSlug[] }) {
                 {related.map((hub) => (
                     <a
                         key={hub.slug}
-                        href={`/best/${hub.slug}/`}
+                        href={hubPath(hub)}
                         className="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
                     >
                         {hub.navLabel}

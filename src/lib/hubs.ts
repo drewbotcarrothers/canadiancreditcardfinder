@@ -22,6 +22,11 @@ export interface HubDefinition {
     intro: string;
     navLabel: string;
     teaser: string;
+    /**
+     * When set, this hub no longer has its own /best/<slug>/ page. Links point here instead,
+     * the page is not generated or listed in the sitemap, and public/.htaccess 301s the old URL.
+     */
+    redirectTo?: string;
 }
 
 const KNOWN_CATEGORY = /^(rewards|cash\s*back|cashback|travel|low\s*interest|student|us)$/i;
@@ -91,14 +96,14 @@ export const HUBS: HubDefinition[] = [
     },
     {
         slug: 'rewards',
-        title: 'Best Rewards Credit Cards in Canada (2026) | Canadian Credit Card Finder',
-        h1: 'Best Rewards Credit Cards in Canada (2026)',
+        title: 'Compare Credit Card Rewards in Canada (2026) | Best Rewards Cards',
+        h1: 'Compare Credit Card Rewards in Canada: Best Rewards Cards (2026)',
         description:
-            'Compare the best rewards credit cards in Canada for 2026. See points cards, welcome bonuses, annual fees, and full reviews.',
+            'Compare credit card rewards in Canada side by side: Membership Rewards, Scene+, Avion, Aventura, and PC Optimum earn rates, welcome bonuses, and annual fees for 2026.',
         intro:
-            'Rewards credit cards earn points you can redeem for travel, merchandise, or statement credits, rather than automatic cash back. In Canada that includes Membership Rewards, Scene+, Avion, Aventura, and store programs such as PC Optimum. Compare welcome bonuses, annual fees, and whether you will actually use the redemption options. This list includes cards in our data whose category is rewards.',
+            'Use this page to compare credit card rewards in Canada in one place. Rewards credit cards earn points you can redeem for travel, merchandise, or statement credits, rather than automatic cash back. In Canada that includes Membership Rewards, Scene+, Avion, Aventura, and store programs such as PC Optimum. Compare earn rates, welcome bonuses, annual fees, and whether you will actually use the redemption options. This list includes cards in our data whose category is rewards.',
         navLabel: 'Rewards',
-        teaser: 'Points you can redeem for travel or everyday purchases',
+        teaser: 'Compare points cards for travel or everyday purchases',
     },
     {
         slug: 'groceries',
@@ -132,6 +137,8 @@ export const HUBS: HubDefinition[] = [
             'U.S. dollar credit cards issued in Canada bill in USD, which can reduce conversion fees when you spend with U.S. merchants. You typically need a U.S. dollar bank account to pay the statement. Compare annual fees, rewards, and whether the card is worth it for how often you pay in USD. The cards below currently list US as the category in our data.',
         navLabel: 'U.S. Dollar',
         teaser: 'USD billing for U.S. spending from Canada',
+        // Consolidated into the guide to stop keyword cannibalization on "us dollar credit card".
+        redirectTo: '/guides/best-us-dollar-credit-cards-canada/',
     },
     {
         slug: 'premium',
@@ -146,6 +153,19 @@ export const HUBS: HubDefinition[] = [
     },
 ];
 
+/** Public URL for a hub: its own /best/<slug>/ page, or the page it was consolidated into. */
+export function hubPath(hub: Pick<HubDefinition, 'slug' | 'redirectTo'>): string {
+    return hub.redirectTo ?? `/best/${hub.slug}/`;
+}
+
+/** Hubs that still render their own /best/<slug>/ page (excludes redirected hubs). */
+export const INDEXABLE_HUBS: HubDefinition[] = HUBS.filter((hub) => !hub.redirectTo);
+
+/** Old hub URL → new URL, for redirect config. */
+export const HUB_REDIRECTS: Record<string, string> = Object.fromEntries(
+    HUBS.filter((hub) => hub.redirectTo).map((hub) => [`/best/${hub.slug}/`, hub.redirectTo as string])
+);
+
 const hubsBySlug = Object.fromEntries(HUBS.map((hub) => [hub.slug, hub])) as Record<
     HubSlug,
     HubDefinition
@@ -157,6 +177,11 @@ export function isHubSlug(value: string): value is HubSlug {
 
 export function getHubSlugs(): HubSlug[] {
     return [...HUB_SLUGS];
+}
+
+/** Hub slugs that render their own /best/<slug>/ page. */
+export function getIndexableHubSlugs(): HubSlug[] {
+    return INDEXABLE_HUBS.map((hub) => hub.slug);
 }
 
 export function getHubBySlug(slug: HubSlug): HubDefinition {

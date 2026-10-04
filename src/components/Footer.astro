@@ -1,5 +1,5 @@
 ---
-import { HUBS } from '../lib/hubs';
+import { HUBS, hubPath } from '../lib/hubs';
 import { ISSUER_HUBS } from '../lib/issuers';
 
 const currentYear = new Date().getFullYear();
@@ -61,7 +61,7 @@ const linkClass = 'text-gray-600 hover:text-red-600 transition-colors text-sm';
                 <ul class="grid grid-cols-2 gap-x-4 gap-y-2">
                     {HUBS.map((hub) => (
                         <li>
-                            <a href={`/best/${hub.slug}/`} class={linkClass}>
+                            <a href={hubPath(hub)} class={linkClass}>
                                 {hub.navLabel}
                             </a>
                         </li>

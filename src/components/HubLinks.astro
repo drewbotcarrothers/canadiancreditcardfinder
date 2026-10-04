@@ -1,5 +1,5 @@
 ---
-import { HUBS, type HubSlug } from '../lib/hubs';
+import { HUBS, hubPath, type HubSlug } from '../lib/hubs';
 import { ISSUER_HUBS, type IssuerHubSlug } from '../lib/issuers';
 
 interface Props {
@@ -33,7 +33,7 @@ const activePillClass =
         hub.slug === currentSlug ? (
             <span class={activePillClass}>{hub.navLabel}</span>
         ) : (
-            <a href={`/best/${hub.slug}/`} class={pillClass}>
+            <a href={hubPath(hub)} class={pillClass}>
                 {hub.navLabel}
             </a>
         )

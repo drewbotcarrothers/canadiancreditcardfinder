@@ -1,5 +1,5 @@
 ---
-import { HUBS, type HubSlug } from '../lib/hubs';
+import { HUBS, hubPath, type HubSlug } from '../lib/hubs';
 import { ISSUER_HUBS, type IssuerHubSlug } from '../lib/issuers';
 
 type IconPart =
@@ -93,7 +93,7 @@ const ISSUER_BADGES: Record<IssuerHubSlug, { label: string; bg: string }> = {
         {
             HUBS.map((hub) => (
                 <a
-                    href={`/best/${hub.slug}/`}
+                    href={hubPath(hub)}
                     class="group flex items-start gap-3 rounded-xl border border-gray-200 bg-gray-50 p-3.5 hover:border-red-600 hover:bg-white hover:shadow-md transition-all"
                 >
                     <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-white border border-gray-200 text-red-600 group-hover:border-red-200 group-hover:bg-red-50 transition-colors">

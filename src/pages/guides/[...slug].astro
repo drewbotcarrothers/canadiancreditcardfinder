@@ -2,7 +2,8 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
-import { getCardsBySlugs } from '../../lib/data';
+import { getCardsBySlugs, getCardsForHub } from '../../lib/data';
+import { getHubBySlug } from '../../lib/hubs';
 import { GUIDE_DISCLAIMER, getGuides, type GuideEntry } from '../../lib/guides';
 import { toHomepageCard } from '../../lib/homepage';
 import { render } from 'astro:content';
@@ -28,6 +29,10 @@ if (relatedCards.length !== guide.data.relatedCardSlugs.length) {
     const missing = guide.data.relatedCardSlugs.filter((slug) => !found.has(slug));
     throw new Error(`Guide "${guide.id}" links to unknown card slugs: ${missing.join(', ')}`);
 }
+
+const hubCardListSlug = guide.data.hubCardList;
+const hubCardListHub = hubCardListSlug ? getHubBySlug(hubCardListSlug) : null;
+const hubCardList = hubCardListSlug ? await getCardsForHub(hubCardListSlug) : [];
 
 const publishedAt = guide.data.publishedAt;
 const updatedAt = guide.data.updatedAt ?? publishedAt;
@@ -112,6 +117,23 @@ const jsonLd = {
             </p>
             <CardGrid client:load cards={relatedCards.map(toHomepageCard)} />
         </section>
+
+        {
+            hubCardListHub && hubCardList.length > 0 && (
+                <section id={`all-${hubCardListHub.slug}-cards`} class="mb-10 scroll-mt-24" aria-labelledby="guide-hub-list-heading">
+                    <h2 id="guide-hub-list-heading" class="text-2xl font-bold text-gray-900 mb-4">
+                        {hubCardListHub.h1.replace(/^Best /, 'All ').replace(/ \(\d{4}\)$/, '')}
+                    </h2>
+                    <p class="text-gray-600 mb-6 max-w-3xl">{hubCardListHub.intro}</p>
+                    <div class="bg-white rounded-xl shadow-md p-4 mb-6">
+                        <p class="text-gray-600">
+                            Showing <span class="font-semibold text-gray-900">{hubCardList.length}</span> cards
+                        </p>
+                    </div>
+                    <CardGrid client:load cards={hubCardList.map(toHomepageCard)} />
+                </section>
+            )
+        }
 
         <section class="mb-10" aria-labelledby="guide-hubs-heading">
             <h2 id="guide-hubs-heading" class="text-lg font-semibold text-gray-900 mb-4">
