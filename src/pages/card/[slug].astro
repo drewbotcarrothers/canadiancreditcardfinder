@@ -8,6 +8,7 @@ import { getCardEditorialReview, getReviewHubs } from '../../reviews';
 import { getCards, getCardsBySlugs, getRelatedCards } from '../../lib/data';
 import { getIssuerHubForName } from '../../lib/issuers';
 import { renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
+import { buildCardProductJsonLd } from '../../lib/productSchema';
 import type { CreditCard } from '../../lib/types';
 
 export async function getStaticPaths() {
@@ -38,23 +39,7 @@ const description = review
     ? review.metaDescription
     : `${card.creditCardName} from ${card.issuer}. Annual fee: ${card.annualFeeDisplay}. Interest: ${card.purchaseInterestRateDisplay}. ${card.welcomeBonus}. Compare and apply at Canadian Credit Card Finder.`;
 
-const productJsonLd = {
-    '@context': 'https://schema.org',
-    '@type': 'Product',
-    name: card.creditCardName,
-    description,
-    brand: {
-        '@type': 'Brand',
-        name: card.issuer,
-    },
-    category: 'Credit Card',
-    offers: {
-        '@type': 'Offer',
-        price: card.annualFee.toString(),
-        priceCurrency: 'CAD',
-        availability: 'https://schema.org/InStock',
-    },
-};
+const productJsonLd = buildCardProductJsonLd(card, Astro.site, description);
 
 const faqJsonLd =
     review && review.faqs.length > 0
