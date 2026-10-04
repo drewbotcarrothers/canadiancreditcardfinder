@@ -12,19 +12,35 @@ export default function Header() {
                 <div className="flex justify-between items-center h-16">
                     <a href="/" className="flex items-center shrink-0" aria-label="Canadian Credit Card Finder home">
                         <picture>
+                            {/* Very small phones (<300px): padded bear icon only, so the logo never crowds the menu button */}
                             <source
                                 type="image/webp"
-                                srcSet="/images/logo-lockup.webp 1x, /images/logo-lockup@2x.webp 2x"
+                                media="(max-width: 299px)"
+                                srcSet="/images/logo-icon-v2.webp 1x, /images/logo-icon-v2@2x.webp 2x"
+                                width={56}
+                                height={56}
+                            />
+                            <source
+                                media="(max-width: 299px)"
+                                srcSet="/images/logo-icon-v2.png 1x, /images/logo-icon-v2@2x.png 2x"
+                                width={56}
+                                height={56}
+                            />
+                            <source
+                                type="image/webp"
+                                srcSet="/images/logo-lockup-v2.webp 1x, /images/logo-lockup-v2@2x.webp 2x"
+                                width={344}
+                                height={56}
                             />
                             <img
-                                src="/images/logo-lockup.png"
-                                srcSet="/images/logo-lockup.png 1x, /images/logo-lockup@2x.png 2x"
+                                src="/images/logo-lockup-v2.png"
+                                srcSet="/images/logo-lockup-v2.png 1x, /images/logo-lockup-v2@2x.png 2x"
                                 alt="Canadian Credit Card Finder"
-                                width={212}
+                                width={344}
                                 height={56}
                                 fetchPriority="high"
                                 decoding="async"
-                                className="h-11 md:h-14 w-auto"
+                                className="h-10 max-[359px]:h-9 md:h-12 lg:h-14 w-auto"
                             />
                         </picture>
                     </a>
