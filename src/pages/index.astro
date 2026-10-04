@@ -17,12 +17,38 @@ const [allCards, categories, issuers, rewardsPrograms] = await Promise.all([
     getUniqueRewardsPrograms(),
 ]);
 const cards = allCards.map(toHomepageCard);
+const siteUrl = new URL('/', Astro.site).href;
+const siteJsonLd = [
+    {
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        '@id': `${siteUrl}#organization`,
+        name: 'Canadian Credit Card Finder',
+        url: siteUrl,
+        logo: {
+            '@type': 'ImageObject',
+            url: new URL('/images/logo-512.png', Astro.site).href,
+            width: 512,
+            height: 512,
+        },
+    },
+    {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        '@id': `${siteUrl}#website`,
+        name: 'Canadian Credit Card Finder',
+        url: siteUrl,
+        inLanguage: 'en-CA',
+        publisher: { '@id': `${siteUrl}#organization` },
+    },
+];
 ---
 
 <BaseLayout
     title="Canadian Credit Card Finder | Compare & Find Your Perfect Card 2025"
     description="Canadian Credit Card Finder helps you compare the best Canadian credit cards. Filter by rewards, cashback, travel, and low interest rates. Find your perfect card."
 >
+    <script type="application/ld+json" set:html={JSON.stringify(siteJsonLd)} />
     <section class="bg-gradient-to-br from-gray-900 to-gray-800 text-white py-16">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">
