@@ -10,20 +10,23 @@ export default function Header() {
         <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    <a href="/" className="flex items-center space-x-2 sm:space-x-3">
-                        <div className="relative w-8 h-8 sm:w-10 sm:h-10">
-                            <img
-                                src="/images/logo.png"
-                                alt="Canadian Credit Card Finder Logo"
-                                className="absolute inset-0 w-full h-full object-contain"
+                    <a href="/" className="flex items-center shrink-0" aria-label="Canadian Credit Card Finder home">
+                        <picture>
+                            <source
+                                type="image/webp"
+                                srcSet="/images/logo-lockup.webp 1x, /images/logo-lockup@2x.webp 2x"
                             />
-                        </div>
-                        <span className="font-bold text-lg text-gray-900 hidden sm:block">
-                            Canadian Credit Card Finder
-                        </span>
-                        <span className="font-bold text-lg text-gray-900 sm:hidden">
-                            CCCF
-                        </span>
+                            <img
+                                src="/images/logo-lockup.png"
+                                srcSet="/images/logo-lockup.png 1x, /images/logo-lockup@2x.png 2x"
+                                alt="Canadian Credit Card Finder"
+                                width={212}
+                                height={56}
+                                fetchPriority="high"
+                                decoding="async"
+                                className="h-11 md:h-14 w-auto"
+                            />
+                        </picture>
                     </a>
 
                     <nav className="hidden md:flex items-center space-x-8">

@@ -55,6 +55,12 @@ const jsonLd = {
         '@type': 'Organization',
         name: 'Canadian Credit Card Finder',
         url: new URL('/', Astro.site).href,
+        logo: {
+            '@type': 'ImageObject',
+            url: new URL('/images/logo-512.png', Astro.site).href,
+            width: 512,
+            height: 512,
+        },
     },
 };
 ---
