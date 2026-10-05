@@ -133,9 +133,21 @@ const linkClass = 'text-gray-600 hover:text-red-600 transition-colors text-sm';
                 Credit card offers, terms, and conditions are subject to change without notice.
                 We may receive compensation from partners when you apply for credit cards through our links.
             </p>
-            <p class="text-gray-500 text-sm lg:text-right lg:shrink-0">
-                © {currentYear} Canadian Credit Card Finder. All rights reserved.
-            </p>
+            <div class="flex flex-col gap-2 lg:items-end lg:shrink-0">
+                <nav aria-label="Legal">
+                    <ul class="flex flex-wrap gap-x-4 gap-y-1 lg:justify-end">
+                        <li>
+                            <a href="/privacy/" class={linkClass}>Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="/terms/" class={linkClass}>Terms of Use</a>
+                        </li>
+                    </ul>
+                </nav>
+                <p class="text-gray-500 text-sm lg:text-right">
+                    © {currentYear} Canadian Credit Card Finder. All rights reserved.
+                </p>
+            </div>
         </div>
     </div>
 </footer>

@@ -1,0 +1,177 @@
+---
+import LegalPage from '../../components/LegalPage.astro';
+import { CONTACT_EMAIL, OPERATOR_NAME, SITE_DOMAIN, SITE_NAME } from '../../lib/legal';
+
+const title = `Privacy Policy | ${SITE_NAME}`;
+const description =
+    'How Canadian Credit Card Finder handles your information: no accounts, Google Analytics 4, Google AdSense cookies, ad personalization choices, and your rights under PIPEDA.';
+---
+
+<LegalPage title={title} heading="Privacy Policy" description={description} breadcrumb="Privacy Policy">
+    <p>
+        This Privacy Policy explains what information is collected when you visit {SITE_NAME} at{' '}
+        <a href="https://canadiancreditcardfinder.com/">{SITE_DOMAIN}</a> (the "site"), how it is used, and the
+        choices you have. The site is run by {OPERATOR_NAME} ("we", "us", "our") in Canada, and we aim to follow
+        Canada's <em>Personal Information Protection and Electronic Documents Act</em> (PIPEDA).
+    </p>
+
+    <h2>The short version</h2>
+    <ul>
+        <li>The site is an informational credit card comparison tool. There are no user accounts, sign-ups, or forms that ask for your name, address, or financial details.</li>
+        <li>We use Google Analytics 4 to understand how the site is used, and Google AdSense to show ads. Both use cookies or similar technologies.</li>
+        <li>Some links to card issuers are affiliate links. We may earn a commission if you apply through them.</li>
+        <li>We do not sell your personal information.</li>
+    </ul>
+
+    <h2>Information we collect</h2>
+    <h3>Information you give us</h3>
+    <p>
+        We don't ask you to create an account or submit personal information to use the site. If you choose to
+        email us, we will receive your email address and whatever you include in your message, and we use it
+        only to reply to you.
+    </p>
+    <h3>Information collected automatically</h3>
+    <p>
+        Like most websites, our hosting provider and the third-party services described below automatically
+        receive standard technical information when you visit, such as your IP address, browser type, device
+        type, operating system, referring page, the pages you view, and the date and time of your visit.
+    </p>
+    <h3>Information stored in your browser</h3>
+    <p>
+        Some features, such as the card comparison list, save your selections in your own browser's local
+        storage so they're still there when you come back. This data stays on your device; we don't receive it.
+        You can clear it at any time by clearing your browser's site data.
+    </p>
+
+    <h2>Google Analytics 4</h2>
+    <p>
+        We use Google Analytics 4, a web analytics service provided by Google, to see aggregate information
+        such as how many people visit, which pages are popular, and how visitors find the site. Google Analytics
+        uses cookies and similar technologies to collect this information. We use these reports to improve the
+        site; we don't use them to identify individual visitors.
+    </p>
+    <p>
+        You can opt out of Google Analytics on all websites by installing the{' '}
+        <a href="https://tools.google.com/dlpage/gaoptout" rel="noopener">Google Analytics Opt-out Browser Add-on</a>.
+    </p>
+
+    <h2>Google AdSense and advertising cookies</h2>
+    <p>
+        We use Google AdSense to display ads. Third-party vendors, including Google, use cookies to serve ads
+        based on your prior visits to this site and other websites. Google's use of advertising cookies enables
+        it and its partners to serve ads to you based on your visits to this site and/or other sites on the
+        internet.
+    </p>
+    <ul>
+        <li>
+            You can learn more about how Google uses information from sites that use its services at{' '}
+            <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">How Google uses information from sites or apps that use our services</a>.
+        </li>
+        <li>
+            You can opt out of personalized advertising from Google by visiting{' '}
+            <a href="https://adssettings.google.com/" rel="noopener">Google Ads Settings (adssettings.google.com)</a>.
+        </li>
+        <li>
+            You can also opt out of some third-party vendors' use of cookies for personalized advertising at{' '}
+            <a href="https://youradchoices.ca/" rel="noopener">youradchoices.ca</a> (Digital Advertising Alliance of Canada) or{' '}
+            <a href="https://www.aboutads.info/choices/" rel="noopener">aboutads.info</a>.
+        </li>
+    </ul>
+    <p>
+        If you opt out of personalized ads, you may still see ads, but they won't be based on your browsing
+        history.
+    </p>
+
+    <h2>Managing cookies</h2>
+    <p>
+        Most browsers let you view, block, or delete cookies through their settings. If you block cookies, the
+        site will still work, but analytics and ad personalization may not.
+    </p>
+
+    <h2>Affiliate links</h2>
+    <p>
+        Some links on the site go to credit card issuers or partners and may include tracking that tells the
+        partner you came from our site. If you click one of these links and apply for or are approved for a
+        product, we may earn a commission. Once you leave our site, the partner's own privacy policy applies to
+        any information you give them, including any card application.
+    </p>
+
+    <h2>How we use information</h2>
+    <ul>
+        <li>To operate, maintain, secure, and improve the site.</li>
+        <li>To understand which pages and tools are useful, using aggregate analytics.</li>
+        <li>To show ads that help keep the site free.</li>
+        <li>To reply to you if you contact us.</li>
+    </ul>
+
+    <h2>Sharing your information</h2>
+    <p>
+        We don't sell or rent your personal information. Information is shared only with the service providers
+        that help run the site (such as our hosting provider, Google Analytics, and Google AdSense) as described
+        above, or where required by law.
+    </p>
+
+    <h2>Where information is stored</h2>
+    <p>
+        Our service providers, including Google, may process and store information outside Canada, including in
+        the United States. When that happens, the information is subject to the laws of those countries and
+        may be accessible to their courts and authorities.
+    </p>
+
+    <h2>Retention</h2>
+    <p>
+        We keep information only as long as needed for the purposes above. Google Analytics data is kept
+        according to the retention setting in our Google Analytics account, after which Google deletes it.
+        Emails are kept only as long as needed to respond and keep a reasonable record.
+    </p>
+
+    <h2>Google API Services</h2>
+    <p>
+        Separately from this website, {OPERATOR_NAME} operates an internal YouTube tool that uses YouTube API
+        Services to manage the operator's own YouTube channel. By using YouTube features, you agree to be bound
+        by the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a>. Information
+        processed through YouTube API Services is also subject to the{' '}
+        <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>.
+    </p>
+    <p>
+        This tool is used only by the site operator. No visitor data is accessed, collected, or stored through
+        it, and website visitors do not interact with it.
+    </p>
+
+    <h2>Children</h2>
+    <p>
+        The site is intended for adults researching credit products. It is not directed at children, and we do
+        not knowingly collect personal information from anyone under the age of majority in their province.
+    </p>
+
+    <h2>Your rights under PIPEDA</h2>
+    <p>
+        Under PIPEDA, you can ask to access the personal information we hold about you, ask us to correct it,
+        or withdraw your consent to how we use it (subject to legal or contractual limits). Because we don't run
+        accounts, we usually hold very little or no information that can identify you. To make a request, email
+        us at the address below and we'll respond within 30 days.
+    </p>
+    <p>
+        If you're not satisfied with our response, you can contact the{' '}
+        <a href="https://www.priv.gc.ca/" rel="noopener">Office of the Privacy Commissioner of Canada</a>.
+    </p>
+
+    <h2>Security</h2>
+    <p>
+        The site is served over HTTPS. No method of transmission or storage is completely secure, but we use
+        reasonable safeguards appropriate to the small amount of information involved.
+    </p>
+
+    <h2>Changes to this policy</h2>
+    <p>
+        We may update this Privacy Policy from time to time. When we do, we'll change the "Last updated" date at
+        the top of this page.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+        Questions or requests about this policy? Email {OPERATOR_NAME} at{' '}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+    </p>
+    <p>See also our <a href="/terms/">Terms of Use</a>.</p>
+</LegalPage>

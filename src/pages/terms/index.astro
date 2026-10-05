@@ -1,0 +1,116 @@
+---
+import LegalPage from '../../components/LegalPage.astro';
+import { CONTACT_EMAIL, OPERATOR_NAME, SITE_DOMAIN, SITE_NAME } from '../../lib/legal';
+
+const title = `Terms of Use | ${SITE_NAME}`;
+const description =
+    'Terms of Use for Canadian Credit Card Finder: informational comparisons only, not financial advice, verify card details with the issuer, and how affiliate links work.';
+---
+
+<LegalPage title={title} heading="Terms of Use" description={description} breadcrumb="Terms of Use">
+    <p>
+        These Terms of Use apply to your use of {SITE_NAME} at{' '}
+        <a href="https://canadiancreditcardfinder.com/">{SITE_DOMAIN}</a> (the "site"), run by {OPERATOR_NAME}
+        ("we", "us", "our") in Canada. By using the site, you agree to these terms. If you don't agree, please
+        don't use the site.
+    </p>
+
+    <h2>What the site is</h2>
+    <p>
+        {SITE_NAME} is a free, informational tool that helps people in Canada research and compare credit cards.
+        We are not a bank, credit card issuer, lender, or broker. We don't take applications, make credit
+        decisions, or have any say in whether you're approved.
+    </p>
+
+    <h2>Not financial advice</h2>
+    <p>
+        Everything on the site, including card details, rankings, "best of" lists, reviews, guides, and finder
+        results, is general information only. It is not financial, legal, tax, or credit advice and doesn't take
+        your personal situation into account. Think about your own needs, and consider talking to a qualified
+        professional, before applying for any credit product.
+    </p>
+
+    <h2>Card information may change</h2>
+    <p>
+        We work to keep card information accurate and current, but issuers change fees, interest rates, rewards,
+        welcome offers, and eligibility rules often, sometimes without notice. Information on the site may be
+        out of date, incomplete, or contain errors.{' '}
+        <strong>Always confirm the current terms directly with the card issuer before you apply.</strong>{' '}
+        The issuer's terms and cardholder agreement are what actually apply to you.
+    </p>
+
+    <h2>Affiliate links and advertising</h2>
+    <p>
+        Some links on the site are affiliate links. If you click one and apply for or are approved for a product,
+        we may earn a commission, at no extra cost to you. The site also shows ads served by Google AdSense.
+        These relationships help keep the site free. They may affect which cards include an application link,
+        but we aim to keep our comparisons and reviews fair and useful. See our{' '}
+        <a href="/privacy/">Privacy Policy</a> for how ads and cookies work.
+    </p>
+
+    <h2>Third-party websites</h2>
+    <p>
+        The site links to issuer and other third-party websites that we don't control. We aren't responsible for
+        their content, offers, products, or privacy practices. Your dealings with any issuer, including card
+        applications and cardholder agreements, are solely between you and that issuer.
+    </p>
+
+    <h2>Acceptable use</h2>
+    <p>You agree not to:</p>
+    <ul>
+        <li>Use the site for anything unlawful.</li>
+        <li>Try to disrupt, overload, or gain unauthorized access to the site or its systems.</li>
+        <li>Scrape or copy large portions of the site's content or data for republication or commercial use without our permission.</li>
+        <li>Interfere with the ads on the site, for example by generating fake clicks or impressions.</li>
+    </ul>
+
+    <h2>Intellectual property</h2>
+    <p>
+        The site's original content, design, and code are owned by us or used with permission. You're welcome to
+        read, share links to, and quote short excerpts from the site with credit. Card names, issuer names,
+        logos, and card images are trademarks of their respective owners and are used for identification only;
+        their use doesn't imply endorsement.
+    </p>
+
+    <h2>Google API Services</h2>
+    <p>
+        Separately from this website, {OPERATOR_NAME} operates an internal YouTube tool that uses YouTube API
+        Services to manage the operator's own YouTube channel. By using YouTube features, you agree to be bound
+        by the <a href="https://www.youtube.com/t/terms" rel="noopener">YouTube Terms of Service</a>, and the{' '}
+        <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a> applies. The tool
+        is used only by the site operator, and no visitor data is accessed through it.
+    </p>
+
+    <h2>No warranties</h2>
+    <p>
+        The site is provided "as is" and "as available". To the fullest extent permitted by law, we make no
+        promises or warranties that the site or its information will be accurate, complete, current,
+        uninterrupted, or error-free.
+    </p>
+
+    <h2>Limitation of liability</h2>
+    <p>
+        To the fullest extent permitted by law, we aren't liable for any loss or damage arising from your use of,
+        or reliance on, the site or its information, including decisions about applying for, using, or
+        cancelling a credit card. Nothing in these terms limits any rights you have under consumer protection
+        laws that can't be waived.
+    </p>
+
+    <h2>Governing law</h2>
+    <p>
+        These terms are governed by the laws of the Province of Ontario and the federal laws of Canada that
+        apply there.
+    </p>
+
+    <h2>Changes to these terms</h2>
+    <p>
+        We may update these Terms of Use from time to time. When we do, we'll change the "Last updated" date at
+        the top of this page. Continuing to use the site after a change means you accept the updated terms.
+    </p>
+
+    <h2>Contact</h2>
+    <p>
+        Questions about these terms? Email {OPERATOR_NAME} at{' '}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+    </p>
+</LegalPage>
