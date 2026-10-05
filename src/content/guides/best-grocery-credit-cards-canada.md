@@ -92,6 +92,6 @@ Redeem store points at the store. Redeem Membership Rewards toward travel if tha
 
 ## What to do next
 
-Open the [grocery hub](/best/groceries/) and the two card pages that match your banner. For the Amex-specific fork, read [Cobalt vs Gold](/guides/amex-cobalt-vs-gold-rewards/). For a mixed short list, use the [finder](/finder/).
+Open the [grocery hub](/best/groceries/) and the two card pages that match your banner. For the Amex-specific fork, read [Cobalt vs Gold](/guides/amex-cobalt-vs-gold-rewards/). Costco-plus-Loblaws households can follow the [Costco & family stack](/stacks/costco-family/). For a mixed short list, use the [finder](/finder/).
 
 Earn rates and banner lists change. This is not financial advice. Verify category definitions with the issuer.

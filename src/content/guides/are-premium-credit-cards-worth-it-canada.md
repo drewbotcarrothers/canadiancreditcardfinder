@@ -94,6 +94,6 @@ Cancel or downgrade before the next annual fee posts if year one was only the bo
 
 ## What to do next
 
-Scan the [premium hub](/best/premium/), open two live card pages, and run the year-two list above. If you want a non-premium short list, use the [finder](/finder/). For travel-currency help, read [how to choose a travel card](/guides/how-to-choose-travel-credit-card-canada/).
+Scan the [premium hub](/best/premium/), open two live card pages, and run the year-two list above. For a lounge-and-credits wallet plan, see the [premium perks stack](/stacks/premium-perks/). If you want a non-premium short list, use the [finder](/finder/). For travel-currency help, read [how to choose a travel card](/guides/how-to-choose-travel-credit-card-canada/).
 
 Fees and credits change. This is not financial advice. Verify every benefit with the issuer before you apply.

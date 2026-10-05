@@ -92,6 +92,6 @@ Minimum spend on welcome offers should be purchases you were making anyway. Manu
 
 ## What to do next
 
-Compare current fees and categories on the [cash-back hub](/best/cash-back/). If you would rather collect points, use the [rewards hub](/best/rewards/). For a short personalized list, open the [finder](/finder/).
+Compare current fees and categories on the [cash-back hub](/best/cash-back/). If you would rather collect points, use the [rewards hub](/best/rewards/). For a one-card cash wallet, see the [set-and-forget stack](/stacks/set-and-forget-cash-back/). For a short personalized list, open the [finder](/finder/).
 
 Verify every rate with the issuer. This is not financial advice. Approval is never guaranteed.
