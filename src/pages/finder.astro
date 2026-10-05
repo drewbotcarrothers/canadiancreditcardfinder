@@ -31,6 +31,10 @@ const cards = await getCards();
                 Answer a few questions and we will narrow our live Canadian card catalog to a top match
                 plus a few alternatives. Approval is never guaranteed.
             </p>
+            <p class="text-sm text-gray-500 max-w-2xl mx-auto mt-4">
+                Prefer a ready-made wallet plan?
+                <a href="/stacks/" class="text-red-600 hover:text-red-700 font-medium">Browse credit card stacks by persona</a>.
+            </p>
         </header>
 
         <FinderContent client:load cards={cards} />

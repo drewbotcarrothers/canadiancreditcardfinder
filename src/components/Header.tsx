@@ -65,6 +65,12 @@ export default function Header() {
                             Guides
                         </a>
                         <a
+                            href="/stacks/"
+                            className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                        >
+                            Stacks
+                        </a>
+                        <a
                             href="/compare/"
                             className="text-gray-600 hover:text-gray-900 font-medium transition-colors flex items-center"
                         >
@@ -115,6 +121,13 @@ export default function Header() {
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Guides
+                            </a>
+                            <a
+                                href="/stacks/"
+                                className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Stacks
                             </a>
                             <a
                                 href="/compare/"

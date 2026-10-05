@@ -1,0 +1,350 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HubLinks from '../../components/HubLinks.astro';
+import RelatedGuide from '../../components/RelatedGuide.astro';
+import StackSlot from '../../components/StackSlot.astro';
+import { getCardsBySlugs } from '../../lib/data';
+import { guidePath } from '../../lib/guides';
+import {
+    getRelatedGuidesForStack,
+    getStackPersonaBySlug,
+    getStackSlugs,
+    isStackSlug,
+    STACK_DISCLAIMER,
+    type StackCardRef,
+} from '../../lib/stacks';
+import type { CreditCard } from '../../lib/types';
+
+export async function getStaticPaths() {
+    return getStackSlugs().map((slug) => ({
+        params: { slug },
+    }));
+}
+
+const { slug } = Astro.params;
+
+if (!slug || !isStackSlug(slug)) {
+    throw new Error(`Unknown stack: ${slug ?? '(missing)'}`);
+}
+
+const persona = getStackPersonaBySlug(slug);
+if (!persona) {
+    throw new Error(`Missing stack persona: ${slug}`);
+}
+
+const allRefs = [...persona.recommended, ...persona.alternatives];
+const uniqueSlugs = [...new Set(allRefs.map((ref) => ref.slug))];
+const cards = await getCardsBySlugs(uniqueSlugs);
+
+if (cards.length !== uniqueSlugs.length) {
+    const found = new Set(cards.map((card) => card.slug));
+    const missing = uniqueSlugs.filter((cardSlug) => !found.has(cardSlug));
+    throw new Error(`Stack "${persona.slug}" links to unknown card slugs: ${missing.join(', ')}`);
+}
+
+const cardBySlug = new Map(cards.map((card) => [card.slug, card]));
+
+function resolveSlots(refs: StackCardRef[]): { slot: StackCardRef; card: CreditCard }[] {
+    return refs.map((slot) => {
+        const card = cardBySlug.get(slot.slug);
+        if (!card) {
+            throw new Error(`Stack "${persona.slug}" missing card "${slot.slug}"`);
+        }
+        return { slot, card };
+    });
+}
+
+const recommendedSlots = resolveSlots(persona.recommended);
+const alternativeSlots = resolveSlots(persona.alternatives);
+const relatedGuides = await getRelatedGuidesForStack(persona);
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const title = `${persona.metaTitle} | Canadian Credit Card Finder`;
+const description = persona.metaDescription;
+
+const breadcrumbJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+        {
+            '@type': 'ListItem',
+            position: 1,
+            name: 'Home',
+            item: new URL('/', Astro.site).href,
+        },
+        {
+            '@type': 'ListItem',
+            position: 2,
+            name: 'Stacks',
+            item: new URL('/stacks/', Astro.site).href,
+        },
+        {
+            '@type': 'ListItem',
+            position: 3,
+            name: persona.name,
+            item: canonical,
+        },
+    ],
+};
+
+const faqJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: persona.faqs.map((faq) => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: {
+            '@type': 'Answer',
+            text: faq.answer,
+        },
+    })),
+};
+
+const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: persona.h1,
+    description,
+    url: canonical,
+    mainEntityOfPage: canonical,
+    inLanguage: 'en-CA',
+    author: {
+        '@type': 'Person',
+        name: 'Andrew',
+    },
+    publisher: {
+        '@type': 'Organization',
+        name: 'Canadian Credit Card Finder',
+        url: new URL('/', Astro.site).href,
+        logo: {
+            '@type': 'ImageObject',
+            url: new URL('/images/logo-512.png', Astro.site).href,
+            width: 512,
+            height: 512,
+        },
+    },
+};
+---
+
+<BaseLayout title={title} description={description}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">Home</a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li>
+                    <a href="/stacks/" class="text-gray-500 hover:text-red-600 transition-colors">
+                        Stacks
+                    </a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">{persona.name}</li>
+            </ol>
+        </nav>
+
+        <article>
+            <header class="mb-8 max-w-3xl">
+                <p class="text-xs font-semibold uppercase tracking-wide text-red-700 mb-2">
+                    {persona.complexity} stack
+                </p>
+                <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                    {persona.h1}
+                </h1>
+                <p class="text-lg text-gray-600 leading-relaxed mb-3">
+                    {persona.intro}
+                </p>
+                <p class="text-sm text-gray-500">By Andrew · Canadian Credit Card Finder</p>
+            </header>
+
+            <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="who-heading">
+                <h2 id="who-heading" class="text-2xl font-bold text-gray-900 mb-4">Who this stack is for</h2>
+                <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5 mb-6">
+                    {persona.who.map((item) => <li>{item}</li>)}
+                </ul>
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Spending profile</h3>
+                <p class="text-gray-700 leading-relaxed mb-6">{persona.spendingProfile}</p>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Goals</h3>
+                        <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5">
+                            {persona.goals.map((item) => <li>{item}</li>)}
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Common friction</h3>
+                        <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5">
+                            {persona.painPoints.map((item) => <li>{item}</li>)}
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="mb-10" aria-labelledby="recommended-heading">
+                <h2 id="recommended-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                    Recommended stack
+                </h2>
+                <p class="text-gray-600 mb-6 max-w-3xl">
+                    Annual fees and earn text below are pulled from our live card catalog when this page was
+                    built. Confirm every figure on the full review and with the issuer before you apply.
+                </p>
+                <div class="space-y-5">
+                    {
+                        recommendedSlots.map(({ slot, card }, index) => (
+                            <StackSlot card={card} slot={slot} index={index + 1} />
+                        ))
+                    }
+                </div>
+            </section>
+
+            {
+                alternativeSlots.length > 0 && (
+                    <section class="mb-10" aria-labelledby="alternatives-heading">
+                        <h2 id="alternatives-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                            Alternatives and swaps
+                        </h2>
+                        <p class="text-gray-600 mb-6 max-w-3xl">
+                            Use these when income, acceptance, or program preference blocks a recommended card.
+                        </p>
+                        <div class="space-y-5">
+                            {alternativeSlots.map(({ slot, card }) => (
+                                <StackSlot card={card} slot={slot} />
+                            ))}
+                        </div>
+                    </section>
+                )
+            }
+
+            <section
+                class="bg-white rounded-2xl shadow-md border border-red-100 p-6 lg:p-8 mb-10"
+                aria-labelledby="not-for-heading"
+            >
+                <h2 id="not-for-heading" class="text-2xl font-bold text-gray-900 mb-4">
+                    When this stack is not for you
+                </h2>
+                <ul class="space-y-2 text-gray-700 leading-relaxed list-disc pl-5">
+                    {persona.notForYou.map((item) => <li>{item}</li>)}
+                </ul>
+            </section>
+
+            {
+                relatedGuides.length > 0 && (
+                    <div class="mb-10">
+                        <RelatedGuide guides={relatedGuides} heading="Related guides" />
+                    </div>
+                )
+            }
+
+            <section class="mb-10" aria-labelledby="related-hubs-heading">
+                <h2 id="related-hubs-heading" class="text-lg font-semibold text-gray-900 mb-4">
+                    Related hubs and tools
+                </h2>
+                <nav class="flex flex-wrap gap-2" aria-label="Stack hub links">
+                    {
+                        persona.relatedHubs.map((hub) => (
+                            <a
+                                href={hub.href}
+                                class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                            >
+                                {hub.label}
+                            </a>
+                        ))
+                    }
+                    <a
+                        href="/stacks/"
+                        class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                    >
+                        All stacks
+                    </a>
+                    {
+                        relatedGuides.map((guide) => (
+                            <a
+                                href={guidePath(guide)}
+                                class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                            >
+                                {guide.data.title}
+                            </a>
+                        ))
+                    }
+                </nav>
+            </section>
+
+            {
+                persona.youtube && (
+                    <section class="mb-10" aria-labelledby="youtube-heading">
+                        <h2 id="youtube-heading" class="text-lg font-semibold text-gray-900 mb-3">
+                            Related video
+                        </h2>
+                        <a
+                            href={persona.youtube.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center gap-2 text-red-600 hover:text-red-700 font-semibold transition-colors"
+                        >
+                            {persona.youtube.title}
+                            <span aria-hidden="true">↗</span>
+                        </a>
+                        <p class="text-sm text-gray-500 mt-2">
+                            On the Canadian Credit Card Finder YouTube channel.
+                        </p>
+                    </section>
+                )
+            }
+
+            <section class="mb-10" aria-labelledby="faq-heading">
+                <h2 id="faq-heading" class="text-2xl font-bold text-gray-900 mb-6">FAQ</h2>
+                <div class="space-y-5">
+                    {
+                        persona.faqs.map((faq) => (
+                            <div class="bg-white rounded-xl shadow-sm border border-gray-200 p-5">
+                                <h3 class="text-lg font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                                <p class="text-gray-700 leading-relaxed">{faq.answer}</p>
+                            </div>
+                        ))
+                    }
+                </div>
+            </section>
+
+            <section
+                class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 lg:p-12 text-center text-white mb-10"
+            >
+                <h2 class="text-2xl lg:text-3xl font-bold mb-4">Compare cards for your spend</h2>
+                <p class="text-gray-300 mb-6 max-w-2xl mx-auto">
+                    Use the finder for a short list from the live catalog, then read each full card page before
+                    you apply.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                    <a
+                        href="/finder/"
+                        class="inline-block bg-red-600 hover:bg-red-700 text-white py-3 px-8 rounded-lg font-semibold transition-colors"
+                    >
+                        Open the finder
+                    </a>
+                    <a
+                        href="/stacks/"
+                        class="inline-block bg-white/10 hover:bg-white/15 text-white py-3 px-8 rounded-lg font-semibold transition-colors border border-white/20"
+                    >
+                        Browse all stacks
+                    </a>
+                </div>
+            </section>
+
+            <aside class="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-10">
+                <p class="text-sm text-gray-600 leading-relaxed">
+                    <strong class="text-gray-800">Disclaimer:</strong>
+                    {STACK_DISCLAIMER}
+                </p>
+            </aside>
+
+            <section>
+                <h2 class="text-lg font-semibold text-gray-900 mb-4">More ways to browse</h2>
+                <HubLinks showIssuers />
+            </section>
+        </article>
+
+        <script type="application/ld+json" set:html={JSON.stringify(articleJsonLd)} />
+        <script type="application/ld+json" set:html={JSON.stringify(faqJsonLd)} />
+        <script type="application/ld+json" set:html={JSON.stringify(breadcrumbJsonLd)} />
+    </div>
+</BaseLayout>

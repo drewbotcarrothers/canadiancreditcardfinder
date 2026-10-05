@@ -1,0 +1,129 @@
+---
+import {
+    CARD_IMAGE_HEIGHT,
+    CARD_IMAGE_WIDTH,
+    cardImageSrc,
+    PLACEHOLDER_IMAGE_SRC,
+} from '../lib/cardImage';
+import type { CreditCard } from '../lib/types';
+import type { StackCardRef } from '../lib/stacks';
+
+interface Props {
+    card: CreditCard;
+    slot: StackCardRef;
+    index?: number;
+}
+
+const { card, slot, index } = Astro.props;
+const imageSrc = cardImageSrc(card.imageFile);
+const earnPreview = (card.features || card.featuresDetailed || '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 220);
+const earnSuffix =
+    (card.features || card.featuresDetailed || '').replace(/\s+/g, ' ').trim().length > 220
+        ? '…'
+        : '';
+const headingId = `stack-slot-${card.slug}`;
+---
+
+<article
+    class="bg-white rounded-2xl shadow-md border border-gray-200 overflow-hidden"
+    aria-labelledby={headingId}
+>
+    <div class="grid grid-cols-1 md:grid-cols-[220px_1fr] gap-0">
+        <a
+            href={`/card/${card.slug}/`}
+            class="relative bg-gradient-to-br from-gray-100 to-gray-50 flex items-center justify-center p-6 border-b md:border-b-0 md:border-r border-gray-100"
+        >
+            {
+                typeof index === 'number' && (
+                    <span class="absolute top-3 left-3 z-10 bg-gray-900 text-white text-xs font-bold px-2.5 py-1 rounded-full">
+                        {index}
+                    </span>
+                )
+            }
+            <div class="relative w-full max-w-[200px] aspect-[250/200]">
+                <img
+                    src={imageSrc}
+                    alt={`${card.creditCardName} credit card`}
+                    width={CARD_IMAGE_WIDTH}
+                    height={CARD_IMAGE_HEIGHT}
+                    class="absolute inset-0 w-full h-full object-contain"
+                    loading="lazy"
+                    decoding="async"
+                    onerror={`this.onerror=null;this.src='${PLACEHOLDER_IMAGE_SRC}'`}
+                />
+            </div>
+        </a>
+
+        <div class="p-5 lg:p-6 flex flex-col">
+            <p class="text-xs font-semibold uppercase tracking-wide text-red-700 mb-1">
+                Role: {slot.role}
+            </p>
+            <h3 id={headingId} class="text-xl font-bold text-gray-900 mb-1">
+                <a href={`/card/${card.slug}/`} class="hover:text-red-600 transition-colors">
+                    {card.creditCardName}
+                </a>
+            </h3>
+            <p class="text-sm text-gray-500 mb-4">by {card.issuer}</p>
+
+            <dl class="grid grid-cols-2 sm:grid-cols-3 gap-3 mb-4">
+                <div class="rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5">
+                    <dt class="text-[11px] font-semibold uppercase tracking-wide text-gray-500">
+                        Annual fee
+                    </dt>
+                    <dd class="text-lg font-bold text-gray-900">{card.annualFeeDisplay}</dd>
+                </div>
+                <div class="rounded-xl border border-gray-100 bg-gray-50 px-3 py-2.5 sm:col-span-2">
+                    <dt class="text-[11px] font-semibold uppercase tracking-wide text-gray-500">
+                        Rewards program
+                    </dt>
+                    <dd class="text-sm font-semibold text-gray-900 truncate">
+                        {card.rewardsProgram || 'See card page'}
+                    </dd>
+                </div>
+            </dl>
+
+            {
+                earnPreview && (
+                    <p class="text-sm text-gray-600 leading-relaxed mb-3">
+                        <span class="font-semibold text-gray-900">Earn (from our catalog): </span>
+                        {earnPreview}
+                        {earnSuffix}
+                    </p>
+                )
+            }
+
+            {
+                slot.note && (
+                    <p class="text-sm text-gray-600 leading-relaxed mb-4">
+                        <span class="font-semibold text-gray-900">Fit note: </span>
+                        {slot.note}
+                    </p>
+                )
+            }
+
+            <div class="flex flex-col sm:flex-row gap-3 mt-auto">
+                <a
+                    href={`/card/${card.slug}/`}
+                    class="flex-1 border border-gray-300 bg-white text-gray-700 text-center py-2.5 px-4 rounded-lg font-medium text-sm transition-colors hover:border-gray-400 hover:bg-gray-50"
+                >
+                    Full review
+                </a>
+                {
+                    card.productLink.trim() && (
+                        <a
+                            href={card.productLink}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="flex-1 bg-red-600 hover:bg-red-700 text-white text-center py-2.5 px-4 rounded-lg font-medium text-sm transition-colors"
+                        >
+                            Apply
+                        </a>
+                    )
+                }
+            </div>
+        </div>
+    </div>
+</article>
