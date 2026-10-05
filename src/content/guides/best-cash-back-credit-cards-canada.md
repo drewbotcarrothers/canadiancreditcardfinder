@@ -54,7 +54,7 @@ Read the [no-annual-fee guide](/guides/best-no-annual-fee-credit-cards-canada/) 
 
 Paid grocery Visas exist because 3–4% on a large supermarket bill can exceed a $120-class fee. The test is **year two**, after any first-year waiver or 10% welcome window ends.
 
-**Scotia Momentum Visa Infinite** currently describes 4% on groceries and recurring payments in our review, plus a first-year fee waiver on the special offer in our data and a short 10% welcome. Scotiabank’s two-year personal-card exclusion is strict. If you held a Scotia card recently, you may be paying a fee for 4% with no welcome cushion.
+**Scotia Momentum Visa Infinite** currently describes 4% on groceries and recurring payments in our review, plus a first-year fee waiver on the special offer in our data and a 15% welcome (15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026). Scotiabank’s two-year personal-card exclusion is strict. If you held a Scotia card recently, you may be paying a fee for 4% with no welcome cushion.
 
 **CIBC Dividend Visa Infinite** is the usual comparison: grocery-led cash back on a Visa Infinite, different welcome shape, different income bar. Open both live pages. Do not assume 4% is always 4% — caps, merchant definitions, and “recurring” rules differ.
 

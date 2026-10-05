@@ -66,7 +66,7 @@ RBC’s ION cards are everyday Avion earners — useful if you want one currency
 
 TD Cash Back Visas are simple statement-credit products, including a $0 version in our data. They are the TD answer if you pay in full and do not want Aeroplan.
 
-Scotia Momentum Visa Infinite is the 4%-class grocery-and-bills cash-back Infinite in our review, with a first-year waiver on some offers and a short 10% welcome — and a two-year Scotia-card exclusion. Scene+ Visa is the $0 points alternative at Empire banners.
+Scotia Momentum Visa Infinite is the 4%-class grocery-and-bills cash-back Infinite in our review, with a first-year waiver on some offers and a 15% welcome (15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026) — and a two-year Scotia-card exclusion. Scene+ Visa is the $0 points alternative at Empire banners.
 
 Pick cash or points. Mixing Momentum and Gold Amex only makes sense if grocery is huge *and* you redeem Scene+ elsewhere. Most households need one.
 
