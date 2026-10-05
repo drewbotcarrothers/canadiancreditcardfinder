@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Mastercards add a foreign-conversion fee on foreign-currency purchases. This is a domestic warehouse cobrand, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm CIBC’s current FX rate in the agreement.',
+                'Most Canadian Mastercards add a foreign-conversion fee on foreign-currency purchases. This is a domestic warehouse cobrand, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm CIBC’s current FX rate in the agreement.',
         },
     ],
     extraHubSlugs: ['cash-back', 'groceries', 'no-annual-fee'],

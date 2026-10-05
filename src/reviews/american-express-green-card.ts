@@ -60,7 +60,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does the Green Card charge foreign-exchange fees?',
             answer:
-                'Canadian American Express personal cards are often compared as kinder on foreign-currency purchases than typical bank Visas, but you should still confirm the current FX policy in the cardmember agreement. Green is a $0 earn card, not a lounge product. Carry a backup network card where Amex is not taken.',
+                'Assume yes. American Express Canada’s cardmember agreements add a currency conversion commission on purchases in other currencies, at the rate set out in the card’s information box. Treat this as a card that charges FX and confirm the current rate before a trip. Green is a $0 earn card, not a lounge product. Carry a backup network card where Amex is not taken.',
         },
         {
             question: 'Green vs the SimplyCash Card?',

@@ -66,7 +66,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Infinite Privilege cards add a foreign-conversion fee on foreign-currency purchases. Eclipse Privilege is a points card, not a no-FX Passport. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm BMO’s current FX rate in the agreement.',
+                'Most Canadian Visa Infinite Privilege cards add a foreign-conversion fee on foreign-currency purchases. Eclipse Privilege is a points card, not a no-FX Passport. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm BMO’s current FX rate in the agreement.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries', 'premium'],

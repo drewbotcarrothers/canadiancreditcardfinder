@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Mastercards add a foreign-conversion fee on foreign-currency purchases. Tangerine Money-Back is a domestic cash-back card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm Tangerine’s current FX rate in the agreement.',
+                'Most Canadian no-fee Mastercards add a foreign-conversion fee on foreign-currency purchases. Tangerine Money-Back is a domestic cash-back card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm Tangerine’s current FX rate in the agreement.',
         },
         {
             question: 'Tangerine Money-Back vs the Tangerine Money-Back World Mastercard?',

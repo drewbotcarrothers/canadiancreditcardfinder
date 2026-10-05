@@ -60,12 +60,12 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Infinite cards add a foreign-conversion fee on foreign-currency transactions. This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm CIBC’s current FX rate in the agreement.',
+                'Most Canadian Visa Infinite cards add a foreign-conversion fee on foreign-currency transactions. This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm CIBC’s current FX rate in the agreement.',
         },
         {
             question: 'CIBC Aeroplan vs American Express Aeroplan?',
             answer:
-                'CIBC wins on Visa acceptance and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) wins on dining earn and typical Amex FX treatment, with weaker grocery coverage. If you can hold only one, pick the network you use at the supermarket.',
+                'CIBC wins on Visa acceptance and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) wins on dining earn, with weaker grocery coverage. If you can hold only one, pick the network you use at the supermarket.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries', 'premium'],

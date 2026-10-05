@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does the TD Aeroplan Visa Infinite Card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Infinite cards add a foreign-conversion fee on foreign-currency transactions (often around 2.5%). This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm TD’s current FX rate in the certificate of insurance / cardmember agreement.',
+                'Most Canadian Visa Infinite cards add a foreign-conversion fee on foreign-currency transactions (often around 2.5%). This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm TD’s current FX rate in the certificate of insurance / cardmember agreement.',
         },
         {
             question: 'TD Aeroplan Visa Infinite vs Infinite Privilege?',
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'TD Aeroplan vs American Express Aeroplan?',
             answer:
-                'TD wins on Visa acceptance and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) wins on dining earn and typical Amex FX treatment, with weaker grocery coverage. If you can hold only one, pick the network you use at the supermarket.',
+                'TD wins on Visa acceptance and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) wins on dining earn, with weaker grocery coverage. If you can hold only one, pick the network you use at the supermarket.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries', 'premium'],

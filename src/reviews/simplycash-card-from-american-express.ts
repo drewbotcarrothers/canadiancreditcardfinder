@@ -26,7 +26,6 @@ const review: CardEditorialReview = {
         'Cash back is simple: no award chart, no partner transfer, no Scene+ login. Our detailed features say it typically posts annually as a statement credit.',
         'Additional cards currently show no extra annual cost, so a partner can share the same cash-back account.',
         'It is the honest step-down from Preferred. If your Amex-able spend is modest, staying here is the correct call, not a consolation prize.',
-        'American Express personal cards are often compared as kinder on foreign-currency purchases than typical bank Visas — still confirm the agreement.',
     ],
     cons: [
         'The typical base rate in our features is a 1.25%-class earn. A paid Preferred card, a grocery Infinite, or Tangerine’s 2% categories will beat it on the right spend.',

@@ -24,15 +24,15 @@ The live inventory is on the [U.S. dollar hub](/best/us-dollar/). Fees are often
 
 Three different problems get mixed together.
 
-1. **CAD rewards card + ~2.5% issuer FX fee.** Common on Canadian Visas and Mastercards. Painful on a $5,000 USD trip.
-2. **CAD Amex or no-FX Visa (Passport).** Issuer FX fee is typically $0; you still pay in CAD at the network conversion rate.
+1. **CAD rewards card + ~2.5% issuer FX fee.** Common on Canadian Visas and Mastercards, and on American Express Canada cards too. Painful on a $5,000 USD trip.
+2. **No-FX CAD card (Passport).** Issuer FX fee is $0; you still pay in CAD at the network conversion rate.
 3. **USD-billed card + USD account.** The statement is in dollars the merchant charged. You fund it from USD you already hold (payroll, U.S. account, transferred USD). You avoid the *card’s* conversion. You do not avoid a bad USD purchase rate if you bought those dollars at a terrible branch spread.
 
 A USD card is for people who *have* USD. It is not a magic mid-market converter for CAD chequing.
 
 | Need | Better product | Why |
 | --- | --- | --- |
-| Occasional U.S. trip, CAD only | No-FX CAD Visa or CAD Amex | No USD account required |
+| Occasional U.S. trip, CAD only | No-FX CAD Visa | No USD account required |
 | Regular USD bills, already have USD | USD card from your bank | Statement matches the currency |
 | Want Avion on USD spend | [RBC USD Visa Gold](/card/rbc-u-s-dollar-visa-gold/) | Higher USD fee; 1x-class Avion in our review |
 | Want Aventura on USD spend | [CIBC USD Aventura Gold](/card/cibc-u-s-dollar-aventura-gold-visa-card/) | Weaker earn than CAD Aventura Gold |
@@ -76,7 +76,7 @@ Income bars still apply on Gold-tier USD cards (CIBC’s USD Aventura Gold revie
 
 ## Travel in the U.S. versus living a USD life
 
-A two-week Florida trip can be Passport or CAD Amex plus a backup Visa. A snowbird season with U.S. utilities, a U.S. phone line, and Amazon.com is a USD card.
+A two-week Florida trip can be Passport, or another no-FX CAD card, plus a backup. A snowbird season with U.S. utilities, a U.S. phone line, and Amazon.com is a USD card.
 
 Hotel and car-rental merchants in the U.S. sometimes offer to bill in CAD (dynamic currency conversion). Decline DCC. Pay in USD on a USD card, or in the local currency on a no-FX CAD card. DCC is how a good setup becomes a bad rate.
 
@@ -92,6 +92,6 @@ Euro side trips on a USD card still convert. One card cannot be the only foreign
 
 ## What to do next
 
-Open the [U.S. dollar hub](/best/us-dollar/) and the USD card at the bank where you already keep dollars. If you do not keep dollars, read the [travel guide](/guides/how-to-choose-travel-credit-card-canada/) and consider Passport or CAD Amex instead. The [finder](/finder/) can still help if USD billing is only one of several constraints.
+Open the [U.S. dollar hub](/best/us-dollar/) and the USD card at the bank where you already keep dollars. If you do not keep dollars, read the [travel guide](/guides/how-to-choose-travel-credit-card-canada/) and consider Passport or another no-FX CAD card instead. The [finder](/finder/) can still help if USD billing is only one of several constraints.
 
 Fees are in USD unless the page says otherwise. Offers change. This is not financial advice. Verify funding rules with the issuer.

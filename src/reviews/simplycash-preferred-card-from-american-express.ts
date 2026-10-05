@@ -66,7 +66,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'American Express personal cards in Canada are often compared as kinder on foreign-currency purchases than typical bank Visas, but you should still confirm the current FX policy in the cardmember agreement. Preferred is a cash-back card, not a lounge-and-travel product. For a no-FX Visa, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
+                'Assume yes. American Express Canada’s cardmember agreements add a currency conversion commission on purchases in other currencies, at the rate set out in the card’s information box. Treat this as a card that charges FX and confirm the current rate before a trip. Preferred is a cash-back card, not a lounge-and-travel product. For a no-FX Visa, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
     ],
     extraHubSlugs: ['cash-back', 'groceries', 'premium'],

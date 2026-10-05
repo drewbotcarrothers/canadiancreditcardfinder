@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does Aeroplan Reserve charge foreign-exchange fees?',
             answer:
-                'Canadian American Express personal cards typically do not add a separate foreign-transaction fee. That is helpful on trips where Amex is taken. Confirm the agreement, and pack a Visa Infinite backup for everyone else.',
+                'Assume yes. American Express Canada’s cardmember agreements add a currency conversion commission on purchases in other currencies, at the rate set out in the card’s information box. Treat this as a card that charges FX and confirm the current rate before a trip. Pack a no-FX Visa Infinite backup, such as [Scotiabank Passport](/card/scotiabank-passport-visa-infinite-card/), for heavy foreign spend and merchants that skip Amex.',
         },
         {
             question: 'Aeroplan Reserve vs TD Aeroplan Visa Infinite Privilege?',

@@ -61,12 +61,12 @@ const review: CardEditorialReview = {
         {
             question: 'TD Aeroplan Platinum vs American Express Aeroplan?',
             answer:
-                'TD Platinum wins on Visa acceptance at grocers that skip American Express. [Amex Aeroplan](/card/american-express-aeroplan-card/) typically wins on dining earn and Amex FX treatment, with weaker grocery coverage. If you can hold only one cobrand and you qualify for Infinite or Amex, skip Platinum. If Visa at the supermarket is the constraint and Infinite income is not in reach, Platinum is the TD door.',
+                'TD Platinum wins on Visa acceptance at grocers that skip American Express. [Amex Aeroplan](/card/american-express-aeroplan-card/) typically wins on dining earn, with weaker grocery coverage. If you can hold only one cobrand and you qualify for Infinite or Amex, skip Platinum. If Visa at the supermarket is the constraint and Infinite income is not in reach, Platinum is the TD door.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Platinum cards add a foreign-conversion fee on foreign-currency transactions. This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or an American Express personal card, and confirm TD’s current FX rate in the cardmember agreement.',
+                'Most Canadian Visa Platinum cards add a foreign-conversion fee on foreign-currency transactions. This cobrand is not marketed as a no-FX card. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm TD’s current FX rate in the cardmember agreement.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries'],

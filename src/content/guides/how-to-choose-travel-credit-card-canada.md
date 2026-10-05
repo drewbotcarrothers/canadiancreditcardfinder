@@ -40,7 +40,7 @@ Look at the last 24 months, not the trip you might take if points fall from the 
 
 - **Zero or one short-haul trip a year.** A $0 cash-back card plus paying cash for the flight is often cheaper than a $120 travel card you forget to redeem. Use the [finder](/finder/) if you want a simple everyday card.
 - **Two to four mixed trips.** Flexible points (Avion, Aventura, Membership Rewards) or a no-FX Visa usually beat a cobrand you will outgrow when the next destination is Europe on a different alliance.
-- **Air Canada as a habit.** Aeroplan cobrands skip conversions. Compare TD (Visa, grocery/gas categories) against [American Express Aeroplan](/card/american-express-aeroplan-card/) (dining, typical Amex FX treatment, weaker grocery coverage).
+- **Air Canada as a habit.** Aeroplan cobrands skip conversions. Compare TD (Visa, grocery/gas categories) against [American Express Aeroplan](/card/american-express-aeroplan-card/) (dining, weaker grocery coverage).
 - **WestJet as a habit.** [WestJet RBC World Elite](/card/westjet-rbc-world-elite-mastercard/) credits the airline you fly. Avion can book travel, but it is not a WestJet dollar.
 - **Hotel-heavy travel.** [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) is a hotel cobrand. Most bank cards are weak hotel earners unless you book a portal.
 
@@ -66,7 +66,7 @@ Most Canadian rewards Visas and Mastercards still add a foreign-transaction fee,
 
 - If that $4,000 is real every year, a no-FX card such as Passport can beat a $0 card that charges FX.
 - If you spend in USD *and* already keep a U.S. dollar bank account, a [USD-billed card](/guides/best-us-dollar-credit-cards-canada/) can remove conversion on USD merchants. It does nothing for euros.
-- Canadian Amex personal cards typically skip a separate issuer FX fee. Acceptance abroad is the trade-off.
+- Canadian Amex personal cards are not no-FX cards: American Express Canada adds a currency conversion commission (commonly 2.5%) set out in each card’s information box. Acceptance abroad is a second trade-off.
 
 Do not double-count. A no-FX Visa *and* a USD card is only useful if you have both USD bills and multi-currency trips.
 
