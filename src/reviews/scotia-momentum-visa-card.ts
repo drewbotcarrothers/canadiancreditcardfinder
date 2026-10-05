@@ -6,61 +6,61 @@ const review: CardEditorialReview = {
     h1: 'Scotia Momentum Visa Card Review',
     primaryKeyword: 'scotia momentum visa card review',
     metaDescription:
-        'Scotia Momentum Visa Card review for 2026: 2% everyday cash back, $39 vs $49 fee quirk, vs Infinite and No-Fee, and who should skip it.',
+        'Scotia Momentum Visa Card review for 2026: 2% everyday cash back up to $25,000, $49 annual fee, vs Infinite and No-Fee, and who should skip it.',
     intro:
-        'The Scotia Momentum Visa Card is Scotiabank’s mid-rung grocery-and-bills cash-back Visa: 2% on groceries, food delivery and subscriptions, drugstores, gas, EV charging, daily transit, recurring bills, and streaming in our detailed features, and 1% on everything else. It is not [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/)’s 4% grocery-and-recurring pair, and it is not the oddly named [Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/). This Scotia Momentum Visa Card review covers that 2% everyday mix, a fee table that currently disagrees with its own detail line, and why our welcome columns say N/A while the siblings still list short 5% or 10% windows.',
+        'The Scotia Momentum Visa Card is Scotiabank’s mid-rung grocery-and-bills cash-back Visa: 2% on groceries, food delivery and subscriptions, drugstores, gas, EV charging, daily transit, recurring bills, and streaming, up to $25,000 a year in those 2% categories, then 1% after that and on everything else. The annual fee is $49, and each supplementary card is $15. It is not [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/)’s 4% grocery-and-recurring pair, and it is not [Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/), which is $0 for the primary card and for each additional card. This Scotia Momentum Visa Card review covers that 2% everyday mix and its $25,000 cap, the $49 fee, and a balance-transfer special offer rather than a cash welcome.',
     whoItsFor: [
-        'Households that want Momentum cash back on a wide 2% list — grocery, delivery, drugstore, gas, transit, bills, streaming — and whose spend is not large enough to justify Infinite’s 4% pair after that fee.',
+        'Households that want Momentum cash back on a wide 2% list — grocery, delivery, drugstore, gas, transit, bills, streaming — and whose spend is not large enough to justify Infinite’s 4% pair after that fee, and who will stay inside the $25,000 annual cap on the 2% categories.',
         'People who want cash back, not Scene+. Passport and Gold American Express are the Scene+ products; Momentum is the cash-back ladder.',
-        'Applicants who are Canadian residents of majority age — that is the eligibility cell on this row — and who pay the statement in full.',
+        'Applicants who are Canadian residents of majority age and who pay the statement in full.',
         'Scotiabank customers who would rather keep cash back in the same bank as their chequing account, without Infinite income.',
     ],
     whoShouldSkip: [
-        'Households that will clear an Infinite fee with 4% grocery and recurring bills. That is [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/).',
-        'Anyone who read “No-Fee” on a sibling and wanted $0. Trust fee tables. [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the actual $0 category card if Scotiabank’s live No-Fee price is still a paid figure.',
+        'Households that will clear an Infinite fee with 4% grocery and recurring bills. That is [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/). Its current welcome is 15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026.',
+        'Anyone who wanted a $0 Scotia cash-back card. [Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/) is $0 for the primary card and for each additional card. [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the $0 Mastercard if you want category cash back outside Scotia.',
         'Scene+ collectors who wanted 6x at Sobeys. That is [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/), not Momentum.',
-        'People who will revolve a balance. Our purchase-rate field currently says to verify the published rate on Scotiabank’s page — either way, 2% cash back will not win.',
+        'People who will revolve a balance. Confirm the current purchase rate on Scotiabank’s page. Cash advances are 22.99%. Either way, 2% cash back will not win against interest.',
     ],
     pros: [
-        '2% cash back on a wide everyday list is a stronger mix than the No-Fee sibling’s 1% capped stack in that review, and broader than Infinite’s sheet, which leads with grocery and PAPs only.',
-        '1% on everything else is printed, so Amazon and big-box spend do not fall to 0.5% the way the No-Fee row currently does.',
-        'The income bar in our eligibility cell is residency and age of majority, not Visa Infinite income.',
+        '2% cash back on a wide everyday list, up to $25,000 a year in those categories, is a stronger mix than a 1% card and broader than Infinite, which leads with grocery and recurring payments.',
+        'After the $25,000 cap, and on everything else, purchases earn 1%. Amazon and big-box spend do not fall to zero.',
+        'The published eligibility bar is residency and age of majority, not Visa Infinite income.',
         'Visa acceptance is straightforward at Canadian merchants that still skip American Express.',
-        'You can step up to Infinite later if grocery and recurring bills explode. This Visa is the 2% on-ramp.',
+        'You can step up to Infinite later if grocery and recurring bills explode. This Visa is the 2% on-ramp, inside that annual cap.',
     ],
     cons: [
-        'The annual-fee column and the detail line currently disagree ($39-class versus a $49-class detail). Confirm the live price on Scotiabank’s page before you do year-two math.',
-        'Our current sheet lists the welcome bonus as N/A across headline, detail, value, and eligibility. Infinite and No-Fee still show short elevated windows on their rows — this middle card currently does not.',
-        'The category in our data is Low Interest even though the product is a cash-back earn mix and the purchase-rate cell tells you to verify Scotiabank’s published rate. Do not assume a cheap revolving rate from the category label.',
-        'Additional cards currently carry their own annual fee.',
-        'Our insurance field is empty. This is a cash-back Visa, not a travel-medical product.',
+        'The annual fee is $49 a year, and each supplementary card is $15 a year. That is a real year-two cost against a 2% list that stops at $25,000.',
+        'There is no cash welcome bonus. The special offer is a 0.99% introductory rate on balance transfers for the first 9 months, with a 2% fee per transfer (minimum $5), then 22.99%. It applies to new accounts opened July 2, 2026 to January 3, 2027, excludes anyone who held a Scotiabank personal credit card in the past 2 years, and ends early if you miss two consecutive minimum payments.',
+        '2% applies only up to $25,000 a year in the 2% categories. After that, and on everything else, the card earns 1%.',
+        'Confirm the current purchase rate on Scotiabank’s page. Cash advances are 22.99%. Do not assume a cheap revolving rate from a cash-back card.',
+        'Coverage is Purchase Security for 90 days and Extended Warranty, which doubles the manufacturer’s warranty for up to one year. This is still a cash-back Visa, not a travel-medical product. Read the certificate.',
     ],
     feesAndValue:
-        'Look at both fee cells. Our headline currently prints a $39-class annual fee; the detail line currently says $49 per year, with extra cards at a $15-class add-on. Confirm which figure Scotiabank is actually charging. There is no first-year waiver and no welcome-bonus value in our data (N/A), so the first-year snapshot on this page will not look like Infinite’s waiver-plus-10% wrap. Year two is that live fee versus 2% on the everyday list and 1% on the rest. Do that math against Infinite’s 4% grocery/PAP pair after Infinite’s fee, against the No-Fee sibling’s 1% cap at whatever price that row currently prints, and against Tangerine at $0. If 2% on this list still wins, this is the honest Momentum. If it does not, do not keep it for the metal. Offers change. Pay in full.',
+        'The annual fee is $49 a year, and each supplementary card is $15 a year. The current special offer is not a fee waiver and not a cash bonus. It is a 0.99% introductory interest rate on balance transfers for the first 9 months, with a 2% fee per transfer (minimum $5), then 22.99%. It applies to new accounts opened July 2, 2026 to January 3, 2027, excludes anyone who held a Scotiabank personal credit card in the past 2 years, and is cancelled if you miss two consecutive minimum payments. It is not [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/)’s 15% cash back on the first $2,000 in purchases in the first 3 months (accounts opened July 2 to November 1, 2026). Year two is $49 versus 2% on the everyday list up to $25,000 a year in those categories, then 1%, and 1% on everything else. Do that math against Infinite’s 4% grocery and recurring pair after Infinite’s fee, against [Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/) at $0, and against Tangerine at $0. If 2% on this list still wins inside the cap, this is the honest Momentum. If it does not, do not keep it for the metal. Offers change. Confirm the current purchase rate, and the rest of the terms, on Scotiabank’s page. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not Scene+ points. Our current detailed features describe 2% on groceries, food delivery and food subscription services, and drugstore purchases; 2% on gas, electric-vehicle charging, and daily transit such as buses, taxis, and rideshares; 2% on eligible recurring bill payments such as utilities and gym memberships; 2% on eligible recurring subscription services such as music and video streaming; and 1% on all other eligible purchases. Recurring means the merchant flags the charge as recurring. Grocery coding has the usual traps: a warehouse club or a restaurant inside a grocer may not count. Infinite currently leads with 4% grocery and recurring payments and does not print this full 2% list on that row. The No-Fee sibling currently lists 1% on a capped list, then 0.5%. Redeem cash back according to Momentum rules. If you want Scene+ at Sobeys-family stores, that is Gold American Express.',
+        'This card pays cash back, not Scene+ points. Scotiabank’s 2% list covers groceries, food delivery and food subscription services, and drugstore purchases; gas, electric-vehicle charging, and daily transit such as buses, taxis, and rideshares; eligible recurring bill payments such as utilities and gym memberships; and eligible recurring subscription services such as music and video streaming. The 2% rate applies only up to an annual spend limit of $25,000 in those categories. After that, and on everything else, purchases earn 1%. Recurring means the merchant flags the charge as recurring. Grocery coding has the usual traps: a warehouse club or a restaurant inside a grocer may not count. Infinite leads with 4% grocery and recurring payments and does not use this full 2% list. [Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/) is $0 for the primary card and for each additional card. Redeem cash back according to Momentum rules. If you want Scene+ at Sobeys-family stores, that is Gold American Express.',
     welcomeBonus:
-        'Our current data lists the welcome bonus as N/A — headline, detailed offer, dollar value, and eligibility. Treat that as “none on file,” not as a hidden 10% window copied from Infinite or a 5% window copied from No-Fee. If Scotiabank is running a limited-time cash offer on this Momentum Visa, it will be on their application page — use that, not this paragraph. Other Scotia products still use a two-year personal-card exclusion on their welcome rows; even with N/A here, read live terms before you product-change from Passport or Gold Amex and expect a bonus. Do not manufacture spend to chase an offer this CSV does not support.',
+        'The special offer is a 0.99% introductory interest rate on balance transfers for the first 9 months, with a 2% fee per transfer (minimum $5), then 22.99%. It applies to new accounts opened July 2, 2026 to January 3, 2027. It excludes anyone who held a Scotiabank personal credit card in the past 2 years. Missing two consecutive minimum payments cancels the promo rate. This is not a cash welcome, and it is not [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/)’s 15% cash back on the first $2,000 in purchases in the first 3 months (accounts opened July 2 to November 1, 2026). Read the live terms before you product-change from Passport or Gold American Express and expect a bonus. Do not transfer a balance you cannot repay before the nine months end, and do not miss two minimum payments in a row. Offers change. Confirm on Scotiabank’s page.',
     faqs: [
         {
             question: 'Is the Scotia Momentum Visa Card worth it in 2026?',
             answer:
-                'It is worth it when the 2% everyday list matches how you spend and the live fee still beats Infinite’s 4% pair and Tangerine at $0. It is not worth it as a Scene+ substitute or as a card you revolve.',
+                'It is worth it when the 2% everyday list matches how you spend, you will stay inside the $25,000 annual cap on those categories, and $49 a year still beats Infinite’s 4% pair and a $0 card. It is not worth it as a Scene+ substitute or as a card you revolve.',
         },
         {
             question: 'Momentum Visa vs Momentum Visa Infinite vs Momentum No-Fee Visa?',
             answer:
-                'This card currently lists a 2% everyday mix and 1% elsewhere at a mid fee (confirm $39 vs $49 on Scotia’s page). [Infinite](/card/scotia-momentum-visa-infinite-card/) currently leads with 4% grocery and recurring at a Visa Infinite fee, often with a first-year waiver. [No-Fee](/card/scotia-momentum-no-fee-visa-card/) currently lists 1% on a capped list despite the nickname. Choose this 2% Visa if that mix is the month. Choose Infinite if grocery and PAPs are huge. Choose No-Fee only after you check the live fee.',
+                'This card is $49 a year, with each supplementary card at $15: 2% on the everyday list up to $25,000 a year in those categories, then 1%, and 1% elsewhere. [Infinite](/card/scotia-momentum-visa-infinite-card/) leads with 4% grocery and recurring at a Visa Infinite fee. Its current welcome is 15% cash back on the first $2,000 in the first 3 months, for accounts opened July 2 to November 1, 2026. [No-Fee](/card/scotia-momentum-no-fee-visa-card/) is $0 for the primary card and for each additional card. Choose this 2% Visa if that mix is the month and the cap fits. Choose Infinite if grocery and recurring bills are huge. Choose No-Fee if $0 is the point.',
         },
         {
             question: 'Is this a low-interest card?',
             answer:
-                'Our category field currently says Low Interest, but the purchase-rate cell tells you to verify Scotiabank’s published rate and even mentions Amex in that note — messy data, not a promise. Treat Momentum as cash back you pay in full unless Scotia’s agreement actually prints a lower purchase rate.',
+                'Confirm the current purchase rate on Scotiabank’s page. Cash advances are 22.99%. Treat Momentum as cash back you pay in full unless the agreement you are approved under prints a lower purchase rate. Offers change.',
         },
         {
             question: 'Momentum Visa vs Tangerine Money-Back?',
             answer:
-                '[Tangerine](/card/tangerine-money-back-credit-card/) lets you pick 2% categories at $0. Momentum currently pays 2% on a long fixed list and 1% elsewhere, at a fee. Choose Tangerine if you wanted $0 and control. Choose Momentum if that wide 2% list matches the month and you already bank at Scotia.',
+                '[Tangerine](/card/tangerine-money-back-credit-card/) lets you pick 2% categories at $0. Momentum pays 2% on a long fixed list up to $25,000 a year in those categories, then 1%, and 1% elsewhere, at $49 a year. Choose Tangerine if you wanted $0 and control. Choose Momentum if that wide 2% list matches the month and you already bank at Scotia.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
