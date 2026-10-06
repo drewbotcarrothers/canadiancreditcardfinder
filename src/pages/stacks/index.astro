@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HubLinks from '../../components/HubLinks.astro';
-import { getStackPersonas, STACK_DISCLAIMER, stackPath } from '../../lib/stacks';
+import { getStackImage, getStackPersonas, STACK_DISCLAIMER, stackPath } from '../../lib/stacks';
 
 const personas = getStackPersonas();
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
@@ -25,6 +25,7 @@ const jsonLd = {
             name: persona.name,
             url: new URL(stackPath(persona.slug), Astro.site).href,
             description: persona.shortWho,
+            image: new URL(getStackImage(persona.slug).src, Astro.site).href,
         })),
     },
 };
@@ -82,35 +83,49 @@ const breadcrumbJsonLd = {
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
             {
-                personas.map((persona) => (
-                    <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all card-hover flex flex-col">
-                        <p class="text-xs font-semibold uppercase tracking-wide text-red-700 mb-2">
-                            {persona.complexity}
-                        </p>
-                        <h2 class="text-xl font-bold text-gray-900 mb-2">
-                            <a
-                                href={stackPath(persona.slug)}
-                                class="hover:text-red-600 transition-colors"
-                            >
-                                {persona.name}
-                            </a>
-                        </h2>
-                        <p class="text-gray-600 leading-relaxed mb-3">{persona.shortWho}</p>
-                        <p class="text-sm text-gray-700 leading-relaxed mb-4 flex-1">
-                            <span class="font-semibold text-gray-900">Stack: </span>
-                            {persona.stackSummary}
-                        </p>
-                        <a
-                            href={stackPath(persona.slug)}
-                            class="inline-flex items-center font-semibold text-red-600 hover:text-red-700 transition-colors"
-                        >
-                            Open this stack
-                            <span aria-hidden="true" class="ml-1">
-                                →
-                            </span>
-                        </a>
-                    </article>
-                ))
+                personas.map((persona, index) => {
+                    const image = getStackImage(persona.slug);
+                    return (
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all card-hover flex flex-col">
+                            <img
+                                src={image.src}
+                                alt={image.alt}
+                                width={image.width}
+                                height={image.height}
+                                loading={index < 2 ? 'eager' : 'lazy'}
+                                decoding="async"
+                                class="w-full h-auto aspect-[40/21] object-cover bg-gray-100"
+                            />
+                            <div class="p-6 flex flex-col flex-1">
+                                <p class="text-xs font-semibold uppercase tracking-wide text-red-700 mb-2">
+                                    {persona.complexity}
+                                </p>
+                                <h2 class="text-xl font-bold text-gray-900 mb-2">
+                                    <a
+                                        href={stackPath(persona.slug)}
+                                        class="hover:text-red-600 transition-colors"
+                                    >
+                                        {persona.name}
+                                    </a>
+                                </h2>
+                                <p class="text-gray-600 leading-relaxed mb-3">{persona.shortWho}</p>
+                                <p class="text-sm text-gray-700 leading-relaxed mb-4 flex-1">
+                                    <span class="font-semibold text-gray-900">Stack: </span>
+                                    {persona.stackSummary}
+                                </p>
+                                <a
+                                    href={stackPath(persona.slug)}
+                                    class="inline-flex items-center font-semibold text-red-600 hover:text-red-700 transition-colors"
+                                >
+                                    Open this stack
+                                    <span aria-hidden="true" class="ml-1">
+                                        →
+                                    </span>
+                                </a>
+                            </div>
+                        </article>
+                    );
+                })
             }
         </div>
 
