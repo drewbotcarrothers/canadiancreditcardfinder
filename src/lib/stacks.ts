@@ -1039,3 +1039,46 @@ export function getAllStackCardSlugs(): string[] {
     }
     return [...slugs];
 }
+
+export interface StackImage {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+}
+
+/** Featured images live at public/images/stacks/<slug>.webp (1200x630, matches og:image size). */
+export const STACK_IMAGE_WIDTH = 1200;
+export const STACK_IMAGE_HEIGHT = 630;
+
+const STACK_IMAGE_ALTS: Record<string, string> = {
+    'set-and-forget-cash-back':
+        'Hand tapping a blank credit card on a payment terminal at a Canadian grocery checkout',
+    'category-maximizer':
+        'Fuel nozzle in a car at a Canadian gas station in autumn, an everyday spending category',
+    'costco-family':
+        'Family loading bulk groceries from a warehouse-store cart into a minivan in a snowy Canadian parking lot',
+    'points-traveller': 'Traveller with a carry-on suitcase walking through a bright Canadian airport terminal',
+    'churner-keepers':
+        'Three blank credit cards laid out on a kitchen table beside a notebook, ready to sort which cards to keep',
+    'newcomer-credit-builder':
+        'Young newcomer holding her first blank credit card among moving boxes in a Toronto apartment',
+    'cross-border':
+        'Retired Canadian couple loading suitcases into their car in a snowy driveway before a winter trip south',
+    'big-bill-payer': 'Brick duplex rental house on a Canadian street, representing rent and landlord expenses',
+    'deal-stacker': 'Shopper comparing two products on a shelf in a Canadian pharmacy aisle',
+    'premium-perks': 'Quiet airport lounge with armchairs and a buffet overlooking a snowy Canadian runway',
+};
+
+export function getStackImage(slug: string): StackImage {
+    const alt = STACK_IMAGE_ALTS[slug];
+    if (!alt) {
+        throw new Error(`Missing featured image alt text for stack: ${slug}`);
+    }
+    return {
+        src: `/images/stacks/${slug}.webp`,
+        alt,
+        width: STACK_IMAGE_WIDTH,
+        height: STACK_IMAGE_HEIGHT,
+    };
+}
