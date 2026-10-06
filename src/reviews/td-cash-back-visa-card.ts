@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'TD Cash Back Visa vs TD Cash Back Visa Infinite?',
             answer:
-                '[Infinite](/card/td-cash-back-visa-infinite-card/) pays 3% on the same bonus pile and 1% elsewhere, at a Visa Infinite fee and income bar, often with a short 10% welcome window in that row. This card pays 1% and 0.5% at $0. Choose Infinite only if the extra 2% on bonus spend, after the fee, still wins.',
+                '[Infinite](/card/td-cash-back-visa-infinite-card/) pays 3% on the first $15,000 a year in each bonus category (grocery, gas and EV charging, public transit, and recurring bills together with streaming and digital media), then 1%, and 1% on other purchases, at a Visa Infinite fee and income bar. The current welcome on that card is marketed as up to $600, including 10% on bonus-eligible purchases up to $3,500. This card pays 1% and 0.5% at $0. Choose Infinite only if the extra earn on bonus spend, after the fee and inside those caps, still wins.',
         },
         {
             question: 'TD Cash Back Visa vs Tangerine Money-Back?',

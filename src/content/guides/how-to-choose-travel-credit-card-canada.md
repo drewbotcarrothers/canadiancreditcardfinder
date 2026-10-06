@@ -42,7 +42,7 @@ Look at the last 24 months, not the trip you might take if points fall from the 
 - **Two to four mixed trips.** Flexible points (Avion, Aventura, Membership Rewards) or a no-FX Visa usually beat a cobrand you will outgrow when the next destination is Europe on a different alliance.
 - **Air Canada as a habit.** Aeroplan cobrands skip conversions. Compare TD (Visa, grocery/gas categories) against [American Express Aeroplan](/card/american-express-aeroplan-card/) (dining, weaker grocery coverage).
 - **WestJet as a habit.** [WestJet RBC World Elite](/card/westjet-rbc-world-elite-mastercard/) credits the airline you fly. Avion can book travel, but it is not a WestJet dollar.
-- **Hotel-heavy travel.** [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) is a hotel cobrand. Most bank cards are weak hotel earners unless you book a portal.
+- **Hotel-heavy travel.** [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) earns 5 points per $1 at participating Marriott properties and 2 points per $1 on other purchases. After the first year it includes an Annual Free Night Award (room rate up to 35,000 points). The current welcome is up to 70,000 points. Most bank cards are weak hotel earners unless you book a portal.
 
 Income tests matter. Visa Infinite, Infinite Privilege, World Elite, and Amex Platinum/Reserve products have personal or household bars. If you cannot clear Infinite, look at Platinum-tier travel cards such as [RBC Avion Visa Platinum](/card/rbc-avion-visa-platinum/) or [TD Platinum Travel Visa](/card/td-platinum-travel-visa-card/).
 

@@ -44,7 +44,7 @@ Warehouse clubs complicate grocery cash back. Costco Canada is Mastercard-only. 
 
 [Simplii Financial Cash Back Visa](/card/simplii-financial-cash-back-visa/) is the “do not make me pick categories” alternative. Compare the live Simplii rate with Tangerine’s blended rate on *your* statements. Scattered spend favours Simplii; concentrated spend favours Tangerine.
 
-[SimplyCash from American Express](/card/simplycash-card-from-american-express/) is $0 on Amex with a lower typical base rate than Preferred. Use it as a companion, not as your only card.
+[SimplyCash from American Express](/card/simplycash-card-from-american-express/) is $0 on Amex: 2% at stand-alone gas and grocery up to $15,000 a year, then 1.25% on other purchases. That is a lower base rate than Preferred’s 2% catch-all. Use it as a companion, not as your only card.
 
 [Scotia Momentum No-Fee](/card/scotia-momentum-no-fee-visa-card/) and [TD Cash Back Visa](/card/td-cash-back-visa-card/) are bank-ecosystem $0 options if you already live in those apps. They rarely beat Tangerine’s 2% categories, but they can beat Tangerine’s 0.5% if their grocery-and-bills mix matches you.
 
@@ -56,7 +56,7 @@ Paid grocery Visas exist because 3–4% on a large supermarket bill can exceed a
 
 **Scotia Momentum Visa Infinite** currently describes 4% on groceries and recurring payments in our review, plus a first-year fee waiver on the special offer in our data and a 15% welcome (15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026). Scotiabank’s two-year personal-card exclusion is strict. If you held a Scotia card recently, you may be paying a fee for 4% with no welcome cushion.
 
-**CIBC Dividend Visa Infinite** is the usual comparison: grocery-led cash back on a Visa Infinite, different welcome shape, different income bar. Open both live pages. Do not assume 4% is always 4% — caps, merchant definitions, and “recurring” rules differ.
+**CIBC Dividend Visa Infinite** pays 4% on grocery, gas, and EV charging and 2% on transit, dining, recurring payments, and CIBC by Expedia travel, then 1%. The 4% and 2% rates (except 2% on CIBC by Expedia) apply to the first $50,000 in annual card purchases or $20,000 in annual purchases in the bonus categories, whichever comes first. The current welcome is up to $350 for new cards approved beginning July 16, 2026: 10% cash back up to $200 on the first $2,000 over four statements, $50 for one pre-authorized payment, and a $120 first-year annual-fee rebate. Additional cards are $50 each, up to 3, rebated in year one. Do not assume 4% is always 4% — the cap, merchant definitions, and “recurring” rules all cut it.
 
 **SimplyCash Preferred** pays cash on Amex: capped 4% grocery/gas in our current features and 2% on everything else, for a monthly fee. It wins if you already spend on Amex and the 2% catch-all is real. It loses at Costco and at grocers that decline Amex.
 

@@ -7,66 +7,67 @@ const review: CardEditorialReview = {
     h1: 'Scotia Momentum Visa Card (for students) Review',
     primaryKeyword: 'scotia momentum visa card (for students) review',
     metaDescription:
-        'Scotia Momentum Visa Card for students review for 2026: 2% everyday cash back, $39 vs $49 fee quirk, 5% welcome vs adult Momentum, after graduation.',
+        'Scotia Momentum Visa Card for students review for 2026: $49 fee, 2% cash back up to $25,000, 20.99% purchases, 0.99% balance-transfer offer.',
     intro:
-        'The Scotia Momentum Visa Card (for students) is Scotiabank’s paid campus cash-back Visa: 2% on groceries, food delivery and subscriptions, drugstores, gas, EV charging, daily transit, recurring bills, and streaming in detailed features, and 1% on everything else — the same everyday list as adult [Momentum Visa](/card/scotia-momentum-visa-card/). The fee table currently disagrees with itself ($39-class headline versus a $49-class detail), extra cards currently carry a $15-class add-on, and the welcome line currently pays 5% on purchases for the first three months, which the adult Momentum Visa row lists as N/A. This review is about paying a mid fee on a student file for that 2% mix, and why student No-Fee at $0 can still win if grocery is light.',
+        'The Scotia Momentum Visa Card (for students) is Scotiabank’s paid campus cash-back Visa: 2% on groceries, food delivery and subscriptions, drugstores, gas, EV charging, daily transit, recurring bills, and streaming, up to $25,000 a year in those categories, then 1% after that and on everything else — the same everyday list as adult [Momentum Visa](/card/scotia-momentum-visa-card/). The annual fee is $49. The purchase rate is 20.99%. The current special offer is 0.99% on balance transfers for 9 months, not a 5% cash welcome. This review is about paying $49 on a student file for that 2% mix, and why student No-Fee at $0 can still win if grocery is light.',
     whoItsFor: [
-        'Students whose campus month is grocery, delivery, drugstore, transit, and subscriptions, and who will clear a mid annual fee with the gap from student No-Fee’s 1% to this 2%.',
+        'Students whose campus month is grocery, delivery, drugstore, transit, and subscriptions, and who will clear a $49 annual fee with the gap from student No-Fee’s 1% to this 2%, inside the $25,000 cap.',
         'People who want cash back, not Scene+. Student Amex and Scene+ Visa are the points products.',
-        'Applicants who will confirm the live fee on Scotiabank’s student page because our two fee cells currently disagree.',
-        'Anyone who pays in full. Two percent will not outrun the purchase rate in our data.',
+        'Domestic students who are Canadian citizens or permanent residents and can apply online, and who pay the statement in full.',
+        'Anyone who will not revolve a balance. The purchase rate is 20.99%. Two percent will not outrun it.',
     ],
     whoShouldSkip: [
         'Students who wanted $0 Momentum. That is [Momentum No-Fee for students](/card/scotia-momentum-no-fee-visa-card-for-students/), which currently lists an actual $0 fee in our data.',
         'Scene+ collectors at Sobeys. That is the student Scotia Amex or Scene+ Visa.',
-        'Anyone who will revolve a balance to “build credit.” Interest erases the 2% mix immediately.',
+        'Anyone who will revolve a balance to “build credit.” A 20.99% purchase rate erases the 2% mix immediately.',
+        'International students who expected an online application. Scotiabank’s student page says to book an in-person appointment.',
         'Households that will clear Infinite’s 4% grocery-and-PAP pair after graduation and already meet Infinite income. That is adult [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/), not this student mid rung.',
     ],
     pros: [
-        '2% cash back on a wide everyday list is a stronger campus mix than student No-Fee’s 1% cap, and 1% on everything else beats that sibling’s 0.5% catch-all.',
-        'The current welcome line names 5% cash back on purchases for the first three months — adult Momentum Visa currently shows N/A on our sheet.',
-        'The earn table currently matches adult Momentum Visa, so the student SKU is access, not a dummy rate card.',
+        '2% cash back on a wide everyday list, up to $25,000 a year in those categories, is a stronger campus mix than student No-Fee’s 1% cap, and 1% on everything else beats that sibling’s 0.5% catch-all.',
+        'The earn table matches adult Momentum Visa, so the student SKU is access at $49, not a dummy rate card.',
+        'You can redeem cash back any time once you have $25 or more.',
         'Visa acceptance is straightforward at Canadian merchants that still skip American Express.',
-        'You can step to Infinite later if grocery and recurring bills explode after school. This Visa is the 2% on-ramp.',
+        'You can step to Infinite later if grocery and recurring bills explode after school. This Visa is the 2% on-ramp, inside that annual cap.',
     ],
     cons: [
-        'The annual-fee column and the detail line currently disagree ($39-class versus $49-class). Confirm the live student price before you do year-two math.',
-        'Additional cards currently carry their own $15-class annual fee — unlike student No-Fee’s $0 extras.',
-        'Welcome detail, a spend cap in the value cell (“up to $2,000 in total purchases”), and empty bonus-eligibility text do not perfectly match. Trust Scotiabank’s live 5% rules, including any two-year Scotia-card exclusion the adult siblings still print.',
-        'Eligibility on this row is empty. That is a sheet gap, not “anyone can apply.” Expect student enrolment and a credit decision.',
-        'Our insurance field is empty. This is a cash-back Visa, not travel medical.',
+        'The annual fee is $49 a year. Additional cards currently carry their own $15-class add-on — unlike student No-Fee’s $0 extras.',
+        'There is no 5% cash welcome. The special offer is a 0.99% introductory rate on balance transfers and other cash advances for the first 9 months, with a 2% fee (minimum $5), then 22.99%.',
+        '2% applies only up to $25,000 a year in those categories. After that, and on everything else, the card earns 1%.',
+        'The purchase interest rate is 20.99%. This is not a cheap student revolver.',
+        'Anyone who held a Scotiabank personal credit card as a primary or secondary cardholder in the past 2 years, including a product switch, is not eligible for the balance-transfer offer.',
     ],
     feesAndValue:
-        'Look at both fee cells. Our headline currently prints a $39-class annual fee; the detail line currently says $49 per year, with extra cards at $15. Confirm which figure Scotiabank is actually charging students. The welcome-value cell currently talks about up to $2,000 in total purchases rather than a clean dollar wrap — the first-year snapshot may look odd. Year one is that live fee versus 5% on a capped slice if the headline is still live, then 2% / 1%. Year two is the fee versus 2% on the everyday list. Do that math against student No-Fee at $0 and 1%, and against Tangerine at $0. If 2% on this list still wins after the membership, this is the honest student Momentum. Offers change. Pay in full.',
+        'The annual fee is $49 a year. Additional cards currently carry a $15-class annual fee. There is no cash welcome-bonus value, so the first-year snapshot on this page will not show a signup cushion. The special offer, for new accounts opened July 2, 2026 to January 3, 2027, is a 0.99% introductory rate on balance transfers and other cash advances for 9 months from account opening, with a 2% fee on each amount transferred or advanced (minimum $5). After that, the rate moves to the preferred cash advance rate, currently 22.99%. Missing the minimum payment two consecutive times cancels the promotional rate. Purchases are 20.99%. Year two is $49 versus 2% on the everyday list up to $25,000 a year in those categories, then 1%. Do that math against student No-Fee at $0 and 1%, and against Tangerine at $0. If 2% on this list still wins after the membership, this is the honest student Momentum. Offers change. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not Scene+. Detailed features currently describe 2% on groceries, food delivery and food subscription services, and drugstore purchases; 2% on gas, EV charging, and daily transit such as buses, taxis, and rideshares; 2% on eligible recurring bill payments such as utilities and gym memberships; 2% on eligible recurring subscription services such as music and video streaming; and 1% on all other eligible purchases. Recurring means the merchant flags the charge as recurring. Grocery coding has the usual traps. Student No-Fee currently lists 1% on a capped list, then 0.5%. Infinite currently leads with 4% grocery and PAPs for people who can pass Infinite income. Redeem according to Momentum rules.',
+        'This card pays cash back, not Scene+. You earn 2% on groceries, food delivery and food subscription services, and drugstore purchases; on gas, electric-vehicle charging, and daily transit such as buses, taxis, and rideshares; on eligible recurring bill payments such as utilities and gym memberships; and on eligible recurring subscription services such as music and video streaming. The 2% rate applies up to an annual spend limit of $25,000 in those categories. After that, and on all other eligible purchases, you earn 1%. Recurring means the merchant flags the charge as recurring. Grocery coding has the usual traps. Redeem cash back any time once you have $25 or more. Student No-Fee currently lists 1% on a capped list, then 0.5%. Infinite currently leads with 4% grocery and PAPs for people who can pass Infinite income. Coverage is Purchase Security and Extended Warranty: most new purchases are protected against theft, loss, or damage for 90 days from the purchase date, and the extended warranty can double the original manufacturer’s warranty for up to one year. This is still a cash-back Visa, not travel medical.',
     welcomeBonus:
-        'The current headline pays 5% cash back on all purchases for the first three months. The detailed cell currently says N/A; the value cell currently says up to $2,000 in total purchases. Treat that as a capped 5% window you must confirm on Scotiabank’s page, not as unlimited 5%. Bonus eligibility is empty on this row; other Scotia products still use a two-year personal-card exclusion — read live terms before you product-change from student Scene+ and expect 5%. Do not manufacture spend past a cap the live page names.',
+        'There is no cash welcome bonus. For new Scotia Momentum Visa Card (for students) accounts opened between July 2, 2026 and January 3, 2027, the special offer is a 0.99% introductory interest rate on balance transfers and other cash advances for 9 months from account opening. The fee is 2% on each amount transferred or advanced during the promotional period, with a $5 minimum. After 9 months the rate moves to the preferred cash advance rate, currently 22.99%. Missing the minimum payment two consecutive times cancels the promotional rate. Scotiabank may change, cancel, or extend the offer at any time without notice. Individuals who are currently, or were previously, primary or secondary cardholders of a Scotiabank personal credit card in the past 2 years, including people who switched from another Scotiabank personal credit card, are not eligible. Do not product-change from student Scene+ and expect 0.99%. Do not transfer a balance you cannot repay before the nine months end.',
     faqs: [
         {
             question: 'Is the Scotia Momentum Visa Card for students worth it in 2026?',
             answer:
-                'It is worth it when the 2% everyday list matches a campus month and the live fee still beats student No-Fee at $0 and Tangerine at $0. It is not worth it as a Scene+ substitute or as a card you revolve.',
+                'It is worth it when the 2% everyday list matches a campus month, you will stay inside the $25,000 annual cap, and $49 still beats student No-Fee at $0 and Tangerine at $0. It is not worth it as a Scene+ substitute or as a card you revolve at 20.99%.',
         },
         {
             question: 'Student Momentum Visa vs student Momentum No-Fee?',
             answer:
-                'This card currently lists 2% / 1% at a mid fee (confirm $39 vs $49). [Student No-Fee](/card/scotia-momentum-no-fee-visa-card-for-students/) currently lists 1% capped then 0.5% at $0. Choose 2% if those buckets are large. Choose No-Fee if you wanted $0 Momentum.',
+                'This card is $49 a year: 2% on the everyday list up to $25,000 a year in those categories, then 1%, and 1% elsewhere. The purchase rate is 20.99%. [Student No-Fee](/card/scotia-momentum-no-fee-visa-card-for-students/) currently lists 1% capped then 0.5% at $0. Choose 2% if those buckets are large enough to clear $49. Choose No-Fee if you wanted $0 Momentum.',
         },
         {
             question: 'Student vs adult Scotia Momentum Visa Card?',
             answer:
-                'Earn currently matches. Adult [Momentum Visa](/card/scotia-momentum-visa-card/) currently lists N/A welcome and the same fee-cell disagreement. This student row currently lists a 5% first-three-months headline. Choose student if you are enrolled. Choose adult if you are not — do not apply to the campus SKU for a bonus you will not get.',
+                'Earn and fee currently match. Adult [Momentum Visa](/card/scotia-momentum-visa-card/) is also $49, with 2% up to $25,000 a year in those categories and the same style of 0.99% balance-transfer offer. Choose the student card if you are enrolled. Choose the adult card if you are not — do not apply to the campus SKU for an offer you will not get. Domestic students who are Canadian citizens or permanent residents can apply online. International students book an in-person appointment.',
         },
         {
             question: 'What happens after graduation?',
             answer:
-                'Expect a move to adult Momentum Visa, with adult fees and adult welcome rules. Infinite is a separate income-gated step. Confirm the destination SKU and whether extra-card fees stay.',
+                'Expect a move to adult Momentum Visa, which currently lists the same $49 fee, the same 2% list with a $25,000 cap, and adult welcome rules. Infinite is a separate income-gated step. Confirm the destination SKU and whether the $15-class extra-card fee stays.',
         },
         {
             question: 'Momentum vs student Scene+ Visa?',
             answer:
-                '[Scene+ Visa for students](/card/scotiabank-scene-plus-visa-card-for-students/) currently lists $0 and Scene+ at Sobeys, Home Hardware, and Cineplex. This card lists cash back at a fee. Choose Scene+ if those banners and movies are already your life. Choose Momentum if you wanted statement-credit dollars.',
+                '[Scene+ Visa for students](/card/scotiabank-scene-plus-visa-card-for-students/) currently lists $0 and Scene+ at Sobeys, Home Hardware, and Cineplex. This card lists cash back at $49. Choose Scene+ if those banners and movies are already your life. Choose Momentum if you wanted statement-credit dollars and the 2% list clears the fee.',
         },
     ],
     extraHubSlugs: ['cash-back', 'groceries', 'students'],

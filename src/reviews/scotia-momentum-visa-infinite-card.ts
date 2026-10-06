@@ -60,7 +60,7 @@ const review: CardEditorialReview = {
         {
             question: 'Momentum Visa Infinite vs CIBC Dividend Visa Infinite?',
             answer:
-                '[Dividend Infinite](/card/cibc-dividend-visa-infinite-card/) currently advertises 4% on grocery, gas, and EV charging, then 2% on transit, dining, recurring payments, and CIBC Expedia travel. Momentum’s sheet leads with 4% grocery and recurring. Choose CIBC if fuel is as large as the shop; choose Momentum if you already bank at Scotia and the PAP bucket is the second engine.',
+                '[Dividend Infinite](/card/cibc-dividend-visa-infinite-card/) pays 4% on grocery, gas, and EV charging, then 2% on transit, dining, recurring payments, and CIBC Expedia travel. Those 4% and 2% rates, except 2% on CIBC by Expedia, apply until $50,000 in annual card purchases or $20,000 in the bonus categories, whichever comes first. Momentum’s sheet leads with 4% grocery and recurring. Choose CIBC if fuel is as large as the shop; choose Momentum if you already bank at Scotia and the PAP bucket is the second engine.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
