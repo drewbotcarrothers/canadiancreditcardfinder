@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import HubLinks from '../../components/HubLinks.astro';
-import { getGuides, guidePath } from '../../lib/guides';
+import { getGuideImage, getGuides, guidePath } from '../../lib/guides';
 
 const guides = await getGuides();
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
@@ -24,6 +24,7 @@ const jsonLd = {
             position: index + 1,
             name: guide.data.title,
             url: new URL(guidePath(guide), Astro.site).href,
+            image: new URL(getGuideImage(guide.id).src, Astro.site).href,
         })),
     },
 };
@@ -58,40 +59,54 @@ const jsonLd = {
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             {
-                guides.map((guide) => (
-                    <article class="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transition-all card-hover">
-                        <h2 class="text-xl font-bold text-gray-900 mb-2">
-                            <a href={guidePath(guide)} class="hover:text-red-600 transition-colors">
-                                {guide.data.title}
-                            </a>
-                        </h2>
-                        <p class="text-gray-600 leading-relaxed mb-4">{guide.data.excerpt}</p>
-                        {
-                            guide.data.hubLinks.length > 0 && (
-                                <nav
-                                    class="flex flex-wrap gap-2 mb-4"
-                                    aria-label={`Hubs related to ${guide.data.title}`}
-                                >
-                                    {guide.data.hubLinks.map((hub) => (
-                                        <a
-                                            href={hub.href}
-                                            class="inline-flex items-center rounded-full border border-gray-300 bg-white px-3 py-1 text-xs font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                guides.map((guide, index) => {
+                    const image = getGuideImage(guide.id);
+                    return (
+                        <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all card-hover flex flex-col">
+                            <img
+                                src={image.src}
+                                alt={image.alt}
+                                width={image.width}
+                                height={image.height}
+                                loading={index < 2 ? 'eager' : 'lazy'}
+                                decoding="async"
+                                class="w-full h-auto aspect-[40/21] object-cover bg-gray-100"
+                            />
+                            <div class="p-6 flex flex-col flex-1">
+                                <h2 class="text-xl font-bold text-gray-900 mb-2">
+                                    <a href={guidePath(guide)} class="hover:text-red-600 transition-colors">
+                                        {guide.data.title}
+                                    </a>
+                                </h2>
+                                <p class="text-gray-600 leading-relaxed mb-4">{guide.data.excerpt}</p>
+                                {
+                                    guide.data.hubLinks.length > 0 && (
+                                        <nav
+                                            class="flex flex-wrap gap-2 mb-4"
+                                            aria-label={`Hubs related to ${guide.data.title}`}
                                         >
-                                            {hub.label}
-                                        </a>
-                                    ))}
-                                </nav>
-                            )
-                        }
-                        <a
-                            href={guidePath(guide)}
-                            class="inline-flex items-center font-semibold text-red-600 hover:text-red-700 transition-colors"
-                        >
-                            Read the guide
-                            <span aria-hidden="true" class="ml-1">→</span>
-                        </a>
-                    </article>
-                ))
+                                            {guide.data.hubLinks.map((hub) => (
+                                                <a
+                                                    href={hub.href}
+                                                    class="inline-flex items-center rounded-full border border-gray-300 bg-white px-3 py-1 text-xs font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                                                >
+                                                    {hub.label}
+                                                </a>
+                                            ))}
+                                        </nav>
+                                    )
+                                }
+                                <a
+                                    href={guidePath(guide)}
+                                    class="mt-auto inline-flex items-center font-semibold text-red-600 hover:text-red-700 transition-colors"
+                                >
+                                    Read the guide
+                                    <span aria-hidden="true" class="ml-1">→</span>
+                                </a>
+                            </div>
+                        </article>
+                    );
+                })
             }
         </div>
 
