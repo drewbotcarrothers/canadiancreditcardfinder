@@ -11,10 +11,12 @@ In the Hostinger website / Git deployment settings:
 | Repository | `drewbotcarrothers/canadiancreditcardfinder` |
 | Branch | `main` (or the branch you deploy from) |
 | Build command | `npm install && npm run build` |
-| Node version | 20 or newer |
+| Node version | **22.x** (22.12.0 or newer) or **24.x**. Node 18 and 20 will fail: Astro 7 requires Node >= 22.12.0 |
 | Publish / output directory | `dist` |
 
 After a successful build, Hostinger should publish the contents of `dist/` to `public_html`.
+
+`package.json` declares `"engines": { "node": ">=22.12.0" }` and `.nvmrc` pins `22`, so Hostinger's auto-detection should preselect Node 22. Check the Node version selector in the deployment settings anyway.
 
 The production output includes:
 
@@ -29,7 +31,7 @@ The production output includes:
 
 ## Manual upload (optional)
 
-1. Run `npm install` and `npm run build` locally.
+1. Use Node 22.12.0+ (or 24), then run `npm install` and `npm run build` locally.
 2. In Hostinger File Manager, open `public_html`.
 3. Upload the **contents** of the `dist/` folder (not the folder itself).
 4. Remove leftover default files such as `default.php` if they are present.
