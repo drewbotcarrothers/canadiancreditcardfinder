@@ -61,3 +61,50 @@ export async function getRelatedGuidesForIssuer(slug: IssuerHubSlug): Promise<Gu
     }
     return resolveGuideIds(ids, `issuer /issuer/${slug}/`, await getGuides());
 }
+
+export interface GuideImage {
+    src: string;
+    alt: string;
+    width: number;
+    height: number;
+}
+
+/** Featured images live at public/images/guides/<id>.webp (1200x630, matches og:image size). */
+export const GUIDE_IMAGE_WIDTH = 1200;
+export const GUIDE_IMAGE_HEIGHT = 630;
+
+const GUIDE_IMAGE_ALTS: Record<string, string> = {
+    'amex-cobalt-vs-gold-rewards':
+        'Two blank credit cards, slate blue and gold, on a cafe table beside a latte and a croissant, for the Amex Cobalt vs Gold Rewards comparison',
+    'are-premium-credit-cards-worth-it-canada':
+        'Traveller relaxing with a coffee in an airport lounge armchair beside the runway windows, for the guide on whether premium credit cards are worth it',
+    'best-cash-back-credit-cards-canada':
+        'Hand dropping a toonie into a coin jar on a kitchen counter with a blank credit card beside it, for the best cash back credit cards guide',
+    'best-grocery-credit-cards-canada':
+        'Grocery cart with bread and eggs in a produce aisle as a hand picks an apple, for the best grocery credit cards guide',
+    'best-no-annual-fee-credit-cards-canada':
+        'Leather wallet holding a single blank credit card beside a coffee mug, keys, and coins, for the best no annual fee credit cards guide',
+    'best-student-credit-cards-canada':
+        'Student in a hoodie tapping a blank credit card on a payment terminal at a campus cafe, for the best student credit cards guide',
+    'best-us-dollar-credit-cards-canada':
+        'Couple loading paper shopping bags into a car trunk at an outdoor shopping plaza, for the best US dollar credit cards guide',
+    'how-to-choose-travel-credit-card-canada':
+        'Traveller with a carry-on suitcase walking through an airport terminal with a mountain view, for the guide on choosing a travel credit card',
+    'low-interest-vs-rewards-credit-cards-canada':
+        'Hands with a pen, calculator, blank papers, and a blank credit card on a table in the evening, for the low interest vs rewards credit cards guide',
+    'rbc-vs-td-vs-scotiabank-credit-cards':
+        'Commuters crossing a street in the downtown Toronto financial district, for the RBC vs TD vs Scotiabank credit cards comparison',
+};
+
+export function getGuideImage(id: string): GuideImage {
+    const alt = GUIDE_IMAGE_ALTS[id];
+    if (!alt) {
+        throw new Error(`Missing featured image alt text for guide: ${id}`);
+    }
+    return {
+        src: `/images/guides/${id}.webp`,
+        alt,
+        width: GUIDE_IMAGE_WIDTH,
+        height: GUIDE_IMAGE_HEIGHT,
+    };
+}

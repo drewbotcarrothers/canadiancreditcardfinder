@@ -3,7 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
 import { getCardsBySlugs } from '../../lib/data';
-import { GUIDE_DISCLAIMER, getGuides, type GuideEntry } from '../../lib/guides';
+import { GUIDE_DISCLAIMER, getGuideImage, getGuides, type GuideEntry } from '../../lib/guides';
 import { toHomepageCard } from '../../lib/homepage';
 import { render } from 'astro:content';
 
@@ -32,6 +32,8 @@ if (relatedCards.length !== guide.data.relatedCardSlugs.length) {
 const publishedAt = guide.data.publishedAt;
 const updatedAt = guide.data.updatedAt ?? publishedAt;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const heroImage = getGuideImage(guide.id);
+const heroImageUrl = new URL(heroImage.src, Astro.site).href;
 const title = `${guide.data.title} | Canadian Credit Card Finder`;
 const dateOptions: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
 
@@ -46,6 +48,12 @@ const jsonLd = {
     url: canonical,
     mainEntityOfPage: canonical,
     inLanguage: 'en-CA',
+    image: {
+        '@type': 'ImageObject',
+        url: heroImageUrl,
+        width: heroImage.width,
+        height: heroImage.height,
+    },
     author: {
         '@type': 'Organization',
         name: 'Canadian Credit Card Finder',
@@ -65,7 +73,12 @@ const jsonLd = {
 };
 ---
 
-<BaseLayout title={title} description={guide.data.description}>
+<BaseLayout
+    title={title}
+    description={guide.data.description}
+    image={heroImage.src}
+    imageAlt={heroImage.alt}
+>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <nav class="mb-6" aria-label="Breadcrumb">
             <ol class="flex items-center space-x-2 text-sm">
@@ -84,16 +97,30 @@ const jsonLd = {
         </nav>
 
         <article>
-            <header class="mb-8 max-w-3xl">
-                <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-                    {guide.data.title}
-                </h1>
-                <p class="text-lg text-gray-600 leading-relaxed mb-4">
-                    {guide.data.excerpt}
-                </p>
-                <p class="text-sm text-gray-500">
-                    Updated {updatedAt.toLocaleDateString('en-CA', dateOptions)}
-                </p>
+            <header class="mb-8 grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(0,22rem)] gap-6 md:gap-8 items-center">
+                <div class="max-w-3xl">
+                    <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                        {guide.data.title}
+                    </h1>
+                    <p class="text-lg text-gray-600 leading-relaxed mb-4">
+                        {guide.data.excerpt}
+                    </p>
+                    <p class="text-sm text-gray-500">
+                        Updated {updatedAt.toLocaleDateString('en-CA', dateOptions)}
+                    </p>
+                </div>
+                <figure class="overflow-hidden rounded-2xl shadow-md bg-gray-100 w-full max-w-md md:max-w-none">
+                    <img
+                        src={heroImage.src}
+                        alt={heroImage.alt}
+                        width={heroImage.width}
+                        height={heroImage.height}
+                        loading="eager"
+                        fetchpriority="high"
+                        decoding="async"
+                        class="w-full h-auto aspect-[40/21] object-cover"
+                    />
+                </figure>
             </header>
 
             <div class="bg-white rounded-2xl shadow-md p-6 lg:p-10 mb-10">
