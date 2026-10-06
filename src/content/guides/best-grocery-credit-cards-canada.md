@@ -40,7 +40,7 @@ Acceptance is not theoretical. Some Canadian grocers still decline American Expr
 
 Paid cards exist because a high grocery rate on a large household bill can beat a $120-class fee.
 
-- **CIBC Dividend Visa Infinite** and **Scotia Momentum Visa Infinite** are cash-back Infinites with grocery-led rates (Momentum’s review currently describes 4% grocery and recurring). Year-two fee math matters. See [cash back](/guides/best-cash-back-credit-cards-canada/).
+- **CIBC Dividend Visa Infinite** and **Scotia Momentum Visa Infinite** are cash-back Infinites with grocery-led rates (Momentum’s review currently describes 4% grocery and recurring). Dividend Infinite’s 4% and 2% rates, except 2% on CIBC by Expedia, apply until $50,000 in annual card purchases or $20,000 in the bonus categories, whichever comes first. Year-two fee math matters. See [cash back](/guides/best-cash-back-credit-cards-canada/).
 - **Amex Cobalt** pays 5x Membership Rewards at stand-alone grocers until restaurants, groceries, and delivery together reach $2,500 in a month. That is one of the richest grocery rates in Canada if your grocer takes Amex and codes correctly.
 - **Amex Gold Rewards** pays 2x Membership Rewards, not 4% cash. That 2x is only “better than 2% cash” if you redeem points toward travel at a decent rate. If you cash out poorly, Tangerine’s 2% is simpler.
 - **Scotia Gold American Express** currently lists 6x Scene+ at eligible grocers, 5x dining, and 3x gas/transit, with a mid-fee that can be waived with an eligible Scotiabank account. That waiver is the product for Scotia customers who shop Empire banners. Without the waiver, run the fee against Scene+ you will redeem.
@@ -56,7 +56,7 @@ If grocery spend is modest — a student, a single person who eats out, a househ
 
 [Scene+ Visa](/card/scotiabank-scene-plus-visa-card/) is $0 and 2x at eligible Empire grocers. It is enough if you will not pay for Gold Amex.
 
-[Simplii](/card/simplii-financial-cash-back-visa/) and [SimplyCash](/card/simplycash-card-from-american-express/) are weaker grocery specialists and better “I need a card that works” products.
+[Simplii](/card/simplii-financial-cash-back-visa/) is a simpler everyday Visa. [SimplyCash](/card/simplycash-card-from-american-express/) pays 2% at stand-alone grocery stores in Canada, sharing a $15,000 annual cap with stand-alone gas, then 1.25%. Superstores and wholesale clubs miss that 2%. It is a companion Amex, not a grocery hammer.
 
 Students should use the [student guide](/guides/best-student-credit-cards-canada/) — several $0 student cards are grocery-shaped.
 

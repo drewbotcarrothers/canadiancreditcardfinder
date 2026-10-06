@@ -36,7 +36,7 @@ A paid card can still be cheaper *in rewards* if you spend heavily in a 4% groce
 | --- | --- | --- |
 | Two big categories you can name (grocery + gas, dining + bills) | [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) | 2% on chosen categories; 0.5% on the rest |
 | You want a Visa that just works | [Simplii Cash Back Visa](/card/simplii-financial-cash-back-visa/) | Flat-ish cash back, no category homework |
-| You already use Amex and want cash, not points | [SimplyCash Card](/card/simplycash-card-from-american-express/) | No January fee; confirm the live base rate |
+| You already use Amex and want cash, not points | [SimplyCash Card](/card/simplycash-card-from-american-express/) | No January fee; 2% at stand-alone gas and grocery up to $15,000 a year, 1.25% on other purchases |
 | Empire grocers + movies, not cash back | [Scene+ Visa](/card/scotiabank-scene-plus-visa-card/) | 2x at eligible Sobeys-family stores |
 | Loblaws-family banners + Optimum | [PC Mastercard](/card/pc-mastercard/) or [PC World Elite](/card/pc-world-elite-mastercard/) if you qualify | $0 Optimum earn; World Elite is still no fee in our data |
 | Rogers, Fido, or Shaw bills | [Rogers Red Mastercard](/card/rogers-red-mastercard/) | Bill-credit style earning on a $0 card |
@@ -64,7 +64,7 @@ Compare the live earn rate on the [Simplii page](/card/simplii-financial-cash-ba
 
 ## No-fee American Express cash back
 
-[SimplyCash](/card/simplycash-card-from-american-express/) is the no-fee cash-back Amex. Our review describes a typical 1.25%-class base rate and cash back that is often applied once a year as a statement credit. Confirm gas and grocery treatment on American Express’s page. There is usually no useful welcome bonus in our columns.
+[SimplyCash](/card/simplycash-card-from-american-express/) is the no-fee cash-back Amex. It pays 2% at stand-alone gas stations and stand-alone grocery stores in Canada, on up to $15,000 in combined purchases a year ($300), and 1.25% on other purchases. Superstores, wholesale clubs, alcohol retailers, and general merchandise retailers do not count as gas or grocery. Cash back is applied once a year as a statement credit on the September statement. New cardmembers can earn a bonus 5% on all purchases in the first 3 months, up to $2,000 in purchases (up to $100), on top of those regular rates.
 
 Use it when you already like Amex and will not pay for [SimplyCash Preferred](/card/simplycash-preferred-card-from-american-express/)’s 2% catch-all and capped 4% grocery/gas. Preferred is a monthly fee. SimplyCash is the $0 door.
 

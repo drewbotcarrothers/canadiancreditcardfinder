@@ -51,7 +51,7 @@ const review: CardEditorialReview = {
         {
             question: 'Student No-Fee vs Scotia Momentum Visa Card for students?',
             answer:
-                'This card currently lists 1% on a capped list at $0. [Student Momentum Visa](/card/scotia-momentum-visa-card-for-students/) currently lists a 2% everyday mix at a mid fee (confirm $39 vs $49 on Scotia’s page). Choose 2% if grocery and bills clear the fee. Choose this card if you wanted $0 Momentum.',
+                'This card currently lists 1% on a capped list at $0. [Student Momentum Visa](/card/scotia-momentum-visa-card-for-students/) is $49 a year, with 2% on the everyday list up to $25,000 a year in those categories, then 1%. The purchase rate on that card is 20.99%. Choose 2% if grocery and bills clear $49. Choose this card if you wanted $0 Momentum.',
         },
         {
             question: 'What happens after graduation?',

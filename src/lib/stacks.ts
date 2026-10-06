@@ -47,7 +47,8 @@ export interface StackPersona {
  * Credit card stack personas for /stacks/.
  * Card fees and earn rates are never hard-coded here — pages pull them live via slug.
  * Persona copy follows the enriched set; skip known data gaps (Simplii fee conflict,
- * Marriott free-night claims, secured cards not in catalog).
+ * secured cards not in catalog). The Marriott Bonvoy Amex free-night award is
+ * stated from American Express’s cardmember benefits page.
  */
 export const STACK_PERSONAS: readonly StackPersona[] = [
     {
@@ -88,8 +89,8 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             },
             {
                 slug: 'simplycash-card-from-american-express',
-                role: 'Optional flat Amex catch-all',
-                note: 'Only if merchants you use take American Express. Keep a Visa or Mastercard backup either way.',
+                role: 'Optional Amex cash-back card',
+                note: '2% at stand-alone gas and grocery in Canada, up to $15,000 combined a year, then 1.25%. Keep a Visa or Mastercard backup.',
             },
             {
                 slug: 'rogers-red-mastercard',
@@ -191,7 +192,8 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             },
             {
                 slug: 'simplycash-card-from-american-express',
-                role: 'Cash path — Amex catch-all',
+                role: 'Cash path — 2% stand-alone gas and grocery, 1.25% on other Amex spend',
+                note: 'The 2% rate stops after $15,000 in combined gas and grocery purchases a year.',
             },
             {
                 slug: 'american-express-gold-rewards-card',
@@ -741,6 +743,7 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             {
                 slug: 'td-cash-back-visa-infinite-card',
                 role: 'Wide 3% stack including recurring bills and streaming',
+                note: '3% applies to the first $15,000 a year in each of four bonus categories (recurring bills and streaming share one cap), then 1%.',
             },
             {
                 slug: 'rbc-cash-back-preferred-world-elite-mastercard',
@@ -948,7 +951,7 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             {
                 slug: 'marriott-bonvoy-american-express-card',
                 role: 'Hotel cobrand when Marriott stays are already the plan',
-                note: 'Our catalog lists hotel earn rates — it does not list a free-night certificate, so we do not claim one.',
+                note: 'Annual Free Night Award each year after the first year of Cardmembership, at a room redemption rate of up to 35,000 points.',
             },
             {
                 slug: 'scotiabank-passport-visa-infinite-privilege-card',
@@ -982,9 +985,9 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
                     'No. Cobalt is an earn card without lounge access or a travel credit in our review. Many people hold Cobalt for food and a premium card for perks.',
             },
             {
-                question: 'Why no Marriott free-night claim here?',
+                question: 'Does the Marriott Bonvoy Amex include a free night?',
                 answer:
-                    'Our live card features do not list a free-night award for the Marriott Bonvoy American Express Card. Confirm any hotel certificate on American Express’s page before you budget for it.',
+                    'Yes. American Express lists an Annual Free Night Award each year after your first year of Cardmembership, at a room redemption rate of up to 35,000 points, plus 15 Elite Night Credits each calendar year and automatic Silver Elite status. Gold Elite follows $30,000 in net purchases in a card year. Confirm the certificate on American Express’s Marriott benefits page before you count on a specific hotel.',
             },
         ],
     },
