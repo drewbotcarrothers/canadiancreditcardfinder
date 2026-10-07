@@ -18,7 +18,7 @@ const review: CardEditorialReview = {
     ],
     whoShouldSkip: [
         'Dining-heavy spenders. [Cobalt](/card/american-express-cobalt-card/)’s 5x on eats and drinks — which also covers stand-alone grocery stores, up to a monthly cap — will usually beat Gold’s 1x on meals and 2x on groceries.',
-        'Anyone who wants unlimited complimentary lounge access, large travel credits, or Fine Hotels + Resorts-style perks. Gold’s Priority Pass visits are charged per visit and only four Plaza Premium visits a year are free. Pay for Platinum only if you will use those extras.',
+        'Anyone who wants the Global Lounge Collection, large travel and dining credits, or Fine Hotels + Resorts-style perks. Gold’s Priority Pass visits are charged per visit and only four Plaza Premium visits a year are free. [The Platinum Card](/card/the-platinum-card/) is the lounge-and-credits card, and from January 1, 2027 its complimentary Plaza Premium and Priority Pass visits are a limited annual number unless the spend unlock applies. Pay for Platinum only if you will use those extras.',
         'Cardholders who dislike American Express merchant gaps, or who need Visa/Mastercard acceptance as their only card.',
         'Applicants who have held Gold Rewards before and are counting on the welcome bonus. Current or former cardmembers are typically excluded.',
     ],
@@ -49,7 +49,7 @@ const review: CardEditorialReview = {
         {
             question: 'Is the American Express Gold Rewards Card worth it?',
             answer:
-                'Yes if Canadian groceries, gas, drugstores, and travel bookings — plus the travel credit and lounge visits you will actually use — cover the annual fee, and if you value Membership Rewards. No if you mainly eat out (see Cobalt), want unlimited complimentary lounge access (see Platinum), or would rather have automatic cash back with no portal or transfer decisions.',
+                'Yes if Canadian groceries, gas, drugstores, and travel bookings — plus the travel credit and lounge visits you will actually use — cover the annual fee, and if you value Membership Rewards. No if you mainly eat out (see Cobalt), want the Global Lounge Collection and the larger travel and dining credits (see Platinum), or would rather have automatic cash back with no portal or transfer decisions.',
         },
         {
             question: 'What is the Gold Rewards annual fee, and is the extra card free?',

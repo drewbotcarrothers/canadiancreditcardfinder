@@ -18,7 +18,7 @@ const review: CardEditorialReview = {
     whoShouldSkip: [
         'Anyone who does not fly Air Canada. CIBC’s [Dividend Visa](/card/cibc-dividend-visa-card/) will annoy you less, and this catch-all earn is a poor consolation prize.',
         'Applicants who already meet Infinite income. [CIBC Aeroplan Visa Infinite](/card/cibc-aeroplan-visa-infinite-card/) currently pays 1.5x on the same grocery/gas/Air Canada list and 1x on everything else — this $0 card is not “Infinite lite” on earn, it is a step down.',
-        'High spenders who want 2x Air Canada, dining and travel bonus categories, and a higher base rate. That is Infinite Privilege, at a much higher fee and income bar.',
+        'High spenders who want 2x Air Canada, 2x at participating Hyatt hotels, dining and travel bonus categories, and a higher base rate. That is Infinite Privilege, at a much higher fee and income bar.',
         'People who need to carry a balance. A 20%+ purchase rate is a very expensive way to collect Aeroplan.',
     ],
     pros: [

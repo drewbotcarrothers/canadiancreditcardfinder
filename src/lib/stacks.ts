@@ -674,7 +674,7 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
         ],
         notForYou: [
             'You almost never spend in foreign currency.',
-            'You expected Cobalt or Platinum to be no-FX — Canadian Amex personal cards typically add a conversion commission; confirm each agreement.',
+            'You expected Cobalt or Platinum to be no-FX — The Platinum Card charges a 2.5% foreign currency conversion commission, and other Canadian Amex personal cards add a conversion commission as well.',
             'You live in Quebec and were counting on Home Trust — it is not offered there.',
         ],
         relatedHubs: [

@@ -17,7 +17,7 @@ const review: CardEditorialReview = {
     ],
     whoShouldSkip: [
         'Anyone who does not fly Air Canada. CIBC’s [Dividend Visa Infinite](/card/cibc-dividend-visa-infinite-card/) will annoy you less at renewal.',
-        'High spenders who want 2x Air Canada, dining and travel bonus categories, and a higher base rate — that is Infinite Privilege, at a much higher fee and income bar.',
+        'High spenders who want 2x Air Canada, 2x at participating Hyatt hotels, dining and travel bonus categories, and a higher base rate — that is Infinite Privilege, at a much higher fee and income bar.',
         'Applicants who took a welcome bonus on this card in the last 12 months, or who are switching from another CIBC card, per the current eligibility text.',
         'People who need to carry a balance. A 20%+ purchase rate is a very expensive way to collect Aeroplan.',
     ],
@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'CIBC Aeroplan Visa Infinite vs Infinite Privilege?',
             answer:
-                '[Infinite Privilege](/card/cibc-aeroplan-visa-infinite-privilege-card/) currently lists 2x on Air Canada, 1.5x on grocery, gas, travel, and dining, and 1.25x on everything else, at a much higher fee and income bar. Choose Privilege if you already live in that spending band. Choose Infinite if you want the cobrand without the premium membership.',
+                '[Infinite Privilege](/card/cibc-aeroplan-visa-infinite-privilege-card/) currently lists 2x on Air Canada, 2x at participating Hyatt hotels, 1.5x on grocery, gas, travel, and dining, and 1.25x on everything else, at a much higher fee and income bar. Choose Privilege if you already live in that spending band. Choose Infinite if you want the cobrand without the premium membership.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',

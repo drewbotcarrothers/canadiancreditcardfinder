@@ -76,7 +76,7 @@ Travel medical, trip cancellation, and car-rental coverage are why some Canadian
 
 If you already buy annual travel medical because you are over the card’s age cap, do not pay a card fee for insurance you cannot use. If you never rent cars, collision coverage is worth $0.
 
-Lounge access is similarly concrete. Passport’s complimentary passes are a handful per year in current features. [The Platinum Card](/card/the-platinum-card/) is a Global Lounge Collection membership. [Aeroplan Reserve](/card/american-express-aeroplan-reserve-card/) is an Air Canada lounge story. One Priority Pass visit you do not take is not a reason to pay a four-figure fee.
+Lounge access is similarly concrete. Passport’s complimentary passes are a handful per year in current features. [The Platinum Card](/card/the-platinum-card/) includes American Express Global Lounge Collection access to more than 1,550 lounges (as of June 2026). From January 1, 2027, complimentary Plaza Premium and Priority Pass visits on that card are a limited annual number unless eligible spend hits $20,000 in a calendar year; other lounges in the collection stay unlimited, and Amex does not publish the visit count. [Aeroplan Reserve](/card/american-express-aeroplan-reserve-card/) is an Air Canada lounge story. One lounge visit you do not take is not a reason to pay a four-figure fee.
 
 ## Step 5: Welcome bonuses are first-year money
 
