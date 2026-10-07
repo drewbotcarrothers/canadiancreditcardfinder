@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import AddToCompareButton from '../../components/AddToCompareButton';
 import CardGrid from '../../components/CardGrid';
 import CardReview from '../../components/CardReview.astro';
+import CardVideos from '../../components/CardVideos.astro';
 import { CARD_IMAGE_HEIGHT, CARD_IMAGE_WIDTH, cardImageSrc, PLACEHOLDER_IMAGE_SRC } from '../../lib/cardImage';
 import { getCardEditorialReview, getReviewHubs } from '../../reviews';
 import { getCards, getCardsBySlugs, getRelatedCards } from '../../lib/data';
@@ -315,6 +316,8 @@ const jsonLd = faqJsonLd ? [productJsonLd, faqJsonLd] : productJsonLd;
                 />
             </div>
         )}
+
+        <CardVideos slug={card.slug} />
 
         <section class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 lg:p-12 text-center text-white mb-8">
             <h2 class="text-2xl lg:text-3xl font-bold mb-4">

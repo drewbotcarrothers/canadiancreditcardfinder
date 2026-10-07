@@ -23,6 +23,16 @@ Open [http://localhost:4321](http://localhost:4321) to view the site.
 
 Card data is fetched at build time from the published Google Sheet CSV used by the previous Next.js site.
 
+### YouTube videos on card pages
+
+Card pages embed matching long-form videos from the Canadian Credit Card Finder YouTube channel near the bottom (`src/components/CardVideos.astro`, lite facade: no YouTube JS until play is clicked). The data lives in `src/data/card-videos.json` and is generated, not hand-edited:
+
+1. Add the new video ID and the card slugs it covers to `scripts/card-video-map.json` (review -> that card, head-to-head -> both cards, roundups -> only the main picks, max ~4).
+2. Run `python3 scripts/sync_card_videos.py` (read-only YouTube Data API via the channel OAuth helper in `/workspace/cccf-youtube/api`; `--dry-run` prints without writing). It reports any long-form upload that is not mapped or skipped.
+3. Commit the JSON and rebuild.
+
+Scheduled (private + publishAt) videos can be synced before they go live: they ship hidden and reveal themselves client-side at publish time; their VideoObject JSON-LD is added on the next build after that.
+
 ## Project structure
 
 ```

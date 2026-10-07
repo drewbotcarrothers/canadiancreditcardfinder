@@ -1,0 +1,150 @@
+---
+/**
+ * Lite YouTube embeds for a card page (no YouTube JS/iframe until the visitor clicks play).
+ *
+ * - Videos come from src/data/card-videos.json (scripts/sync_card_videos.py), newest first.
+ * - publishAt <= build time: rendered visible + VideoObject JSON-LD.
+ * - publishAt  > build time (scheduled upload): rendered with `hidden` + data-publish-at and
+ *   no JSON-LD; the inline script below reveals it once Date.now() >= publishAt, so it shows up
+ *   on time without a redeploy. JSON-LD is added on the next build after it goes live.
+ */
+import {
+    buildVideoObjectJsonLd,
+    formatDuration,
+    getVideosForCard,
+    youtubeThumbnail,
+    youtubeWatchUrl,
+} from '../lib/cardVideos';
+
+interface Props {
+    slug: string;
+}
+
+const { slug } = Astro.props;
+const videos = getVideosForCard(slug);
+const buildTime = Date.now();
+const items = videos.map((video) => ({
+    video,
+    live: Date.parse(video.publishAt) <= buildTime,
+    duration: formatDuration(video.duration),
+    published: new Intl.DateTimeFormat('en-CA', {
+        timeZone: 'America/Toronto',
+        year: 'numeric',
+        month: 'short',
+        day: 'numeric',
+    }).format(new Date(video.publishAt)),
+}));
+const anyLive = items.some((item) => item.live);
+const earliestScheduled = items
+    .filter((item) => !item.live)
+    .map((item) => item.video.publishAt)
+    .sort()[0];
+const jsonLd = items.filter((item) => item.live).map((item) => buildVideoObjectJsonLd(item.video));
+---
+
+{items.length > 0 && (
+    <section
+        id="card-videos"
+        class="mb-8 space-y-8"
+        aria-label="Videos about this card"
+        data-card-videos
+        hidden={!anyLive}
+        data-publish-at={!anyLive ? earliestScheduled : undefined}
+    >
+        {items.map(({ video, live, duration, published }) => (
+            <article
+                class="bg-white rounded-2xl shadow-md p-6 lg:p-8"
+                data-card-video={video.videoId}
+                hidden={!live}
+                data-publish-at={!live ? video.publishAt : undefined}
+            >
+                <h2 class="text-2xl font-bold text-gray-900 mb-2">Watch: {video.title}</h2>
+                <p class="text-gray-600 mb-5">{video.description}</p>
+                <div class="relative w-full aspect-video overflow-hidden rounded-xl bg-gray-900">
+                    <a
+                        href={youtubeWatchUrl(video.videoId)}
+                        class="group absolute inset-0 block focus:outline-none focus-visible:ring-4 focus-visible:ring-red-500"
+                        data-yt-play
+                        data-video-id={video.videoId}
+                        data-title={video.title}
+                        aria-label={`Play video: ${video.title}`}
+                    >
+                        <img
+                            src={youtubeThumbnail(video.videoId)}
+                            alt=""
+                            width="480"
+                            height="360"
+                            loading="lazy"
+                            decoding="async"
+                            class="absolute inset-0 w-full h-full object-cover"
+                            onerror="this.style.visibility='hidden'"
+                        />
+                        <span class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
+                        <span class="absolute inset-0 flex items-center justify-center">
+                            <svg
+                                class="w-[68px] h-12 drop-shadow-lg"
+                                viewBox="0 0 68 48"
+                                aria-hidden="true"
+                            >
+                                <path
+                                    class="fill-[#212121] opacity-80 group-hover:fill-red-600 group-hover:opacity-100 group-focus-visible:fill-red-600 group-focus-visible:opacity-100 transition"
+                                    d="M66.52 7.74c-.78-2.93-2.49-5.41-5.42-6.19C55.79.13 34 0 34 0S12.21.13 6.9 1.55c-2.93.78-4.63 3.26-5.42 6.19C.06 13.05 0 24 0 24s.06 10.95 1.48 16.26c.78 2.93 2.49 5.41 5.42 6.19C12.21 47.87 34 48 34 48s21.79-.13 27.1-1.55c2.93-.78 4.64-3.26 5.42-6.19C67.94 34.95 68 24 68 24s-.06-10.95-1.48-16.26z"
+                                />
+                                <path fill="#fff" d="M45 24 27 14v20" />
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+                <div class="mt-3 flex flex-wrap items-center justify-between gap-x-4 gap-y-1 text-sm">
+                    <p class="text-gray-500">
+                        Published {published}{duration && <> · {duration}</>}. Offers and rates may have
+                        changed since recording; check the details above.
+                    </p>
+                    <a
+                        href={youtubeWatchUrl(video.videoId)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="font-semibold text-red-600 hover:text-red-700 underline underline-offset-2"
+                    >
+                        Watch on YouTube
+                    </a>
+                </div>
+            </article>
+        ))}
+    </section>
+)}
+
+{jsonLd.map((data) => <script type="application/ld+json" set:html={JSON.stringify(data)} />)}
+
+{items.length > 0 && (
+    <script is:inline>
+        (function () {
+            function reveal() {
+                var now = Date.now();
+                var next = Infinity;
+                var els = document.querySelectorAll('[data-card-videos] [data-publish-at][hidden], [data-card-videos][data-publish-at][hidden]');
+                for (var i = 0; i < els.length; i++) {
+                    var t = Date.parse(els[i].getAttribute('data-publish-at'));
+                    if (isNaN(t)) continue;
+                    if (now >= t) els[i].hidden = false;
+                    else if (t < next) next = t;
+                }
+                if (next !== Infinity && next - now < 2147483647) setTimeout(reveal, next - now + 1000);
+            }
+            reveal();
+            document.addEventListener('click', function (e) {
+                var a = e.target && e.target.closest ? e.target.closest('[data-yt-play]') : null;
+                if (!a || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+                e.preventDefault();
+                var f = document.createElement('iframe');
+                f.src = 'https://www.youtube-nocookie.com/embed/' + a.getAttribute('data-video-id') + '?autoplay=1&rel=0';
+                f.title = a.getAttribute('data-title') || 'YouTube video';
+                f.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+                f.allowFullscreen = true;
+                f.referrerPolicy = 'strict-origin-when-cross-origin';
+                f.className = 'absolute inset-0 w-full h-full border-0';
+                a.replaceWith(f);
+            });
+        })();
+    </script>
+)}
