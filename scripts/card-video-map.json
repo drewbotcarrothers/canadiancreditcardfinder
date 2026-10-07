@@ -1,0 +1,463 @@
+{
+  "_doc": "Manual video -> card mapping for scripts/sync_card_videos.py. Only long-form videos listed under 'videos' are embedded. Single-card review -> that card; head-to-head -> both cards; roundup/persona -> only the clear main picks (max ~4). Unknown/unsure videos go under 'skip' with a reason. Optional per-video keys: 'description' (short blurb override), 'title' (display-title override). Card slugs are validated against the live card sheet.",
+  "videos": {
+    "8dGbhNKbd0A": {
+      "cards": [
+        "td-cash-back-visa-infinite-card",
+        "cibc-dividend-visa-infinite-card"
+      ],
+      "kind": "head-to-head"
+    },
+    "4-VSPwfjpDk": {
+      "cards": [
+        "pc-world-elite-mastercard",
+        "bmo-cashback-world-elite-mastercard",
+        "scotia-momentum-visa-infinite-card",
+        "simplycash-preferred-card-from-american-express"
+      ],
+      "kind": "best-of",
+      "note": "5 picks in the video; Amex Gold Rewards (#5, 'points & travel perks', only 2x grocery) left off to respect the ~4-card cap; the Gold page already gets the Cobalt vs Gold video.",
+      "description": "The best grocery credit card in Canada is the one your supermarket accepts: picks for Loblaw banners, any Visa or Mastercard grocer, and stand-alone grocers that take Amex."
+    },
+    "VFFQ5dZIT9U": {
+      "cards": [
+        "american-express-cobalt-card",
+        "american-express-gold-rewards-card"
+      ],
+      "kind": "head-to-head"
+    },
+    "RRCgr8r2kyQ": {
+      "cards": [
+        "scotia-momentum-visa-infinite-card",
+        "tangerine-money-back-credit-card",
+        "scotiabank-passport-visa-infinite-card"
+      ],
+      "kind": "persona",
+      "note": "Family stack: the 3 'jobs' cards are the main picks; the optional travel card chapter is not mapped."
+    },
+    "ZNuvrkUNJaQ": {
+      "cards": [
+        "cibc-dividend-platinum-visa-card"
+      ],
+      "kind": "review"
+    },
+    "3RC4oWP8OBU": {
+      "cards": [
+        "cibc-u-s-dollar-aventura-gold-visa-card"
+      ],
+      "kind": "review"
+    },
+    "7JpqHsfsSd8": {
+      "cards": [
+        "cibc-costco-mastercard"
+      ],
+      "kind": "review"
+    },
+    "o97PT3DSsZM": {
+      "cards": [
+        "cibc-dividend-visa-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "R2MIwraLkRg": {
+      "cards": [
+        "cibc-dividend-visa-card"
+      ],
+      "kind": "review"
+    },
+    "7AnuAjWtVDU": {
+      "cards": [
+        "cibc-dividend-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "gSFABzNUA7c": {
+      "cards": [
+        "cibc-aventura-visa-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "z-oUz_HhyrE": {
+      "cards": [
+        "cibc-select-visa-card"
+      ],
+      "kind": "review"
+    },
+    "slSvBS1ACSc": {
+      "cards": [
+        "cibc-aeroplan-visa-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "bmB6AU28e8A": {
+      "cards": [
+        "cibc-aeroplan-visa-card"
+      ],
+      "kind": "review"
+    },
+    "oazRppEe9WM": {
+      "cards": [
+        "cibc-aventura-visa-card"
+      ],
+      "kind": "review"
+    },
+    "po1Qk4bv50w": {
+      "cards": [
+        "cibc-aventura-gold-visa-card"
+      ],
+      "kind": "review"
+    },
+    "t5-YV_qCBgw": {
+      "cards": [
+        "cibc-aeroplan-visa-infinite-privilege-card"
+      ],
+      "kind": "review"
+    },
+    "7gJ9OIjdZlg": {
+      "cards": [
+        "cibc-aventura-visa-infinite-privilege-card"
+      ],
+      "kind": "review"
+    },
+    "vm14vBCbqWc": {
+      "cards": [
+        "cibc-aeroplan-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "Ryb2B7p1Kz0": {
+      "cards": [
+        "cibc-aventura-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "nTPJxDPaHkM": {
+      "cards": [
+        "student-bmo-cashback-mastercard"
+      ],
+      "kind": "review"
+    },
+    "qj_3F8jKk_Y": {
+      "cards": [
+        "bmo-u-s-dollar-mastercard"
+      ],
+      "kind": "review"
+    },
+    "Tt4D-mDhAk4": {
+      "cards": [
+        "bmo-cashback-world-elite-mastercard"
+      ],
+      "kind": "review"
+    },
+    "ilOGdvm7_pE": {
+      "cards": [
+        "bmo-cashback-mastercard"
+      ],
+      "kind": "review"
+    },
+    "lSf6I3iR4ac": {
+      "cards": [
+        "bmo-eclipse-visa-infinite-privilege-card"
+      ],
+      "kind": "review"
+    },
+    "TYVJYsVDMaQ": {
+      "cards": [
+        "bmo-ascend-world-elite-mastercard"
+      ],
+      "kind": "review"
+    },
+    "tzr49kG36bw": {
+      "cards": [
+        "bmo-eclipse-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "utV7rPmbev0": {
+      "cards": [
+        "bmo-eclipse-rise-visa-card"
+      ],
+      "kind": "review"
+    },
+    "v6K_n2LFTAE": {
+      "cards": [
+        "scotiabank-american-express-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "3BZLOv_7xL8": {
+      "cards": [
+        "scotia-momentum-no-fee-visa-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "swuDec5C9wM": {
+      "cards": [
+        "scotia-momentum-visa-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "qLq-oxFCTW0": {
+      "cards": [
+        "scotiabank-value-visa-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "z_5csOIiPOc": {
+      "cards": [
+        "scotiabank-platinum-american-express-card"
+      ],
+      "kind": "review"
+    },
+    "6VIjK9gtr7Q": {
+      "cards": [
+        "scotiabank-american-express-card"
+      ],
+      "kind": "review"
+    },
+    "PJlrzjm9Bic": {
+      "cards": [
+        "scotiabank-scene-plus-visa-card-for-students"
+      ],
+      "kind": "review"
+    },
+    "vhBnp6NfCeI": {
+      "cards": [
+        "scotiabank-value-visa-card"
+      ],
+      "kind": "review"
+    },
+    "-NZ3w8n4ImQ": {
+      "cards": [
+        "scotia-momentum-mastercard-credit-card"
+      ],
+      "kind": "review"
+    },
+    "fOqZR_qnmUs": {
+      "cards": [
+        "scotiabank-gold-american-express-card"
+      ],
+      "kind": "review"
+    },
+    "Ix3C1r3mhfM": {
+      "cards": [
+        "scotia-momentum-no-fee-visa-card"
+      ],
+      "kind": "review"
+    },
+    "DK5D-SIi0BM": {
+      "cards": [
+        "scotia-momentum-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "3_pKM6EG2ms": {
+      "cards": [
+        "scotiabank-scene-plus-visa-card"
+      ],
+      "kind": "review"
+    },
+    "9D3djkZIYbM": {
+      "cards": [
+        "scotia-momentum-visa-card"
+      ],
+      "kind": "review"
+    },
+    "hTFv_8u6qgQ": {
+      "cards": [
+        "scotiabank-passport-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "PG6cWyi94Vo": {
+      "cards": [
+        "westjet-rbc-mastercard"
+      ],
+      "kind": "review"
+    },
+    "3wwhbRlNYw8": {
+      "cards": [
+        "rbc-british-airways-visa-infinite"
+      ],
+      "kind": "review"
+    },
+    "ZcMv9spsRMY": {
+      "cards": [
+        "rbc-u-s-dollar-visa-gold"
+      ],
+      "kind": "review"
+    },
+    "eHwv4zB8D_M": {
+      "cards": [
+        "rbc-rateadvantage-visa"
+      ],
+      "kind": "review"
+    },
+    "073_m67rnWA": {
+      "cards": [
+        "rbc-visa-platinum"
+      ],
+      "kind": "review"
+    },
+    "QjtOw-oinBM": {
+      "cards": [
+        "rbc-avion-visa-platinum"
+      ],
+      "kind": "review"
+    },
+    "ot0zik6-ADI": {
+      "cards": [
+        "rbc-avion-visa-infinite-privilege"
+      ],
+      "kind": "review"
+    },
+    "kDkOiUQ7k3w": {
+      "cards": [
+        "rbc-visa-classic-low-rate-option"
+      ],
+      "kind": "review"
+    },
+    "dJHowsoYK6Q": {
+      "cards": [
+        "rbc-cash-back-mastercard"
+      ],
+      "kind": "review"
+    },
+    "SeWt55voCb0": {
+      "cards": [
+        "rbc-ion-visa"
+      ],
+      "kind": "review"
+    },
+    "OT1EMjrRcsM": {
+      "cards": [
+        "rbc-cash-back-preferred-world-elite-mastercard"
+      ],
+      "kind": "review"
+    },
+    "h-qujR80yGU": {
+      "cards": [
+        "rbc-avion-visa-infinite"
+      ],
+      "kind": "review"
+    },
+    "IhQ5HuWQdaw": {
+      "cards": [
+        "westjet-rbc-world-elite-mastercard"
+      ],
+      "kind": "review"
+    },
+    "nvv5h1QPsSo": {
+      "cards": [
+        "td-u-s-dollar-visa-card"
+      ],
+      "kind": "review"
+    },
+    "L0TfFSTP3q8": {
+      "cards": [
+        "td-low-rate-visa-card"
+      ],
+      "kind": "review"
+    },
+    "9IyNeK5evAI": {
+      "cards": [
+        "td-rewards-visa-card"
+      ],
+      "kind": "review"
+    },
+    "eDefWzJ63vs": {
+      "cards": [
+        "td-platinum-travel-visa-card"
+      ],
+      "kind": "review"
+    },
+    "WhDCE2a2geo": {
+      "cards": [
+        "td-first-class-travel-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "-CVuoBmK6Ow": {
+      "cards": [
+        "td-aeroplan-visa-infinite-privilege-credit-card"
+      ],
+      "kind": "review"
+    },
+    "ho4w_8R3lc0": {
+      "cards": [
+        "td-aeroplan-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "YLC2vnZiR_U": {
+      "cards": [
+        "td-aeroplan-visa-platinum-credit-card"
+      ],
+      "kind": "review"
+    },
+    "sb2pQaJq0sw": {
+      "cards": [
+        "td-cash-back-visa-card"
+      ],
+      "kind": "review"
+    },
+    "m7q8o9E1Bao": {
+      "cards": [
+        "td-cash-back-visa-infinite-card"
+      ],
+      "kind": "review"
+    },
+    "17Lvk371Z0k": {
+      "cards": [
+        "simplycash-card-from-american-express"
+      ],
+      "kind": "review"
+    },
+    "kk3KsKZAKk0": {
+      "cards": [
+        "marriott-bonvoy-american-express-card"
+      ],
+      "kind": "review"
+    },
+    "vSxbqp9_dJQ": {
+      "cards": [
+        "american-express-aeroplan-reserve-card"
+      ],
+      "kind": "review"
+    },
+    "UYUTIfU6y8g": {
+      "cards": [
+        "american-express-aeroplan-card"
+      ],
+      "kind": "review"
+    },
+    "LhBv37fAPpo": {
+      "cards": [
+        "american-express-green-card"
+      ],
+      "kind": "review"
+    },
+    "ZCq2HSlB6n8": {
+      "cards": [
+        "the-platinum-card"
+      ],
+      "kind": "review"
+    },
+    "VrB6a4oGV_8": {
+      "cards": [
+        "american-express-gold-rewards-card"
+      ],
+      "kind": "review"
+    },
+    "eAY45Aqe93I": {
+      "cards": [
+        "american-express-cobalt-card"
+      ],
+      "kind": "review"
+    }
+  },
+  "skip": {
+    "Rgr0pBhMOUc": "BMO AIR MILES World Elite review: the site card is now BMO Blue Rewards World Elite (different program and earn), so the video would mislead on that page.",
+    "9WuX27CdJ34": "BMO AIR MILES Mastercard for Students: no matching card on the site (AIR MILES rebranded to Blue Rewards; no student Blue Rewards card in the sheet)."
+  }
+}
