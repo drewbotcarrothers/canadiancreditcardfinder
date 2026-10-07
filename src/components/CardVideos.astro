@@ -70,14 +70,14 @@ const jsonLd = items.filter((item) => item.live).map((item) => buildVideoObjectJ
                         aria-label={`Play video: ${video.title}`}
                     >
                         <img
-                            src={youtubeThumbnail(video.videoId)}
+                            src={`https://i.ytimg.com/vi/${video.videoId}/maxresdefault.jpg`}
                             alt=""
-                            width="480"
-                            height="360"
+                            width="1280"
+                            height="720"
                             loading="lazy"
                             decoding="async"
                             class="absolute inset-0 w-full h-full object-cover"
-                            onerror="this.style.visibility='hidden'"
+                            onerror="if(!this.dataset.fb){this.dataset.fb='1';this.src=this.src.replace('maxresdefault','hqdefault');}else{this.style.visibility='hidden';}"
                         />
                         <span class="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors" />
                         <span class="absolute inset-0 flex items-center justify-center">
