@@ -56,7 +56,7 @@ const review: CardEditorialReview = {
         {
             question: 'Aventura Privilege vs CIBC Aeroplan Visa Infinite Privilege?',
             answer:
-                'Aventura is CIBC’s bank currency for booking travel through CIBC. [Aeroplan Privilege](/card/cibc-aeroplan-visa-infinite-privilege-card/) credits Air Canada’s program and currently pays 2x on Air Canada tickets plus 1.5x grocery/dining/travel. Choose Aeroplan if you fly Air Canada. Choose Aventura if next year’s airline is undecided and you will use the portal.',
+                'Aventura is CIBC’s bank currency for booking travel through CIBC. [Aeroplan Privilege](/card/cibc-aeroplan-visa-infinite-privilege-card/) credits Air Canada’s program and currently pays 2x on Air Canada tickets, 2x at participating Hyatt hotels, and 1.5x on grocery, dining, and travel. Choose Aeroplan if you fly Air Canada. Choose Aventura if next year’s airline is undecided and you will use the portal.',
         },
         {
             question: 'Aventura Privilege vs RBC Avion Visa Infinite Privilege?',

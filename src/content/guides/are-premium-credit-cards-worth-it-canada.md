@@ -63,9 +63,9 @@ Additional premium cards are often expensive. Extra Gold or supplementary Infini
 
 Lounge access is worth money if you already arrive early, fly enough times, and use the *network* the card offers.
 
-- Global Lounge Collection / Priority Pass style access helps on mixed airlines and foreign airports.
+- Global Lounge Collection access helps on mixed airlines and foreign airports. On [The Platinum Card](/card/the-platinum-card/), that is more than 1,550 lounges (as of June 2026). From January 1, 2027, complimentary Plaza Premium and Priority Pass visits on that card are a limited annual number unless eligible spend on the account hits $20,000 in a calendar year, which unlocks unlimited visits in those two programs for the rest of that year and the next. Other lounges in the collection stay unlimited. Amex does not publish how many complimentary visits you get before that unlock.
 - Maple Leaf or Air Canada-centric access helps if that is the lounge you can enter.
-- A handful of complimentary passes (regular Passport, in current features) is a different product from unlimited-style access.
+- A handful of complimentary passes (regular Passport, in current features) is a different product from that lounge collection.
 
 One delayed departure where you used a lounge can feel like it “paid for the card.” It did not, unless you value that visit at several hundred dollars. Count visits you *already* take, not the visit you imagine.
 
