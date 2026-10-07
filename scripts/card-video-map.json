@@ -1,6 +1,16 @@
 {
   "_doc": "Manual video -> card mapping for scripts/sync_card_videos.py. Only long-form videos listed under 'videos' are embedded. Single-card review -> that card; head-to-head -> both cards; roundup/persona -> only the clear main picks (max ~4). Unknown/unsure videos go under 'skip' with a reason. Optional per-video keys: 'description' (short blurb override), 'title' (display-title override). Card slugs are validated against the live card sheet.",
   "videos": {
+    "pScfN6Ew-1s": {
+      "cards": [
+        "the-platinum-card",
+        "scotiabank-passport-visa-infinite-privilege-card",
+        "cibc-aeroplan-visa-infinite-privilege-card"
+      ],
+      "kind": "guide",
+      "note": "Guide explainer (year-two test): the 3 premium cards are the main worked examples; the mid-fee alternatives (Passport VI, Dividend VI) are only name-checked and not mapped.",
+      "description": "Are premium credit cards worth the annual fee in Canada? The year-two test: keep a $599 or $799 card only if the perks you'd actually use beat the fee after the welcome bonus is gone."
+    },
     "8dGbhNKbd0A": {
       "cards": [
         "td-cash-back-visa-infinite-card",
