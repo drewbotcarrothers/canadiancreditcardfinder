@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
         'The welcome is 20,000 Bonus Points, worth up to $133 at BMO’s in-store and eGift rate of 1,500 Points = $10. That is a modest first-year cushion, not a premium-card haul.',
         'You need at least $1,500 in net purchases in the first 110 days. Points post up to 8 weeks after the conditions are met, and they may be cancelled if the card is cancelled within 365 days.',
         '5 points at partners and 1 point on groceries is a weaker grocery product than CashBack’s 3% dollars, and a weaker partner product than World Elite’s 10 points per $1.',
-        'Insurance on this row is extended warranty and purchase protection. BMO does not print the dollar limits on the product page. This is not a travel-medical card.',
+        'Insurance on this row is extended warranty (extends the manufacturer’s warranty up to 1 year) and purchase protection (theft or damage for 90 days), with a $60,000 lifetime maximum for both combined. This is not a travel-medical card.',
         'Blue Points are not cash back. The published redemption anchor is 1,500 Points = $10 in store or on eGift Cards; travel and merchandise redemptions can differ.',
     ],
     feesAndValue:
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'BMO does not print a foreign-transaction fee on the Blue Rewards product page or the terms we checked, so this review will not quote one. This is a points card, not a no-FX Passport. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) and read BMO’s cardholder agreement before a trip.',
+                'Foreign-currency purchases are converted at the payment network’s exchange rate plus 2.50%. This is a points card, not a no-FX Passport. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
     ],
     extraHubSlugs: ['travel', 'no-annual-fee', 'groceries'],

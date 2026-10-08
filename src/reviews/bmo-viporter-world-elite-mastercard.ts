@@ -16,7 +16,7 @@ const review: CardEditorialReview = {
         'People who will use a first-year fee waiver if the live offer still includes one. Our annual-fee detail currently says promotions may apply; that is not a permanent $0 card.',
     ],
     whoShouldSkip: [
-        'Anyone who wanted 5x BMO Rewards on grocery, gas, and transit. That is [Eclipse Visa Infinite](/card/bmo-eclipse-visa-infinite-card/), a different currency you can spend without sitting on a Porter jet.',
+        'Anyone who wanted 5x BMO Rewards on groceries, dining, gas, and transit. That is [Eclipse Visa Infinite](/card/bmo-eclipse-visa-infinite-card/), a different currency you can spend without sitting on a Porter jet.',
         'WestJet or Air Canada regulars. VIPorter does not print on those tickets the way [WestJet RBC World Elite](/card/westjet-rbc-world-elite-mastercard/) or an Aeroplan cobrand does.',
         'Marriott-loyal hotel guests who only fly Porter twice a year. [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) is the hotel currency; this card’s hotel line is still a Porter-centred earn mix.',
         'People who revolve a balance. VIPorter will not outrun the purchase rate in our data.',
@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'VIPorter World Elite vs BMO Eclipse Visa Infinite?',
             answer:
-                '[Eclipse Infinite](/card/bmo-eclipse-visa-infinite-card/) pays BMO Rewards on a grocery/gas/transit mix at a Visa Infinite fee, often with a first-year waiver in that row. VIPorter pays Porter’s currency on a cobrand mix at a World Elite fee. Choose Eclipse if you want a bank catalogue. Choose VIPorter if Billy Bishop is already the default airport.',
+                '[Eclipse Infinite](/card/bmo-eclipse-visa-infinite-card/) pays BMO Rewards on groceries, dining (including takeout), gas, and transit, plus 1 point per $1 on everything else, at a Visa Infinite fee, often with a first-year waiver in that row. VIPorter pays Porter’s currency on a cobrand mix at a World Elite fee. Choose Eclipse if you want a bank catalogue. Choose VIPorter if Billy Bishop is already the default airport.',
         },
         {
             question: 'VIPorter vs WestJet RBC World Elite or Marriott Bonvoy Amex?',
