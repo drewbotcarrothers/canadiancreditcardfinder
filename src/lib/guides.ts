@@ -67,6 +67,8 @@ export interface GuideImage {
     alt: string;
     width: number;
     height: number;
+    /** True when the guide has no featured image yet and the site-wide default is used instead. */
+    isFallback: boolean;
 }
 
 /** Featured images live at public/images/guides/<id>.webp (1200x630, matches og:image size). */
@@ -96,15 +98,30 @@ const GUIDE_IMAGE_ALTS: Record<string, string> = {
         'Commuters crossing a street in the downtown Toronto financial district, for the RBC vs TD vs Scotiabank credit cards comparison',
 };
 
+/** Site-wide default social image (1200x630). Used until a guide gets its own featured image. */
+const FALLBACK_GUIDE_IMAGE = '/og-default.png';
+const FALLBACK_GUIDE_IMAGE_ALT = 'Canadian Credit Card Finder';
+
+/**
+ * Guides with an entry in GUIDE_IMAGE_ALTS have a featured image at public/images/guides/<id>.webp.
+ * Guides without one fall back to the site default social image; pages hide the hero figure in that case.
+ */
 export function getGuideImage(id: string): GuideImage {
     const alt = GUIDE_IMAGE_ALTS[id];
     if (!alt) {
-        throw new Error(`Missing featured image alt text for guide: ${id}`);
+        return {
+            src: FALLBACK_GUIDE_IMAGE,
+            alt: FALLBACK_GUIDE_IMAGE_ALT,
+            width: GUIDE_IMAGE_WIDTH,
+            height: GUIDE_IMAGE_HEIGHT,
+            isFallback: true,
+        };
     }
     return {
         src: `/images/guides/${id}.webp`,
         alt,
         width: GUIDE_IMAGE_WIDTH,
         height: GUIDE_IMAGE_HEIGHT,
+        isFallback: false,
     };
 }
