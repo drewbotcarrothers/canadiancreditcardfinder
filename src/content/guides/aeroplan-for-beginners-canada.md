@@ -101,12 +101,12 @@ Beyond earning points, Aeroplan co-branded cards bundle travel perks. They vary 
 - **Preferred pricing** on flight rewards for primary cardholders (and their Family Sharing pool).
 - **No points expiry** while you hold the card.
 - **Free first checked bag** on Air Canada flights on mid-tier and premium cards. The TD Aeroplan Visa Infinite page, for example, lists free first checked bags for you and up to eight travel companions.
-- **Travel insurance** such as emergency medical and trip cancellation. See our travel insurance explainer.
+- **Travel insurance** such as emergency medical and trip cancellation. See our [travel insurance explainer](/guides/credit-card-travel-insurance-explained-canada/).
 - **Lounge access and priority services** on premium cards like the [American Express Aeroplan Reserve](/card/american-express-aeroplan-reserve-card/).
 
 No-fee options such as the [CIBC Aeroplan Visa](/card/cibc-aeroplan-visa-card/) earn points but carry fewer perks. Whether a fee is worth it usually comes down to the checked bag alone: if two people check bags on a couple of return trips a year, the savings can cover a mid-tier annual fee. Our [premium cards guide](/guides/are-premium-credit-cards-worth-it-canada/) walks through the year-two math.
 
-Welcome bonuses on Aeroplan cards are subject to both the issuer's rules and Aeroplan's terms, which can block a bonus if you recently received one on a similar Aeroplan card. Our welcome bonus eligibility guide explains how that works.
+Welcome bonuses on Aeroplan cards are subject to both the issuer's rules and Aeroplan's terms, which can block a bonus if you recently received one on a similar Aeroplan card. Our [welcome bonus eligibility guide](/guides/welcome-bonus-eligibility-rules-canada/) explains how that works.
 
 ## Beginner mistakes to avoid
 

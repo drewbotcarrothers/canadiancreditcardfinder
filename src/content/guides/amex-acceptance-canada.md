@@ -35,7 +35,7 @@ It is worth knowing that cards issued by Scotiabank on the American Express netw
 
 **Some independent and small businesses.** Corner stores, trades, small clinics and market vendors may accept debit and Visa or Mastercard only. Signs at the door or near the terminal usually tell you.
 
-**Bills and government payments.** Many utilities, property tax offices and the Canada Revenue Agency do not take credit cards directly at all, Amex or otherwise. Some third-party services bridge the gap for a fee; see our guide to paying rent and taxes by credit card.
+**Bills and government payments.** Many utilities, property tax offices and the Canada Revenue Agency do not take credit cards directly at all, Amex or otherwise. Some third-party services bridge the gap for a fee; see our guide to [paying rent and taxes by credit card](/guides/pay-rent-taxes-credit-card-canada/).
 
 **Travel abroad.** Acceptance outside Canada and the U.S. varies a lot by country and by type of merchant. Plan on using Visa or Mastercard for most foreign spending, ideally a card without foreign transaction fees (see our [foreign transaction fees guide](/guides/foreign-transaction-fees-canada/)).
 

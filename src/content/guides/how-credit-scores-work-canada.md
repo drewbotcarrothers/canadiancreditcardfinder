@@ -57,7 +57,7 @@ Utilization is the share of your available revolving credit you are using. FCAC 
 Two practical points for credit card users:
 
 - **The balance that gets reported is usually your statement balance**, not what you owe after you pay. If you put a lot on a card and pay in full after the statement, your reported utilization can still look high. Paying down part of the balance before the statement date lowers it.
-- **Closing a card reduces your total available credit**, which can raise your utilization even if your spending stays the same. That is one reason to think before cancelling; see product switching vs cancelling.
+- **Closing a card reduces your total available credit**, which can raise your utilization even if your spending stays the same. That is one reason to think before cancelling; see [product switching vs cancelling](/guides/product-switch-vs-cancel-credit-card-canada/).
 
 ### Length of history
 
@@ -112,7 +112,7 @@ If you have no Canadian credit history, the basic path is the same for everyone:
 3. Pay the statement in full and on time every month.
 4. Leave the account open as it ages.
 
-Being added as an authorized user on someone else's card is sometimes suggested, but FCAC says purchases you make as an additional cardholder won't help you build your credit history. See our authorized users guide for the details.
+Being added as an authorized user on someone else's card is sometimes suggested, but FCAC says purchases you make as an additional cardholder won't help you build your credit history. See our [authorized users guide](/guides/authorized-users-credit-cards-canada/) for the details.
 
 ## FAQ
 

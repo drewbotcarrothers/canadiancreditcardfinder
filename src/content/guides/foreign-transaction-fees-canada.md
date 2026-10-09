@@ -88,7 +88,7 @@ For cash, a debit card linked to a bank account with low foreign ATM fees usuall
 2. Decide which card you will use for foreign purchases, ideally one with no conversion fee.
 3. Carry a backup card on a different network. Acceptance abroad varies; see our [Amex acceptance guide](/guides/amex-acceptance-canada/).
 4. Plan to decline dynamic currency conversion at terminals and ATMs.
-5. Check that your travel insurance covers your trip length; see our travel insurance explainer.
+5. Check that your travel insurance covers your trip length; see our [travel insurance explainer](/guides/credit-card-travel-insurance-explained-canada/).
 
 ## FAQ
 

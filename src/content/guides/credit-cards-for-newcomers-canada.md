@@ -78,7 +78,7 @@ International students can often get a student credit card with a modest limit a
 
 ## What about being an authorized user?
 
-A family member or partner with Canadian credit can add you to their card. That gives you a card to use, but FCAC's [joint credit cards page](https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/joint-credit-card.html) says purchases made as an additional cardholder won't help you build your credit history. Getting a card in your own name is the reliable path. See our authorized users guide.
+A family member or partner with Canadian credit can add you to their card. That gives you a card to use, but FCAC's [joint credit cards page](https://www.canada.ca/en/financial-consumer-agency/services/credit-cards/joint-credit-card.html) says purchases made as an additional cardholder won't help you build your credit history. Getting a card in your own name is the reliable path. See our [authorized users guide](/guides/authorized-users-credit-cards-canada/).
 
 ## Your first-year playbook
 
