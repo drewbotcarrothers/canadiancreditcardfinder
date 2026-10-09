@@ -4,9 +4,12 @@ import AddToCompareButton from '../../components/AddToCompareButton';
 import CardGrid from '../../components/CardGrid';
 import CardReview from '../../components/CardReview.astro';
 import CardVideos from '../../components/CardVideos.astro';
+import Byline from '../../components/Byline.astro';
+import { authorJsonLd, publisherJsonLd } from '../../lib/author';
+import { firstPublished, lastModified, reviewSourceFile } from '../../lib/contentDates';
 import { CARD_IMAGE_HEIGHT, CARD_IMAGE_WIDTH, cardImageSrc, PLACEHOLDER_IMAGE_SRC } from '../../lib/cardImage';
 import { getCardEditorialReview, getReviewHubs } from '../../reviews';
-import { getCards, getCardsBySlugs, getRelatedCards } from '../../lib/data';
+import { getCards, getCardsBySlugs, getDataFetchedAt, getRelatedCards } from '../../lib/data';
 import { getIssuerHubForName } from '../../lib/issuers';
 import { renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
 import { buildCardProductJsonLd } from '../../lib/productSchema';
@@ -58,7 +61,37 @@ const faqJsonLd =
           }
         : null;
 
-const jsonLd = faqJsonLd ? [productJsonLd, faqJsonLd] : productJsonLd;
+const reviewFile = review ? reviewSourceFile(card.slug) : null;
+const reviewUpdated = reviewFile ? lastModified(reviewFile) : null;
+const reviewPublished = reviewFile ? firstPublished(reviewFile) : null;
+const dataFetchedAt = getDataFetchedAt();
+// Review copy date from git; only if git history is unavailable fall back to this build's data pull.
+const reviewModified = reviewUpdated ?? dataFetchedAt;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+const articleJsonLd = review
+    ? {
+          '@context': 'https://schema.org',
+          '@type': 'Article',
+          headline: heading,
+          description,
+          url: canonical,
+          mainEntityOfPage: canonical,
+          inLanguage: 'en-CA',
+          image: new URL(imageSrc, Astro.site).href,
+          author: authorJsonLd(Astro.site),
+          publisher: publisherJsonLd(Astro.site),
+          ...(reviewPublished ? { datePublished: reviewPublished.toISOString() } : {}),
+          ...(reviewModified ? { dateModified: reviewModified.toISOString() } : {}),
+          about: {
+              '@type': 'Product',
+              name: productJsonLd.name,
+              url: productJsonLd.url,
+          },
+      }
+    : null;
+
+const jsonLd = [productJsonLd, articleJsonLd, faqJsonLd].filter(Boolean);
 ---
 
 <BaseLayout title={title} description={description}>
@@ -126,6 +159,8 @@ const jsonLd = faqJsonLd ? [productJsonLd, faqJsonLd] : productJsonLd;
                             <>by {card.issuer}</>
                         )}
                     </p>
+
+                    {review && <Byline updated={reviewUpdated} dataAsOf={dataFetchedAt} class="-mt-4 mb-6" />}
 
                     {review && (
                         <div

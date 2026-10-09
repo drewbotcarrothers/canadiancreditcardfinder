@@ -3,7 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import HubLinks from '../../components/HubLinks.astro';
 import RelatedGuide from '../../components/RelatedGuide.astro';
 import StackSlot from '../../components/StackSlot.astro';
-import { getCardsBySlugs } from '../../lib/data';
+import Byline from '../../components/Byline.astro';
+import { authorJsonLd, publisherJsonLd } from '../../lib/author';
+import { firstPublished, lastModified } from '../../lib/contentDates';
+import { getCardsBySlugs, getDataFetchedAt } from '../../lib/data';
 import { guidePath } from '../../lib/guides';
 import {
     getRelatedGuidesForStack,
@@ -65,6 +68,11 @@ const heroImageUrl = new URL(heroImage.src, Astro.site).href;
 const title = `${persona.metaTitle} | Canadian Credit Card Finder`;
 const description = persona.metaDescription;
 
+// Stack copy lives in src/lib/stacks.ts; use its real git dates.
+const stackUpdated = lastModified('src/lib/stacks.ts');
+const stackPublished = firstPublished('src/lib/stacks.ts');
+const dataFetchedAt = getDataFetchedAt();
+
 const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -117,21 +125,10 @@ const articleJsonLd = {
         width: heroImage.width,
         height: heroImage.height,
     },
-    author: {
-        '@type': 'Person',
-        name: 'Andrew',
-    },
-    publisher: {
-        '@type': 'Organization',
-        name: 'Canadian Credit Card Finder',
-        url: new URL('/', Astro.site).href,
-        logo: {
-            '@type': 'ImageObject',
-            url: new URL('/images/logo-512.png', Astro.site).href,
-            width: 512,
-            height: 512,
-        },
-    },
+    author: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
+    ...(stackPublished ? { datePublished: stackPublished.toISOString() } : {}),
+    ...(stackUpdated ? { dateModified: stackUpdated.toISOString() } : {}),
 };
 ---
 
@@ -165,7 +162,7 @@ const articleJsonLd = {
                     <p class="text-lg text-gray-600 leading-relaxed mb-3">
                         {persona.intro}
                     </p>
-                    <p class="text-sm text-gray-500">By <a href="/about/" class="underline underline-offset-2 hover:text-red-600">Andrew</a> · Canadian Credit Card Finder</p>
+                    <Byline updated={stackUpdated} dataAsOf={dataFetchedAt} />
                 </div>
                 <figure class="overflow-hidden rounded-2xl shadow-md bg-gray-100 w-full max-w-md md:max-w-none">
                     <img

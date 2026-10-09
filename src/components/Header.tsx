@@ -71,6 +71,12 @@ export default function Header() {
                             Stacks
                         </a>
                         <a
+                            href="/about/"
+                            className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                        >
+                            About
+                        </a>
+                        <a
                             href="/compare/"
                             className="text-gray-600 hover:text-gray-900 font-medium transition-colors flex items-center"
                         >
@@ -128,6 +134,27 @@ export default function Header() {
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Stacks
+                            </a>
+                            <a
+                                href="/about/"
+                                className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                About
+                            </a>
+                            <a
+                                href="/editorial-policy/"
+                                className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Editorial Policy
+                            </a>
+                            <a
+                                href="/contact/"
+                                className="text-gray-600 hover:text-gray-900 font-medium transition-colors"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                Contact
                             </a>
                             <a
                                 href="/compare/"

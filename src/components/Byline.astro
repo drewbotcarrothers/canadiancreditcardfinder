@@ -1,0 +1,35 @@
+---
+import { AUTHOR_NAME, AUTHOR_PATH } from '../lib/author';
+import { formatDisplayDate, formatIsoDate } from '../lib/contentDates';
+
+interface Props {
+    /** Last real edit of this page's written content (git commit date). */
+    updated?: Date | null;
+    /** When this build pulled the card data shown on the page. */
+    dataAsOf?: Date | null;
+    class?: string;
+}
+
+const { updated = null, dataAsOf = null, class: className = '' } = Astro.props;
+---
+
+<p class:list={['text-sm text-gray-500', className]} data-byline>
+    By{' '}
+    <a href={AUTHOR_PATH} rel="author" class="font-medium text-gray-700 underline underline-offset-2 hover:text-red-600">
+        {AUTHOR_NAME}
+    </a>
+    {updated && (
+        <>
+            <span aria-hidden="true"> · </span>
+            Updated <time datetime={formatIsoDate(updated)}>{formatDisplayDate(updated)}</time>
+        </>
+    )}
+    {dataAsOf && (
+        <>
+            <span aria-hidden="true"> · </span>
+            Card details as of <time datetime={formatIsoDate(dataAsOf)}>{formatDisplayDate(dataAsOf)}</time>
+        </>
+    )}
+    <span aria-hidden="true"> · </span>
+    <a href="/editorial-policy/" class="underline underline-offset-2 hover:text-red-600">How we review cards</a>
+</p>

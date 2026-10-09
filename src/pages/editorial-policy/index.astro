@@ -1,0 +1,171 @@
+---
+import LegalPage from '../../components/LegalPage.astro';
+import Byline from '../../components/Byline.astro';
+import { getCards } from '../../lib/data';
+import { getCardEditorialReview } from '../../reviews';
+import { HUBS } from '../../lib/hubs';
+import { lastModified } from '../../lib/contentDates';
+import { CONTACT_EMAIL, SITE_NAME } from '../../lib/legal';
+
+const cards = await getCards();
+const reviewedCount = cards.filter((card) => getCardEditorialReview(card.slug)).length;
+const updated = lastModified('src/pages/editorial-policy/index.astro');
+
+const title = `Editorial Policy: How We Review Credit Cards | ${SITE_NAME}`;
+const description = `How ${SITE_NAME} researches Canadian credit cards from issuers' official pages, how the card finder and lists are put together, how we handle corrections, and how the site is funded.`;
+---
+
+<LegalPage title={title} heading="Editorial policy: how we review cards" description={description} breadcrumb="Editorial Policy" showUpdated={false}>
+    <Byline updated={updated} class="-mt-3 mb-6" />
+
+    <p>
+        This page explains where the information on {SITE_NAME} comes from, how it is kept current, how the card
+        finder and our lists choose which cards to show, how we fix mistakes, and how the site pays for itself.
+    </p>
+
+    <h2 id="research">How cards are researched</h2>
+    <p>
+        Every card on the site, {cards.length} at the moment, has one record in our card database. That record
+        holds the card's annual fee, extra-card fee, purchase and cash-advance interest rates, rewards program,
+        earn rates and features, welcome offer and its conditions, eligibility rules and insurance. All of it is
+        taken from the issuer's own official product page for that card, not from other comparison sites. Each
+        card page links to that issuer page through its "Apply Now" button so you can check the source yourself.
+    </p>
+    <p>
+        Card details are checked against the issuers' official pages every day. When an issuer changes a fee,
+        rate, earn rate or offer, we update the card record and correct any review text that no longer matches.
+    </p>
+    <p>
+        The site is rebuilt from that database each time it is published. Fees, rates and offers on card pages,
+        lists and stacks come straight from the database at build time, and those pages show a "Card details as
+        of" date: the date that version of the page pulled the data. The "Updated" date in each byline is the
+        last time the written content of that page was changed, taken from the site's version history. We don't
+        bump dates on pages that haven't changed.
+    </p>
+
+    <h2 id="reviews">What each review covers</h2>
+    <p>
+        {reviewedCount === cards.length
+            ? `Every card on the site has a full written review.`
+            : `${reviewedCount} of the ${cards.length} cards have a full written review.`}{' '}
+        Each review answers the same questions:
+    </p>
+    <ul>
+        <li>Who the card suits, and who should skip it.</li>
+        <li>Pros and cons, including fees, caps and exclusions.</li>
+        <li>Whether the annual fee is likely to pay for itself.</li>
+        <li>How the rewards are earned and redeemed.</li>
+        <li>What it takes to earn the welcome offer, and who is excluded from it.</li>
+        <li>Which other Canadian cards are worth comparing it with.</li>
+    </ul>
+    <p>
+        Reviews are based on the issuer's published terms. We don't claim to have tested every card ourselves,
+        and we don't use reader ratings.
+    </p>
+
+    <h2 id="ratings">How rankings and recommendations are worked out</h2>
+    <p>
+        We don't give cards star ratings or an overall score. Here is exactly how each part of the site decides
+        which cards to show, and in what order. No card issuer pays to be included or to be placed higher, and
+        none of this logic takes payments into account.
+    </p>
+
+    <h3>Card finder</h3>
+    <p>
+        The <a href="/finder/">card finder</a> asks up to five questions: your main goal, how much annual fee
+        you're comfortable with, where you spend the most, your preferred travel program (travel goal only), and
+        whether you prefer a particular bank. It then works in two steps.
+    </p>
+    <p>
+        <strong>1. Filter.</strong> Only cards that match your goal (cash back, travel, everyday rewards, student
+        or low interest) and your fee limit ($0 only, up to $150, or any fee) are kept. U.S.-dollar cards are left
+        out. A bank preference (American Express, or one of RBC, TD, CIBC, Scotiabank and BMO) and a travel program
+        preference (Aeroplan, WestJet, hotel, or flexible points) are also applied. If nothing is left, the finder
+        loosens the filters one at a time, in this order: bank preference, then travel program, then fee limit. It
+        tells you when it has done this.
+    </p>
+    <p><strong>2. Score.</strong> Each remaining card gets points from fixed rules:</p>
+    <ul>
+        <li>+100 if the card matches your goal.</li>
+        <li>
+            Fee fit: +35 for a $0 card if you chose $0 only; +25 for a card at or under $150 if you chose
+            moderate (+4 more if it does charge a fee); +30 for a premium card if you chose premium (a non-student
+            card with a fee of $120 or more), or +18 for another card with a fee of $150 or more.
+        </li>
+        <li>
+            +40 if the card's listed features mention your top spending category (groceries, gas and transit,
+            dining, or travel), plus up to +28 more based on the earn rate shown for that category (5 points for
+            each "x" or percent of earn, when it's above 1).
+        </li>
+        <li>+40 for a card in your chosen travel program (+32 for flexible points).</li>
+        <li>+25 if the card is from the bank group you prefer.</li>
+        <li>For a low-interest goal: 22 minus the card's purchase rate (so a lower rate scores higher).</li>
+        <li>−12 for a student card when you didn't ask for one.</li>
+        <li>The estimated dollar value of the welcome offer divided by 40, up to +12.</li>
+        <li>+8 for a premium travel card when you chose travel and premium fees.</li>
+    </ul>
+    <p>
+        The top score is shown as your best match, with up to four alternatives. Ties go to the larger welcome
+        offer, then the lower annual fee, then alphabetical order.
+    </p>
+
+    <h3>"Best" lists</h3>
+    <p>
+        Each of our {HUBS.length} <a href="/best/no-annual-fee/">"best" lists</a> includes every card that meets
+        that list's rule: for example a $0 annual fee for the no-annual-fee list, a travel card type for the travel
+        list, "student" in the card's type or name for the student list, or a fee of $120 or more (excluding
+        student and basic cash-back cards) for the premium list. Cards appear in the same order as our card
+        database. The lists are not sorted by a score and no position is paid for. The homepage's default
+        "Featured" order is the same database order.
+    </p>
+
+    <h3>"Bonus minus fee" estimate</h3>
+    <p>
+        Card reviews include a first-year snapshot that subtracts the annual fee from the estimated dollar value
+        of the welcome offer. When the fee details show a higher regular fee than the first-year fee, the higher
+        fee is used. Offers listed only in points, with no dollar value, are not converted. This is a rough
+        guide that leaves out everyday rewards, credits and interest. It isn't a rating.
+    </p>
+
+    <h3>Stacks and guides</h3>
+    <p>
+        The card pairings on our <a href="/stacks/">stacks</a> pages and the picks in our
+        <a href="/guides/">guides</a> are Andrew's editorial choices for each situation, explained on the page.
+    </p>
+
+    <h2 id="independence">Independence</h2>
+    <p>
+        {SITE_NAME} is run by <a href="/about/#andrew">Andrew</a>. We are not a bank, lender or broker, and we
+        never see or decide on applications. No card issuer pays to be listed, ranked or reviewed. Reviews
+        include each card's downsides and say who should skip it. Advertisers have no say in what we write.
+    </p>
+
+    <h2 id="funding">How the site is funded</h2>
+    <p>
+        The site is free to use and is funded by ads served by Google AdSense. Google chooses which ads appear; we
+        don't pick individual advertisers. We don't show ads on screens without our own content, such as the
+        compare tool, the card finder quiz and error pages.
+    </p>
+    <p>
+        Today the "Apply Now" links on card pages go straight to each issuer's own product page. They carry no
+        affiliate or referral tracking, and we don't earn a commission when you apply. We may join affiliate
+        programs in the future. If we do, we will say so on this page and in our
+        <a href="/advertising-disclosure/">advertising disclosure</a> before those links go live.
+    </p>
+
+    <h2 id="corrections">Corrections</h2>
+    <p>
+        If a fee, rate, earn rate, offer or anything else on the site doesn't match the issuer's official page,
+        please email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> with the card name and a link to
+        the issuer page. We check the report against the issuer's page and, if it's wrong, fix the card record
+        and any affected review text. The page's "Updated" date changes when its written content does. You can
+        also reach us through the <a href="/contact/">contact page</a>.
+    </p>
+
+    <h2 id="not-advice">Not financial advice</h2>
+    <p>
+        Our reviews, lists and finder results are general information, not financial advice, and they don't
+        guarantee approval. Card terms change often, so always confirm the details with the issuer before you
+        apply. See our <a href="/terms/">Terms of Use</a>.
+    </p>
+</LegalPage>

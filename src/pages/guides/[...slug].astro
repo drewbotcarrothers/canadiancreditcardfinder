@@ -2,6 +2,9 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
+import Byline from '../../components/Byline.astro';
+import { authorJsonLd, publisherJsonLd } from '../../lib/author';
+import { lastModified, latestDate } from '../../lib/contentDates';
 import { getCardsBySlugs } from '../../lib/data';
 import { GUIDE_DISCLAIMER, getGuideImage, getGuides, type GuideEntry } from '../../lib/guides';
 import { toHomepageCard } from '../../lib/homepage';
@@ -30,12 +33,13 @@ if (relatedCards.length !== guide.data.relatedCardSlugs.length) {
 }
 
 const publishedAt = guide.data.publishedAt;
-const updatedAt = guide.data.updatedAt ?? publishedAt;
+// Real last edit: the guide file's last git commit (or a later frontmatter updatedAt, if one is set).
+const updatedAt =
+    latestDate(lastModified(`src/content/guides/${guide.id}.md`), guide.data.updatedAt) ?? publishedAt;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const heroImage = getGuideImage(guide.id);
 const heroImageUrl = new URL(heroImage.src, Astro.site).href;
 const title = `${guide.data.title} | Canadian Credit Card Finder`;
-const dateOptions: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'long', day: 'numeric' };
 
 const jsonLd = {
     '@context': 'https://schema.org',
@@ -54,22 +58,8 @@ const jsonLd = {
         width: heroImage.width,
         height: heroImage.height,
     },
-    author: {
-        '@type': 'Organization',
-        name: 'Canadian Credit Card Finder',
-        url: new URL('/', Astro.site).href,
-    },
-    publisher: {
-        '@type': 'Organization',
-        name: 'Canadian Credit Card Finder',
-        url: new URL('/', Astro.site).href,
-        logo: {
-            '@type': 'ImageObject',
-            url: new URL('/images/logo-512.png', Astro.site).href,
-            width: 512,
-            height: 512,
-        },
-    },
+    author: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
 };
 ---
 
@@ -105,9 +95,7 @@ const jsonLd = {
                     <p class="text-lg text-gray-600 leading-relaxed mb-4">
                         {guide.data.excerpt}
                     </p>
-                    <p class="text-sm text-gray-500">
-                        Updated {updatedAt.toLocaleDateString('en-CA', dateOptions)}
-                    </p>
+                    <Byline updated={updatedAt} />
                 </div>
                 <figure class="overflow-hidden rounded-2xl shadow-md bg-gray-100 w-full max-w-md md:max-w-none">
                     <img
