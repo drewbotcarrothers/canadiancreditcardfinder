@@ -72,7 +72,7 @@ CIBC publishes an [Aventura Airline Rewards Chart](https://www.cibc.com/en/perso
 
 ### Scene+
 
-Scene+ is about as simple as Canadian points get. Scotiabank's [Scene+ calculator page](https://www.scotiabank.com/ca/en/personal/credit-cards/scene-points-rewards-calculator.html) states that 100 points give $1 in value. That applies to Scene+ Travel bookings and to travel booked anywhere with a Scene+ Scotiabank card using **Apply Points to Travel**, which works within 12 months of the purchase. Grocery partners redeem in 1,000-point blocks for $10. So Scene+ points are worth about 1 cent almost everywhere. Our Scene+ explainer covers the details.
+Scene+ is about as simple as Canadian points get. Scotiabank's [Scene+ calculator page](https://www.scotiabank.com/ca/en/personal/credit-cards/scene-points-rewards-calculator.html) states that 100 points give $1 in value. That applies to Scene+ Travel bookings and to travel booked anywhere with a Scene+ Scotiabank card using **Apply Points to Travel**, which works within 12 months of the purchase. Grocery partners redeem in 1,000-point blocks for $10. So Scene+ points are worth about 1 cent almost everywhere. Our [Scene+ explainer](/guides/scene-plus-explained/) covers the details.
 
 ### TD Rewards
 
@@ -88,7 +88,7 @@ Aeroplan has no fixed value. Air Canada flights use dynamic pricing, and the [Fl
 
 ### PC Optimum
 
-PC Optimum uses big numbers: 10,000 points = $10, so each point is worth 0.1 cents. A card that earns "30 points per dollar" at participating grocery stores is returning 3%. See the PC Optimum explainer.
+PC Optimum uses big numbers: 10,000 points = $10, so each point is worth 0.1 cents. A card that earns "30 points per dollar" at participating grocery stores is returning 3%. See the [PC Optimum explainer](/guides/pc-optimum-explained/).
 
 ## Turning value into a return rate
 

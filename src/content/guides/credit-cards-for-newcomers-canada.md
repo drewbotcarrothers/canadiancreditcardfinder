@@ -95,7 +95,7 @@ Building a Canadian credit score is mostly about doing a few simple things consi
 
 For most newcomers, the first card should be simple: no annual fee, accepted almost everywhere (Visa or Mastercard), and easy to pay from your main bank account. Rewards are a bonus, not the goal. A no-fee cash back card from your bank, like the [RBC Cash Back Mastercard](/card/rbc-cash-back-mastercard/), the [BMO CashBack Mastercard](/card/bmo-cashback-mastercard/) or the [Tangerine Money-Back Credit Card](/card/tangerine-money-back-credit-card/), is a sensible starting point. Compare options on the [no annual fee hub](/best/no-annual-fee/).
 
-Hold off on premium travel cards with high income requirements until your file is established; our Visa Infinite and World Elite guide explains why those requirements exist.
+Hold off on premium travel cards with high income requirements until your file is established; our [Visa Infinite and World Elite guide](/guides/visa-infinite-world-elite-income-requirements-canada/) explains why those requirements exist.
 
 ## FAQ
 
