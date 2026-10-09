@@ -72,7 +72,7 @@ Read your card's rewards terms, or make one small payment and check how it posts
 
 ## When it doesn't
 
-- **You might carry the balance.** At a typical purchase rate around 20%, one month of interest on $2,000 is roughly $33, which wipes out the rewards and then some. Our guide to interest, grace periods and minimum payments explains how it adds up.
+- **You might carry the balance.** At a typical purchase rate around 20%, one month of interest on $2,000 is roughly $33, which wipes out the rewards and then some. Our [guide to interest, grace periods and minimum payments](/guides/credit-card-interest-grace-period-minimum-payment-canada/) explains how it adds up.
 - **Your card earns less than the fee,** which is true of many no-fee cards earning 0.5% to 1%.
 - **The payment would push up your utilization** right before you apply for a mortgage or car loan. A large statement balance can affect your credit score until you pay it. See [how credit scores work](/guides/how-credit-scores-work-canada/).
 - **The timing is tight.** A payment service adds processing days.

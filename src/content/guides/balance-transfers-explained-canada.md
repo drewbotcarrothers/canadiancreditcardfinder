@@ -130,4 +130,4 @@ Issuers decide what offers they make you. Moving debt repeatedly costs a fee eac
 
 ## What to do next
 
-Write down your balances and rates, calculate a realistic monthly payment, then compare offers on the [low interest hub](/best/low-interest/). Our guide to interest, grace periods and minimum payments explains the mechanics behind everything above.
+Write down your balances and rates, calculate a realistic monthly payment, then compare offers on the [low interest hub](/best/low-interest/). Our guide to [interest, grace periods and minimum payments](/guides/credit-card-interest-grace-period-minimum-payment-canada/) explains the mechanics behind everything above.

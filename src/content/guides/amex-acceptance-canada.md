@@ -31,7 +31,7 @@ It is worth knowing that cards issued by Scotiabank on the American Express netw
 
 ## Where gaps are most common
 
-**Costco.** This is the best-known example. Costco Canada's [payment methods page](https://customerservice.costco.ca/app/answers/answer_view/a_id/1017193/) lists Mastercard, debit, cash, Costco Shop Cards, personal cheques and Apple Pay at warehouses, and Mastercard, Visa, most PIN-based debit cards and Shop Cards at Costco.ca. American Express is not on either list. Our Costco credit card guide covers the options.
+**Costco.** This is the best-known example. Costco Canada's [payment methods page](https://customerservice.costco.ca/app/answers/answer_view/a_id/1017193/) lists Mastercard, debit, cash, Costco Shop Cards, personal cheques and Apple Pay at warehouses, and Mastercard, Visa, most PIN-based debit cards and Shop Cards at Costco.ca. American Express is not on either list. Our [Costco credit card guide](/guides/costco-credit-card-canada/) covers the options.
 
 **Some independent and small businesses.** Corner stores, trades, small clinics and market vendors may accept debit and Visa or Mastercard only. Signs at the door or near the terminal usually tell you.
 

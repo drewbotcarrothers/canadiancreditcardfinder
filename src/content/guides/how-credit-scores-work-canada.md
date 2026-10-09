@@ -48,7 +48,7 @@ Credit bureaus don't publish their exact formulas. Equifax does publish approxim
 
 ### Payment history
 
-This is the biggest piece. A payment more than 30 days late can be reported to the bureaus and stays on your report for years. Paying the full statement balance is best for your wallet, but for your score the key line is paying at least the minimum by the due date. Setting up an automatic minimum payment is a cheap insurance policy against forgetting. Our interest and minimum payments guide explains how due dates and minimums work.
+This is the biggest piece. A payment more than 30 days late can be reported to the bureaus and stays on your report for years. Paying the full statement balance is best for your wallet, but for your score the key line is paying at least the minimum by the due date. Setting up an automatic minimum payment is a cheap insurance policy against forgetting. Our [interest and minimum payments guide](/guides/credit-card-interest-grace-period-minimum-payment-canada/) explains how due dates and minimums work.
 
 ### Utilization
 
