@@ -33,6 +33,18 @@ interface CSVRow {
 
 let cachedCards: CreditCard[] | null = null;
 
+/**
+ * Editor notes left in sheet cells (for example "fill current NBC Platinum offer ...")
+ * must never render as public copy. Treat them as empty so the page shows its normal
+ * "not listed" state instead of an internal to-do.
+ */
+const EDITOR_NOTE_PATTERN = /^\s*(fill\b|tbd\b|todo\b|xxx\b|placeholder\b)/i;
+
+function publicText(value: string | undefined): string {
+    const text = (value || '').trim();
+    return EDITOR_NOTE_PATTERN.test(text) ? '' : text;
+}
+
 function parseCSV(csvText: string): CreditCard[] {
     const result = Papa.parse<CSVRow>(csvText, {
         header: true,
@@ -47,23 +59,23 @@ function parseCSV(csvText: string): CreditCard[] {
         category: row.Category || '',
         annualFee: parseFloat(row.Annual_Fee?.replace(/[$,]/g, '') || '0'),
         annualFeeDisplay: row.Annual_Fee || '$0',
-        annualFeeDetail: row.Annual_Fee_Detail || '',
+        annualFeeDetail: publicText(row.Annual_Fee_Detail),
         additionalCardFee: parseFloat(row.Additional_Card_Fee?.replace(/[$,]/g, '') || '0'),
         additionalCardFeeDisplay: row.Additional_Card_Fee || '$0',
-        additionalCardDetail: row.Additional_Card_Detail || '',
+        additionalCardDetail: publicText(row.Additional_Card_Detail),
         purchaseInterestRate: parseFloat(row.Purchase_Interest_Rate?.replace('%', '') || '0'),
         purchaseInterestRateDisplay: row.Purchase_Interest_Rate || '',
         cashAdvanceInterestRate: parseFloat(row.Cash_Advance_Interest_Rate?.replace('%', '') || '0'),
         cashAdvanceInterestRateDisplay: row.Cash_Advance_Interest_Rate || '',
         rewardsProgram: row.Rewards_Program || '',
-        welcomeBonus: row.Welcome_Bonus || '',
-        welcomeBonusDetailed: row.Welcome_Bonus_Detailed || '',
-        welcomeBonusValue: row.Welcome_Bonus_Value || '',
-        welcomeBonusEligibility: row.Welcome_Bonus_Eligbility || '',
-        features: row.Features || '',
-        featuresDetailed: row.Features_Detailed || '',
-        cardEligibility: row.Card_Eligibility || '',
-        insurance: row.Insurance || '',
+        welcomeBonus: publicText(row.Welcome_Bonus),
+        welcomeBonusDetailed: publicText(row.Welcome_Bonus_Detailed),
+        welcomeBonusValue: publicText(row.Welcome_Bonus_Value),
+        welcomeBonusEligibility: publicText(row.Welcome_Bonus_Eligbility),
+        features: publicText(row.Features),
+        featuresDetailed: publicText(row.Features_Detailed),
+        cardEligibility: publicText(row.Card_Eligibility),
+        insurance: publicText(row.Insurance),
         productLink: row.Product_Link || '',
         slug: slugify(row.Credit_Card_Name || ''),
     }));

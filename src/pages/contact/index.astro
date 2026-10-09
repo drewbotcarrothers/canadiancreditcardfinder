@@ -1,0 +1,40 @@
+---
+import LegalPage from '../../components/LegalPage.astro';
+import { CONTACT_EMAIL, OPERATOR_NAME, SITE_NAME } from '../../lib/legal';
+
+const title = `Contact | ${SITE_NAME}`;
+const description = `How to contact ${SITE_NAME}: report an out-of-date card detail, suggest a card or guide, or ask about privacy.`;
+---
+
+<LegalPage title={title} heading="Contact" description={description} breadcrumb="Contact" showUpdated={false}>
+    <p>
+        {SITE_NAME} is run by {OPERATOR_NAME} in Toronto. The best way to reach us is by email:{' '}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>.
+    </p>
+
+    <h2>What to email us about</h2>
+    <ul>
+        <li>
+            <strong>Corrections:</strong> a fee, interest rate, earn rate, or welcome offer on a card page that no
+            longer matches the issuer's site. Please include the card name and a link to the issuer page.
+        </li>
+        <li><strong>Suggestions:</strong> a Canadian card we don't cover yet, or a guide you'd like to see.</li>
+        <li>
+            <strong>Privacy requests:</strong> see our <a href="/privacy/">Privacy Policy</a> for what we collect and
+            how to make a request.
+        </li>
+        <li><strong>Partnerships:</strong> issuer or affiliate questions.</li>
+    </ul>
+
+    <h2>What we can't help with</h2>
+    <p>
+        We are not a bank or card issuer. We can't see, submit, or change credit card applications, and we can't
+        help with an existing account, a statement, or a declined application. For those, contact your card
+        issuer directly using the phone number on the back of your card or on the issuer's website.
+    </p>
+
+    <p>
+        Learn more <a href="/about/">about {SITE_NAME}</a>, including how card details are gathered and how the
+        site makes money.
+    </p>
+</LegalPage>

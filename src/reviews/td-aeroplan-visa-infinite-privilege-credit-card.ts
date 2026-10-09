@@ -51,7 +51,7 @@ const review: CardEditorialReview = {
         {
             question: 'Why do the annual fee figures on this page disagree?',
             answer:
-                'The spreadsheet has a headline fee and a detail line that currently describes a much higher ongoing annual fee plus banking-plan and first-year wrinkles. Trust the detail for ongoing cost until TD’s application confirms otherwise, and use the table on this page as a prompt to verify — not as a contract.',
+                'Our listing has a headline fee and a detail line that currently describes a much higher ongoing annual fee plus banking-plan and first-year wrinkles. Trust the detail for ongoing cost until TD’s application confirms otherwise, and use the table on this page as a prompt to verify — not as a contract.',
         },
         {
             question: 'Does this card have foreign-exchange fees?',

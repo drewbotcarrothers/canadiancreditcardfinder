@@ -31,7 +31,7 @@ const review: CardEditorialReview = {
     cons: [
         'After year one, the annual fee returns unless a new promotion says otherwise. Grocery and PAPs have to keep working.',
         'Our features text is thin on the rest of the earn stack. We will not invent a 2% gas rate the current row does not list — confirm live categories on Scotiabank’s page.',
-        'The two-year Scotiabank-card exclusion is among the strictest in our dataset. A Passport or Gold Amex in the last 24 months can kill the 10% offer.',
+        'The two-year Scotiabank-card exclusion is among the strictest of the cards we track. A Passport or Gold Amex in the last 24 months can kill the 10% offer.',
         'Additional cards currently carry their own annual fee (also first-year waived on the special offer).',
         'Momentum is cash back. It will not book a lie-flat seat the way Aeroplan or a well-used Passport can.',
     ],

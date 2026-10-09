@@ -3,7 +3,6 @@ import { getCards } from '../lib/data';
 import { getGuides, guidePath } from '../lib/guides';
 import { getStackPersonas, stackPath } from '../lib/stacks';
 import { HUBS } from '../lib/hubs';
-import { ISSUER_HUBS } from '../lib/issuers';
 
 export const GET: APIRoute = async ({ site }) => {
     const [cards, guides, personas] = await Promise.all([getCards(), getGuides(), Promise.resolve(getStackPersonas())]);
@@ -13,7 +12,6 @@ export const GET: APIRoute = async ({ site }) => {
     const urls = [
         { loc: `${baseUrl}/`, changefreq: 'daily', priority: '1.0' },
         { loc: `${baseUrl}/finder/`, changefreq: 'weekly', priority: '0.9' },
-        { loc: `${baseUrl}/compare/`, changefreq: 'weekly', priority: '0.9' },
         { loc: `${baseUrl}/guides/`, changefreq: 'weekly', priority: '0.9' },
         { loc: `${baseUrl}/stacks/`, changefreq: 'weekly', priority: '0.9' },
         ...personas.map((persona) => ({
@@ -26,11 +24,7 @@ export const GET: APIRoute = async ({ site }) => {
             changefreq: 'weekly',
             priority: '0.9',
         })),
-        ...ISSUER_HUBS.map((hub) => ({
-            loc: `${baseUrl}/issuer/${hub.slug}/`,
-            changefreq: 'weekly',
-            priority: '0.9',
-        })),
+        // Issuer hubs and /compare/ are noindex (thin listing / empty-state tool screens), so they stay out of the sitemap.
         ...guides.map((guide) => ({
             loc: `${baseUrl}${guidePath(guide)}`,
             changefreq: 'weekly',
@@ -41,6 +35,8 @@ export const GET: APIRoute = async ({ site }) => {
             changefreq: 'weekly',
             priority: '0.8',
         })),
+        { loc: `${baseUrl}/about/`, changefreq: 'monthly', priority: '0.5' },
+        { loc: `${baseUrl}/contact/`, changefreq: 'yearly', priority: '0.3' },
         { loc: `${baseUrl}/privacy/`, changefreq: 'yearly', priority: '0.3' },
         { loc: `${baseUrl}/terms/`, changefreq: 'yearly', priority: '0.3' },
     ];

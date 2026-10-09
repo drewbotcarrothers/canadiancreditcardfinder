@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Amazon.ca Rewards, not MBNA points you can transfer to an airline. Our current features describe elevated rewards on Amazon.ca and Whole Foods Market Canada, with a higher rate when you have eligible Amazon Prime, and 1% on other eligible purchases. We will not reprint a Prime versus non-Prime percentage the sheet does not list — confirm the live MBNA/Amazon page for the exact tiers. Merchant coding still matters: a third-party Marketplace seller, a Whole Foods that processes oddly, or an Amazon purchase billed through a third-party app can miss the cobrand rate. Redeem toward Amazon.ca shopping as the program defines it. Put Amazon and Whole Foods here; put supermarket banners on a grocery card and Canadian Tire on Triangle.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden gift-card dump. If Amazon or MBNA is running a limited-time statement credit on the application page, use that page. Do not manufacture a first-year value that the CSV does not support. The CardReview template on this site will also say no bonus is listed when the sheet is empty.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden gift-card dump. If Amazon or MBNA is running a limited-time statement credit on the application page, use that page.',
     faqs: [
         {
             question: 'Is the Amazon.ca Rewards Mastercard worth it in 2026?',

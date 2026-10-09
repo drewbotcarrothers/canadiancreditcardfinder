@@ -6,7 +6,7 @@ const review: CardEditorialReview = {
     h1: 'Brim Mastercard Review',
     primaryKeyword: 'brim mastercard review',
     metaDescription:
-        'Brim Mastercard review for 2026: $0 fee, thin sheet data, vs Brim World Elite, Tangerine, and who should skip it.',
+        'Brim Mastercard review for 2026: $0 fee, limited published details, vs Brim World Elite, Tangerine, and who should skip it.',
     intro:
         'The Brim Mastercard is Brim Financial’s no-fee cash-back card: a $0 price in our data, a features line that calls out statement-credit rewards and tells you to confirm the FX policy on the issuer site, and none of the bank-issued grocery tables this site usually prints. It is not the paid [Brim World Elite Mastercard](/card/brim-world-elite-mastercard/), and Brim is not a bank with an issuer hub on this site. This Brim Mastercard review stays inside what the sheet actually lists — which is thin — and tells you when [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) or [Simplii Financial Cash Back Visa](/card/simplii-financial-cash-back-visa/) is the better-documented $0 alternative.',
     whoItsFor: [
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'This card is filed as cash back in our data, under a program labelled Brim rewards — not Avion, not Scene+, not Aeroplan. Our current features only say cash-back style rewards with flexible statement-credit redemption, and they tell you to confirm the FX fee policy on the issuer site. The detailed field does not print a grocery, dining, or catch-all percentage. We will not fill those in from memory. Confirm the live earn table, any caps, and how statement credits post on Brim’s site. Redeem as Brim lets you redeem. If you want a paid tier from the same issuer, that is Brim World Elite. If you want pick-your-categories 2% with a rate table this site can quote, that is Tangerine. If you want a $0 Visa with a printed mix from a bank, that is Simplii.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden signup dump. If Brim is running a limited-time cash offer, it will be on brimfinancial.com — use that, not this paragraph. The CardReview template on this site will also say no bonus is listed when the sheet is empty. Do not manufacture a first-year value that the CSV does not support.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden signup dump. If Brim is running a limited-time cash offer, it will be on brimfinancial.com — use that, not this paragraph.',
     faqs: [
         {
             question: 'Is the Brim Mastercard worth it in 2026?',

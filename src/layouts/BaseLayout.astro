@@ -8,9 +8,20 @@ interface Props {
     description: string;
     image?: string;
     imageAlt?: string;
+    /** Add <meta name="robots" content="noindex, follow"> (thin or utility screens). */
+    noindex?: boolean;
+    /** Skip the AdSense loader on screens without publisher content (tools, empty states, errors). */
+    noAds?: boolean;
 }
 
-const { title, description, image = '/og-default.png', imageAlt = 'Canadian Credit Card Finder' } = Astro.props;
+const {
+    title,
+    description,
+    image = '/og-default.png',
+    imageAlt = 'Canadian Credit Card Finder',
+    noindex = false,
+    noAds = false,
+} = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(image, Astro.site).href;
 ---
@@ -24,6 +35,8 @@ const ogImage = new URL(image, Astro.site).href;
         <meta name='impact-site-verification' value='1116745954' />
         <title>{title}</title>
         <meta name="description" content={description} />
+        {noindex && <meta name="robots" content="noindex, follow" />}
+        <meta name="google-adsense-account" content="ca-pub-7909541570116920" />
         <link rel="canonical" href={canonical} />
         <link rel="icon" href="/favicon.ico?v=20261004" sizes="48x48" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20261004" />
@@ -77,6 +90,7 @@ const ogImage = new URL(image, Astro.site).href;
             <slot />
         </main>
         <Footer />
+        {!noAds && (
         <script is:inline>
             (function () {
                 var ADSENSE_CLIENT = 'ca-pub-7909541570116920';
@@ -121,5 +135,6 @@ const ogImage = new URL(image, Astro.site).href;
                 }
             })();
         </script>
+        )}
     </body>
 </html>

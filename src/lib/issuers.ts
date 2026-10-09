@@ -65,7 +65,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare American Express credit cards in Canada for 2026. See Cobalt, Gold, Platinum, Aeroplan, and cash-back fees, bonuses, and reviews.',
         intro:
-            'American Express cards in Canada include Membership Rewards earners, Aeroplan cobrands, and cash-back options. Compare annual fees against welcome bonuses, lounge access, and how you redeem points — some cards suit everyday spend, others premium travel. Merchant acceptance is wider than it used to be, but it is still worth checking the places you pay most often. The cards below currently list American Express as the issuer in our data.',
+            'American Express cards in Canada include Membership Rewards earners, Aeroplan cobrands, and cash-back options. Compare annual fees against welcome bonuses, lounge access, and how you redeem points — some cards suit everyday spend, others premium travel. Merchant acceptance is wider than it used to be, but it is still worth checking the places you pay most often. The cards below are the American Express cards we currently track.',
         navLabel: 'American Express',
         teaser: 'Membership Rewards, Aeroplan, and cash back',
     },
@@ -77,7 +77,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare RBC credit cards in Canada for 2026. See Avion, WestJet, ION, and cash-back annual fees, welcome bonuses, and full reviews.',
         intro:
-            'RBC credit cards cover Avion travel rewards, WestJet cobrands, ION everyday earn, and cash-back or low-rate options. Compare how Avion points convert to flights versus statement credits, and whether a higher annual fee is offset by the welcome bonus and insurance. The cards below currently list RBC as the issuer in our data.',
+            'RBC credit cards cover Avion travel rewards, WestJet cobrands, ION everyday earn, and cash-back or low-rate options. Compare how Avion points convert to flights versus statement credits, and whether a higher annual fee is offset by the welcome bonus and insurance. The cards below are the RBC cards we currently track.',
         navLabel: 'RBC',
         teaser: 'Avion, WestJet, ION, and cash back',
     },
@@ -89,7 +89,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare TD credit cards in Canada for 2026. See Aeroplan, travel, cash-back, and U.S. dollar cards with current fees and bonuses.',
         intro:
-            'TD cards in Canada include Aeroplan cobrands, First Class and Platinum travel, cash-back Visas, and a U.S. dollar option. If you already collect Aeroplan, a TD Aeroplan card can consolidate earning; otherwise compare cash back and lower-rate cards. Weigh annual fees against welcome bonuses and travel insurance. The cards below currently list TD as the issuer in our data.',
+            'TD cards in Canada include Aeroplan cobrands, First Class and Platinum travel, cash-back Visas, and a U.S. dollar option. If you already collect Aeroplan, a TD Aeroplan card can consolidate earning; otherwise compare cash back and lower-rate cards. Weigh annual fees against welcome bonuses and travel insurance. The cards below are the TD cards we currently track.',
         navLabel: 'TD',
         teaser: 'Aeroplan, travel, and cash back',
     },
@@ -101,7 +101,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare CIBC credit cards in Canada for 2026. See Aeroplan, Aventura, Dividend, Costco, and student cards with fees and bonuses.',
         intro:
-            'CIBC’s lineup includes Aeroplan, Aventura travel rewards, Dividend cash back, Costco, and student versions of several cards. Aventura points are flexible for travel bookings, while Aeroplan suits Air Canada flyers. Compare fees, welcome bonuses, and grocery or gas earn rates. The cards below currently list CIBC as the issuer in our data.',
+            'CIBC’s lineup includes Aeroplan, Aventura travel rewards, Dividend cash back, Costco, and student versions of several cards. Aventura points are flexible for travel bookings, while Aeroplan suits Air Canada flyers. Compare fees, welcome bonuses, and grocery or gas earn rates. The cards below are the CIBC cards we currently track.',
         navLabel: 'CIBC',
         teaser: 'Aeroplan, Aventura, Dividend, and Costco',
     },
@@ -113,7 +113,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare Scotiabank credit cards in Canada for 2026. See Scene+, Passport, Momentum, and Scotiabank American Express fees and bonuses.',
         intro:
-            'Scotiabank cards include Scene+ earners, Passport travel Visas, Momentum cash back, and American Express cards issued by Scotiabank. Scene+ can cover movies, dining, and travel, while Passport is often compared for travel medical insurance and lounge access. Check annual fees against how you spend. The cards below currently list Scotiabank as the issuer in our data.',
+            'Scotiabank cards include Scene+ earners, Passport travel Visas, Momentum cash back, and American Express cards issued by Scotiabank. Scene+ can cover movies, dining, and travel, while Passport is often compared for travel medical insurance and lounge access. Check annual fees against how you spend. The cards below are the Scotiabank cards we currently track.',
         navLabel: 'Scotiabank',
         teaser: 'Scene+, Passport, Momentum, and Amex',
     },
@@ -125,7 +125,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare BMO credit cards in Canada for 2026. See Eclipse, CashBack, Blue Rewards, and VIPorter annual fees, bonuses, and reviews.',
         intro:
-            'BMO cards include Eclipse rewards, CashBack, Blue Rewards, VIPorter, and a student CashBack option. Eclipse points can cover travel and everyday redemptions, while CashBack is a simpler statement-credit path. Compare annual fees, welcome bonuses, and grocery or transit earn. The cards below currently list BMO as the issuer in our data.',
+            'BMO cards include Eclipse rewards, CashBack, Blue Rewards, VIPorter, and a student CashBack option. Eclipse points can cover travel and everyday redemptions, while CashBack is a simpler statement-credit path. Compare annual fees, welcome bonuses, and grocery or transit earn. The cards below are the BMO cards we currently track.',
         navLabel: 'BMO',
         teaser: 'Eclipse, CashBack, Blue Rewards, and VIPorter',
     },
@@ -137,7 +137,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare Rogers Bank credit cards in Canada for 2026. See Rogers Red Mastercard fees, bill-credit earning, welcome bonuses, and reviews.',
         intro:
-            'Rogers Bank issues the Rogers Red Mastercard family, with earning that can apply to Rogers, Fido, or Shaw bills and other redemptions. World Elite and World Legend sit above the no-fee Red card on annual fee and earn rates. Compare welcome bonuses and whether you already pay a Rogers-brand bill. The cards below currently list Rogers Bank as the issuer in our data.',
+            'Rogers Bank issues the Rogers Red Mastercard family, with earning that can apply to Rogers, Fido, or Shaw bills and other redemptions. World Elite and World Legend sit above the no-fee Red card on annual fee and earn rates. Compare welcome bonuses and whether you already pay a Rogers-brand bill. The cards below are the Rogers Bank cards we currently track.',
         navLabel: 'Rogers Bank',
         teaser: 'Rogers Red Mastercard lineup',
     },
@@ -149,7 +149,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare National Bank credit cards in Canada for 2026. See Allure, ECHO cashback, World Elite, and starter cards with current fees.',
         intro:
-            'National Bank cards include Allure, ECHO cashback, World Elite, and lower-rate or starter options such as mycredit. Compare how rewards are redeemed, annual fees, and whether a World Elite earn rate is worth the fee. The cards below currently list National Bank as the issuer in our data.',
+            'National Bank cards include Allure, ECHO cashback, World Elite, and lower-rate or starter options such as mycredit. Compare how rewards are redeemed, annual fees, and whether a World Elite earn rate is worth the fee. The cards below are the National Bank cards we currently track.',
         navLabel: 'National Bank',
         teaser: 'Allure, ECHO, and World Elite',
     },
@@ -161,7 +161,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare Desjardins credit cards in Canada for 2026. See Odyssey travel, cash-back, Bonus, and Flexi fees, bonuses, and reviews.',
         intro:
-            'Desjardins cards include Odyssey travel rewards, cash-back Mastercard and Visa options, Bonus, and Flexi. Odyssey cards may suit frequent travellers; cash-back cards are simpler for everyday spend. Compare fees, welcome bonuses, and insurance. The cards below currently list Desjardins as the issuer in our data.',
+            'Desjardins cards include Odyssey travel rewards, cash-back Mastercard and Visa options, Bonus, and Flexi. Odyssey cards may suit frequent travellers; cash-back cards are simpler for everyday spend. Compare fees, welcome bonuses, and insurance. The cards below are the Desjardins cards we currently track.',
         navLabel: 'Desjardins',
         teaser: 'Odyssey, cash back, and Bonus',
     },
@@ -173,7 +173,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare MBNA credit cards in Canada for 2026. See Rewards, Smart Cash, True Line, and Amazon.ca Mastercard fees and bonuses.',
         intro:
-            'MBNA cards in Canada include Rewards, Smart Cash, True Line, and the Amazon.ca Rewards Mastercard. Compare cash-back versus points, annual fees, and whether an Amazon-focused earn rate fits your shopping. The cards below currently list MBNA as the issuer in our data.',
+            'MBNA cards in Canada include Rewards, Smart Cash, True Line, and the Amazon.ca Rewards Mastercard. Compare cash-back versus points, annual fees, and whether an Amazon-focused earn rate fits your shopping. The cards below are the MBNA cards we currently track.',
         navLabel: 'MBNA',
         teaser: 'Rewards, Smart Cash, True Line, and Amazon.ca',
     },
@@ -185,7 +185,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare Tangerine credit cards in Canada for 2026. See Money-Back category cash back, World Mastercard fees, and welcome offers.',
         intro:
-            'Tangerine Money-Back cards let you choose bonus categories for a higher cash-back rate, with a World Mastercard option above the original card. There is no annual fee on these cards in our current data. Compare category flexibility and welcome offers. The cards below currently list Tangerine as the issuer in our data.',
+            'Tangerine Money-Back cards let you choose bonus categories for a higher cash-back rate, with a World Mastercard option above the original card. Neither card currently lists an annual fee. Compare category flexibility and welcome offers. The cards below are the Tangerine cards we currently track.',
         navLabel: 'Tangerine',
         teaser: 'Money-Back category cash back',
     },
@@ -197,7 +197,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare Simplii Financial credit cards in Canada for 2026. See the no-annual-fee Cash Back Visa, earn rate, and welcome bonus.',
         intro:
-            'Simplii Financial currently offers a no-annual-fee Cash Back Visa in our data. It is a straightforward cash-back card rather than a travel-points product. Compare the earn rate and welcome bonus with other $0-fee cash-back cards if you want a simple everyday card. The card below currently lists Simplii Financial as the issuer in our data.',
+            'Simplii Financial currently offers a no-annual-fee Cash Back Visa. It is a straightforward cash-back card rather than a travel-points product. Compare the earn rate and welcome bonus with other $0-fee cash-back cards if you want a simple everyday card. The card below is the Simplii Financial card we currently track.',
         navLabel: 'Simplii Financial',
         teaser: 'No-fee cash back Visa',
     },
@@ -209,7 +209,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
         description:
             'Compare PC Financial credit cards in Canada for 2026. See PC Optimum Mastercard fees, grocery earn, and World Elite reviews.',
         intro:
-            'PC Financial Mastercard products earn PC Optimum points on groceries and everyday spend, with World and World Elite tiers above the base card. Compare annual fees against bonus earn at PC Express, Esso, and other partners. The cards below currently list PC Financial as the issuer in our data.',
+            'PC Financial Mastercard products earn PC Optimum points on groceries and everyday spend, with World and World Elite tiers above the base card. Compare annual fees against bonus earn at PC Express, Esso, and other partners. The cards below are the PC Financial cards we currently track.',
         navLabel: 'PC Financial',
         teaser: 'PC Optimum Mastercard cards',
     },

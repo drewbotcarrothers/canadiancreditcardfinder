@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Walmart Reward Dollars, not cash back and not Aeroplan. Our current features describe 3% at Walmart and 1% elsewhere, and they tell you to confirm the current program on the Walmart Rewards site — that caveat is there because store cobrands change multipliers. Public program terms from the 2025 refresh describe 3% on eligible Walmart Canada and Walmart.ca purchases (calculated before tax in those terms) and 1% on eligible purchases everywhere else (after tax in those terms). Pharmacy banners inside a Walmart, Marketplace sellers, and pickup orders can have their own footnotes; use walmartrewards.ca, not this paragraph, as the live table. Redeem at Walmart as the program allows. Put Walmart spend here; put Amazon.ca on the [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/) and Canadian Tire on a Triangle card.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Fairstone is running Reward Dollars on the live application, use that page. Do not manufacture a first-year value the CSV does not support. Judge the card on $0 fee, 3% at Walmart, and whether you will redeem in that banner.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Fairstone is running Reward Dollars on the live application, use that page. Judge the card on $0 fee, 3% at Walmart, and whether you will redeem in that banner.',
     faqs: [
         {
             question: 'Is the Walmart Rewards Mastercard worth it in 2026?',

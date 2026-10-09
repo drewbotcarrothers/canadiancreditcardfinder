@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'This card pays cash back, not BONUSDOLLARS. Our current features describe up to 2% cash back on purchases; the detailed field adds that it is a no-annual-fee cash-back Mastercard from Desjardins, accepted at Costco. World Elite currently lists up to 4% at a $100-class fee; the Visa sibling currently lists the same “up to 2%” without Costco. We will not fill in a missing category table. Confirm the live Desjardins rate card, bonus-category definitions, and any caps. Redeem as cash back according to Desjardins’ rules. Put the warehouse and everyday caisse spend here; put a Visa only if you already wanted that network and do not shop Costco; put Tangerine on the other plastic if you wanted to name two 2% categories yourself.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Desjardins is running a cash offer on the application page, use that page. Do not add a first-year value the CSV does not support. Judge the card on $0 versus World Elite’s fee, Costco versus the Visa twin, and whether “up to 2%” matches how you already spend.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Desjardins is running a cash offer on the application page, use that page. Judge the card on $0 versus World Elite’s fee, Costco versus the Visa twin, and whether “up to 2%” matches how you already spend.',
     faqs: [
         {
             question: 'Is the Desjardins Cash Back Mastercard worth it in 2026?',

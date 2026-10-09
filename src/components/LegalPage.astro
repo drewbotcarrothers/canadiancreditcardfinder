@@ -7,9 +7,11 @@ interface Props {
     heading: string;
     description: string;
     breadcrumb: string;
+    /** Show the shared legal "Last updated" line (Privacy, Terms). Off for About / Contact. */
+    showUpdated?: boolean;
 }
 
-const { title, heading, description, breadcrumb } = Astro.props;
+const { title, heading, description, breadcrumb, showUpdated = true } = Astro.props;
 ---
 
 <BaseLayout title={title} description={description}>
@@ -27,9 +29,11 @@ const { title, heading, description, breadcrumb } = Astro.props;
         <article class="bg-white rounded-xl shadow-md p-6 sm:p-8 legal-content">
             <header class="mb-6">
                 <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">{heading}</h1>
-                <p class="text-sm text-gray-500">
-                    Last updated: <time datetime={LEGAL_LAST_UPDATED_ISO}>{LEGAL_LAST_UPDATED}</time>
-                </p>
+                {showUpdated && (
+                    <p class="text-sm text-gray-500">
+                        Last updated: <time datetime={LEGAL_LAST_UPDATED_ISO}>{LEGAL_LAST_UPDATED}</time>
+                    </p>
+                )}
             </header>
             <slot />
         </article>

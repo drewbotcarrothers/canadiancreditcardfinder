@@ -6,7 +6,7 @@ const review: CardEditorialReview = {
     h1: 'RBC Visa Platinum Review',
     primaryKeyword: 'rbc visa platinum review',
     metaDescription:
-        'RBC Visa Platinum review for 2026: $0 fee, Petro-Points and Avion Offers, vs ION and Avion Platinum, empty sheet category, who should skip it.',
+        'RBC Visa Platinum review for 2026: $0 fee, Petro-Points and Avion Offers, vs ION and Avion Platinum, no listed category, who should skip it.',
     intro:
         'The RBC Visa Platinum is RBC’s no-fee offers card, not [Avion Visa Platinum](/card/rbc-avion-visa-platinum/) and not a cash-back Visa: $0 annual fee, extra cards at $0, purchase security and extended warranty in detailed features, 3¢/L fuel savings at Petro-Canada, and access to Avion Rewards deals plus extra Petro-Points language in the rewards-program cell. Our Category field on this row is empty — we will not invent “travel” or “cash back” to fill it. Welcome copy currently says there is often none. This RBC Visa Platinum review writes from the fees and features that are present: partner offers on a $0 Visa, and why [RBC ION Visa](/card/rbc-ion-visa/) is still the better everyday Avion earner if you wanted 1.5x on groceries.',
     whoItsFor: [

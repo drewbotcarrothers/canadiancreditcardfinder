@@ -30,7 +30,7 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'It is still American Express. Canadian grocers in the Sobeys family generally take it; plenty of other merchants do not. You need a backup card.',
-        'The welcome bonus currently requires two spend hurdles, and the two-year Scotiabank-card exclusion is among the strictest in our dataset.',
+        'The welcome bonus currently requires two spend hurdles, and the two-year Scotiabank-card exclusion is among the strictest of the cards we track.',
         'Additional cards currently carry their own annual fee.',
         'Our insurance field is empty. Skip-the-line and Scene+ are the perks on file, not a travel-medical package we can describe.',
         'Income listed in eligibility is unusually low for this earn mix, but approval is still a credit decision. Do not treat the minimum as a guarantee.',

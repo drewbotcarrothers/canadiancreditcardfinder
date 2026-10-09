@@ -63,7 +63,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best cash back credit cards in Canada for 2026. See no-fee and premium cash-back cards, welcome bonuses, and full reviews.',
         intro:
-            'Cash back credit cards return a percentage of what you spend, typically as a statement credit. They are often the simplest rewards option in Canada if you would rather not track points or airline programs. Compare bonus categories such as groceries and gas, how cash back is redeemed, and whether a higher annual fee is worth the extra earning rate. This list includes cards in our data whose category is cash back.',
+            'Cash back credit cards return a percentage of what you spend, typically as a statement credit. They are often the simplest rewards option in Canada if you would rather not track points or airline programs. Compare bonus categories such as groceries and gas, how cash back is redeemed, and whether a higher annual fee is worth the extra earning rate. This list includes every cash back card we currently track.',
         navLabel: 'Cash Back',
         teaser: 'Statement credits on everyday spending',
     },
@@ -74,7 +74,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best no annual fee credit cards in Canada for 2026. Browse $0-fee cash back, travel, and rewards cards with current fees and bonuses.',
         intro:
-            'No annual fee credit cards charge $0 per year to keep the account open. That can make them a practical everyday card, a student option, or a complement to a premium travel card. Compare earning rates, welcome bonuses, and purchase interest rates — a $0 fee does not automatically mean the best overall value. The cards below currently show a $0 annual fee in our data.',
+            'No annual fee credit cards charge $0 per year to keep the account open. That can make them a practical everyday card, a student option, or a complement to a premium travel card. Compare earning rates, welcome bonuses, and purchase interest rates — a $0 fee does not automatically mean the best overall value. The cards below currently list a $0 annual fee.',
         navLabel: 'No Annual Fee',
         teaser: 'Cards that currently list a $0 annual fee',
     },
@@ -96,7 +96,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best rewards credit cards in Canada for 2026. See points cards, welcome bonuses, annual fees, and full reviews.',
         intro:
-            'Rewards credit cards earn points you can redeem for travel, merchandise, or statement credits, rather than automatic cash back. In Canada that includes Membership Rewards, Scene+, Avion, Aventura, and store programs such as PC Optimum. Compare welcome bonuses, annual fees, and whether you will actually use the redemption options. This list includes cards in our data whose category is rewards.',
+            'Rewards credit cards earn points you can redeem for travel, merchandise, or statement credits, rather than automatic cash back. In Canada that includes Membership Rewards, Scene+, Avion, Aventura, and store programs such as PC Optimum. Compare welcome bonuses, annual fees, and whether you will actually use the redemption options. This list includes every points-based rewards card we currently track.',
         navLabel: 'Rewards',
         teaser: 'Points you can redeem for travel or everyday purchases',
     },
@@ -107,7 +107,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best grocery credit cards in Canada for 2026. See supermarket earn rates, PC Optimum, Costco, and cash-back grocery cards.',
         intro:
-            'Grocery credit cards pay a higher rate on supermarket spending than on general purchases. Some return cash back in grocery categories; others earn PC Optimum, Scene+ at Sobeys-family stores, or Costco-focused cash back. Compare annual fees against how much you spend on groceries, and whether a store or club membership is required. The cards below currently list grocery as a bonus earn category, or belong to a grocery-focused program, in our data.',
+            'Grocery credit cards pay a higher rate on supermarket spending than on general purchases. Some return cash back in grocery categories; others earn PC Optimum, Scene+ at Sobeys-family stores, or Costco-focused cash back. Compare annual fees against how much you spend on groceries, and whether a store or club membership is required. The cards below currently list grocery as a bonus earn category or belong to a grocery-focused program.',
         navLabel: 'Groceries',
         teaser: 'Higher earn on supermarket and grocery-store spending',
     },
@@ -118,7 +118,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best low interest credit cards in Canada for 2026. See purchase rates, annual fees, and cards built for carrying a balance.',
         intro:
-            'Low interest credit cards charge a lower purchase rate than typical Canadian cards, which can matter if you sometimes carry a balance. Rewards are usually modest compared with cash-back or travel cards. Compare the annual fee against the rate difference, and whether a promotional rate expires. The cards below currently list Low Interest as the category in our data.',
+            'Low interest credit cards charge a lower purchase rate than typical Canadian cards, which can matter if you sometimes carry a balance. Rewards are usually modest compared with cash-back or travel cards. Compare the annual fee against the rate difference, and whether a promotional rate expires. The cards below are the low-interest cards we currently track.',
         navLabel: 'Low Interest',
         teaser: 'Lower purchase rates if you carry a balance',
     },
@@ -129,7 +129,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best U.S. dollar credit cards in Canada for 2026. See USD billing, foreign-exchange savings, fees, and rewards.',
         intro:
-            'U.S. dollar credit cards issued in Canada bill in USD, which can reduce conversion fees when you spend with U.S. merchants. You typically need a U.S. dollar bank account to pay the statement. Compare annual fees, rewards, and whether the card is worth it for how often you pay in USD. The cards below currently list US as the category in our data.',
+            'U.S. dollar credit cards issued in Canada bill in USD, which can reduce conversion fees when you spend with U.S. merchants. You typically need a U.S. dollar bank account to pay the statement. Compare annual fees, rewards, and whether the card is worth it for how often you pay in USD. The cards below are the U.S. dollar cards we currently track.',
         navLabel: 'U.S. Dollar',
         teaser: 'USD billing for U.S. spending from Canada',
     },
@@ -140,7 +140,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best premium credit cards in Canada for 2026. See Infinite Privilege, World Elite, and high-fee travel and rewards cards.',
         intro:
-            'Premium credit cards in Canada usually charge a higher annual fee in exchange for stronger earn rates, travel insurance, lounge access, or a larger welcome bonus. Typical names include Visa Infinite Privilege, World Elite, Reserve, and The Platinum Card. Weigh the fee against benefits you will actually use — a $150 card can be a better fit than a $599 card if you will not use the extras. The cards below currently show an annual fee of at least $120 in our data, excluding student products and basic cash-back cards that only meet the fee cut.',
+            'Premium credit cards in Canada usually charge a higher annual fee in exchange for stronger earn rates, travel insurance, lounge access, or a larger welcome bonus. Typical names include Visa Infinite Privilege, World Elite, Reserve, and The Platinum Card. Weigh the fee against benefits you will actually use — a $150 card can be a better fit than a $599 card if you will not use the extras. The cards below currently list an annual fee of at least $120, excluding student products and basic cash-back cards that only meet the fee cut.',
         navLabel: 'Premium',
         teaser: 'Higher-fee Infinite Privilege, World Elite, and Platinum cards',
     },

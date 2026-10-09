@@ -72,7 +72,7 @@ const math = estimateWelcomeFeeMath(card);
                 </p>
                 <dl class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-sm">
                     <div>
-                        <dt class="text-gray-500">Annual fee in our data</dt>
+                        <dt class="text-gray-500">Annual fee</dt>
                         <dd class="text-lg font-bold text-gray-900">{card.annualFeeDisplay}</dd>
                         {math.ongoingFee !== null && (
                             <p class="text-xs text-gray-500 mt-1">
@@ -82,7 +82,7 @@ const math = estimateWelcomeFeeMath(card);
                         )}
                     </div>
                     <div>
-                        <dt class="text-gray-500">Welcome bonus value in our data</dt>
+                        <dt class="text-gray-500">Estimated welcome bonus value</dt>
                         <dd class="text-lg font-bold text-gray-900">
                             {card.welcomeBonusValue || 'Not listed'}
                         </dd>
@@ -95,7 +95,7 @@ const math = estimateWelcomeFeeMath(card);
                     </div>
                 </dl>
                 <p class="text-xs text-gray-500 mt-4 leading-relaxed">
-                    This is a simple comparison of the sheet’s estimated welcome-bonus value against the
+                    This is a simple comparison of the estimated welcome-bonus value against the
                     annual fee. It ignores rewards on spending, credits you have to remember to use, and
                     interest if you carry a balance. Offers change — verify with the issuer.
                 </p>
@@ -110,7 +110,7 @@ const math = estimateWelcomeFeeMath(card);
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Rewards and earn rates explained</h2>
         {card.rewardsProgram && (
             <p class="text-sm text-gray-500 mb-4">
-                Program in our data: <span class="font-semibold text-gray-800">{card.rewardsProgram}</span>
+                Rewards program: <span class="font-semibold text-gray-800">{card.rewardsProgram}</span>
             </p>
         )}
         <div
@@ -125,7 +125,7 @@ const math = estimateWelcomeFeeMath(card);
             <p class="text-gray-800 font-medium mb-4">{card.welcomeBonus}</p>
         ) : (
             <p class="text-gray-600 mb-4">
-                Our current data does not list a welcome bonus for this card.
+                No welcome bonus is currently listed for this card. Check the issuer’s site for any limited-time offer.
             </p>
         )}
         <div
@@ -134,7 +134,7 @@ const math = estimateWelcomeFeeMath(card);
         />
         {card.welcomeBonusEligibility && (
             <p class="text-sm text-gray-500 mt-4 leading-relaxed">
-                <strong class="text-gray-700">Eligibility in our data:</strong>{' '}
+                <strong class="text-gray-700">Welcome bonus eligibility:</strong>{' '}
                 {card.welcomeBonusEligibility}
             </p>
         )}
