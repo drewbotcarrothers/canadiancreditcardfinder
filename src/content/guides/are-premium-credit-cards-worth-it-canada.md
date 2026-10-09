@@ -41,7 +41,7 @@ If the remainder is still negative and you will not use lounges, skip the card. 
 | [Passport Infinite Privilege](/card/scotiabank-passport-visa-infinite-privilege-card/) | More travel / FX / lounge muscle than regular Passport | You rarely pay in foreign currency |
 | Mid-fee Infinite (Avion, Aeroplan, Momentum, Dividend) | Earn + some insurance, not a lounge lifestyle | A $0 card already covers the spend |
 
-Confirm live fees on those pages. We will not invent a $599 versus $150 comparison that might be stale next month.
+Confirm live fees on those pages.
 
 ## Welcome bonuses hide bad fits
 

@@ -19,14 +19,14 @@ const review: CardEditorialReview = {
         'Light spenders who will not clear the annual fee with 3% categories. The no-fee [TD Cash Back Visa](/card/td-cash-back-visa-card/) pays 1% on the same bonus pile and 0.5% elsewhere.',
         'Air Canada collectors. TD’s Aeroplan Infinite cards exist for that job.',
         'Shoppers whose grocer rate needs to be 4–5% to justify a fee. [CIBC Dividend Visa Infinite](/card/cibc-dividend-visa-infinite-card/) and [BMO CashBack World Elite](/card/bmo-cashback-world-elite-mastercard/) advertise higher grocery percentages with narrower stacks.',
-        'Anyone who revolves a balance. 3% cash back is a rounding error next to the purchase rate in our data.',
+        'Anyone who revolves a balance. 3% cash back is a rounding error next to the purchase rate.',
     ],
     pros: [
         '3% on grocery, gas and EV charging, public transit, and on recurring bills plus streaming, digital gaming, and media is a broader bonus stack than most grocery-only cards, on the first $15,000 a year in each of those four categories.',
         '1% on everything else, and on a category after its $15,000 annual cap, means general retail does not fall to 0.5% the way the no-fee TD Cash Back Visa does.',
         'The current welcome is marketed as up to $600, including 10% Cash Back Dollars in the first 3 months on bonus-eligible purchases up to $3,500 ($350).',
         'That $600 figure also includes a first-year annual-fee rebate for the primary cardholder ($139) and the first additional cardholder ($50), plus free Deluxe TD Auto Club membership ($89).',
-        'The first additional card currently has a fee; further additional cards show $0 in our data, which is kinder than some Infinite products if you add a second helper later.',
+        'The first additional card currently has a fee; further additional cards show $0, which is kinder than some Infinite products if you add a second helper later.',
     ],
     cons: [
         'The annual fee has to be earned in 3% categories. A household that mostly spends in 1% retail will lose to a $0 card. The marketed “up to $600” already includes the first-year fee rebate, so do not subtract the fee a second time and call the rest pure cash back.',
@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'TD Cash Back Visa Infinite vs the no-fee TD Cash Back Visa?',
             answer:
-                'The no-fee [TD Cash Back Visa](/card/td-cash-back-visa-card/) pays 1% on the same bonus categories and 0.5% elsewhere, with no Visa Infinite income test in our data. Infinite pays 3% on the first $15,000 a year in each of four bonus categories, then 1%, and 1% on other purchases. Choose Infinite only if the extra earn on bonus spend, after the fee and inside those caps, still wins.',
+                'The no-fee [TD Cash Back Visa](/card/td-cash-back-visa-card/) pays 1% on the same bonus categories and 0.5% elsewhere, with no Visa Infinite income test. Infinite pays 3% on the first $15,000 a year in each of four bonus categories, then 1%, and 1% on other purchases. Choose Infinite only if the extra earn on bonus spend, after the fee and inside those caps, still wins.',
         },
         {
             question: 'TD Cash Back Visa Infinite vs CIBC Dividend Visa Infinite?',

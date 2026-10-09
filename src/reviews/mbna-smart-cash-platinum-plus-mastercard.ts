@@ -9,39 +9,39 @@ const review: CardEditorialReview = {
     metaDescription:
         'MBNA Smart Cash Platinum Plus Mastercard review for 2026: $0 fee, 2% gas and groceries with caps, 0.5% else vs World, and who should skip it.',
     intro:
-        'The MBNA Smart Cash Platinum Plus Mastercard is MBNA’s no-fee cash-back card: 2% on eligible gas and groceries up to monthly caps in our current features, 0.5% on other eligible purchases, extra cards currently at $0, and no World income test printed on this row. It is not the paid [Smart Cash World](/card/mbna-smart-cash-world-mastercard/)’s 1% catch-all and rental CDW, and it is not the $0 [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/). This MBNA Smart Cash Platinum Plus Mastercard review covers that supermarket-and-pump pair versus a weak 0.5% everything-else line, why our welcome columns are empty, and when Tangerine is the better $0 everyday card.',
+        'The MBNA Smart Cash Platinum Plus Mastercard is MBNA’s no-fee cash-back card: 2% on eligible gas and groceries up to monthly caps in the current features, 0.5% on other eligible purchases, extra cards currently at $0, and no World income test printed on this card. It is not the paid [Smart Cash World](/card/mbna-smart-cash-world-mastercard/)’s 1% catch-all and rental CDW, and it is not the $0 [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/). This MBNA Smart Cash Platinum Plus Mastercard review covers that supermarket-and-pump pair versus a weak 0.5% everything-else line, why no welcome bonus is listed, and when Tangerine is the better $0 everyday card.',
     whoItsFor: [
         'Households whose month is grocery and gas under the monthly caps, who want cash back rather than MBNA Rewards points, and who will not pay $39 for a louder catch-all.',
-        'Applicants who want extra cards at no extra annual fee. Our data currently lists additional cards at $0.',
+        'Applicants who want extra cards at no extra annual fee. The issuer currently lists additional cards at $0.',
         'Shoppers who want a Mastercard they can use at Costco and small merchants, even if warehouse spend may miss grocery coding and land in 0.5%.',
-        'Anyone who pays in full. Two percent at the grocer will not outrun the purchase rate in our data.',
+        'Anyone who pays in full. Two percent at the grocer will not outrun the purchase rate.',
     ],
     whoShouldSkip: [
         'Mixed spenders whose Amazon, dining, and big-box bills dwarf grocery and gas. World currently pays 1% on that leftover; this card currently pays 0.5%. That gap is the fee conversation, not a reason to keep 0.5% out of stubbornness.',
         'People who wanted pick-your-categories 2% cash back without monthly caps. [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is $0 and lets you name the buckets.',
-        'Amazon.ca regulars whose Marketplace order is the statement. That cobrand is $0 in our data and pays Amazon’s program, not Smart Cash.',
+        'Amazon.ca regulars whose Marketplace order is the statement. That cobrand is $0 and pays Amazon’s program, not Smart Cash.',
         'Anyone who revolves a balance. Half a percent on the catch-all is a rounding error next to interest.',
     ],
     pros: [
-        'No annual fee in our data, so 2% on gas and groceries does not have to beat a $39-class membership first.',
-        'The 2% pair is the same personality as World — supermarket and pump — without World’s income cell on this row.',
-        'Additional cards currently show $0, which matches World’s extra-card fee in our data even if World advertises more authorized users.',
+        'No annual fee, so 2% on gas and groceries does not have to beat a $39-class membership first.',
+        'The 2% pair is the same personality as World — supermarket and pump — without World’s income requirement.',
+        'Additional cards currently show $0, which matches World’s extra-card fee even if World advertises more authorized users.',
         'No World income test printed here. This is the accessible Smart Cash door.',
         'Mastercard Platinum Plus acceptance includes Costco Canada, even if warehouse spend is likely the 0.5% bucket unless it codes as grocery.',
     ],
     cons: [
         '0.5% on everything else is a weak catch-all. Dining, Amazon, and big-box drag the blended rate down fast.',
-        'Monthly spend caps on gas and groceries are printed; we will not invent the dollar amounts. Blow past a cap and that category is done for the month.',
-        'Welcome-bonus, detailed-offer, dollar-value, eligibility, and insurance columns are empty. Year-one value is just the earn rates.',
-        'Features do not name the rental CDW World’s row prints. Do not assume collision coverage from the Platinum Plus name.',
+        'Monthly spend caps on gas and groceries are printed. Blow past a cap and that category is done for the month.',
+        'No welcome bonus, detailed offer, dollar value, eligibility terms, or insurance are currently listed. Year-one value is just the earn rates.',
+        'Features do not name the rental CDW World’s listing prints. Do not assume collision coverage from the Platinum Plus name.',
         'Merchant coding still applies. A grocer that processes as a mass merchant, or a warehouse club, can miss 2% and pay 0.5%.',
     ],
     feesAndValue:
-        'This is a $0-fee card in our data, with extra cards at $0, so the usual “bonus minus annual fee” snapshot on this page will look empty or unhelpful. Value is 2% on gas and groceries until a monthly cap bites, minus 0.5% on everything else. If those two buckets cover most of what you already spend, this is a simple MBNA everyday card. If leftover spend is large enough that World’s extra half-point on the catch-all, plus CDW, clears $39, World wins. If two Tangerine categories would cover grocery and gas at $0 with a better story outside those buckets, Tangerine wins at the same $0. If Amazon.ca is the statement, the $0 cobrand wins. There is no first-year fee rebate to hide a weak fit. Offers change. Pay in full.',
+        'This is a $0-fee card, with extra cards at $0, so the usual “bonus minus annual fee” snapshot on this page will look empty or unhelpful. Value is 2% on gas and groceries until a monthly cap bites, minus 0.5% on everything else. If those two buckets cover most of what you already spend, this is a simple MBNA everyday card. If leftover spend is large enough that World’s extra half-point on the catch-all, plus CDW, clears $39, World wins. If two Tangerine categories would cover grocery and gas at $0 with a better story outside those buckets, Tangerine wins at the same $0. If Amazon.ca is the statement, the $0 cobrand wins. There is no first-year fee rebate to hide a weak fit. Offers change. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not MBNA Rewards points and not Amazon.ca Rewards. Our current features describe 2% cash back on gas and groceries with monthly spend caps, and 0.5% on other eligible purchases. The detailed field repeats that no-fee mix. World currently lists the same 2% pair with monthly caps and 1% elsewhere at a $39-class fee. We will not invent cap dollar amounts. Confirm the live MBNA rate card and those caps. Redeem as cash back according to MBNA’s rules. Put grocery and gas here until a cap bites; put Amazon.ca on the cobrand if that order is huge; put chosen 2% categories on Tangerine if you would rather skip a fixed pair and a 0.5% drag; put World on the paid plastic only if the catch-all gap clears the fee.',
+        'This card pays cash back, not MBNA Rewards points and not Amazon.ca Rewards. The current features describe 2% cash back on gas and groceries with monthly spend caps, and 0.5% on other eligible purchases. The detailed feature list repeats that no-fee mix. World currently lists the same 2% pair with monthly caps and 1% elsewhere at a $39-class fee. Confirm the live MBNA rate card and those caps. Redeem as cash back according to MBNA’s rules. Put grocery and gas here until a cap bites; put Amazon.ca on the cobrand if that order is huge; put chosen 2% categories on Tangerine if you would rather skip a fixed pair and a 0.5% drag; put World on the paid plastic only if the catch-all gap clears the fee.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If MBNA is running a cash offer on the Platinum Plus application page, use that page. Do not copy a Rewards “up to” points line onto this cash-back row. Judge the card on 2% gas and groceries at $0 versus World’s 1% catch-all after $39, and versus Tangerine’s picker at the same $0.',
+        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If MBNA is running a cash offer on the Platinum Plus application page, use that page. Do not copy a Rewards “up to” points line onto this cash-back card. Judge the card on 2% gas and groceries at $0 versus World’s 1% catch-all after $39, and versus Tangerine’s picker at the same $0.',
     faqs: [
         {
             question: 'Is the MBNA Smart Cash Platinum Plus Mastercard worth it in 2026?',

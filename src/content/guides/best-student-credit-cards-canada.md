@@ -18,13 +18,13 @@ relatedCardSlugs:
 
 You are not late if you open a card in second year. You are early if you open three in September. One card, on-time payments, low utilization, is how a student file gets built. The live list is on the [students hub](/best/students/).
 
-This is not a way to finance tuition. Student purchase rates in our data are ordinary rewards rates, not “student discounts” on interest.
+This is not a way to finance tuition. Student purchase rates are ordinary rewards rates, not “student discounts” on interest.
 
 ## Eligibility before rewards
 
-Canadian student cards usually require enrolment in a certificate, diploma, or degree program at a recognized post-secondary school. Some rows add an age band (BMO’s student CashBack review currently describes 18–24). Some require Canadian citizenship or permanent residence (several Scotiabank student rows). Some accept income from a job, student loan, scholarship, or family allowance because issuers know you may not have a salary.
+Canadian student cards usually require enrolment in a certificate, diploma, or degree program at a recognized post-secondary school. Some cards add an age band (BMO’s student CashBack review currently describes 18–24). Some require Canadian citizenship or permanent residence (several Scotiabank student cards). Some accept income from a job, student loan, scholarship, or family allowance because issuers know you may not have a salary.
 
-**Read the eligibility cell on the card page.** International students should not assume a “student” product will take a study permit. CIBC and BMO rows are often the first place to look if Scotia’s citizenship line blocks you. Approval is still not guaranteed.
+**Read the eligibility text on the card page.** International students should not assume a “student” product will take a study permit. CIBC and BMO cards are often the first place to look if Scotia’s citizenship line blocks you. Approval is still not guaranteed.
 
 Parents sometimes want an authorized user card instead. That can help a household shop. It does not always build the student’s own file the same way a primary card does. Confirm how the issuer reports authorized users.
 
@@ -50,7 +50,7 @@ Redeem Scene+ where you already spend (movies, groceries) rather than hoarding f
 
 ## Cash back on campus
 
-[Student BMO CashBack](/card/student-bmo-cashback-mastercard/) currently mirrors the adult BMO CashBack shape (3% / 1% / 0.5% in that review) at $0, with extra cardholders free in our data and a first-three-months cash-back boost in the welcome line. The 18–24 student bar is the constraint. When you age out, expect a move toward adult [BMO CashBack](/card/bmo-cashback-mastercard/) or a conversation about World Elite if income appears.
+[Student BMO CashBack](/card/student-bmo-cashback-mastercard/) currently mirrors the adult BMO CashBack shape (3% / 1% / 0.5% in that review) at $0, with extra cardholders free and a first-three-months cash-back boost in the welcome line. The 18–24 student bar is the constraint. When you age out, expect a move toward adult [BMO CashBack](/card/bmo-cashback-mastercard/) or a conversation about World Elite if income appears.
 
 Mastercard matters: Costco Canada will take it; a student Visa will not.
 

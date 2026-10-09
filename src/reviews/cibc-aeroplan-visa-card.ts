@@ -12,7 +12,7 @@ const review: CardEditorialReview = {
     whoItsFor: [
         'Air Canada households that want Aeroplan on a Visa they can use at Canadian grocery stores and gas stations, without a Visa Infinite fee or income test.',
         'People who will actually buy Air Canada and Air Canada Vacations on this card for the 1x cobrand rate, not on a random debit card.',
-        'Applicants who meet the household income figure in eligibility, can add extra cards at no annual fee in our current data, and pay in full.',
+        'Applicants who meet the household income figure in eligibility, can add extra cards at no annual fee, and pay in full.',
         'CIBC customers who would rather keep banking, the card, and Aeroplan in one relationship than open a TD Platinum cobrand for the same program.',
     ],
     whoShouldSkip: [
@@ -22,7 +22,7 @@ const review: CardEditorialReview = {
         'People who need to carry a balance. A 20%+ purchase rate is a very expensive way to collect Aeroplan.',
     ],
     pros: [
-        'No annual fee in our data, with extra cards currently at $0, so the cobrand does not have to beat a January membership before it starts earning.',
+        'No annual fee, with extra cards currently at $0, so the cobrand does not have to beat a January membership before it starts earning.',
         '1x on grocery, gas, EV charging, and Air Canada is still a useful family mix if you already fly Air Canada — you just do not get Infinite’s 1.5x.',
         'The current welcome path pays on first purchase, again after a four-statement spend, and again as an anniversary bonus — new cardmembers who stay a year can stack all three.',
         'Visa acceptance is the practical advantage over Amex Aeroplan cobrands at grocers, gas stations, and small merchants.',
@@ -30,9 +30,9 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'Everything else currently earns 1 Aeroplan point per $1.50. Dining, Amazon, and general retail drag the blended rate down fast.',
-        'Our features also mention Journie Rewards cents-off at participating gas stations. That is a fuel program, not extra Aeroplan, and it only helps if you already use those stations.',
-        'The sheet’s welcome headline talks about travel value and points; follow the detailed three-stage schedule and confirm thresholds on CIBC’s page.',
-        'Our insurance field is empty. Do not assume travel medical coverage from the Aeroplan name on a $0 Visa.',
+        'The card’s features also mention Journie Rewards cents-off at participating gas stations. That is a fuel program, not extra Aeroplan, and it only helps if you already use those stations.',
+        'The welcome headline talks about travel value and points; follow the detailed three-stage schedule and confirm thresholds on CIBC’s page.',
+        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the Aeroplan name on a $0 Visa.',
         'Opening this card can still collide with CIBC’s “recent bonus / switching cards” rules. Read eligibility before you treat a $0 cobrand as a harmless test drive into Infinite next month.',
     ],
     feesAndValue:
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'This card earns Aeroplan points. Eligible gas, EV charging, groceries, and purchases made directly with Air Canada (including Air Canada Vacations) earn 1 point per dollar. All other purchases earn 1 point per $1.50. Compare that with Infinite’s current 1.5x on the same grocery/gas/Air Canada list and 1x on everything else — the $0 Visa is not a 1.5x card with the fee stripped off. Features also mention up to a listed cents-off per litre at participating Journie Rewards stations; that discount is separate from Aeroplan. Redemptions are Aeroplan flight rewards, partners, and the usual merchandise options. If you buy the Air Canada ticket on this Visa, you get cobrand earn and a network the airline checkout will take without an Amex surprise. Merchant coding still applies at the grocer.',
     welcomeBonus:
-        'The current detailed offer in our data has three gates: bonus points on the first purchase, a second deposit after a spend requirement over the first four monthly statement periods, and an anniversary bonus after a higher amount of net purchases over the first twelve statement periods. You need all three to match the “up to” point total and travel value on the sheet. Eligibility currently talks about a new account, spend gates, Canadian residency, income and credit standards, and generally not having received a bonus for the same card recently. That is vaguer than Infinite’s “switching from another CIBC card” line — still read CIBC’s live terms before you assume a Dividend-to-Aeroplan product-change pays. Hit the spend with planned travel and grocery, not manufactured transactions.',
+        'The current detailed offer has three gates: bonus points on the first purchase, a second deposit after a spend requirement over the first four monthly statement periods, and an anniversary bonus after a higher amount of net purchases over the first twelve statement periods. You need all three to match the “up to” point total and travel value. Eligibility currently talks about a new account, spend gates, Canadian residency, income and credit standards, and generally not having received a bonus for the same card recently. That is vaguer than Infinite’s “switching from another CIBC card” line — still read CIBC’s live terms before you assume a Dividend-to-Aeroplan product-change pays. Hit the spend with planned travel and grocery, not manufactured transactions.',
     faqs: [
         {
             question: 'Is the CIBC Aeroplan Visa Card worth it in 2026?',
@@ -55,12 +55,12 @@ const review: CardEditorialReview = {
         {
             question: 'CIBC Aeroplan Visa vs TD Aeroplan Visa Platinum?',
             answer:
-                '[TD Aeroplan Platinum](/card/td-aeroplan-visa-platinum-credit-card/) is a paid Platinum cobrand with a similar 1x grocery/gas/Air Canada and 1 point per $1.50 catch-all in that review, plus an annual bonus-category cap in TD’s detailed field. This CIBC card currently lists $0. Choose the bank you already use, then compare live welcome offers and whether you would rather pay Platinum prices at TD or keep CIBC’s $0 rung.',
+                '[TD Aeroplan Platinum](/card/td-aeroplan-visa-platinum-credit-card/) is a paid Platinum cobrand with a similar 1x grocery/gas/Air Canada and 1 point per $1.50 catch-all in that review, plus an annual bonus-category cap in TD’s detailed feature list. This CIBC card currently lists $0. Choose the bank you already use, then compare live welcome offers and whether you would rather pay Platinum prices at TD or keep CIBC’s $0 rung.',
         },
         {
             question: 'CIBC Aeroplan Visa vs American Express Aeroplan?',
             answer:
-                'CIBC wins on Visa acceptance, a $0 fee in our data, and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) typically wins on dining earn, with weaker grocery coverage and a fee. If Visa at the supermarket is the constraint and Infinite income is not in reach, this $0 cobrand is the CIBC door.',
+                'CIBC wins on Visa acceptance, a $0 fee, and grocery/gas bonus categories. [Amex Aeroplan](/card/american-express-aeroplan-card/) typically wins on dining earn, with weaker grocery coverage and a fee. If Visa at the supermarket is the constraint and Infinite income is not in reach, this $0 cobrand is the CIBC door.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',

@@ -35,10 +35,10 @@ Open the live lineups: [RBC](/issuer/rbc/), [TD](/issuer/td/), [Scotiabank](/iss
 | No-FX travel Visa | Not the headline product | Not the headline product | [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) |
 | USD card | USD Visa Gold (Avion) | [USD Visa](/card/td-u-s-dollar-visa-card/) (no rewards) | USD Visa (plain) |
 | Low interest | RateAdvantage, Classic Low Rate | [Low Rate Visa](/card/td-low-rate-visa-card/) | Value Visa |
-| Student | Thinner student set in our catalog | Thinner student set | Scene+, Momentum, Amex student rows |
+| Student | Thinner student set in our catalog | Thinner student set | Scene+, Momentum, Amex student cards |
 | Welcome-rule personality | Offer end dates; Avion hurdles | Multi-part Aeroplan bonuses | Two-year personal-card exclusion |
 
-None of these rows replaces the card page. Income tests for Infinite, Privilege, and World Elite still apply.
+None of these summaries replaces the card page. Income tests for Infinite, Privilege, and World Elite still apply.
 
 ## If you already bank there
 
@@ -64,7 +64,7 @@ If you want a longer travel decision tree, use [how to choose a travel card](/gu
 
 RBC’s ION cards are everyday Avion earners — useful if you want one currency in the house. They are not 4% cash back.
 
-TD Cash Back Visas are simple statement-credit products, including a $0 version in our data. They are the TD answer if you pay in full and do not want Aeroplan.
+TD Cash Back Visas are simple statement-credit products, including a $0 version. They are the TD answer if you pay in full and do not want Aeroplan.
 
 Scotia Momentum Visa Infinite is the 4%-class grocery-and-bills cash-back Infinite in our review, with a first-year waiver on some offers and a 15% welcome (15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026) — and a two-year Scotia-card exclusion. Scene+ Visa is the $0 points alternative at Empire banners.
 

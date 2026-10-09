@@ -8,12 +8,12 @@ const review: CardEditorialReview = {
     metaDescription:
         'Scotiabank American Express Card review for 2026: $0 fee, 3x Sobeys Scene+, vs Gold and Platinum Amex, welcome bonus, and who should skip it.',
     intro:
-        'The Scotiabank American Express Card is the no-fee Scene+ Amex: 3x at Sobeys-family grocers, 2x on dining, other grocery, entertainment, gas, daily transit, and select streaming, and 1x everywhere else in our current features. It is the card you open when you already shop those banners and will not pay for [Gold American Express](/card/scotiabank-gold-american-express-card/) or [Platinum](/card/scotiabank-platinum-american-express-card/). This Scotiabank American Express Card review covers the two-step welcome, the two-year Scotiabank-card exclusion, and when the $0 [Scene+ Visa](/card/scotiabank-scene-plus-visa-card/) is the better no-fee grocer card because it is a Visa.',
+        'The Scotiabank American Express Card is the no-fee Scene+ Amex: 3x at Sobeys-family grocers, 2x on dining, other grocery, entertainment, gas, daily transit, and select streaming, and 1x everywhere else in the current features. It is the card you open when you already shop those banners and will not pay for [Gold American Express](/card/scotiabank-gold-american-express-card/) or [Platinum](/card/scotiabank-platinum-american-express-card/). This Scotiabank American Express Card review covers the two-step welcome, the two-year Scotiabank-card exclusion, and when the $0 [Scene+ Visa](/card/scotiabank-scene-plus-visa-card/) is the better no-fee grocer card because it is a Visa.',
     whoItsFor: [
         'Households that already shop at Sobeys, Safeway, FreshCo, Foodland, or other eligible Scene+ grocery banners and want 3x Scene+ without a Gold fee (or a chequing relationship to waive one).',
         'People who also eat out, ride transit, stream, and go to movies, and can stack the 2x bucket on the same Amex.',
         'Applicants who have not held a Scotiabank personal credit card in the past two years if they care about the welcome points, and who pay in full.',
-        'Households that want extra cards at no cost — our data currently lists additional cards at $0.',
+        'Households that want extra cards at no cost — the issuer currently lists additional cards at $0.',
     ],
     whoShouldSkip: [
         'Shoppers whose grocer is Loblaws, Metro, Walmart, or Costco. 3x at Sobeys-family stores does nothing at those tills, and Costco Canada will not take American Express.',
@@ -32,15 +32,15 @@ const review: CardEditorialReview = {
         'It is still American Express. Plenty of Canadian merchants will send you to the backup card, which then misses the 3x and 2x.',
         'The two-year Scotiabank-card exclusion is the same strict rule as the paid Scotia cards. If you already have Momentum or Passport, this bonus is probably not for you.',
         '1x on everything outside the bonus list is ordinary. A month of electronics and Amazon is not why this card exists.',
-        'Our insurance field is empty. This is a $0 rewards Amex, not a travel-medical product, and it is not marketed in our features as a no-FX card the way Gold Amex is.',
-        'The welcome “up to” dollar wrap in our data is a small envelope around Scene+ points, not cash.',
+        'Check the issuer’s site for current insurance coverage. This is a $0 rewards Amex, not a travel-medical product, and it is not marketed in the card’s features as a no-FX card the way Gold Amex is.',
+        'The welcome “up to” dollar wrap is a small envelope around Scene+ points, not cash.',
     ],
     feesAndValue:
-        'Our data currently lists no annual fee on the primary card and $0 on additional cards, so there is no fee to earn back. The value test is whether 3x Scene+ at eligible grocers plus 2x dining/transit/entertainment beats a $0 Visa, and whether you will later wish you had paid for Gold’s 6x (or had that fee waived). If those banners are already the weekly shop, Amex is accepted there, and you redeem Scene+, this is the obvious no-fee Amex. If you wanted Visa acceptance at $0, the Scene+ Visa is the sibling. If you will open an eligible Scotiabank account and shop Sobeys heavily, Gold Amex’s 6x and 5x dining can justify its headline fee — or have it waived. Offers change. Pay in full; the purchase rate in our data is a typical rewards rate.',
+        'The issuer currently lists no annual fee on the primary card and $0 on additional cards, so there is no fee to earn back. The value test is whether 3x Scene+ at eligible grocers plus 2x dining/transit/entertainment beats a $0 Visa, and whether you will later wish you had paid for Gold’s 6x (or had that fee waived). If those banners are already the weekly shop, Amex is accepted there, and you redeem Scene+, this is the obvious no-fee Amex. If you wanted Visa acceptance at $0, the Scene+ Visa is the sibling. If you will open an eligible Scotiabank account and shop Sobeys heavily, Gold Amex’s 6x and 5x dining can justify its headline fee — or have it waived. Offers change. Pay in full; the purchase rate is a typical rewards rate.',
     rewardsExplained:
-        'You earn Scene+ points, not Membership Rewards and not cash back. The current stack in our features and detailed field is 3 Scene+ per dollar at Sobeys, Safeway, FreshCo, Foodland, IGA, Voila, Thrifty Foods, and other listed Empire-family and Co-op banners; 2x on other grocery, dining, entertainment, gas, daily transit, and select streaming; and 1x on everything else. Those multipliers only apply when the merchant takes Amex and the category matches. A grocery banner outside the eligible list, a restaurant inside a hotel, or a streaming service billed through a platform that codes as general retail can land in 1x. Scene+ redeems at Scene partners, Empire-family groceries, dining, entertainment, and Scene+ Travel. For 6x at the same grocers plus 5x dining, that is Gold Amex. For 2x on every Amex-accepted purchase, that is Platinum.',
+        'You earn Scene+ points, not Membership Rewards and not cash back. The current stack in the card’s short and detailed features is 3 Scene+ per dollar at Sobeys, Safeway, FreshCo, Foodland, IGA, Voila, Thrifty Foods, and other listed Empire-family and Co-op banners; 2x on other grocery, dining, entertainment, gas, daily transit, and select streaming; and 1x on everything else. Those multipliers only apply when the merchant takes Amex and the category matches. A grocery banner outside the eligible list, a restaurant inside a hotel, or a streaming service billed through a platform that codes as general retail can land in 1x. Scene+ redeems at Scene partners, Empire-family groceries, dining, entertainment, and Scene+ Travel. For 6x at the same grocers plus 5x dining, that is Gold Amex. For 2x on every Amex-accepted purchase, that is Platinum.',
     welcomeBonus:
-        'The current offer in our data is two spend gates inside the first three months: a first chunk of Scene+ after a small purchase hurdle, then a second chunk if you hit a higher three-month spend. You need both to match the “up to” point total. Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees are not eligible. That catches almost everyone who already has a Scotia Momentum, Passport, Gold Amex, or Scene+ Visa. Read the live application. Do not open this Amex as a product-change and expect the bonus, and do not invent spend to clear a four-figure-class hurdle on a $0 card.',
+        'The current offer is two spend gates inside the first three months: a first chunk of Scene+ after a small purchase hurdle, then a second chunk if you hit a higher three-month spend. You need both to match the “up to” point total. Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees are not eligible. That catches almost everyone who already has a Scotia Momentum, Passport, Gold Amex, or Scene+ Visa. Read the live application. Do not open this Amex as a product-change and expect the bonus, and do not invent spend to clear a four-figure-class hurdle on a $0 card.',
     faqs: [
         {
             question: 'Is the Scotiabank American Express Card worth it in 2026?',
@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'No-fee Scotiabank Amex vs Gold American Express?',
             answer:
-                '[Gold Amex](/card/scotiabank-gold-american-express-card/) pays 6x Scene+ at eligible grocers, 5x dining, and 3x gas/transit, at a mid-fee that can be waived with an eligible bank account, plus no FX fees in that row’s features. This card pays 3x grocery and 2x dining/transit at $0. Choose Gold if those categories and a possible waiver are real. Choose this card if you want Scene+ on Amex without a fee.',
+                '[Gold Amex](/card/scotiabank-gold-american-express-card/) pays 6x Scene+ at eligible grocers, 5x dining, and 3x gas/transit, at a mid-fee that can be waived with an eligible bank account, plus no FX fees on that card’s features. This card pays 3x grocery and 2x dining/transit at $0. Choose Gold if those categories and a possible waiver are real. Choose this card if you want Scene+ on Amex without a fee.',
         },
         {
             question: 'No-fee Scotiabank Amex vs Scotiabank Platinum American Express?',
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card work at Costco or charge FX fees?',
             answer:
-                'Costco Canada is Mastercard-only, so this American Express card will not work there. Our features do not market this product as a no-FX card the way Gold Amex does; confirm foreign-conversion treatment in the agreement.',
+                'Costco Canada is Mastercard-only, so this American Express card will not work there. The card’s features do not market this product as a no-FX card the way Gold Amex does; confirm foreign-conversion treatment in the agreement.',
         },
     ],
     extraHubSlugs: ['rewards', 'no-annual-fee', 'groceries'],

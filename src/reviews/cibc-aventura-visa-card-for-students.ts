@@ -23,7 +23,7 @@ const review: CardEditorialReview = {
         'People who already hold adult Aventura Gold and hoped a student application would pay. Current eligibility blocks other Aventura cards in the last 12 months.',
     ],
     pros: [
-        'No annual fee in our data, with extra cards currently at $0 for up to three.',
+        'No annual fee, with extra cards currently at $0 for up to three.',
         'The earn mix currently matches adult $0 Aventura Visa, so the student SKU is access and limits, not a dummy multiplier table.',
         'No minimum annual income is currently printed — a real difference from adult Aventura Visa’s $15,000-class household bar in that review.',
         'The current welcome path is two modest gates (activities in 60 days, then $1,000-class spend in four months) rather than Infinite’s staged wrap.',
@@ -32,14 +32,14 @@ const review: CardEditorialReview = {
     cons: [
         '1 point per $2 on everything else is the same weak catch-all as adult $0 Aventura. Amazon, campus retail, and most dining drag the blended rate down.',
         'Aventura redeemed poorly can lose to student Dividend’s 2% grocery cash.',
-        'Our insurance field is empty. Do not skip travel medical for a reading-week trip because the card says Aventura.',
-        'The welcome “up to $125 in travel value” cell is a small envelope around 12,500 points, not cash.',
+        'Check the issuer’s site for current insurance coverage. Do not skip travel medical for a reading-week trip because the card says Aventura.',
+        'The welcome “up to $125 in travel value” figure is a small envelope around 12,500 points, not cash.',
         'After graduation you are not automatically upgraded to Gold’s 2x portal / 1.5x grocery stack. That is a new application or product-change with adult fees.',
     ],
     feesAndValue:
-        'The fee table shows $0 on the primary card and $0 on extra cards. The first-year snapshot compares estimated welcome-bonus value with that $0 fee; remember the value cell currently prices points as travel. Year one only matches the brochure if you complete the 60-day activities and post $1,000-class net purchases in four months. Year two is 1x grocery/gas/drugstore/portal and 0.5x-style catch-all. If you fly Air Canada home every term, student Aeroplan is the better cobrand. If the supermarket is the statement, student Dividend is the better cash-back Visa. Gold remains the paid upgrade after you have income and a reason to use Expedia. Offers change. Pay in full.',
+        'The fee table shows $0 on the primary card and $0 on extra cards. The first-year snapshot compares estimated welcome-bonus value with that $0 fee; remember the welcome-value estimate currently prices points as travel. Year one only matches the brochure if you complete the 60-day activities and post $1,000-class net purchases in four months. Year two is 1x grocery/gas/drugstore/portal and 0.5x-style catch-all. If you fly Air Canada home every term, student Aeroplan is the better cobrand. If the supermarket is the statement, student Dividend is the better cash-back Visa. Gold remains the paid upgrade after you have income and a reason to use Expedia. Offers change. Pay in full.',
     rewardsExplained:
-        'This card earns Aventura points, not Aeroplan and not cash back. Our current features describe 1 point per dollar at eligible gas, EV charging, grocery stores, and drugstores; 1 point per dollar on eligible travel bought through the CIBC Rewards Centre (CIBC by Expedia); and 1 point per $2 on all other purchases. Detailed features currently agree. Merchant coding still applies: a campus “grocery” that processes as a mass merchant, or a flight bought on the airline site, will miss the bonus buckets. Redeem through CIBC. Put drugstore and grocery here only if you value Aventura; otherwise student Dividend pays cash on that supermarket. Put Air Canada on student Aeroplan.',
+        'This card earns Aventura points, not Aeroplan and not cash back. The current features describe 1 point per dollar at eligible gas, EV charging, grocery stores, and drugstores; 1 point per dollar on eligible travel bought through the CIBC Rewards Centre (CIBC by Expedia); and 1 point per $2 on all other purchases. Detailed features currently agree. Merchant coding still applies: a campus “grocery” that processes as a mass merchant, or a flight bought on the airline site, will miss the bonus buckets. Redeem through CIBC. Put drugstore and grocery here only if you value Aventura; otherwise student Dividend pays cash on that supermarket. Put Air Canada on student Aeroplan.',
     welcomeBonus:
         'The current detailed offer pays up to 12,500 Aventura points: a smaller chunk for completing listed activities within 60 days of approval, then 10,000 more if at least $1,000 in net purchases posts in the first four months. You need both to match the “up to” total. Eligibility currently says CIBC may approve you and still withhold the offer if you opened, transferred, or cancelled another Aventura card in the last 12 months. Hit the $1,000 with grocery and a portal booking you were making anyway. Do not product-change from adult Aventura expecting this wrap.',
     faqs: [
@@ -51,12 +51,12 @@ const review: CardEditorialReview = {
         {
             question: 'Student Aventura vs adult CIBC Aventura Visa?',
             answer:
-                'Earn currently matches the adult [$0 Aventura Visa](/card/cibc-aventura-visa-card/). Adult currently lists a $15,000-class household income bar. This student row currently lists no minimum income and student/international limits. Choose student if that is your file. Choose adult if you are not a student.',
+                'Earn currently matches the adult [$0 Aventura Visa](/card/cibc-aventura-visa-card/). Adult currently lists a $15,000-class household income bar. This student card currently lists no minimum income and student/international limits. Choose student if that is your file. Choose adult if you are not a student.',
         },
         {
             question: 'Student Aventura vs Aventura Gold?',
             answer:
-                '[Aventura Gold](/card/cibc-aventura-gold-visa-card/) currently lists 2x portal travel and 1.5x grocery/gas/drugstore at a $139-class fee (often first-year rebated) and the same $15,000-class household bar as adult $0 Aventura. There is no student Gold SKU in our sheet. Stay on this $0 student Visa until grocery and portal spend would actually clear Gold’s ongoing fee after graduation.',
+                '[Aventura Gold](/card/cibc-aventura-gold-visa-card/) currently lists 2x portal travel and 1.5x grocery/gas/drugstore at a $139-class fee (often first-year rebated) and the same $15,000-class household bar as adult $0 Aventura. There is no student Gold SKU. Stay on this $0 student Visa until grocery and portal spend would actually clear Gold’s ongoing fee after graduation.',
         },
         {
             question: 'What happens after graduation?',
@@ -66,7 +66,7 @@ const review: CardEditorialReview = {
         {
             question: 'Can international students apply?',
             answer:
-                'Our eligibility cell currently says international students can get a credit limit of up to $2,000, with no minimum income printed. Approval is still a credit decision. Plan spend gates around that cap.',
+                'The eligibility text currently says international students can get a credit limit of up to $2,000, with no minimum income printed. Approval is still a credit decision. Plan spend gates around that cap.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries', 'no-annual-fee', 'students'],

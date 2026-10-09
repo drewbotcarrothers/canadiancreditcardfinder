@@ -8,10 +8,10 @@ const review: CardEditorialReview = {
     metaDescription:
         'National Bank Platinum Mastercard review for 2026: $70 fee, 2x grocery and dining À la carte, vs World and World Elite, no income floor, who should skip it.',
     intro:
-        'The National Bank Platinum Mastercard is National Bank’s accessible paid À la carte card: 2 points per dollar on groceries and restaurants, 1.5x on gas/EV, recurring bills, and À la carte Travel in our current features, a $70-class annual fee, extra cards at $35-class, mobile-device insurance, and travel insurance for trips of 10 days or less. Eligibility currently prints no minimum income — a real difference from [World](/card/national-bank-world-mastercard/) and [World Elite](/card/national-bank-world-elite-mastercard/). No welcome bonus is confirmed on this page right now; check National Bank’s Platinum page for any current offer.',
+        'The National Bank Platinum Mastercard is National Bank’s accessible paid À la carte card: 2 points per dollar on groceries and restaurants, 1.5x on gas/EV, recurring bills, and À la carte Travel in the current features, a $70-class annual fee, extra cards at $35-class, mobile-device insurance, and travel insurance for trips of 10 days or less. Eligibility currently prints no minimum income — a real difference from [World](/card/national-bank-world-mastercard/) and [World Elite](/card/national-bank-world-elite-mastercard/). No welcome bonus is confirmed on this page right now; check National Bank’s Platinum page for any current offer.',
     whoItsFor: [
         'National Bank customers who want 2x grocery and dining in À la carte without World Elite income, will use the 1.5x gas/bills/travel bucket, and can pay $70.',
-        'Applicants who are Canadian residents of majority age — that is the eligibility cell — and who pay in full.',
+        'Applicants who are Canadian residents of majority age — that is the eligibility text — and who pay in full.',
         'People who shop Costco (detailed features currently name warehouse acceptance) and still wanted grocery-coded 2x at supermarkets.',
         'Households that compared World’s LoungeKey fee and whose month is grocery and restaurants, not lounges.',
     ],
@@ -22,7 +22,7 @@ const review: CardEditorialReview = {
         'Anyone choosing a card mainly for a welcome bonus. No offer is currently confirmed here, so check National Bank’s page before you count on one.',
     ],
     pros: [
-        '2x groceries and restaurants is a printed everyday mix Allure and World’s thinner earn cells do not match on our sheet.',
+        '2x groceries and restaurants is a printed everyday mix Allure and World’s thinner earn tables do not match.',
         '1.5x on gas/EV, recurring bills, and À la carte Travel is a useful second layer if those actually code.',
         'No minimum income is currently printed — Platinum is the paid À la carte door without a World test.',
         'Detailed features currently name mobile-device insurance, purchase protection, extended warranty, and travel insurance for trips of 10 days or less, plus Costco acceptance.',
@@ -30,15 +30,15 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'A $70-class fee, plus $35-class extra cards, has to clear on 2x grocery/dining versus ECHO’s cash at $30 or Tangerine at $0.',
-        'The welcome headline currently looks like an internal note to fill an offer, with empty detailed, value, and eligibility cells. We will not invent a first-year wrap.',
-        'Travel insurance currently named for trips of 10 days or less is not a two-week medical policy. Read the certificate; the insurance column itself is empty.',
-        'We will not invent monthly 2x caps the sheet does not print — confirm National Bank’s live Platinum table.',
+        'There is no usable welcome offer listed: no detailed terms, value, or eligibility terms.',
+        'Travel insurance currently named for trips of 10 days or less is not a two-week medical policy. Read the certificate; no full insurance package is listed.',
+        '',
         'National Bank’s footprint is strongest in Quebec.',
     ],
     feesAndValue:
         'The fee table shows a $70-class card; extra cards currently show $35. No welcome-bonus value is currently listed, so the first-year snapshot will not cushion the membership. Year one and year two are $70 versus 2x grocery/dining and 1.5x gas/bills/travel, plus short-trip and mobile-device insurance you would have used. If grocery and dining are huge and you qualify for World Elite’s 5x and travel credit, World Elite is the other conversation. If you wanted dollars, ECHO or Tangerine is simpler. If you wanted LoungeKey without 2x grocery, World currently lists that shape. Offers change. Pay in full.',
     rewardsExplained:
-        'You earn À la carte Rewards, National Bank’s points program — not cash back. Our current features describe 2 points per dollar on groceries and restaurants and 1.5x on gas/EV, recurring bills, and À la carte Travel. Detailed features currently say accelerated À la carte on groceries/restaurants and selected categories. Merchant coding still applies: a warehouse club may miss grocery 2x even if the card is accepted at Costco. Redeem toward travel through À la carte. Put supermarket and restaurant spend here. Put 5x grocery/dining with lounges on World Elite if that is already your band. Put cash back on ECHO.',
+        'You earn À la carte Rewards, National Bank’s points program — not cash back. The current features describe 2 points per dollar on groceries and restaurants and 1.5x on gas/EV, recurring bills, and À la carte Travel. Detailed features currently say accelerated À la carte on groceries/restaurants and selected categories. Merchant coding still applies: a warehouse club may miss grocery 2x even if the card is accepted at Costco. Redeem toward travel through À la carte. Put supermarket and restaurant spend here. Put 5x grocery/dining with lounges on World Elite if that is already your band. Put cash back on ECHO.',
     welcomeBonus:
         'No welcome bonus is currently confirmed for this card. If National Bank’s live Platinum page shows a points offer or a first-year fee rebate, use that page as the source of truth and check the spend requirement and time window before you apply.',
     faqs: [
@@ -60,7 +60,7 @@ const review: CardEditorialReview = {
         {
             question: 'What income do I need?',
             answer:
-                'Our eligibility cell currently says Canadian resident, age of majority, no minimum income requirement. That is Platinum’s pitch versus World Elite. Approval is still a credit decision.',
+                'The eligibility text currently says Canadian resident, age of majority, no minimum income requirement. That is Platinum’s pitch versus World Elite. Approval is still a credit decision.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',

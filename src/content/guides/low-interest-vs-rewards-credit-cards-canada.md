@@ -16,7 +16,7 @@ relatedCardSlugs:
 
 **A low-interest credit card beats a rewards card in Canada when you will carry a purchase balance (or a transfer) long enough that interest would exceed the rewards you gave up.** If you pay in full every month, a low-rate Visa does nothing for you — take [cash back](/guides/best-cash-back-credit-cards-canada/) or a $0 card instead. If you already have a balance on a 20%-class card, compare **purchase-rate cards** (new spend) with **balance-transfer cards** (moving an existing debt). They are not the same product.
 
-The live list is on the [low-interest hub](/best/low-interest/). Rates in our data are a snapshot. Assigned rates can depend on your file. Confirm the number on the application.
+The live list is on the [low-interest hub](/best/low-interest/). Rates are a snapshot. Assigned rates can depend on your file. Confirm the number on the application.
 
 This is general information, not a debt plan. If interest is unmanageable, talk to a not-for-profit credit counsellor. A new card is not a strategy by itself.
 
@@ -51,7 +51,7 @@ After any teaser, you are on the ongoing rate plus any annual fee. If the balanc
 
 ## Variable prime-plus versus a printed rate
 
-**[RBC RateAdvantage Visa](/card/rbc-rateadvantage-visa/)** is $0 in our data, with purchase and cash-advance both listed as Prime + 4.99%, and a note that the low variable rate is based on your credit rating. Welcome columns are N/A. It is not [RBC Visa Classic Low Rate](/card/rbc-visa-classic-low-rate-option/), which is the sibling that has carried a printed low rate and a transfer-style teaser in our reviews.
+**[RBC RateAdvantage Visa](/card/rbc-rateadvantage-visa/)** is $0, with purchase and cash-advance both listed as Prime + 4.99%, and a note that the low variable rate is based on your credit rating. No welcome bonus is listed. It is not [RBC Visa Classic Low Rate](/card/rbc-visa-classic-low-rate-option/), which is the sibling that has carried a printed low rate and a transfer-style teaser in our reviews.
 
 Prime moves. A prime-plus card is a floating bill. Confirm the assigned rate before you treat the marketing formula as a promise.
 
@@ -59,7 +59,7 @@ Prime moves. A prime-plus card is a floating bill. Confirm the assigned rate bef
 
 ## What you give up
 
-Low-interest cards in our data usually have **no real rewards program**. A Starbucks Stars line or “RBC Offers” is not cash back. You are trading 1–4% earn for a lower rate.
+Low-interest cards usually have **no real rewards program**. A Starbucks Stars line or “RBC Offers” is not cash back. You are trading 1–4% earn for a lower rate.
 
 You also often give up travel insurance that lives on Infinite cards. If you still travel while carrying a balance, buy insurance separately rather than keeping a 20% travel card “for the certificate.”
 

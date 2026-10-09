@@ -513,7 +513,7 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             {
                 question: 'What should I read on every offer?',
                 answer:
-                    'The welcome bonus detail, the eligibility or “not available if” line, the annual fee, and the minimum spend window. Those fields live on each card page in our catalog.',
+                    'The welcome bonus detail, the eligibility or “not available if” line, the annual fee, and the minimum spend window. Those details live on each card page.',
             },
             {
                 question: 'What is a keeper card?',
@@ -584,7 +584,7 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
         ],
         notForYou: [
             'You already have years of Canadian credit and Infinite-level income — skip ahead to set-and-forget or maximizer.',
-            'You need a secured card product that is not in our directory yet — we will not invent one.',
+            'You need a secured card product, which is not in our directory yet.',
             'You plan to carry a balance to “build credit” — pay in full; interest is not a strategy.',
         ],
         relatedHubs: [

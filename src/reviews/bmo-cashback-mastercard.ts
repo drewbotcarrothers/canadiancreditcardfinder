@@ -12,7 +12,7 @@ const review: CardEditorialReview = {
     whoItsFor: [
         'Households that want grocery cash back without a World Elite income test or a January membership, and whose supermarket spend is real but not 5%-card large.',
         'People who also pay streaming, phone, or utility bills that will code as recurring so the 1% bucket is not theoretical.',
-        'Applicants who meet BMO’s age, residency, and “minimum income” screen in eligibility — this row does not print the dollar figures — and have not declared bankruptcy in the past seven years, per the current sheet.',
+        'Applicants who meet BMO’s age, residency, and “minimum income” screen in eligibility — this card does not print the dollar figures — and have not declared bankruptcy in the past seven years.',
         'Anyone who pays in full and would rather see statement credits than learn Blue Rewards or Eclipse points.',
     ],
     whoShouldSkip: [
@@ -22,10 +22,10 @@ const review: CardEditorialReview = {
         'Anyone who revolves a balance. Three percent at the grocer does not survive 20%+ interest.',
     ],
     pros: [
-        'No annual fee in our data, so 3% grocery does not have to clear a World Elite membership first.',
+        'No annual fee, so 3% grocery does not have to clear a World Elite membership first.',
         '3% at eligible grocery stores, on up to $500 spent per statement period, is still a useful supermarket rate in Canada when you do not qualify for 5%.',
         '1% on recurring bills, on up to $500 spent per statement period, is a quiet win if those charges actually code as recurring.',
-        'Additional cards are currently listed as free, which is kinder than World Elite’s extra-card fee in our data.',
+        'Additional cards are currently listed as free, which is kinder than World Elite’s extra-card fee.',
         'The current welcome is up to 5% cash back in the first 3 months, capped at $125, plus a 0.99% introductory balance-transfer rate for 9 months with a 2% transfer fee.',
     ],
     cons: [
@@ -36,7 +36,7 @@ const review: CardEditorialReview = {
         'Insurance is extended warranty (doubles the original manufacturer’s warranty up to one extra year) and purchase security (theft or damage for 90 days), with a $60,000 lifetime maximum for both combined. The card does not include travel insurance.',
     ],
     feesAndValue:
-        'The annual fee in our table is $0, and the detail line says no annual fee, so you are not racing a January bill. The first-year snapshot on this page subtracts that $0 from the welcome-value cell, which is up to $125. Ongoing value is 3% on groceries and 1% on recurring bills, each on up to $500 spent per statement period, then 0.5% on the rest and on spend above those caps. If two Tangerine categories would cover more of your month, Tangerine wins. If grocery spend is high enough to clear World Elite’s fee at 5%, World Elite wins. The welcome offer on this row runs through October 31, 2027. Pay in full.',
+        'The annual fee in our table is $0, and the detail line says no annual fee, so you are not racing a January bill. The first-year snapshot on this page subtracts that $0 from the welcome-value estimate, which is up to $125. Ongoing value is 3% on groceries and 1% on recurring bills, each on up to $500 spent per statement period, then 0.5% on the rest and on spend above those caps. If two Tangerine categories would cover more of your month, Tangerine wins. If grocery spend is high enough to clear World Elite’s fee at 5%, World Elite wins. The welcome offer on this card runs through October 31, 2027. Pay in full.',
     rewardsExplained:
         'This card pays cash back, not Blue Rewards and not Eclipse points. The current stack is 3% on grocery purchases at grocery stores and supermarkets in Canada and 1% on recurring bill payments in Canada, each on up to $500 spent per statement period, and 0.5% on all other purchases and on grocery and recurring spend above those caps. Those percentages only apply when the merchant category matches BMO’s rules. Costco, a superstore that codes as a mass merchant, or a meal kit can land in 0.5%. Cash back does not expire while the account is open and in good standing. You can redeem from $1 as a statement credit, or set up automatic deposits from $25 to a BMO chequing, savings, or InvestorLine account. If you want 5% groceries, 4% transit, and 3% gas, that is CashBack World Elite, with World Elite income and a fee. If you want pick-your-categories 2% at $0, that is Tangerine. Put supermarket spend here; put a travel-points card elsewhere if you still collect Aeroplan.',
     welcomeBonus:
@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'BMO CashBack vs BMO CashBack World Elite?',
             answer:
-                '[World Elite](/card/bmo-cashback-world-elite-mastercard/) currently advertises 5% groceries and extra commuting categories, at a World Elite fee and income bar, often with a first-year rebate in that row’s offer. This card is $0 with 3% grocery (up to $500 per statement period) and 0.5% else. Choose World Elite if grocery spend clears the fee. Choose this card if you want BMO cash back without the membership.',
+                '[World Elite](/card/bmo-cashback-world-elite-mastercard/) currently advertises 5% groceries and extra commuting categories, at a World Elite fee and income bar, often with a first-year rebate on that card’s offer. This card is $0 with 3% grocery (up to $500 per statement period) and 0.5% else. Choose World Elite if grocery spend clears the fee. Choose this card if you want BMO cash back without the membership.',
         },
         {
             question: 'BMO CashBack vs Tangerine Money-Back?',
@@ -60,7 +60,7 @@ const review: CardEditorialReview = {
         {
             question: 'Is there a student version?',
             answer:
-                'Yes. The [Student BMO CashBack Mastercard](/card/student-bmo-cashback-mastercard/) currently lists no annual fee and a similar 3%/1%/0.5% mix, with student-age and school eligibility. Use that application if you fit it; do not stretch this adult row’s “minimum income” line to look like a campus card.',
+                'Yes. The [Student BMO CashBack Mastercard](/card/student-bmo-cashback-mastercard/) currently lists no annual fee and a similar 3%/1%/0.5% mix, with student-age and school eligibility. Use that application if you fit it; do not stretch this adult card’s “minimum income” line to look like a campus card.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',

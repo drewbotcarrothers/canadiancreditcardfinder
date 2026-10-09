@@ -38,9 +38,9 @@ A USD card is for people who *have* USD. It is not a magic mid-market converter 
 | Want Aventura on USD spend | [CIBC USD Aventura Gold](/card/cibc-u-s-dollar-aventura-gold-visa-card/) | Weaker earn than CAD Aventura Gold |
 | Want Mastercard / Costco | [BMO USD Mastercard](/card/bmo-u-s-dollar-mastercard/) | Visa USD cards fail at Costco |
 | Want cheapest USD Visa, no rewards | [TD USD Visa](/card/td-u-s-dollar-visa-card/) | Fee-versus-FX test only |
-| Scene+ grocery in CAD | Stay on a CAD Scene+ card | USD rows are not 3x Sobeys products |
+| Scene+ grocery in CAD | Stay on a CAD Scene+ card | USD cards are not 3x Sobeys products |
 
-[Scotiabank U.S. Dollar Visa](/card/scotiabank-u-s-dollar-visa-card/) is another no-frills USD Visa if you already bank at Scotia. Our Scene+ grocery rules live on CAD Amex and Visa products, not on that USD row.
+[Scotiabank U.S. Dollar Visa](/card/scotiabank-u-s-dollar-visa-card/) is another no-frills USD Visa if you already bank at Scotia. Scene+ grocery rules live on CAD Amex and Visa products, not on that USD card.
 
 ## The fee-versus-FX test
 
@@ -50,7 +50,7 @@ A common Canadian FX fee is about 2.5% on the converted amount. On $2,000 USD of
 
 Do that math on **your** last twelve months of USD merchant spend, not on a hypothetical snowbird season. Then add whether you already pay a USD account fee at the bank.
 
-Welcome bonuses on these rows are often N/A. Year one is the fee versus FX avoided. There is no signup cushion to hide a weak fit.
+Welcome bonuses on these cards are often absent. Year one is the fee versus FX avoided. There is no signup cushion to hide a weak fit.
 
 ## Rewards on USD cards are thinner than the CAD twin
 
@@ -58,13 +58,13 @@ CIBC’s USD Aventura Gold review is explicit: the earn mix is weaker than CAD [
 
 RBC’s USD Gold is the Avion collector’s USD door: 1 point per U.S. dollar in our review, at a higher USD fee. Compare that fee with earning Avion on a CAD Avion card and eating FX, or with Passport and Scene+.
 
-TD’s USD Visa has no rewards program in our data. That honesty is useful. You are not pretending 0.5% cash back offsets a conversion you already avoided.
+TD’s USD Visa has no rewards program. That honesty is useful. You are not pretending 0.5% cash back offsets a conversion you already avoided.
 
-Do not expect travel medical insurance from a USD Visa because a CAD Infinite in the same bank has a certificate. Our insurance fields on these rows are often empty. Read the certificate or assume none.
+Do not expect travel medical insurance from a USD Visa because a CAD Infinite in the same bank has a certificate. Insurance coverage on these cards is often not listed. Read the certificate or assume none.
 
 ## Funding the statement
 
-BMO’s row is more explicit about needing a USD account. TD’s eligibility may print only residency and age of majority — you still need a USD source if the pitch is “eliminate conversion.” Paying a USD statement from CAD chequing at the bank’s retail FX rate can erase the card’s advantage.
+BMO’s listing is more explicit about needing a USD account. TD’s eligibility may print only residency and age of majority — you still need a USD source if the pitch is “eliminate conversion.” Paying a USD statement from CAD chequing at the bank’s retail FX rate can erase the card’s advantage.
 
 Practical setup:
 

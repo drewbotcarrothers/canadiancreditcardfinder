@@ -8,11 +8,11 @@ const review: CardEditorialReview = {
     metaDescription:
         'RBC ION Visa review for 2026: $0 fee, 1.5x Avion on groceries gas and streaming, vs ION+, welcome bonus, and who should skip it.',
     intro:
-        'The RBC ION Visa is RBC’s no-fee everyday Avion card: 1.5x Avion on groceries, rides, gas, EV charging, streaming, and digital gaming in our current features, 1x on everything else, and extra cards listed at $0. It is not [ION+](/card/rbc-ion-plus-visa/) and it is not [Avion Platinum](/card/rbc-avion-visa-platinum/). This RBC ION Visa review covers the two-step welcome, why dining is the reason to pay for ION+, and when [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the simpler $0 card if you do not want Avion at all.',
+        'The RBC ION Visa is RBC’s no-fee everyday Avion card: 1.5x Avion on groceries, rides, gas, EV charging, streaming, and digital gaming in the current features, 1x on everything else, and extra cards listed at $0. It is not [ION+](/card/rbc-ion-plus-visa/) and it is not [Avion Platinum](/card/rbc-avion-visa-platinum/). This RBC ION Visa review covers the two-step welcome, why dining is the reason to pay for ION+, and when [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the simpler $0 card if you do not want Avion at all.',
     whoItsFor: [
         'Households that will put groceries, gas, rideshare, and subscriptions on one Visa and want 1.5x Avion on that stack without a $48-class ION+ fee.',
         'People who already redeem Avion (or will learn to) and would rather collect it at $0 than open a travel Infinite they will not use.',
-        'Applicants with a good-to-excellent credit file (our eligibility currently cites a 660+ class recommendation) who apply as new ION clients during the current offer window if they care about the points.',
+        'Applicants with a good-to-excellent credit file (the eligibility terms currently cite a 660+ class recommendation) who apply as new ION clients during the current offer window if they care about the points.',
         'Anyone who pays in full. One-and-a-half times Avion does not survive a 20.99% purchase rate.',
     ],
     whoShouldSkip: [
@@ -22,7 +22,7 @@ const review: CardEditorialReview = {
         'Existing RBC personal-cardholders transferring in during an offer period. ION+’s current eligibility is explicit about that miss; assume ION’s live page is at least as fussy, and read it.',
     ],
     pros: [
-        'No annual fee in our data, so 1.5x Avion on grocery/gas/streaming does not have to clear a membership first.',
+        'No annual fee, so 1.5x Avion on grocery/gas/streaming does not have to clear a membership first.',
         'Additional cards currently show $0, which is the same extra-card story ION+ tells — you are not paying to add a partner.',
         'The current welcome path pays points on the way in and a second chunk after a small first-three-months spend — an easier hurdle than most Avion Infinites.',
         'Avion stays in the same RBC pool as Platinum and Infinite, so Tuesday groceries can still become a flight later.',
@@ -31,16 +31,16 @@ const review: CardEditorialReview = {
     cons: [
         '1x on everything else — and no dining line in the detailed 1.5x list — means restaurants, Amazon, and most retail earn like a basic Avion card.',
         'Merchant category codes decide 1.5x. A grocer that processes as a mass merchant, or a “streaming” charge billed through a platform that codes as general retail, can miss the bonus bucket.',
-        'The welcome-value cell currently prices the points as gift-card dollars. That is a modest envelope, not a travel redemption, and the first-year snapshot may treat it like cash.',
-        'Our insurance field is empty. Do not assume travel medical coverage from an RBC Visa that costs $0.',
+        'The welcome-value estimate currently prices the points as gift-card dollars. That is a modest envelope, not a travel redemption, and the first-year snapshot may treat it like cash.',
+        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from an RBC Visa that costs $0.',
         'Avion you cash out as a gift card at a poor rate can lose to Tangerine’s 2% cash back. ION assumes you value the points.',
     ],
     feesAndValue:
-        'The fee table shows $0 on the primary card and $0 on extra cards. Compare that with ION+’s modest fee and 3x dining/grocery stack: year two of ION is free, year two of ION+ is a $48-class bill versus the gap between 3x and 1.5x on the spend you actually have. If dining is small and grocery/gas/streaming already fit ION’s list, stay here. If restaurants are the month, do the ION+ math before you congratulate yourself on a $0 fee. The first-year snapshot compares the estimated welcome-bonus value with $0; our value cell currently talks in gift-card dollars, so treat it as marketing, not as Avion you will book as a flight. Offers change; the current eligibility text names an offer window. Pay in full.',
+        'The fee table shows $0 on the primary card and $0 on extra cards. Compare that with ION+’s modest fee and 3x dining/grocery stack: year two of ION is free, year two of ION+ is a $48-class bill versus the gap between 3x and 1.5x on the spend you actually have. If dining is small and grocery/gas/streaming already fit ION’s list, stay here. If restaurants are the month, do the ION+ math before you congratulate yourself on a $0 fee. The first-year snapshot compares the estimated welcome-bonus value with $0; the welcome-value estimate currently talks in gift-card dollars, so treat it as marketing, not as Avion you will book as a flight. Offers change; the current eligibility text names an offer window. Pay in full.',
     rewardsExplained:
-        'This card earns RBC Avion points, the same currency as Avion Platinum — not cash back. Our current features and detailed field describe 1.5x Avion on grocery, rides, gas, EV charging, streaming, and digital gaming and subscriptions, plus 1x on all other qualifying purchases (including pre-authorized bills). Dining and food delivery are the categories ION+ adds; they are not on this list. Merchant coding still applies. Redeem Avion toward travel through RBC, as statement-style rewards, or toward partners if you know that list. If you want 3x Avion on grocery plus dining, that is ION+. If you want 2% cash in categories you choose, that is Tangerine.',
+        'This card earns RBC Avion points, the same currency as Avion Platinum — not cash back. The short and detailed features describe 1.5x Avion on grocery, rides, gas, EV charging, streaming, and digital gaming and subscriptions, plus 1x on all other qualifying purchases (including pre-authorized bills). Dining and food delivery are the categories ION+ adds; they are not on this list. Merchant coding still applies. Redeem Avion toward travel through RBC, as statement-style rewards, or toward partners if you know that list. If you want 3x Avion on grocery plus dining, that is ION+. If you want 2% cash in categories you choose, that is Tangerine.',
     welcomeBonus:
-        'The current offer in our data is two steps: a welcome deposit of Avion points, then a larger bonus if you post a listed amount of spend in the first three months. You need both to match the “up to” point total. Eligibility currently limits the wrap to new ION Visa applications in a named offer window. Read the live RBC terms for transfer exclusions — a switch from another RBC personal card is a usual way to void a bank bonus even when the sheet is quieter than ION+’s row. Do not invent spend to clear a few-hundred-dollar hurdle if grocery and gas were not already in the budget.',
+        'The current offer is two steps: a welcome deposit of Avion points, then a larger bonus if you post a listed amount of spend in the first three months. You need both to match the “up to” point total. Eligibility currently limits the wrap to new ION Visa applications in a named offer window. Read the live RBC terms for transfer exclusions — a switch from another RBC personal card is a usual way to void a bank bonus even when the listing is quieter than ION+’s. Do not invent spend to clear a few-hundred-dollar hurdle if grocery and gas were not already in the budget.',
     faqs: [
         {
             question: 'Is the RBC ION Visa worth it in 2026?',
@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'ION vs RBC Avion Visa Platinum?',
             answer:
-                '[Avion Platinum](/card/rbc-avion-visa-platinum/) is RBC’s accessible travel Avion card: a $120-class fee, travel-category earn, and a larger welcome in our data. ION is the $0 everyday 1.5x card. Choose Platinum if you wanted the Avion travel product. Choose ION if Tuesday groceries are the spend and you will not pay for travel-card extras.',
+                '[Avion Platinum](/card/rbc-avion-visa-platinum/) is RBC’s accessible travel Avion card: a $120-class fee, travel-category earn, and a larger welcome. ION is the $0 everyday 1.5x card. Choose Platinum if you wanted the Avion travel product. Choose ION if Tuesday groceries are the spend and you will not pay for travel-card extras.',
         },
         {
             question: 'ION vs Tangerine Money-Back?',

@@ -32,11 +32,11 @@ Households that blow through Cobalt’s monthly cap on restaurants and groceries
 | Best when | Dining, delivery, and stand-alone grocers, within the monthly cap | Travel bookings, drugstores, and food spend well past Cobalt’s cap |
 | Weak when | Drugstores, travel, and superstores are the big bills | Restaurants and groceries fit comfortably under Cobalt’s cap |
 | Fee shape | Monthly membership | Annual fee |
-| Extra cards | Typically $0 extra in our data | First extra Gold often included; further cards cost |
+| Extra cards | Typically $0 extra | First extra Gold often included; further cards cost |
 | Lounge / travel credit | None | Annual travel credit (Amex Travel Online), Priority Pass membership (visits charged), four Plaza Premium visits a year in Canada, NEXUS credit every four years |
 | Currency | Membership Rewards | Membership Rewards |
 
-Open the current fees on the [Cobalt](/card/american-express-cobalt-card/) and [Gold Rewards](/card/american-express-gold-rewards-card/) pages before you treat either row as cheaper. Monthly versus yearly billing changes how the fee *feels*, not whether it is real.
+Open the current fees on the [Cobalt](/card/american-express-cobalt-card/) and [Gold Rewards](/card/american-express-gold-rewards-card/) pages before you treat either card as cheaper. Monthly versus yearly billing changes how the fee *feels*, not whether it is real.
 
 ## How Membership Rewards actually pays you
 
@@ -52,27 +52,27 @@ Neither card is a no-foreign-transaction-fee card. American Express Canada’s c
 
 Cobalt exists because 5x on eligible eats and drinks in Canada is still one of the strongest restaurant and grocery rates in the country. The 5x bucket covers restaurants, bars, cafés, stand-alone grocery stores, and food and grocery delivery, up to a combined $2,500 in purchases a month; after that it is 1x until the 1st. American Express also lists 3x on eligible streaming and 2x on eligible gas, transit, and ride share, with 1x on everything else, plus one extra point on eligible hotel and car-rental bookings through Amex Travel Online. Confirm those multipliers on the live page — they are the reason to pay the monthly fee.
 
-The welcome offer in our data is not a single lump after one spend hurdle. You typically earn a slice of points in each monthly billing period where you hit a purchase threshold, up to a first-year cap. Miss a quiet month and that slice is gone. Current or former Cobalt cardmembers are usually excluded. Read the eligibility line before you apply for a “second” bonus.
+The welcome offer is not a single lump after one spend hurdle. You typically earn a slice of points in each monthly billing period where you hit a purchase threshold, up to a first-year cap. Miss a quiet month and that slice is gone. Current or former Cobalt cardmembers are usually excluded. Read the eligibility line before you apply for a “second” bonus.
 
 Cobalt is also a strong supermarket card — with two catches. The grocer has to code as a stand-alone grocery store (superstores, warehouse clubs, and big-box general retailers usually do not, and Costco does not take Amex at all), and groceries share the $2,500 monthly cap with restaurants and delivery. A household that spends heavily on both can hit the cap mid-month; past it, everything in the bucket earns 1x. See [best grocery credit cards in Canada](/guides/best-grocery-credit-cards-canada/) if the grocer is the real decision.
 
 Cobalt is not a travel-perks card: no lounge benefit and no annual travel credit. It does carry travel insurance for a card at this price, including emergency medical coverage for cardholders under 65 (first 15 days of a trip), car rental theft and damage, flight and baggage delay, and mobile device insurance. It does not include the trip cancellation and trip interruption coverage that Gold adds.
 
-Additional Cobalt cards currently list no extra annual cost in our data, which helps a household put more restaurant bills on the same product. Confirm that on the application.
+Additional Cobalt cards currently list no extra annual cost, which helps a household put more restaurant bills on the same product. Confirm that on the application.
 
 ## Gold Rewards: the household earn card
 
 Gold Rewards is the mid-tier Membership Rewards card: 2x across travel, gas, grocery, and drugstore rather than Cobalt’s concentrated 5x, a yearly fee, and a set of travel perks Cobalt does not have. Eligible travel — flights, hotels, car rentals, cruises, and similar — earns two points per dollar in our current review. Eligible hotel or car-rental bookings through Amex Travel Online can add another point on top. Dining is 1x.
 
-The first additional Gold Rewards card is a meaningful household perk in our data. Further extras cost. Couples who will both put groceries and gas on Amex should price that structure against two Cobalt cards (often $0 extra) or one Gold plus a no-fee Visa.
+The first additional Gold Rewards card is a meaningful household perk. Further extras cost. Couples who will both put groceries and gas on Amex should price that structure against two Cobalt cards (often $0 extra) or one Gold plus a no-fee Visa.
 
-Welcome-bonus value in our Gold data has often been large relative to the annual fee for *new* cardmembers who complete the offer. Current or former Gold Rewards cardmembers are typically ineligible. The detailed unlock text is sometimes thin on the sheet — write down the spend hurdle and deadline from the issuer page. Year one can look attractive on paper; year two is only the fee versus ongoing 2x earn.
+Welcome-bonus value on Gold has often been large relative to the annual fee for *new* cardmembers who complete the offer. Current or former Gold Rewards cardmembers are typically ineligible. The detailed unlock text is sometimes thin — write down the spend hurdle and deadline from the issuer page. Year one can look attractive on paper; year two is only the fee versus ongoing 2x earn.
 
 The perks are where Gold separates itself. American Express lists a $100 annual travel credit (one booking of $100 or more through Amex Travel Online each cardmembership year), a Priority Pass membership with the membership fee waived (each lounge visit is still charged at the prevailing rate), four complimentary Plaza Premium lounge visits per calendar year in Canada, and a $50 NEXUS statement credit every four years. Insurance adds trip cancellation, trip interruption, and $500,000 travel accident coverage on top of the Cobalt-style emergency medical, car rental, baggage, and delay coverage. If you will book one trip through Amex Travel each year, the travel credit alone offsets a real slice of the fee.
 
 Gold is still not a budget Platinum. Four Plaza Premium visits and pay-per-visit Priority Pass are a smaller lounge benefit than the Global Lounge Collection. From January 1, 2027, [The Platinum Card](/card/the-platinum-card/)’s complimentary Plaza Premium and Priority Pass visits are a limited annual number unless the spend unlock applies; other lounges in that collection stay unlimited. If you want that collection and the larger travel and dining credits, read the Platinum review and [whether premium fees are worth it](/guides/are-premium-credit-cards-worth-it-canada/).
 
-## A simple way to choose without inventing a spreadsheet
+## A simple way to choose without overcomplicating the math
 
 1. Pull three months of statements. Split spend into dining/delivery, grocery, gas/drugstore, travel bookings, and everything else.
 2. Ignore interest. If you carry a balance, neither card is the product — see [low-interest versus rewards](/guides/low-interest-vs-rewards-credit-cards-canada/).

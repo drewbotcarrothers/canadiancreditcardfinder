@@ -124,7 +124,7 @@ export const FINDER_QUESTIONS: Record<FinderQuestionId, FinderQuestion> = {
             {
                 value: 'none',
                 label: '$0 only',
-                description: 'No annual fee listed in our current data',
+                description: 'No annual fee currently listed',
             },
             {
                 value: 'moderate',
@@ -643,7 +643,7 @@ function buildReason(card: CreditCard, answers: FinderAnswers): string {
     } else if (answers.travelProgram === 'hotel' && isHotelProgramCard(card) && card.rewardsProgram) {
         parts.push(`Rewards program: ${card.rewardsProgram}.`);
     } else if (answers.travelProgram === 'flexible' && isFlexibleTravelCard(card)) {
-        parts.push('A travel card that is not tied to Aeroplan, WestJet, or a hotel program in our data.');
+        parts.push('A travel card that is not tied to Aeroplan, WestJet, or a hotel program.');
     }
 
     if (answers.issuer === 'amex' && isAmexIssuedCard(card)) {

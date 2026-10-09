@@ -18,7 +18,7 @@ const review: CardEditorialReview = {
     whoShouldSkip: [
         'Air Canada regulars who already think in Aeroplan. The [CIBC Aeroplan Visa Infinite Card](/card/cibc-aeroplan-visa-infinite-card/) skips the portal and credits the program you fly.',
         'Anyone who will never book through CIBC by Expedia. Then you are paying Infinite prices for 1.5x grocery and 1x travel you booked on the airline site.',
-        'Applicants who cannot meet Visa Infinite income. [Aventura Gold](/card/cibc-aventura-gold-visa-card/) currently lists a much lower income bar and a similar earn mix in our data.',
+        'Applicants who cannot meet Visa Infinite income. [Aventura Gold](/card/cibc-aventura-gold-visa-card/) currently lists a much lower income bar and a similar earn mix.',
         'High spenders who want 3x portal travel and 2x dining. That is Infinite Privilege, at a much higher fee and income bar.',
     ],
     pros: [
@@ -26,21 +26,21 @@ const review: CardEditorialReview = {
         '2x on eligible travel bought through CIBC by Expedia is a real bump if you were going to book a hotel or package anyway.',
         '1.5x on gas, EV charging, grocery, and drug stores is a stronger everyday mix than Avion Infinite’s travel-only 1.25x bump.',
         'The current welcome path stacks points on first purchase and on two first-four-statement spend gates, plus a first-year annual-fee rebate for the primary card and extra cards.',
-        'The welcome wrap in our data also includes complimentary Visa Airport Companion lounge visits and a NEXUS application-fee rebate — useful if you will actually fly and apply, marketing if you will not.',
+        'The welcome wrap also includes complimentary Visa Airport Companion lounge visits and a NEXUS application-fee rebate — useful if you will actually fly and apply, marketing if you will not.',
     ],
     cons: [
         'Booking outside CIBC by Expedia usually means 1x on airfare you cared about. The portal is the product’s lever and its hassle.',
         'Aventura redemptions are only as good as CIBC’s travel catalogue and point values. Cashing out poorly can lose to a 2% cash-back card.',
         'Eligibility currently blocks people who opened, transferred, or cancelled another Aventura card in the last 12 months — including a product-change from Gold.',
         'Additional cards currently carry their own annual fee (first-year rebated on the current offer, up to a small number of extras).',
-        'Our insurance field is empty. Do not assume travel medical coverage from the Visa Infinite name; some Aventura siblings list coverage in features, this row does not.',
+        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the Visa Infinite name; some Aventura siblings list coverage in features, this card does not.',
     ],
     feesAndValue:
-        'The fee table shows a paid Infinite card; the detail line currently rebates the first year. The estimated welcome-bonus value in our data is an “up to” wrap that includes points, that rebate, lounge visits, and a NEXUS rebate. Year one only matches the brochure if you make a first purchase, hit both four-statement spend gates, use (or at least could use) the lounge visits, and would have paid for NEXUS anyway. Year two is the full fee versus 2x portal travel and 1.5x grocery/gas/drugstore. If you book travel on airline sites and shop a 4% grocery Visa, Aventura Infinite is the wrong CIBC card. Additional cards are extra. Offers change. Pay in full.',
+        'The fee table shows a paid Infinite card; the detail line currently rebates the first year. The estimated welcome-bonus value is an “up to” wrap that includes points, that rebate, lounge visits, and a NEXUS rebate. Year one only matches the brochure if you make a first purchase, hit both four-statement spend gates, use (or at least could use) the lounge visits, and would have paid for NEXUS anyway. Year two is the full fee versus 2x portal travel and 1.5x grocery/gas/drugstore. If you book travel on airline sites and shop a 4% grocery Visa, Aventura Infinite is the wrong CIBC card. Additional cards are extra. Offers change. Pay in full.',
     rewardsExplained:
         'This card earns Aventura points, CIBC’s flexible travel currency — not Aeroplan. Eligible travel purchased through the CIBC Rewards Centre (CIBC by Expedia) earns 2 points per dollar. Eligible gas, EV charging, grocery, and drug stores earn 1.5 points per dollar. Everything else earns 1 point per dollar. Detailed features also mention up to 10 cents off per litre on eligible gas at participating stations; that is a fuel discount, not extra Aventura. Merchant coding still applies: Costco, a superstore that codes as a mass merchant, or a flight bought on aircanada.com will miss the bonus bucket. Redeem Aventura toward travel through CIBC. If you already fly Air Canada on purpose, compare the Aeroplan Infinite cobrand instead of converting later. If you want the same idea from RBC, that is Avion Infinite.',
     welcomeBonus:
-        'The current detailed offer in our data has several gates: Aventura points on the first purchase, a larger dump after a first spend hurdle over the first four statements, another dump if a higher net-purchase figure also posts in those four statements, a one-time annual-fee rebate for the primary cardholder and up to three authorized users, complimentary Visa Airport Companion visits, and a NEXUS application-fee rebate. You need the point stages to match the “up to” point total; the dollar wrap adds the extras. Eligibility currently says CIBC may approve you and still withhold the offer if you opened, transferred, or cancelled another Aventura card in the last 12 months. Hit the spend with a trip you were booking through a portal anyway, not with manufactured transactions.',
+        'The current detailed offer has several gates: Aventura points on the first purchase, a larger dump after a first spend hurdle over the first four statements, another dump if a higher net-purchase figure also posts in those four statements, a one-time annual-fee rebate for the primary cardholder and up to three authorized users, complimentary Visa Airport Companion visits, and a NEXUS application-fee rebate. You need the point stages to match the “up to” point total; the dollar wrap adds the extras. Eligibility currently says CIBC may approve you and still withhold the offer if you opened, transferred, or cancelled another Aventura card in the last 12 months. Hit the spend with a trip you were booking through a portal anyway, not with manufactured transactions.',
     faqs: [
         {
             question: 'Is the CIBC Aventura Visa Infinite Card worth it in 2026?',

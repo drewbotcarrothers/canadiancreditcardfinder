@@ -72,7 +72,7 @@ Do not double-count. A no-FX Visa *and* a USD card is only useful if you have bo
 
 ## Step 4: Insurance is a certificate, not a slogan
 
-Travel medical, trip cancellation, and car-rental coverage are why some Canadians keep a mid-fee Visa Infinite. Our data sheet sometimes has an empty insurance field even when the issuer sells a certificate. **Read the certificate.** Age caps, pre-existing condition clauses, trip-length limits, and “you must pay the fare on this card” rules are where claims die.
+Travel medical, trip cancellation, and car-rental coverage are why some Canadians keep a mid-fee Visa Infinite. Insurance coverage is sometimes not listed even when the issuer sells a certificate. **Read the certificate.** Age caps, pre-existing condition clauses, trip-length limits, and “you must pay the fare on this card” rules are where claims die.
 
 If you already buy annual travel medical because you are over the card’s age cap, do not pay a card fee for insurance you cannot use. If you never rent cars, collision coverage is worth $0.
 
@@ -82,9 +82,9 @@ Lounge access is similarly concrete. Passport’s complimentary passes are a han
 
 Canadian travel welcome offers are often split: points on approval, then more after a spend hurdle, sometimes a later anniversary window. Amex and Scotiabank are strict about former cardmembers. Scotiabank’s two-year personal-card exclusion shows up on Passport and Momentum alike.
 
-Treat the bonus as a one-time discount on the first annual fee, not as a lifestyle. Year two is the fee versus ongoing earn plus insurance you will use. If you cannot hit the spend hurdle with planned purchases, skip the offer. Do not manufacture spend.
+Treat the bonus as a one-time discount on the first annual fee, not as a lifestyle. Year two is the fee versus ongoing earn plus insurance you will use. If you cannot hit the spend hurdle with planned purchases, skip the offer. Do not force extra spend.
 
-Confirm the live bonus on the card page. We will not invent point totals here.
+Confirm the live bonus on the card page.
 
 ## A practical pairing that works for a lot of Canadians
 
