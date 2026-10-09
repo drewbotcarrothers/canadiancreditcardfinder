@@ -1,6 +1,16 @@
 {
   "_doc": "Manual video -> card mapping for scripts/sync_card_videos.py. Only long-form videos listed under 'videos' are embedded. Single-card review -> that card; head-to-head -> both cards; roundup/persona -> only the clear main picks (max ~4). Unknown/unsure videos go under 'skip' with a reason. Optional per-video keys: 'description' (short blurb override), 'title' (display-title override). Card slugs are validated against the live card sheet.",
   "videos": {
+    "iDF-WmTz7pM": {
+      "cards": [
+        "td-aeroplan-visa-infinite-card",
+        "td-first-class-travel-visa-infinite-card",
+        "td-cash-back-visa-infinite-card",
+        "td-rewards-visa-card"
+      ],
+      "kind": "offers",
+      "description": "Four TD credit cards ranked by welcome offer value, with the spend target, annual fee and who each one fits."
+    },
     "HyiTOhFK3jM": {
       "cards": [
         "tangerine-money-back-credit-card",
