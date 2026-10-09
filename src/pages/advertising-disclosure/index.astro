@@ -1,0 +1,53 @@
+---
+import LegalPage from '../../components/LegalPage.astro';
+import Byline from '../../components/Byline.astro';
+import { lastModified } from '../../lib/contentDates';
+import { CONTACT_EMAIL, SITE_NAME } from '../../lib/legal';
+
+const updated = lastModified('src/pages/advertising-disclosure/index.astro');
+const title = `Advertising Disclosure | ${SITE_NAME}`;
+const description = `How ${SITE_NAME} makes money: Google AdSense ads, no paid placements, and no affiliate links on card applications today.`;
+---
+
+<LegalPage title={title} heading="Advertising disclosure" description={description} breadcrumb="Advertising Disclosure" showUpdated={false}>
+    <Byline updated={updated} class="-mt-3 mb-6" />
+
+    <p>
+        {SITE_NAME} is free to use. This page explains, plainly, how the site makes money and what that does and
+        doesn't affect.
+    </p>
+
+    <h2>Display ads</h2>
+    <p>
+        The site shows ads served by Google AdSense. Google decides which ads appear, and they may be based on
+        your interests (see our <a href="/privacy/">Privacy Policy</a> for how to opt out). We don't choose
+        individual advertisers, and an advertiser, including a bank that buys ads through Google, has no say in
+        our reviews, lists or finder results. We don't put ads on screens without our own content, such as the
+        compare tool, the card finder quiz and error pages.
+    </p>
+
+    <h2>Affiliate links</h2>
+    <p>
+        Right now the "Apply Now" links on card pages go straight to each issuer's own product page. They carry no
+        affiliate or referral tracking, and we don't earn a commission if you apply or are approved.
+    </p>
+    <p>
+        We may join affiliate programs in the future. If we do, we will update this page and our
+        <a href="/editorial-policy/">editorial policy</a> before those links go live, and say which links earn a
+        commission.
+    </p>
+
+    <h2>No paid placement</h2>
+    <p>
+        No card issuer pays to be listed, ranked or reviewed. Our "best" lists include every card that meets each
+        list's rule, and the card finder ranks cards with fixed scoring rules based on your answers. Neither takes
+        payments into account. The <a href="/editorial-policy/#ratings">editorial policy</a> explains both in
+        detail.
+    </p>
+
+    <h2>Questions</h2>
+    <p>
+        Email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or use the <a href="/contact/">contact
+        page</a>.
+    </p>
+</LegalPage>

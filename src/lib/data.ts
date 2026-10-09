@@ -32,6 +32,7 @@ interface CSVRow {
 }
 
 let cachedCards: CreditCard[] | null = null;
+let fetchedAt: Date | null = null;
 
 /**
  * Editor notes left in sheet cells (for example "fill current NBC Platinum offer ...")
@@ -93,7 +94,13 @@ export async function getCards(): Promise<CreditCard[]> {
 
     const csvText = await response.text();
     cachedCards = parseCSV(csvText);
+    fetchedAt = new Date();
     return cachedCards;
+}
+
+/** When this build pulled the card data (fees, rates, offers). Null until getCards() has run. */
+export function getDataFetchedAt(): Date | null {
+    return fetchedAt;
 }
 
 export async function getCardBySlug(slug: string): Promise<CreditCard | null> {

@@ -3,7 +3,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
 import RelatedGuide from '../../components/RelatedGuide.astro';
-import { getCardsForHub } from '../../lib/data';
+import Byline from '../../components/Byline.astro';
+import { authorJsonLd, publisherJsonLd } from '../../lib/author';
+import { lastModified } from '../../lib/contentDates';
+import { getCardsForHub, getDataFetchedAt } from '../../lib/data';
 import { getRelatedGuidesForHub } from '../../lib/guides';
 import { getHubBySlug, getHubSlugs, isHubSlug } from '../../lib/hubs';
 
@@ -24,12 +27,20 @@ const hubCards = await getCardsForHub(useCase);
 const relatedGuides = await getRelatedGuidesForHub(useCase);
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
+// Hub intro copy and list rules live in src/lib/hubs.ts; the card list itself is rebuilt from current card data.
+const hubUpdated = lastModified('src/lib/hubs.ts');
+const dataFetchedAt = getDataFetchedAt();
+
 const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: hub.h1,
     description: hub.description,
     url: canonical,
+    inLanguage: 'en-CA',
+    author: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
+    ...(hubUpdated ? { dateModified: hubUpdated.toISOString() } : {}),
     mainEntity: {
         '@type': 'ItemList',
         numberOfItems: hubCards.length,
@@ -61,9 +72,10 @@ const jsonLd = {
             <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
                 {hub.h1}
             </h1>
-            <p class="text-lg text-gray-600 max-w-3xl leading-relaxed">
+            <p class="text-lg text-gray-600 max-w-3xl leading-relaxed mb-3">
                 {hub.intro}
             </p>
+            <Byline updated={hubUpdated} dataAsOf={dataFetchedAt} />
         </header>
 
         <RelatedGuide guides={relatedGuides} />

@@ -9,6 +9,7 @@ import {
 } from '../lib/data';
 import { toHomepageCard } from '../lib/homepage';
 import BrowseSections from '../components/BrowseSections.astro';
+import { CONTACT_EMAIL } from '../lib/legal';
 
 const [allCards, categories, issuers, rewardsPrograms] = await Promise.all([
     getCards(),
@@ -25,6 +26,16 @@ const siteJsonLd = [
         '@id': `${siteUrl}#organization`,
         name: 'Canadian Credit Card Finder',
         url: siteUrl,
+        email: CONTACT_EMAIL,
+        contactPoint: {
+            '@type': 'ContactPoint',
+            contactType: 'customer support',
+            email: CONTACT_EMAIL,
+            url: new URL('/contact/', Astro.site).href,
+            areaServed: 'CA',
+            availableLanguage: 'en',
+        },
+        publishingPrinciples: new URL('/editorial-policy/', Astro.site).href,
         logo: {
             '@type': 'ImageObject',
             url: new URL('/images/logo-512.png', Astro.site).href,
