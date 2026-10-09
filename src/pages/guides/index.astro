@@ -63,15 +63,17 @@ const jsonLd = {
                     const image = getGuideImage(guide.id);
                     return (
                         <article class="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-lg transition-all card-hover flex flex-col">
-                            <img
-                                src={image.src}
-                                alt={image.alt}
-                                width={image.width}
-                                height={image.height}
-                                loading={index < 2 ? 'eager' : 'lazy'}
-                                decoding="async"
-                                class="w-full h-auto aspect-[40/21] object-cover bg-gray-100"
-                            />
+                            {!image.isFallback && (
+                                <img
+                                    src={image.src}
+                                    alt={image.alt}
+                                    width={image.width}
+                                    height={image.height}
+                                    loading={index < 2 ? 'eager' : 'lazy'}
+                                    decoding="async"
+                                    class="w-full h-auto aspect-[40/21] object-cover bg-gray-100"
+                                />
+                            )}
                             <div class="p-6 flex flex-col flex-1">
                                 <h2 class="text-xl font-bold text-gray-900 mb-2">
                                     <a href={guidePath(guide)} class="hover:text-red-600 transition-colors">

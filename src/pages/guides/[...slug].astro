@@ -97,7 +97,12 @@ const jsonLd = {
         </nav>
 
         <article>
-            <header class="mb-8 grid grid-cols-1 md:grid-cols-[minmax(0,1fr)_minmax(0,22rem)] gap-6 md:gap-8 items-center">
+            <header
+                class:list={[
+                    'mb-8 grid grid-cols-1 gap-6 md:gap-8 items-center',
+                    !heroImage.isFallback && 'md:grid-cols-[minmax(0,1fr)_minmax(0,22rem)]',
+                ]}
+            >
                 <div class="max-w-3xl">
                     <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
                         {guide.data.title}
@@ -109,18 +114,22 @@ const jsonLd = {
                         Updated {updatedAt.toLocaleDateString('en-CA', dateOptions)}
                     </p>
                 </div>
-                <figure class="overflow-hidden rounded-2xl shadow-md bg-gray-100 w-full max-w-md md:max-w-none">
-                    <img
-                        src={heroImage.src}
-                        alt={heroImage.alt}
-                        width={heroImage.width}
-                        height={heroImage.height}
-                        loading="eager"
-                        fetchpriority="high"
-                        decoding="async"
-                        class="w-full h-auto aspect-[40/21] object-cover"
-                    />
-                </figure>
+                {
+                    !heroImage.isFallback && (
+                        <figure class="overflow-hidden rounded-2xl shadow-md bg-gray-100 w-full max-w-md md:max-w-none">
+                            <img
+                                src={heroImage.src}
+                                alt={heroImage.alt}
+                                width={heroImage.width}
+                                height={heroImage.height}
+                                loading="eager"
+                                fetchpriority="high"
+                                decoding="async"
+                                class="w-full h-auto aspect-[40/21] object-cover"
+                            />
+                        </figure>
+                    )
+                }
             </header>
 
             <div class="bg-white rounded-2xl shadow-md p-6 lg:p-10 mb-10">
