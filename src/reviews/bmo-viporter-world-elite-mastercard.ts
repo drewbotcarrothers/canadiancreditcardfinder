@@ -6,61 +6,66 @@ const review: CardEditorialReview = {
     h1: 'BMO VIPorter World Elite Mastercard Review',
     primaryKeyword: 'bmo viporter world elite mastercard review',
     metaDescription:
-        'BMO VIPorter World Elite Mastercard review for 2026: Porter cobrand points, World Elite fee, companion-pass welcome wrap, and vs BMO Eclipse.',
+        'BMO VIPorter World Elite Mastercard review for 2026: $199 fee waived in year one, up to 70,000 VIPorter points until October 31, 2026, and Porter perks.',
     intro:
-        'The BMO VIPorter World Elite Mastercard is BMO’s Porter Airlines cobrand: VIPorter points rather than Eclipse’s BMO Rewards, elevated earn on Porter purchases plus travel, groceries, dining, and hotels in the current features, and World Elite income on a mid-premium annual fee. It is a loyalty lock-in for people who already fly Porter out of Billy Bishop or the Pearson lounge, not a substitute for [BMO Eclipse Visa Infinite](/card/bmo-eclipse-visa-infinite-card/). This BMO VIPorter World Elite Mastercard review covers the companion-pass welcome wrap, why the missing detailed bonus terms still matter, and when a hotel or WestJet cobrand is the more honest travel card.',
+        'The BMO VIPorter World Elite Mastercard is BMO’s Porter Airlines cobrand. It earns VIPorter points, not Eclipse’s BMO Rewards: 3 points per dollar on Porter, 2 points on gas and transportation, dining and groceries, and hotels, inside annual caps, and 1 point on everything else. The primary annual fee is $199, rebated in year one. Additional cards are $75 each, and you can add up to nine authorized users. World Elite income is $80,000 individual or $150,000 household. Purchases are 21.99% and cash advances are 23.99% (21.99% in Quebec). It is a loyalty card for people who already fly Porter, not a substitute for [BMO Eclipse Visa Infinite](/card/bmo-eclipse-visa-infinite-card/). The welcome offer ends October 31, 2026.',
     whoItsFor: [
-        'Households that already book Porter as the default short-haul airline and will put Porter tickets, hotels, grocery, and dining on this Mastercard so the elevated VIPorter categories actually fire.',
-        'Travellers who want Porter status and flight perks for the primary cardholder and authorized users — the card’s features currently call those out as part of the cobrand, not as Eclipse extras.',
-        'Applicants who meet the personal or household World Elite income figures in eligibility and will pay the statement in full.',
-        'People who will use a first-year fee waiver if the live offer still includes one. Our annual-fee detail currently says promotions may apply; that is not a permanent $0 card.',
+        'Households that already book Porter and will put Porter tickets, gas and transportation, groceries, dining, and hotels on this Mastercard so the 3x and 2x categories actually fire.',
+        'Applicants with $80,000 in personal income or $150,000 in household income who will pay the statement in full.',
+        'Travellers who will use the free checked bag, free carry-on on all fares, free PorterClassic seat selection, and Avid Traveller status, including authorized users.',
+        'New applicants who can use the welcome offer before it ends on October 31, 2026, including the first-year fee rebate.',
     ],
     whoShouldSkip: [
         'Anyone who wanted 5x BMO Rewards on groceries, dining, gas, and transit. That is [Eclipse Visa Infinite](/card/bmo-eclipse-visa-infinite-card/), a different currency you can spend without sitting on a Porter jet.',
         'WestJet or Air Canada regulars. VIPorter does not print on those tickets the way [WestJet RBC World Elite](/card/westjet-rbc-world-elite-mastercard/) or an Aeroplan cobrand does.',
-        'Marriott-loyal hotel guests who only fly Porter twice a year. [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) is the hotel currency; this card’s hotel line is still a Porter-centred earn mix.',
-        'People who revolve a balance. VIPorter will not outrun the purchase rate.',
+        'Marriott-loyal hotel guests who only fly Porter twice a year. [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) is the hotel currency. Hotels here earn 2x VIPorter, capped at $5,000 a year.',
+        'People who revolve a balance. Purchases are 21.99%. VIPorter points will not outrun that rate.',
     ],
     pros: [
-        'It is the everyday earn path into VIPorter, Porter’s own program, instead of hoping a generic bank-points transfer exists later.',
-        'The card’s features currently elevate Porter purchases, broader travel, groceries and dining, and hotels — a wider cobrand mix than “airline tickets only.”',
-        'Porter status and flight perks for primary and authorized users are the reason a cobrand beats putting the same ticket on Eclipse.',
-        'The current welcome headline stacks a large VIPorter points figure, a companion pass, a first-year value wrap, and a first-year fee rebate — if you are new to the product and will actually fly Porter.',
-        'World Elite Mastercard acceptance includes Costco Canada and grocers that still skip American Express.',
+        'Porter purchases earn 3 points per dollar, up to $20,000 a year. Gas and transportation earn 2x up to $5,000, dining and groceries earn 2x up to $10,000, and hotels earn 2x up to $5,000. Everything else earns 1x. Caps reset on January 1.',
+        'Porter flight benefits include one free checked bag, a free carry-on on all fares, free PorterClassic seat selection, priority re-accommodation, dedicated check-in, and early boarding. Early boarding also covers authorized users and up to eight companions on the booking. The card includes Avid Traveller status, with $1 of qualifying spend per $25 spent.',
+        'Through October 31, 2026, the welcome is up to 70,000 VIPorter points, a companion pass, an annual companion pass at a higher spend, and a first-year fee rebate. BMO values the offer at up to $2,400.',
+        'Travel insurance includes 21-day emergency medical, trip cancellation, interruption and delay, flight delay, baggage, hotel burglary, common carrier, and car rental collision damage waiver, plus extended warranty and purchase protection.',
+        'You also get six months of Instacart+ and a $10 monthly Instacart credit. World Elite Mastercard acceptance includes Costco Canada.',
     ],
     cons: [
-        'The headline names a large welcome bundle, but no detailed terms or dollar value are listed here yet. Treat BMO and Porter’s application page as the offer.',
-        'Additional-card fees and insurance coverage are not currently listed. Confirm authorized-user pricing and travel coverage with BMO rather than assuming World Elite extras.',
-        'VIPorter is only as useful as Porter’s network. If your year is Star Alliance or WestJet, this fee is a membership in the wrong club.',
-        '“Elevated” is not 5x until BMO’s live page says so.',
-        'World Elite income still applies. This is not the accessible BMO travel card; Eclipse Rise currently lists $0 for BMO Rewards without a cobrand.',
+        'After year one the primary fee is $199. Each additional card is $75. You can add up to nine authorized users, and those fees add up if you issue cards you will not fly on.',
+        'The bonus categories are capped, and Porter is only as useful as Porter’s network. A year of Star Alliance or WestJet flying is a membership in the wrong club.',
+        'Mastercard Travel Pass (DragonPass) lounge visits are US$32 each. This is not a card of complimentary lounge passes.',
+        'The welcome offer ends October 31, 2026. The companion pass needs $9,000 in 180 days, and the largest points tier needs $18,000 in 365 days.',
+        'World Elite income still applies: $80,000 individual or $150,000 household. Eclipse Rise is the $0 BMO Rewards card if you do not want a cobrand.',
     ],
     feesAndValue:
-        'The fee table shows a $199-class World Elite card; the detail line currently notes that first-year waiver promotions may apply. The first-year snapshot on this page compares estimated welcome-bonus value with the headline fee. The welcome-value estimate is empty, so that snapshot may not show a clean bonus-minus-fee figure even though the welcome headline names a dollar wrap and a companion pass. Year one only matches the brochure if you are eligible for that wrap and would use Porter anyway. Year two is the full fee versus VIPorter on Porter, travel, grocery, dining, and hotels. If you wanted 5x BMO Rewards on the weekly shop, Eclipse Infinite is the cheaper personality fit. Additional-card pricing is not currently listed — ask BMO before you assume extras are free. Offers change. Pay in full.',
+        'The primary annual fee is $199, rebated in year one. Additional cards are $75 each, and the account allows up to nine authorized users. Purchases are 21.99%. Cash advances are 23.99%, or 21.99% in Quebec. BMO values the welcome, which ends October 31, 2026, at up to $2,400. That figure includes bags, carry-on, and PorterClassic seats for two on a round trip, and it values VIPorter points at $0.015. Year one matches that brochure only if you clear the spend gates and would have flown Porter anyway. Year two is $199 against 3x Porter (up to $20,000), 2x on the capped everyday categories, 1x on the rest, the bag and seat perks, and Avid Traveller status. If you wanted 5x BMO Rewards on the weekly shop, Eclipse Infinite is the better fit. Pay in full.',
     rewardsExplained:
-        'This card earns VIPorter points, Porter’s loyalty currency — not BMO Rewards, not CashBack dollars, and not Aeroplan. The current features describe elevated earn on Porter purchases, travel, groceries and dining, and hotels, plus Porter status and flight perks for the primary cardholder and authorized users. Redemptions are meant for Porter travel. Merchant coding still applies: a grocery banner that processes as a mass merchant, or a hotel booked through a third-party app, can miss the elevated bucket. If you want a bank currency you can park for any airline, that is Eclipse. If you want WestJet dollars, that is the WestJet RBC cobrand. If you want Marriott nights, that is Bonvoy.',
+        'This card earns VIPorter points, Porter’s loyalty currency — not BMO Rewards, not cash back, and not Aeroplan. Porter purchases earn 3 points per dollar on up to $20,000 a year. Gas and transportation earn 2 points per dollar on up to $5,000 a year. Dining and groceries earn 2 points per dollar on up to $10,000 a year. Hotels earn 2 points per dollar on up to $5,000 a year. Everything else, and spend above those caps, earns 1 point per dollar. The caps reset on January 1. Points do not expire while the account is open and in good standing. On Porter, the card includes one free checked bag, a free carry-on on all fares, free PorterClassic seat selection, priority re-accommodation, dedicated check-in, and early boarding. Early boarding also applies to authorized users and up to eight companions on the same booking. Cardholders receive Avid Traveller status, and the card counts $1 of qualifying spend toward that status for every $25 spent. Lounge access is Mastercard Travel Pass (DragonPass) at US$32 a visit. New cardholders also get six months of Instacart+ and a $10 monthly credit. A grocery banner that processes as a mass merchant, or a hotel booked through a third-party app, can miss the 2x bucket. If you want a bank currency you can park for any airline, that is Eclipse. If you want WestJet dollars, that is the WestJet RBC cobrand. If you want Marriott nights, that is Bonvoy.',
     welcomeBonus:
-        'The current welcome line is a bundle: a large VIPorter points amount, a companion pass, a first-year value wrap, and a first-year fee rebate. Because no dollar value is listed for that bundle, the first-year snapshot above does not subtract a bonus from the fee. Use BMO’s application page for spend gates, companion-pass rules, and whether recent VIPorter or BMO travel clients are excluded. Do not force extra spend to chase points if Porter trips were not already in the calendar. A companion pass you cannot seat is marketing, not value.',
+        'The welcome offer ends October 31, 2026. It is worth up to 70,000 VIPorter points: 20,000 points after $5,000 in purchases in the first 110 days, another 20,000 after $9,000 in the first 180 days, and another 30,000 after $18,000 in the first 365 days. A companion pass posts after $9,000 in the first 180 days. An annual companion pass posts after $50,000 in the first 365 days. The primary annual fee is rebated in year one. BMO values the package at up to $2,400, including bags, carry-on, and PorterClassic seats for two on a round trip, with points valued at $0.015. Do not force extra spend to chase the last 30,000 points if those Porter trips were not already in the calendar. A companion pass you cannot seat is a marketing line, not a ticket.',
     faqs: [
         {
             question: 'Is the BMO VIPorter World Elite Mastercard worth it in 2026?',
             answer:
-                'It is worth it when Porter is already how you fly, you will use cobrand earn and status perks, and World Elite income is fine. It is not worth it as an Eclipse substitute or as a card for someone whose year is Air Canada or WestJet.',
+                'It is worth it when Porter is already how you fly, you will use the 3x Porter earn and the bag, carry-on, and PorterClassic seat perks, and you meet the $80,000 / $150,000 income test. The $199 fee is rebated in year one. The welcome offer, up to 70,000 points and a companion pass, ends October 31, 2026. It is not worth it as an Eclipse substitute or as a card for Air Canada or WestJet.',
         },
         {
             question: 'VIPorter World Elite vs BMO Eclipse Visa Infinite?',
             answer:
-                '[Eclipse Infinite](/card/bmo-eclipse-visa-infinite-card/) pays BMO Rewards on groceries, dining (including takeout), gas, and transit, plus 1 point per $1 on everything else, at a Visa Infinite fee, often with a first-year waiver on that card. VIPorter pays Porter’s currency on a cobrand mix at a World Elite fee. Choose Eclipse if you want a bank catalogue. Choose VIPorter if Billy Bishop is already the default airport.',
+                '[Eclipse Infinite](/card/bmo-eclipse-visa-infinite-card/) pays BMO Rewards on groceries, dining, gas, and transit. VIPorter pays Porter’s currency: 3x on Porter up to $20,000 a year, 2x on gas and transportation, dining and groceries, and hotels inside lower caps, and 1x elsewhere, at a $199 World Elite fee that is rebated in year one. Choose Eclipse if you want a bank catalogue. Choose VIPorter if Porter is already the default airline.',
+        },
+        {
+            question: 'What insurance does the VIPorter World Elite card include?',
+            answer:
+                'Coverage includes 21-day emergency medical, trip cancellation, trip interruption, trip delay, flight delay, baggage, hotel burglary, common carrier, car rental collision damage waiver, extended warranty, and purchase protection. Additional cards are $75 each.',
         },
         {
             question: 'VIPorter vs WestJet RBC World Elite or Marriott Bonvoy Amex?',
             answer:
-                '[WestJet RBC World Elite](/card/westjet-rbc-world-elite-mastercard/) is the WestJet cobrand. [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) is the hotel cobrand. VIPorter is Porter-first, with hotel spend as an elevated category in the card’s features rather than a Bonvoy membership. Pick the program whose inventory you actually book.',
+                '[WestJet RBC World Elite](/card/westjet-rbc-world-elite-mastercard/) is the WestJet cobrand. [Marriott Bonvoy American Express](/card/marriott-bonvoy-american-express-card/) is the hotel cobrand. VIPorter is Porter-first. Hotels earn 2 VIPorter points per dollar, up to $5,000 a year, which is not a Bonvoy membership. Pick the program whose inventory you actually book.',
         },
         {
-            question: 'Does this card charge foreign-exchange fees?',
+            question: 'Does this card include free lounge access?',
             answer:
-                'Most Canadian World Elite Mastercards add a foreign-conversion fee on foreign-currency purchases. VIPorter is a cobrand points card, not a no-FX Passport. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm BMO’s current FX rate in the agreement.',
+                'Lounge visits are through Mastercard Travel Pass (DragonPass) at US$32 per visit. The Porter-specific perks are a free checked bag, a free carry-on on all fares, free PorterClassic seat selection, priority re-accommodation, dedicated check-in, early boarding, and Avid Traveller status.',
         },
     ],
     extraHubSlugs: ['travel', 'groceries', 'premium'],

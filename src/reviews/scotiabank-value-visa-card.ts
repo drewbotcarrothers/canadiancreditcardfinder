@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'Value Visa vs TD Low Rate vs BMO Preferred Rate?',
             answer:
-                'This Visa currently lists 13.99%, a $29-class fee waived in year one, and 0.99% on transfers for nine months with a 2% fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists a lower ongoing purchase rate and 0% on purchases. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) currently lists a Mastercard and 0% on transfers with a transfer fee. Match purchases versus transfers to the debt you actually have.',
+                'This Visa currently lists 13.99%, a $29-class fee waived in year one, and 0.99% on transfers for nine months with a 2% fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists a lower ongoing purchase rate and 0% on purchases. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is a Mastercard at 13.99% on purchases, with 0% on balance transfers for 18 months and a 3% transfer fee. Match purchases versus transfers to the debt you actually have.',
         },
         {
             question: 'Value Visa vs Scotia Momentum Visa?',

@@ -36,7 +36,7 @@ const review: CardEditorialReview = {
         'Cash-advance interest is higher than purchases. USD cash from an ATM is not the feature.',
     ],
     feesAndValue:
-        'The fee table shows a $39-class USD annual fee; the detail line currently repeats $39 USD per year, with extra cards at $0. There is no welcome-bonus value, so the first-year snapshot on this page will not show a signup gift. Year one and year two are the same test: does avoiding ~2.5% conversion on your real USD spend beat $39 USD? A few thousand dollars of U.S. merchant spend usually does; a once-a-year New York weekend might not. If you wanted Avion on that spend, RBC’s USD Gold currently lists 1 point per U.S. dollar at a higher fee. If you wanted a Mastercard and a spend-based fee rebate, BMO currently lists that shape. If you wanted CAD cash back, stay on TD Cash Back Visa. Offers change. Pay in full from USD.',
+        'The fee table shows a $39-class USD annual fee; the detail line currently repeats $39 USD per year, with extra cards at $0. There is no welcome-bonus value, so the first-year snapshot on this page will not show a signup gift. Year one and year two are the same test: does avoiding ~2.5% conversion on your real USD spend beat $39 USD? A few thousand dollars of U.S. merchant spend usually does; a once-a-year New York weekend might not. If you wanted Avion on that spend, RBC’s USD Gold currently lists 1 point per U.S. dollar at a higher fee. If you wanted a Mastercard, BMO’s U.S. Dollar Mastercard is US$49, rebated the next year after US$3,000 in purchases, with no rewards. If you wanted CAD cash back, stay on TD Cash Back Visa. Offers change. Pay in full from USD.',
     rewardsExplained:
         'This card does not earn TD Rewards, Aeroplan, or cash back. Features and detailed features currently say the same thing twice: eliminate conversion rates and fees when you purchase or pay bills in U.S. dollars. Put USD-priced spend here. Put Canadian grocery and bills on [TD Cash Back Visa Card](/card/td-cash-back-visa-card/). Put Air Canada on a TD Aeroplan cobrand, not on a USD Visa that will not help your Aeroplan balance. Non-USD foreign spend is still a CAD-card problem — compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) if the trip is Europe rather than the United States.',
     welcomeBonus:
@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'TD U.S. Dollar Visa vs BMO U.S. Dollar Mastercard?',
             answer:
-                '[BMO](/card/bmo-u-s-dollar-mastercard/) currently lists a $49-class USD fee that can rebate after U.S. $3,000 in spend, plus Mastercard (Costco) acceptance. This TD Visa currently lists $39 USD and no rebate language. Choose BMO if the warehouse or the rebate is the point. Choose TD if you already hold USD at TD and wanted the lower headline fee on a Visa.',
+                '[BMO](/card/bmo-u-s-dollar-mastercard/) charges US$49, rebated the next year after US$3,000 in purchases, with a free additional cardholder, no rewards, and no welcome offer. USD purchases avoid a conversion; other currencies convert to USD at the network rate plus 2.50%. This TD Visa currently lists $39 USD and no rebate language. Choose BMO if the warehouse or the rebate is the point. Choose TD if you already hold USD at TD and wanted the lower headline fee on a Visa.',
         },
         {
             question: 'TD U.S. Dollar Visa vs RBC U.S. Dollar Visa Gold?',

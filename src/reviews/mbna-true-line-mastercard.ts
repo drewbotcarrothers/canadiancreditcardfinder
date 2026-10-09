@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'True Line vs BMO Preferred Rate vs TD Low Rate?',
             answer:
-                'This Mastercard currently lists $0, 12.99%, and 0% on transfers for 12 months if you move the balance in 90 days. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) currently lists a $29-class fee, 13.99%, and a transfer teaser with a printed transfer fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists 0% on purchases, not transfers. Match the teaser type to the debt you have.',
+                'This Mastercard currently lists $0, 12.99%, and 0% on transfers for 12 months if you move the balance in 90 days. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) charges $29 a year and 13.99% on purchases, with 0% on balance transfers for 18 months and a 3% transfer fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists 0% on purchases, not transfers. Match the teaser type to the debt you have.',
         },
         {
             question: 'Should I use this if I pay in full?',

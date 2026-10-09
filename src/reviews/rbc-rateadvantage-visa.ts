@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'RateAdvantage vs TD Low Rate vs BMO Preferred Rate?',
             answer:
-                '[TD Low Rate](/card/td-low-rate-visa-card/) currently lists a 12.90%-class purchase rate and 0% on purchases for a listed window at a small fee. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) currently lists a Mastercard and 0% on transfers. RateAdvantage currently lists a variable prime-plus rate at $0 with no teaser. Match teasers to the debt you have; confirm RateAdvantage’s assigned rate before you assume it undercuts 12.90%.',
+                '[TD Low Rate](/card/td-low-rate-visa-card/) currently lists a 12.90%-class purchase rate and 0% on purchases for a listed window at a small fee. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is a Mastercard with 0% on balance transfers for 18 months and a 3% transfer fee, then 13.99% on purchases. RateAdvantage currently lists a variable prime-plus rate at $0 with no teaser. Match teasers to the debt you have; confirm RateAdvantage’s assigned rate before you assume it undercuts 12.90%.',
         },
         {
             question: 'Should I use this if I pay in full?',

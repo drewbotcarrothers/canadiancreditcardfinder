@@ -50,7 +50,7 @@ Redeem Scene+ where you already spend (movies, groceries) rather than hoarding f
 
 ## Cash back on campus
 
-[Student BMO CashBack](/card/student-bmo-cashback-mastercard/) currently mirrors the adult BMO CashBack shape (3% / 1% / 0.5% in that review) at $0, with extra cardholders free and a first-three-months cash-back boost in the welcome line. The 18–24 student bar is the constraint. When you age out, expect a move toward adult [BMO CashBack](/card/bmo-cashback-mastercard/) or a conversation about World Elite if income appears.
+[Student BMO CashBack](/card/student-bmo-cashback-mastercard/) is a $0 card: 3% on groceries and 1% on recurring bills, each on up to $500 spent per statement period, and 0.5% on everything else. The welcome offer is 5% cash back in your first 3 months. Cash back can be redeemed from $1, or as a recurring redemption from $25. New cardholders also get 3 months of Instacart+ and a $5 monthly credit. Purchases are 21.99%; cash advances are 23.99% (21.99% in Quebec). Insurance is extended warranty and 90-day purchase security, not travel medical. The 18–24 student bar is the constraint. When you age out, expect a move toward adult [BMO CashBack](/card/bmo-cashback-mastercard/) or a conversation about World Elite if income appears.
 
 Mastercard matters: Costco Canada will take it; a student Visa will not.
 
