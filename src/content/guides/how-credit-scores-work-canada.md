@@ -48,7 +48,7 @@ Credit bureaus don't publish their exact formulas. Equifax does publish approxim
 
 ### Payment history
 
-This is the biggest piece. A payment more than 30 days late can be reported to the bureaus and stays on your report for years. Paying the full statement balance is best for your wallet, but for your score the key line is paying at least the minimum by the due date. Setting up an automatic minimum payment is a cheap insurance policy against forgetting. Our interest and minimum payments guide explains how due dates and minimums work.
+This is the biggest piece. A payment more than 30 days late can be reported to the bureaus and stays on your report for years. Paying the full statement balance is best for your wallet, but for your score the key line is paying at least the minimum by the due date. Setting up an automatic minimum payment is a cheap insurance policy against forgetting. Our [interest and minimum payments guide](/guides/credit-card-interest-grace-period-minimum-payment-canada/) explains how due dates and minimums work.
 
 ### Utilization
 
@@ -57,7 +57,7 @@ Utilization is the share of your available revolving credit you are using. FCAC 
 Two practical points for credit card users:
 
 - **The balance that gets reported is usually your statement balance**, not what you owe after you pay. If you put a lot on a card and pay in full after the statement, your reported utilization can still look high. Paying down part of the balance before the statement date lowers it.
-- **Closing a card reduces your total available credit**, which can raise your utilization even if your spending stays the same. That is one reason to think before cancelling; see product switching vs cancelling.
+- **Closing a card reduces your total available credit**, which can raise your utilization even if your spending stays the same. That is one reason to think before cancelling; see [product switching vs cancelling](/guides/product-switch-vs-cancel-credit-card-canada/).
 
 ### Length of history
 
@@ -112,7 +112,7 @@ If you have no Canadian credit history, the basic path is the same for everyone:
 3. Pay the statement in full and on time every month.
 4. Leave the account open as it ages.
 
-Being added as an authorized user on someone else's card is sometimes suggested, but FCAC says purchases you make as an additional cardholder won't help you build your credit history. See our authorized users guide for the details.
+Being added as an authorized user on someone else's card is sometimes suggested, but FCAC says purchases you make as an additional cardholder won't help you build your credit history. See our [authorized users guide](/guides/authorized-users-credit-cards-canada/) for the details.
 
 ## FAQ
 
