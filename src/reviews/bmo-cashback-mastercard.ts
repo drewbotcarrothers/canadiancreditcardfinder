@@ -60,7 +60,7 @@ const review: CardEditorialReview = {
         {
             question: 'Is there a student version?',
             answer:
-                'Yes. The [Student BMO CashBack Mastercard](/card/student-bmo-cashback-mastercard/) currently lists no annual fee and a similar 3%/1%/0.5% mix, with student-age and school eligibility. Use that application if you fit it; do not stretch this adult card’s “minimum income” line to look like a campus card.',
+                'Yes. The [Student BMO CashBack Mastercard](/card/student-bmo-cashback-mastercard/) has no annual fee, 3% on groceries and 1% on recurring bills each on up to $500 per statement period, and 0.5% on other purchases. The welcome offer is 5% cash back in the first 3 months. It has student-age and school eligibility. Use that application if you fit it.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',

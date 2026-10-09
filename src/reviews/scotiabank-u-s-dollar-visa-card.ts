@@ -36,7 +36,7 @@ const review: CardEditorialReview = {
         'Paying the USD statement from CAD reintroduces the conversion the card exists to avoid. Confirm Scotiabank’s USD funding path.',
     ],
     feesAndValue:
-        'The fee table shows a $35-class figure; the detail line currently says US$35 per year, with extra cards at $0. Welcome value currently prints $0.00, so the first-year snapshot on this page will look like a fee with no bonus — correct. Year one is US$35 versus conversion you would have paid on Passport or Gold Amex for U.S. merchant spend. If you already hold Passport for global no-FX, adding this USD Visa only helps if you specifically wanted a USD ledger (and the Avis perk) rather than charging USD to Passport in CAD. If you wanted Avion, RBC currently lists that at a higher USD fee. If you wanted a spend rebate, BMO currently lists one. Offers change. Pay in full from USD.',
+        'The fee table shows a $35-class figure; the detail line currently says US$35 per year, with extra cards at $0. Welcome value currently prints $0.00, so the first-year snapshot on this page will look like a fee with no bonus — correct. Year one is US$35 versus conversion you would have paid on Passport or Gold Amex for U.S. merchant spend. If you already hold Passport for global no-FX, adding this USD Visa only helps if you specifically wanted a USD ledger (and the Avis perk) rather than charging USD to Passport in CAD. If you wanted Avion, RBC currently lists that at a higher USD fee. If you wanted a spend rebate, BMO’s U.S. Dollar Mastercard rebates its US$49 fee the next year after US$3,000 in purchases. Offers change. Pay in full from USD.',
     rewardsExplained:
         'This card does not earn Scene+. Rewards currently say N/A; detailed welcome text currently says no points, cash back, or rewards on purchases. The only “perk” in detailed features is the Avis/Budget base-rate discount when you pay with this card at participating locations in Canada and the U.S. Put USD-priced spend here. Put Sobeys and dining Scene+ on a CAD Scotia Amex. Put no-FX multi-currency travel on [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/). Do not open this Visa hoping 1x Scene+ snuck in from the Scene+ student card.',
     welcomeBonus:
@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Scotiabank USD Visa vs BMO and TD USD cards?',
             answer:
-                'This Visa currently lists the lowest headline USD fee in that trio and an Avis/Budget line. [TD](/card/td-u-s-dollar-visa-card/) currently lists a similar no-rewards Visa at a slightly higher USD fee. [BMO](/card/bmo-u-s-dollar-mastercard/) currently lists a Mastercard and a spend rebate. Choose the bank that already holds your USD and the network you need at Costco.',
+                'This Visa currently lists the lowest headline USD fee in that trio and an Avis/Budget line. [TD](/card/td-u-s-dollar-visa-card/) currently lists a similar no-rewards Visa at a slightly higher USD fee. [BMO](/card/bmo-u-s-dollar-mastercard/) is a Mastercard at US$49, rebated the next year after US$3,000 in purchases, with no rewards and no welcome offer. Choose the bank that already holds your USD and the network you need at Costco.',
         },
         {
             question: 'Does this card earn Scene+ at Sobeys?',

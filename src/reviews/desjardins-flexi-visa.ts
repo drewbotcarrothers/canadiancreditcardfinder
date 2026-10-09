@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'Flexi vs TD Low Rate vs BMO Preferred Rate?',
             answer:
-                'This Visa currently lists a 10.90%-class purchase rate at $0 with no teaser. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists 12.90%-class and 0% on purchases for a listed window at a small fee. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) currently lists a Mastercard and 0% on transfers. Match teasers to the debt you actually have; Flexi currently wins on ongoing rate and fee if you already bank at Desjardins.',
+                'This Visa currently lists a 10.90%-class purchase rate at $0 with no teaser. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists 12.90%-class and 0% on purchases for a listed window at a small fee. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is a Mastercard with 0% on balance transfers for 18 months, a 3% transfer fee, and 13.99% on purchases. Match teasers to the debt you actually have; Flexi currently wins on ongoing rate and fee if you already bank at Desjardins.',
         },
         {
             question: 'Flexi vs Desjardins Bonus Visa?',

@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'RBC USD Gold vs TD U.S. Dollar Visa vs BMO USD Mastercard?',
             answer:
-                'This Visa currently lists 1 Avion per U.S. dollar at the highest USD fee in the group. [TD](/card/td-u-s-dollar-visa-card/) currently lists no rewards at a lower USD fee. [BMO](/card/bmo-u-s-dollar-mastercard/) currently lists a Mastercard, a spend-based fee rebate, and no rewards. Choose RBC for Avion on USD. Choose TD for cheaper Visa FX. Choose BMO for Costco and the rebate.',
+                'This Visa currently lists 1 Avion per U.S. dollar at the highest USD fee in the group. [TD](/card/td-u-s-dollar-visa-card/) currently lists no rewards at a lower USD fee. [BMO](/card/bmo-u-s-dollar-mastercard/) is a Mastercard at US$49, rebated the next year after US$3,000 in purchases, with no rewards and no welcome offer. Choose RBC for Avion on USD. Choose TD for cheaper Visa FX. Choose BMO for Costco and the rebate.',
         },
         {
             question: 'Do I need an RBC U.S. dollar account?',

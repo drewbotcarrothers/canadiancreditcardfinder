@@ -17,7 +17,7 @@ const review: CardEditorialReview = {
     ],
     whoShouldSkip: [
         'Anyone who pays the statement in full every month. A 12.90%-class rate does nothing if you never pay interest; [TD Cash Back Visa](/card/td-cash-back-visa-card/) currently lists $0 and a 1% grocery-and-bills stack for that habit.',
-        'People who needed to move a balance from another bank. This card’s intro is on purchases. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) and [CIBC Select](/card/cibc-select-visa-card/) currently list 0% transfer windows with transfer fees.',
+        'People who needed to move a balance from another bank. This card’s intro is on purchases. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is 0% on balance transfers for 18 months with a 3% fee. [CIBC Select](/card/cibc-select-visa-card/) is a separate transfer teaser.',
         'Households that shop Costco Canada on this plastic. This is a Visa; the warehouse wants a Mastercard.',
         'Rewards collectors. There is no rewards program; the Starbucks Stars line is a perk, not a cash-back program.',
     ],
@@ -36,7 +36,7 @@ const review: CardEditorialReview = {
         'Check the issuer’s site for current insurance coverage. This is a low-rate Visa, not a travel-medical product.',
     ],
     feesAndValue:
-        'The fee table shows a $25-class card for the primary cardholder; extra cards currently show $0. There is no first-year rebate. The welcome-value estimate is N/A, so the first-year snapshot on this page will not manufacture a cash bonus from a 0% purchase teaser. Year one is $25 versus six months of 0% on purchases, then the 12.90%-class ongoing rate. Year two is $25 versus that rate with no teaser. If you pay in full, TD Cash Back Visa at $0 is the better TD product. If you needed to transfer a balance in, BMO Preferred Rate or CIBC Select currently lists that shape. If Costco is the revolving bill, BMO’s Mastercard network is the constraint, not TD’s rate. Offers change; the detailed welcome text currently names an effective date. Pay the promo down before it ends.',
+        'The fee table shows a $25-class card for the primary cardholder; extra cards currently show $0. There is no first-year rebate. The welcome-value estimate is N/A, so the first-year snapshot on this page will not manufacture a cash bonus from a 0% purchase teaser. Year one is $25 versus six months of 0% on purchases, then the 12.90%-class ongoing rate. Year two is $25 versus that rate with no teaser. If you pay in full, TD Cash Back Visa at $0 is the better TD product. If you needed to transfer a balance in, BMO Preferred Rate is 0% for 18 months with a 3% fee, and CIBC Select is the other transfer-shaped Visa. If Costco is the revolving bill, BMO’s Mastercard network is the constraint, not TD’s rate. Offers change; the detailed welcome text currently names an effective date. Pay the promo down before it ends.',
     rewardsExplained:
         'This card is not a cash-back Visa. There is no rewards program. Features mention 50% more Stars at participating Starbucks stores, with conditions; detailed features say N/A. Treat Stars as a side perk if you already buy coffee at those stores, not as a reason to pick a low-rate card. Put new purchases you cannot pay immediately here during the 0% window; put grocery and bills you pay in full on [TD Cash Back Visa Card](/card/td-cash-back-visa-card/); put an incoming transfer on BMO Preferred Rate or CIBC Select. Costco Canada is still Mastercard-only, so this Visa will not help at the warehouse even at 12.90%.',
     welcomeBonus:
@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'TD Low Rate vs BMO Preferred Rate vs CIBC Select?',
             answer:
-                'This Visa currently lists the lowest ongoing purchase rate of the three and 0% on purchases for six months. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) currently lists a higher ongoing rate, a Mastercard, and 0% on balance transfers with a transfer fee. [CIBC Select](/card/cibc-select-visa-card/) currently lists a similar ongoing rate to BMO and a longer 0% transfer window. Match purchases versus transfers to the debt you actually have.',
+                'This Visa currently lists the lowest ongoing purchase rate of the three and 0% on purchases for six months. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) charges 13.99% on purchases and gives new accounts 0% on balance transfers for 18 months with a 3% fee (minimum transfer $100). The $29 annual fee is waived in year one. [CIBC Select](/card/cibc-select-visa-card/) is a separate transfer-shaped Visa. Match purchases versus transfers to the debt you actually have.',
         },
         {
             question: 'Should I use this if I pay in full every month?',

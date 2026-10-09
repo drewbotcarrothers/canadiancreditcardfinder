@@ -37,7 +37,7 @@ const review: CardEditorialReview = {
         'A Visa cannot check out at Costco Canada.',
     ],
     feesAndValue:
-        'The fee table shows a $20-class card; the detail line currently notes no annual fee for the first year, with extra cards at $0. The welcome-value estimate restates the transfer teaser rather than a dollar wrap, so the first-year snapshot may not look like a cash bonus — correct. Year one is $0 fee plus 0.99% on a transfer minus any transfer fee. Year two is $20 versus 12.99% with Petro-Canada and Rexall perks you would have used. If you pay in full, ION at $0 is the better RBC card. If you wanted $0 and a variable rate with no teaser, RateAdvantage is the comparison. If you needed a Mastercard, BMO Preferred Rate currently lists a transfer teaser on that network. Offers change; the welcome-value estimate currently names an apply-by date in 2026. Pay the promo down before it ends.',
+        'The fee table shows a $20-class card; the detail line currently notes no annual fee for the first year, with extra cards at $0. The welcome-value estimate restates the transfer teaser rather than a dollar wrap, so the first-year snapshot may not look like a cash bonus — correct. Year one is $0 fee plus 0.99% on a transfer minus any transfer fee. Year two is $20 versus 12.99% with Petro-Canada and Rexall perks you would have used. If you pay in full, ION at $0 is the better RBC card. If you wanted $0 and a variable rate with no teaser, RateAdvantage is the comparison. If you needed a Mastercard, BMO Preferred Rate is 0% on balance transfers for 18 months with a 3% fee. Offers change; the welcome-value estimate currently names an apply-by date in 2026. Pay the promo down before it ends.',
     rewardsExplained:
         'This card does not earn Avion as a spend multiplier. Rewards currently say N/A. Features currently describe partner offers from brands like Petro-Canada, Rexall, and DoorDash. Detailed features currently add 3¢/L and extra Petro-Points at Petro-Canada when you pay with an eligible linked RBC card, Be Well points at Rexall, and a complimentary DashPass subscription window with $0 delivery fees on qualifying DoorDash orders. Those are linked-offer perks with conditions, not a 2% grocery Visa. Put a transfer here. Put grocery you pay in full on [RBC ION Visa](/card/rbc-ion-visa/). Put a $0 variable rate without a teaser on [RBC RateAdvantage Visa](/card/rbc-rateadvantage-visa/).',
     welcomeBonus:
@@ -56,7 +56,7 @@ const review: CardEditorialReview = {
         {
             question: 'Classic Low Rate vs BMO Preferred Rate vs TD Low Rate?',
             answer:
-                '[BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) currently lists a Mastercard, 13.99%, and 0% on transfers with a transfer fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists 0% on purchases. This RBC Visa currently lists 0.99% on transfers for 10 months at a $20-class fee. Match purchases versus transfers to the debt you have.',
+                '[BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is a Mastercard at 13.99% on purchases, with 0% on balance transfers for 18 months and a 3% transfer fee on new accounts. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists 0% on purchases. This RBC Visa currently lists 0.99% on transfers for 10 months at a $20-class fee. Match purchases versus transfers to the debt you have.',
         },
         {
             question: 'Should I use this if I pay in full?',

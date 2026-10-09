@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'CIBC Select vs BMO Preferred Rate vs TD Low Rate?',
             answer:
-                'This Visa currently lists a 13.99%-class rate, a $29-class fee with a first-year rebate, and 0% on transfers for up to ten months with a transfer fee and a 50% limit cap. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) currently lists a similar ongoing rate on a Mastercard, a Performance-chequing fee rebate, and a shorter transfer teaser. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists a lower ongoing rate and 0% on purchases, not transfers. Match the teaser type to the debt you actually have.',
+                'This Visa currently lists a 13.99%-class rate, a $29-class fee with a first-year rebate, and 0% on transfers for up to ten months with a transfer fee and a 50% limit cap. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) charges 13.99% on purchases, rebates the $29 fee every year with a BMO Performance chequing account, and gives new accounts 0% on balance transfers for 18 months with a 3% fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists a lower ongoing rate and 0% on purchases, not transfers. Match the teaser type to the debt you actually have.',
         },
         {
             question: 'Should I use this if I pay in full every month?',

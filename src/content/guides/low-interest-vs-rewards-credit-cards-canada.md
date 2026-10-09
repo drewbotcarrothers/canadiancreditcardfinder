@@ -34,7 +34,7 @@ Rewards do not survive revolving. That is the whole guide.
 | --- | --- | --- |
 | Pay in full always | Rewards or $0 cash back | The low rate never fires |
 | New large spend you will pay down in months | Purchase teaser (e.g. [TD Low Rate](/card/td-low-rate-visa-card/) 0% purchase window in our review) | The debt is not already on another card |
-| Balance already sitting on another issuer | Transfer teaser ([BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/), [CIBC Select](/card/cibc-select-visa-card/) in our reviews) | You are moving principal; expect a transfer fee |
+| Balance already sitting on another issuer | Transfer teaser ([BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is 0% for 18 months with a 3% fee; [CIBC Select](/card/cibc-select-visa-card/) is a separate Visa teaser) | You are moving principal; the BMO fee is 3% |
 | Ongoing revolving, strong file, $0 fee | [RBC RateAdvantage](/card/rbc-rateadvantage-visa/) (Prime + formula in our review) | No membership fee; confirm the assigned rate |
 | Costco is the revolving bill | A low-rate **Mastercard** | Costco Canada declines Visa |
 | You “might” revolve once | Rewards + pay in full | Do not buy a worse earn rate for a maybe |
@@ -45,7 +45,7 @@ Never take a cash advance to “use” a low cash-advance rate. Fees and differe
 
 **[TD Low Rate Visa](/card/td-low-rate-visa-card/)** in our review is a cheap ongoing purchase-rate Visa (12.90%-class, matching cash-advance in that snapshot) with a $25-class annual fee and a welcome line that puts **0% on purchases** for the first six months from account opening — not on a balance transfer. Rewards are effectively N/A. Extra cards at $0. It is the right shape if the problem is a coming renovation bill or a vet invoice you will put on *this* card and pay down before the teaser ends.
 
-**[BMO Preferred Rate Mastercard](/card/bmo-preferred-rate-mastercard/)** and **[CIBC Select Visa](/card/cibc-select-visa-card/)** currently describe **0% transfer windows with transfer fees** in our reviews. That is the tool for an existing balance at another bank. Read the transfer-fee percentage and the window length on the live page. A 3% fee on a $5,000 transfer is $150 — still often cheaper than a year of 20% interest, and still not free.
+**[BMO Preferred Rate Mastercard](/card/bmo-preferred-rate-mastercard/)** is the Mastercard version of that tool. For applications on or after September 15, 2026, new accounts get **0% on balance transfers for 18 months**. The transfer fee is **3%** (for example, $30 per $1,000; minimum transfer $100). Purchases are **13.99%**. The **$29** annual fee is waived in year one and rebated every year with a BMO Performance chequing account. When the 18 months end, any remaining transferred balance moves to the **15.99%** cash advance rate. A 3% fee on a $5,000 transfer is $150 — still often cheaper than a year of 20% interest, and still not free. **[CIBC Select Visa](/card/cibc-select-visa-card/)** is a separate transfer-shaped Visa if you do not need a Mastercard.
 
 After any teaser, you are on the ongoing rate plus any annual fee. If the balance will still be there, you needed a payoff date, not another offer.
 

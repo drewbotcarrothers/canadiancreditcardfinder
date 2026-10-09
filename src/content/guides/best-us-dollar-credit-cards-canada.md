@@ -14,7 +14,7 @@ relatedCardSlugs:
   - cibc-u-s-dollar-aventura-gold-visa-card
 ---
 
-**If you already hold a U.S. dollar bank account and you pay U.S. merchants in USD — Amazon.com, Florida bills, U.S. subscriptions, cross-border shopping — a Canadian USD-billed card can remove the credit-card foreign-currency conversion on those charges.** [TD U.S. Dollar Visa](/card/td-u-s-dollar-visa-card/) is the plain, cheaper-fee Visa in our reviews. [BMO U.S. Dollar Mastercard](/card/bmo-u-s-dollar-mastercard/) is the Mastercard (including Costco-shaped problems). [RBC U.S. Dollar Visa Gold](/card/rbc-u-s-dollar-visa-gold/) adds Avion on USD spend at a higher USD fee. [CIBC U.S. Dollar Aventura Gold](/card/cibc-u-s-dollar-aventura-gold-visa-card/) keeps you in Aventura on a USD statement.
+**If you already hold a U.S. dollar bank account and you pay U.S. merchants in USD — Amazon.com, Florida bills, U.S. subscriptions, cross-border shopping — a Canadian USD-billed card can remove the credit-card foreign-currency conversion on those USD charges.** [TD U.S. Dollar Visa](/card/td-u-s-dollar-visa-card/) is the plain, cheaper-fee Visa. [BMO U.S. Dollar Mastercard](/card/bmo-u-s-dollar-mastercard/) is the Mastercard: a US$49 annual fee, rebated the next year when purchases total US$3,000 or more, a free additional cardholder, no rewards, and no welcome offer. USD purchases on that card avoid a conversion. Purchases in other currencies convert to U.S. dollars at the network rate plus 2.50%. [RBC U.S. Dollar Visa Gold](/card/rbc-u-s-dollar-visa-gold/) adds Avion on USD spend at a higher USD fee. [CIBC U.S. Dollar Aventura Gold](/card/cibc-u-s-dollar-aventura-gold-visa-card/) keeps you in Aventura on a USD statement.
 
 If you do **not** have a USD account, you will still convert CAD when you pay the bill. The card did not make USD “free.” If your foreign spend is euros or sterling, this product class is the wrong tool — use a no-FX CAD card such as [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) instead. See [how to choose a travel card](/guides/how-to-choose-travel-credit-card-canada/).
 
@@ -36,7 +36,7 @@ A USD card is for people who *have* USD. It is not a magic mid-market converter 
 | Regular USD bills, already have USD | USD card from your bank | Statement matches the currency |
 | Want Avion on USD spend | [RBC USD Visa Gold](/card/rbc-u-s-dollar-visa-gold/) | Higher USD fee; 1x-class Avion in our review |
 | Want Aventura on USD spend | [CIBC USD Aventura Gold](/card/cibc-u-s-dollar-aventura-gold-visa-card/) | Weaker earn than CAD Aventura Gold |
-| Want Mastercard / Costco | [BMO USD Mastercard](/card/bmo-u-s-dollar-mastercard/) | Visa USD cards fail at Costco |
+| Want Mastercard / Costco | [BMO USD Mastercard](/card/bmo-u-s-dollar-mastercard/) | US$49, rebated next year after US$3,000 in purchases; no rewards |
 | Want cheapest USD Visa, no rewards | [TD USD Visa](/card/td-u-s-dollar-visa-card/) | Fee-versus-FX test only |
 | Scene+ grocery in CAD | Stay on a CAD Scene+ card | USD cards are not 3x Sobeys products |
 
@@ -44,7 +44,7 @@ A USD card is for people who *have* USD. It is not a magic mid-market converter 
 
 ## The fee-versus-FX test
 
-Most no-rewards USD cards in our reviews sit in a few-dozen **USD** per year (TD’s review describes a $39-class USD fee; CIBC’s USD Aventura Gold is $35-class USD). RBC’s USD Gold is higher because you are buying Avion.
+Most no-rewards USD cards sit in a few-dozen **USD** per year (TD’s card is a $39-class USD fee; CIBC’s USD Aventura Gold is $35-class USD). BMO’s U.S. Dollar Mastercard is **US$49**, rebated the following year when purchases total **US$3,000** or more, with a free additional cardholder. RBC’s USD Gold is higher because you are buying Avion. BMO does not list a welcome offer.
 
 A common Canadian FX fee is about 2.5% on the converted amount. On $2,000 USD of card spend, 2.5% is $50 USD-equivalent — already in the neighbourhood of a cheap USD card fee. On $400 USD of spend, the fee loses.
 
@@ -60,11 +60,11 @@ RBC’s USD Gold is the Avion collector’s USD door: 1 point per U.S. dollar in
 
 TD’s USD Visa has no rewards program. That honesty is useful. You are not pretending 0.5% cash back offsets a conversion you already avoided.
 
-Do not expect travel medical insurance from a USD Visa because a CAD Infinite in the same bank has a certificate. Insurance coverage on these cards is often not listed. Read the certificate or assume none.
+Do not expect travel medical insurance from a USD card because a CAD Infinite in the same bank has a certificate. On the [BMO U.S. Dollar Mastercard](/card/bmo-u-s-dollar-mastercard/), coverage is extended warranty (it doubles the manufacturer’s warranty by up to one extra year) and purchase security for 90 days. There is no travel insurance. Side perks on that card are 20% off Cirque du Soleil shows touring Canada and 15% off Las Vegas resident shows.
 
 ## Funding the statement
 
-BMO’s listing is more explicit about needing a USD account. TD’s eligibility may print only residency and age of majority — you still need a USD source if the pitch is “eliminate conversion.” Paying a USD statement from CAD chequing at the bank’s retail FX rate can erase the card’s advantage.
+The BMO U.S. Dollar Mastercard statement is in U.S. dollars, so you need U.S. dollars to pay it. TD’s eligibility may print only residency and age of majority — you still need a USD source if the pitch is “eliminate conversion.” Paying a USD statement from CAD chequing at the bank’s retail FX rate can erase the card’s advantage.
 
 Practical setup:
 

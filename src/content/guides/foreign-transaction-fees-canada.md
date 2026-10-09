@@ -72,7 +72,7 @@ A card with no foreign transaction fees but an annual fee only pays off if you s
 
 ### 3. Consider a U.S. dollar card for regular USD spending
 
-If you spend in U.S. dollars often, a card billed in USD avoids conversion on every purchase. You pay the statement from a U.S. dollar bank account. That only helps if you already earn or hold U.S. dollars, or convert at a good rate in bulk. Our [U.S. dollar credit cards guide](/guides/best-us-dollar-credit-cards-canada/) covers how this works and when it is worth the annual fee.
+If you spend in U.S. dollars often, a card billed in USD avoids conversion on those USD purchases. You pay the statement from a U.S. dollar bank account. That only helps if you already earn or hold U.S. dollars, or convert at a good rate in bulk. On the [BMO U.S. Dollar Mastercard](/card/bmo-u-s-dollar-mastercard/), a charge that is not in U.S. dollars still converts to USD at the network rate plus 2.50%. The [BMO Preferred Rate Mastercard](/card/bmo-preferred-rate-mastercard/), a Canadian-dollar rate card, converts foreign-currency purchases at the network rate plus 2.50% as well. Our [U.S. dollar credit cards guide](/guides/best-us-dollar-credit-cards-canada/) covers when USD billing is worth the annual fee.
 
 ### 4. Know when "bonus" earn on foreign spending doesn't cover the fee
 

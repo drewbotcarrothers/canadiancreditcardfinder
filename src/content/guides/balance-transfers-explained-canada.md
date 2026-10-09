@@ -107,7 +107,7 @@ If you later upgrade or switch the card to another product at the same bank, pro
 
 ## Alternatives to compare
 
-- **A low-rate card** without a promotion: a permanently lower purchase rate helps if you sometimes carry a balance. See the [TD Low Rate Visa](/card/td-low-rate-visa-card/) or [BMO Preferred Rate Mastercard](/card/bmo-preferred-rate-mastercard/).
+- **A low-rate card** with a permanently lower purchase rate helps if you sometimes carry a balance. The [BMO Preferred Rate Mastercard](/card/bmo-preferred-rate-mastercard/) charges 13.99% on purchases and, for new accounts from applications on or after September 15, 2026, 0% on balance transfers for 18 months with a 3% fee (minimum transfer $100). After that window, a remaining transferred balance moves to the 15.99% cash advance rate. The [TD Low Rate Visa](/card/td-low-rate-visa-card/) is the purchase-teaser comparison, not a transfer offer.
 - **An instalment plan on your existing card.** Many issuers let you convert large purchases to fixed monthly instalments at a lower rate or for a fee. Check the cost against a transfer.
 - **A personal loan or line of credit.** FCAC suggests these as cheaper ways to borrow than cash advances, and they can also beat a revolving card balance.
 
