@@ -29,7 +29,7 @@ const review: CardEditorialReview = {
         'Fine Hotels + Resorts, The Hotel Collection, Hilton Honors Gold, and Marriott Bonvoy Gold Elite status can matter on a handful of paid nights even if you never transfer a point.',
     ],
     cons: [
-        'The annual fee is among the highest in our Canadian dataset. Miss the credits and you are donating to American Express.',
+        'The annual fee is among the highest of the Canadian cards we track. Miss the credits and you are donating to American Express.',
         'Each additional Platinum card is $250 a year. The first two additional Gold cards are $0, then $50 each, which splits the “everyone gets lounges” idea.',
         'Grocery, gas, and drugstore spend is not a Platinum strength. You will still want a second card for those buckets.',
         'Merchant acceptance is American Express. Internationally that is often fine at hotels and airlines and still awkward at small shops.',

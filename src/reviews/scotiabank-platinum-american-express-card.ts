@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
     cons: [
         'The annual fee is well above Gold Amex. You need a lot of non-bonus spend before 2x everywhere beats 6x grocery plus a cheaper (or waived) Gold fee.',
         'It is still American Express. Plenty of Canadian merchants will send you to the backup card, which then misses the 2x.',
-        'The two-year Scotiabank-card exclusion is among the strictest in our dataset. Passport, Momentum, and Gold Amex holders are on that list.',
+        'The two-year Scotiabank-card exclusion is among the strictest of the cards we track. Passport, Momentum, and Gold Amex holders are on that list.',
         'Our insurance field is empty. Do not buy this as a lounge-and-travel-medical product; the name “Platinum” here is Scotiabank’s Amex tier, not American Express’s charge card.',
         'The welcome “up to” dollar wrap in our data is a marketing envelope around Scene+ points, not cash. Treat the point schedule as the offer.',
     ],

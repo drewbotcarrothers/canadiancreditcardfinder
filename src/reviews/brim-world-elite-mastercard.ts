@@ -6,7 +6,7 @@ const review: CardEditorialReview = {
     h1: 'Brim World Elite Mastercard Review',
     primaryKeyword: 'brim world elite mastercard review',
     metaDescription:
-        'Brim World Elite Mastercard review for 2026: $89 fee, no-FX positioning vs no-fee Brim, thin sheet data, and who should skip it.',
+        'Brim World Elite Mastercard review for 2026: $89 fee, no-FX positioning vs no-fee Brim, limited published details, and who should skip it.',
     intro:
         'The Brim World Elite Mastercard is Brim Financial’s paid cash-back card: a mid-fee World Elite price in our data, a features line that calls out elevated rewards and typical no foreign-transaction fees, and none of the bank-issued grocery tables this site usually prints. It is not the $0 [Brim Mastercard](/card/brim-mastercard/), and Brim is not a bank with an issuer hub on this site. This Brim World Elite Mastercard review stays inside what the sheet actually lists — which is thin — and tells you when [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) or [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) is the better-documented $0 or no-FX alternative.',
     whoItsFor: [
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'This card is filed as cash back in our data, under a program labelled Brim rewards — not Avion, not Scene+, not Aeroplan. Our current features only say the World Elite tier has elevated rewards versus the no-fee Brim Mastercard, and that it typically charges no foreign-transaction fees. The detailed field does not print a grocery, dining, or catch-all percentage. We will not fill those in from memory. Confirm the live earn table, any caps, and how statement credits post on Brim’s site. Redeem as Brim lets you redeem. If you want a $0 card from the same issuer, that is the Brim Mastercard. If you want pick-your-categories 2% with a rate table this site can quote, that is Tangerine. If you want no FX with lounge passes on a Visa, that is Passport.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden signup dump. If Brim is running a limited-time cash or points offer, it will be on brimfinancial.com — use that, not this paragraph. The CardReview template on this site will also say no bonus is listed when the sheet is empty. Do not manufacture a first-year value that the CSV does not support.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden signup dump. If Brim is running a limited-time cash or points offer, it will be on brimfinancial.com — use that, not this paragraph.',
     faqs: [
         {
             question: 'Is the Brim World Elite Mastercard worth it in 2026?',

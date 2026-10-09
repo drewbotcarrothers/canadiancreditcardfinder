@@ -41,7 +41,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'This card earns BONUSDOLLARS, Desjardins’ travel-and-merchandise currency — not Aeroplan, not Scene+, and not statement-credit cash back. Our current features describe up to 4% of purchases in BONUSDOLLARS plus premium travel benefits. That is a ceiling, not a catch-all 4% on Amazon. Gold currently lists up to 2% with category caps; Odyssey World Elite currently lists up to 3% with category caps. We will not fill in Privilege’s missing category table. Confirm the live Desjardins rate card, bonus-category definitions, and any unpublished caps. Redeem BONUSDOLLARS through Desjardins’ travel and rewards tools. If you already fly Air Canada on purpose, a bank cobrand in that program will annoy you less than converting BONUSDOLLARS later.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Desjardins is running BONUSDOLLARS on the application page, use that page. Do not add a first-year value the CSV does not support. Judge Privilege on the member versus non-member fee, the “up to 4%” earn line, and whether you already live in that caisse relationship.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Desjardins is running BONUSDOLLARS on the application page, use that page. Judge Privilege on the member versus non-member fee, the “up to 4%” earn line, and whether you already live in that caisse relationship.',
     faqs: [
         {
             question: 'Is the Desjardins Odyssey Visa Infinite Privilege card worth it in 2026?',

@@ -31,9 +31,9 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'Our features and detailed cells only say this is the World-tier variant with extra Mastercard benefits and that income requirements apply. They do not reprint the 2% / 0.5% category table from the regular card. Confirm the live category list on Tangerine’s World page rather than assuming every Money-Back rule copied over.',
-        'Our current sheet does not list a welcome bonus. Year-one value is the earn rates plus World extras — there is no signup cushion in this dataset.',
+        'Our current sheet does not list a welcome bonus. Year-one value is the earn rates plus World extras — there is no welcome bonus listed to cushion it.',
         'Income still applies even though the fee is $0. Plenty of Tangerine clients will be happier on the regular Money-Back card.',
-        'Additional-card and insurance fields are empty, so we will not invent authorized-user fees or travel medical coverage. World Mastercard benefits live in Mastercard’s guide, not in our CSV.',
+        'Additional-card and insurance fields are empty, so we will not invent authorized-user fees or travel medical coverage. World Mastercard benefits live in Mastercard’s guide, not on this page.',
         'Tangerine is a digital bank. If you want a branch and a human to argue a charge, this is still the wrong issuer.',
     ],
     feesAndValue:
@@ -41,7 +41,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn cash back, not points. The regular Money-Back card’s sheet currently describes 2% in up to two chosen categories, a third 2% category if you deposit cash back into a Tangerine savings account, and 0.5% on everything else. This World row does not reprint that table — it only positions the card as the World-tier Money-Back variant. Until the sheet is more specific, confirm category counts, change windows, and the third-category savings rule on Tangerine’s World product page. Merchant coding still applies: a restaurant inside a hotel, a grocery banner that processes as a superstore, or a gas station attached to a retailer can miss a 2% list. Cash back is typically redeemed into a Tangerine account. If you want 5% groceries as cash, compare BMO CashBack World Elite. If you want no-fee Optimum at Superstore, that is a PC Mastercard, not Tangerine World.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden 20,000-point dump. If Tangerine is running a limited-time category boost or a new-client cash offer on the World card, it will be on their application page — use that, not this paragraph. The CardReview template on this site will also say no bonus is listed when the sheet is empty. Do not manufacture a first-year value that the CSV does not support.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden 20,000-point dump. If Tangerine is running a limited-time category boost or a new-client cash offer on the World card, it will be on their application page — use that, not this paragraph.',
     faqs: [
         {
             question: 'Is the Tangerine Money-Back World Mastercard worth it in 2026?',

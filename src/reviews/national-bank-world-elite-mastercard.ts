@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
         '5x groceries and dining is subject to monthly spend thresholds. Blow past them, or code a merchant wrong, and you are on 2x or 1x.',
         'À la carte Rewards are only as good as National Bank’s redemption chart. Treat point values as estimates until you book.',
         'Additional cards currently carry their own annual fee.',
-        'Our sheet does not list a welcome bonus for this card. Year-one value is the travel credit, insurance, and earn rates — there is no signup cushion in this dataset.',
+        'Our sheet does not list a welcome bonus for this card. Year-one value is the travel credit, insurance, and earn rates — there is no welcome bonus listed to cushion it.',
         'National Bank’s footprint is strongest in Quebec. The card is available more widely, but customer service and branch backup feel different outside that core.',
     ],
     feesAndValue:
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn À la carte Rewards, National Bank’s points program. The current stack is 5 points per dollar on eligible groceries and restaurants, subject to monthly spend thresholds; 2 points per dollar on gas and EV charging, recurring bills, and À la carte Travel; and 1 point per dollar on other purchases. Confirm those monthly thresholds on National Bank’s page — the sheet mentions them without listing the dollar amounts, and we will not invent a cap. Points are meant for travel through À la carte, not for a 1-cent statement credit you never look up. The $150 annual travel expense credit is a separate benefit from points: use it on eligible travel expenses as National Bank defines them, or you have donated the fee. Lounge access is also separate: unlimited National Bank Lounge at YUL, plus DragonPass for other airports in the network. If you want no foreign-transaction fees as the main travel perk, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) rather than assuming World Elite means no FX.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If National Bank is running a points offer on the live application, use that page. Do not add a first-year value that the CSV does not support. The travel credit and lounge access are ongoing benefits, not a signup bonus, and they only count if you fly.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If National Bank is running a points offer on the live application, use that page. The travel credit and lounge access are ongoing benefits, not a signup bonus, and they only count if you fly.',
     faqs: [
         {
             question: 'Is the National Bank World Elite Mastercard worth it in 2026?',

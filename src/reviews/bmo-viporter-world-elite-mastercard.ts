@@ -29,7 +29,7 @@ const review: CardEditorialReview = {
         'World Elite Mastercard acceptance includes Costco Canada and grocers that still skip American Express.',
     ],
     cons: [
-        'The detailed welcome and dollar-value columns on this row are empty even though the headline names a large wrap. Treat BMO and Porter’s application page as the offer, not three agreeing spreadsheet cells.',
+        'The headline names a large welcome bundle, but no detailed terms or dollar value are listed here yet. Treat BMO and Porter’s application page as the offer.',
         'Additional-card and insurance fields are empty. Confirm authorized-user pricing and travel coverage with BMO rather than assuming World Elite extras.',
         'VIPorter is only as useful as Porter’s network. If your year is Star Alliance or WestJet, this fee is a membership in the wrong club.',
         'We will not invent a points-per-dollar table the features row does not print. “Elevated” is not 5x until BMO’s live page says so.',
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'This card earns VIPorter points, Porter’s loyalty currency — not BMO Rewards, not CashBack dollars, and not Aeroplan. Our current features describe elevated earn on Porter purchases, travel, groceries and dining, and hotels, plus Porter status and flight perks for the primary cardholder and authorized users. We will not invent multipliers or a catch-all rate the row does not print; confirm the live BMO/Porter rate card. Redemptions are meant for Porter travel. Merchant coding still applies: a grocery banner that processes as a mass merchant, or a hotel booked through a third-party app, can miss the elevated bucket. If you want a bank currency you can park for any airline, that is Eclipse. If you want WestJet dollars, that is the WestJet RBC cobrand. If you want Marriott nights, that is Bonvoy.',
     welcomeBonus:
-        'The current welcome line in our data is a bundle: a large VIPorter points amount, a companion pass, a first-year value wrap, and a first-year fee rebate. The detailed-offer, dollar-value, and eligibility columns on this row are empty, so the CardReview snapshot may not subtract a bonus from the fee even though the headline names one. Use BMO’s application page for spend gates, companion-pass rules, and whether recent VIPorter or BMO travel clients are excluded. Do not manufacture spend to chase points if Porter trips were not already in the calendar. A companion pass you cannot seat is marketing, not value.',
+        'The current welcome line in our data is a bundle: a large VIPorter points amount, a companion pass, a first-year value wrap, and a first-year fee rebate. Because no dollar value is listed for that bundle, the first-year snapshot above does not subtract a bonus from the fee. Use BMO’s application page for spend gates, companion-pass rules, and whether recent VIPorter or BMO travel clients are excluded. Do not manufacture spend to chase points if Porter trips were not already in the calendar. A companion pass you cannot seat is marketing, not value.',
     faqs: [
         {
             question: 'Is the BMO VIPorter World Elite Mastercard worth it in 2026?',

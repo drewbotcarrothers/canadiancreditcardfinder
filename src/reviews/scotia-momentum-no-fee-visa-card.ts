@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
         'The name says No-Fee; the annual-fee column currently says $49. That is the product’s first problem, and it is a sheet-versus-nickname issue you should confirm on Scotiabank’s page before you apply for “free.”',
         'After you hit the annual spend cap on 1% categories, those purchases drop to 0.5% for the rest of the year, and everything outside the list is already 0.5%.',
         'If the [Momentum Visa](/card/scotia-momentum-visa-card/) still pays 2% on a similar stack at a similar fee, this “No-Fee” row is the worse earn mix at the same kind of price.',
-        'The two-year Scotiabank-card exclusion is among the strictest in our dataset. A Passport or Gold Amex in the last 24 months can kill the 5% offer.',
+        'The two-year Scotiabank-card exclusion is among the strictest of the cards we track. A Passport or Gold Amex in the last 24 months can kill the 5% offer.',
         'Our insurance field is empty. This is a cash-back Visa, not a travel-medical product.',
     ],
     feesAndValue:

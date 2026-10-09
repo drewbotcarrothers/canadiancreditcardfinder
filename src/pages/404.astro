@@ -1,0 +1,23 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+    title="Page not found | Canadian Credit Card Finder"
+    description="The page you were looking for could not be found."
+    noindex
+    noAds
+>
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+        <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Page not found</h1>
+        <p class="text-lg text-gray-600 mb-8">
+            That page doesn't exist or has moved. Try one of these instead:
+        </p>
+        <ul class="flex flex-wrap justify-center gap-3">
+            <li><a href="/" class="inline-flex rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600">All cards</a></li>
+            <li><a href="/finder/" class="inline-flex rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600">Card finder</a></li>
+            <li><a href="/guides/" class="inline-flex rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600">Guides</a></li>
+            <li><a href="/stacks/" class="inline-flex rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600">Stacks</a></li>
+        </ul>
+    </div>
+</BaseLayout>

@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn electronic Canadian Tire Money / Triangle Rewards, redeemable as the program defines (our detailed features describe $1-for-$1 at participating stores on the base product). World Elite’s current stack in our data is 4% at Canadian Tire family stores, 3% on groceries for the first listed annual amount, 1% on other purchases, plus fuel rewards. The base Triangle card currently lists the same 4% at CT family stores, 1.5% groceries on a $12,000-class cap, and 0.5% elsewhere — that is the comparison that matters, not a CIBC Dividend Visa. Merchant coding still applies: a grocery banner that processes as a mass merchant, or a “Canadian Tire” marketplace order, can miss 4% or 3%. Put Tire-family and grocery (up to the cap) here; put Amazon.ca on the Amazon cobrand and Loblaws on a PC Mastercard.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Canadian Tire Bank is running CT Money on the live application, use that page. Do not manufacture a first-year value the CSV does not support. The application decision is income plus credit, not a signup gift.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file.” If Canadian Tire Bank is running CT Money on the live application, use that page. The application decision is income plus credit, not a signup gift.',
     faqs: [
         {
             question: 'Is the Triangle World Elite Mastercard worth it in 2026?',

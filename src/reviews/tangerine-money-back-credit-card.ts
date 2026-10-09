@@ -30,8 +30,8 @@ const review: CardEditorialReview = {
     ],
     cons: [
         '0.5% on everything outside your chosen categories is a weak catch-all. A big-box shop or an unlisted merchant category will drag the blended rate down.',
-        'Our current sheet does not list a welcome bonus. Year-one value is just the earn rates — there is no signup cushion in this dataset.',
-        'Category definitions and how often you can change them live in Tangerine’s rules, not in our CSV. A “grocery” that codes as a warehouse club can miss the 2% bucket.',
+        'Our current sheet does not list a welcome bonus. Year-one value is just the earn rates — there is no welcome bonus listed to cushion it.',
+        'Category definitions and how often you can change them live in Tangerine’s rules, not on this page. A “grocery” that codes as a warehouse club can miss the 2% bucket.',
         'Additional-card and insurance fields are empty in our data, so we will not invent authorized-user fees or travel medical coverage.',
         'Tangerine is a digital bank. If you want a branch and a human to argue a charge, this is the wrong issuer.',
     ],
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn cash back, not points. Our data currently describes 2% in up to two chosen categories, a third 2% category if you deposit cash back into a Tangerine savings account, and 0.5% on everything else. You have to pick the categories in Tangerine’s product — they are not automatically “whatever you spent most on last month.” Merchant coding still applies: a restaurant inside a hotel, a grocery banner that processes as a superstore, or a gas station attached to a retailer can miss the 2% list. Cash back is typically redeemed into a Tangerine account. That deposit is also the lever for the third category, so people who want the cash as a credit-card statement offset and people who want three 2% buckets are making different choices. Confirm the live category list and change windows on Tangerine’s site; we will not reprint a menu that the sheet does not include.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden 20,000-point dump. If Tangerine is running a limited-time category boost or a new-client cash offer, it will be on their application page — use that, not this paragraph. The CardReview template on this site will also say no bonus is listed when the sheet is empty. Do not manufacture a first-year value that the CSV does not support.',
+        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text for this card. Treat that as “none on file,” not as a hidden 20,000-point dump. If Tangerine is running a limited-time category boost or a new-client cash offer, it will be on their application page — use that, not this paragraph.',
     faqs: [
         {
             question: 'Is the Tangerine Money-Back Credit Card worth it in 2026?',

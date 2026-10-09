@@ -30,7 +30,7 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'There is no rewards program in our data. Features and detailed features currently say N/A. You are not earning 3% groceries while you de-lever.',
-        'The welcome-value cell currently prints a large “up to” dollar wrap. That is not cash back; it is a marketing estimate of interest you might avoid on a transfer. The CardReview snapshot will look inflated if you read it as a bonus.',
+        'The welcome value currently lists a large “up to” dollar wrap. That is not cash back; it is a marketing estimate of interest you might avoid on a transfer. The first-year snapshot above will look inflated if you read it as a bonus.',
         'Cash-advance interest in our data is higher than the purchase rate. Do not use this as an ATM card and call it Preferred.',
         'Eligibility currently requires citizenship or permanent residence, age of majority, and no bankruptcy in the past seven years. Approval is still a credit decision.',
         'Our insurance field is empty. This is a low-rate Mastercard, not a travel-medical product.',

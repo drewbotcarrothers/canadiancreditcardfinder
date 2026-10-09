@@ -1,0 +1,68 @@
+---
+import LegalPage from '../../components/LegalPage.astro';
+import { getCards } from '../../lib/data';
+import { getGuides } from '../../lib/guides';
+import { HUBS } from '../../lib/hubs';
+import { CONTACT_EMAIL, OPERATOR_NAME, SITE_NAME } from '../../lib/legal';
+
+const [cards, guides] = await Promise.all([getCards(), getGuides()]);
+const issuerCount = new Set(cards.map((card) => card.issuer).filter(Boolean)).size;
+
+const title = `About ${SITE_NAME} | Who Runs the Site and How Cards Are Reviewed`;
+const description = `${SITE_NAME} is run by ${OPERATOR_NAME}, a Toronto-based personal finance expert and DIY investor. How we compare Canadian credit cards, where card details come from, and how the site makes money.`;
+---
+
+<LegalPage title={title} heading={`About ${SITE_NAME}`} description={description} breadcrumb="About" showUpdated={false}>
+    <p>
+        {SITE_NAME} is an independent Canadian website that helps people compare credit cards and pick one that
+        fits how they actually spend. It currently covers {cards.length} cards from {issuerCount} Canadian issuers,
+        with a full review for every card, {HUBS.length} "best of" lists, {guides.length} in-depth guides, a card
+        finder quiz, and a side-by-side compare tool.
+    </p>
+
+    <h2>Who runs the site</h2>
+    <p>
+        The site is run by {OPERATOR_NAME}, a personal finance expert and DIY investor based in Toronto with 19+
+        years of corporate experience. {OPERATOR_NAME} built {SITE_NAME} to make Canadian credit card offers
+        easier to compare in one place, with plain-language explanations of who each card is for and who should
+        skip it.
+    </p>
+
+    <h2>Where card details come from</h2>
+    <p>
+        Fees, interest rates, earn rates, welcome offers, and eligibility rules are compiled from each issuer's
+        own public product pages. We review card details against those issuer pages and correct them when an
+        issuer changes its terms. Every card page links to the issuer's official page so you can confirm the
+        current offer before you apply.
+    </p>
+
+    <h2>How we review cards</h2>
+    <p>Each card review looks at the same practical questions:</p>
+    <ul>
+        <li>Who the card suits, and who should skip it.</li>
+        <li>Whether the annual fee is likely to pay for itself on realistic everyday spending.</li>
+        <li>How the rewards are earned and redeemed, including category caps and points programs.</li>
+        <li>What it takes to earn the welcome bonus, and who is excluded from it.</li>
+        <li>Which other Canadian cards are worth comparing it with.</li>
+    </ul>
+    <p>
+        Our reviews and rankings are general information, not financial advice. Card offers change often, so
+        always confirm the details with the issuer.
+    </p>
+
+    <h2>How the site makes money</h2>
+    <p>
+        {SITE_NAME} is free to use. Some links on the site are affiliate links: if you click one and apply for or
+        are approved for a product, we may earn a commission at no extra cost to you. The site also shows ads
+        served by Google AdSense. These relationships help keep the site free. They may affect which cards include
+        an application link, but we aim to keep our comparisons and reviews fair and useful. We are not a bank,
+        lender, or broker, and we never see or decide on your application. See our{' '}
+        <a href="/terms/">Terms of Use</a> and <a href="/privacy/">Privacy Policy</a> for details.
+    </p>
+
+    <h2>Corrections and contact</h2>
+    <p>
+        Spotted an out-of-date fee, rate, or offer? Please tell us. Email {OPERATOR_NAME} at{' '}
+        <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or visit the <a href="/contact/">contact page</a>.
+    </p>
+</LegalPage>
