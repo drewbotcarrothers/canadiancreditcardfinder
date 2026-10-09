@@ -96,6 +96,42 @@ const GUIDE_IMAGE_ALTS: Record<string, string> = {
         'Hands with a pen, calculator, blank papers, and a blank credit card on a table in the evening, for the low interest vs rewards credit cards guide',
     'rbc-vs-td-vs-scotiabank-credit-cards':
         'Commuters crossing a street in the downtown Toronto financial district, for the RBC vs TD vs Scotiabank credit cards comparison',
+    'aeroplan-for-beginners-canada':
+        'Traveller in a winter coat sitting by an airport window with a passport on her suitcase, looking out at a plane and mountains, for the Aeroplan for beginners guide',
+    'amex-acceptance-canada':
+        'Hand holding a blank credit card at a bakery payment terminal beside a pastry case, for the Amex acceptance in Canada guide',
+    'authorized-users-credit-cards-canada':
+        'Parent handing a blank credit card to an adult child across a kitchen island, for the authorized users and additional cardholders guide',
+    'balance-transfers-explained-canada':
+        'Red and green blank cards beside a calculator and pen on a wooden desk, for the balance transfers explained guide',
+    'costco-credit-card-canada':
+        'Shopper pushing a loaded flatbed cart of produce and paper goods down a warehouse aisle, for the Costco credit card options guide',
+    'credit-card-interest-grace-period-minimum-payment-canada':
+        'Person at a kitchen table with envelopes, a blank credit card, and a wall calendar with a date circled, for the interest, grace period and minimum payment guide',
+    'credit-card-points-value-canada':
+        'Hands with a phone, notebook, blank credit card, calculator and coffee at a wooden table, for the credit card points value guide',
+    'credit-card-travel-insurance-explained-canada':
+        'Open suitcase on a bed with folded clothes, a passport, sunglasses and a blank credit card, for the credit card travel insurance guide',
+    'credit-cards-for-newcomers-canada':
+        'Newcomer opening a card envelope at a table while children with suitcases wait by the door, for the credit cards for newcomers guide',
+    'foreign-transaction-fees-canada':
+        'Traveller handing a blank credit card to a vendor at an outdoor produce market, for the foreign transaction fees guide',
+    'how-credit-scores-work-canada':
+        'Person reviewing a laptop on a living room sofa with a coffee mug nearby, for the how credit scores work in Canada guide',
+    'mobile-device-insurance-credit-cards-canada':
+        'Cracked smartphone beside a blank credit card on a wooden table, for the credit card mobile device insurance guide',
+    'pay-rent-taxes-credit-card-canada':
+        'Person at a laptop by a city window at dusk with keys and a blank credit card on the table, for the paying rent and taxes with a credit card guide',
+    'pc-optimum-explained':
+        'Shopper holding a blank card over a basket of produce in a grocery aisle, for the PC Optimum explained guide',
+    'product-switch-vs-cancel-credit-card-canada':
+        'Person on a phone call at a laptop holding a blank credit card, for the product switch vs cancel credit card guide',
+    'scene-plus-explained':
+        'Couple on a city sidewalk at night with popcorn, a grocery bag and a blank credit card, for the Scene+ explained guide',
+    'visa-infinite-world-elite-income-requirements-canada':
+        'Hand in a suit placing a blank black credit card on a restaurant bill folder, for the Visa Infinite and World Elite income requirements guide',
+    'welcome-bonus-eligibility-rules-canada':
+        'Hands with a magnifying glass over fine-print paperwork beside a gift box and blank credit card, for the welcome bonus eligibility rules guide',
 };
 
 /** Site-wide default social image (1200x630). Used until a guide gets its own featured image. */
