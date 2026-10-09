@@ -17,7 +17,7 @@ const review: CardEditorialReview = {
         'Anyone who will not revolve a balance. The purchase rate is 20.99%. Two percent will not outrun it.',
     ],
     whoShouldSkip: [
-        'Students who wanted $0 Momentum. That is [Momentum No-Fee for students](/card/scotia-momentum-no-fee-visa-card-for-students/), which currently lists an actual $0 fee in our data.',
+        'Students who wanted $0 Momentum. That is [Momentum No-Fee for students](/card/scotia-momentum-no-fee-visa-card-for-students/), which currently lists an actual $0 fee.',
         'Scene+ collectors at Sobeys. That is the student Scotia Amex or Scene+ Visa.',
         'Anyone who will revolve a balance to “build credit.” A 20.99% purchase rate erases the 2% mix immediately.',
         'International students who expected an online application. Scotiabank’s student page says to book an in-person appointment.',

@@ -9,7 +9,7 @@ const review: CardEditorialReview = {
     metaDescription:
         'Scotiabank American Express Card for students review for 2026: $0 fee, 3x Sobeys Scene+, vs adult Scotia Amex, welcome mismatch, after graduation.',
     intro:
-        'The Scotiabank American Express Card (for students) is the campus Scene+ Amex: $0 annual fee, extra cards currently at $0, 3x at Sobeys-family grocers, 2x on dining, other grocery, entertainment, gas, daily transit, and select streaming, and 1x everywhere else — the same stack as adult [Scotiabank American Express Card](/card/scotiabank-american-express-card/). Eligibility currently says you must be a student enrolled in a Canadian post-secondary institution. The welcome headline currently shouts an 80,000-class Scene+ figure you must confirm on Scotia’s page; the detailed cell currently pays 2,500 points at $250-class three-month spend and another 2,500 at $1,000-class. This review trusts the detailed gates, flags that sheet clash, and explains why a student Amex still needs a Visa backup at merchants that skip American Express.',
+        'The Scotiabank American Express Card (for students) is the campus Scene+ Amex: $0 annual fee, extra cards currently at $0, 3x at Sobeys-family grocers, 2x on dining, other grocery, entertainment, gas, daily transit, and select streaming, and 1x everywhere else — the same stack as adult [Scotiabank American Express Card](/card/scotiabank-american-express-card/). Eligibility currently says you must be a student enrolled in a Canadian post-secondary institution. The welcome headline currently shouts an 80,000-class Scene+ figure you must confirm on Scotia’s page; the detailed feature list currently pays 2,500 points at $250-class three-month spend and another 2,500 at $1,000-class. This review trusts the detailed gates, flags that listing clash, and explains why a student Amex still needs a Visa backup at merchants that skip American Express.',
     whoItsFor: [
         'Students who already shop Sobeys, Safeway, FreshCo, Foodland, or other eligible Empire-family banners, those tills take Amex, and who want 3x Scene+ without a Gold fee.',
         'People who also eat out, ride transit, stream, and go to movies, and can stack the 2x bucket on the same Amex.',
@@ -33,25 +33,25 @@ const review: CardEditorialReview = {
         'It is still American Express. Plenty of campus merchants will send you to the backup card, which then misses 3x and 2x.',
         'The welcome headline currently names an 80,000-class Scene+ figure “confirm on Scotia page” while detailed text currently totals 5,000 bonus points across two gates. We will not treat 80,000 as real. Use the detailed schedule and the live application.',
         'The two-year Scotiabank-card exclusion is the same strict rule as adult Scotia cards.',
-        'Our insurance field is empty. This is a $0 rewards Amex, not travel medical, and our features do not market it as a no-FX card the way Gold Amex is.',
+        'Check the issuer’s site for current insurance coverage. This is a $0 rewards Amex, not travel medical, and the card’s features do not market it as a no-FX card the way Gold Amex is.',
         'After graduation you are not automatically upgraded to Gold’s 6x. You inherit adult no-fee Amex terms unless you apply up.',
     ],
     feesAndValue:
-        'Our data currently lists no annual fee on the primary card and $0 on additional cards, so there is no fee to earn back. The value test is whether 3x Scene+ at eligible grocers plus 2x dining/transit beats the student Scene+ Visa’s 2x grocery (plus 2x Home Hardware and Cineplex), and whether you will later wish you had Gold’s 6x. The first-year snapshot may price the welcome-value cell’s “up to $50” wrap; that matches the detailed 5,000-class points far better than the 80,000 headline. If those banners are already the weekly shop and Amex is accepted, this is the obvious student Amex. If you needed Visa everywhere, the student Scene+ Visa is the sibling. Offers change. Pay in full.',
+        'The issuer currently lists no annual fee on the primary card and $0 on additional cards, so there is no fee to earn back. The value test is whether 3x Scene+ at eligible grocers plus 2x dining/transit beats the student Scene+ Visa’s 2x grocery (plus 2x Home Hardware and Cineplex), and whether you will later wish you had Gold’s 6x. The first-year snapshot may price the welcome-value estimate’s “up to $50” wrap; that matches the detailed 5,000-class points far better than the 80,000 headline. If those banners are already the weekly shop and Amex is accepted, this is the obvious student Amex. If you needed Visa everywhere, the student Scene+ Visa is the sibling. Offers change. Pay in full.',
     rewardsExplained:
         'You earn Scene+ points, not Membership Rewards and not cash back. The current stack matches adult no-fee Scotia Amex: 3 Scene+ per dollar at Sobeys, IGA, Safeway, Foodland, FreshCo, Voila, Thrifty Foods, and other listed Empire-family and Co-op banners; 2x on other grocery, dining, entertainment, gas, daily transit, and select streaming; 1x on everything else. Those multipliers only apply when the merchant takes Amex and the category matches. Scene+ redeems at Scene partners, Empire-family groceries, dining, entertainment, and Scene+ Travel. For 2x grocery with Visa acceptance plus Home Hardware and Cineplex 2x, that is the student Scene+ Visa. For cash back, that is student Momentum.',
     welcomeBonus:
-        'Trust the detailed offer, not the 80,000-class headline. Our detailed offer currently pays 2,500 bonus Scene+ after $250-class everyday eligible purchases in the first three months, then another 2,500 if you hit $1,000-class in that window. Value currently wraps that as up to $50. Eligibility is strict: current or former primary or secondary Scotiabank personal cardholders in the past two years, product-changers, and Scotiabank employees are not eligible. A student Scene+ Visa last year can kill this wrap. Confirm the current offer on Scotiabank’s page before you count on it.',
+        'Trust the detailed offer, not the 80,000-class headline. The detailed offer currently pays 2,500 bonus Scene+ after $250-class everyday eligible purchases in the first three months, then another 2,500 if you hit $1,000-class in that window. Value currently wraps that as up to $50. Eligibility is strict: current or former primary or secondary Scotiabank personal cardholders in the past two years, product-changers, and Scotiabank employees are not eligible. A student Scene+ Visa last year can kill this wrap. Confirm the current offer on Scotiabank’s page before you count on it.',
     faqs: [
         {
             question: 'Is the Scotiabank American Express Card for students worth it in 2026?',
             answer:
-                'It is worth it as a $0 Scene+ grocery Amex if you already shop eligible Sobeys-family stores, those tills take Amex, and you will redeem the points. It is not worth it if you needed Visa, your grocer is outside that family, or you only wanted an 80,000-point headline our detailed cell does not support.',
+                'It is worth it as a $0 Scene+ grocery Amex if you already shop eligible Sobeys-family stores, those tills take Amex, and you will redeem the points. It is not worth it if you needed Visa, your grocer is outside that family, or you only wanted an 80,000-point headline the detailed feature list does not support.',
         },
         {
             question: 'Student Scotia Amex vs adult Scotiabank American Express Card?',
             answer:
-                'Earn currently matches. Adult [Scotia Amex](/card/scotiabank-american-express-card/) currently lists a similar two-step welcome without the 80,000-class headline clash. This student row currently requires enrolment at a Canadian post-secondary school. Choose student if that is your file. Choose adult if you are not a student.',
+                'Earn currently matches. Adult [Scotia Amex](/card/scotiabank-american-express-card/) currently lists a similar two-step welcome without the 80,000-class headline clash. This student card currently requires enrolment at a Canadian post-secondary school. Choose student if that is your file. Choose adult if you are not a student.',
         },
         {
             question: 'Student Amex vs Scene+ Visa for students?',
@@ -66,7 +66,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card work at Costco?',
             answer:
-                'Costco Canada is Mastercard-only, so this American Express card will not work there. Confirm foreign-conversion treatment in the agreement; our features do not market this student Amex as a no-FX card.',
+                'Costco Canada is Mastercard-only, so this American Express card will not work there. Confirm foreign-conversion treatment in the agreement; the card’s features do not market this student Amex as a no-FX card.',
         },
     ],
     extraHubSlugs: ['rewards', 'groceries', 'no-annual-fee', 'students'],

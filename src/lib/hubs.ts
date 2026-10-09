@@ -52,7 +52,7 @@ export const HUBS: HubDefinition[] = [
         description:
             'Compare the best travel credit cards in Canada for 2026. See fees, welcome bonuses, and Aeroplan, WestJet, and hotel rewards with full card reviews.',
         intro:
-            'Choosing a travel credit card in Canada usually comes down to how you fly and how you redeem points. Airline-branded cards can be a strong fit if you already use that program, while hotel and flexible rewards cards may suit mixed travel. Weigh the annual fee against welcome bonuses, travel insurance, and lounge or companion benefits before you apply. The cards below come from our current Canadian card data and are categorized as travel — or, when the category is missing, matched by a well-known travel rewards program.',
+            'Choosing a travel credit card in Canada usually comes down to how you fly and how you redeem points. Airline-branded cards can be a strong fit if you already use that program, while hotel and flexible rewards cards may suit mixed travel. Weigh the annual fee against welcome bonuses, travel insurance, and lounge or companion benefits before you apply. The cards below are categorized as travel or earn a well-known travel rewards program.',
         navLabel: 'Travel',
         teaser: 'Airline, hotel, and flexible travel rewards',
     },

@@ -19,7 +19,7 @@ const review: CardEditorialReview = {
         'Light grocery spenders. If the supermarket is not a major bill, year two of this fee is a membership in a club you do not visit.',
         'Applicants who cannot meet Visa Infinite income. [CIBC Dividend Platinum](/card/cibc-dividend-platinum-visa-card/) and the no-fee [Dividend Visa](/card/cibc-dividend-visa-card/) sit lower on the same ladder.',
         'Air Canada collectors who applied for the wrong CIBC Infinite card. That is the [Aeroplan Visa Infinite](/card/cibc-aeroplan-visa-infinite-card/).',
-        'Anyone who revolves a balance. 4% groceries will not outrun the purchase rate in our data.',
+        'Anyone who revolves a balance. 4% groceries will not outrun the purchase rate.',
     ],
     pros: [
         '4% cash back on eligible grocery stores, gas, and EV charging is a sharper supermarket rate than TD’s 3% Infinite stack.',

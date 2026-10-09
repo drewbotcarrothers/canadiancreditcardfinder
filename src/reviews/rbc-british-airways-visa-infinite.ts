@@ -8,9 +8,9 @@ const review: CardEditorialReview = {
     metaDescription:
         'RBC British Airways Visa Infinite review for 2026: Avios earn, 3x British Airways, 2x dining, annual fee, welcome bonus, and vs Avion and WestJet.',
     intro:
-        'The RBC British Airways Visa Infinite is RBC’s Avios cobrand: three Avios per dollar on eligible British Airways purchases, two on dining and food delivery, and one on everything else, at a mid-fee Visa Infinite price. It is built for Canadians who actually fly British Airways or the wider Avios family (Aer Lingus, Iberia, and partner award seats), not for people who wanted another Avion card with a Union Flag. This RBC British Airways Visa Infinite review covers the dated welcome window in our data, why Avios is not Avion, and when [RBC Avion Visa Infinite](/card/rbc-avion-visa-infinite/) or the [WestJet RBC World Elite Mastercard](/card/westjet-rbc-world-elite-mastercard/) is the less awkward airline fit.',
+        'The RBC British Airways Visa Infinite is RBC’s Avios cobrand: three Avios per dollar on eligible British Airways purchases, two on dining and food delivery, and one on everything else, at a mid-fee Visa Infinite price. It is built for Canadians who actually fly British Airways or the wider Avios family (Aer Lingus, Iberia, and partner award seats), not for people who wanted another Avion card with a Union Flag. This RBC British Airways Visa Infinite review covers the dated welcome window, why Avios is not Avion, and when [RBC Avion Visa Infinite](/card/rbc-avion-visa-infinite/) or the [WestJet RBC World Elite Mastercard](/card/westjet-rbc-world-elite-mastercard/) is the less awkward airline fit.',
     whoItsFor: [
-        'Households that buy British Airways and British Airways Holidays directly often enough for 3x Avios (MCC 3005 in our detailed features) to move the needle.',
+        'Households that buy British Airways and British Airways Holidays directly often enough for 3x Avios (MCC 3005 in the detailed features) to move the needle.',
         'People who eat out and order delivery, and will put that spend on this Visa for the 2x dining bucket.',
         'Travellers who redeem Avios on British Airways, Iberia, Aer Lingus, or partner award charts, and who already think in Avios rather than Avion or Aeroplan.',
         'Applicants who meet Visa Infinite-style income figures in eligibility, are new to this RBC product, and pay in full.',
@@ -19,28 +19,28 @@ const review: CardEditorialReview = {
         'Anyone who does not fly British Airways or use Avios. A mid-fee Visa that pays 1x on groceries is a poor everyday card with a pretty airplane.',
         'Air Canada households. Avios will not board a Maple Leaf lounge. Compare a CIBC or TD Aeroplan cobrand instead.',
         'WestJet-only flyers. Avios is not WestJet Rewards; that cobrand is [WestJet RBC World Elite](/card/westjet-rbc-world-elite-mastercard/).',
-        'Existing RBC personal-card holders transferring onto this product. Our eligibility text currently excludes those product-changes from the welcome offer.',
+        'Existing RBC personal-card holders transferring onto this product. The eligibility terms currently exclude those product-changes from the welcome offer.',
     ],
     pros: [
         '3 Avios per dollar on eligible British Airways purchases, including BA Holidays booked directly, is the cobrand rate that justifies putting the transatlantic ticket on this Visa.',
         '2 Avios per dollar on dining and food delivery is a real everyday category, not just an airline perk — if those merchants code correctly.',
         'Avios is a transferable-within-family currency: British Airways, Iberia, Aer Lingus, and other Avios partners can be a better fit than locking into Avion’s portal.',
-        'The current welcome offer in our data is a large Avios amount with a published application window, which is clearer than some “up to” wraps that never name an end date.',
+        'The current welcome offer is a large Avios amount with a published application window, which is clearer than some “up to” wraps that never name an end date.',
         'Visa Infinite acceptance is straightforward at Canadian merchants that still skip American Express, including most grocers you will still earn 1x at.',
     ],
     cons: [
         'Base earn of 1 Avios per dollar on everything else is ordinary. Groceries, gas, and shopping need a second card if you care about category rates.',
         'Supplementary cards currently carry their own annual fee.',
-        'Our welcome-bonus value cell lists Avios, not a dollar estimate. The first-year snapshot on this page may treat that number like cash — it is not. Judge Avios on award seats, not on a fake CAD total.',
-        'Our insurance field is empty. Do not assume travel medical coverage from the Visa Infinite name.',
-        '3x only applies to purchases classified under the British Airways merchant code in our detailed features. A third-party OTA, a codeshare billed as Air Canada, or a holiday package sold by a travel agent can miss it.',
+        'The welcome-bonus value is given in Avios, not a dollar estimate. The first-year snapshot on this page may treat that number like cash — it is not. Judge Avios on award seats, not on a fake CAD total.',
+        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the Visa Infinite name.',
+        '3x only applies to purchases classified under the British Airways merchant code in the detailed features. A third-party OTA, a codeshare billed as Air Canada, or a holiday package sold by a travel agent can miss it.',
     ],
     feesAndValue:
-        'Use the fee table. The headline annual fee and the detail line currently agree at a mid-fee Infinite number, in the same neighbourhood as Avion Infinite, not Privilege money. Additional cards are extra. Set that fee beside the welcome offer — our value column currently restates the Avios total rather than a dollar figure, so the on-page “bonus minus fee” estimate can look wildly optimistic if the parser reads Avios as dollars. Year one is worth it when you are a new applicant inside the dated offer window and you will actually fly on Avios. Year two is the fee versus 3x BA tickets and 2x dining. If you book one London trip every three years, [Avion Visa Infinite](/card/rbc-avion-visa-infinite/) is the less specialised RBC travel card. Offers change; our detailed welcome cell currently names a start and end date, so do not assume the same bonus will be waiting after that window.',
+        'Use the fee table. The headline annual fee and the detail line currently agree at a mid-fee Infinite number, in the same neighbourhood as Avion Infinite, not Privilege money. Additional cards are extra. Set that fee beside the welcome offer — the welcome-value estimate currently restates the Avios total rather than a dollar figure, so the on-page “bonus minus fee” estimate can look wildly optimistic if the parser reads Avios as dollars. Year one is worth it when you are a new applicant inside the dated offer window and you will actually fly on Avios. Year two is the fee versus 3x BA tickets and 2x dining. If you book one London trip every three years, [Avion Visa Infinite](/card/rbc-avion-visa-infinite/) is the less specialised RBC travel card. Offers change; the detailed welcome terms currently name a start and end date, so do not assume the same bonus will be waiting after that window.',
     rewardsExplained:
-        'This card earns Avios, British Airways’ currency, not RBC Avion points. Eligible British Airways purchases — including British Airways Holidays made directly through British Airways, classified by Visa merchant category code 3005 in our detailed features — earn three Avios per dollar. Eligible dining and food-delivery merchants (a listed set of MCCs) earn two. All other qualifying net purchases earn one. Those codes are the whole game: a restaurant inside a hotel, a grocery-store hot bar, or a flight booked through a Canadian agency can land in 1x. Redeem Avios for British Airways award seats, partner awards, and the usual upgrades and extras. Avios transfer between participating Avios programs, which is why this cobrand exists instead of another Avion SKU. If your next long-haul is Air Canada, this is the wrong pile of points. If it is Calgary–London on British Airways, it is the right one.',
+        'This card earns Avios, British Airways’ currency, not RBC Avion points. Eligible British Airways purchases — including British Airways Holidays made directly through British Airways, classified by Visa merchant category code 3005 in the detailed features — earn three Avios per dollar. Eligible dining and food-delivery merchants (a listed set of MCCs) earn two. All other qualifying net purchases earn one. Those codes are the whole game: a restaurant inside a hotel, a grocery-store hot bar, or a flight booked through a Canadian agency can land in 1x. Redeem Avios for British Airways award seats, partner awards, and the usual upgrades and extras. Avios transfer between participating Avios programs, which is why this cobrand exists instead of another Avion SKU. If your next long-haul is Air Canada, this is the wrong pile of points. If it is Calgary–London on British Airways, it is the right one.',
     welcomeBonus:
-        'Our current sheet lists a large “up to” Avios headline, a detailed cell that limits the offer to new applications received and approved inside a dated window, and a value cell that restates the Avios total rather than a dollar estimate. Eligibility currently excludes existing cardholders on any RBC Royal Bank personal credit card account who transfer to this product. Read RBC’s live British Airways page from the apply button above — the window in our data will go stale. We will not invent a cash value per Avios. Do not product-change from Avion or WestJet RBC expecting this bonus, and do not manufacture dining spend to look busy on a cobrand you will not fly.',
+        'The issuer lists a large “up to” Avios headline, detailed terms that limit the offer to new applications received and approved inside a dated window, and a value estimate that restates the Avios total rather than a dollar estimate. Eligibility currently excludes existing cardholders on any RBC Royal Bank personal credit card account who transfer to this product. Read RBC’s live British Airways page from the apply button above — the window will go stale. Do not product-change from Avion or WestJet RBC expecting this bonus, and do not force dining spend to look busy on a cobrand you will not fly.',
     faqs: [
         {
             question: 'Is the RBC British Airways Visa Infinite worth it in 2026?',
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'What income do I need for the RBC British Airways Visa Infinite?',
             answer:
-                'Our current eligibility text asks for a minimum personal income or a higher household income, in line with typical Visa Infinite cards in Canada. Confirm the live RBC application; banks can apply extra credit and residency filters the sheet does not list.',
+                'The current eligibility text asks for a minimum personal income or a higher household income, in line with typical Visa Infinite cards in Canada. Confirm the live RBC application; banks can apply extra credit and residency filters.',
         },
     ],
     extraHubSlugs: ['travel', 'premium'],

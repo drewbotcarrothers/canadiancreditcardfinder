@@ -12,7 +12,7 @@ const review: CardEditorialReview = {
     whoItsFor: [
         'High spenders who want 1.25x Avion on groceries, dining, and retail, not just on flights, and whose annual volume makes that extra quarter-point real money.',
         'Travellers who redeem Avion toward business and first-class tickets and will use the double redemption value called out in the current features.',
-        'Applicants who meet the income test in our data (the personal and household figures are the same high bar) and pay the statement in full.',
+        'Applicants who meet the income test (the personal and household figures are the same high bar) and pay the statement in full.',
         'RBC clients who want Visa Infinite Privilege acceptance and insurance positioning without joining an airline cobrand.',
     ],
     whoShouldSkip: [
@@ -31,16 +31,16 @@ const review: CardEditorialReview = {
     cons: [
         'The annual fee is in premium-card territory. 1.25x does not automatically beat a 2–3% cash-back card after that hit.',
         'Additional cards currently carry a high annual fee of their own.',
-        'Our insurance and detailed-benefits fields are thin or empty, so this review will not invent lounge access or a travel credit that the sheet does not list.',
+        'Insurance and detailed benefits are thin or unlisted, so do not count on lounge access or a travel credit.',
         '1.25x everywhere is still not 5x dining or 5% groceries. Category specialists will earn more in their niche.',
-        'The estimated welcome value assumes you treat Avion near the sheet’s dollar figure. Statement-credit redemptions will not get you there.',
+        'The estimated welcome value assumes you treat Avion near the listed dollar figure. Statement-credit redemptions will not get you there.',
     ],
     feesAndValue:
         'Start with the annual fee in the table — it is the story of this card. Set it beside the estimated welcome-bonus value. Year one can look acceptable for a new primary cardholder who gets the approval points, hits the first-six-months spend, and is still around for the anniversary deposit. That is a long relationship to assume on day one. Year two is the fee versus an extra 0.25 Avion per dollar over the regular Infinite card, plus whatever premium-cabin redemption bonus you actually use. Run a simple check: if 0.25 points per dollar on your real spend, valued at a conservative redemption, does not clear the fee gap versus Avion Infinite, Privilege is a status purchase. Additional cards add more. Offers change. Existing RBC cardholders transferring in are ineligible for the listed offer.',
     rewardsExplained:
-        'You earn RBC Avion points at 1.25 points per dollar on qualifying purchases, according to the current features. That is the whole earn story on the sheet — there is no separate grocery or dining multiplier. The second headline is redemption: double the redemption value on business and first-class tickets. That only helps if you book those cabins through Avion’s travel channels. Redeeming Avion as a statement credit or for economy hops is how Privilege owners subsidize a fee they will not recoup. Transfers to airline partners, when available, are usually the better door for long-haul premium seats; confirm the live partner list in your RBC rewards account rather than assuming last year’s chart. If you want lounge access and a travel credit as the reason for a four-figure-class fee, compare [The Platinum Card](/card/the-platinum-card/), whose perks are the product. If you want Air Canada elite-adjacent earning, compare [TD Aeroplan Visa Infinite Privilege](/card/td-aeroplan-visa-infinite-privilege-credit-card/).',
+        'You earn RBC Avion points at 1.25 points per dollar on qualifying purchases, according to the current features. That is the whole earn story — there is no separate grocery or dining multiplier. The second headline is redemption: double the redemption value on business and first-class tickets. That only helps if you book those cabins through Avion’s travel channels. Redeeming Avion as a statement credit or for economy hops is how Privilege owners subsidize a fee they will not recoup. Transfers to airline partners, when available, are usually the better door for long-haul premium seats; confirm the live partner list in your RBC rewards account rather than assuming last year’s chart. If you want lounge access and a travel credit as the reason for a four-figure-class fee, compare [The Platinum Card](/card/the-platinum-card/), whose perks are the product. If you want Air Canada elite-adjacent earning, compare [TD Aeroplan Visa Infinite Privilege](/card/td-aeroplan-visa-infinite-privilege-credit-card/).',
     welcomeBonus:
-        'The current offer in our data is three pieces: Avion points upon approval, a second deposit if you post a listed amount of qualifying spend in the first six months, and anniversary points that post in a window after the one-year mark. You need all three to match the “up to” total. Additional cardholders, and existing RBC personal-card customers transferring to Infinite Privilege during the offer, are not eligible. That transfer exclusion matters, because a lot of Avion Infinite holders will be tempted to product-change. Read the live RBC terms. Do not manufacture $5,000-class spend if the rest of the card is not a fit.',
+        'The current offer is three pieces: Avion points upon approval, a second deposit if you post a listed amount of qualifying spend in the first six months, and anniversary points that post in a window after the one-year mark. You need all three to match the “up to” total. Additional cardholders, and existing RBC personal-card customers transferring to Infinite Privilege during the offer, are not eligible. That transfer exclusion matters, because a lot of Avion Infinite holders will be tempted to product-change. Read the live RBC terms. Do not force $5,000-class spend if the rest of the card is not a fit.',
     faqs: [
         {
             question: 'Is the RBC Avion Visa Infinite Privilege worth it in 2026?',
@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Infinite Privilege cards still add a foreign-conversion fee on foreign-currency purchases. Privilege is not marketed as a no-FX card in our features. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm RBC’s current FX rate in the agreement.',
+                'Most Canadian Visa Infinite Privilege cards still add a foreign-conversion fee on foreign-currency purchases. Privilege is not marketed as a no-FX card in the card’s features. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm RBC’s current FX rate in the agreement.',
         },
         {
             question: 'Avion Infinite Privilege vs The Platinum Card?',
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'What income do I need for Avion Infinite Privilege?',
             answer:
-                'Our current eligibility text asks for a high minimum that is the same on a personal or household basis — a stricter shape than typical “personal or higher household” Visa Infinite wording. Confirm the live RBC application. If you are under that bar, Avion Infinite is the card in this family.',
+                'The current eligibility text asks for a high minimum that is the same on a personal or household basis — a stricter shape than typical “personal or higher household” Visa Infinite wording. Confirm the live RBC application. If you are under that bar, Avion Infinite is the card in this family.',
         },
     ],
     extraHubSlugs: ['travel', 'premium'],

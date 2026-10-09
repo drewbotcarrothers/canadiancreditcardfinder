@@ -8,7 +8,7 @@ const review: CardEditorialReview = {
     metaDescription:
         'TD First Class Travel Visa Infinite Card review for 2026: TD Rewards vs Aeroplan, Expedia For TD earn, grocery and dining rates, and whether FCT is worth it.',
     intro:
-        'The TD First Class Travel Visa Infinite Card is TD’s flexible travel Infinite, not an Air Canada cobrand: TD Rewards points, a high earn rate when you book through Expedia For TD, 6x on groceries, dining, and public transit, and 4x on recurring bills and streaming. If you wanted Aeroplan, TD already issues that card under a different name. This TD First Class Travel Visa Infinite Card review unpacks the large spend-hurdle welcome in our data, the first-year fee rebate, when [TD Platinum Travel](/card/td-platinum-travel-visa-card/) is enough, and how FCT compares with [TD Aeroplan Visa Infinite](/card/td-aeroplan-visa-infinite-card/).',
+        'The TD First Class Travel Visa Infinite Card is TD’s flexible travel Infinite, not an Air Canada cobrand: TD Rewards points, a high earn rate when you book through Expedia For TD, 6x on groceries, dining, and public transit, and 4x on recurring bills and streaming. If you wanted Aeroplan, TD already issues that card under a different name. This TD First Class Travel Visa Infinite Card review unpacks the large spend-hurdle welcome, the first-year fee rebate, when [TD Platinum Travel](/card/td-platinum-travel-visa-card/) is enough, and how FCT compares with [TD Aeroplan Visa Infinite](/card/td-aeroplan-visa-infinite-card/).',
     whoItsFor: [
         'Travellers who will book hotels, cars, or packages through Expedia For TD so the 8x category is not a brochure line.',
         'Households that can put groceries, dining, and public transit on this Visa for 6x, plus recurring bills and streaming for 4x.',
@@ -19,19 +19,19 @@ const review: CardEditorialReview = {
         'Air Canada regulars who already think in Aeroplan. The [TD Aeroplan Visa Infinite Card](/card/td-aeroplan-visa-infinite-card/) credits the program you fly, at a similar Infinite fee band.',
         'Anyone who will never open Expedia For TD. Then you are paying Infinite prices for 6x grocery/dining and 2x on the airfare you bought on the airline site.',
         'Applicants who cannot meet Infinite income, or who will not hit a large first-180-days spend. [TD Platinum Travel](/card/td-platinum-travel-visa-card/) currently lists a lower fee and a gentler welcome path.',
-        'People who revolve a balance. TD Rewards will not outrun the purchase rate in our data.',
+        'People who revolve a balance. TD Rewards will not outrun the purchase rate.',
     ],
     pros: [
         '8 TD Rewards points per dollar through Expedia For TD is a serious portal rate if you were going to book that stay anyway.',
         '6x on groceries, dining, and public transit is a stronger everyday mix than most flexible-point Infinites that only bump “travel.”',
         '4x on recurring bills and streaming, then 2x on everything else, means general spend does not fall to a dead 1x.',
         'The current welcome path pays points on first purchase, a much larger dump after a high spend in 180 days, a birthday bonus, an annual TD Travel Credit when you book at Expedia For TD, and a first-year annual-fee rebate.',
-        'The first additional card currently has a fee; further additional cards show $0 in our data, which is kinder than some Infinite products if you add a second helper later.',
+        'The first additional card currently has a fee; further additional cards show $0, which is kinder than some Infinite products if you add a second helper later.',
     ],
     cons: [
-        'The big welcome chunk currently requires a high spend within 180 days. Miss it and the “up to” value in our data collapses.',
-        'TD Rewards redeemed through Expedia For TD or as a statement credit can be worth less than you hoped. Treat the sheet’s dollar wrap as marketing, not cash.',
-        'Our insurance field is empty. Do not assume travel medical coverage from the Visa Infinite name or from “First Class” in the product title.',
+        'The big welcome chunk currently requires a high spend within 180 days. Miss it and the “up to” value collapses.',
+        'TD Rewards redeemed through Expedia For TD or as a statement credit can be worth less than you hoped. Treat the listed dollar wrap as marketing, not cash.',
+        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the Visa Infinite name or from “First Class” in the product title.',
         'Eligibility currently excludes people who activated or closed a TD First Class Travel Visa Infinite account in the last 12 months.',
         'You still pay typical Visa Infinite foreign-conversion fees abroad unless TD’s agreement says otherwise — this is not Passport.',
     ],
@@ -40,7 +40,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'This card earns TD Rewards points, TD’s flexible travel currency — not Aeroplan. Purchases through Expedia For TD earn 8 points per dollar. Groceries, dining, and public transit earn 6. Recurring bill payments and streaming, digital gaming, and media earn 4. Everything else earns 2, plus an annual birthday bonus of up to a listed amount of points in the features. Those multipliers depend on merchant codes: a warehouse club, a restaurant inside a grocer, a bill you pay by e-transfer, or a flight bought on westjet.com can miss the bonus bucket. Points are meant for travel through Expedia For TD and TD’s redemption menu. If you already collect Aeroplan, putting this card next to an Aeroplan cobrand means two TD Infinite fees unless each has a job. FCT is the “I do not know which airline” card; Aeroplan Infinite is the “I fly Air Canada” card.',
     welcomeBonus:
-        'The current offer in our data is several pieces: TD Rewards points on the first purchase, a much larger deposit when you spend a listed amount within 180 days of opening, a birthday bonus of up to a listed amount, an annual TD Travel Credit when you book at Expedia For TD, and a first-year annual-fee rebate. You need the spend hurdle to match the headline “up to” value. Eligibility currently excludes customers who activated and/or closed a TD First Class Travel Visa Infinite account in the last 12 months. Hit the 180-day number with a planned trip and grocery you would buy anyway; do not manufacture $7,500-class spend if that is not already in the budget.',
+        'The current offer is several pieces: TD Rewards points on the first purchase, a much larger deposit when you spend a listed amount within 180 days of opening, a birthday bonus of up to a listed amount, an annual TD Travel Credit when you book at Expedia For TD, and a first-year annual-fee rebate. You need the spend hurdle to match the headline “up to” value. Eligibility currently excludes customers who activated and/or closed a TD First Class Travel Visa Infinite account in the last 12 months. Hit the 180-day number with a planned trip and grocery you would buy anyway; do not force $7,500-class spend if that is not already in the budget.',
     faqs: [
         {
             question: 'Is the TD First Class Travel Visa Infinite Card worth it in 2026?',

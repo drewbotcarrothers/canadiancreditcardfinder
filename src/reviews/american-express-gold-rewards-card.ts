@@ -13,7 +13,7 @@ const review: CardEditorialReview = {
         'Households that put Canadian groceries, gas, and drugstore purchases on one card and want 2x Membership Rewards instead of 1% cash back.',
         'Travellers who book flights, hotels, and car rentals often enough to use the 2x travel category, plus the extra point on eligible Amex Travel Online bookings.',
         'Occasional travellers who will actually use a yearly Amex Travel credit, a handful of Plaza Premium lounge visits in Canada, and the NEXUS credit.',
-        'Couples who can use the first additional Gold Rewards card — our data currently treats that extra card as included, with a fee for further cards.',
+        'Couples who can use the first additional Gold Rewards card — that extra card is currently included, with a fee for further cards.',
         'People building a Membership Rewards balance who may later upgrade or add Platinum without splitting currencies.',
     ],
     whoShouldSkip: [
@@ -29,7 +29,7 @@ const review: CardEditorialReview = {
         'Lounge perks Cobalt does not have: a Priority Pass membership with the membership fee waived, and four complimentary Plaza Premium lounge visits per calendar year in Canada (guests can use them).',
         'Travel insurance includes trip cancellation, trip interruption, emergency medical for cardholders under 65, car rental theft and damage, baggage and delay coverage, and $500,000 travel accident insurance.',
         'The first additional Gold Rewards card is a meaningful household perk compared with cobrands that charge for every extra card.',
-        'Welcome-bonus value in our data is large relative to the annual fee, so a new cardmember who hits the offer can come out ahead in year one before ongoing earn.',
+        'Welcome-bonus value is large relative to the annual fee, so a new cardmember who hits the offer can come out ahead in year one before ongoing earn.',
         'Points sit in Membership Rewards, which remains one of the more flexible Canadian currencies if you redeem toward travel partners.',
     ],
     cons: [
@@ -37,14 +37,14 @@ const review: CardEditorialReview = {
         'You are still on American Express. Keep a Visa or Mastercard for the grocer, clinic, or online checkout that refuses Amex.',
         'The annual fee is real after the first year. If grocery spend is modest, a no-fee cash-back card will be simpler.',
         'Lounge access is limited: each Priority Pass visit is charged at the prevailing rate, and only four Plaza Premium visits per calendar year in Canada are complimentary. Do not buy Gold as a budget Platinum.',
-        'Welcome-bonus terms are thin in our detailed field — always read the live offer on the application page, not just the headline point total.',
+        'Welcome-bonus terms are thin in the detailed feature list — always read the live offer on the application page, not just the headline point total.',
     ],
     feesAndValue:
         'Gold Rewards sits in the middle of the Amex Canada stack: more expensive than Cobalt’s monthly fee if you never eat out, cheaper than Platinum by a wide margin, and easier to justify if 2x groceries and gas run all year. Compare the annual fee in the table above with the estimated welcome-bonus value, then subtract the $100 annual travel credit only if you will book at least one trip through Amex Travel Online each year. If you are new to the card and you actually complete the offer, year one can look attractive on paper; year two is only the fee versus ongoing 2x earn. The first additional card currently listed as included is part of that math for couples. Offers change, first-year waivers are not guaranteed, and none of this is a reason to carry a balance at the purchase rate shown above.',
     rewardsExplained:
         'Gold Rewards earns Membership Rewards points. Eligible travel — flights, hotels, car rentals, cruises, and similar — earns two points per dollar. Eligible gas, grocery, and drugstore purchases in Canada also earn two. Everything else, including most dining, earns one. Eligible hotel or car-rental bookings through Amex Travel Online can earn an additional point on top of the regular rate. “Grocery” and “drugstore” follow American Express merchant category codes, not your receipt: a big-box store, a liquor store, or a pharmacy counter inside a grocer can code differently. Redeem through statement credits if you want simplicity, or transfer to airline and hotel partners if you want more cents per point. If Air Canada is your only airline, also look at the [American Express Aeroplan Card](/card/american-express-aeroplan-card/) so you are not converting currencies just to sit in the same Star Alliance seat.',
     welcomeBonus:
-        'Our data currently lists a large Membership Rewards welcome amount with an estimated dollar value, and it flags current or former Gold Rewards cardmembers as ineligible. The detailed how-to-unlock text is not filled in on the sheet, so treat the headline as a cap, not a set of spend steps. American Express Canada bonuses usually require a minimum spend in the first months of membership and sometimes a later “anniversary” spend window. Open the issuer’s offer page from the apply button above, write down the spend hurdle and deadline, and do not apply if you cannot hit them with planned purchases. Never inflate spend just to chase points.',
+        'The issuer currently lists a large Membership Rewards welcome amount with an estimated dollar value, and it flags current or former Gold Rewards cardmembers as ineligible. No detailed how-to-unlock steps are listed, so treat the headline as a cap, not a set of spend steps. American Express Canada bonuses usually require a minimum spend in the first months of membership and sometimes a later “anniversary” spend window. Open the issuer’s offer page from the apply button above, write down the spend hurdle and deadline, and do not apply if you cannot hit them with planned purchases. Never inflate spend just to chase points.',
     faqs: [
         {
             question: 'Is the American Express Gold Rewards Card worth it?',
@@ -54,7 +54,7 @@ const review: CardEditorialReview = {
         {
             question: 'What is the Gold Rewards annual fee, and is the extra card free?',
             answer:
-                'Use the fee table on this page for the current primary-card annual fee. Our data also lists a free additional Gold Rewards card with a fee for further extras. That household structure is one of Gold’s better features — confirm it on the application, because additional-card pricing changes.',
+                'Use the fee table on this page for the current primary-card annual fee. The first additional Gold Rewards card is currently free, with a fee for further extras. That household structure is one of Gold’s better features — confirm it on the application, because additional-card pricing changes.',
         },
         {
             question: 'Does Gold Rewards charge foreign-exchange fees?',

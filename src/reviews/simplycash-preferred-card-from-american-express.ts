@@ -9,39 +9,39 @@ const review: CardEditorialReview = {
     metaDescription:
         'SimplyCash Preferred Card from American Express review for 2026: 2% cash back, 4% gas and grocery caps, monthly fee, and vs the no-fee SimplyCash Card.',
     intro:
-        'The SimplyCash Preferred Card from American Express is the paid sibling of Amex’s no-fee cash-back card: a monthly fee in our data, 4% on eligible gas and grocery (with annual caps you must confirm on Amex’s page), and 2% on everything else. It is for people who want a flat-ish cash-back Amex rather than Membership Rewards on Cobalt or Gold. This SimplyCash Preferred review explains when that 2% catch-all actually clears the fee versus the [SimplyCash Card](/card/simplycash-card-from-american-express/), why our welcome-bonus columns are empty, and when a Visa grocery Infinite is less hassle at merchants that still skip American Express.',
+        'The SimplyCash Preferred Card from American Express is the paid sibling of Amex’s no-fee cash-back card: a monthly fee, 4% on eligible gas and grocery (with annual caps you must confirm on Amex’s page), and 2% on everything else. It is for people who want a flat-ish cash-back Amex rather than Membership Rewards on Cobalt or Gold. This SimplyCash Preferred review explains when that 2% catch-all actually clears the fee versus the [SimplyCash Card](/card/simplycash-card-from-american-express/), why no welcome bonus is listed, and when a Visa grocery Infinite is less hassle at merchants that still skip American Express.',
     whoItsFor: [
         'Households that put most of the month on American Express and want 2% cash back on the pile that is not grocery or gas, not 5x dining points.',
         'People who spend enough on eligible gas and grocery to use the 4% category before the annual cap, and who shop banners that actually take Amex.',
-        'Couples who can add extra cards at no annual fee — our data currently lists additional cards at $0.',
-        'Cardholders who pay in full. The purchase rate in our data is a typical Amex rewards rate, not a cheap revolver.',
+        'Couples who can add extra cards at no annual fee — the issuer currently lists additional cards at $0.',
+        'Cardholders who pay in full. The purchase rate is a typical Amex rewards rate, not a cheap revolver.',
     ],
     whoShouldSkip: [
         'Light spenders who will not clear the monthly fee with the gap between 2% and the no-fee SimplyCash rate. Do the math before you “upgrade.”',
         'Shoppers whose grocer, gas station, or clinic still declines American Express. 4% you cannot swipe is 0%.',
-        'Membership Rewards collectors. Preferred pays cash back, typically as an annual statement credit in our detailed features — not transferable points.',
-        'Anyone applying only for a welcome bonus. Our current sheet does not list one.',
+        'Membership Rewards collectors. Preferred pays cash back, typically as an annual statement credit in the detailed features — not transferable points.',
+        'Anyone applying only for a welcome bonus. None is currently listed.',
     ],
     pros: [
         '2% cash back on purchases outside the grocery/gas bonus is a strong Canadian catch-all, which is the real argument against the $0 SimplyCash Card’s 1.25% rate on non-gas, non-grocery spend.',
         '4% on eligible gas and grocery (capped annually) is competitive with paid bank Infinites if those merchants take Amex and you stay under the cap.',
         'Additional cards currently show no annual fee, so a partner can help hit the 2% pile without a second membership.',
-        'You can pay the fee monthly ($9.99-class in our detail) instead of one January shock, which some households prefer even though the year still adds up.',
+        'You can pay the fee monthly ($9.99-class) instead of one January shock, which some households prefer even though the year still adds up.',
         'American Express cash back is simple: no award chart, no partner transfer, no Scene+ login.',
     ],
     cons: [
         'It is still American Express. Costco Canada is Mastercard-only. Plenty of grocers and small merchants will send you to the backup card, which then misses 4% and 2%.',
-        'The 4% grocery and gas rates are capped annually. Our features tell you to confirm current caps on the issuer page — we will not invent a dollar ceiling.',
-        'Cash back is typically applied annually as a statement credit in our detailed features, not every statement. If you wanted monthly cash, this payout rhythm may annoy you.',
-        'Our current sheet does not list a welcome bonus, detailed offer, dollar value, or extra eligibility beyond residency and age of majority.',
-        'Our insurance field is empty. Do not assume travel medical coverage from the American Express name.',
+        'The 4% grocery and gas rates are capped annually. The card’s features tell you to confirm current caps on the issuer page.',
+        'Cash back is typically applied annually as a statement credit in the detailed features, not every statement. If you wanted monthly cash, this payout rhythm may annoy you.',
+        'This card currently lists no welcome bonus, detailed offer, dollar value, or extra eligibility beyond residency and age of majority.',
+        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the American Express name.',
     ],
     feesAndValue:
-        'Our data shows a monthly fee that adds up to a mid-$100 annual total. The no-fee [SimplyCash Card](/card/simplycash-card-from-american-express/) pays 2% at stand-alone gas stations and grocery stores in Canada on up to $15,000 in combined purchases a year ($300), then 1.25% on other purchases, with a welcome of up to $100. Preferred is worth the fee when the extra cash back — the gap from 1.25% to 2% on general spend, and from 2% to 4% on capped gas and grocery — exceeds the annual fee. If your Amex-able spend is small, or half of it gets declined, stay on the $0 SimplyCash Card. The first-year snapshot on this page will not show a signup cushion because Preferred’s welcome-bonus columns are empty. There is no first-year fee rebate in our data. Offers change. Pay in full.',
+        'The issuer shows a monthly fee that adds up to a mid-$100 annual total. The no-fee [SimplyCash Card](/card/simplycash-card-from-american-express/) pays 2% at stand-alone gas stations and grocery stores in Canada on up to $15,000 in combined purchases a year ($300), then 1.25% on other purchases, with a welcome of up to $100. Preferred is worth the fee when the extra cash back — the gap from 1.25% to 2% on general spend, and from 2% to 4% on capped gas and grocery — exceeds the annual fee. If your Amex-able spend is small, or half of it gets declined, stay on the $0 SimplyCash Card. The first-year snapshot on this page will not show a signup cushion because Preferred lists no welcome bonus. There is no first-year fee rebate. Offers change. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not Membership Rewards. The current stack in our features is 4% on eligible gas and grocery purchases, with annual caps you must confirm on American Express’s page, and 2% on all other purchases. Those percentages only apply when the merchant takes Amex and codes into those categories. A warehouse club (Costco will not take this card), a grocer that processes as a mass merchant, or a gas station inside a grocery banner can miss 4%. Our detailed features say cash back is typically applied annually as a statement credit. If you want 5x dining points instead, that is [Cobalt](/card/american-express-cobalt-card/). If you want 4% grocery on a Visa that more Canadian supermarkets take, compare [CIBC Dividend Visa Infinite](/card/cibc-dividend-visa-infinite-card/). Preferred is the Amex for people who already live on the network and want cash, not points.',
+        'This card pays cash back, not Membership Rewards. The current stack in the card’s features is 4% on eligible gas and grocery purchases, with annual caps you must confirm on American Express’s page, and 2% on all other purchases. Those percentages only apply when the merchant takes Amex and codes into those categories. A warehouse club (Costco will not take this card), a grocer that processes as a mass merchant, or a gas station inside a grocery banner can miss 4%. The detailed features say cash back is typically applied annually as a statement credit. If you want 5x dining points instead, that is [Cobalt](/card/american-express-cobalt-card/). If you want 4% grocery on a Visa that more Canadian supermarkets take, compare [CIBC Dividend Visa Infinite](/card/cibc-dividend-visa-infinite-card/). Preferred is the Amex for people who already live on the network and want cash, not points.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or a special eligibility note beyond being a Canadian resident of the age of majority with a Canadian credit file. Treat that as “none on file” for Preferred. If American Express is running a statement-credit offer on the live Preferred page, use that page. Do not manufacture a first-year value the Preferred row does not support. The no-fee SimplyCash Card does have a separate welcome of up to $100 (bonus 5% on the first $2,000 in purchases, or the first 3 months, whichever comes first). Compare the two cards on ongoing rates, not on that $100.',
+        'This card currently lists no welcome bonus, detailed offer, dollar value, or special eligibility note beyond being a Canadian resident of the age of majority with a Canadian credit file. Treat that as “none on file” for Preferred. If American Express is running a statement-credit offer on the live Preferred page, use that page. The no-fee SimplyCash Card does have a separate welcome of up to $100 (bonus 5% on the first $2,000 in purchases, or the first 3 months, whichever comes first). Compare the two cards on ongoing rates, not on that $100.',
     faqs: [
         {
             question: 'Is the SimplyCash Preferred Card worth it in 2026?',

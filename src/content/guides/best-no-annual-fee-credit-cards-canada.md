@@ -19,7 +19,7 @@ relatedCardSlugs:
 
 A $0 annual fee is not the same as free credit. Purchase interest on Canadian rewards cards is still expensive. If you revolve a balance, a [low-interest card](/guides/low-interest-vs-rewards-credit-cards-canada/) beats any of these earn rates.
 
-Browse the live list on the [no-annual-fee hub](/best/no-annual-fee/). Fees in our data can move; this guide tells you how to choose, then sends you to card pages for current numbers.
+Browse the live list on the [no-annual-fee hub](/best/no-annual-fee/). Fees can move; this guide tells you how to choose, then sends you to card pages for current numbers.
 
 ## When $0 is the right answer
 
@@ -38,7 +38,7 @@ A paid card can still be cheaper *in rewards* if you spend heavily in a 4% groce
 | You want a Visa that just works | [Simplii Cash Back Visa](/card/simplii-financial-cash-back-visa/) | Flat-ish cash back, no category homework |
 | You already use Amex and want cash, not points | [SimplyCash Card](/card/simplycash-card-from-american-express/) | No January fee; 2% at stand-alone gas and grocery up to $15,000 a year, 1.25% on other purchases |
 | Empire grocers + movies, not cash back | [Scene+ Visa](/card/scotiabank-scene-plus-visa-card/) | 2x at eligible Sobeys-family stores |
-| Loblaws-family banners + Optimum | [PC Mastercard](/card/pc-mastercard/) or [PC World Elite](/card/pc-world-elite-mastercard/) if you qualify | $0 Optimum earn; World Elite is still no fee in our data |
+| Loblaws-family banners + Optimum | [PC Mastercard](/card/pc-mastercard/) or [PC World Elite](/card/pc-world-elite-mastercard/) if you qualify | $0 Optimum earn; World Elite is still no fee |
 | Rogers, Fido, or Shaw bills | [Rogers Red Mastercard](/card/rogers-red-mastercard/) | Bill-credit style earning on a $0 card |
 | Amazon.ca is a real budget line | [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/) | Store-focused earn; confirm the live rate |
 
@@ -48,15 +48,15 @@ Income tests still apply on some $0 World Elite products. “No annual fee” is
 
 Tangerine lets you pick bonus categories for a higher cash-back rate (2% in our current review) and pays a low rate on everything else (0.5% in that same review). A third 2% category can unlock if you deposit cash back into a Tangerine savings account — useful if you already bank there, easy to miss if you do not.
 
-There is often no welcome bonus in our sheet. Year-one value is the earn rate. That is fine: you are not financing a signup chase. Category lists and how often you can change them live in Tangerine’s rules. A warehouse club or a grocer that codes as a mass merchant can miss “grocery.”
+There is often no welcome bonus. Year-one value is the earn rate. That is fine: you are not financing a signup chase. Category lists and how often you can change them live in Tangerine’s rules. A warehouse club or a grocer that codes as a mass merchant can miss “grocery.”
 
-The [Tangerine Money-Back World Mastercard](/card/tangerine-money-back-world-mastercard/) is the higher-income sibling, still $0 in our data, with World Mastercard extras. Do not apply for World if you cannot meet the income test; the original card is the everyday product.
+The [Tangerine Money-Back World Mastercard](/card/tangerine-money-back-world-mastercard/) is the higher-income sibling, still $0, with World Mastercard extras. Do not apply for World if you cannot meet the income test; the original card is the everyday product.
 
 Mastercard acceptance is the practical advantage over any no-fee Amex. Costco Canada wants Mastercard. Many clinics and independent grocers still skip American Express.
 
 ## Simplii and other flat cash-back Visas
 
-Simplii’s Cash Back Visa is a CIBC-adjacent digital-bank card: no annual fee in our data, cash back rather than travel points, and Visa acceptance. It is the card you keep when you do not want to manage Tangerine categories and you do not collect Scene+ or Optimum.
+Simplii’s Cash Back Visa is a CIBC-adjacent digital-bank card: no annual fee, cash back rather than travel points, and Visa acceptance. It is the card you keep when you do not want to manage Tangerine categories and you do not collect Scene+ or Optimum.
 
 Compare the live earn rate on the [Simplii page](/card/simplii-financial-cash-back-visa/) with Tangerine’s 0.5% catch-all. If your spend is scattered across many merchant types, a modest flat rate can beat a 2% / 0.5% blend. If two categories cover most of the month, Tangerine usually wins.
 
@@ -74,8 +74,8 @@ You still need a Visa or Mastercard for Costco and for merchants that decline Am
 
 A $0 card that pays *points* is still a no-annual-fee card. It is not cash back.
 
-- **Scene+ Visa** pays 2x at eligible Sobeys, Safeway, IGA, Foodland, participating Co-ops, and 1x elsewhere in our current features. Redeem at Cineplex, groceries, or Scene+ Travel. If you never shop those banners, the 2x line does nothing.
-- **PC Financial Mastercards** earn PC Optimum. [PC World Elite](/card/pc-world-elite-mastercard/) is $0 in our data with a World Elite income bar. If you shop Metro, Sobeys, or Costco as your main grocer, Optimum is the wrong currency.
+- **Scene+ Visa** pays 2x at eligible Sobeys, Safeway, IGA, Foodland, participating Co-ops, and 1x elsewhere in the current features. Redeem at Cineplex, groceries, or Scene+ Travel. If you never shop those banners, the 2x line does nothing.
+- **PC Financial Mastercards** earn PC Optimum. [PC World Elite](/card/pc-world-elite-mastercard/) is $0 with a World Elite income bar. If you shop Metro, Sobeys, or Costco as your main grocer, Optimum is the wrong currency.
 - **Rogers Red** can apply earning to a Rogers-brand bill. That is valuable if the bill is real and useless if you are on another carrier.
 
 Do not pick a store program because the marketing looks like cash. You will redeem where the program lets you.
@@ -84,7 +84,7 @@ Do not pick a store program because the marketing looks like cash. You will rede
 
 Most Canadian student cards are $0. That does not mean you should grab a random student Visa. Eligibility is usually enrolment (and sometimes age 18–24 or citizenship). After graduation, issuers move you to the adult product — sometimes with a fee. Read [best student credit cards](/guides/best-student-credit-cards-canada/) if you are in school; the [students hub](/best/students/) lists the live set.
 
-International students should read eligibility cells. Some Scotiabank student rows require citizenship or permanent residence; some CIBC and BMO rows are more flexible. Do not assume “student” means “any study permit.”
+International students should read the eligibility text. Some Scotiabank student cards require citizenship or permanent residence; some CIBC and BMO cards are more flexible. Do not assume “student” means “any study permit.”
 
 ## The $0 card that is the wrong product
 

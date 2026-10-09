@@ -13,34 +13,34 @@ const review: CardEditorialReview = {
         'People who will transfer a balance within 90 days of opening, can live with whatever transfer fee the live page names, and will repay that transfer before the 12-month 0% window ends.',
         'Applicants who want a Mastercard they can take to Costco while they de-lever, without a Gold membership.',
         'Anyone who compared BMO Preferred Rate’s 13.99%-class ongoing rate and would rather start at MBNA’s $0 12.99%-class floor after the teaser.',
-        'People who pay attention to provincial offer variation — our welcome line currently flags that the 0% window may vary by province.',
+        'People who pay attention to provincial offer variation — the welcome offer currently flags that the 0% window may vary by province.',
     ],
     whoShouldSkip: [
         'Anyone who pays in full every month. A 12.99%-class rate does nothing if you never pay interest; [Smart Cash Platinum Plus](/card/mbna-smart-cash-platinum-plus-mastercard/) currently lists $0 grocery/gas cash back for that habit.',
         'People who will revolve for years after the teaser. [True Line Gold](/card/mbna-true-line-gold-mastercard/) currently lists 10.99% at $39 — do that math.',
-        'Rewards collectors. Our rewards field is N/A.',
-        'Anyone chasing a cash signup bonus. Value and detailed welcome cells are empty; 0% is not a dollar wrap.',
+        'Rewards collectors. There is no rewards program.',
+        'Anyone chasing a cash signup bonus. No value estimate or detailed welcome terms are listed; 0% is not a dollar wrap.',
     ],
     pros: [
-        'No annual fee in our data, so the 12.99%-class ongoing rate does not have to beat a membership first.',
-        'The current welcome line is a long 0% transfer window (12 months) if you complete the transfer within 90 days — longer than several Big Five teasers on our sheet.',
+        'No annual fee, so the 12.99%-class ongoing rate does not have to beat a membership first.',
+        'The current welcome line is a long 0% transfer window (12 months) if you complete the transfer within 90 days — longer than several Big Five teasers.',
         'Mastercard acceptance includes Costco Canada, unlike TD and CIBC low-rate Visas.',
         'Additional cards currently show $0.',
         'You can step to True Line Gold later if the ongoing rate gap would clear $39. This $0 card is the on-ramp.',
     ],
     cons: [
-        'There is no rewards program in our data. Features currently say balance-transfer focused; no rewards.',
-        'Welcome detail, value, eligibility, and insurance cells are empty. Confirm transfer fees, caps, and provincial rules on MBNA’s page.',
-        'Cash-advance interest in our data is a 24.99%-class figure — much higher than purchases. Do not take cash and call it True Line.',
+        'There is no rewards program. Features currently say balance-transfer focused; no rewards.',
+        'No detailed welcome terms, value, eligibility terms, or insurance are currently listed. Confirm transfer fees, caps, and provincial rules on MBNA’s page.',
+        'Cash-advance interest is a 24.99%-class figure — much higher than purchases. Do not take cash and call it True Line.',
         'A 0% window that “may vary by province” is a real compliance footnote, not boilerplate you can ignore in Quebec or elsewhere.',
-        'Our insurance field is empty. This is a low-rate Mastercard, not travel medical.',
+        'Check the issuer’s site for current insurance coverage. This is a low-rate Mastercard, not travel medical.',
     ],
     feesAndValue:
         'The fee table shows $0; extra cards currently show $0. There is no welcome-bonus value, so the first-year snapshot will not look like a cash gift — 0% is not a deposit. Year one is $0 plus 0% on a qualifying transfer minus any transfer fee. Year two is 12.99% with no teaser. If you will still revolve then, Gold’s 10.99% minus $39 can win on a large leftover balance; run the numbers. If you pay in full, Smart Cash Platinum Plus at $0 is the better MBNA card. If you needed a Big Five transfer teaser with a printed fee rebate, BMO Preferred Rate currently lists that shape. Offers change. Pay the promo down before it ends.',
     rewardsExplained:
-        'This card does not pay Smart Cash or MBNA Rewards in our data. Rewards currently say N/A. Put a transfer or a revolving balance here. Put grocery you pay in full on [MBNA Smart Cash Platinum Plus Mastercard](/card/mbna-smart-cash-platinum-plus-mastercard/) or [Tangerine Money-Back](/card/tangerine-money-back-credit-card/). Put Amazon.ca spend on the [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/). Costco will take this Mastercard; warehouse spend still accrues at the purchase rate with no earn mix on our sheet.',
+        'This card does not pay Smart Cash or MBNA Rewards. Rewards currently say N/A. Put a transfer or a revolving balance here. Put grocery you pay in full on [MBNA Smart Cash Platinum Plus Mastercard](/card/mbna-smart-cash-platinum-plus-mastercard/) or [Tangerine Money-Back](/card/tangerine-money-back-credit-card/). Put Amazon.ca spend on the [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/). Costco will take this Mastercard; warehouse spend still accrues at the purchase rate with no earn mix.',
     welcomeBonus:
-        'The current welcome line is 0% promotional AIR for 12 months on balance transfers completed within 90 days of account opening, with conditions, and it may vary by province. Detailed, value, and eligibility cells are empty. Confirm the transfer fee, minimum, and cap on MBNA’s page. Do not treat 0% as a reason to move a balance you cannot repay. Do not invent a cash bonus.',
+        'The current welcome line is 0% promotional AIR for 12 months on balance transfers completed within 90 days of account opening, with conditions, and it may vary by province. No detailed terms, value estimate, or eligibility terms are listed. Confirm the transfer fee, minimum, and cap on MBNA’s page. Do not treat 0% as a reason to move a balance you cannot repay. Do not expect a cash bonus.',
     faqs: [
         {
             question: 'Is the MBNA True Line Mastercard worth it in 2026?',
@@ -50,7 +50,7 @@ const review: CardEditorialReview = {
         {
             question: 'True Line vs True Line Gold?',
             answer:
-                '[True Line Gold](/card/mbna-true-line-gold-mastercard/) currently lists a 10.99%-class purchase rate at a $39-class fee with no teaser on our sheet. This card currently lists 12.99% at $0 plus a 0% transfer window. Choose Gold if you will revolve past year one on a large balance. Choose this $0 card if the teaser is the point or the leftover will be small.',
+                '[True Line Gold](/card/mbna-true-line-gold-mastercard/) currently lists a 10.99%-class purchase rate at a $39-class fee with no teaser. This card currently lists 12.99% at $0 plus a 0% transfer window. Choose Gold if you will revolve past year one on a large balance. Choose this $0 card if the teaser is the point or the leftover will be small.',
         },
         {
             question: 'True Line vs BMO Preferred Rate vs TD Low Rate?',
@@ -60,12 +60,12 @@ const review: CardEditorialReview = {
         {
             question: 'Should I use this if I pay in full?',
             answer:
-                'No. A low purchase rate only saves money when you pay interest. If you pay in full, [MBNA Smart Cash Platinum Plus](/card/mbna-smart-cash-platinum-plus-mastercard/) currently lists $0 grocery/gas cash back, which this row does not.',
+                'No. A low purchase rate only saves money when you pay interest. If you pay in full, [MBNA Smart Cash Platinum Plus](/card/mbna-smart-cash-platinum-plus-mastercard/) currently lists $0 grocery/gas cash back, which this card does not.',
         },
         {
             question: 'Does this card work at Costco?',
             answer:
-                'Yes on network: it is a Mastercard. Warehouse spend still sits at the purchase rate with no rewards in our data. Confirm any transfer-promo exclusions on Costco-related cash-like transactions in MBNA’s terms.',
+                'Yes on network: it is a Mastercard. Warehouse spend still sits at the purchase rate with no rewards. Confirm any transfer-promo exclusions on Costco-related cash-like transactions in MBNA’s terms.',
         },
     ],
     extraHubSlugs: ['low-interest', 'no-annual-fee'],

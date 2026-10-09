@@ -9,17 +9,17 @@ const review: CardEditorialReview = {
     metaDescription:
         'TD Aeroplan Visa Infinite Privilege review for 2026: premium fee, 2x Air Canada earn, welcome bonus, income requirements, and vs Amex Aeroplan Reserve.',
     intro:
-        'The TD Aeroplan Visa Infinite Privilege Credit Card is TD’s top personal Aeroplan cobrand: higher earn rates than the regular Infinite card, a premium-tier annual fee, and Visa Infinite Privilege acceptance. It is meant for high-income Air Canada travellers who already spend enough on groceries, dining, gas, and tickets to notice 1.5x and 2x. This review separates the headline fee from the higher ongoing amount in our detail field, explains the three-part welcome bonus, and compares Privilege with [TD Aeroplan Visa Infinite](/card/td-aeroplan-visa-infinite-card/) and [American Express Aeroplan Reserve](/card/american-express-aeroplan-reserve-card/).',
+        'The TD Aeroplan Visa Infinite Privilege Credit Card is TD’s top personal Aeroplan cobrand: higher earn rates than the regular Infinite card, a premium-tier annual fee, and Visa Infinite Privilege acceptance. It is meant for high-income Air Canada travellers who already spend enough on groceries, dining, gas, and tickets to notice 1.5x and 2x. This review separates the headline fee from the higher ongoing amount in the detailed feature list, explains the three-part welcome bonus, and compares Privilege with [TD Aeroplan Visa Infinite](/card/td-aeroplan-visa-infinite-card/) and [American Express Aeroplan Reserve](/card/american-express-aeroplan-reserve-card/).',
     whoItsFor: [
         'Frequent Air Canada flyers who meet the personal or household income thresholds in the eligibility section and want 2x Aeroplan on eligible Air Canada and Air Canada Vacations purchases.',
         'Households that will also use 1.5x on eligible gas, EV charging, groceries, travel, transit, and dining — the categories that make Privilege more than an airline card.',
         'TD All-Inclusive Banking Plan customers who can use the fee discount described in the current annual-fee detail.',
-        'People replacing a lower-tier TD Aeroplan card because they have outgrown the Infinite bonus-category cap and want a higher base rate on everything else (1.25x in our data).',
+        'People replacing a lower-tier TD Aeroplan card because they have outgrown the Infinite bonus-category cap and want a higher base rate on everything else (1.25x).',
     ],
     whoShouldSkip: [
         'Anyone who does not already spend like a premium-cardholder. The fee only works if 2x tickets and 1.5x everyday categories are real, not aspirational.',
         'Applicants below the income bar. Visa Infinite Privilege products are income-gated for a reason.',
-        'Bonus hunters who have already taken an Aeroplan cobrand incentive with TD or another issuer of the same category. Aeroplan’s terms, quoted in our eligibility text, can block or claw back welcome points.',
+        'Bonus hunters who have already taken an Aeroplan cobrand incentive with TD or another issuer of the same category. Aeroplan’s terms, quoted in the eligibility terms, can block or claw back welcome points.',
         'Travellers who want no foreign-transaction fees as the main feature — look at Passport, not this cobrand.',
     ],
     pros: [
@@ -30,18 +30,18 @@ const review: CardEditorialReview = {
         'A TD banking-plan discount, when you actually have the qualifying account, can take a visible bite out of the sticker fee.',
     ],
     cons: [
-        'This is a high-fee card. Our headline Annual_Fee column currently looks too low next to the $599-class figure in the detail field — always verify the live TD price.',
+        'This is a high-fee card. The headline annual fee currently looks too low next to the $599-class figure in the detailed features — always verify the live TD price.',
         'Additional cards currently list a high annual fee, even if a banking plan discounts it.',
         'Welcome points are not guaranteed even after approval; Aeroplan’s incentive rules can refuse bonus points if you have already taken a similar cobrand offer.',
         'The full welcome value assumes a large 180-day spend and an even larger 12-month spend. That is a travel-heavy year, not a quiet one.',
         'Foreign-currency markup is typically still there. Privilege is not a Passport-style no-FX product.',
     ],
     feesAndValue:
-        'Read both fee fields. The sheet’s headline annual fee and the detail text currently disagree: the detail describes a premium annual fee, a lower amount with the TD All-Inclusive Banking Plan, and a possible first-year rebate with conditions. For an honest ongoing estimate we use the higher “annual fee” figure from the detail when it exceeds the headline number, then compare that with the estimated welcome-bonus value. New cardmembers who hit every spend gate can see a first-year bonus estimate that more than covers even the full sticker fee — if they value Aeroplan near the sheet’s dollar figure. Year two is the discounted or full fee versus extra earn over the regular Infinite card. Confirm the live fee, rebate, and banking-plan discount with TD. Offers change.',
+        'Read both fee figures. The headline annual fee and the detail text currently disagree: the detail describes a premium annual fee, a lower amount with the TD All-Inclusive Banking Plan, and a possible first-year rebate with conditions. For an honest ongoing estimate we use the higher “annual fee” figure from the detail when it exceeds the headline number, then compare that with the estimated welcome-bonus value. New cardmembers who hit every spend gate can see a first-year bonus estimate that more than covers even the full sticker fee — if they value Aeroplan near the listed dollar figure. Year two is the discounted or full fee versus extra earn over the regular Infinite card. Confirm the live fee, rebate, and banking-plan discount with TD. Offers change.',
     rewardsExplained:
         'Privilege earns Aeroplan. Eligible purchases made directly with Air Canada, including Air Canada Vacations, earn 2 points per dollar. Eligible gas, EV charging, groceries, travel, transit, and dining earn 1.5. Everything else earns 1.25. That is a fuller category map than the regular TD Aeroplan Visa Infinite card, and there is no $80,000 bonus-category cap called out in the current Privilege features the way there is on Infinite. Redeem for Air Canada and partner flight rewards first. If your Air Canada spend is enormous and you also want Amex dining, some travellers pair this card with an Amex cobrand; paying two premium fees only makes sense when both cards are used on purpose.',
     welcomeBonus:
-        'The current offer in our data is three-layered: bonus Aeroplan on the first purchase, a larger deposit after a substantial spend within 180 days of opening, and a one-time anniversary bonus after an even larger 12-month spend. Missing any layer cuts the “up to” value. The long eligibility excerpt on our sheet is worth reading in the welcome section above: Aeroplan may not issue incentive points if you previously received welcome or other incentive Aeroplan for opening a similar cobrand with TD or another issuer. Approval for the account is not the same as approval for the bonus. Map your next six months of planned travel before you apply.',
+        'The current offer is three-layered: bonus Aeroplan on the first purchase, a larger deposit after a substantial spend within 180 days of opening, and a one-time anniversary bonus after an even larger 12-month spend. Missing any layer cuts the “up to” value. The long eligibility excerpt is worth reading in the welcome section above: Aeroplan may not issue incentive points if you previously received welcome or other incentive Aeroplan for opening a similar cobrand with TD or another issuer. Approval for the account is not the same as approval for the bonus. Map your next six months of planned travel before you apply.',
     faqs: [
         {
             question: 'Is the TD Aeroplan Visa Infinite Privilege Card worth it?',

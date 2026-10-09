@@ -54,11 +54,11 @@ Read the [no-annual-fee guide](/guides/best-no-annual-fee-credit-cards-canada/) 
 
 Paid grocery Visas exist because 3–4% on a large supermarket bill can exceed a $120-class fee. The test is **year two**, after any first-year waiver or 10% welcome window ends.
 
-**Scotia Momentum Visa Infinite** currently describes 4% on groceries and recurring payments in our review, plus a first-year fee waiver on the special offer in our data and a 15% welcome (15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026). Scotiabank’s two-year personal-card exclusion is strict. If you held a Scotia card recently, you may be paying a fee for 4% with no welcome cushion.
+**Scotia Momentum Visa Infinite** currently describes 4% on groceries and recurring payments in our review, plus a first-year fee waiver on the special offer and a 15% welcome (15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026). Scotiabank’s two-year personal-card exclusion is strict. If you held a Scotia card recently, you may be paying a fee for 4% with no welcome cushion.
 
 **CIBC Dividend Visa Infinite** pays 4% on grocery, gas, and EV charging and 2% on transit, dining, recurring payments, and CIBC by Expedia travel, then 1%. The 4% and 2% rates (except 2% on CIBC by Expedia) apply to the first $50,000 in annual card purchases or $20,000 in annual purchases in the bonus categories, whichever comes first. The current welcome is up to $350 for new cards approved beginning July 16, 2026: 10% cash back up to $200 on the first $2,000 over four statements, $50 for one pre-authorized payment, and a $120 first-year annual-fee rebate. Additional cards are $50 each, up to 3, rebated in year one. Do not assume 4% is always 4% — the cap, merchant definitions, and “recurring” rules all cut it.
 
-**SimplyCash Preferred** pays cash on Amex: capped 4% grocery/gas in our current features and 2% on everything else, for a monthly fee. It wins if you already spend on Amex and the 2% catch-all is real. It loses at Costco and at grocers that decline Amex.
+**SimplyCash Preferred** pays cash on Amex: capped 4% grocery/gas in the current features and 2% on everything else, for a monthly fee. It wins if you already spend on Amex and the 2% catch-all is real. It loses at Costco and at grocers that decline Amex.
 
 **BMO CashBack World Elite** is the high grocery-rate Mastercard comparison when you meet World Elite income. Confirm the live grocery percentage and any caps on that card page. The student and regular BMO CashBack cards pay less.
 
@@ -86,7 +86,7 @@ A hybrid that works: Tangerine or Dividend for grocery cash, and a small Scene+ 
 
 ## Interest, minimums, and the honesty test
 
-Cash-back cards in our data carry ordinary purchase rates. They are not low-interest products. If you revolve even one month in three, switch the conversation to the [low-interest guide](/guides/low-interest-vs-rewards-credit-cards-canada/).
+Cash-back cards carry ordinary purchase rates. They are not low-interest products. If you revolve even one month in three, switch the conversation to the [low-interest guide](/guides/low-interest-vs-rewards-credit-cards-canada/).
 
 Minimum spend on welcome offers should be purchases you were making anyway. Manufactured spend is how people end up with a larger balance and a smaller bonus.
 

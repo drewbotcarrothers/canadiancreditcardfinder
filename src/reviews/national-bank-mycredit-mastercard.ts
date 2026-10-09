@@ -8,7 +8,7 @@ const review: CardEditorialReview = {
     metaDescription:
         'National Bank mycredit Mastercard review for 2026: $0 fee, 1% restaurants and PAPs, 0.5% else, Costco, vs ECHO and MC1, who should skip it.',
     intro:
-        'The National Bank mycredit Mastercard is National Bank’s no-fee starter cash-back card: 1% on restaurants and recurring pre-authorized payments, 0.5% on other eligible purchases, cash back applied to the account with each monthly statement when conditions are met, mobile-device insurance, and Costco acceptance in our current features. It is not ECHO’s up-to-1.5% grocery/gas/online mix, and it is not MC1’s no-rewards plastic. This National Bank mycredit Mastercard review is about a thin dining-and-bills stack at $0 — useful if those two buckets are the month, easy to skip if grocery is the statement — and why Tangerine’s chosen 2% categories still usually win if you can get approved.',
+        'The National Bank mycredit Mastercard is National Bank’s no-fee starter cash-back card: 1% on restaurants and recurring pre-authorized payments, 0.5% on other eligible purchases, cash back applied to the account with each monthly statement when conditions are met, mobile-device insurance, and Costco acceptance in the current features. It is not ECHO’s up-to-1.5% grocery/gas/online mix, and it is not MC1’s no-rewards plastic. This National Bank mycredit Mastercard review is about a thin dining-and-bills stack at $0 — useful if those two buckets are the month, easy to skip if grocery is the statement — and why Tangerine’s chosen 2% categories still usually win if you can get approved.',
     whoItsFor: [
         'National Bank customers who eat out and pay rent-adjacent bills by pre-authorized Mastercard, want 1% on those two lines at $0, and will pay in full.',
         'People who shop Costco and wanted a no-fee National Bank cash-back card without ECHO’s $30-class membership.',
@@ -18,29 +18,29 @@ const review: CardEditorialReview = {
     whoShouldSkip: [
         'Households whose month is grocery and gas. ECHO currently lists up to 1.5% on those buckets (after $30); Tangerine currently lists 2% categories at $0.',
         'People who will carry a balance. mycredit’s purchase rate currently matches MC1’s typical rewards figure, not Syncro’s 8.90%.',
-        'Anyone chasing a welcome bonus. Our current sheet does not list one — do not invent one.',
+        'Anyone chasing a welcome bonus. None is currently listed.',
         'Travellers who wanted Platinum’s 2x grocery/dining. That is a $70-class À la carte product, not mycredit.',
     ],
     pros: [
-        'No annual fee in our data, with extra cards currently at $0.',
-        '1% on restaurants and PAPs is a clearer printed mix than Allure’s 1-per-$2 points, and cash back currently posts to the account monthly when conditions are met — no $25 ECHO floor on this row.',
+        'No annual fee, with extra cards currently at $0.',
+        '1% on restaurants and PAPs is a clearer printed mix than Allure’s 1-per-$2 points, and cash back currently posts to the account monthly when conditions are met — no $25 ECHO floor on this card.',
         'Features currently name Costco acceptance and mobile-device insurance.',
         '0.5% on other eligible purchases is at least something, unlike MC1’s N/A rewards.',
         'You can step to ECHO or Platinum later if grocery or travel starts to matter. mycredit is the cash-back on-ramp.',
     ],
     cons: [
-        '0.5% on everything outside restaurants and PAPs is a weak catch-all. Grocery and gas are not the bonus buckets on this row.',
-        'Welcome, eligibility, and insurance-column cells are empty even though features mention mobile-device insurance. Confirm the certificate.',
-        'We will not invent PAP merchant lists or restaurant MCC traps the sheet does not print.',
+        '0.5% on everything outside restaurants and PAPs is a weak catch-all. Grocery and gas are not the bonus buckets on this card.',
+        'No welcome bonus, eligibility terms, or insurance details are currently listed, even though features mention mobile-device insurance. Confirm the certificate.',
+        '',
         'The Cash Back category is honest; the earn mix is still thinner than Simplii or Tangerine on our site.',
         'National Bank’s footprint is strongest in Quebec.',
     ],
     feesAndValue:
-        'This is a $0-fee card in our data, with extra cards at $0. There is no welcome-bonus value, so the first-year snapshot will look empty. Value is 1% on restaurants and PAPs plus 0.5% on the rest, plus mobile-device insurance you would have used. If two Tangerine categories cover the month at $0, Tangerine wins. If grocery/gas/online are large, ECHO’s $30-class fee can still win on the ceiling. If you needed plastic with no earn mix, MC1 is simpler. There is no first-year rebate to hide a weak fit. Offers change. Pay in full.',
+        'This is a $0-fee card, with extra cards at $0. There is no welcome-bonus value, so the first-year snapshot will look empty. Value is 1% on restaurants and PAPs plus 0.5% on the rest, plus mobile-device insurance you would have used. If two Tangerine categories cover the month at $0, Tangerine wins. If grocery/gas/online are large, ECHO’s $30-class fee can still win on the ceiling. If you needed plastic with no earn mix, MC1 is simpler. There is no first-year rebate to hide a weak fit. Offers change. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not À la carte Rewards. Our current features describe 1% cash back on restaurants and recurring pre-authorized payments, 0.5% on other eligible purchases, mobile-device insurance, and Costco acceptance. Detailed features currently add that cash back is applied to the account balance with each monthly statement when conditions are met. Confirm National Bank’s live mycredit rate card for what “restaurant” and “PAP” mean. Redeem to the account. Put dining and bills here. Put grocery on ECHO or Tangerine. Put a revolving balance on Syncro.',
+        'This card pays cash back, not À la carte Rewards. The current features describe 1% cash back on restaurants and recurring pre-authorized payments, 0.5% on other eligible purchases, mobile-device insurance, and Costco acceptance. Detailed features currently add that cash back is applied to the account balance with each monthly statement when conditions are met. Confirm National Bank’s live mycredit rate card for what “restaurant” and “PAP” mean. Redeem to the account. Put dining and bills here. Put grocery on ECHO or Tangerine. Put a revolving balance on Syncro.',
     welcomeBonus:
-        'Our current data does not list a welcome bonus, a detailed offer, a dollar value, or eligibility text. Treat that as “none on file.” If National Bank is running a cash offer on the mycredit application page, use that page. Mobile-device insurance is an ongoing benefit, not a signup bonus.',
+        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If National Bank is running a cash offer on the mycredit application page, use that page. Mobile-device insurance is an ongoing benefit, not a signup bonus.',
     faqs: [
         {
             question: 'Is the National Bank mycredit Mastercard worth it in 2026?',

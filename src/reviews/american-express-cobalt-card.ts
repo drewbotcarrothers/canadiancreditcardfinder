@@ -12,7 +12,7 @@ const review: CardEditorialReview = {
     whoItsFor: [
         'People who eat out, grab coffee, order delivery, or shop at stand-alone grocery stores often enough that a 5x eats-and-drinks category will do real work.',
         'Membership Rewards collectors who want a high-earn everyday card and are comfortable transferring points to travel partners later.',
-        'Households that want extra cards at no extra annual cost, since additional Cobalt cards currently list a $0 fee in our data.',
+        'Households that want extra cards at no extra annual cost, since additional Cobalt cards currently list a $0 fee.',
         'Cardholders who pay the balance in full. The purchase rate is not a reason to keep this card.',
     ],
     whoShouldSkip: [
@@ -42,7 +42,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'Cobalt earns American Express Membership Rewards, not cash back and not Aeroplan directly. In plain language, eligible eats and drinks in Canada — restaurants, bars, cafés, stand-alone grocery stores, and food and grocery delivery — earn five points per dollar on up to $2,500 in combined purchases each month, then one point until the cap resets on the 1st. Eligible streaming subscriptions earn three, eligible gas, transit, and ride share earn two, and everything else earns one. Eligible hotel and car-rental bookings through Amex Travel Online earn one extra point. Those are American Express’s published rates — always confirm category definitions, because a superstore that codes as general merchandise, a restaurant inside a hotel, or a third-party checkout can land in the 1x bucket. Points land in a Membership Rewards account you can use for statement credits, Amex Travel, or transfers to airline and hotel partners. Transferring usually stretches the value further than cashing out. If you also fly Air Canada a lot, compare this against an [American Express Aeroplan Card](/card/american-express-aeroplan-card/) rather than assuming Membership Rewards is always the better currency.',
     welcomeBonus:
-        'The current Cobalt welcome offer in our data is not a single lump-sum dump of points after one spend hurdle. You earn a slice of Membership Rewards for each monthly billing period in which you hit the listed purchase threshold, up to a first-year cap. That structure rewards consistent spend and punishes a quiet month. Current or former Cobalt cardmembers are called out as ineligible in the sheet, which is typical for American Express Canada offers. Read the eligibility line in the welcome-bonus section above before you apply, and do not count on a second Cobalt bonus if you have held the card before.',
+        'The current Cobalt welcome offer is not a single lump-sum dump of points after one spend hurdle. You earn a slice of Membership Rewards for each monthly billing period in which you hit the listed purchase threshold, up to a first-year cap. That structure rewards consistent spend and punishes a quiet month. Current or former Cobalt cardmembers are called out as ineligible, which is typical for American Express Canada offers. Read the eligibility line in the welcome-bonus section above before you apply, and do not count on a second Cobalt bonus if you have held the card before.',
     faqs: [
         {
             question: 'Is the American Express Cobalt Card worth it in 2026?',
@@ -52,7 +52,7 @@ const review: CardEditorialReview = {
         {
             question: 'How does the Cobalt annual fee work?',
             answer:
-                'American Express charges Cobalt as a monthly fee that adds up to an annual total. That is different from Gold Rewards or Platinum, which bill a yearly amount. The monthly cadence is useful if you want an easy off-ramp, but it is still a real cost. Additional cards currently show no extra annual fee in our data — confirm that on the application.',
+                'American Express charges Cobalt as a monthly fee that adds up to an annual total. That is different from Gold Rewards or Platinum, which bill a yearly amount. The monthly cadence is useful if you want an easy off-ramp, but it is still a real cost. Additional cards currently show no extra annual fee — confirm that on the application.',
         },
         {
             question: 'Does the Cobalt Card charge a foreign-exchange fee?',
