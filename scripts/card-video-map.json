@@ -485,6 +485,13 @@
         "american-express-cobalt-card"
       ],
       "kind": "review"
+    },
+    "YwwsR19pBGI": {
+      "cards": [
+        "simplycash-preferred-card-from-american-express",
+        "mbna-rewards-world-elite-mastercard",
+        "scotiabank-passport-visa-infinite-card"
+      ]
     }
   },
   "skip": {
