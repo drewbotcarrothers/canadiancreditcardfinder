@@ -6,66 +6,67 @@ const review: CardEditorialReview = {
     h1: 'Brim World Elite Mastercard Review',
     primaryKeyword: 'brim world elite mastercard review',
     metaDescription:
-        'Brim World Elite Mastercard review for 2026: $89 fee, no-FX positioning vs no-fee Brim, limited published details, and who should skip it.',
+        'Brim World Elite Mastercard review for 2026: $89 annual fee, 1 Brim point per $1, a 1.5% foreign transaction fee, paid lounge visits, and who should skip it.',
     intro:
-        'The Brim World Elite Mastercard is Brim Financial’s paid cash-back card: a mid-fee World Elite price, a features line that calls out elevated rewards and typical no foreign-transaction fees, and none of the bank-issued grocery tables this site usually prints. It is not the $0 [Brim Mastercard](/card/brim-mastercard/), and Brim is not a bank with an issuer hub on this site. This Brim World Elite Mastercard review sticks to the card’s listed details — which are thin — and tells you when [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) or [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) is the better-documented $0 or no-FX alternative.',
+        'The Brim World Elite Mastercard is Brim Financial’s $89 card: 1 Brim point per $1 spent, a 1.5% foreign transaction fee, and Mastercard Travel Pass lounge access at US$32 per person per visit. Coverage includes trip cancellation and interruption, out-of-province medical up to $5 million, mobile device coverage up to $1,500, and rental car collision damage waiver. The $0 [Brim Mastercard](/card/brim-mastercard/) earns 1 Brim point per $2, includes free global Wi-Fi, and charges the same 1.5% foreign transaction fee. This Brim World Elite Mastercard review is about whether the extra point and the insurance are worth $89, and when [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) or [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) fits the spend better.',
     whoItsFor: [
-        'People who already like Brim’s app and Mastercard acceptance, will pay a World Elite-class fee for a higher earn tier than the no-fee Brim card, and will confirm live rates on brimfinancial.com before they apply.',
-        'Travellers who want a no-FX-style Mastercard and cannot (or will not) hold Passport, and who will read Brim’s current FX policy rather than trust the word “typically” in the feature list.',
-        'Applicants who pay in full. The purchase rate is a typical rewards rate, not a reason to keep this card.',
-        'Households that wanted World Elite extras on a fintech Mastercard rather than a Big Five grocery card.',
+        'People who want 1 Brim point per $1, twice the no-fee Brim card’s 1 point per $2, and who will use the insurance often enough to justify $89.',
+        'Applicants outside Quebec who want trip cancellation, trip interruption, and out-of-province medical on a Mastercard.',
+        'Households that want Mastercard acceptance, including at Costco Canada, and who pay the statement in full.',
     ],
     whoShouldSkip: [
-        'Anyone who needs this review to quote a 4% grocery rate or a welcome bonus. This card currently lists no earn-rate numbers, signup offer, or eligibility text.',
-        'People who only wanted a $0 Brim card. That is the [Brim Mastercard](/card/brim-mastercard/), also thin, at $0.',
-        'Shoppers who want a documented 2% category card at $0. [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the comparison with a real rate table on this site.',
-        'Travellers who wanted lounge passes and a no-FX Visa from a bank they already use. That is Passport, not Brim.',
+        'Anyone hoping this card waives foreign transaction fees. Brim charges 1.5% on foreign transactions.',
+        'Travellers who want lounge visits included in the annual fee. Mastercard Travel Pass costs US$32 per person per visit.',
+        'New applicants in Quebec who need the travel insurance. Brim does not offer that coverage to new Quebec applicants.',
+        'People who wanted the $0 card. The [Brim Mastercard](/card/brim-mastercard/) earns 1 Brim point per $2, includes free global Wi-Fi, and charges the same 1.5% foreign transaction fee.',
+        'Shoppers who want 2% in chosen categories at $0. [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) publishes that rate table.',
     ],
     pros: [
-        'The card’s features currently describe a higher-tier Brim World Elite with elevated rewards versus the no-fee card — the reason a paid Brim product exists.',
-        'The same features line typically pairs that tier with no foreign-transaction fees, which is the travel-adjacent pitch if Brim’s live page still says so.',
-        'Mastercard World Elite acceptance includes Costco Canada and the grocers that still skip American Express.',
-        'Brim is a dedicated credit-card issuer, not a chequing-account afterthought, which some people prefer for the app and card controls.',
-        'There is a $0 sibling if the fee stops making sense after you read brimfinancial.com.',
+        'Earn is 1 Brim point per $1, twice the no-fee Brim card’s 1 point per $2.',
+        'The annual fee is $89.',
+        'Insurance includes trip cancellation and trip interruption, out-of-province emergency medical up to $5 million (15 days under 65, 3 days at 65 and older), mobile device coverage up to $1,500, and rental car collision damage waiver for up to 48 days on vehicles with an MSRP up to $85,000.',
+        'Mastercard acceptance includes Costco Canada and merchants that still skip American Express.',
+        'The $0 Brim Mastercard remains available if $89 stops earning its keep.',
     ],
     cons: [
-        'The feature list currently says to confirm annual fee, earn rates, and benefits on brimfinancial.com. That is an honest blank, not a hidden 5% table.',
-        'No welcome bonus, bonus value, eligibility terms, insurance, or extra-card fees are currently listed. Year-one value on this page will not show a signup cushion.',
-        'The $89-class fee has to beat the no-fee Brim card plus whatever Tangerine would have paid at $0. We cannot run that math without rates.',
-        'There is no Brim issuer hub on this site. Related links go to the no-fee Brim card and to better-documented cash-back and no-FX products.',
-        'Purchase and cash-advance rates are still rewards-card rates. Interest will erase a year of elevated cash back in a cycle or two.',
+        'Foreign transactions are charged 1.5%.',
+        'Mastercard Travel Pass lounge access costs US$32 per person per visit.',
+        'Travel insurance is unavailable to new Quebec applicants.',
+        'Brim does not list a welcome bonus on this card.',
+        'The $89 fee has to be worth one extra Brim point per $2 of spend versus the no-fee card, plus insurance you will actually use. Tangerine’s 2% categories are $0.',
+        'There is no Brim issuer hub on this site.',
     ],
     feesAndValue:
-        'The fee table shows an $89-class card. The detail line currently tells you to confirm that figure on the issuer site. There is no first-year rebate and no welcome-bonus value, so the first-year snapshot on this page will not produce a useful bonus-minus-fee estimate. Year two is $89 versus whatever elevated earn mix Brim is actually paying, minus the no-fee Brim card you could have held instead. If the live World Elite rate does not clear that gap — especially once you compare Tangerine’s 2% categories at $0 — skip the paid tier. If no-FX on a Mastercard is the whole product and Passport’s lounge fee is more than you will use, Brim World Elite can still be the simpler travel-spend card, but only after you read brimfinancial.com. Offers change. Pay in full.',
+        'The annual fee is $89. Brim does not list a first-year rebate or a welcome bonus, so the first-year snapshot on this page has no bonus to subtract from the fee. Year two is $89 for 1 Brim point per $1, compared with 1 Brim point per $2 on the $0 Brim Mastercard, plus the insurance package. Both cards charge 1.5% on foreign transactions, so the fee is paying for the higher earn rate and the coverage. For a card that waives foreign transaction fees and includes lounge visits, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/). Offers change. Pay the statement in full.',
     rewardsExplained:
-        'This card is filed as cash back, under a program labelled Brim rewards — not Avion, not Scene+, not Aeroplan. The current features only say the World Elite tier has elevated rewards versus the no-fee Brim Mastercard, and that it typically charges no foreign-transaction fees. The detailed feature list does not print a grocery, dining, or catch-all percentage. We will not fill those in from memory. Confirm the live earn table, any caps, and how statement credits post on Brim’s site. Redeem as Brim lets you redeem. If you want a $0 card from the same issuer, that is the Brim Mastercard. If you want pick-your-categories 2% with a rate table this site can quote, that is Tangerine. If you want no FX with lounge passes on a Visa, that is Passport.',
+        'You earn Brim points: 1 point per $1 on this card, and 1 point per $2 on the [Brim Mastercard](/card/brim-mastercard/). Foreign transactions add a 1.5% fee on both cards. Mastercard Travel Pass lounge access costs US$32 per person per visit. Coverage on this card includes trip cancellation and trip interruption, out-of-province emergency medical up to $5 million (15 days if you are under 65, 3 days if you are 65 or older), mobile device coverage up to $1,500, and rental car collision damage waiver for up to 48 days on vehicles with an MSRP up to $85,000. New Quebec applicants cannot get the travel insurance. If you want 2% in categories you choose, at $0, that is [Tangerine Money-Back](/card/tangerine-money-back-credit-card/). If you want foreign-currency spend without a conversion fee, and complimentary lounge visits, that is [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file,” not as a hidden signup dump. If Brim is running a limited-time cash or points offer, it will be on brimfinancial.com — use that, not this paragraph.',
+        'Brim does not list a welcome bonus on the Brim World Elite Mastercard. The decision is the $89 fee, 1 Brim point per $1, the 1.5% foreign transaction fee, and the insurance.',
     faqs: [
         {
             question: 'Is the Brim World Elite Mastercard worth it in 2026?',
             answer:
-                'It can be worth it when Brim’s live elevated earn mix and no-FX policy clear an $89-class fee versus the no-fee Brim card and Tangerine. This review cannot certify that math because the rates are not listed. Confirm on brimfinancial.com.',
+                'It can be worth $89 when you will use the insurance and you value 1 Brim point per $1 over the no-fee card’s 1 point per $2. It does not pay for itself by waiving foreign transaction fees. Brim charges 1.5% on foreign transactions.',
         },
         {
             question: 'Brim World Elite vs the no-fee Brim Mastercard?',
             answer:
-                'The [Brim Mastercard](/card/brim-mastercard/) currently lists a $0 annual fee and a similarly thin feature list. World Elite is the paid tier the card’s features describe as elevated rewards, typically with no FX fees. Choose World Elite only after the live rate table beats $89. Choose the $0 card if you just wanted Brim.',
+                'The [Brim Mastercard](/card/brim-mastercard/) has a $0 annual fee, earns 1 Brim point per $2, and includes free global Wi-Fi. World Elite costs $89, earns 1 Brim point per $1, and adds the insurance package. Both charge a 1.5% foreign transaction fee. Choose World Elite when the extra point and the coverage are worth $89. Choose the $0 card when you wanted Brim without a fee.',
         },
         {
-            question: 'Does Brim World Elite charge foreign-exchange fees?',
+            question: 'Does Brim World Elite charge foreign transaction fees?',
             answer:
-                'The card’s features currently say it typically has no foreign-transaction fees. That is the product’s travel pitch, and it is still a “typically” until you read the agreement. For a bank-issued no-FX Visa with lounge passes, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
+                'Yes. Brim charges a 1.5% foreign transaction fee. Mastercard Travel Pass lounge access costs US$32 per person per visit. For a Visa with no foreign transaction fee and complimentary lounge visits, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
+        },
+        {
+            question: 'What insurance does Brim World Elite include?',
+            answer:
+                'Trip cancellation and trip interruption, out-of-province emergency medical up to $5 million (15 days under 65, 3 days at 65 and older), mobile device coverage up to $1,500, and rental car collision damage waiver for up to 48 days on vehicles with an MSRP up to $85,000. Travel insurance is unavailable to new Quebec applicants.',
         },
         {
             question: 'Why is there no Brim issuer page on this site?',
             answer:
-                'Issuer hubs exist for banks this site already covers (RBC, TD, CIBC, Scotiabank, BMO, American Express, and others). Brim Financial is not in that list. This review links the no-fee Brim sibling and better-documented cash-back and travel cards instead.',
-        },
-        {
-            question: 'Brim World Elite vs Tangerine Money-Back?',
-            answer:
-                '[Tangerine](/card/tangerine-money-back-credit-card/) is a $0 Mastercard with 2% in chosen categories and a rate table this site can quote. Brim World Elite is a paid catch-all (or category) card whose live rates are not currently listed. Choose Tangerine if you wanted documented $0 cash back. Choose Brim if the live World Elite mix and no-FX policy are the reason you applied.',
+                'Issuer hubs exist for banks this site already covers (RBC, TD, CIBC, Scotiabank, BMO, American Express, and others). Brim Financial is not in that list. This review links the no-fee Brim card and cards with published category rates or no foreign transaction fees.',
         },
     ],
     extraHubSlugs: ['cash-back', 'travel'],

@@ -4,7 +4,7 @@ description: "How credit card travel insurance works in Canada: emergency medica
 excerpt: "Credit card travel insurance can be excellent, but it is full of limits: 15 or 21 days, coverage that shrinks at 65, and stability clauses. Here is how to read your coverage before you leave."
 primaryKeyword: "credit card travel insurance canada"
 publishedAt: 2026-10-09T12:00:00-04:00
-updatedAt: 2026-10-09T12:00:00-04:00
+updatedAt: 2026-10-10T12:00:00-04:00
 sortOrder: 19
 hubLinks:
   - { href: "/best/travel/", label: "Best travel cards" }
@@ -40,7 +40,7 @@ Premium cards usually bundle several separate insurance benefits. Each has its o
 
 ## Real examples: how limits differ
 
-Here's how four popular cards described their travel medical coverage when we checked in October 2026:
+Here's how these cards described their travel medical coverage when we checked in October 2026:
 
 | Card | Medical coverage, under 65 | At 65 and over |
 | --- | --- | --- |
@@ -48,8 +48,9 @@ Here's how four popular cards described their travel medical coverage when we ch
 | [RBC Avion Visa Infinite](/card/rbc-avion-visa-infinite/) | First 15 days | First 3 days |
 | [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) | First 25 days | First 3 days |
 | [American Express Cobalt](/card/american-express-cobalt-card/) | Up to $5 million, first 15 consecutive days | Not covered (under 65 only) |
+| [Brim World Elite Mastercard](/card/brim-world-elite-mastercard/) | Up to $5 million, 15 days | 3 days |
 
-Sources: [TD's card page](https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan/aeroplan-visa-infinite-card), RBC's Avion Visa Infinite certificate of insurance, Scotiabank's Passport Visa Infinite certificate summary, and [Amex's Cobalt page](https://www.americanexpress.com/en-ca/credit-cards/cobalt-card/). Limits change, so confirm before every trip.
+Sources: [TD's card page](https://www.td.com/ca/en/personal-banking/products/credit-cards/aeroplan/aeroplan-visa-infinite-card), RBC's Avion Visa Infinite certificate of insurance, Scotiabank's Passport Visa Infinite certificate summary, [Amex's Cobalt page](https://www.americanexpress.com/en-ca/credit-cards/cobalt-card/), and [Brim's personal credit cards page](https://brimfinancial.com/personal-credit-cards). Brim also lists trip cancellation and trip interruption on the World Elite card. Travel insurance is unavailable to new Quebec applicants. Limits change, so confirm before every trip.
 
 Two things stand out. First, the day count is usually the **first** X days of a trip, starting on your departure date. Second, coverage can drop sharply at 65, or end entirely on some cards. A 66-year-old with a TD Aeroplan Visa Infinite gets four days of coverage, not 21.
 

@@ -4,7 +4,7 @@ description: "Why Canadian premium cards have income requirements ($60,000 for V
 excerpt: "Visa Infinite usually needs $60,000 personal income, World Elite $80,000. Here's where those numbers come from, how household income and assets count, and your options if you're below the line."
 primaryKeyword: "world elite income requirement canada"
 publishedAt: 2026-10-09T12:00:00-04:00
-updatedAt: 2026-10-09T12:00:00-04:00
+updatedAt: 2026-10-10T12:00:00-04:00
 sortOrder: 27
 hubLinks:
   - { href: "/best/premium/", label: "Best premium cards" }
@@ -26,14 +26,14 @@ This guide explains where the requirements come from, how household income and a
 | Card tier | Typical requirement | Examples |
 | --- | --- | --- |
 | Visa Infinite | $60,000 personal or $100,000 household | [RBC Avion Visa Infinite](/card/rbc-avion-visa-infinite/), TD Aeroplan Visa Infinite, CIBC Aventura Visa Infinite |
-| World Elite Mastercard | $80,000 personal or $150,000 household | [Rogers Red World Elite](/card/rogers-red-world-elite-mastercard/), [PC World Elite](/card/pc-world-elite-mastercard/) |
+| World Elite Mastercard | $80,000 personal or $150,000 household | [Rogers Red World Elite](/card/rogers-red-world-elite-mastercard/), [PC World Elite](/card/pc-world-elite-mastercard/), [Triangle World Elite](/card/triangle-world-elite-mastercard/) |
 | Visa Infinite Privilege | $150,000 personal or $200,000 household, or assets under management | [Scotiabank Passport Visa Infinite Privilege](/card/scotiabank-passport-visa-infinite-privilege-card/) |
 
 Some examples from issuer pages in October 2026:
 
 - RBC's Avion Visa Infinite page says a minimum personal income of $60,000 or household income of $100,000 is required, and adds that "this premium card can impose higher card acceptance costs on merchants."
 - TD lists $60,000 personal or $100,000 household income for the TD Aeroplan Visa Infinite.
-- Rogers Bank lists $80,000 personal or $150,000 household for the Rogers Red World Elite Mastercard. PC Financial lists the same for the PC World Elite.
+- Rogers Bank lists $80,000 personal or $150,000 household for the Rogers Red World Elite Mastercard. PC Financial lists the same for the PC World Elite. [Canadian Tire Bank](https://triangle.canadiantire.ca/en/credit-cards.html) lists the same for the Triangle World Elite Mastercard.
 - Scotiabank's Passport Visa Infinite Privilege requires a minimum personal income of $150,000, household income of $200,000, or $400,000 in assets under management.
 
 Some mid-tier cards have their own thresholds. The CIBC Costco World Mastercard, for instance, requires $50,000 individual or $80,000 household income, per CIBC.
@@ -107,7 +107,7 @@ They usually also have higher annual fees. Whether a premium card is worth it de
 ## FAQ
 
 **What income do I need for a World Elite Mastercard in Canada?**
-Typically $80,000 personal or $150,000 household gross income, per issuers such as Rogers Bank and PC Financial.
+Typically $80,000 personal or $150,000 household gross income, per issuers such as Rogers Bank, PC Financial, and Canadian Tire Bank.
 
 **What income do I need for a Visa Infinite card?**
 Typically $60,000 personal or $100,000 household gross income. RBC and TD list these figures for their Visa Infinite cards.

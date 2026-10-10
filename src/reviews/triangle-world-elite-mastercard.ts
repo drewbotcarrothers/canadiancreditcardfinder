@@ -6,66 +6,66 @@ const review: CardEditorialReview = {
     h1: 'Triangle World Elite Mastercard Review',
     primaryKeyword: 'triangle world elite mastercard review',
     metaDescription:
-        'Triangle World Elite Mastercard review for 2026: $0 annual fee, 4% Canadian Tire Money, grocery earn cap, World Elite income, and who should skip it.',
+        'Triangle World Elite Mastercard review for 2026: $0 annual fee, 4% Canadian Tire Money, 3% grocery on the first $12,000 (excludes Costco and Walmart), fuel cents, and World Elite income.',
     intro:
-        'The Triangle World Elite Mastercard is Canadian Tire Bank’s no-fee World Elite: 4% Canadian Tire Money at Canadian Tire family stores, a higher grocery rate than the base Triangle card (currently 3% on the first slice of annual grocery spend), 1% everywhere else, plus the fuel and lifestyle extras the features list. It is for people who already live at Canadian Tire, SportChek, Mark’s, or Gas+ — not for travellers collecting Aeroplan. This Triangle World Elite Mastercard review compares it with the regular [Triangle Mastercard](/card/triangle-mastercard/), explains the grocery cap, and flags that there is no Canadian Tire issuer hub on this site to lean on.',
+        'The Triangle World Elite Mastercard is Canadian Tire Bank’s $0 World Elite card. It earns 4% Canadian Tire Money at Canadian Tire family stores, 7¢/L CT Money on premium fuel and 5¢/L on other fuel at Gas+ and Petro-Canada, 3% on groceries for the first $12,000 a year (Costco and Walmart are excluded), and 1% everywhere else. Insurance is 90-day purchase security, extended warranty, and rental car collision damage waiver. You need $80,000 personal or $150,000 household income. It is for people who already shop Canadian Tire, SportChek, Mark’s, or Gas+ — and who can clear that income test. This Triangle World Elite Mastercard review compares it with the regular [Triangle Mastercard](/card/triangle-mastercard/).',
     whoItsFor: [
         'Households that already shop Canadian Tire, SportChek, Mark’s, and other Triangle banners often enough for 4% CT Money to be the main earn story.',
-        'People who also buy groceries on this Mastercard and will stay under the annual grocery cap in the card’s features, where World Elite currently pays 3% versus 1.5% on the base card.',
-        'Applicants who meet World Elite income figures (personal or household amounts are in eligibility) and still want a $0 annual fee.',
-        'Drivers who will use the fuel rewards called out in the features at participating Gas+ or Petro-Canada locations.',
+        'People who buy groceries on this Mastercard and will stay inside the first $12,000 a year, where the card pays 3% and the base Triangle card pays 1.5%. Costco and Walmart are excluded from that 3%.',
+        'Applicants with $80,000 personal income or $150,000 household income who still want a $0 annual fee.',
+        'Drivers who buy fuel at Gas+ or Petro-Canada, where premium fuel earns 7¢/L CT Money and other fuel earns 5¢/L.',
     ],
     whoShouldSkip: [
         'Shoppers who rarely enter a Canadian Tire. 1% elsewhere is a weak everyday rate next to Tangerine’s 2% categories.',
-        'Applicants who cannot meet the World Elite income test. The regular [Triangle Mastercard](/card/triangle-mastercard/) currently lists no such income bar and still pays 4% at CT family stores.',
+        'Applicants under $80,000 personal and $150,000 household income. The regular [Triangle Mastercard](/card/triangle-mastercard/) has no World Elite income test and still pays 4% at Canadian Tire family stores.',
         'People who want cash back they can deposit anywhere. Canadian Tire Money is meant to spend back in that family of stores.',
-        'Anyone applying for a welcome bonus. None is currently listed.',
+        'Anyone shopping Costco or Walmart for the grocery rate. Those banners are excluded from the 3%.',
     ],
     pros: [
-        'No annual fee on World Elite means the 4% CT-family rate does not have to clear a bank membership first.',
-        '4% Canadian Tire Money at Canadian Tire family stores is the cobrand doing cobrand work — the same headline rate the base Triangle card advertises, with a better grocery and catch-all mix on this version.',
-        '3% groceries on the first listed annual amount is a real step up from the base card’s 1.5% grocery slice.',
-        '1% elsewhere is stronger than the base Triangle’s 0.5% catch-all, which matters on the months you barely visit a Tire store.',
-        'Features also mention fuel rewards, purchase security, rental CDW, roadside assistance, and concierge — extras the $0 base card is not selling as hard.',
+        'The annual fee is $0, so the 4% CT-family rate does not have to clear a bank membership first.',
+        '4% Canadian Tire Money at Canadian Tire family stores matches the headline in-store rate on the base Triangle card, with a higher grocery rate and a 1% catch-all on this version.',
+        'Groceries earn 3% for the first $12,000 a year, up from 1.5% on the base card. Costco and Walmart are excluded.',
+        'Fuel at Gas+ and Petro-Canada earns 7¢/L CT Money on premium and 5¢/L on other fuel.',
+        'Insurance includes 90-day purchase security, extended warranty, and rental car collision damage waiver.',
     ],
     cons: [
-        'World Elite income still applies even though the fee is $0. Plenty of Canadian Tire regulars will be happier on the base Triangle card.',
-        'Grocery 3% currently stops after an annual cap. After that you are not on a grocery World Elite anymore.',
+        'World Elite income still applies at $0: $80,000 personal or $150,000 household. Plenty of Canadian Tire regulars will be happier on the base Triangle card.',
+        'Grocery 3% stops after $12,000 a year, and it does not apply at Costco or Walmart.',
         'CT Money is awkward if you do not redeem at participating stores. It is not Aeroplan and not a Visa statement credit.',
-        'This card currently lists no welcome bonus, detailed offer, or dollar value. Additional-card fees and insurance are also not listed — confirm those with Canadian Tire Bank.',
-        'There is no Canadian Tire Bank issuer hub on this site. Compare in the related cards below rather than inventing a bank hub URL.',
+        'Canadian Tire does not list a welcome bonus on this card.',
+        'There is no Canadian Tire Bank issuer hub on this site.',
     ],
     feesAndValue:
-        'The annual fee in our table is $0, so year-two cost is the opportunity cost of putting spend here instead of on a 2% category card. World Elite is worth the harder income test when CT-family spend is large and grocery spend will use that 3% cap. If you fail income or barely shop the banners, the regular Triangle Mastercard still pays 4% at Canadian Tire without the World Elite bar — you give up grocery and catch-all earn. The first-year snapshot on this page will not show a signup cushion because no welcome bonus is listed. Offers change. Pay in full. A 21.99% purchase rate will delete CT Money faster than a spring catalogue.',
+        'The annual fee is $0, so year-two cost is the opportunity cost of putting spend here instead of on a 2% category card. World Elite is worth the income test when CT-family spend is large and grocery spend will use the 3% rate on the first $12,000 (Costco and Walmart excluded). If you miss the $80,000 personal or $150,000 household income test, or you barely shop the banners, the regular Triangle Mastercard still pays 4% at Canadian Tire. You give up the 3% grocery rate, the 1% catch-all, and the World Elite insurance. There is no welcome bonus to cushion year one. Offers change. Pay in full. A 21.99% purchase rate will delete CT Money faster than a spring catalogue.',
     rewardsExplained:
-        'You earn electronic Canadian Tire Money / Triangle Rewards, redeemable as the program defines (the detailed features describe $1-for-$1 at participating stores on the base product). World Elite’s current stack is 4% at Canadian Tire family stores, 3% on groceries for the first listed annual amount, 1% on other purchases, plus fuel rewards. The base Triangle card currently lists the same 4% at CT family stores, 1.5% groceries on a $12,000-class cap, and 0.5% elsewhere — that is the comparison that matters, not a CIBC Dividend Visa. Merchant coding still applies: a grocery banner that processes as a mass merchant, or a “Canadian Tire” marketplace order, can miss 4% or 3%. Put Tire-family and grocery (up to the cap) here; put Amazon.ca on the Amazon cobrand and Loblaws on a PC Mastercard.',
+        'You earn electronic Canadian Tire Money / Triangle Rewards. World Elite pays 4% at Canadian Tire family stores, 7¢/L CT Money on premium fuel and 5¢/L on other fuel at Gas+ and Petro-Canada, 3% on groceries for the first $12,000 a year, and 1% on other purchases. The 3% grocery rate excludes Costco and Walmart. The base [Triangle Mastercard](/card/triangle-mastercard/) pays 4% at Canadian Tire family stores, 1.5% on groceries for the first $12,000, and 0.5% elsewhere. Merchant coding still applies: a “Canadian Tire” marketplace order can miss 4%. Put Tire-family spend and eligible grocery (up to the cap) here. Put Costco on the [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) if you are a member, Walmart on the Walmart cobrand, Amazon.ca on the Amazon cobrand, and Loblaws on a PC Mastercard.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If Canadian Tire Bank is running CT Money on the live application, use that page. The application decision is income plus credit, not a signup gift.',
+        'Canadian Tire does not list a welcome bonus on the Triangle World Elite Mastercard. Approval is the income test — $80,000 personal or $150,000 household — plus credit.',
     faqs: [
         {
             question: 'Is the Triangle World Elite Mastercard worth it in 2026?',
             answer:
-                'It is worth it when you shop Canadian Tire family stores, will use the grocery 3% cap, and can pass World Elite income. It is not worth it as a travel-points card or as a 1% catch-all for people who never visit a Tire store.',
+                'It is worth it when you shop Canadian Tire family stores, will use the 3% grocery rate on the first $12,000 (Costco and Walmart excluded), buy fuel at Gas+ or Petro-Canada, and have $80,000 personal or $150,000 household income. It is a weak card for people who never visit a Tire store.',
         },
         {
             question: 'Triangle World Elite vs the regular Triangle Mastercard?',
             answer:
-                'Both currently list no annual fee and 4% at Canadian Tire family stores. World Elite currently improves grocery (3% vs 1.5% on a cap) and the catch-all (1% vs 0.5%), and adds World Elite-style extras in the features list, at a World Elite income bar. Choose World Elite if you qualify and grocery/general spend is real. Choose the [base Triangle](/card/triangle-mastercard/) if you only need the 4% in-store rate.',
+                'Both have no annual fee and pay 4% at Canadian Tire family stores. World Elite pays 3% on groceries for the first $12,000 a year (Costco and Walmart excluded) and 1% elsewhere, plus 7¢/L CT Money on premium fuel and 5¢/L on other fuel at Gas+ and Petro-Canada. Insurance is 90-day purchase security, extended warranty, and rental car collision damage waiver. You need $80,000 personal or $150,000 household income. The [base Triangle card](/card/triangle-mastercard/) pays 1.5% on groceries and 0.5% elsewhere, without that income test.',
         },
         {
             question: 'Triangle World Elite vs PC World Elite?',
             answer:
-                'Both are $0 World Elite store cards. [PC World Elite](/card/pc-world-elite-mastercard/) feeds PC Optimum at Loblaws-family banners. Triangle feeds Canadian Tire Money at Tire-family stores. Hold the one whose stores you actually use; holding both only makes sense if both banners are weekly habits.',
+                'Both are $0 World Elite store cards with an $80,000 personal or $150,000 household income test. [PC World Elite](/card/pc-world-elite-mastercard/) feeds PC Optimum at Loblaws-family banners. Triangle feeds Canadian Tire Money at Tire-family stores. Hold the one whose stores you actually use.',
         },
         {
-            question: 'Can I use this card at Costco?',
+            question: 'Can I use this card at Costco or Walmart?',
             answer:
-                'Costco Canada accepts Mastercard, so it can go through at 1%. It will not pay 4% CT Money inside Costco. For Costco gas and club spend, compare the [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) if you are a member.',
+                'Costco Canada accepts Mastercard, so the card can be charged there. Grocery earn at Costco and Walmart is excluded from the 3% rate, so those purchases fall under the 1% rate. They do not earn 4% CT Money. For Costco gas and club spend, compare the [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) if you are a member.',
         },
         {
-            question: 'Does this card charge foreign-exchange fees?',
+            question: 'What insurance and income rules apply?',
             answer:
-                'Most Canadian World Elite Mastercards add a foreign-conversion fee on foreign-currency purchases. Triangle is a domestic store card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm Canadian Tire Bank’s current FX rate in the agreement.',
+                'Insurance is purchase security for 90 days, extended warranty, and rental car collision damage waiver. Applicants need $80,000 personal income or $150,000 household income.',
         },
     ],
     extraHubSlugs: ['rewards', 'groceries', 'no-annual-fee', 'premium'],

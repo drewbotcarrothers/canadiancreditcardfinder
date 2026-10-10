@@ -2,6 +2,7 @@ import Papa from 'papaparse';
 import type { CreditCard } from './types';
 import { filterCardsForHub, type HubSlug } from './hubs';
 import { filterCardsForIssuer, type IssuerHubSlug } from './issuers';
+import { applyPublishedCardFacts } from './publishedCardFacts';
 import { slugify } from './utils';
 
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQNMup_DS4IXwkwpnueP7v4q3KZoLxZyBPHWKr5b2g8CMUohPXZ8jpzuAzFVYOHKG-cWfHODG7H6Arw/pub?gid=272625262&single=true&output=csv'
@@ -79,7 +80,7 @@ function parseCSV(csvText: string): CreditCard[] {
         insurance: publicText(row.Insurance),
         productLink: row.Product_Link || '',
         slug: slugify(row.Credit_Card_Name || ''),
-    }));
+    })).map(applyPublishedCardFacts);
 }
 
 export async function getCards(): Promise<CreditCard[]> {

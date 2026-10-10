@@ -4,7 +4,7 @@ description: "How credit card mobile device insurance works in Canada: coverage 
 excerpt: "Many Canadian credit cards now cover your phone if it's lost, stolen or broken, as long as you bought or financed it on the card. Here's how payouts are calculated and what trips people up."
 primaryKeyword: "credit card mobile device insurance canada"
 publishedAt: 2026-10-09T12:00:00-04:00
-updatedAt: 2026-10-09T12:00:00-04:00
+updatedAt: 2026-10-10T12:00:00-04:00
 sortOrder: 28
 hubLinks:
   - { href: "/best/rewards/", label: "Best rewards cards" }
@@ -38,8 +38,9 @@ Here's how a few cards describe it, from issuer pages in October 2026:
 | [American Express Cobalt](/card/american-express-cobalt-card/) | Up to $1,000 per insured person | Theft, loss or accidental damage; charge or finance the device on the card |
 | [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) | Up to $1,000 | Fully charge or finance the device's purchase price on the card |
 | [TD Aeroplan Visa Infinite](/card/td-aeroplan-visa-infinite-card/) | Up to $1,000 | Loss, theft, accidental damage or mechanical breakdown |
+| [Brim World Elite Mastercard](/card/brim-world-elite-mastercard/) | Up to $1,500 | World Elite coverage limit |
 
-Sources: the issuers' card pages (for example, [Amex's Cobalt page](https://www.americanexpress.com/en-ca/credit-cards/cobalt-card/) and [CIBC's Costco Mastercard page](https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/costco-mastercard.html)) and RBC's certificate of insurance. Many no-fee cards include no mobile device coverage at all.
+Sources: the issuers' card pages (for example, [Amex's Cobalt page](https://www.americanexpress.com/en-ca/credit-cards/cobalt-card/), [CIBC's Costco Mastercard page](https://www.cibc.com/en/personal-banking/credit-cards/all-credit-cards/costco-mastercard.html), and [Brim's personal credit cards page](https://brimfinancial.com/personal-credit-cards)) and RBC's certificate of insurance. Many no-fee cards include no mobile device coverage at all.
 
 ## How you have to pay for the phone
 
