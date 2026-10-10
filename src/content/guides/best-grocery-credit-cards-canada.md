@@ -4,6 +4,7 @@ description: "Best grocery credit cards in Canada for 2026: Amex Gold vs Cobalt,
 excerpt: "Match the card to the banner you already shop. Amex Cobalt and Gold Rewards pay at stand-alone grocers that take Amex; grocery Visas cover the rest; Optimum and Scene+ only pay at their stores."
 primaryKeyword: "best grocery credit card canada"
 publishedAt: 2026-09-20
+updatedAt: 2026-10-10T12:00:00-04:00
 sortOrder: 7
 hubLinks:
   - { href: "/best/groceries/", label: "Best grocery cards" }
@@ -64,7 +65,7 @@ Students should use the [student guide](/guides/best-student-credit-cards-canada
 
 **Costco:** The warehouse is Mastercard. [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) is the cobrand if the membership is permanent. A Visa Infinite grocery card is the wrong plastic at the exit. Tangerine and BMO CashBack also work as Mastercards if you do not want the cobrand.
 
-**Canadian Tire / Triangle:** [Triangle Mastercard](/card/triangle-mastercard/) and [Triangle World Elite](/card/triangle-world-elite-mastercard/) earn Triangle rewards. That helps if Canadian Tire, SportChek, or Mark’s is a real budget line. It is not a Superstore card.
+**Canadian Tire / Triangle:** [Triangle Mastercard](/card/triangle-mastercard/) and [Triangle World Elite](/card/triangle-world-elite-mastercard/) earn Canadian Tire Money. That helps if Canadian Tire, SportChek, or Mark’s is a real budget line. World Elite pays 3% on groceries for the first $12,000 a year, and [Canadian Tire excludes Costco and Walmart](https://triangle.canadiantire.ca/en/credit-cards.html) from that rate. It is not a Superstore card.
 
 **Walmart:** [Walmart Rewards Mastercard](/card/walmart-rewards-mastercard/) is store-focused. Confirm the live earn if Walmart is the grocer.
 

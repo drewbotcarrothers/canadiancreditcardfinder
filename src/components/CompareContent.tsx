@@ -65,8 +65,21 @@ export default function CompareContent({ allCards }: CompareContentProps) {
     };
 
     const lowestFee = getBestValue(c => c.annualFee, 'lowest');
-    const lowestPurchaseRate = getBestValue(c => c.purchaseInterestRate, 'lowest');
-    const lowestCashRate = getBestValue(c => c.cashAdvanceInterestRate, 'lowest');
+    const lowestDisplayedRate = (rate: (c: CreditCard) => number, display: (c: CreditCard) => string) => {
+        const values = selectedCards
+            .filter((card) => display(card).trim().length > 0)
+            .map(rate)
+            .filter((value) => Number.isFinite(value));
+        return values.length > 0 ? Math.min(...values) : null;
+    };
+    const lowestPurchaseRate = lowestDisplayedRate(
+        (c) => c.purchaseInterestRate,
+        (c) => c.purchaseInterestRateDisplay,
+    );
+    const lowestCashRate = lowestDisplayedRate(
+        (c) => c.cashAdvanceInterestRate,
+        (c) => c.cashAdvanceInterestRateDisplay,
+    );
     const highestBonus = getBestValue(c => parseBonusValue(c.welcomeBonusValue), 'highest');
 
     return (

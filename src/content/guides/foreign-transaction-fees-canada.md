@@ -4,7 +4,7 @@ description: "How Canadian credit card foreign transaction fees work, the usual 
 excerpt: "Most Canadian credit cards add about 2.5% to anything charged in another currency, including online purchases. Here is how the fee is calculated and the cleanest ways to avoid it."
 primaryKeyword: "foreign transaction fees canada"
 publishedAt: 2026-10-09T12:00:00-04:00
-updatedAt: 2026-10-09T12:00:00-04:00
+updatedAt: 2026-10-10T12:00:00-04:00
 sortOrder: 14
 hubLinks:
   - { href: "/best/travel/", label: "Best travel cards" }
@@ -62,7 +62,7 @@ A few Canadian cards charge no conversion fee at all, so you pay only the networ
 - [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) and the [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/). Scotiabank's card pages say you avoid "the typical 2.5% foreign transaction fee" and "just the exchange rate applies."
 - [Home Trust Preferred Visa](/card/home-trust-preferred-visa/), a no-annual-fee card. Home Trust's [card page](https://www.hometrust.ca/credit-cards/preferred-visa-card/) says foreign currency transactions are converted at Visa's exchange rate "without additional surcharge." It is not available in Quebec, and foreign transactions are not eligible for its cash back.
 
-Some cards charge a reduced fee rather than none. [Brim's site](https://brimfinancial.com/credit-cards) lists a 1.5% foreign transaction fee on its cards, including the no-fee [Brim Mastercard](/card/brim-mastercard/).
+Some cards charge a reduced fee rather than none. [Brim’s personal credit cards page](https://brimfinancial.com/personal-credit-cards) lists a 1.5% foreign transaction fee on the no-fee [Brim Mastercard](/card/brim-mastercard/) and on the [Brim World Elite Mastercard](/card/brim-world-elite-mastercard/).
 
 Read the fine print on rewards, too. Scotiabank's Gold Amex terms, for example, say accelerated Scene+ earn applies to purchases in Canadian currency only, and foreign currency purchases earn the base rate. A no-fee card saves you 2.5%; it may not also give you its best earn rate abroad.
 

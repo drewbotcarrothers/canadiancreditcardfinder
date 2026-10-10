@@ -618,11 +618,11 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
         slug: 'cross-border',
         name: 'Cross-border spender',
         shortWho: 'Snowbirds, US shoppers, and anyone tired of paying ~2.5% on foreign currency.',
-        stackSummary: 'Add Passport VI (or Home Trust / Scotia Gold Amex / Brim WE) to your domestic stack.',
+        stackSummary: 'Add Passport VI (or Home Trust / Scotia Gold Amex) to your domestic stack.',
         h1: 'The cross-border and no-FX credit card stack (Canada)',
         metaTitle: 'No Foreign Transaction Fee Credit Card Stack Canada (2026)',
         metaDescription:
-            'Add a no-FX Canadian card for USD and travel spend: Passport Infinite, Scotia Gold Amex, Home Trust, or Brim. Live fees from our catalog.',
+            'Add a no-FX Canadian card for USD and travel spend: Passport Infinite, Scotia Gold Amex, or Home Trust.',
         complexity: '+1 card',
         intro:
             'This is a layer, not a full wallet replacement. Keep your domestic earners, then add one card you use only for foreign-currency spend.',
@@ -662,11 +662,6 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
         ],
         alternatives: [
             {
-                slug: 'brim-world-elite-mastercard',
-                role: 'World Elite path often marketed with no FX',
-                note: 'Confirm FX treatment on the issuer page; income rules may apply.',
-            },
-            {
                 slug: 'rogers-red-world-elite-mastercard',
                 role: 'USD earn alternative (not the same as no-FX)',
                 note: 'Elevated USD earn paths still need you to check whether a conversion fee applies and what net return remains.',
@@ -676,6 +671,7 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             'You almost never spend in foreign currency.',
             'You expected Cobalt or Platinum to be no-FX — The Platinum Card charges a 2.5% foreign currency conversion commission, and other Canadian Amex personal cards add a conversion commission as well.',
             'You live in Quebec and were counting on Home Trust — it is not offered there.',
+            'You wanted Brim for foreign spending. Brim charges a 1.5% foreign transaction fee on the World Elite card and on the no-fee Brim Mastercard.',
         ],
         relatedHubs: [
             { href: '/best/us-dollar/', label: 'Best US-dollar cards' },
@@ -842,8 +838,8 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             },
             {
                 slug: 'triangle-world-elite-mastercard',
-                role: 'Canadian Tire family and grocery earn tier',
-                note: 'Or Triangle Mastercard if you do not meet World Elite income.',
+                role: 'Canadian Tire family, fuel, and grocery earn tier',
+                note: '3% CT Money on groceries for the first $12,000 a year excludes Costco and Walmart. Fuel at Gas+ and Petro-Canada is 7¢/L on premium and 5¢/L on other fuel. Income is $80,000 personal or $150,000 household. Or Triangle Mastercard if you do not meet that test.',
             },
             {
                 slug: 'tangerine-money-back-credit-card',

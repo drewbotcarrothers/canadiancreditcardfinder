@@ -191,11 +191,11 @@ const jsonLd = [productJsonLd, articleJsonLd, faqJsonLd].filter(Boolean);
             </div>
             <div class="bg-white rounded-xl shadow-md p-5">
                 <p class="text-gray-500 text-sm mb-1">Purchase Rate</p>
-                <p class="text-xl font-bold text-gray-900">{card.purchaseInterestRateDisplay}</p>
+                <p class="text-xl font-bold text-gray-900">{card.purchaseInterestRateDisplay || 'Not listed'}</p>
             </div>
             <div class="bg-white rounded-xl shadow-md p-5">
                 <p class="text-gray-500 text-sm mb-1">Cash Advance Rate</p>
-                <p class="text-xl font-bold text-gray-900">{card.cashAdvanceInterestRateDisplay}</p>
+                <p class="text-xl font-bold text-gray-900">{card.cashAdvanceInterestRateDisplay || 'Not listed'}</p>
             </div>
             <div class="bg-white rounded-xl shadow-md p-5">
                 <p class="text-gray-500 text-sm mb-1">Rewards Program</p>
@@ -260,11 +260,11 @@ const jsonLd = [productJsonLd, articleJsonLd, faqJsonLd].filter(Boolean);
                 </div>
                 <div class="py-4 flex justify-between">
                     <p class="font-medium text-gray-900">Purchase Interest Rate</p>
-                    <p class="font-semibold text-gray-900">{card.purchaseInterestRateDisplay}</p>
+                    <p class="font-semibold text-gray-900">{card.purchaseInterestRateDisplay || 'Not listed'}</p>
                 </div>
                 <div class="py-4 flex justify-between">
                     <p class="font-medium text-gray-900">Cash Advance Interest Rate</p>
-                    <p class="font-semibold text-gray-900">{card.cashAdvanceInterestRateDisplay}</p>
+                    <p class="font-semibold text-gray-900">{card.cashAdvanceInterestRateDisplay || 'Not listed'}</p>
                 </div>
             </div>
         </section>
