@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
         'Everything else currently earns 1 Aeroplan point per $1.50. Dining, Amazon, and general retail drag the blended rate down fast.',
         'The card’s features also mention Journie Rewards cents-off at participating gas stations. That is a fuel program, not extra Aeroplan, and it only helps if you already use those stations.',
         'The welcome headline talks about travel value and points; follow the detailed three-stage schedule and confirm thresholds on CIBC’s page.',
-        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the Aeroplan name on a $0 Visa.',
+        'Included insurance currently covers car rental collision and loss damage, purchase security and extended protection, and common carrier accident only. There is no travel medical, so do not assume it from the Aeroplan name on a $0 Visa.',
         'Opening this card can still collide with CIBC’s “recent bonus / switching cards” rules. Read eligibility before you treat a $0 cobrand as a harmless test drive into Infinite next month.',
     ],
     feesAndValue:
