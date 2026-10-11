@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
         'The short features list 1 point per dollar at grocery, gas, EV charging, and drugstores, 1 point per dollar on Rewards Centre travel, and 1 point per $2 on everything else. That catch-all is half of Gold’s 1x floor.',
         'The detailed feature list also mentions bonus (double) points on Rewards Centre travel. If those two figures still disagree, trust CIBC’s live table, not a blended guess.',
         'Aventura redemptions are only as good as CIBC’s catalogue. Cashing out poorly can lose to a 2% cash-back card.',
-        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from a $0 Aventura Visa.',
+        'Included insurance is currently limited to $100,000 common carrier accident plus purchase security and extended protection. There is no travel medical or car rental coverage, so buy travel insurance separately.',
         'The welcome “up to” dollar wrap is a small travel-value envelope around points, not cash.',
     ],
     feesAndValue:
