@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
         'Base earn of 1x on everything else is ordinary. Dining-heavy spenders may prefer an Amex cobrand or [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/).',
         'The welcome headline, detailed point total, and estimated dollar value do not perfectly agree. Treat them as a range to verify on CIBC’s page, not as three facts.',
         'Additional cards currently carry their own annual fee.',
-        'Insurance is solid but read the certificate: CIBC currently lists out-of-province emergency travel medical, trip cancellation and interruption, flight delay and baggage, hotel burglary, car rental, mobile device, and purchase coverage. Age and trip-length limits apply to travel medical.',
+        'Insurance is solid but read the certificate: CIBC currently lists out-of-province emergency travel medical, trip cancellation and interruption, flight delay and baggage, hotel burglary, car rental, mobile device, and purchase coverage. Check the certificate for limits before you travel.',
         'Switching from another CIBC card can void the welcome offer — a trap for people already in the Dividend or Aeroplan Platinum family.',
     ],
     feesAndValue:
