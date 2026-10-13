@@ -492,6 +492,12 @@
         "mbna-rewards-world-elite-mastercard",
         "scotiabank-passport-visa-infinite-card"
       ]
+    },
+    "AGoLR5lwclU": {
+      "cards": [
+        "cibc-aeroplan-visa-infinite-card",
+        "td-aeroplan-visa-infinite-card"
+      ]
     }
   },
   "skip": {
