@@ -498,6 +498,16 @@
         "cibc-aeroplan-visa-infinite-card",
         "td-aeroplan-visa-infinite-card"
       ]
+    },
+    "ZE5AUSZwAh0": {
+      "cards": [
+        "cibc-aeroplan-visa-infinite-card",
+        "westjet-rbc-world-elite-mastercard",
+        "bmo-viporter-world-elite-mastercard",
+        "scotiabank-passport-visa-infinite-privilege-card"
+      ],
+      "kind": "best-of",
+      "description": "Best travel credit cards in Canada for 2026: pick by airline program \u2014 Aeroplan, WestJet, Porter or Scene+ \u2014 with fees, earn rates and who each card fits."
     }
   },
   "skip": {
