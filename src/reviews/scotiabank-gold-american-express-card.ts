@@ -8,10 +8,10 @@ const review: CardEditorialReview = {
     metaDescription:
         'Scotiabank Gold American Express Card review for 2026: 6x Sobeys Scene+, no FX fees, annual-fee waiver, welcome bonus, and who should skip it.',
     intro:
-        'The Scotiabank Gold American Express Card is a Scene+ earner dressed as a mid-fee Amex: 6x at Sobeys-family grocers, 5x on dining, delivery, streaming, and entertainment, 3x on gas and daily transit, and no foreign-transaction fees. The annual fee is often the headline people remember — and the detail line says it can be waived with an eligible Scotiabank account. This Scotiabank Gold American Express Card review covers who actually shops those grocery banners, how strict the two-year welcome-bonus exclusion is, and when [Cobalt](/card/american-express-cobalt-card/) or [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) is the better Scene+ or dining card.',
+        'The Scotiabank Gold American Express Card is a Scene+ earner dressed as a mid-fee Amex: 6x at Sobeys-family grocers, 5x at other eligible grocery stores and on dining, delivery, and entertainment, 3x on gas, daily transit, and select streaming services, and no foreign-transaction fees. The annual fee is often the headline people remember — and the detail line says it can be waived with an eligible Scotiabank account. This Scotiabank Gold American Express Card review covers who actually shops those grocery banners, how strict the two-year welcome-bonus exclusion is, and when [Cobalt](/card/american-express-cobalt-card/) or [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) is the better Scene+ or dining card.',
     whoItsFor: [
         'Households that already shop at Sobeys, Safeway, FreshCo, Foodland, or other eligible Scene+ grocery banners often enough for 6x to move the needle.',
-        'People who eat out, order delivery, stream, and go to movies, and can stack the 5x bucket on the same Amex.',
+        'People who eat out, order delivery, and go to movies, and can stack the 5x bucket on the same Amex.',
         'Scotiabank customers who can attach an eligible bank account so the annual fee is waived, as the current fee detail describes.',
         'Travellers who want no foreign-transaction fees on an Amex they will also use at home, and who will carry a Visa or Mastercard for the merchants that still refuse American Express.',
     ],
@@ -23,24 +23,25 @@ const review: CardEditorialReview = {
     ],
     pros: [
         '6x Scene+ at eligible Sobeys-family grocery stores is one of the strongest supermarket earn rates in Canada if that is already your banner.',
-        '5x on dining, food delivery, streaming, and entertainment covers a lot of a weekend without needing a second dining card.',
-        '3x on gas and daily transit (rideshares, buses, taxis) is a real commuting category, not just a footnote.',
+        '5x on dining, food delivery, food subscriptions, entertainment, and grocery stores outside the 6x list covers a lot of a weekend without needing a second dining card.',
+        '3x on gas, daily transit (rideshares, buses, taxis), and select streaming services is a real commuting category, not just a footnote.',
         'No foreign-transaction fees, with the current features citing a 2.5% saving versus typical FX markups, makes this a travel-adjacent Amex even without lounge passes.',
         'The annual fee can be waived with an eligible Scotiabank account, which changes the math from “is 6x worth $120?” to “is 6x worth a chequing relationship?”',
+        'Scotiabank lists built-in travel and purchase insurance: travel emergency medical up to $1 million (up to 25 days under age 65, 3 days at 65 and older), trip cancellation and interruption, flight delay, delayed and lost luggage, rental car collision/loss damage, hotel/motel burglary, mobile device coverage up to $1,000, and purchase security with extended warranty.',
     ],
     cons: [
         'It is still American Express. Canadian grocers in the Sobeys family generally take it; plenty of other merchants do not. You need a backup card.',
         'The welcome bonus currently requires two spend hurdles, and the two-year Scotiabank-card exclusion is among the strictest of the cards we track.',
         'Additional cards currently carry their own annual fee.',
-        'Check the issuer’s site for current insurance coverage. Skip-the-line and Scene+ are the perks on file, not a travel-medical package we can describe.',
+        'The accelerated 6x, 5x, and 3x rates apply to the first $50,000 in purchases each calendar year, and only to purchases in Canadian dollars. Foreign-currency purchases earn 1x.',
         'Income listed in eligibility is unusually low for this earn mix, but approval is still a credit decision. Do not treat the minimum as a guarantee.',
     ],
     feesAndValue:
         'Look at the fee table and the detail line together. The issuer shows an annual fee that is waived with an eligible bank account. If you already have (or will open) that account, year-two cost can be $0 and the card is mostly “does 6x grocery plus 5x dining beat the hassle of Amex acceptance?” If you will not hold the qualifying account, treat this like any other mid-fee rewards card: bonus categories minus the fee, versus a no-fee Mastercard. The first-year snapshot on this page compares estimated welcome-bonus value with the headline fee; it does not assume the waiver. Additional cards are extra and are not described as waived. Offers change. Pay in full.',
     rewardsExplained:
-        'You earn Scene+ points, not Membership Rewards and not cash back. The current stack in the detailed features is 6x at Sobeys, Safeway, FreshCo, Foodland, and other eligible grocery stores; 5x on dining (restaurants, fast food), food delivery, streaming, and entertainment (movies, theatres); 3x on gas and daily transit (rideshares, buses, taxis); and 1x on everything else. Those multipliers only apply when the merchant category matches. A grocery banner outside the eligible list, a restaurant inside a hotel, or a streaming service billed through a platform that codes as general retail can land in 1x. Scene+ redeems at Scene partners, groceries in the Empire family, dining, entertainment, and Scene+ Travel. If you do not use those partners, 6x is just a big number. No foreign-transaction fees apply to foreign-currency purchases on this card per the current features — still carry a Visa or Mastercard where Amex is not taken.',
+        'You earn Scene+ points, not Membership Rewards and not cash back. Scotiabank currently lists 6x at Sobeys, Safeway, FreshCo, Foodland, IGA, and other participating Sobeys-family grocers; 5x at other eligible grocery stores and on dining, food delivery, food subscriptions, and entertainment (movies, theatre, ticket agencies); 3x on gas, daily transit (rideshares, buses, taxis), and select streaming services; and 1x on everything else. The accelerated rates apply to the first $50,000 in purchases each calendar year, then 1x. Those multipliers only apply when the merchant category matches. A grocery banner outside the eligible list, a restaurant inside a hotel, or a streaming service billed through a platform that codes as general retail can land in 1x. Scene+ redeems at Scene partners, groceries in the Empire family, dining, entertainment, and Scene+ Travel. If you do not use those partners, 6x is just a big number. No foreign-transaction fees apply to foreign-currency purchases on this card, but those purchases earn 1x — still carry a Visa or Mastercard where Amex is not taken.',
     welcomeBonus:
-        'The current offer is two spend gates: a first chunk of Scene+ after a three-month purchase hurdle, then a second chunk if you hit a higher first-year spend. You need both to match the “up to” point total and the estimated value wrap (which also mentions first-year rewards and savings). Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees are not eligible. That catches almost everyone who already has a Scotia Momentum or Passport card. Read the live application. Do not open Gold Amex as a product-change and expect the bonus.',
+        'The current offer, for accounts opened July 2 to November 1, 2026, is up to 50,000 bonus Scene+ points in two spend gates: 30,000 points after $2,000 in everyday purchases in the first 3 months, then 20,000 more after $7,500 in the first year. Scotiabank wraps that into an “up to $950” first-year value estimate. You need both to match the “up to” point total and the estimated value wrap (which also mentions first-year rewards and savings). Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees are not eligible. That catches almost everyone who already has a Scotia Momentum or Passport card. Read the live application. Do not open Gold Amex as a product-change and expect the bonus.',
     faqs: [
         {
             question: 'Is the Scotiabank Gold American Express Card worth it in 2026?',
@@ -50,7 +51,7 @@ const review: CardEditorialReview = {
         {
             question: 'Can the annual fee be waived?',
             answer:
-                'Our annual-fee detail currently says the fee is waived with an eligible bank account. That is a Scotiabank package rule, not a universal $0 card. Confirm which accounts qualify on Scotiabank’s page, and budget for the headline fee if you will not hold one.',
+                'Scotiabank currently says the ongoing annual fee is waived with an Ultimate Package chequing account, and the first-year fee is waived with a Preferred Package. That is a Scotiabank package rule, not a universal $0 card. Confirm which accounts qualify on Scotiabank’s page, and budget for the headline fee if you will not hold one.',
         },
         {
             question: 'Gold American Express vs American Express Cobalt?',
