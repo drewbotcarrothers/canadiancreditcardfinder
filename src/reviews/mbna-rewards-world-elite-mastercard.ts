@@ -8,11 +8,11 @@ const review: CardEditorialReview = {
     metaDescription:
         'MBNA Rewards World Elite Mastercard review for 2026: 5x everyday categories, $120 fee, vs Amazon.ca Rewards and Platinum Plus, and who should skip it.',
     intro:
-        'The MBNA Rewards World Elite Mastercard is MBNA’s paid flexible-points card: 5 points per dollar on dining, groceries, digital media, memberships, and household utilities, 1 point per dollar elsewhere, a birthday bonus in the detailed features, and World Elite income at a $120-class fee with extra cards currently at $0. It is not the $0 [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/), and it is not [MBNA Rewards Platinum Plus](/card/mbna-rewards-platinum-plus-mastercard/). This MBNA Rewards World Elite Mastercard review covers that everyday 5x stack versus Amazon’s cobrand rate, why the welcome details are thin, and when Tangerine is the simpler $0 alternative.',
+        'The MBNA Rewards World Elite Mastercard is MBNA’s paid flexible-points card: 5 points per dollar on dining, groceries, digital media, memberships, and household utilities, 1 point per dollar elsewhere, an annual birthday bonus, and World Elite income at a $120 fee with additional cards at $50 each. It is not the $0 [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/), and it is not [MBNA Rewards Platinum Plus](/card/mbna-rewards-platinum-plus-mastercard/). This MBNA Rewards World Elite Mastercard review covers that everyday 5x stack versus Amazon’s cobrand rate, the two-part welcome bonus, and when Tangerine is the simpler $0 alternative.',
     whoItsFor: [
         'Households whose month is restaurants, grocery, streaming, gym-and-utility memberships, and bills — the 5x list in the card’s features — and who will redeem MBNA Rewards instead of forgetting them.',
-        'Applicants who meet typical World Elite income figures (personal or household amounts are in eligibility) and will pay the card in full.',
-        'People who want extra cards at no extra annual fee. The issuer currently lists additional cards at $0.',
+        'Applicants with personal income over $80,000 or household income of $150,000 or more (MBNA’s World Elite requirement) who will pay the card in full.',
+        'Travellers who want built-in coverage on an everyday card: MBNA lists travel medical up to $2 million for the first 21 days of a trip (under age 65), flight/trip delay, delayed and lost baggage, rental car collision damage waiver, and mobile device insurance.',
         'Shoppers who want a Mastercard they can use at Costco and small merchants, with a catch-all 1x, rather than locking rewards into Amazon.ca.',
     ],
     whoShouldSkip: [
@@ -24,23 +24,23 @@ const review: CardEditorialReview = {
     pros: [
         '5 points per dollar on dining, groceries, digital media, memberships, and household utilities is a wider everyday stack than grocery-only bank cards.',
         '1 point per dollar elsewhere is printed, so Amazon and gas do not fall to zero even if they miss 5x.',
-        'Detailed features currently mention a birthday bonus of up to a listed amount of points — an ongoing perk, not only a signup dump.',
-        'Additional cards currently show $0, which is kinder than many World Elite bank cards.',
+        'Each year the account gets Birthday Bonus Points equal to 10% of the points earned in the previous 12 months, up to 15,000 points — an ongoing perk, not only a signup dump.',
+        'Built-in travel medical, trip delay, baggage, rental car and mobile device coverage, plus a price protection service, which many no-fee points cards skip.',
         'World Elite Mastercard acceptance includes Costco Canada, even if warehouse spend is likely the 1x bucket unless it codes as grocery.',
     ],
     cons: [
         'The annual fee has to be earned in the gap between this 5x stack and Platinum Plus’s no-fee accelerated earn. If you barely dine out, the fee is a membership in a restaurant club you do not visit.',
-        'The welcome line currently says an “up to” points amount and tells you to confirm on MBNA. No detailed offer, dollar value, or eligibility terms are currently listed.',
+        'Additional cards cost $50 each per year, and the 5x rate stops once you spend $50,000 in a category in a calendar year.',
         'MBNA Rewards redeemed as merchandise or statement credit can be worth less than the marketing envelope.',
-        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the World Elite name.',
+        'The welcome bonus is not available to Quebec residents, and 10,000 of the 30,000 points depend on switching to paperless statements within 90 days.',
         'Merchant coding still applies. A grocery banner that processes as a mass merchant, or a “utility” paid by e-transfer, can miss 5x.',
     ],
     feesAndValue:
-        'The fee table shows a $120-class World Elite card with extra cards at $0. There is no first-year rebate. The first-year snapshot on this page may not show a clean bonus-minus-fee figure because the welcome-value estimate is empty even though the headline names an “up to” points amount. Year one is that unconfirmed signup dump plus 5x on the everyday list. Year two is $120 versus 5x dining/grocery/streaming/memberships/utilities, 1x on the rest, and a birthday bonus if MBNA still pays it. If Amazon.ca is the statement, the $0 cobrand wins. If two Tangerine categories cover the month, Tangerine wins at $0. If you wanted the same personality without World Elite income, Platinum Plus is the fee-free MBNA Rewards door. Offers change. Pay in full.',
+        'MBNA lists a $120 annual fee and $50 for each additional card. There is no first-year rebate. Year one is the welcome bonus (MBNA estimates roughly $165 in cash back value for the spend bonus and about $80 for the paperless bonus) plus 5x on the everyday list. Year two is $120 versus 5x dining/grocery/streaming/memberships/utilities, 1x on the rest, and a birthday bonus if MBNA still pays it. If Amazon.ca is the statement, the $0 cobrand wins. If two Tangerine categories cover the month, Tangerine wins at $0. If you wanted the same personality without World Elite income, Platinum Plus is the fee-free MBNA Rewards door. Offers change. Pay in full.',
     rewardsExplained:
-        'This card earns MBNA Rewards points, MBNA’s flexible catalogue currency — not Amazon.ca Rewards, not Aeroplan, and not cash back you can send to any bank without converting. The current features describe 5 points per dollar on dining, groceries, digital media, memberships, and household utilities, and 1 point per dollar on other eligible purchases. Detailed features add a birthday bonus of up to a listed amount of points. Platinum Plus currently describes accelerated earn on a similar everyday list at $0. Redeem through MBNA’s rewards centre. Put restaurants, grocery, streaming, and utilities here; put Amazon.ca on the cobrand if that order is huge; put chosen 2% categories on Tangerine if you would rather skip points entirely.',
+        'This card earns MBNA Rewards points, MBNA’s flexible catalogue currency — not Amazon.ca Rewards, not Aeroplan, and not cash back you can send to any bank without converting. MBNA currently lists 5 points per dollar on eligible restaurant, grocery, digital media, membership, and household utility purchases until you spend $50,000 a year in the applicable category, and 1 point per dollar on other eligible purchases. Each year you also get Birthday Bonus Points equal to 10% of the points earned in the 12 months before your birthday month, up to 15,000 points. MBNA values points at 100 per $1 for travel and 120 per $1 for cash back or charity, and points do not expire while the account is open and in good standing. Platinum Plus currently describes accelerated earn on a similar everyday list at $0. Redeem through MBNA’s rewards centre. Put restaurants, grocery, streaming, and utilities here; put Amazon.ca on the cobrand if that order is huge; put chosen 2% categories on Tangerine if you would rather skip points entirely.',
     welcomeBonus:
-        'The current welcome line is an “up to” MBNA Rewards points amount, with an explicit note to confirm on MBNA. No estimated dollar value or eligibility text is listed yet. Use MBNA’s application page for spend gates and whether recent Rewards clients are excluded. Judge the card on the 5x stack, the birthday bonus, and the fee versus Platinum Plus.',
+        'The current offer is up to 30,000 bonus MBNA Rewards points: 20,000 points after $2,000 in eligible purchases in the first 90 days, and 10,000 points for enrolling in paperless e-statements within the first 90 days. MBNA estimates those at roughly $165 and $80 in cash back value. The offer is not available to Quebec residents and can change without notice. Judge the card on the 5x stack, the birthday bonus, and the fee versus Platinum Plus.',
     faqs: [
         {
             question: 'Is the MBNA Rewards World Elite Mastercard worth it in 2026?',

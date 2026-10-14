@@ -1,16 +1,6 @@
 {
   "_doc": "Manual video -> card mapping for scripts/sync_card_videos.py. Only long-form videos listed under 'videos' are embedded. Single-card review -> that card; head-to-head -> both cards; roundup/persona -> only the clear main picks (max ~4). Unknown/unsure videos go under 'skip' with a reason. Optional per-video keys: 'description' (short blurb override), 'title' (display-title override). Card slugs are validated against the live card sheet.",
   "videos": {
-    "ZE5AUSZwAh0": {
-      "cards": [
-        "cibc-aeroplan-visa-infinite-card",
-        "westjet-rbc-world-elite-mastercard",
-        "bmo-viporter-world-elite-mastercard",
-        "scotiabank-passport-visa-infinite-privilege-card"
-      ],
-      "kind": "best-of",
-      "description": "Best travel credit cards in Canada for 2026: pick by airline program \u2014 Aeroplan, WestJet, Porter or Scene+ \u2014 with fees, earn rates and who each card fits."
-    },
     "iDF-WmTz7pM": {
       "cards": [
         "td-aeroplan-visa-infinite-card",
@@ -502,6 +492,22 @@
         "mbna-rewards-world-elite-mastercard",
         "scotiabank-passport-visa-infinite-card"
       ]
+    },
+    "AGoLR5lwclU": {
+      "cards": [
+        "cibc-aeroplan-visa-infinite-card",
+        "td-aeroplan-visa-infinite-card"
+      ]
+    },
+    "ZE5AUSZwAh0": {
+      "cards": [
+        "cibc-aeroplan-visa-infinite-card",
+        "westjet-rbc-world-elite-mastercard",
+        "bmo-viporter-world-elite-mastercard",
+        "scotiabank-passport-visa-infinite-privilege-card"
+      ],
+      "kind": "best-of",
+      "description": "Best travel credit cards in Canada for 2026: pick by airline program \u2014 Aeroplan, WestJet, Porter or Scene+ \u2014 with fees, earn rates and who each card fits."
     }
   },
   "skip": {
