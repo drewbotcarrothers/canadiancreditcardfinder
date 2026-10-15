@@ -31,7 +31,7 @@ const review: CardEditorialReview = {
     cons: [
         'The multipliers are a step down from Platinum Travel and two steps down from First Class Travel Infinite on every line in the card’s features.',
         'TD Rewards redeemed through Expedia For TD or as a statement credit can be worth less than you hoped. Treat the modest listed dollar wrap as marketing, not cash.',
-        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from the Rewards name.',
+        'TD lists Mobile Device Insurance up to $1,000 and Purchase Security and Extended Warranty Protection (90 days on eligible new items). There is no travel medical coverage, so do not assume it from the Rewards name.',
         'Eligibility currently excludes people who activated or closed a TD Rewards Visa account in the last 12 months.',
         'You still pay typical Visa foreign-conversion fees abroad unless TD’s agreement says otherwise — this is not Passport.',
     ],
