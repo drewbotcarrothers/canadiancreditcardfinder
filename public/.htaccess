@@ -1,0 +1,19 @@
+# Hostinger serves dist/ as static files via Apache/LiteSpeed (public_html). Astro copies this file into dist/.
+Options -MultiViews
+DirectorySlash On
+ErrorDocument 404 /404.html
+
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Retired URLs that still get Google impressions (one is the 404 in Search Console).
+RewriteRule ^card/bmo-air-miles-mastercard/?$ https://canadiancreditcardfinder.com/issuer/bmo/ [R=301,L]
+RewriteRule ^card/scotiabank-scene-visa-card/?$ https://canadiancreditcardfinder.com/card/scotiabank-scene-plus-visa-card/ [R=301,L]
+RewriteRule ^guides/are-premium-credit-card-worth-it-canada/?$ https://canadiancreditcardfinder.com/guides/are-premium-credit-cards-worth-it-canada/ [R=301,L]
+
+# Canonical URLs end in a slash (astro.config trailingSlash: 'always').
+# 301 /path -> /path/ in one hop when /path/index.html exists and the request is not a file.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
+RewriteRule ^(.*[^/])$ https://canadiancreditcardfinder.com/$1/ [R=301,L]
+</IfModule>

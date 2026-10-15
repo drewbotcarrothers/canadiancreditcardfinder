@@ -10,7 +10,8 @@ import { firstPublished, lastModified, reviewSourceFile } from '../../lib/conten
 import { CARD_IMAGE_HEIGHT, CARD_IMAGE_WIDTH, cardImageSrc, PLACEHOLDER_IMAGE_SRC } from '../../lib/cardImage';
 import { getCardEditorialReview, getReviewHubs } from '../../reviews';
 import { getCards, getCardsBySlugs, getDataFetchedAt, getRelatedCards } from '../../lib/data';
-import { getIssuerHubForName } from '../../lib/issuers';
+import { filterCardsForIssuer, getIssuerHubForName } from '../../lib/issuers';
+import { HUBS, filterCardsForHub } from '../../lib/hubs';
 import { renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
 import { buildCardProductJsonLd } from '../../lib/productSchema';
 import type { CreditCard } from '../../lib/types';
@@ -34,11 +35,19 @@ const relatedCards =
     reviewRelated.length > 0 ? reviewRelated : await getRelatedCards(card, 3);
 const reviewHubs = review ? getReviewHubs(card, review) : [];
 const issuerHub = getIssuerHubForName(card.issuer);
+const allCards = await getCards();
+// Crawlable text links to sibling cards and the best-of lists this card appears on.
+const relatedSlugs = new Set([card.slug, ...relatedCards.map((c) => c.slug)]);
+const issuerSiblings = issuerHub
+    ? filterCardsForIssuer(allCards, issuerHub.slug).filter((c) => !relatedSlugs.has(c.slug)).slice(0, 8)
+    : [];
+const memberHubs = HUBS.filter((hub) => filterCardsForHub(allCards, hub.slug).some((c) => c.slug === card.slug));
 const imageSrc = cardImageSrc(card.imageFile);
 const heading = review?.h1 ?? card.creditCardName;
-const title = review
-    ? `${review.seoTitle} | Canadian Credit Card Finder`
-    : `${card.creditCardName} | ${card.issuer} | Canadian Credit Card Finder`;
+const SITE_SUFFIX = ' | Canadian Credit Card Finder';
+const baseTitle = review ? review.seoTitle : `${card.creditCardName} | ${card.issuer}`;
+// Only append the brand when the full title still fits in ~60 characters (search results truncate beyond that).
+const title = baseTitle.length + SITE_SUFFIX.length <= 60 ? `${baseTitle}${SITE_SUFFIX}` : baseTitle;
 const description = review
     ? review.metaDescription
     : `${card.creditCardName} from ${card.issuer}. Annual fee: ${card.annualFeeDisplay}. Interest: ${card.purchaseInterestRateDisplay}. ${card.welcomeBonus}. Compare and apply at Canadian Credit Card Finder.`;
@@ -375,6 +384,38 @@ const jsonLd = [productJsonLd, articleJsonLd, faqJsonLd].filter(Boolean);
             <section>
                 <h2 class="text-2xl font-bold text-gray-900 mb-6">You Might Also Like</h2>
                 <CardGrid client:load cards={relatedCards} />
+            </section>
+        )}
+
+        {(issuerSiblings.length > 0 || memberHubs.length > 0) && (
+            <section class="mt-8 bg-white rounded-2xl shadow-md p-6 lg:p-8" aria-labelledby="more-cards-heading">
+                <h2 id="more-cards-heading" class="text-xl font-bold text-gray-900 mb-4">Keep comparing</h2>
+                {memberHubs.length > 0 && (
+                    <div class="mb-4">
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">Featured in</h3>
+                        <ul class="flex flex-wrap gap-2">
+                            {memberHubs.map((hub) => (
+                                <li>
+                                    <a href={`/best/${hub.slug}/`} class="inline-block rounded-full border border-gray-200 px-3 py-1 text-sm text-gray-700 hover:border-red-300 hover:text-red-600">
+                                        {hub.h1.replace(/ in Canada \(\d{4}\)$/, '')}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
+                {issuerHub && issuerSiblings.length > 0 && (
+                    <div>
+                        <h3 class="text-sm font-semibold text-gray-500 uppercase tracking-wide mb-2">More {issuerHub.navLabel} cards</h3>
+                        <ul class="grid sm:grid-cols-2 gap-x-6 gap-y-1">
+                            {issuerSiblings.map((c) => (
+                                <li>
+                                    <a href={`/card/${c.slug}/`} class="text-sm text-gray-700 hover:text-red-600">{c.creditCardName}</a>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                )}
             </section>
         )}
 
