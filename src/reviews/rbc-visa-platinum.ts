@@ -6,9 +6,9 @@ const review: CardEditorialReview = {
     h1: 'RBC Visa Platinum Review',
     primaryKeyword: 'rbc visa platinum review',
     metaDescription:
-        'RBC Visa Platinum review for 2026: $0 fee, Petro-Points and Avion Offers, vs ION and Avion Platinum, no listed category, who should skip it.',
+        'RBC Visa Platinum review for 2026: $0 fee, Petro-Points and Avion Offers, vs ION and Avion Platinum, insurance, who should skip it.',
     intro:
-        'The RBC Visa Platinum is RBC’s no-fee offers card, not [Avion Visa Platinum](/card/rbc-avion-visa-platinum/) and not a cash-back Visa: $0 annual fee, extra cards at $0, purchase security and extended warranty in detailed features, 3¢/L fuel savings at Petro-Canada, and access to Avion Rewards deals plus extra Petro-Points language in the rewards-program description. This card has no listed category. Welcome copy currently says there is often none. This RBC Visa Platinum review writes from the fees and features that are present: partner offers on a $0 Visa, and why [RBC ION Visa](/card/rbc-ion-visa/) is still the better everyday Avion earner if you wanted 1.5x on groceries.',
+        'The RBC Visa Platinum is RBC’s no-fee offers card, not [Avion Visa Platinum](/card/rbc-avion-visa-platinum/) and not a cash-back Visa: $0 annual fee, extra cards at $0, purchase security and extended warranty in detailed features, 3¢/L fuel savings at Petro-Canada, and access to Avion Rewards deals plus extra Petro-Points language in the rewards-program description. It is listed under Rewards, for its Avion Rewards offers rather than an earn rate. Welcome copy currently says there is often none. This RBC Visa Platinum review writes from the fees and features that are present: partner offers on a $0 Visa, and why [RBC ION Visa](/card/rbc-ion-visa/) is still the better everyday Avion earner if you wanted 1.5x on groceries.',
     whoItsFor: [
         'RBC customers who already buy gas at Petro-Canada, shop Rexall, or use DoorDash, want those Avion Rewards / partner deals on a $0 Visa, and will pay in full.',
         'People who wanted purchase protection and extended warranty without an Avion Platinum fee, and who do not need a printed earn table.',
@@ -30,9 +30,9 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'There is no printed spend multiplier (no 1.5x grocery, no 1x Avion per dollar). Rewards-program text currently talks about Petro-Points (20% more) and access to Avion Rewards — offers, not an earn table like ION.',
-        'With no listed category, this page will not pretend the card is a travel Infinite or a cash-back Visa. Hub matching may still pick up Avion-related travel tags from the rewards-program wording; that is a labelling quirk, not a lounge card.',
+        'It is filed under Rewards for its offers, but this page will not pretend the card is a travel Infinite or a cash-back Visa. Hub matching may still pick up Avion-related travel tags from the rewards-program wording; that is a labelling quirk, not a lounge card.',
         'No detailed welcome terms, value, or eligibility terms are currently listed. Year-one value is $0 versus partner offers.',
-        'Detailed features mention purchase security, but no full insurance package is listed. Confirm the certificate rather than assuming travel medical coverage from the Platinum name.',
+        'RBC lists Travel Accident Insurance, Auto Rental Collision/Loss Damage Waiver Insurance, and Purchase Security & Extended Warranty Insurance. There is no travel medical coverage, so confirm the certificate rather than assuming it from the Platinum name.',
         'Name collision with Avion Visa Platinum is a real shopping-cart error. Apply to the right SKU.',
     ],
     feesAndValue:
@@ -58,9 +58,9 @@ const review: CardEditorialReview = {
                 '[ION](/card/rbc-ion-visa/) currently lists $0 and 1.5x Avion on groceries, rides, gas, EV, streaming, and gaming. This card currently lists $0 and partner offers without that earn table. Choose ION if you wanted Avion on spend. Choose Visa Platinum if loaded offers and Petro-Canada cents-off are the actual habit.',
         },
         {
-            question: 'Why is the category blank?',
+            question: 'Why is it listed as a Rewards card?',
             answer:
-                'This card currently has no listed category. Judge the card from the $0 fee, Petro-Canada and Avion Rewards offer language, and purchase-protection features that are present.',
+                'It sits under Rewards because its value is Avion Rewards offers and Petro-Points, not a points earn rate. Judge the card from the $0 fee, Petro-Canada and Avion Rewards offer language, and purchase-protection features that are present.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',

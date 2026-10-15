@@ -19,7 +19,7 @@ const review: CardEditorialReview = {
         'Anyone who held a Scotiabank personal credit card in the past two years and is applying only for the 10% welcome. Current eligibility excludes current and former primary or secondary cardholders, product-changers, and Scotiabank employees.',
         'Light grocery spenders. Year two of this fee is a membership in a club you visit once a week with a small bill.',
         'Scene+ collectors who wanted 6x at Sobeys. That is [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/), not Momentum.',
-        'People who will revolve a balance. The purchase rate is currently listed with a note to verify 21.99% on Scotiabank’s page — either way, 4% cash back will not win.',
+        'People who will revolve a balance. The purchase rate is 20.99%, and 4% cash back will not win against that.',
     ],
     pros: [
         '4% cash back on grocery and recurring payments is a sharper bills-and-shop pair than TD’s 3% Infinite stack, if those two buckets are actually large.',

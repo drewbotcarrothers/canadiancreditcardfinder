@@ -19,7 +19,7 @@ const review: CardEditorialReview = {
         'Households that will clear an Infinite fee with 4% grocery and recurring bills. That is [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/). Its current welcome is 15% cash back on the first $2,000 in purchases in the first 3 months, for accounts opened July 2 to November 1, 2026.',
         'Anyone who wanted a $0 Scotia cash-back card. [Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/) is $0 for the primary card and for each additional card. [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the $0 Mastercard if you want category cash back outside Scotia.',
         'Scene+ collectors who wanted 6x at Sobeys. That is [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/), not Momentum.',
-        'People who will revolve a balance. Confirm the current purchase rate on Scotiabank’s page. Cash advances are 22.99%. Either way, 2% cash back will not win against interest.',
+        'People who will revolve a balance. Purchases are 20.99%. Cash advances are 22.99%. Either way, 2% cash back will not win against interest.',
     ],
     pros: [
         '2% cash back on a wide everyday list, up to $25,000 a year in those categories, is a stronger mix than a 1% card and broader than Infinite, which leads with grocery and recurring payments.',
@@ -32,7 +32,7 @@ const review: CardEditorialReview = {
         'The annual fee is $49 a year, and each supplementary card is $15 a year. That is a real year-two cost against a 2% list that stops at $25,000.',
         'There is no cash welcome bonus. The special offer is a 0.99% introductory rate on balance transfers for the first 9 months, with a 2% fee per transfer (minimum $5), then 22.99%. It applies to new accounts opened July 2, 2026 to January 3, 2027, excludes anyone who held a Scotiabank personal credit card in the past 2 years, and ends early if you miss two consecutive minimum payments.',
         '2% applies only up to $25,000 a year in the 2% categories. After that, and on everything else, the card earns 1%.',
-        'Confirm the current purchase rate on Scotiabank’s page. Cash advances are 22.99%. Do not assume a cheap revolving rate from a cash-back card.',
+        'Purchases are 20.99%. Cash advances are 22.99%. Do not assume a cheap revolving rate from a cash-back card.',
         'Coverage is Purchase Security for 90 days and Extended Warranty, which doubles the manufacturer’s warranty for up to one year. This is still a cash-back Visa, not a travel-medical product. Read the certificate.',
     ],
     feesAndValue:
