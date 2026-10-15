@@ -2,7 +2,7 @@ import type { CardEditorialReview } from './types';
 
 const review: CardEditorialReview = {
     slug: 'cibc-aventura-gold-visa-card',
-    seoTitle: 'CIBC Aventura Gold Visa Card Review (2026) — Fees, Rewards & Is It Worth It?',
+    seoTitle: 'CIBC Aventura Gold Visa Card Review (2026): Worth It?',
     h1: 'CIBC Aventura Gold Visa Card Review',
     primaryKeyword: 'cibc aventura gold visa card review',
     metaDescription:

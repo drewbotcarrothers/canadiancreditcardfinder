@@ -2,11 +2,11 @@ import type { CardEditorialReview } from './types';
 
 const review: CardEditorialReview = {
     slug: 'td-platinum-travel-visa-card',
-    seoTitle: 'TD Platinum Travel Visa Card Review (2026) — Fees, Rewards & Is It Worth It?',
+    seoTitle: 'TD Platinum Travel Visa Card Review (2026): Worth It?',
     h1: 'TD Platinum Travel Visa Card Review',
     primaryKeyword: 'td platinum travel visa card review',
     metaDescription:
-        'TD Platinum Travel Visa Card review for 2026: TD Rewards vs First Class Travel Infinite, Expedia For TD earn, $89 fee, welcome bonus, and who should skip it.',
+        'TD Platinum Travel Visa Card review for 2026: TD Rewards vs First Class Travel Infinite, Expedia For TD earn, $89 fee, welcome bonus, who should skip it.',
     intro:
         'The TD Platinum Travel Visa Card is TD’s accessible flexible-travel Visa, not an Air Canada cobrand and not Infinite: TD Rewards points, 6x when you book through Expedia For TD, 4.5x on groceries, dining, and public transit, 3x on recurring bills and streaming, and 1.5x on everything else, at a Platinum fee currently waived in year one. If you wanted [TD First Class Travel Visa Infinite](/card/td-first-class-travel-visa-infinite-card/), that card is the same shape at higher multipliers and Infinite income. This TD Platinum Travel Visa Card review unpacks the modest 90-day welcome, when Aeroplan Platinum is the cobrand you actually wanted, and why skipping Expedia For TD makes this an expensive 1.5x card.',
     whoItsFor: [
