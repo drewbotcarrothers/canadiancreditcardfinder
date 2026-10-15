@@ -132,6 +132,26 @@ const GUIDE_IMAGE_ALTS: Record<string, string> = {
         'Hand in a suit placing a blank black credit card on a restaurant bill folder, for the Visa Infinite and World Elite income requirements guide',
     'welcome-bonus-eligibility-rules-canada':
         'Hands with a magnifying glass over fine-print paperwork beside a gift box and blank credit card, for the welcome bonus eligibility rules guide',
+    'aeroplan-vs-scene-plus-canada':
+        'Two blank credit cards on an airplane tray table beside popcorn and a grocery basket, with a sunset out the window, for the Aeroplan vs Scene+ comparison',
+    'best-dining-restaurant-credit-cards-canada':
+        'Hand tapping a blank credit card on a payment terminal at a restaurant table with plated meals and wine, for the best dining credit cards guide',
+    'best-gas-credit-cards-canada':
+        'Hand tapping a blank credit card at a Canadian gas pump with an EV charger blurred in the background, for the best gas credit cards guide',
+    'car-rental-insurance-credit-cards-canada':
+        'Car keys, a rental agreement, and a blank credit card on a counter with a compact car parked outside, for the car rental insurance on credit cards guide',
+    'cash-advances-explained-canada':
+        'ATM on a wet city street at night with a card in the slot and Canadian banknotes dispensing, for the cash advances explained guide',
+    'cash-back-vs-points-credit-cards-canada':
+        'Brass balance scale with Canadian toonies on one side and a model airplane on the other above a blank credit card, for the cash back vs points guide',
+    'credit-card-application-declined-canada':
+        'Person at a kitchen table with a laptop, notepad, and blank credit card reviewing next steps, for the credit card application declined guide',
+    'credit-cards-low-income-no-minimum-canada':
+        'Young adult at a cafe table holding a blank credit card and phone with a backpack on the chair, for the low or no minimum income credit cards guide',
+    'credit-limit-increase-canada':
+        'Hand holding a smartphone showing a credit limit gauge beside a blank credit card on a wooden table, for the credit limit increase guide',
+    'purchase-protection-extended-warranty-canada':
+        'New laptop and headphones in open boxes beside a receipt and blank credit card on marble, for the purchase protection and extended warranty guide',
 };
 
 /** Site-wide default social image (1200x630). Used until a guide gets its own featured image. */
