@@ -507,7 +507,7 @@
         "scotiabank-passport-visa-infinite-privilege-card"
       ],
       "kind": "best-of",
-      "description": "Best travel credit cards in Canada for 2026: pick by airline program \u2014 Aeroplan, WestJet, Porter or Scene+ \u2014 with fees, earn rates and who each card fits."
+      "description": "Best travel credit cards in Canada for 2026: pick by airline program — Aeroplan, WestJet, Porter or Scene+ — with fees, earn rates and who each card fits."
     },
     "v9IkUYTTPyE": {
       "cards": [
@@ -516,6 +516,16 @@
       ],
       "kind": "head-to-head",
       "description": "Passport Visa Infinite vs Gold Amex: no foreign fee showdown"
+    },
+    "Kc2w-egk_qU": {
+      "cards": [
+        "td-aeroplan-visa-infinite-card",
+        "rbc-avion-visa-infinite",
+        "scotiabank-passport-visa-infinite-card"
+      ],
+      "kind": "guide",
+      "note": "Guide explainer: the 3 mid-fee travel cards (one per points currency) are the main worked examples.",
+      "description": "How to choose a travel credit card in Canada: start with the points you'll actually redeem (Aeroplan, Avion or Scene+), count your trips, price foreign transaction fees and read the insurance certificate."
     }
   },
   "skip": {
