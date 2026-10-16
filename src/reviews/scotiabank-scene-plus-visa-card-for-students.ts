@@ -26,14 +26,14 @@ const review: CardEditorialReview = {
         'No annual fee on a Scene+ Visa is the headline. You are not racing a Gold bill.',
         '2x at eligible Empire-family grocers plus 2x Home Hardware plus 2x Cineplex is a campus-shaped bonus list the adult Scene+ Visa review does not centre — confirm it is still live on the student page.',
         'Visa acceptance is the practical advantage over the student Amex at merchants that skip American Express.',
-        'The current welcome path pays 2,500 Scene+ after $250-class three-month spend, then 7,500 more at $1,000-class — a larger second gate than the student Amex currently lists.',
+        'The current welcome path pays 2,500 Scene+ after $250-class three-month spend, then another 2,500 at $1,000-class (up to 5,000) for accounts opened through November 1, 2026 — confirm the live student page.',
         'Additional cards currently show $0.',
     ],
     cons: [
         '1x on everything outside those bonus banners is ordinary. Dining, gas, and bills need the student Amex’s 2x list or Momentum if you care about those categories.',
         'The two-year Scotiabank-card exclusion is the same strict rule as the paid Scotia cards.',
         'Eligibility currently requires Canadian citizenship or permanent residence. International students should read CIBC’s student cards or BMO’s citizenship line rather than assuming Scotia will stretch this Visa.',
-        'Check the issuer’s site for current insurance coverage. This is a $0 rewards Visa, not travel medical.',
+        'No built-in insurance is listed on the student Scene+ Visa page (optional Scotia Credit Card Protection is sold separately). This is a $0 rewards Visa, not travel medical.',
         'The welcome-value estimate lists Scene+ points priced as dollars. The first-year snapshot may treat that number like cash — it is not.',
     ],
     feesAndValue:
@@ -41,7 +41,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Scene+ points, not cash back. Detailed features currently award 1 Scene+ per dollar on all purchases, then 2x at Sobeys, Safeway, participating IGA, Foodland, participating Co-ops, FreshCo, Chalo! FreshCo, Thrifty Foods, Rachelle Béry, Les Marchés Tradition, and Voila banners; 2x at eligible Home Hardware, Home Building Centre, Home Hardware Building Centre, Home Furniture, and homehardware.ca; and 2x at Cineplex theatres, the Cineplex app, and cineplex.com. Adult Scene+ Visa in our reviews leads with grocery 2x and 1x else — this student card’s detailed features are the ones that name hardware and Cineplex. Merchant coding still applies. Redeem at Scene partners, Empire grocers, and Scene+ Travel. For 3x grocery and 2x dining, that is the student Amex. For statement-credit cash, that is student Momentum.',
     welcomeBonus:
-        'The current offer is two spend gates inside the first three months: 2,500 Scene+ after $250-class everyday eligible purchases, then 7,500 more if you hit $1,000-class — 10,000 if you clear both. Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, product-changers, and Scotiabank employees are not eligible. Do not open this as a product-change from student Momentum and expect the bonus. Do not invent spend to clear a four-figure-class hurdle on a $0 card.',
+        'The current offer (accounts opened July 2, 2026–November 1, 2026) is two spend gates inside the first three months: 2,500 Scene+ after $250-class everyday eligible purchases, then another 2,500 if you hit $1,000-class — up to 5,000 if you clear both. Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, product-changers, and Scotiabank employees are not eligible. Do not open this as a product-change from student Momentum and expect the bonus. Do not invent spend to clear a four-figure-class hurdle on a $0 card.',
     faqs: [
         {
             question: 'Is the Scotiabank Scene+ Visa Card for students worth it in 2026?',

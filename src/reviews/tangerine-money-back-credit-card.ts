@@ -8,7 +8,7 @@ const review: CardEditorialReview = {
     metaDescription:
         'Tangerine Money-Back Credit Card review for 2026: $0 annual fee, 2% chosen categories, third category via savings, and who should skip it.',
     intro:
-        'The Tangerine Money-Back Credit Card is the no-fee, pick-your-categories cash-back card a lot of Canadians already know: two 2% buckets you choose, a possible third if you park cash back in a Tangerine savings account, and a low rate on everything else. It is a digital-bank Mastercard, not a grocery-only World Elite product and not a points program. This Tangerine Money-Back Credit Card review explains how the third category actually unlocks, why the missing welcome bonus is not a bug in the review, and when [Simplii’s cash-back Visa](/card/simplii-financial-cash-back-visa/) or a fee-charging grocery card will earn more.',
+        'The Tangerine Money-Back Credit Card is the no-fee, pick-your-categories cash-back card a lot of Canadians already know: two 2% buckets you choose, a possible third if you park cash back in a Tangerine savings account, and 0.5% on everything else. It is a digital-bank Mastercard, not a grocery-only World Elite product and not a points program. This Tangerine Money-Back Credit Card review explains how the third category actually unlocks, the current 10% cash-back welcome (up to $100, apply by November 30, 2026), and when [Simplii’s cash-back Visa](/card/simplii-financial-cash-back-visa/) or a fee-charging grocery card will earn more.',
     whoItsFor: [
         'People who can name two spending categories that dominate the month — groceries and gas, restaurants and recurring bills, or whatever Tangerine currently lets you pick — and will actually set those in the app.',
         'Households that want a $0 annual fee Mastercard beside an American Express card, without learning Avion or Aeroplan.',
@@ -30,17 +30,17 @@ const review: CardEditorialReview = {
     ],
     cons: [
         '0.5% on everything outside your chosen categories is a weak catch-all. A big-box shop or an unlisted merchant category will drag the blended rate down.',
-        'This card currently lists no welcome bonus. Year-one value is just the earn rates — there is no welcome bonus listed to cushion it.',
+        'The current welcome is a limited-time 10% cash-back boost (up to $100), not a large lump-sum — year-one value is still mostly the 2% categories once the promo ends.',
         'Category definitions and how often you can change them live in Tangerine’s rules, not on this page. A “grocery” that codes as a warehouse club can miss the 2% bucket.',
-        'Additional-card fees and insurance coverage are not currently listed, so confirm authorized-user fees and travel medical coverage with Tangerine.',
+        'Authorized users are currently free (up to five). Built-in coverage includes rental-car CDW/LDW, mobile device up to $1,000, and purchase assurance / extended warranty — not travel medical.',
         'Tangerine is a digital bank. If you want a branch and a human to argue a charge, this is the wrong issuer.',
     ],
     feesAndValue:
-        'This is a $0-fee card, so the usual “bonus minus annual fee” snapshot on this page will look empty or unhelpful. Value is the 2% categories minus the 0.5% drag on everything else. If two (or three) categories cover most of what you already spend, Tangerine is hard to beat among no-fee cards. If your spend is scattered — a bit of grocery, a bit of dining, a lot of Amazon and general retail — the blended rate falls toward 0.5% and a 1% flat cash-back card, or a fee-charging grocery card, can win. There is no first-year fee rebate to hide a weak fit. Offers change; Tangerine has run category promotions in the past, but none is currently listed as a welcome bonus, so this review does not count on them.',
+        'This is a $0-fee card. Value is the 2% categories minus the 0.5% drag on everything else, plus the current 10% welcome (up to $100) if you apply by November 30, 2026 and clear the activation / spend gates. If two (or three) categories cover most of what you already spend, Tangerine is hard to beat among no-fee cards. If your spend is scattered — a bit of grocery, a bit of dining, a lot of Amazon and general retail — the blended rate falls toward 0.5% and a 1% flat cash-back card, or a fee-charging grocery card, can win. Foreign-currency purchases currently add a 2.50% conversion fee. Offers change; confirm the live application.',
     rewardsExplained:
         'You earn cash back, not points. The issuer currently describes 2% in up to two chosen categories, a third 2% category if you deposit cash back into a Tangerine savings account, and 0.5% on everything else. You have to pick the categories in Tangerine’s product — they are not automatically “whatever you spent most on last month.” Merchant coding still applies: a restaurant inside a hotel, a grocery banner that processes as a superstore, or a gas station attached to a retailer can miss the 2% list. Cash back is typically redeemed into a Tangerine account. That deposit is also the lever for the third category, so people who want the cash as a credit-card statement offset and people who want three 2% buckets are making different choices. Confirm the live category list and change windows on Tangerine’s site.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file,” not as a hidden 20,000-point dump. If Tangerine is running a limited-time category boost or a new-client cash offer, it will be on their application page — use that, not this paragraph.',
+        'The current limited-time offer pays 10% cash back (up to $100) on top of regular rewards for new accounts that apply by November 30, 2026, activate within 45 days of approval, and post up to $1,000 in Net Purchases within 60 days of activation. Bonus credits within 1–2 statement cycles after that window if the account stays open and in good standing; limit one offer per eligible client. Tangerine also advertises a 1.95% promotional balance-transfer rate for six statement periods on transfers made in the first 30 days (then 22.95%). Confirm the live terms on tangerine.ca before you count on either promo.',
     faqs: [
         {
             question: 'Is the Tangerine Money-Back Credit Card worth it in 2026?',
@@ -55,7 +55,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Mastercards add a foreign-conversion fee on foreign-currency purchases. Tangerine Money-Back is a domestic cash-back card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm Tangerine’s current FX rate in the agreement.',
+                'Tangerine currently adds a 2.50% foreign currency conversion fee on foreign-currency purchases. This is a domestic cash-back card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
         {
             question: 'Tangerine Money-Back vs the Tangerine Money-Back World Mastercard?',

@@ -33,7 +33,7 @@ const review: CardEditorialReview = {
         'The earn table is thin next to CAD Gold. The card’s features currently say 1x Rewards Centre travel and 1 point per $2 on all other purchases — no grocery 1.5x, no 2x portal.',
         'Welcome eligibility currently blocks anyone who opened, transferred, or cancelled another Aventura card in the last 12 months, including CAD Gold or the $0 Aventura Visa.',
         'The welcome-value estimate currently talks in charity-to-gift-card dollars around 2,500 points. That is a modest envelope, not a CAD Gold wrap.',
-        'Check the issuer’s site for current insurance coverage. USD Gold is not a travel-medical product.',
+        'Built-in coverage currently lists car rental collision/loss damage, $100,000 common carrier accident, and purchase security / extended protection — not travel medical.',
         'A Visa will not check out at Costco. BMO’s USD Mastercard is the warehouse USD card.',
     ],
     feesAndValue:
@@ -41,7 +41,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Aventura points, CIBC’s flexible travel currency — not Aeroplan. The short and detailed features describe 1 point per dollar on eligible travel purchased through the CIBC Rewards Centre (CIBC by Expedia) and 1 point per $2 on all other purchases. That is a step down from CAD Aventura Gold’s 2x portal / 1.5x grocery-gas-drugstore stack in that review. Merchant coding still applies; a flight bought on the airline site will miss the portal 1x. Redeem through CIBC. Put USD-priced spend and portal bookings you will make anyway here. Put Canadian grocery on CAD Dividend or CAD Aventura Gold. Do not treat this as Infinite Privilege in dollars.',
     welcomeBonus:
-        'The current detailed offer pays up to 2,500 Aventura points for completing listed activities within 60 days of approval, with each listed activity currently worth 500 points: share an email address, sign up for eStatements, add an authorized user, hold an eligible CIBC chequing account, and add the card to Apple Pay, Samsung Pay, or Google Pay. That is an onboarding checklist, not a spend hurdle. Eligibility currently says CIBC may approve you and still withhold the offer if you opened, transferred, or cancelled another Aventura card in the last 12 months. Do not product-change from CAD Gold expecting this wrap. Do not expect a 20,000-point dump copied from CAD Infinite.',
+        'The current detailed offer pays up to 2,500 Aventura points for completing listed activities within 60 days of approval, with each listed activity currently worth 500 points: share an email address, sign up for eStatements, add an authorized user, hold an eligible CIBC chequing account, and add the card to Apple Pay, Samsung Pay, or Google Pay — plus a one-time first-year annual fee rebate for the primary cardholder. That is an onboarding checklist, not a spend hurdle. Eligibility currently says CIBC may approve you and still withhold the points offer if you opened, transferred, or cancelled another Aventura card in the last 12 months. Do not product-change from CAD Gold expecting this wrap. Do not expect a 20,000-point dump copied from CAD Infinite.',
     faqs: [
         {
             question: 'Is the CIBC U.S. Dollar Aventura Gold Visa Card worth it in 2026?',
