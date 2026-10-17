@@ -1,5 +1,19 @@
 [
   {
+    "videoId": "cTdSgs5yyEQ",
+    "title": "RBC Credit Cards Ranked by Welcome Offer (October 2026)",
+    "publishAt": "2026-10-18T16:00:00Z",
+    "duration": "PT4M43S",
+    "cards": [
+      "rbc-avion-visa-infinite",
+      "westjet-rbc-world-elite-mastercard",
+      "rbc-cash-back-preferred-world-elite-mastercard",
+      "rbc-ion-plus-visa"
+    ],
+    "description": "RBC credit cards ranked by welcome offer (October 2026): Avion Visa Infinite, WestJet RBC World Elite, Cash Back Preferred World Elite and ION+ Visa, with the spend target, annual fee and who each one fits.",
+    "kind": "offers"
+  },
+  {
     "videoId": "iJNnQDhmwBI",
     "title": "Best Student Credit Cards in Canada (2026): Build Credit Without an Annual Fee",
     "publishAt": "2026-10-17T16:00:00Z",
@@ -16,7 +30,7 @@
   {
     "videoId": "Kc2w-egk_qU",
     "title": "How to Choose a Travel Credit Card in Canada: Aeroplan vs Avion vs Scene+",
-    "publishAt": "2026-10-16T16:00:00Z",
+    "publishAt": "2026-10-16T16:00:16Z",
     "duration": "PT5M49S",
     "cards": [
       "td-aeroplan-visa-infinite-card",
@@ -728,6 +742,17 @@
       "td-u-s-dollar-visa-card"
     ],
     "description": "Video review of the TD U.S. Dollar Visa Card: earn rates, annual fee, welcome offer and who the card suits.",
+    "kind": "review"
+  },
+  {
+    "videoId": "IhQ5HuWQdaw",
+    "title": "WestJet RBC World Elite Mastercard 2026: Still Worth It?",
+    "publishAt": "2026-03-11T22:01:26Z",
+    "duration": "PT5M57S",
+    "cards": [
+      "westjet-rbc-world-elite-mastercard"
+    ],
+    "description": "Video review of the WestJet RBC World Elite Mastercard: earn rates, annual fee, welcome offer and who the card suits.",
     "kind": "review"
   },
   {
