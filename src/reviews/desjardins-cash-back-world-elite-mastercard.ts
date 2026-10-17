@@ -7,66 +7,67 @@ const review: CardEditorialReview = {
     h1: 'Desjardins Cash Back World Elite Mastercard Review',
     primaryKeyword: 'desjardins cash back world elite mastercard review',
     metaDescription:
-        'Desjardins Cash Back World Elite Mastercard review for 2026: $100 fee, up to 4% cash back vs $0 Mastercard and Visa siblings, and who should skip it.',
+        'Desjardins Cash Back World Elite Mastercard review for 2026: $100 fee, 4% groceries, 3% dining, entertainment and transit, 1% elsewhere, caps, perks, and who should skip it.',
     intro:
-        'The Desjardins Cash Back World Elite Mastercard is the paid rung of Desjardins’ cash-back ladder: an “up to 4%” cash-back line in the current features, a $100-class World Elite Mastercard you can take to Costco, and the same typical rewards purchase rate as the $0 siblings. It is not the [Desjardins Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) or the [Desjardins Cash Back Visa](/card/desjardins-cash-back-visa/), and it is not [Odyssey World Elite](/card/desjardins-odyssey-world-elite-mastercard/)’s BONUSDOLLARS product. This Desjardins Cash Back World Elite Mastercard review works with thin published details — no welcome bonus, eligibility terms, insurance, or extra-card fees listed — and asks whether doubling the no-fee “up to 2%” ceiling is actually worth a January membership.',
+        'The Desjardins Cash Back World Elite Mastercard is the paid top of Desjardins’ cash-back ladder: 4% back on groceries, 3% on restaurants, entertainment and alternative transportation, 1% on everything else, for a $100-class annual fee. Unlike the $0 [Desjardins Cash Back Mastercard](/card/desjardins-cash-back-mastercard/), it has a real grocery rate and a 1% base instead of 0.5%. This Desjardins Cash Back World Elite Mastercard review covers the $10,000 grocery and $6,000 dining caps, the income test, the insurance and lounge-pass extras, and whether the fee clears versus the free siblings.',
     whoItsFor: [
-        'Desjardins members who want statement-credit dollars rather than BONUSDOLLARS, already spend in the band a $100 cash-back World Elite is priced for, and will confirm the live category table before treating “up to 4%” as grocery cash back.',
-        'Households that shop Costco Canada and still want Desjardins cash back on a Mastercard, which the Visa sibling cannot do at the warehouse.',
-        'People who compared the $0 Cash Back Mastercard’s “up to 2%” and whose extra two points, after the fee, still win on spend they already make.',
-        'Anyone who pays in full. Four percent at a ceiling still loses to the purchase rate if you revolve.',
+        'Desjardins members with $80,000 personal or $150,000 household income (or more than $400,000 in assets under management) who want cash back, not BONUSDOLLARS.',
+        'Households spending roughly $500–$830 a month on groceries — enough to use most of the $10,000 yearly 4% grocery cap.',
+        'Costco shoppers who want a Mastercard; note that Costco may not code as a grocery store, so check how your warehouse purchases are categorized.',
+        'Anyone who pays in full. Four percent on groceries still loses to the purchase rate if you revolve.',
     ],
     whoShouldSkip: [
-        'Households that would be happy with “up to 2%” at $0. [Desjardins Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) currently lists that mix with Costco acceptance and no membership.',
-        'Travellers who wanted BONUSDOLLARS, lounge stories, or Odyssey travel. That is Odyssey World Elite, not this cash-back metal.',
-        'People chasing a large welcome bonus. None is currently listed.',
-        'Shoppers who can pick two 2% categories at $0 and whose grocer is not the whole story. [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) prints a category picker this card does not.',
+        'Households whose spend is mostly restaurants, bills and transit. The $0 [Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) already pays 2% on dining, pre-authorized payments, entertainment and transit.',
+        'Applicants below the income or assets threshold.',
+        'Travellers who wanted points and travel perks. [Odyssey World Elite](/card/desjardins-odyssey-world-elite-mastercard/) is the BONUSDOLLARS travel card.',
+        'People chasing a welcome bonus. Desjardins does not currently advertise one on this card.',
+        'Heavy grocery spenders who would blow through $10,000 early in the year; compare [BMO CashBack World Elite](/card/bmo-cashback-world-elite-mastercard/) and other grocery cards on their caps.',
     ],
     pros: [
-        'It is the highest Desjardins cash-back ceiling: up to 4%, versus up to 2% on both $0 siblings.',
-        'World Elite Mastercard acceptance includes Costco Canada, unlike the Cash Back Visa.',
-        'You stay in dollars, not BONUSDOLLARS. If the caisse relationship is already the bank and you dislike a points catalogue, that is the whole personality.',
-        'The purchase rate matches the $0 Cash Back Mastercard and Visa cards. Revolving is still a bad idea; the rate is not a selling point.',
-        'You can step down to the $0 Mastercard later if the fee never clears. World Elite is not a lock-in.',
+        '4% cash back on groceries (first $10,000 per calendar year), 3% on restaurants (first $6,000 per year), 3% on entertainment and alternative transportation, and 1% on everything else.',
+        'A 1% base rate, double the 0.5% on the no-fee Desjardins cash-back cards.',
+        'More insurance than the free siblings: auto rental collision/loss damage (up to 48 days), mobile device insurance up to $1,500, 120-day purchase protection and an extended warranty of up to 2 additional years, plus 3-day travel insurance.',
+        'Mastercard Travel Pass by DragonPass membership for airport lounge access, a complimentary Flexiroam eSIM data plan, and up to 25% off Hertz, Thrifty and Dollar rentals.',
+        'World Elite Mastercard acceptance includes Costco Canada.',
     ],
     cons: [
-        'The card’s features only say “up to 4%” on eligible purchases.',
-        'No welcome bonus, detailed offer, dollar value, or eligibility terms are currently listed. Year-one value is the earn ceiling minus the fee.',
-        'Additional-card fees, eligibility terms, and insurance coverage are not currently listed. Confirm authorized users, income, and travel medical coverage with Desjardins rather than assuming World Elite extras.',
-        'A $100-class fee has to be earned in the gap from the $0 siblings’ “up to 2%” to this “up to 4%.” If your month is already at the 2% ceiling on the free card, paying $100 for a louder brochure is not thrift.',
-        'Without a printed category stack, this is a weaker documented grocery story than [BMO CashBack World Elite](/card/bmo-cashback-world-elite-mastercard/) on this site.',
+        'The annual fee has to be earned back before this beats the $0 cash-back cards.',
+        'Additional cards cost $30 a year each.',
+        'Lounge visits through Mastercard Travel Pass are not free — a fee of US$32 per person per visit applies.',
+        'Cash back is credited only once you accumulate $100, versus $25 on the no-fee cards.',
+        'Foreign-currency purchases carry a 2.50% conversion fee, and the travel insurance only covers trips of up to 3 days.',
     ],
     feesAndValue:
-        'The fee table shows a $100-class World Elite card; the detail line currently repeats that annual figure. There is no first-year waiver and no welcome-bonus value to subtract, so the first-year snapshot on this page will not produce a useful bonus-minus-fee estimate. World Elite cash back has to win on the gap from the $0 Mastercard’s “up to 2%” to this “up to 4%,” plus any World Elite extras you would have paid for. Add those up against the fee using spend you already make. If the number does not clear, the $0 Mastercard is the honest Desjardins cash-back card. If you wanted BONUSDOLLARS travel instead of dollars, Odyssey World Elite is the other $100-class conversation. If you wanted a printed 5% grocery table, BMO CashBack World Elite is the comparison with more published detail. Offers change. Pay in full.',
+        'Start with the gap versus the $0 Cash Back Mastercard. On $800 a month of groceries this card earns about $384 a year (4%), versus about $48 at the free card’s 0.5% grocery rate; restaurants earn 3% instead of 2%, and everyday spend earns 1% instead of 0.5%. For a grocery-heavy household that gap clears a $100-class fee comfortably. If groceries are small and your month is dining, bills and transit, the free card already pays 2% there and the fee is harder to justify. Add $30 for each additional card. Lounge access is a membership with a per-visit charge, not free visits, so do not count it as value unless you would pay that fee. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not BONUSDOLLARS and not Aeroplan. The current features describe up to 4% cash back on purchases; the detailed feature list only repeats that it is a World Elite cash-back Mastercard earning up to 4% on eligible purchases. The $0 Mastercard and Visa siblings currently list up to 2%. We will not fill in a missing grocery, gas, or dining table or pretend 4% is uncapped supermarket cash back. Confirm the live Desjardins rate card, bonus-category definitions, and any caps. Redeem as cash back according to Desjardins’ rules. Put Costco and caisse everyday spend here only after that live table beats $0 “up to 2%” after the fee; put chosen 2% categories on Tangerine if you would rather skip World Elite income; put Odyssey World Elite on the other plastic if travel points were the point.',
+        'This card pays cash back. You earn 4% on groceries (grocery stores, supermarkets, butchers, frozen-food retailers, fish sellers and bakeries) on the first $10,000 of eligible purchases between January 1 and December 31, then 1%. Restaurants (including fast food) earn 3% on the first $6,000 per calendar year, then 1%. Entertainment (theatre, concerts, movie theatres, attractions) and alternative transportation (local transit, taxis, buses and public charging stations) earn 3%. Everything else earns 1%. Cash back is credited automatically each time it reaches $100. Categories follow the merchant’s Mastercard category code, so a warehouse club or big-box store may not count as groceries. Cash advances, returns, interest, foreign-currency purchases, money orders and casino spending do not earn.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If Desjardins is running a cash offer on the application page, use that page. Judge World Elite cash back on the $100 fee versus the $0 siblings’ “up to 2%,” the “up to 4%” earn line, and whether you already live in that caisse relationship.',
+        'Desjardins does not currently advertise a welcome bonus on the Cash Back World Elite Mastercard product page. Judge the card on ongoing earn versus the annual fee. If Desjardins adds an offer on the application page, read its terms there.',
     faqs: [
         {
             question: 'Is the Desjardins Cash Back World Elite Mastercard worth it in 2026?',
             answer:
-                'It is worth it when you already bank at Desjardins, will use a live “up to 4%” table that actually clears a $100 fee versus the $0 “up to 2%” siblings, and you pay in full. It is not worth it as a signup-bonus hunt, a BONUSDOLLARS substitute, or a card you revolve.',
+                'It is worth it if you meet the income or assets test, spend several hundred dollars a month on groceries, and pay in full — the 4% grocery rate and 1% base clear the fee quickly at that level. It is not worth it if your spend is mostly dining, bills and transit, where the $0 Cash Back Mastercard already pays 2%.',
         },
         {
             question: 'World Elite vs Desjardins Cash Back Mastercard vs Cash Back Visa?',
             answer:
-                'This card currently lists a $100-class fee and up to 4% on a Mastercard. [Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) currently lists $0 and up to 2%, with Costco acceptance. [Cash Back Visa](/card/desjardins-cash-back-visa/) currently lists the same $0 / up to 2% mix on a Visa that Costco Canada will not take. Pick the lowest Desjardins cash-back rung that still matches how you spend.',
+                'The [Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) and [Cash Back Visa](/card/desjardins-cash-back-visa/) are $0 and pay 2% on restaurants, pre-authorized payments, entertainment and transit, and 0.5% elsewhere. This World Elite card pays 4% groceries, 3% restaurants, entertainment and transit, and 1% elsewhere, for an annual fee and an income test. Pick the lowest rung that matches how you spend.',
         },
         {
             question: 'Cash Back World Elite vs Odyssey World Elite?',
             answer:
-                '[Odyssey World Elite](/card/desjardins-odyssey-world-elite-mastercard/) currently lists BONUSDOLLARS up to 3% with category caps at a mid-fee Mastercard. This card currently lists cash back up to 4% at $100. Choose cash back if you wanted dollars. Choose Odyssey if the BONUSDOLLARS catalogue and travel positioning are the point.',
+                '[Odyssey World Elite](/card/desjardins-odyssey-world-elite-mastercard/) earns BONUSDOLLARS and is positioned as Desjardins’ travel card. This card pays cash back with a stronger grocery rate. Choose cash back if you want dollars; choose Odyssey if travel rewards and its perks are the point.',
         },
         {
-            question: 'Desjardins Cash Back World Elite vs Tangerine Money-Back?',
+            question: 'What insurance comes with the Desjardins Cash Back World Elite?',
             answer:
-                '[Tangerine](/card/tangerine-money-back-credit-card/) lets you pick 2% cash-back categories at $0. This World Elite card currently prints “up to 4%” at a $100 fee with no category table. Choose Tangerine if you wanted control and no membership. Choose Desjardins if the live 4% mix and the caisse relationship still win after the fee.',
+                'Auto rental collision/loss damage for rentals up to 48 consecutive days, mobile device insurance up to $1,500, purchase protection for 120 days, an extended warranty of up to 2 additional years, and 3-day travel insurance (emergency health care up to $5 million per person for ages 75 and under, trip cancellation and baggage). Read the certificate for limits and exclusions.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian World Elite Mastercards add a foreign-conversion fee unless the issuer markets 0% FX. The Cash Back World Elite listing does not include an FX policy. Confirm Desjardins’ current conversion fee in the agreement. For a card that does advertise 0% FX, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
+                'Yes. Desjardins’ cardholder agreement lists a 2.50% conversion fee on transactions in a foreign currency. For overseas spend, compare a no-FX card such as [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
     ],
     extraHubSlugs: ['cash-back'],
