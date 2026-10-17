@@ -6,66 +6,66 @@ const review: CardEditorialReview = {
     h1: 'Desjardins Cash Back Visa Review',
     primaryKeyword: 'desjardins cash back visa review',
     metaDescription:
-        'Desjardins Cash Back Visa review for 2026: $0 fee, up to 2% cash back, vs the Costco Mastercard and paid World Elite, and who should skip it.',
+        'Desjardins Cash Back Visa review for 2026: $0 fee, 2% cash back on dining, bills, entertainment and transit, 0.5% elsewhere, vs the Costco Mastercard, and who should skip it.',
     intro:
-        'The Desjardins Cash Back Visa is the no-fee Visa twin of Desjardins’ cash-back Mastercard: “up to 2%” on eligible purchases in the current features, $0 in the fee table, and none of the Costco line the Mastercard’s detailed features bother to print. It is not the [Desjardins Cash Back Mastercard](/card/desjardins-cash-back-mastercard/), and it is not the paid [Cash Back World Elite](/card/desjardins-cash-back-world-elite-mastercard/). This Desjardins Cash Back Visa review is honest about how little the published details add beyond network, why a warehouse shopper should skip it, and when Simplii or Tangerine is the clearer $0 everyday card.',
+        'The Desjardins Cash Back Visa is the no-fee Visa twin of Desjardins’ cash-back Mastercard: 2% back on restaurants, pre-authorized payments, entertainment and alternative transportation, 0.5% on everything else, and $0 for primary and additional cards. The rates match the [Desjardins Cash Back Mastercard](/card/desjardins-cash-back-mastercard/); the network and a Visa-only instalment option are the differences. This Desjardins Cash Back Visa review covers the $3,600 yearly caps, the free 3-day travel insurance, and when the Mastercard or Simplii is the better $0 card.',
     whoItsFor: [
-        'Desjardins members who want cash back on a Visa they already use at Canadian tills that skip American Express, and who do not shop Costco Canada on this plastic.',
-        'People who compared the Mastercard sibling, already hold a Mastercard they like for the warehouse, and just wanted a $0 Desjardins Visa for everywhere else.',
-        'Applicants who will confirm the live “up to 2%” mix rather than treating the ceiling as uncapped grocery cash back.',
-        'Anyone who pays in full. Two percent at a ceiling will not outrun the purchase rate.',
+        'Desjardins members who want cash back on a Visa and already have another card for Costco Canada.',
+        'People whose month is restaurants, recurring bills on pre-authorized payment, entertainment, and transit or taxis — the four 2% categories.',
+        'Shoppers who like the option to split purchases of $200 or more into equal instalments at participating merchants.',
+        'Anyone who pays in full. Two percent in a few categories will not outrun the purchase rate.',
     ],
     whoShouldSkip: [
-        'Households that shop Costco Canada for the weekly run. This is a Visa; the warehouse wants a Mastercard. That is the [Cash Back Mastercard](/card/desjardins-cash-back-mastercard/).',
-        'Heavy spenders who will actually use a live “up to 4%” table after a $100 fee. That is [Cash Back World Elite](/card/desjardins-cash-back-world-elite-mastercard/).',
-        'Shoppers who wanted a printed dining-and-grocery mix on a $0 Visa. [Simplii Financial Cash Back Visa](/card/simplii-financial-cash-back-visa/) is the comparison with a more detailed earn table.',
-        'People chasing a welcome bonus. None is currently listed.',
+        'Households that shop Costco Canada on this card. Costco takes Mastercard, not Visa — that is the [Cash Back Mastercard](/card/desjardins-cash-back-mastercard/), with the same rates.',
+        'Grocery-heavy households. Groceries earn 0.5% here. [Cash Back World Elite](/card/desjardins-cash-back-world-elite-mastercard/) pays 4% on groceries (first $10,000 a year) if the fee and income test work for you.',
+        'Travellers who need trip coverage beyond a long weekend. The included travel insurance is for trips of up to 3 days.',
+        'People chasing a welcome bonus. Desjardins does not currently advertise one on this card.',
     ],
     pros: [
-        'No annual fee, so “up to 2%” does not have to beat a membership first.',
-        'Visa Gold-class acceptance is straightforward at Canadian merchants that still skip American Express — just not at Costco.',
-        'The earn ceiling currently matches the $0 Mastercard sibling, so you are not being punished for picking Visa on the rate line.',
-        'You stay in cash back, not BONUSDOLLARS. If the caisse is already the bank and you dislike Odyssey’s catalogue, this is the Visa door.',
-        'You can hold this beside a Costco Mastercard without paying a Desjardins World Elite fee on either.',
+        'No annual fee, and no fee for additional cards.',
+        '2% cash back on restaurants, pre-authorized payments, entertainment and alternative transportation (local transit, taxis, buses and public EV charging).',
+        'Cash back is credited to your account automatically every time you reach $25.',
+        'Rare no-fee extras: 3-day travel insurance, mobile device insurance up to $1,000, and purchase protection with extended warranty.',
+        'Pay for purchases of $200 or more in equal instalments at participating merchants.',
     ],
     cons: [
-        'A Visa cannot check out at Costco Canada. If the warehouse is the statement, this is the wrong network even at $0.',
-        'The card’s features only say “up to 2%” on eligible purchases.',
-        'No welcome bonus, extra-card fees, eligibility terms, or insurance are currently listed. Year-one value is the earn ceiling.',
-        'The detailed feature list is almost a restatement of the headline. The Mastercard sibling at least names Costco; this Visa does not add a second fact.',
-        'The purchase rate matches the Mastercard and World Elite cash-back cards. Revolving is still a bad idea.',
+        'A Visa cannot check out at Costco Canada.',
+        'The 2% rate on restaurants and on pre-authorized payments stops after the first $3,600 of purchases in each category per calendar year; after that those purchases earn 0.5%.',
+        'Everything outside the four bonus categories — including groceries and gas — earns just 0.5%.',
+        'Foreign-currency purchases carry a 2.50% conversion fee.',
+        'The travel insurance only covers trips of up to 3 days.',
     ],
     feesAndValue:
-        'This is a $0-fee card; the detail line currently says none. There is no welcome-bonus value to subtract, so the first-year snapshot on this page will look empty or unhelpful. Value is “up to 2%” on eligible Visa purchases. If you also needed Costco, the Mastercard sibling currently lists the same fee and ceiling with warehouse acceptance — that is the better Desjardins $0 card for most households. If two Tangerine categories would cover more of the month, Tangerine wins at the same $0 on a Mastercard. If Simplii’s dining-and-caps mix matches how you eat, Simplii is the $0 Visa with more published detail. There is no first-year fee rebate to hide a weak fit. Offers change. Pay in full.',
+        'This is a $0 card with $0 additional cards, so value comes down to the 2% categories. Someone who puts $200 a month on restaurants, $200 on pre-authorized bills and $100 on entertainment and transit earns about $120 a year, versus about $30 if the same spend earned the 0.5% base rate. The Mastercard sibling earns the same and also works at Costco, so for most households it is the more useful Desjardins cash-back card; pick the Visa if you already wanted that network. If groceries are your biggest category, compare the World Elite’s 4% grocery rate against its annual fee. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not BONUSDOLLARS. The current features describe up to 2% cash back on purchases; the detailed feature list only repeats that it is a no-annual-fee cash-back Visa from Desjardins earning up to 2% on eligible purchases. The Mastercard sibling currently lists the same ceiling plus Costco; World Elite currently lists up to 4% at a $100-class fee. We will not fill in a missing category table. Confirm the live Desjardins rate card, bonus-category definitions, and any caps. Redeem as cash back according to Desjardins’ rules. Put everyday Visa spend here only if you already wanted Visa and do not need the warehouse; put Costco on the Mastercard sibling; put Simplii on the other Visa if dining and grocery caps are the mix you can actually quote.',
+        'This card pays cash back. You earn 2% on restaurants (including fast food) and on pre-authorized payments, on the first $3,600 of eligible purchases in each of those categories between January 1 and December 31, then 0.5%. Entertainment (theatre, concerts, movie theatres, attractions, amusement parks) and alternative transportation (local transit, taxis, limousines, buses and public charging stations) earn 2%. All other purchases earn 0.5%. Cash back is credited automatically each time it reaches $25. Categories follow the merchant’s Visa category code. Cash advances, returns, interest, foreign-currency purchases, money orders and casino spending do not earn.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If Desjardins is running a cash offer on the Cash Back Visa application page, use that page. Do not copy a World Elite rumour onto this $0 Visa. Judge the card on network versus the Mastercard twin, $0 versus World Elite’s fee, and whether “up to 2%” is enough once you confirm the live mix.',
+        'Desjardins does not currently advertise a welcome bonus on the Cash Back Visa product page. Judge the card on the ongoing 2% categories and the no-fee insurance package. If Desjardins adds an offer on the application page, read its terms there.',
     faqs: [
         {
             question: 'Is the Desjardins Cash Back Visa worth it in 2026?',
             answer:
-                'It is worth it when you want Desjardins cash back on a $0 Visa, do not need Costco on this plastic, and will confirm the live “up to 2%” mix. It is not worth it as a warehouse card, a 4% World Elite substitute, or a card you revolve.',
+                'It is worth it if you want Desjardins cash back on a $0 Visa, spend in its 2% categories (restaurants, pre-authorized bills, entertainment, transit), do not need Costco on this card, and pay in full. Grocery-heavy budgets earn only 0.5% here.',
         },
         {
             question: 'Why pick the Visa over the Desjardins Cash Back Mastercard?',
             answer:
-                'Earn and fee currently match: $0 and up to 2%. The Mastercard sibling currently names Costco acceptance; this Visa does not, and Costco Canada will not take Visa. Pick the Visa only if you already wanted that network or already have a Mastercard for the warehouse. Otherwise the Mastercard is the more useful $0 Desjardins cash-back card.',
+                'Rates, caps and fees match. The Mastercard works at Costco Canada; the Visa adds the option to pay purchases of $200 or more in equal instalments at participating merchants. Pick the Visa only if you prefer that network or already have a Mastercard for the warehouse.',
         },
         {
             question: 'Desjardins Cash Back Visa vs Cash Back World Elite?',
             answer:
-                '[World Elite](/card/desjardins-cash-back-world-elite-mastercard/) currently lists up to 4% at a $100-class Mastercard fee. This Visa currently lists up to 2% at $0. Choose World Elite only if a live 4% mix clears the membership. Choose this Visa if you wanted Desjardins dollars without World Elite pricing or a Mastercard.',
+                '[World Elite](/card/desjardins-cash-back-world-elite-mastercard/) charges an annual fee, requires $80,000 personal or $150,000 household income (or $400,000+ in assets under management), and pays 4% on groceries, 3% on restaurants, entertainment and transit, and 1% elsewhere. Choose it only if that extra earn clears the fee. Otherwise this $0 Visa is the simpler card.',
         },
         {
             question: 'Desjardins Cash Back Visa vs Simplii Financial Cash Back Visa?',
             answer:
-                '[Simplii](/card/simplii-financial-cash-back-visa/) currently describes a dining-led mix with grocery, gas, drugstore, and pre-authorized caps. This Desjardins Visa currently prints “up to 2%” with no category table. Choose Simplii if you wanted a documented everyday Visa mix. Choose Desjardins if the caisse relationship is the point.',
+                '[Simplii](/card/simplii-financial-cash-back-visa/) is another $0 cash-back Visa with its own dining-led category mix and caps. Compare the two on the categories you actually spend in; choose Desjardins if its four 2% categories and the included 3-day travel insurance fit, or if the caisse is already your bank.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Visas add a foreign-conversion fee on foreign-currency purchases. This is a domestic cash-back card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm Desjardins’ current FX rate in the agreement.',
+                'Yes. Desjardins’ cardholder agreement lists a 2.50% conversion fee on transactions in a foreign currency. For overseas spend, compare a no-FX card such as [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
     ],
     extraHubSlugs: ['cash-back', 'no-annual-fee'],

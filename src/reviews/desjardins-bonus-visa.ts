@@ -6,66 +6,67 @@ const review: CardEditorialReview = {
     h1: 'Desjardins Bonus Visa Review',
     primaryKeyword: 'desjardins bonus visa review',
     metaDescription:
-        'Desjardins Bonus Visa review for 2026: $0 fee, BONUSDOLLARS up to 2%, vs Cash Back Visa and Odyssey, empty welcome, and who should skip it.',
+        'Desjardins Bonus Visa review for 2026: $0 fee, 2% BONUSDOLLARS on dining, bills, entertainment and transit, 0.5% elsewhere, 3-day travel cover, and who should skip it.',
     intro:
-        'The Desjardins Bonus Visa is the caisse’s no-fee BONUSDOLLARS Visa: “up to 2%” of purchases in BONUSDOLLARS in the current features, $0 in the fee table, and none of the cash-back language on [Desjardins Cash Back Visa](/card/desjardins-cash-back-visa/). It is not Odyssey travel, and it is not Flexi’s low-rate product. This Desjardins Bonus Visa review works with thin published details — no welcome bonus, extra-card fees, eligibility terms, or insurance are listed — and tells you when cash back or [Desjardins Flexi Visa](/card/desjardins-flexi-visa/) is the clearer Desjardins plastic because you wanted dollars or a 10.90%-class purchase rate rather than a catalogue currency.',
+        'The Desjardins Bonus Visa is the caisse’s no-fee BONUSDOLLARS Visa: 2% in BONUSDOLLARS on restaurants, pre-authorized payments, entertainment and alternative transportation, 0.5% on everything else, and $0 for the primary and additional cards. It earns the same category mix as [Desjardins Cash Back Visa](/card/desjardins-cash-back-visa/) — the difference is the currency, not the rates. This Desjardins Bonus Visa review covers the $3,600 yearly caps on dining and bills, what the free 3-day travel insurance does and does not cover, and when cash back or [Desjardins Flexi Visa](/card/desjardins-flexi-visa/) is the clearer Desjardins plastic.',
     whoItsFor: [
-        'Desjardins members who already redeem BONUSDOLLARS at the caisse or in the catalogue, want that currency on a $0 Visa, and will confirm the live “up to 2%” mix rather than treating the ceiling as uncapped grocery earn.',
-        'People who compared Cash Back Visa, already dislike statement-credit math, and would rather stay in BONUSDOLLARS than open Odyssey.',
-        'Anyone who pays in full. Two percent at a ceiling will not outrun the purchase rate.',
-        'Households that do not need Costco on this plastic — this is a Visa.',
+        'Desjardins members who already redeem BONUSDOLLARS for gift cards or other rewards and want that currency on a $0 Visa.',
+        'People whose month is restaurants, recurring bills on pre-authorized payment, movies or shows, and transit or taxis — the four 2% categories.',
+        'Light-to-moderate spenders whose dining and pre-authorized bills stay under about $300 a month each, so the $3,600 yearly caps rarely bite.',
+        'Anyone who pays in full. Two percent in a few categories will not outrun the purchase rate.',
     ],
     whoShouldSkip: [
-        'Members who wanted cash back they can see on a statement. That is [Cash Back Visa](/card/desjardins-cash-back-visa/) or the [Cash Back Mastercard](/card/desjardins-cash-back-mastercard/).',
-        'People who will carry a balance. [Flexi Visa](/card/desjardins-flexi-visa/) currently lists a 10.90%-class purchase rate at $0; this Bonus card currently lists a typical rewards rate.',
-        'Travellers who wanted Odyssey points and insurance. That is the Odyssey ladder, not Bonus.',
-        'People chasing a welcome bonus. None is currently listed.',
+        'Members who would rather see dollars on a statement. [Cash Back Visa](/card/desjardins-cash-back-visa/) and the [Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) earn the same category rates as cash back.',
+        'Big grocery spenders. Groceries are not a 2% category on this card; they earn 0.5%. The paid [Cash Back World Elite](/card/desjardins-cash-back-world-elite-mastercard/) is the Desjardins card with a grocery rate.',
+        'People who will carry a balance. [Flexi Visa](/card/desjardins-flexi-visa/) is the Desjardins low-rate product; this card has a standard rewards purchase rate.',
+        'Travellers who need real trip coverage. The included travel insurance is for trips of up to 3 days only.',
+        'People chasing a welcome bonus. Desjardins does not currently advertise one on this card.',
     ],
     pros: [
-        'No annual fee, so “up to 2%” BONUSDOLLARS does not have to beat a membership first.',
-        'You stay in BONUSDOLLARS, the same family as other Desjardins rewards SKUs, if that catalogue is already how you shop.',
-        'The earn ceiling currently matches the $0 Cash Back Visa’s “up to 2%” language, so you are not obviously punished for picking points over cash on the rate line.',
-        'Visa acceptance is straightforward at Canadian merchants that still skip American Express — just not at Costco.',
-        'You can hold this beside Flexi if you later need a rate card, without paying Odyssey prices on either.',
+        'No annual fee, and no fee for additional cards.',
+        '2% in BONUSDOLLARS on restaurants, pre-authorized payments, entertainment and alternative transportation (local transit, taxis, buses and public EV charging).',
+        'Each BONUSDOLLAR is worth $1 when you redeem, so the earn rate reads like cash back.',
+        'Rare no-fee extras: 3-day travel insurance with emergency health care, trip cancellation and baggage cover, plus mobile device insurance and purchase protection with extended warranty.',
+        'Pay for purchases of $200 or more in equal instalments at participating merchants.',
     ],
     cons: [
-        'The card’s features only say “up to 2% of purchases in BONUSDOLLARS.”',
-        'No welcome bonus, extra-card fees, eligibility terms, or insurance are currently listed. Year-one value is the earn ceiling.',
-        'BONUSDOLLARS redeemed poorly can lose to Cash Back Visa’s dollars at the same $0.',
+        'The 2% rate on restaurants and on pre-authorized payments stops after the first $3,600 of purchases in each category per calendar year; after that those purchases earn 0.5%.',
+        'Everything outside the four bonus categories — including groceries and gas — earns just 0.5%.',
+        'Foreign-currency purchases carry a 2.50% conversion fee, and buying foreign currency does not earn BONUSDOLLARS.',
+        'The travel insurance only covers trips of up to 3 days; longer trips need extended coverage bought from the same insurer.',
         'A Visa cannot check out at Costco Canada.',
-        'The purchase rate is a typical rewards rate. Revolving is still a bad idea.',
     ],
     feesAndValue:
-        'This is a $0-fee card; the detail line currently says none. There is no welcome-bonus value to subtract, so the first-year snapshot on this page will look empty or unhelpful. Value is “up to 2%” BONUSDOLLARS versus Cash Back Visa’s “up to 2%” cash at the same $0. If you redeem BONUSDOLLARS well, Bonus is the points door. If you wanted dollars, Cash Back Visa is simpler. If you needed a 10.90%-class purchase rate, Flexi is the Desjardins card. If you needed Costco, the Cash Back Mastercard currently names warehouse acceptance. Offers change. Pay in full.',
+        'This is a $0 card with $0 additional cards, so there is no fee to earn back. The math is the bonus categories: someone who puts $200 a month on restaurants, $200 on pre-authorized bills and $100 on entertainment and transit earns about $120 a year in BONUSDOLLARS, versus about $30 if the same spend earned the 0.5% base rate. If your month is mostly groceries and gas, the 0.5% base rate is the real number, and a grocery-focused card will do better. The Cash Back Visa earns the same rates in dollars, so choose between the two on currency, not value. Pay in full.',
     rewardsExplained:
-        'This card earns BONUSDOLLARS, Desjardins’ rewards currency — not cash back and not Odyssey. The current features describe up to 2% of purchases in BONUSDOLLARS; the detailed feature list only repeats that it is a no-annual-fee BONUSDOLLARS rewards Visa. We will not fill in a missing category table. Confirm the live Desjardins rate card, bonus-category definitions, and any caps. Redeem in the BONUSDOLLARS catalogue according to Desjardins’ rules. Put everyday Visa spend here only if you already wanted that currency. Put cash-back spend on Cash Back Visa. Put a revolving balance on Flexi.',
+        'This card earns BONUSDOLLARS, Desjardins’ rewards currency, at 1 BONUSDOLLAR = $1 when you redeem. You earn 2% on restaurants (including fast food) and on pre-authorized payments, on the first $3,600 of eligible purchases in each of those categories between January 1 and December 31, then 0.5%. Entertainment (theatre, concerts, movie theatres, attractions, amusement parks) and alternative transportation (local transit, taxis, limousines, buses and public charging stations) earn 2%. All other purchases earn 0.5%. Categories follow the merchant’s Visa category code, so a restaurant inside a hotel or a grocer’s café may not code as dining. Cash advances, returns, interest, foreign-currency purchases, money orders and casino spending do not earn.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If Desjardins is running a BONUSDOLLARS offer on the Bonus Visa application page, use that page. Do not copy an Odyssey rumour onto this $0 Visa.',
+        'Desjardins does not currently advertise a welcome bonus on the Bonus Visa product page. Judge the card on the ongoing 2% categories and the no-fee insurance package. If Desjardins adds an offer on the application page, read its terms there.',
     faqs: [
         {
             question: 'Is the Desjardins Bonus Visa worth it in 2026?',
             answer:
-                'It is worth it when you already use BONUSDOLLARS, want that currency at $0, and will confirm the live “up to 2%” mix. It is not worth it as a cash-back card, a low-rate card, or a card you revolve.',
+                'It is worth it if you already like BONUSDOLLARS, spend in its 2% categories (restaurants, pre-authorized bills, entertainment, transit), and pay in full. It is a weak fit for grocery-heavy budgets, which earn 0.5%, and for anyone who revolves a balance.',
         },
         {
             question: 'Bonus Visa vs Desjardins Cash Back Visa?',
             answer:
-                'Fee and ceiling currently match: $0 and “up to 2%.” [Cash Back Visa](/card/desjardins-cash-back-visa/) pays dollars. This card pays BONUSDOLLARS. Choose cash if you want a statement credit. Choose Bonus if the catalogue is already your redemption.',
+                'They earn the same rates in the same categories with the same $3,600 caps and $0 fee. [Cash Back Visa](/card/desjardins-cash-back-visa/) pays cash back, credited automatically each time you reach $25. This card pays BONUSDOLLARS at $1 each when redeemed. Choose cash if you want a statement credit; choose Bonus if the rewards catalogue is how you already redeem.',
         },
         {
             question: 'Bonus Visa vs Desjardins Flexi Visa?',
             answer:
-                '[Flexi](/card/desjardins-flexi-visa/) currently lists a 10.90%-class purchase rate, $0, and no rewards. This card currently lists a typical rewards rate and BONUSDOLLARS. Choose Flexi if interest is the problem. Choose Bonus if you pay in full and want points.',
+                '[Flexi](/card/desjardins-flexi-visa/) is Desjardins’ low-rate, no-fee card without this rewards mix. Choose Flexi if interest is the problem. Choose Bonus if you pay in full and want 2% back in its categories.',
         },
         {
-            question: 'Bonus Visa vs Odyssey Gold?',
+            question: 'Does the Desjardins Bonus Visa include travel insurance?',
             answer:
-                '[Odyssey Gold Visa](/card/desjardins-odyssey-gold-visa/) is a paid travel-rewards product in that review. Bonus is a $0 BONUSDOLLARS Visa with thin published details. Choose Odyssey if you wanted travel insurance and a richer table after a fee. Choose Bonus if you wanted caisse points without Odyssey pricing.',
+                'Yes, for trips of up to 3 days: emergency health care up to $5 million per person (ages 75 and under), trip cancellation up to $500 per person before departure or $1,000 after, and baggage cover up to $500 per person, for the cardholder, spouse and dependent children. Longer trips need extended coverage from the same insurer.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Visas add a conversion fee on foreign-currency purchases. This is a domestic rewards card, not a no-FX travel card. Confirm Desjardins’ current FX rate in the agreement.',
+                'Yes. Desjardins’ cardholder agreement lists a 2.50% conversion fee on transactions in a foreign currency. For overseas spend, compare a no-FX card such as [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
     ],
     extraHubSlugs: ['rewards', 'no-annual-fee'],
