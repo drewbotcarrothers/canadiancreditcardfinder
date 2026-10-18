@@ -546,6 +546,17 @@
       ],
       "kind": "offers",
       "description": "RBC credit cards ranked by welcome offer (October 2026): Avion Visa Infinite, WestJet RBC World Elite, Cash Back Preferred World Elite and ION+ Visa, with the spend target, annual fee and who each one fits."
+    },
+    "BD4qYHIqY2g": {
+      "cards": [
+        "american-express-cobalt-card",
+        "rogers-red-world-elite-mastercard",
+        "scotiabank-passport-visa-infinite-card",
+        "cibc-aeroplan-visa-infinite-card"
+      ],
+      "kind": "persona",
+      "note": "Frequent traveller stack: 4 slots (points earner, $0 backup, no-FX card, optional Aeroplan card); all 4 are the video's picks.",
+      "description": "A frequent traveller credit card stack for Canada: one points earner, a $0 backup, a no foreign transaction fee card and an optional Aeroplan card, with no wasted annual fees."
     }
   },
   "skip": {
