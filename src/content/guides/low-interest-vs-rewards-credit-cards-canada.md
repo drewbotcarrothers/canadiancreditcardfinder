@@ -55,7 +55,7 @@ After any teaser, you are on the ongoing rate plus any annual fee. If the balanc
 
 Prime moves. A prime-plus card is a floating bill. Confirm the assigned rate before you treat the marketing formula as a promise.
 
-**[MBNA True Line](/card/mbna-true-line-mastercard/)** and **[Home Trust Preferred Visa](/card/home-trust-preferred-visa/)** are other low-rate shapes if the big banks are not the right file. Read those pages; do not assume a 12% print.
+**[MBNA True Line](/card/mbna-true-line-mastercard/)** is another low-rate shape if the big banks are not the right file. Read that page; do not assume a 12% print. (The [Home Trust Preferred Visa](/card/home-trust-preferred-visa/) is not a low-rate card: it charges a standard purchase rate, and its pitch is no foreign transaction fees.)
 
 ## What you give up
 
