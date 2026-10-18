@@ -12,35 +12,35 @@ const review: CardEditorialReview = {
     whoItsFor: [
         'Households that will put groceries, gas, rideshare, and subscriptions on one Visa and want 1.5x Avion on that stack without a $48-class ION+ fee.',
         'People who already redeem Avion (or will learn to) and would rather collect it at $0 than open a travel Infinite they will not use.',
-        'Applicants with a good-to-excellent credit file (the eligibility terms currently cite a 660+ class recommendation) who apply as new ION clients during the current offer window if they care about the points.',
+        'New applicants who can apply by November 4, 2026 and put $500 on the card in the first three months, which unlocks the full welcome bonus.',
         'Anyone who pays in full. One-and-a-half times Avion does not survive a 20.99% purchase rate.',
     ],
     whoShouldSkip: [
         'Anyone whose month is restaurants and food delivery. ION’s detailed features currently skip dining; [ION+](/card/rbc-ion-plus-visa/) currently lists 3x on a wider list that includes those categories, at a modest fee.',
         'Travellers who wanted 1.25x on flights. That is Avion Platinum or Infinite, not ION.',
         'People who want cash back they can deposit without learning Avion. Tangerine is the $0 category card for that job.',
-        'Existing RBC personal-cardholders transferring in during an offer period. ION+’s current eligibility is explicit about that miss; assume ION’s live page is at least as fussy, and read it.',
+        'Existing RBC personal-cardholders switching to ION during the offer period. RBC’s terms exclude card transfers, and additional cardholders, from the welcome bonus.',
     ],
     pros: [
         'No annual fee, so 1.5x Avion on grocery/gas/streaming does not have to clear a membership first.',
         'Additional cards currently show $0, which is the same extra-card story ION+ tells — you are not paying to add a partner.',
-        'The current welcome path pays points on the way in and a second chunk after a small first-three-months spend — an easier hurdle than most Avion Infinites.',
+        'The welcome offer pays 7,000 Avion points on approval and 7,000 more after $500 of spending in the first three months — an easier hurdle than most Avion Infinites.',
         'Avion stays in the same RBC pool as Platinum and Infinite, so Tuesday groceries can still become a flight later.',
         'Visa acceptance is the backup-card argument beside an American Express product, including at grocers that skip Amex.',
     ],
     cons: [
         '1x on everything else — and no dining line in the detailed 1.5x list — means restaurants, Amazon, and most retail earn like a basic Avion card.',
         'Merchant category codes decide 1.5x. A grocer that processes as a mass merchant, or a “streaming” charge billed through a platform that codes as general retail, can miss the bonus bucket.',
-        'The welcome-value estimate currently prices the points as gift-card dollars. That is a modest envelope, not a travel redemption, and the first-year snapshot may treat it like cash.',
-        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from an RBC Visa that costs $0.',
+        'RBC prices the 14,000-point welcome bonus at up to $100 in gift cards. That is a modest envelope, not a travel redemption, and the first-year snapshot may treat it like cash.',
+        'Insurance is limited to purchase security (90 days) and extended warranty (up to one extra year). There is no travel or mobile device coverage — mobile device insurance is an ION+ feature.',
         'Avion you cash out as a gift card at a poor rate can lose to Tangerine’s 2% cash back. ION assumes you value the points.',
     ],
     feesAndValue:
-        'The fee table shows $0 on the primary card and $0 on extra cards. Compare that with ION+’s modest fee and 3x dining/grocery stack: year two of ION is free, year two of ION+ is a $48-class bill versus the gap between 3x and 1.5x on the spend you actually have. If dining is small and grocery/gas/streaming already fit ION’s list, stay here. If restaurants are the month, do the ION+ math before you congratulate yourself on a $0 fee. The first-year snapshot compares the estimated welcome-bonus value with $0; the welcome-value estimate currently talks in gift-card dollars, so treat it as marketing, not as Avion you will book as a flight. Offers change; the current eligibility text names an offer window. Pay in full.',
+        'The fee table shows $0 on the primary card and $0 on extra cards. Compare that with ION+’s modest fee and 3x dining/grocery stack: year two of ION is free, year two of ION+ is a $48-class bill versus the gap between 3x and 1.5x on the spend you actually have. If dining is small and grocery/gas/streaming already fit ION’s list, stay here. If restaurants are the month, do the ION+ math before you congratulate yourself on a $0 fee. The first-year snapshot compares the estimated welcome-bonus value with $0; RBC prices that bonus in gift-card dollars, so treat it as marketing, not as Avion you will book as a flight. The current offer is for applications received by November 4, 2026. Pay in full.',
     rewardsExplained:
         'This card earns RBC Avion points, the same currency as Avion Platinum — not cash back. The short and detailed features describe 1.5x Avion on grocery, rides, gas, EV charging, streaming, and digital gaming and subscriptions, plus 1x on all other qualifying purchases (including pre-authorized bills). Dining and food delivery are the categories ION+ adds; they are not on this list. Merchant coding still applies. Redeem Avion toward travel through RBC, as statement-style rewards, or toward partners if you know that list. If you want 3x Avion on grocery plus dining, that is ION+. If you want 2% cash in categories you choose, that is Tangerine.',
     welcomeBonus:
-        'The current offer is two steps: a welcome deposit of Avion points, then a larger bonus if you post a listed amount of spend in the first three months. You need both to match the “up to” point total. Eligibility currently limits the wrap to new ION Visa applications in a named offer window. Read the live RBC terms for transfer exclusions — a switch from another RBC personal card is a usual way to void a bank bonus even when the listing is quieter than ION+’s. Do not invent spend to clear a few-hundred-dollar hurdle if grocery and gas were not already in the budget.',
+        'For new RBC ION Visa applications received June 16, 2026 to November 4, 2026 and approved, RBC pays 7,000 Avion Welcome Points within 60 days of approval, plus 7,000 more when $500 in qualifying purchases and/or pre-authorized bill payments post in the first three months (credited about 60 days after you qualify). That is up to 14,000 points, which RBC values at up to $100 in gift cards. Additional cardholders and existing RBC personal cardholders switching to ION during the offer period are not eligible, and the account must be in good standing when points post. Do not invent spend to clear the $500 hurdle if grocery and gas were not already in the budget.',
     faqs: [
         {
             question: 'Is the RBC ION Visa worth it in 2026?',
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visas add a foreign-conversion fee on foreign-currency purchases. ION is an everyday Avion card, not a no-FX Passport. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm RBC’s current FX rate in the agreement.',
+                'Most Canadian Visas add a foreign-conversion fee on foreign-currency purchases, and ION is an everyday Avion card, not a no-FX Passport. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and check RBC’s current conversion rate in your cardholder agreement.',
         },
     ],
     extraHubSlugs: ['rewards', 'no-annual-fee', 'groceries'],

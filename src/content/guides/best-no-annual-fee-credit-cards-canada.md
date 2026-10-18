@@ -40,7 +40,7 @@ A paid card can still be cheaper *in rewards* if you spend heavily in a 4% groce
 | Empire grocers + movies, not cash back | [Scene+ Visa](/card/scotiabank-scene-plus-visa-card/) | 2x at eligible Sobeys-family stores |
 | Loblaws-family banners + Optimum | [PC Mastercard](/card/pc-mastercard/) or [PC World Elite](/card/pc-world-elite-mastercard/) if you qualify | $0 Optimum earn; World Elite is still no fee |
 | Rogers, Fido, or Shaw bills | [Rogers Red Mastercard](/card/rogers-red-mastercard/) | Bill-credit style earning on a $0 card |
-| Amazon.ca is a real budget line | [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/) | Store-focused earn; confirm the live rate |
+| Amazon.ca is a real budget line | [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/) | 2.5% back at Amazon.ca and Whole Foods with Prime (1.5% without), 1% elsewhere |
 
 Income tests still apply on some $0 World Elite products. “No annual fee” is not “no underwriting.”
 

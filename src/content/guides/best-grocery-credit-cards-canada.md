@@ -67,7 +67,7 @@ Students should use the [student guide](/guides/best-student-credit-cards-canada
 
 **Canadian Tire / Triangle:** [Triangle Mastercard](/card/triangle-mastercard/) and [Triangle World Elite](/card/triangle-world-elite-mastercard/) earn Canadian Tire Money. That helps if Canadian Tire, SportChek, or Mark’s is a real budget line. World Elite pays 3% on groceries for the first $12,000 a year, and [Canadian Tire excludes Costco and Walmart](https://triangle.canadiantire.ca/en/credit-cards.html) from that rate. It is not a Superstore card.
 
-**Walmart:** [Walmart Rewards Mastercard](/card/walmart-rewards-mastercard/) is store-focused. Confirm the live earn if Walmart is the grocer.
+**Walmart:** [Walmart Rewards Mastercard](/card/walmart-rewards-mastercard/) earns 3% in Walmart Reward Dollars at Walmart stores in Canada and on Walmart.ca, and 1% everywhere else, with no annual fee. Rewards redeem only at Walmart.
 
 Do not open three store cards. Pick the banner that gets the most of the cart.
 
