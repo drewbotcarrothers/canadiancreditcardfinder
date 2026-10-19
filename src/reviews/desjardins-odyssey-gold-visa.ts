@@ -6,73 +6,74 @@ const review: CardEditorialReview = {
     h1: 'Desjardins Odyssey Gold Visa Review',
     primaryKeyword: 'desjardins odyssey gold visa review',
     metaDescription:
-        'Desjardins Odyssey Gold Visa review for 2026: $110-class fee, up to 2% BONUSDOLLARS, vs Odyssey World Elite and Privilege, and who should skip it.',
+        'Desjardins Odyssey Gold Visa review for 2026: $110 fee, 2% BONUSDOLLARS on dining, bills, travel, entertainment and transit, caps, 60-day travel insurance, and who should skip it.',
     intro:
-        'The Desjardins Odyssey Gold Visa is the accessible Odyssey travel card: BONUSDOLLARS rather than Aeroplan, an “up to 2%” earn line with category caps in the current features, and a Gold Visa fee that is cheaper than World Elite or Privilege. It is not the [Odyssey World Elite Mastercard](/card/desjardins-odyssey-world-elite-mastercard/) and it is not [Odyssey Visa Infinite Privilege](/card/desjardins-odyssey-visa-infinite-privilege/). This Desjardins Odyssey Gold Visa review is honest about how thin the published details are — no welcome bonus, eligibility terms, or insurance listed — and when a $0 Desjardins cash-back card or a mid-fee Avion Platinum is the clearer product.',
+        'The Desjardins Odyssey Gold Visa is the entry rung of Desjardins’ Odyssey travel ladder: a $110 annual fee, 2% in BONUSDOLLARS on restaurants, pre-authorized payments, travel, entertainment and alternative transportation, and 0.65% on groceries and everything else. What the fee mainly buys over the $0 [Desjardins Bonus Visa](/card/desjardins-bonus-visa/) is comprehensive travel insurance (up to 60 days per trip for travellers 59 and under) and auto rental coverage. It is not the [Odyssey World Elite Mastercard](/card/desjardins-odyssey-world-elite-mastercard/) and it is not [Odyssey Visa Infinite Privilege](/card/desjardins-odyssey-visa-infinite-privilege/). This Desjardins Odyssey Gold Visa review covers the category caps, the insurance, the $30 additional-card fee and when a cheaper or richer Desjardins card is the better pick.',
     whoItsFor: [
-        'Desjardins members who want BONUSDOLLARS on a Visa without World Elite income, Privilege pricing, or a Mastercard they will not use at Costco.',
-        'Travellers who compared World Elite’s “up to 3%” and Privilege’s “up to 4%” in the card’s features and whose trip spend does not justify those fees.',
-        'People who already redeem BONUSDOLLARS for travel or merchandise and will treat Gold as the on-ramp, not as a lounge-pass substitute.',
-        'Anyone who pays in full. Two percent in a points currency will not outrun the purchase rate.',
+        'Desjardins members who travel a few times a year and want trip insurance built into the card: emergency health care up to $5 million per person (60 days per trip at 59 and under, 31 days at 60–64, 15 days at 65–75), trip cancellation and baggage.',
+        'People whose spend leans on restaurants, recurring bills and travel bookings rather than groceries. Those categories earn 2%; groceries earn only 0.65%.',
+        'Members who already redeem BONUSDOLLARS ($1 each) for travel, gift cards or merchandise.',
+        'Anyone who pays in full. The 20.90% purchase rate wipes out 2% rewards quickly.',
     ],
     whoShouldSkip: [
-        'Households that shop Costco Canada for the weekly run. Gold is a Visa; the warehouse wants a Mastercard. That is Odyssey World Elite if you are staying in BONUSDOLLARS.',
-        'High spenders who will actually use Privilege travel benefits and the member fee. Skipping Gold is not a failure of ambition; it is the right rung.',
-        'People chasing a large welcome bonus. None is currently listed.',
-        'Cash-back shoppers who wanted dollars, not BONUSDOLLARS. [Desjardins Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) currently lists $0 and up to 2% cash back.',
+        'Grocery-heavy households. Groceries earn 0.65% here; [Odyssey World Elite](/card/desjardins-odyssey-world-elite-mastercard/) pays 3% on the first $10,000 a year and [Cash Back World Elite](/card/desjardins-cash-back-world-elite-mastercard/) pays 4%.',
+        'People who do not need travel insurance. The $0 [Bonus Visa](/card/desjardins-bonus-visa/) already pays 2% on restaurants, pre-authorized payments, entertainment and transit (with lower $3,600 caps).',
+        'Costco shoppers. This is a Visa; Costco Canada takes Mastercard.',
+        'Welcome-bonus hunters. Desjardins does not currently advertise an offer on this card.',
+        'Frequent travellers who spend abroad. Foreign-currency purchases carry a 2.50% conversion fee.',
     ],
     pros: [
-        'It is the lowest Odyssey earn ceiling: up to 2% BONUSDOLLARS, which also comes with the lowest current Odyssey fee.',
-        'Visa Gold acceptance is straightforward at Canadian merchants that still skip American Express — just not at Costco.',
-        'Category caps are named in the feature list, so “up to 2%” is already framed as a ceiling, not a catch-all.',
-        'You can step up to World Elite or Privilege later if the BONUSDOLLARS habit sticks. Gold does not lock you into Privilege income.',
-        'The purchase rate matches World Elite’s listing. Revolving is still a bad idea; the rate is not a selling point.',
+        '2% in BONUSDOLLARS on restaurants and pre-authorized payments (first $6,000 a year in each), travel (first $15,000 a year), entertainment and alternative transportation.',
+        'Comprehensive travel insurance: emergency health care up to $5 million per person per trip, trip cancellation up to $2,500 per person before departure (no maximum for changes during a trip), and baggage up to $1,000.',
+        'Auto rental collision/loss damage insurance for rentals up to 48 consecutive days, mobile device insurance up to $1,000, 90-day purchase protection and an extended warranty that doubles the manufacturer’s warranty by up to 1 year.',
+        'Up to 25% off Hertz, Thrifty and Dollar rentals and 50% off entry to the Desjardins Odyssey Lounges at Montréal-Trudeau.',
+        'Instalment payments on purchases of $200 or more at participating merchants.',
     ],
     cons: [
-        'The card’s features only say “up to 2%” with category caps.',
-        'No welcome bonus, detailed offer, dollar value, or eligibility terms are currently listed. Year-one value is the earn rate and whatever Desjardins lists live.',
-        'Additional-card fees and insurance coverage are not currently listed. Confirm authorized users and travel medical coverage with Desjardins rather than assuming Gold extras.',
-        'A Visa cannot check out at Costco Canada. If the warehouse is the statement, Gold is the wrong network for Odyssey.',
-        'Without BONUSDOLLARS redemptions you actually use, this is an expensive Visa next to the $0 Desjardins Cash Back Mastercard’s up-to-2% cash line.',
+        'Groceries and all uncategorized spend earn just 0.65%.',
+        'The 2% rates stop at $6,000 a year in restaurants and pre-authorized payments and $15,000 in travel; spend above that drops to 0.65%.',
+        'Additional cards cost $30 a year each.',
+        'No free lounge passes — the Odyssey Lounge benefit on Gold is a 50% discount on the entry fee.',
+        'A 2.50% foreign-currency conversion fee, and no welcome offer is currently advertised.',
     ],
     feesAndValue:
-        'The fee table shows a $110-class Gold card; the detail line currently repeats that annual figure. There is no first-year waiver and no welcome-bonus value to subtract, so the first-year snapshot on this page will not produce a useful bonus-minus-fee estimate. Gold has to win on BONUSDOLLARS you will redeem, at a fee below World Elite and well below Privilege. If “up to 2%” in points is no better than the $0 Desjardins cash-back Mastercard’s “up to 2%” in dollars, skip the travel ladder. If you will use Costco and Odyssey, World Elite is the network upgrade, not a Gold with a louder name. If Privilege travel is already the plan and you can use the member price, Gold is a stall. Offers change. Pay in full.',
+        'Gold has to earn back $110 a year. Desjardins’ own example: $200 a month on restaurants at 2% earns 48 BONUSDOLLARS a year. Add recurring bills and travel bookings at 2% and many households land in the $100–$200 range, so the earn alone roughly covers the fee only for steady spenders. The clearer value is the insurance: 60-day emergency health care (for travellers 59 and under), trip cancellation and auto rental coverage are what you would otherwise buy separately. If you never travel, the $0 Bonus Visa earns the same 2% in most of these categories. If groceries are your biggest line, Odyssey World Elite’s 3% grocery rate is worth the extra $20. Add $30 for each additional card. Pay in full.',
     rewardsExplained:
-        'This card earns BONUSDOLLARS, Desjardins’ travel-and-merchandise currency — not Aeroplan, not Scene+, and not statement-credit cash back. The current features describe up to 2% of purchases in BONUSDOLLARS, with category caps. World Elite currently lists up to 3% with caps; Privilege currently lists up to 4%. We will not fill in Gold’s missing category table or pretend 2% is uncapped grocery cash back. Confirm the live Desjardins rate card, bonus-category definitions, and those caps. Redeem BONUSDOLLARS through Desjardins’ travel and rewards tools. If you already fly Air Canada on purpose, a bank cobrand in that program will annoy you less than converting BONUSDOLLARS later. If you wanted flexible bank points at a similar mid fee outside Desjardins, [RBC Avion Visa Platinum](/card/rbc-avion-visa-platinum/) is the comparison with more published detail.',
+        'This card earns BONUSDOLLARS, where 1 BONUSDOLLAR = $1 when you redeem for travel, gift cards or other products and services. Restaurants (including fast food) and pre-authorized payments earn 2% on the first $6,000 of eligible purchases per calendar year in each category, then 0.65%. Travel (airlines, hotels, car rentals, travel agencies, cruise lines and similar merchants) earns 2% on the first $15,000 per calendar year, then 0.65%. Entertainment (theatre, concerts, movie theatres, attractions) and alternative transportation (local transit, taxis, buses and public charging stations) earn 2%. Groceries and everything else earn 0.65%. Categories follow the merchant’s Visa category code, and caps reset each January 1. Cash advances, returns, interest, foreign-currency purchases, money orders and casino spending do not earn.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If Desjardins is running BONUSDOLLARS on the application page, use that page. Judge Gold on the fee versus World Elite, the “up to 2%” earn line with caps, and whether you already live in that caisse relationship.',
+        'Desjardins does not currently advertise a welcome bonus on the Odyssey Gold Visa product page. Judge the card on ongoing earn and the travel insurance against the $110 fee. If Desjardins adds an offer on the application page, read its terms there.',
     faqs: [
         {
             question: 'Is the Desjardins Odyssey Gold Visa worth it in 2026?',
             answer:
-                'It is worth it when you already bank at Desjardins, will use BONUSDOLLARS, and do not need World Elite or Privilege extras. It is not worth it as a signup-bonus hunt, a Costco card, or a cash-back substitute.',
+                'It is worth it if you travel a few times a year, want comprehensive travel insurance on the card, and spend steadily on restaurants, bills and travel. It is not worth it for grocery-heavy households (0.65% on groceries) or if you never travel — the $0 Bonus Visa earns 2% in most of the same categories.',
         },
         {
             question: 'Odyssey Gold vs Odyssey World Elite vs Odyssey Visa Infinite Privilege?',
             answer:
-                'This Gold card currently lists a lower fee and up to 2% BONUSDOLLARS on a Visa. [World Elite](/card/desjardins-odyssey-world-elite-mastercard/) currently lists a mid fee and up to 3% on a Mastercard. [Privilege](/card/desjardins-odyssey-visa-infinite-privilege/) currently lists up to 4% at a Privilege price that is lower for members. Pick the lowest Odyssey rung that still matches how you travel.',
+                'Gold: $110, 2% on restaurants, bills, travel, entertainment and transit, 0.65% elsewhere. [World Elite](/card/desjardins-odyssey-world-elite-mastercard/): $130, 3% groceries and restaurants, 2% travel, entertainment and transit, 1% elsewhere, income test, up to 8 free Odyssey Lounge passes. [Privilege](/card/desjardins-odyssey-visa-infinite-privilege/): $295 for members / $395 for non-members, 4% restaurants, entertainment and transit, 3% groceries and travel, 1.5% elsewhere, and a lower variable purchase rate. Pick the lowest rung that matches how you spend and travel.',
         },
         {
-            question: 'Odyssey Gold vs Desjardins Cash Back Mastercard?',
+            question: 'Odyssey Gold vs Desjardins Bonus Visa?',
             answer:
-                '[Desjardins Cash Back Mastercard](/card/desjardins-cash-back-mastercard/) currently lists $0 and up to 2% cash back. Gold currently lists a paid Visa and up to 2% BONUSDOLLARS. Choose cash back if you wanted dollars. Choose Gold if the BONUSDOLLARS catalogue and Odyssey travel positioning are the point.',
+                'The [Bonus Visa](/card/desjardins-bonus-visa/) is $0 and pays 2% on restaurants and pre-authorized payments (first $3,600 a year each), entertainment and transit, and 0.5% elsewhere, with 3-day travel insurance. Gold adds 2% on travel, higher caps, a 0.65% base and comprehensive travel insurance for $110 a year.',
         },
         {
-            question: 'Odyssey Gold vs RBC Avion Visa Platinum?',
+            question: 'What insurance comes with the Odyssey Gold Visa?',
             answer:
-                'Both are mid-fee flexible bank-point Visas. [Avion Platinum](/card/rbc-avion-visa-platinum/) currently lives in RBC’s Avion chart with a thicker review on this site. Odyssey Gold currently prints “up to 2%” BONUSDOLLARS and little else. Choose the bank you already use, then be honest about whether you will redeem that currency.',
+                'Comprehensive travel insurance for you, your spouse and dependent children (emergency health care up to $5 million per person, 60/31/15 days per trip depending on age, ages 75 and under; trip cancellation up to $2,500 per person before departure; baggage up to $1,000), auto rental collision/loss damage for up to 48 days, mobile device insurance up to $1,000, 90-day purchase protection and extended warranty. Read the certificates for limits and exclusions.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Gold Visas add a foreign-conversion fee unless the issuer markets 0% FX. The Odyssey Gold listing does not include an FX policy. Confirm Desjardins’ current conversion fee in the agreement. For a card that does advertise 0% FX, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
+                'Yes. Desjardins’ cardholder contract lists a 2.50% conversion fee on transactions in a foreign currency. For a card that advertises no FX fee, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
     ],
     extraHubSlugs: ['travel'],
     relatedCardSlugs: [
         'desjardins-odyssey-world-elite-mastercard',
         'desjardins-odyssey-visa-infinite-privilege',
-        'rbc-avion-visa-platinum',
+        'desjardins-bonus-visa',
     ],
 };
 
