@@ -24,13 +24,13 @@ const review: CardEditorialReview = {
     pros: [
         'The purchase rate is among the lowest Canadian unsecured Visas on this site, and the annual fee currently listed is $0 — a cleaner ongoing story than TD Low Rate’s $25-class fee.',
         'Additional cards currently show $0.',
-        'Features currently name mobile-device insurance, purchase protection, and extended warranty, which most $0 rate cards do not bother to print.',
-        'Three-day trip insurance is a niche perk for a weekend drive, not a reason to skip a real travel policy — still more than BMO Preferred Rate lists.',
+        'Mobile device insurance up to $1,000, 90-day purchase protection (up to $10,000 per item, $50,000 lifetime per account) and an extended warranty that doubles the manufacturer’s warranty by up to 1 year — more than most $0 rate cards include.',
+        'A 25-day interest-free grace period on purchases, plus 3-day trip insurance (emergency health care up to $5 million per person, ages 75 and under) for a weekend away — not a reason to skip a real travel policy.',
         'You stay in the Desjardins app rather than opening a Big Five rate card you will ignore.',
     ],
     cons: [
         'There is no rewards program. You are not earning BONUSDOLLARS while you de-lever.',
-        'No welcome bonus, value, eligibility terms, or insurance details are currently listed, even though features mention insurance. Confirm the certificate.',
+        'The 10.90% is a variable rate: Desjardins can change it, and it rises to 19.90% if you miss a minimum payment, until the payment is made.',
         'There is no 0% purchase or transfer teaser. TD Low Rate currently lists 0% on purchases for a listed window; BMO and CIBC Select currently list transfer teasers.',
         'A Visa cannot check out at Costco Canada.',
         'Cash-advance interest is higher than purchases. Do not treat ATMs as a Flexi feature.',
@@ -38,7 +38,7 @@ const review: CardEditorialReview = {
     feesAndValue:
         'The fee table shows $0; extra cards currently show $0. There is no welcome-bonus value, so the first-year snapshot on this page will not manufacture a cash gift. Year one and year two are the same test: does 10.90% beat the card you have now, with no teaser and no rewards? If you pay in full, Bonus or Cash Back Visa at $0 is the better Desjardins product. If you needed 0% on new purchases, TD Low Rate is the comparison. If you needed a Mastercard transfer teaser, BMO Preferred Rate is the other shape. Offers change. Pay the balance down; Flexi is not permission to revolve forever.',
     rewardsExplained:
-        'This card does not pay BONUSDOLLARS or cash back. Rewards currently say N/A. Features currently describe a low-interest Visa plus short-trip travel insurance (up to three days), mobile-device insurance, purchase protection, and extended warranty. Put a revolving balance here. Put grocery you pay in full on [Desjardins Cash Back Visa](/card/desjardins-cash-back-visa/) or [Desjardins Bonus Visa](/card/desjardins-bonus-visa/). Put travel points on Odyssey. Costco still wants a Mastercard.',
+        'This card does not pay BONUSDOLLARS or cash back. It is a low-interest Visa with short-trip travel insurance (trips up to three days), mobile device insurance up to $1,000, purchase protection and extended warranty, up to 15% off Hertz, Thrifty and Dollar rentals, and instalment payments on purchases of $200 or more at participating merchants. Put a revolving balance here. Put grocery you pay in full on [Desjardins Cash Back Visa](/card/desjardins-cash-back-visa/) or [Desjardins Bonus Visa](/card/desjardins-bonus-visa/). Put travel points on Odyssey. Costco still wants a Mastercard.',
     welcomeBonus:
         'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If Desjardins is running a 0% window on the Flexi application page, use that page. Do not copy TD’s six-month purchase teaser onto this card.',
     faqs: [
@@ -60,12 +60,12 @@ const review: CardEditorialReview = {
         {
             question: 'Does the three-day travel insurance matter?',
             answer:
-                'Features currently mention travel insurance for trips up to three days. That is a weekend-shaped perk, not coverage for a two-week flight. Read the certificate. Do not skip a real travel-medical policy.',
+                'Flexi includes travel insurance for trips of 3 days or less for you, your spouse and dependent children: emergency health care up to $5 million per person (ages 75 and under), trip cancellation up to $500 per person before departure or $1,000 during a trip, and baggage up to $500. If you are away more than 3 days you are not covered at all, so buy a real travel-medical policy for longer trips.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian low-rate Visas add a conversion fee on foreign-currency purchases. Flexi is a domestic rate card, not a no-FX travel card. Confirm Desjardins’ current FX rate in the agreement.',
+                'Yes. Desjardins’ Flexi Visa cardholder contract lists a 2.50% conversion fee on transactions in a foreign currency. Flexi is a domestic rate card, not a no-FX travel card.',
         },
     ],
     extraHubSlugs: ['low-interest', 'no-annual-fee'],
