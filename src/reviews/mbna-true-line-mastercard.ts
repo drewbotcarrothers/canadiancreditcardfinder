@@ -8,39 +8,39 @@ const review: CardEditorialReview = {
     metaDescription:
         'MBNA True Line Mastercard review for 2026: 12.99% rate, $0 fee, 0% balance-transfer promo vs True Line Gold and BMO Preferred Rate, who should skip it.',
     intro:
-        'The MBNA True Line Mastercard is MBNA’s no-fee rate card: a 12.99%-class purchase rate, $0 annual fee, extra cards at $0, no rewards, and a welcome line that currently names 0% promotional AIR for 12 months on balance transfers completed within 90 days of account opening (conditions apply; may vary by province). It is not [True Line Gold](/card/mbna-true-line-gold-mastercard/)’s 10.99%-class purchase rate at a $39-class fee, and it is not Smart Cash. This MBNA True Line Mastercard review is the $0 transfer-shaped door into MBNA’s rate pair, and tells you when Gold’s two-point ongoing gap is worth $39 if you will revolve past the teaser.',
+        'The MBNA True Line Mastercard is MBNA’s no-fee rate card: a 12.99%-class purchase rate, $0 annual fee, up to nine authorized users at no extra fee, no rewards, and a welcome offer of 0% on balance transfers for 12 months if you complete them within 90 days of opening (3% transfer fee, minimum $3.50). It is not [True Line Gold](/card/mbna-true-line-gold-mastercard/)’s 10.99%-class purchase rate at a $39-class fee, and it is not Smart Cash. This MBNA True Line Mastercard review is the $0 transfer-shaped door into MBNA’s rate pair, and tells you when Gold’s two-point ongoing gap is worth $39 if you will revolve past the teaser.',
     whoItsFor: [
-        'People who will transfer a balance within 90 days of opening, can live with whatever transfer fee the live page names, and will repay that transfer before the 12-month 0% window ends.',
+        'People who will transfer a balance within 90 days of opening, can live with the 3% transfer fee (minimum $3.50), and will repay that transfer before the 12-month 0% window ends.',
         'Applicants who want a Mastercard they can take to Costco while they de-lever, without a Gold membership.',
         'Anyone who compared BMO Preferred Rate’s 13.99%-class ongoing rate and would rather start at MBNA’s $0 12.99%-class floor after the teaser.',
-        'People who pay attention to provincial offer variation — the welcome offer currently flags that the 0% window may vary by province.',
+        'People who want to move available credit to a chequing account as a balance transfer (17.99% standard rate) rather than take a 24.99% cash advance.',
     ],
     whoShouldSkip: [
         'Anyone who pays in full every month. A 12.99%-class rate does nothing if you never pay interest; [Smart Cash Platinum Plus](/card/mbna-smart-cash-platinum-plus-mastercard/) currently lists $0 grocery/gas cash back for that habit.',
         'People who will revolve for years after the teaser. [True Line Gold](/card/mbna-true-line-gold-mastercard/) currently lists 10.99% at $39 — do that math.',
         'Rewards collectors. There is no rewards program.',
-        'Anyone chasing a cash signup bonus. No value estimate or detailed welcome terms are listed; 0% is not a dollar wrap.',
+        'Anyone chasing a cash signup bonus. The welcome offer is a 0% transfer rate, not cash.',
     ],
     pros: [
         'No annual fee, so the 12.99%-class ongoing rate does not have to beat a membership first.',
         'The current welcome line is a long 0% transfer window (12 months) if you complete the transfer within 90 days — longer than several Big Five teasers.',
         'Mastercard acceptance includes Costco Canada, unlike TD and CIBC low-rate Visas.',
-        'Additional cards currently show $0.',
+        'Up to nine authorized users at no additional annual fee.',
         'You can step to True Line Gold later if the ongoing rate gap would clear $39. This $0 card is the on-ramp.',
     ],
     cons: [
         'There is no rewards program. Features currently say balance-transfer focused; no rewards.',
-        'No detailed welcome terms, value, eligibility terms, or insurance are currently listed. Confirm transfer fees, caps, and provincial rules on MBNA’s page.',
+        'Each balance transfer requested with the application costs 3% (minimum $3.50), so 0% is not free. After 12 statement periods, or from the second statement period after a late minimum payment, the remaining transfer balance moves to 17.99%.',
         'Cash-advance interest is a 24.99%-class figure — much higher than purchases. Do not take cash and call it True Line.',
-        'A 0% window that “may vary by province” is a real compliance footnote, not boilerplate you can ignore in Quebec or elsewhere.',
-        'Check the issuer’s site for current insurance coverage. This is a low-rate Mastercard, not travel medical.',
+        'The standard balance-transfer rate is 17.99%, well above the 12.99% purchase rate, so a transfer you do not clear in the promo window gets expensive.',
+        'MBNA’s True Line page lists no insurance coverage. This is a low-rate Mastercard, not travel medical.',
     ],
     feesAndValue:
-        'The fee table shows $0; extra cards currently show $0. There is no welcome-bonus value, so the first-year snapshot will not look like a cash gift — 0% is not a deposit. Year one is $0 plus 0% on a qualifying transfer minus any transfer fee. Year two is 12.99% with no teaser. If you will still revolve then, Gold’s 10.99% minus $39 can win on a large leftover balance; run the numbers. If you pay in full, Smart Cash Platinum Plus at $0 is the better MBNA card. If you needed a Big Five transfer teaser with a printed fee rebate, BMO Preferred Rate currently lists that shape. Offers change. Pay the promo down before it ends.',
+        'The fee table shows $0, with up to nine authorized users at no extra fee. There is no welcome-bonus value, so the first-year snapshot will not look like a cash gift — 0% is not a deposit. Year one is $0 plus 0% on a qualifying transfer minus the 3% transfer fee. After the promo, purchases are 12.99% and any leftover transfer balance is 17.99%. If you will still revolve then, Gold’s 10.99% minus $39 can win on a large leftover balance; run the numbers. If you pay in full, Smart Cash Platinum Plus at $0 is the better MBNA card. If you needed a Big Five transfer teaser with a printed fee rebate, BMO Preferred Rate currently lists that shape. Offers change. Pay the promo down before it ends.',
     rewardsExplained:
         'This card does not pay Smart Cash or MBNA Rewards. Rewards currently say N/A. Put a transfer or a revolving balance here. Put grocery you pay in full on [MBNA Smart Cash Platinum Plus Mastercard](/card/mbna-smart-cash-platinum-plus-mastercard/) or [Tangerine Money-Back](/card/tangerine-money-back-credit-card/). Put Amazon.ca spend on the [Amazon.ca Rewards Mastercard](/card/amazon-ca-rewards-mastercard/). Costco will take this Mastercard; warehouse spend still accrues at the purchase rate with no earn mix.',
     welcomeBonus:
-        'The current welcome line is 0% promotional AIR for 12 months on balance transfers completed within 90 days of account opening, with conditions, and it may vary by province. No detailed terms, value estimate, or eligibility terms are listed. Confirm the transfer fee, minimum, and cap on MBNA’s page. Do not treat 0% as a reason to move a balance you cannot repay. Do not expect a cash bonus.',
+        'The welcome offer is a 0% promotional annual interest rate on balance transfers made within 90 days of account opening, for 12 statement periods from each transfer. Each transfer requested with the application carries a 3% fee (minimum $3.50). The remaining balance moves to the 17.99% balance-transfer rate when the promo ends, or from the second statement period after a late minimum payment. Do not treat 0% as a reason to move a balance you cannot repay. Do not expect a cash bonus.',
     faqs: [
         {
             question: 'Is the MBNA True Line Mastercard worth it in 2026?',

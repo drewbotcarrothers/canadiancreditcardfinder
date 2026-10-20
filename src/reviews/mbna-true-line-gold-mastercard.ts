@@ -13,7 +13,7 @@ const review: CardEditorialReview = {
         'People who will carry a purchase balance past the first year and whose interest savings from 10.99% versus 12.99% (or versus a 20%-class rewards card) will clear $39.',
         'Applicants who want a Mastercard at Costco while they de-lever, and who do not need a printed 0% transfer teaser on this card.',
         'Anyone who compared Desjardins Flexi’s 10.90%-class rate at $0 and would rather stay at MBNA — Flexi currently wins on fee if you can hold a Desjardins Visa.',
-        'People who pay attention to the cash-advance rate: the issuer currently prints a 24.99%-class cash-advance rate. Gold is not an ATM card.',
+        'People who pay attention to the cash-advance rate: cash advances are 24.99% (20.99% in Quebec). Gold is not an ATM card.',
     ],
     whoShouldSkip: [
         'Anyone who pays in full. A 10.99%-class rate does nothing if you never pay interest; Smart Cash Platinum Plus currently lists $0 grocery/gas cash back for that habit.',
@@ -27,20 +27,22 @@ const review: CardEditorialReview = {
         'You can hold Gold after a $0 True Line teaser if the leftover balance is still large — product-change math, not a second card.',
         'Chip Mastercard acceptance is straightforward, including Costco Canada.',
         'There is no welcome-value estimate pretending 0% is cash.',
+        'Balance transfers run at 13.99%, with a 1% fee (minimum $3.50) on transfers requested with the application, so Gold can also hold a transferred balance at a low ongoing rate.',
+        'Up to nine authorized users at no additional annual fee.',
     ],
     cons: [
         'A $39-class fee has to be earned on rate savings alone. $0 True Line currently lists 12.99% and a 0% transfer window — Gold can lose year one if the teaser was the actual need.',
-        'No welcome bonus, extra-card fees, eligibility terms, or insurance are currently listed. Year-one value is $39 versus 10.99%.',
-        'Cash-advance interest is 24.99%-class. Do not take cash.',
+        'There is no welcome bonus. Year-one value is $39 versus 10.99%.',
+        'Cash-advance interest is 24.99% (20.99% in Quebec). Do not take cash.',
         'No rewards means grocery you pay in full should sit on Smart Cash, not here.',
-        'Check the issuer’s site for current insurance coverage. Gold in the name is not travel medical coverage.',
+        'Insurance is limited to purchase assurance (90 days, $60,000 lifetime limit per account) and extended warranty (up to one extra year). Gold in the name is not travel medical coverage.',
     ],
     feesAndValue:
-        'The fee table shows a $39-class card; extra-card fees are not listed. There is no welcome-bonus value, so the first-year snapshot will look like a fee with no bonus — correct. Year one is $39 versus 10.99% with no teaser. Year two is the same. Compare that with $0 True Line’s 12.99% after its 0% window: on a $5,000 leftover, two points of rate is about $100 a year before compounding — $39 can win. On a $500 leftover, $0 True Line wins. If you pay in full, Smart Cash is the better MBNA card. If you can hold Desjardins Flexi at 10.90% and $0, Flexi currently beats Gold on fee at a similar rate. Offers change. Pay the balance down.',
+        'The fee table shows a $39-class card, with up to nine authorized users at no extra fee. There is no welcome-bonus value, so the first-year snapshot will look like a fee with no bonus — correct. Year one is $39 versus 10.99% with no teaser. Year two is the same. Compare that with $0 True Line’s 12.99% after its 0% window: on a $5,000 leftover, two points of rate is about $100 a year before compounding — $39 can win. On a $500 leftover, $0 True Line wins. If you pay in full, Smart Cash is the better MBNA card. If you can hold Desjardins Flexi at 10.90% and $0, Flexi currently beats Gold on fee at a similar rate. Offers change. Pay the balance down.',
     rewardsExplained:
-        'This card does not pay Smart Cash or MBNA Rewards. Rewards currently say N/A; detailed features currently restate a 10.99% purchase rate and $39 annual fee. Put a revolving balance here. Put grocery you pay in full on [MBNA Smart Cash Platinum Plus Mastercard](/card/mbna-smart-cash-platinum-plus-mastercard/). Put a 0% transfer you can repay in a year on [True Line Mastercard](/card/mbna-true-line-mastercard/). Costco will take the network; warehouse spend still accrues at 10.99% with no earn mix.',
+        'This card does not pay Smart Cash or MBNA Rewards. There is no rewards program: the card is a 10.99% purchase rate and a 13.99% balance-transfer rate for a $39 annual fee. Put a revolving balance here. Put grocery you pay in full on [MBNA Smart Cash Platinum Plus Mastercard](/card/mbna-smart-cash-platinum-plus-mastercard/). Put a 0% transfer you can repay in a year on [True Line Mastercard](/card/mbna-true-line-mastercard/). Costco will take the network; warehouse spend still accrues at 10.99% with no earn mix.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If MBNA is running a 0% window on True Line Gold’s live page, use that page. Do not copy the $0 True Line 12-month transfer teaser onto this Gold card unless the application says so.',
+        'MBNA does not advertise a welcome offer on True Line Gold. Balance transfers start at the regular 13.99% rate, with a 1% fee (minimum $3.50) on each transfer requested with the application. Do not copy the $0 True Line 12-month transfer teaser onto this Gold card.',
     faqs: [
         {
             question: 'Is the MBNA True Line Gold Mastercard worth it in 2026?',
