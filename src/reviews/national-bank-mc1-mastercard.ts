@@ -31,7 +31,7 @@ const review: CardEditorialReview = {
     cons: [
         'The Low Interest category currently disagrees with a 20.99%-class purchase rate. Treat MC1 as a starter card, not as Flexi or True Line.',
         'There is no rewards program. Features currently say no rewards program.',
-        'No welcome bonus, eligibility terms, or insurance details are currently listed, even though features mention purchase insurance. Confirm the certificate.',
+        'No welcome bonus is currently listed. Insurance is limited to purchase protection (90 days) and extended warranty (up to one extra year); there is no travel or mobile-device coverage.',
         'Cash-advance interest is higher than purchases. Do not take cash.',
         'National Bank’s footprint is strongest in Quebec. Branch backup feels different outside that core.',
     ],
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Mastercards add a conversion fee on foreign-currency purchases. MC1 is a domestic starter card, not a no-FX travel card. Confirm National Bank’s current FX rate in the agreement.',
+                'Yes. National Bank charges a 2.50% fee on foreign-currency purchases converted to Canadian dollars. MC1 is a domestic starter card, not a no-FX travel card.',
         },
     ],
     extraHubSlugs: ['no-annual-fee'],
