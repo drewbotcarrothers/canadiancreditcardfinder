@@ -23,22 +23,22 @@ const review: CardEditorialReview = {
     ],
     pros: [
         'No annual fee, with extra cards currently at $0.',
-        '1% on restaurants and PAPs is a clearer printed mix than Allure’s 1-per-$2 points, and cash back currently posts to the account monthly when conditions are met — no $25 ECHO floor on this card.',
+        '1% on restaurants and PAPs is a clearer printed mix than Allure’s 1-per-$2 points, and cash back currently posts to the account monthly when conditions are met — no need to request it, unlike ECHO.',
         'Features currently name Costco acceptance and mobile-device insurance.',
         '0.5% on other eligible purchases is at least something, unlike MC1’s N/A rewards.',
         'You can step to ECHO or Platinum later if grocery or travel starts to matter. mycredit is the cash-back on-ramp.',
     ],
     cons: [
         '0.5% on everything outside restaurants and PAPs is a weak catch-all. Grocery and gas are not the bonus buckets on this card.',
-        'No welcome bonus, eligibility terms, or insurance details are currently listed, even though features mention mobile-device insurance. Confirm the certificate.',
+        'No welcome bonus is currently listed. Insurance covers mobile devices (up to $1,000, minus a deductible, for 2 years), purchase protection and extended warranty, but there is no travel coverage.',
         '',
-        'The Cash Back category is honest; the earn mix is still thinner than Simplii or Tangerine on our site.',
+        'The Cash Back category is honest; the earn mix is still thinner than Simplii or Tangerine.',
         'National Bank’s footprint is strongest in Quebec.',
     ],
     feesAndValue:
         'This is a $0-fee card, with extra cards at $0. There is no welcome-bonus value, so the first-year snapshot will look empty. Value is 1% on restaurants and PAPs plus 0.5% on the rest, plus mobile-device insurance you would have used. If two Tangerine categories cover the month at $0, Tangerine wins. If grocery/gas/online are large, ECHO’s $30-class fee can still win on the ceiling. If you needed plastic with no earn mix, MC1 is simpler. There is no first-year rebate to hide a weak fit. Offers change. Pay in full.',
     rewardsExplained:
-        'This card pays cash back, not À la carte Rewards. The current features describe 1% cash back on restaurants and recurring pre-authorized payments, 0.5% on other eligible purchases, mobile-device insurance, and Costco acceptance. Detailed features currently add that cash back is applied to the account balance with each monthly statement when conditions are met. Confirm National Bank’s live mycredit rate card for what “restaurant” and “PAP” mean. Redeem to the account. Put dining and bills here. Put grocery on ECHO or Tangerine. Put a revolving balance on Syncro.',
+        'This card pays cash back, not À la carte Rewards. The current features describe 1% cash back on restaurants and recurring pre-authorized payments, 0.5% on other eligible purchases, mobile-device insurance, and Costco acceptance. Detailed features currently add that cash back is applied to the account balance with each monthly statement when conditions are met. Pre-authorized payments means recurring charges a merchant takes automatically from the card; balance transfers, cash advances and card fees earn nothing. Redeem to the account. Put dining and bills here. Put grocery on ECHO or Tangerine. Put a revolving balance on Syncro.',
     welcomeBonus:
         'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If National Bank is running a cash offer on the mycredit application page, use that page. Mobile-device insurance is an ongoing benefit, not a signup bonus.',
     faqs: [
@@ -60,12 +60,12 @@ const review: CardEditorialReview = {
         {
             question: 'Does mycredit work at Costco?',
             answer:
-                'Features currently say it is accepted at Costco. Warehouse spend will typically land in the 0.5% bucket unless National Bank’s live rules say otherwise — Costco is not a restaurant.',
+                'Yes. It is a Mastercard, so Costco Canada accepts it. Warehouse spend will typically land in the 0.5% bucket unless National Bank’s live rules say otherwise — Costco is not a restaurant.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Mastercards add a conversion fee on foreign-currency purchases. mycredit is a domestic cash-back card, not a no-FX travel card. Confirm National Bank’s current FX rate in the agreement.',
+                'Yes. National Bank charges a 2.50% fee on foreign-currency purchases converted to Canadian dollars. mycredit is a domestic cash-back card, not a no-FX travel card.',
         },
     ],
     extraHubSlugs: ['cash-back', 'no-annual-fee'],
