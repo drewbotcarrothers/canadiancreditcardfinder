@@ -584,6 +584,15 @@
       ],
       "kind": "head-to-head",
       "description": "Tangerine Money-Back Credit Card vs PC World Elite Mastercard: two $0 annual fee grocery cards, cash back or PC Optimum points, compared on earn rates, welcome offers and who each one fits."
+    },
+    "JGafxczz8mE": {
+      "cards": [
+        "tangerine-money-back-credit-card",
+        "simplycash-preferred-card-from-american-express",
+        "rbc-avion-visa-infinite"
+      ],
+      "kind": "guide",
+      "description": "Cash back or points in Canada? A simple break-even test using Tangerine Money-Back, SimplyCash Preferred and RBC Avion to show when points beat straight cash back."
     }
   },
   "skip": {
