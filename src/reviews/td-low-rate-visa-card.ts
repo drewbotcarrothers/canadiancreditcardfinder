@@ -24,7 +24,7 @@ const review: CardEditorialReview = {
     pros: [
         'The purchase rate is the lowest of the three big-bank low-rate cards in this batch, and the cash-advance rate currently matches it — unusual, and still not a reason to take cash advances.',
         'The current welcome line is 0% on purchases for the first six months from account opening, with an offer-effective date in the detailed feature list. That is the right teaser if the debt is new spend, not an old balance.',
-        'The annual fee currently sits below BMO Preferred Rate and CIBC Select in our tables, with extra cards at $0.',
+        'The annual fee currently sits below BMO Preferred Rate and CIBC Select, with extra cards at $0.',
         'Eligibility is residency and age of majority, not a printed household-income figure like CIBC Select’s listing.',
         'Visa acceptance is straightforward at Canadian merchants that still skip American Express — just not at Costco.',
     ],

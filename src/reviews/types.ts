@@ -27,6 +27,8 @@ export interface CardEditorialReview {
     rewardsExplained: string;
     welcomeBonus: string;
     faqs: ReviewFaq[];
+    /** Optional section on what sets this card apart from a near-identical sibling card. */
+    variantNotes?: { heading: string; body: string };
     /** Extra /best/{hub}/ links beyond those auto-detected from card data. */
     extraHubSlugs?: HubSlug[];
     relatedCardSlugs: string[];

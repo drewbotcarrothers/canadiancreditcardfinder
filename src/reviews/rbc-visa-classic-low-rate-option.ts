@@ -24,7 +24,7 @@ const review: CardEditorialReview = {
     ],
     pros: [
         'The current welcome line is a long 0.99% transfer window (10 months) with a first-year fee waiver — the right shape if the debt already lives on another card.',
-        'The $20-class fee currently undercuts BMO Preferred Rate and CIBC Select in our tables, with extra cards at $0.',
+        'The $20-class fee currently undercuts BMO Preferred Rate and CIBC Select, with extra cards at $0.',
         'Detailed features currently name 3¢/L at Petro-Canada with extra Petro-Points, Rexall Be Well points, and a complimentary DashPass window — more partner clutter than RateAdvantage, useful if you already buy those brands.',
         'No specific minimum income is currently printed.',
         'You stay at RBC for a later product-change to ION once the balance is gone.',

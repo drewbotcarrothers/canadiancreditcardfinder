@@ -8,6 +8,7 @@ import { authorJsonLd, publisherJsonLd } from '../../lib/author';
 import { lastModified } from '../../lib/contentDates';
 import { getCardsForHub, getDataFetchedAt } from '../../lib/data';
 import { getRelatedGuidesForHub } from '../../lib/guides';
+import { renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
 import { getHubBySlug, getHubSlugs, isHubSlug } from '../../lib/hubs';
 
 export async function getStaticPaths() {
@@ -91,6 +92,34 @@ const jsonLd = {
         </div>
 
         <CardGrid client:load cards={hubCards} />
+
+        {hub.analysis && hub.analysis.length > 0 && (
+            <section class="mt-12 bg-white rounded-2xl shadow-md p-6 lg:p-8 max-w-4xl">
+                {hub.analysis.map((part) => (
+                    <div class="mb-8 last:mb-0">
+                        <h2 class="text-2xl font-bold text-gray-900 mb-3">{part.heading}</h2>
+                        <div
+                            class="text-gray-700 leading-relaxed space-y-4 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+                            set:html={renderMarkdownParagraphs(part.body)}
+                        />
+                    </div>
+                ))}
+            </section>
+        )}
+
+        {hub.faqs && hub.faqs.length > 0 && (
+            <section class="mt-8 bg-white rounded-2xl shadow-md p-6 lg:p-8 max-w-4xl">
+                <h2 class="text-2xl font-bold text-gray-900 mb-4">FAQ</h2>
+                <div class="divide-y divide-gray-100">
+                    {hub.faqs.map((faq) => (
+                        <div class="py-4">
+                            <h3 class="font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                            <div class="text-gray-700 leading-relaxed" set:html={renderMarkdownParagraphs(faq.answer)} />
+                        </div>
+                    ))}
+                </div>
+            </section>
+        )}
 
         <section class="mt-12 bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 lg:p-12 text-center text-white">
             <h2 class="text-2xl lg:text-3xl font-bold mb-4">

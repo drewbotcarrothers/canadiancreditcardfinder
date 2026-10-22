@@ -119,6 +119,16 @@ const math = estimateWelcomeFeeMath(card);
         />
     </section>
 
+    {review.variantNotes && (
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">{review.variantNotes.heading}</h2>
+            <div
+                class="text-gray-700 leading-relaxed space-y-4 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+                set:html={renderMarkdownParagraphs(review.variantNotes.body)}
+            />
+        </section>
+    )}
+
     <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Welcome bonus: how to unlock it</h2>
         {card.welcomeBonus ? (

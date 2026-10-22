@@ -26,7 +26,7 @@ const review: CardEditorialReview = {
         '1.5x on restaurants, food delivery, digital subscriptions, streaming, and digital games is a dining-and-screens bucket World Elite currently spends on grocery and transit instead.',
         'The current welcome path stacks a first-purchase bonus and a three-month spend bonus — fewer stages than World Elite’s anniversary dump.',
         'Mastercard acceptance includes places that still skip American Express, including many Canadian restaurants.',
-        'Additional cards are available if a partner also flies WestJet (budget for the extra-card fee in our table).',
+        'Additional cards are available if a partner also flies WestJet (budget for the additional-card fee listed on this page).',
     ],
     cons: [
         '1x on everyday purchases means grocery and gas do not get the 2x World Elite currently prints. This is the dining cobrand, not the supermarket cobrand.',
