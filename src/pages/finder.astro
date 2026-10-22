@@ -39,5 +39,33 @@ const cards = await getCards();
         </header>
 
         <FinderContent client:load cards={cards} />
+
+        <section class="mt-12 max-w-3xl mx-auto bg-white rounded-2xl shadow-md p-6 lg:p-8 text-gray-700 leading-relaxed space-y-4">
+            <h2 class="text-2xl font-bold text-gray-900">How to use the finder</h2>
+            <p>
+                The finder asks up to five questions, one at a time. First, what you want from a card: cash back,
+                travel points, everyday rewards, a student card or a low interest rate. Second, how much you're willing
+                to pay each year: $0 only, up to about $150, or a premium fee. If you picked cash back, travel or
+                everyday rewards, it then asks where most of your money goes: groceries, gas and transit, dining,
+                travel or general spending. Travel answers get one more question about the program you prefer, such as
+                Aeroplan, WestJet, hotel points or flexible points. Last, it asks whether you'd like an American Express
+                card, one of the Big Five banks, or have no preference.
+            </p>
+            <h2 class="text-2xl font-bold text-gray-900">How cards are compared</h2>
+            <p>
+                Every Canadian card on this site goes into the comparison. Your goal and your fee limit work as filters,
+                so a $0-only answer leaves paid cards out. Your main spending category is a boost rather than
+                a cut: a card that earns more on groceries rises when you pick groceries, but a strong card without that
+                category can still appear. For low interest, cards with lower purchase rates rank higher. A listed
+                welcome bonus adds a small amount, and student cards are moved down unless you asked for one. If nothing
+                matches, the finder relaxes your bank preference first, then the travel program, then the fee limit, and
+                tells you which one it dropped.
+            </p>
+            <p>
+                You get one top match and a few alternatives, each with a short reason. Treat them as a shortlist, not
+                an approval. Open each card's review to check the income requirement, insurance and current offer, and
+                confirm the details on the issuer's site before you apply.
+            </p>
+        </section>
     </div>
 </BaseLayout>

@@ -22,6 +22,9 @@ export interface HubDefinition {
     intro: string;
     navLabel: string;
     teaser: string;
+    /** Longer buying advice shown under the card list. Inline markdown links allowed. */
+    analysis?: { heading: string; body: string }[];
+    faqs?: { question: string; answer: string }[];
 }
 
 const KNOWN_CATEGORY = /^(rewards|cash\s*back|cashback|travel|low\s*interest|student|us)$/i;
@@ -55,6 +58,24 @@ export const HUBS: HubDefinition[] = [
             'Choosing a travel credit card in Canada usually comes down to how you fly and how you redeem points. Airline-branded cards can be a strong fit if you already use that program, while hotel and flexible rewards cards may suit mixed travel. Weigh the annual fee against welcome bonuses, travel insurance, and lounge or companion benefits before you apply. The cards below are categorized as travel or earn a well-known travel rewards program.',
         navLabel: 'Travel',
         teaser: 'Airline, hotel, and flexible travel rewards',
+        analysis: [
+            {
+                heading: "How to narrow the list",
+                body: "Start with how you fly. If you mostly fly Air Canada, an Aeroplan card adds airline perks such as a free first checked bag on many of the mid-tier cards, which can be worth more than the points. If you fly WestJet out of Calgary or Vancouver, a WestJet card is the natural fit. If you travel on different airlines or want hotels too, flexible points such as Amex Membership Rewards or RBC Avion let you choose later.",
+            },
+            {
+                heading: "Check the insurance, not just the points",
+                body: "Travel insurance is where these cards differ most, and it's easy to miss. Some cards include travel medical, trip cancellation and trip interruption; others list only rental car and baggage cover. The age limits matter as well. Several cards shorten travel medical cover for travellers 65 and older to just a few days. Read the card page's insurance section, and confirm it against the certificate on the issuer's site before you skip separate coverage.",
+            },
+            {
+                heading: "A quick example",
+                body: "A couple flying Air Canada round trip with one checked bag each pays for four bag fees per trip. On a card with a free first checked bag, that saving alone can cover a mid-range annual fee after one or two trips a year. If you only travel carry-on, that perk is worth nothing to you, and a no-fee card or a flexible points card may do more.",
+            },
+            {
+                heading: "Common mistakes",
+                body: "Paying a premium fee for lounge access you'll use once a year, ignoring foreign transaction fees (most cards charge about 2.5% on foreign spending; a few don't), and chasing a welcome bonus with spend you wouldn't otherwise put on the card. Bonuses and perks change, so check the issuer's page before you apply.",
+            },
+        ],
     },
     {
         slug: 'cash-back',
@@ -88,6 +109,34 @@ export const HUBS: HubDefinition[] = [
             'Student credit cards in Canada are usually built for thinner credit files and often carry no annual fee. Many are student versions of cash-back or travel cards, with similar earn rates and lower or waived fees. Compare how you qualify, whether the card reports to the credit bureau, and if you can keep the product after graduation. The cards below currently list Student as the category, or include student in the card name.',
         navLabel: 'Students',
         teaser: 'Student versions of cash back, travel, and rewards cards',
+        analysis: [
+            {
+                heading: "Who a student card is for",
+                body: "A student card is for someone in a Canadian college, university or other post-secondary program who wants to start a credit history without paying an annual fee. Most of the student cards listed here charge $0 a year, and several say there's no minimum income requirement, which matters when your income is a part-time job. International students can apply for some of them, though credit limits are usually lower; check each issuer's page for the current rules.",
+            },
+            {
+                heading: "How to choose",
+                body: "Pick the card from the bank you already use. Having your chequing account and your card at the same bank makes paying in full easier and can help with approval. Then look at where your money actually goes. If most of it is groceries, a card that pays more on groceries (such as the BMO CashBack student card at 3%, or the CIBC Dividend student card at 2%) will do more than a travel points card. If you go home by plane at Christmas, an Aeroplan student card earns points on that flight and on everyday spending.\n\nThink about the long run too. A student card is meant to become your regular card after you graduate, and the age of that account helps your credit score. Ask the bank what the card converts to when you finish school.",
+            },
+            {
+                heading: "A worked example",
+                body: "A student spending $250 a month on groceries earns about $90 a year at 3% cash back, compared with about $15 at 0.5%. That's real money on a student budget, but it's tiny next to interest. A $1,000 balance carried for a year at around 22% costs roughly $220, more than double what the card earns.",
+            },
+            {
+                heading: "Pitfalls to watch",
+                body: "Don't apply for several cards in the same month: each application adds a hard inquiry to a thin file. Keep your balance well under the credit limit, ideally below about 30%, because high use relative to the limit can pull a new score down. Set up an automatic payment for at least the minimum so one missed due date doesn't cost you a late payment on your file. And watch for student cards that charge a fee; Scotiabank lists student versions with a $29 or $49 fee, so make sure the extra features are worth it.",
+            },
+        ],
+        faqs: [
+            {
+                question: "Can I get a student credit card with no income?",
+                answer: "Several student cards on this page list no minimum income, and the CIBC student cards say Canadian students can get limits of up to $5,000. Approval still depends on the bank's checks, so confirm the requirements on the issuer's page.",
+            },
+            {
+                question: "Will a student card build my credit?",
+                answer: "Yes, if you use it a little each month and pay on time. Canadian card issuers report to the credit bureaus, and a long, clean payment history is one of the biggest factors in your score.",
+            },
+        ],
     },
     {
         slug: 'rewards',
@@ -121,6 +170,34 @@ export const HUBS: HubDefinition[] = [
             'Low interest credit cards charge a lower purchase rate than typical Canadian cards, which can matter if you sometimes carry a balance. Rewards are usually modest compared with cash-back or travel cards. Compare the annual fee against the rate difference, and whether a promotional rate expires. The cards below are the low-interest cards we currently track.',
         navLabel: 'Low Interest',
         teaser: 'Lower purchase rates if you carry a balance',
+        analysis: [
+            {
+                heading: "Who a low interest card is for",
+                body: "A low interest card is for people who sometimes carry a balance, or who want a backup card for a large purchase they'll pay off over a few months. If you pay your statement in full every month, the purchase rate never applies and a rewards card will almost always leave you better off. Be honest about which group you're in, because that decides everything else.",
+            },
+            {
+                heading: "How to choose",
+                body: "Compare the purchase interest rate first, then the annual fee. The cards on this page range from no-fee options such as the Desjardins Flexi Visa and MBNA True Line, at roughly 11% to 13%, to cards with fees of about $20 to $39 and rates from about 9% to 14%. A few are variable: the RBC RateAdvantage Visa lists prime plus 4.99%, and the National Bank Syncro lists prime plus 4%, so their rate moves with the Bank of Canada. Also check the cash advance rate. Some low-rate cards keep it low, while others charge close to 25% on cash advances, which is no different from a regular card.",
+            },
+            {
+                heading: "A worked example",
+                body: "Carrying an average balance of $3,000 for a year at about 21% costs roughly $630 in interest. At about 13%, the same balance costs roughly $390, a saving of about $240. Subtract a $29 annual fee and you're still about $210 ahead. On a $500 balance, the saving is only about $40, so a no-fee low-rate card is the better fit.",
+            },
+            {
+                heading: "Pitfalls to watch",
+                body: "A low rate is still interest. Paying only the minimum on a 13% card can stretch a balance out for years. Promotional balance transfer rates usually come with a transfer fee and expire, after which the regular rate applies. Variable-rate cards go up when the prime rate goes up. Most low interest cards earn little or nothing in rewards, so once the balance is cleared it can make sense to move everyday spending to a rewards card and keep this one for emergencies. Check the issuer's page for the current rate and any balance transfer terms before you apply.",
+            },
+        ],
+        faqs: [
+            {
+                question: "Is a low interest card or a balance transfer offer better?",
+                answer: "A promotional balance transfer can be cheaper for a few months, but you usually pay a transfer fee and the rate jumps when the promotion ends. A low interest card keeps its standard rate year-round, which suits a balance you'll pay down over a longer time.",
+            },
+            {
+                question: "Does a low interest card hurt my credit?",
+                answer: "No. The type of card doesn't matter to your score. What matters is paying on time and how much of your limit you're using.",
+            },
+        ],
     },
     {
         slug: 'us-dollar',
@@ -132,6 +209,34 @@ export const HUBS: HubDefinition[] = [
             'U.S. dollar credit cards issued in Canada bill in USD, which can reduce conversion fees when you spend with U.S. merchants. You typically need a U.S. dollar bank account to pay the statement. Compare annual fees, rewards, and whether the card is worth it for how often you pay in USD. The cards below are the U.S. dollar cards we currently track.',
         navLabel: 'U.S. Dollar',
         teaser: 'USD billing for U.S. spending from Canada',
+        analysis: [
+            {
+                heading: "Who a U.S. dollar card is for",
+                body: "A U.S. dollar card makes sense if you already earn, hold or spend U.S. dollars regularly: snowbirds who winter in Florida or Arizona, people who pay U.S. subscriptions or software bills, online sellers paid in USD, and cross-border shoppers who keep a U.S. dollar account at their Canadian bank. If you only cross the border once or twice a year, a no-foreign-transaction-fee card in Canadian dollars is usually simpler, because you skip the second account and the second bill.",
+            },
+            {
+                heading: "How to choose",
+                body: "Start with where your U.S. dollars come from. The statement has to be paid in USD, normally from a U.S. dollar account. If you fund that account by converting Canadian dollars at your bank, you pay a conversion spread at that point instead of on the card, so the savings shrink.\n\nNext, look at the annual fee against how much you spend. The cards on this page currently list fees of roughly $35 to $65 a year in their own currency, and the BMO U.S. Dollar Mastercard lists a fee rebate in the following year if you spend U.S. $3,000 or more. Rewards are thin across the board. The RBC U.S. Dollar Visa Gold earns Avion points on U.S. spending, the CIBC U.S. Dollar Aventura Gold earns Aventura points, and some of the others earn nothing at all. Pick on fee and convenience first, and treat rewards as a small extra.",
+            },
+            {
+                heading: "A worked example",
+                body: "Say you put U.S. $4,000 a year on a regular Canadian-dollar card. Most of those cards add a conversion markup of around 2.5%, so you'd pay roughly U.S. $100 in fees. On a U.S. dollar card with a $35 to $40 fee, the markup disappears and you come out about $60 ahead, provided your U.S. dollars didn't cost you a conversion to get. At U.S. $1,000 a year, the markup is about $25, and the annual fee wipes out the saving.",
+            },
+            {
+                heading: "Pitfalls to watch",
+                body: "Purchase interest rates on these cards sit in the low 20s, the same as most rewards cards, so carrying a balance erases any foreign-exchange savings fast. Refunds land in USD, which is good, but a payment made from a Canadian-dollar account gets converted at your bank's rate. And spending in euros or pounds on a U.S. dollar card is still a foreign-currency purchase. Check each issuer's page for the current fee and how it handles non-USD purchases.",
+            },
+        ],
+        faqs: [
+            {
+                question: "Do I need a U.S. bank account for a U.S. dollar credit card?",
+                answer: "In practice, yes. The statement is billed in USD, and the cleanest way to pay it is from a U.S. dollar account at the same bank. Paying from a Canadian-dollar account works at some banks, but then you're converting at the bank's rate, which defeats the point.",
+            },
+            {
+                question: "Is a U.S. dollar card better than a no-FX-fee card?",
+                answer: "It's better if you hold U.S. dollars already. If you earn in Canadian dollars and just travel south now and then, a Canadian-dollar card with no foreign transaction fee usually saves about the same with less admin, and it also works for other currencies.",
+            },
+        ],
     },
     {
         slug: 'premium',

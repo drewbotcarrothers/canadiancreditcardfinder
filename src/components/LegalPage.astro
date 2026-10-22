@@ -9,12 +9,14 @@ interface Props {
     breadcrumb: string;
     /** Show the shared legal "Last updated" line (Privacy, Terms). Off for About / Contact. */
     showUpdated?: boolean;
+    /** Turn off Auto ads (used on the policy and contact pages). */
+    noAds?: boolean;
 }
 
-const { title, heading, description, breadcrumb, showUpdated = true } = Astro.props;
+const { title, heading, description, breadcrumb, showUpdated = true, noAds = false } = Astro.props;
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} noAds={noAds}>
     <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <nav class="mb-6" aria-label="Breadcrumb">
             <ol class="flex items-center space-x-2 text-sm">

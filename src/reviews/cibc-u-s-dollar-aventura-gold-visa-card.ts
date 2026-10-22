@@ -24,7 +24,7 @@ const review: CardEditorialReview = {
     ],
     pros: [
         'Aventura on a USD Visa is unique in this USD batch: BMO, TD, and Scotiabank currently list no travel currency on their USD cards.',
-        'The $35-class USD fee currently undercuts RBC’s USD Avion Gold in our tables, with extra cards at $0 for up to three.',
+        'The $35-class USD fee currently undercuts RBC’s USD Avion Gold, with extra cards at $0 for up to three.',
         'The current welcome path is activity-based inside 60 days — email, eStatements, authorized user, eligible chequing, mobile wallet — rather than a four-figure spend gate.',
         'Household income currently matches CAD Aventura Gold’s accessible bar, not Infinite.',
         'You can keep CAD Aventura on Gold or the $0 Visa and park U.S. merchant spend here without leaving CIBC’s catalogue.',

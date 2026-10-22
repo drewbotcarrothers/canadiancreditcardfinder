@@ -42,8 +42,13 @@ let fetchedAt: Date | null = null;
  */
 const EDITOR_NOTE_PATTERN = /^\s*(fill\b|tbd\b|todo\b|xxx\b|placeholder\b)/i;
 
+/** Issuer copy pasted without spaces between sentences ("on your Card.Earn up to") gets a space back. */
+function fixJoinedSentences(text: string): string {
+    return text.replace(/([a-z)])\.([A-Z])/g, '$1. $2');
+}
+
 function publicText(value: string | undefined): string {
-    const text = (value || '').trim();
+    const text = fixJoinedSentences((value || '').trim());
     return EDITOR_NOTE_PATTERN.test(text) ? '' : text;
 }
 

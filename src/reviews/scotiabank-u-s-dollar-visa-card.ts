@@ -22,7 +22,7 @@ const review: CardEditorialReview = {
         'Anyone who treated the welcome-value estimate’s $0.00 as a glitch. That is honest: there is no signup dump.',
     ],
     pros: [
-        'The US$35-class fee currently undercuts BMO’s USD Mastercard and RBC’s USD Gold in our tables, with extra cards at $0.',
+        'The US$35-class fee currently undercuts BMO’s USD Mastercard and RBC’s USD Gold, with extra cards at $0.',
         'Detailed features currently name a real car-rental discount at participating Avis and Budget in Canada and the U.S. when you pay with this Visa — unique among this USD batch.',
         'Eligibility currently prints a modest personal-income bar rather than a Gold household test.',
         'You stay in the Scotiabank app: CAD Scene+ on one card, USD bills on this Visa.',

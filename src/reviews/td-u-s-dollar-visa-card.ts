@@ -23,7 +23,7 @@ const review: CardEditorialReview = {
     ],
     pros: [
         'The current features line is a clean FX pitch: no credit-card conversion rates and fees on U.S. dollar purchases and bills — if you actually pay the statement in USD.',
-        'The annual fee currently sits below RBC’s USD Gold and in the same neighbourhood as Scotiabank’s USD Visa in our tables, with extra cards at $0.',
+        'The annual fee currently sits below RBC’s USD Gold and in the same neighbourhood as Scotiabank’s USD Visa, with extra cards at $0.',
         'No income figure is printed in eligibility — residency and age of majority only — which is simpler than CIBC’s USD Aventura Gold household bar.',
         'Visa acceptance is straightforward at U.S. merchants that skip Mastercard house cards, just not at Costco.',
         'There is no fake rewards table to decode. You are not pretending 0.5% cash back offsets a conversion fee you already avoided.',
