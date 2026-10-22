@@ -13,7 +13,7 @@ const review: CardEditorialReview = {
         'National Bank customers who want a $0 Mastercard that donates a portion of spend to the Quebec Breast Cancer Foundation and who will actually redeem the annual cash-back-style conversion.',
         'People who already bank at National Bank, want Costco acceptance, and do not need ECHO’s 1.5% / 1% table.',
         'Anyone who pays in full. Half a point per dollar will not survive the purchase rate.',
-        'Members who compared World Mastercard’s LoungeKey fee and whose month will not use a lounge.',
+        'Members who compared World Mastercard’s $115 fee and whose month will not use its travel insurance.',
     ],
     whoShouldSkip: [
         'Shoppers who wanted up to 1.5% grocery/gas/online cash back. That is [ECHO](/card/national-bank-echo-cashback-mastercard/), at a $30-class fee.',
