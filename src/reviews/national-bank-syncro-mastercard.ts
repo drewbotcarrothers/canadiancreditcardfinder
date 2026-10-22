@@ -8,7 +8,7 @@ const review: CardEditorialReview = {
     metaDescription:
         'National Bank Syncro Mastercard review for 2026: 8.90% purchase rate, $35 fee, vs Flexi and True Line Gold, no rewards, who should skip it.',
     intro:
-        'The National Bank Syncro Mastercard is National Bank’s actual low-rate card: an 8.90%-class purchase rate, 12.90%-class cash advances, a $35-class annual fee, and no rewards program. Detailed features currently say it is designed for carrying balances. That is the honest product — unlike [MC1](/card/national-bank-mc1-mastercard/), which currently sits in the Low Interest category with a 20.99%-class purchase rate. This National Bank Syncro Mastercard review is the rate-versus-fee comparison with [Desjardins Flexi Visa](/card/desjardins-flexi-visa/) (10.90% at $0) and [MBNA True Line Gold](/card/mbna-true-line-gold-mastercard/) (10.99% at $39), and tells you when ECHO or mycredit is the better National Bank card because you pay in full.',
+        'The National Bank Syncro Mastercard is National Bank’s actual low-rate card: a variable purchase rate of prime + 4% (currently 8.90%, and never below 8.90%), prime + 8% on balance transfers and cash advances (currently 12.90%), a $35-class annual fee, and no rewards program. National Bank calls it its lowest-rate card. That is the honest product — unlike [MC1](/card/national-bank-mc1-mastercard/), which currently sits in the Low Interest category with a 20.99%-class purchase rate. This National Bank Syncro Mastercard review is the rate-versus-fee comparison with [Desjardins Flexi Visa](/card/desjardins-flexi-visa/) (10.90% at $0) and [MBNA True Line Gold](/card/mbna-true-line-gold-mastercard/) (10.99% at $39), and tells you when ECHO or mycredit is the better National Bank card because you pay in full.',
     whoItsFor: [
         'National Bank customers who will carry a purchase balance and whose interest savings versus a 20%-class rewards card will clear $35.',
         'People who want a Mastercard at Costco while they de-lever, without pretending MC1 is a rate card.',
@@ -25,22 +25,22 @@ const review: CardEditorialReview = {
         'The purchase rate is the lowest National Bank consumer rate on this site and undercuts True Line Gold and Flexi on the rate line (Flexi still wins on fee).',
         'The product is categorized and described as a balance card — fewer surprises than MC1’s category mismatch.',
         'Mastercard acceptance includes Costco Canada, unlike Flexi’s Visa.',
-        'There is no fake grocery mix to distract you from paying the card down.',
+        'Purchase protection (90 days), extended warranty (doubles the manufacturer’s, up to one extra year), a $0 second card and no minimum income requirement.',
         'You stay in the National Bank app rather than opening MBNA or Desjardins if this is already the bank.',
     ],
     cons: [
         'A $35-class fee has to be earned on rate savings. Flexi currently lists 10.90% at $0 on a Visa — Syncro can lose if the leftover is small.',
-        'No welcome bonus, extra-card fees, eligibility terms, or insurance are currently listed. Year-one value is $35 versus 8.90%.',
+        'The rate is variable: it moves with National Bank’s prime rate, so 8.90% is today’s figure, not a fixed promise. No welcome bonus is currently offered.',
         'There is no 0% purchase or transfer teaser.',
         'Cash-advance interest is 12.90%-class — better than many cash-advance rates, still not a reason to take cash.',
         'National Bank’s footprint is strongest in Quebec.',
     ],
     feesAndValue:
-        'The fee table shows a $35-class card; extra-card fees are not listed. There is no welcome-bonus value, so the first-year snapshot will look like a fee with no bonus — correct. Year one and year two are $35 versus 8.90%. On a $4,000 leftover versus a 20.99% rewards card, the rate gap dwarfs $35. Versus Flexi’s 10.90% at $0, two points on a $2,000 leftover is about $40 — Syncro and Flexi are close; pick the bank and network you need. If you pay in full, mycredit or ECHO is the better National Bank card. If you needed a 0% transfer, True Line currently lists that shape. Offers change. Pay the balance down. Syncro is not permission to revolve forever.',
+        'The fee is $35 a year; the second authorized card is $0. There is no welcome-bonus value, so the first-year snapshot will look like a fee with no bonus — correct. Year one and year two are $35 versus 8.90%. On a $4,000 leftover versus a 20.99% rewards card, the rate gap dwarfs $35. Versus Flexi’s 10.90% at $0, two points on a $2,000 leftover is about $40 — Syncro and Flexi are close; pick the bank and network you need. If you pay in full, mycredit or ECHO is the better National Bank card. If you needed a 0% transfer, True Line currently lists that shape. Offers change. Pay the balance down. Syncro is not permission to revolve forever.',
     rewardsExplained:
         'This card does not pay À la carte Rewards or cash back. Rewards currently say N/A; features currently describe a low-interest Mastercard with no rewards program. Put a revolving balance here. Put restaurants and PAPs you pay in full on [National Bank mycredit Mastercard](/card/national-bank-mycredit-mastercard/). Put grocery cash back on ECHO. Put 2x grocery/dining on Platinum. Costco will take this Mastercard; warehouse spend still accrues at 8.90% with no earn mix.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If National Bank is running a 0% window on the Syncro application page, use that page. Do not copy True Line’s 12-month transfer teaser onto this card.',
+        'No welcome bonus is currently offered; National Bank’s last Syncro promotion (a first-year fee refund plus $70 cash back) ended March 3, 2026. If National Bank is running a 0% window on the Syncro application page, use that page. Do not copy True Line’s 12-month transfer teaser onto this card.',
     faqs: [
         {
             question: 'Is the National Bank Syncro Mastercard worth it in 2026?',
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian low-rate Mastercards add a conversion fee on foreign-currency purchases. Syncro is a domestic rate card, not a no-FX travel card. Confirm National Bank’s current FX rate in the agreement.',
+                'Yes. National Bank charges a 2.50% fee on foreign-currency purchases converted to Canadian dollars. Syncro is a domestic rate card, not a no-FX travel card.',
         },
     ],
     extraHubSlugs: ['low-interest'],
