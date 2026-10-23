@@ -6,70 +6,70 @@ const review: CardEditorialReview = {
     h1: 'PC Mastercard Review',
     primaryKeyword: 'pc mastercard review',
     metaDescription:
-        'PC Mastercard review for 2026: $0 annual fee, entry PC Optimum earn, vs PC World and World Elite, and who should skip it.',
+        'PC Mastercard review for 2026: $0 annual fee, 1% back in PC Optimum points, 2.5% at Shoppers, 50,000-point welcome offer, vs PC World and World Elite.',
     intro:
-        'The PC Mastercard is the bottom rung of PC Financial’s no-fee Optimum ladder: no annual fee, no printed income bar on this card, and PC Optimum points that land in the same wallet you already swipe at Loblaws, No Frills, and Superstore. It is the approval path for people who cannot (or do not want to) clear [PC World](/card/pc-world-mastercard/) or [PC World Elite](/card/pc-world-elite-mastercard/) income, not the richest partner earn in the family. This PC Mastercard review explains why the published details are thin on exact multipliers, when World Elite is the free upgrade you actually want, and when [BMO CashBack](/card/bmo-cashback-mastercard/) is the simpler grocery product.',
+        'The PC Mastercard is the bottom rung of PC Financial’s no-fee Optimum ladder: no annual fee, no minimum income, free additional cards, and PC Optimum points that land in the same wallet you already scan at Loblaw-family stores and Shoppers Drug Mart. It earns 10 points per dollar (1% back in points) almost everywhere, 25 points per dollar at Shoppers Drug Mart and Pharmaprix, and at least 30 points per litre at Esso and Mobil. This PC Mastercard review explains when that flat 1% is enough, when [PC World](/card/pc-world-mastercard/) or [PC World Elite](/card/pc-world-elite-mastercard/) is the free upgrade you actually want, and when [BMO CashBack](/card/bmo-cashback-mastercard/) is the simpler grocery product.',
     whoItsFor: [
-        'Households that already collect PC Optimum at Loblaws-family banners, PC Express, Esso, or other partners, and want a Mastercard that feeds that wallet without an annual fee.',
-        'Applicants who may not meet World or World Elite income figures and still want the PC Financial cobrand rather than a generic 1% card.',
-        'Shoppers who would rather see Optimum points knock dollars off a Superstore bill than learn Aeroplan or Avion.',
+        'Households that already collect PC Optimum at Loblaw-family grocery stores, Shoppers Drug Mart, Esso or Mobil, and want a Mastercard that feeds that wallet without an annual fee.',
+        'Applicants below PC World’s $50,000 personal / $80,000 household income bar who still want the PC Financial card rather than a generic 1% card.',
+        'Shoppers who would rather see Optimum points knock dollars off a Superstore or Shoppers bill than learn Aeroplan or Avion.',
         'Anyone who pays in full. Optimum is not compensation for carrying 20%+ interest.',
     ],
     whoShouldSkip: [
-        'Shoppers whose grocer is Sobeys, Metro, Costco, or Amazon Fresh. PC Optimum does not print at those tills the way it does in the Loblaws family.',
-        'Applicants who meet World Elite income and shop those banners weekly. [PC World Elite](/card/pc-world-elite-mastercard/) is also $0 and is the richer no-fee rung; [PC World](/card/pc-world-mastercard/) sits in the middle with a mid income bar.',
-        'People who want statement-credit cash back they can send to any bank. Optimum is a grocery currency.',
-        'Anyone applying only for a signup bonus. None is currently listed.',
+        'Shoppers whose grocer is Sobeys, Metro, Costco, or Amazon Fresh. At those tills this card earns the same 1% in points as anywhere else, not a grocery bonus.',
+        'Applicants who meet PC World or World Elite income and shop those banners weekly. [PC World](/card/pc-world-mastercard/) doubles the grocery and Joe Fresh rate to 2% and [PC World Elite](/card/pc-world-elite-mastercard/) pays 3%, both still at $0.',
+        'People who want statement-credit cash back they can send to any bank. Optimum is a store currency, and a statement credit only gets $7 per 10,000 points.',
+        'Frequent travellers. Foreign-currency purchases carry a 2.5% conversion fee and the entry card has no travel insurance.',
     ],
     pros: [
-        'No annual fee on the entry PC Financial Mastercard means you are not financing a grocery club to collect Optimum you already use.',
-        'PC Optimum is already how a lot of Canadian households discount the weekly shop. The card feeds a program you might use even without it.',
-        'The ladder is clear: this card, then PC World, then World Elite. You can step up if income and partner spend justify it.',
+        'No annual fee and free additional cardholders, so the whole household can feed one Optimum account.',
+        'Shoppers Drug Mart and Pharmaprix pay 25 points per dollar on this card (2.5%, including the 15 points every Optimum member earns there).',
+        'At least 30 points per litre at Esso and Mobil is a fixed floor PC Financial tops up if fuel prices fall.',
+        'There is no minimum income, and PC Financial assesses every no-fee PC Mastercard application for the highest of the three cards you qualify for.',
         'Mastercard acceptance includes Costco Canada, even if Optimum is not the Costco currency.',
-        'There is no World Elite income test on this rung, which is the product’s accessibility pitch versus the two cards above it.',
     ],
     cons: [
-        'The feature list only calls this the entry earn rate. Confirm live partner multipliers on PC Financial’s page.',
-        'This card currently lists no welcome bonus, detailed offer, or dollar value. Year-one value is the earn rate.',
-        'Additional-card fees, insurance coverage, and eligibility terms are not currently listed. Confirm authorized users, travel coverage, and any income screen with PC Financial.',
-        'Optimum you never redeem is just a slower 1% card. If you do not shop the partner list, this product has no personality.',
-        'World and World Elite exist on the same $0-fee shelf. Holding the entry card when you qualify for World Elite is leaving partner earn on the table.',
+        'Grocery and Joe Fresh earn only 1% in points on this card, the same as everywhere else. The grocery bonus starts on PC World.',
+        'Points are worth $10 per 10,000 when redeemed in store, but only $7 per 10,000 as a statement credit.',
+        'Insurance is limited to Purchase Assurance and Extended Warranty. No travel medical or rental car coverage.',
+        'Applicants approved at the Basic Rate pay 26.99% on purchases instead of 21.99% (not offered in Quebec).',
+        'Foreign-currency purchases carry a 2.5% conversion fee.',
     ],
     feesAndValue:
-        'The annual fee is $0, so “is the fee worth it?” is the wrong first question. Ask whether Loblaws-family and partner spend is large, and whether you should have applied for PC World or World Elite instead. If you fail those income bars, this is the honest product in the same Optimum wallet. If you pass and barely shop those banners, a $0 cash-back card such as Tangerine will annoy you less. The first-year snapshot on this page will show no welcome-bonus value because no welcome bonus is listed. Offers change. Pay in full.',
+        'The annual fee is $0, so “is the fee worth it?” is the wrong first question. Ask whether you shop Loblaw-family stores and Shoppers Drug Mart enough for Optimum to be real money, and whether you should have qualified for PC World or World Elite instead. Your application is assessed for all three no-fee PC Mastercards, so you do not have to guess. Year one adds the 50,000-point welcome offer (worth $50 in store) for a $100 spend at participating stores within 60 days. From year two, the value is a flat 1% in points plus the Shoppers and Esso boosts. If you barely shop those banners, a $0 cash-back card such as Tangerine will annoy you less. Pay in full.',
     rewardsExplained:
-        'You earn PC Optimum points, not cash back and not transferable airline miles. The current partner versus everywhere-else multipliers are not listed; the listing only says this is the entry PC Financial Mastercard. In practice that means the card is built for spend at PC Optimum partners — Loblaws, Superstore, No Frills, PC Express, and other banners in that program — with a weaker rate on general Mastercard purchases than World or World Elite. Confirm the live rate card before you assume a number you saw on a blog in 2023. Points redeem as Optimum dollars off eligible grocery and partner purchases. If you want 3% or 5% cash back at “grocery” as a merchant category, compare [BMO CashBack](/card/bmo-cashback-mastercard/) or [CashBack World Elite](/card/bmo-cashback-world-elite-mastercard/), which pay cash and do not care which banner you use as long as it codes as grocery.',
+        'You earn PC Optimum points, not cash back and not airline miles. The base rate is 10 points per dollar on everything you charge, which is 1% back in points at PC grocery stores, Joe Fresh, restaurants, transit and everywhere else. Shoppers Drug Mart and Pharmaprix pay 25 points per dollar in total (10 from the card plus the 15 every Optimum member gets), and Esso and Mobil stations pay at least 30 points per litre. Redeem from 10,000 points for $10 off at participating stores, or pay down your card balance at 10,000 points for a $7 statement credit. If you want 3% cash back at any store that codes as grocery, compare [BMO CashBack](/card/bmo-cashback-mastercard/), which pays cash and does not care which banner you use.',
     welcomeBonus:
-        'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file.” If PC Financial is running Optimum points on the application page, use that page. Judge the entry Mastercard on $0 fee, access without a printed World Elite income bar, and partner earn versus the two richer PC Mastercard rungs.',
+        'New PC Financial Mastercard cardholders who apply by December 31, 2026 get 50,000 bonus PC Optimum points (worth $50 in store) after spending $100 or more with the new card within 60 days of approval at participating Loblaw banner grocery stores, The Mobile Shop, Joe Fresh, Shoppers Drug Mart, Pharmaprix, Esso or Mobil stations in Canada. Refunds and merchant credits reduce the qualifying total, the offer is one per new account and cannot be combined with other promotions, and points take 4–6 weeks to arrive.',
     variantNotes: {
         heading: "PC Mastercard vs PC World: what's different about this version",
-        body: "The PC Mastercard is the version you get when you don't meet the income bar for the cards above it. No personal or household income requirement is currently listed for it, while PC World typically asks for $50,000 personal or $80,000 household income, and PC World Elite asks for $80,000 personal or $150,000 household. All three have a $0 annual fee, and this card lists the same 21.99% purchase rate as PC World, so what you give up on this rung is earn rate.\n\nThe earn difference is the part PC Financial doesn't spell out in its short listing. It describes this card as the entry earn and PC World as a higher earn, without publishing the exact partner multipliers in the same place. Check the live rate card on PC Financial's site before you decide the gap matters.\n\nHere's how the income bar plays out. A single applicant earning $42,000 doesn't meet PC World's personal figure, and on their own wouldn't meet the $80,000 household figure either, so this card is the realistic pick. A couple earning $45,000 each has $90,000 in household income, which clears PC World's household bar even though neither one meets the $50,000 personal figure on their own.\n\nPick this card if you're below the World income bar, if you're starting out with a thin credit file, or if you mostly want a $0 Mastercard that feeds your Optimum account. If your income clears the World or World Elite figures and you shop at Loblaws-family stores every week, apply for the higher card instead, since it costs the same $0.",
+        body: "The PC Mastercard is the version you get when you don't meet the income bar for the cards above it. It has no minimum income, while PC World asks for $50,000 personal or $80,000 household income and PC World Elite asks for $80,000 personal or $150,000 household. All three have a $0 annual fee, free additional cards and the same 21.99% standard purchase rate, so what you give up on this rung is earn rate.\n\nThe gap is concrete. At PC grocery stores and Joe Fresh this card earns 1% in points, PC World earns 2% and PC World Elite earns 3%. At Shoppers Drug Mart it is 2.5%, 3.5% and 4.5%. Everything else is 1% on all three. On $400 a month at Loblaw-family grocery stores, stepping up to PC World adds about $48 a year in points.\n\nHere's how the income bar plays out. A single applicant earning $42,000 doesn't meet PC World's personal figure, and on their own wouldn't meet the $80,000 household figure either, so this card is the realistic pick. A couple earning $45,000 each has $90,000 in household income, which clears PC World's household bar even though neither one meets the $50,000 personal figure on their own.\n\nYou don't have to pick the rung yourself: PC Financial assesses each no-fee PC Mastercard application for the PC Mastercard, PC World or PC World Elite. This card is the right result if you're below the World income bar, starting out with a thin credit file, or mostly want a $0 Mastercard that feeds your Optimum account.",
     },
     faqs: [
         {
             question: 'Is the PC Mastercard worth it in 2026?',
             answer:
-                'It is worth it when you already shop PC Optimum partners, want a $0 Mastercard, and cannot or do not want to apply for World or World Elite. It is a weaker choice if you qualify for World Elite or your grocer is outside the Loblaws ecosystem.',
+                'It is worth it when you already shop PC Optimum stores, want a $0 Mastercard with no income requirement, and will use the 50,000-point welcome offer. It is a weaker choice if you qualify for PC World or World Elite, which pay more at the grocery store for the same $0, or if your grocer is outside the Loblaw family.',
         },
         {
             question: 'PC Mastercard vs PC World vs PC World Elite?',
             answer:
-                'All three currently list no annual fee and earn PC Optimum. This entry card is the accessible rung. [PC World](/card/pc-world-mastercard/) currently lists a mid income bar and higher earn than the base card. [World Elite](/card/pc-world-elite-mastercard/) is the top partner earn with World Elite income. Pick the lowest rung that still matches how you shop and what you can pass — but if you already qualify for World Elite, that is usually the one to hold.',
+                'All three have no annual fee and earn PC Optimum. This entry card earns 1% in points at PC grocery stores, [PC World](/card/pc-world-mastercard/) earns 2% and [World Elite](/card/pc-world-elite-mastercard/) earns 3%; Shoppers Drug Mart pays 2.5%, 3.5% and 4.5%. PC World needs $50,000 personal or $80,000 household income and World Elite needs $80,000 or $150,000. If you qualify for World Elite, that is usually the one to hold.',
         },
         {
             question: 'PC Mastercard vs BMO CashBack Mastercard?',
             answer:
-                '[BMO CashBack](/card/bmo-cashback-mastercard/) currently lists 3% grocery cash back at any supermarket that codes as grocery, at $0. The PC Mastercard pays Optimum at PC partners. Choose BMO for banner-agnostic cash; choose PC if the Superstore run is the whole grocery story and you will use the points.',
+                '[BMO CashBack](/card/bmo-cashback-mastercard/) pays 3% cash back at any supermarket that codes as grocery, at $0. The PC Mastercard pays 1% in Optimum points at PC grocery stores. Choose BMO for banner-agnostic cash; choose PC if Shoppers Drug Mart and Esso are big parts of your spending and you will use the points.',
         },
         {
             question: 'Does this card work at Costco?',
             answer:
-                'Costco Canada takes Mastercard, so the plastic can go through. It will not earn PC Optimum the way a Loblaws trip does. For Costco-centred cash back, compare the [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) if you hold a membership.',
+                'Costco Canada takes Mastercard, so the card goes through and earns the base 10 points per dollar. For Costco-centred cash back, compare the [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) if you hold a membership.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian no-fee Mastercards add a foreign-conversion fee on foreign-currency purchases. This is a grocery Optimum card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm PC Financial’s current FX rate in the agreement.',
+                'Yes. PC Financial adds a 2.5% markup to foreign-currency purchases and cash advances. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
     ],
     extraHubSlugs: ['rewards', 'groceries', 'no-annual-fee'],
