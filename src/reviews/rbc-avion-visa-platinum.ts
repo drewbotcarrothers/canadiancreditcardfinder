@@ -6,66 +6,66 @@ const review: CardEditorialReview = {
     h1: 'RBC Avion Visa Platinum Review',
     primaryKeyword: 'rbc avion visa platinum review',
     metaDescription:
-        'RBC Avion Visa Platinum review for 2026: $120 fee, Avion earn vs Infinite, accessible income, welcome bonus, and whether Platinum is worth it.',
+        'RBC Avion Visa Platinum review for 2026: $120 fee, 1 Avion point per $1, up to 70,000 welcome points to Nov 25, no income minimum, and whether Platinum is worth it.',
     intro:
-        'The RBC Avion Visa Platinum is the accessible Avion card: the same RBC travel currency as [Avion Visa Infinite](/card/rbc-avion-visa-infinite/), a mid-fee Platinum annual cost, and eligibility copy that currently stresses no strict Infinite-style income floor. It is the product you open when you want Avion without Visa Infinite income, not a WestJet cobrand and not Infinite Privilege. This RBC Avion Visa Platinum review covers the travel-rate mismatch between the card’s short and detailed features, the two-step welcome, and when [RBC ION+](/card/rbc-ion-plus-visa/) is the cheaper everyday Avion earner.',
+        'The RBC Avion Visa Platinum is the accessible Avion card: the same RBC travel currency as [Avion Visa Infinite](/card/rbc-avion-visa-infinite/), the same $120 annual fee, and no minimum income listed. It earns a flat 1 Avion point per dollar, travel included, and comes with travel accident, trip cancellation and rental car insurance but no travel medical. This RBC Avion Visa Platinum review covers the three-step welcome offer, why Avion Infinite is the better card at the same fee if you clear its income bar, and when [RBC ION+](/card/rbc-ion-plus-visa/) is the cheaper everyday Avion earner.',
     whoItsFor: [
-        'Travellers who want transferable Avion points on a Visa they can actually get approved for, without the personal or household income figures Infinite currently asks for.',
-        'People who will put flights and hotels on this card so any travel bonus rate in the detailed features has somewhere to fire.',
-        'Applicants who do not already hold this Platinum product if they care about the welcome path, and who already bank at RBC.',
-        'Households that pay the statement in full. Avion is not compensation for carrying a balance at the purchase rate.',
+        'Travellers who want transferable Avion points on a Visa without meeting Visa Infinite income figures.',
+        'People with a trip in mind who will use the welcome points on RBC’s fixed-points flight chart.',
+        'New RBC applicants who do not already hold an RBC personal credit card they would be switching from, since switches are excluded from the offer.',
+        'Households that pay the statement in full. Avion is not compensation for carrying a balance at 20.99%.',
     ],
     whoShouldSkip: [
-        'Applicants who already meet Visa Infinite income and want the Infinite welcome and Infinite extras. That is [Avion Visa Infinite](/card/rbc-avion-visa-infinite/).',
+        'Applicants who already meet Visa Infinite income. [Avion Visa Infinite](/card/rbc-avion-visa-infinite/) costs the same $120 and earns 1.25x on travel-related purchases.',
         'High spenders who want 1.25x on every purchase. That is [Avion Visa Infinite Privilege](/card/rbc-avion-visa-infinite-privilege/), at a much higher fee and income bar.',
         'WestJet-only flyers. Avion can book travel, but the [WestJet RBC World Elite Mastercard](/card/westjet-rbc-world-elite-mastercard/) credits the airline you actually use.',
-        'People who mainly want 3x groceries and dining in Avion. [RBC ION+](/card/rbc-ion-plus-visa/) currently lists that everyday mix at a much lower fee.',
+        'People who mainly want 3x groceries and dining in Avion. [RBC ION+](/card/rbc-ion-plus-visa/) pays 3x on groceries, gas, dining and more at a much lower fee.',
     ],
     pros: [
-        'Avion is a bank currency you can hold until a trip appears, rather than a pile of WestJet or Aeroplan that only feels useful on one airline.',
-        'The eligibility terms currently position Platinum as easier to access than Avion Infinite on income, which is the reason this card still exists in the lineup.',
-        'The current welcome path pays a chunk of points on approval, then a second chunk after a first-six-months spend — useful if you have a trip already planned.',
-        'Visa Platinum acceptance is straightforward at Canadian merchants that still skip American Express.',
-        'RBC customers can keep the card, Avion, and a chequing account in one login, then product-change later if income and spend grow into Infinite.',
+        'Avion is a bank currency you can hold until a trip appears, and the points don’t expire while your account is open.',
+        'No minimum income is listed, which is the reason this card still exists alongside Avion Infinite.',
+        'The welcome offer pays 35,000 points on approval, so a large share arrives before you spend anything.',
+        'Travel accident ($500,000), trip cancellation ($1,000 per person) and interruption ($2,500), flight and baggage delay, rental car and hotel burglary coverage are included.',
+        'RBC customers can keep the card, Avion, and a chequing account in one login, then product-change later if income grows into Infinite.',
     ],
     cons: [
-        'The card’s features line currently says 1 Avion point on travel-related purchases and 1 point on everything else, while the detailed feature list says 1.25x on travel. Confirm the live travel rate on RBC’s page; both figures cannot be true.',
-        'Supplementary cards currently carry their own annual fee, so a family of four is not a rounding error.',
-        'Avion redemptions through RBC’s travel portal or as a statement credit can be worth less than transferring to an airline partner — you have to choose the better door.',
-        'No insurance coverage is listed, so do not assume travel medical coverage from the Platinum name. Read RBC’s certificate before you fly on this card alone.',
-        'The welcome-bonus estimate is a travel-value figure. Cheap domestic tickets and first-class seats are not the same dollar-per-point.',
+        'The earn is a flat 1 point per dollar, travel included. At $120 a year that needs good redemptions to beat a no-fee 1% card.',
+        'Additional cards cost $50 each per year.',
+        'No travel medical insurance, so you need separate coverage for trips outside your province.',
+        'Avion redemptions as a statement credit can be worth less than flights from RBC’s chart or a transfer to an airline partner.',
+        'Foreign-currency purchases carry a 2.5% conversion fee.',
     ],
     feesAndValue:
-        'Use the fee table above. The headline annual fee and the detail line currently agree at a $120-class Platinum card, which is cleaner than some RBC premium cards. Set that fee beside the estimated welcome-bonus value. Year one can look attractive if you are a new Platinum applicant who also hits the first-six-months spend, because a large share of the advertised Avion arrives early. Year two is the fee versus 1x (or 1.25x travel, if the detailed feature list is the live rate) — a weaker story unless you value Avion well above a 1% cash-back card. Additional cards are extra. Offers change; eligibility currently says you must not already hold this Platinum card, so do not assume a product-change from ION pays.',
+        'The annual fee is $120, the same as Avion Infinite. Year one can look attractive for a new applicant: 35,000 points on approval, 20,000 more after $5,000 in the first six months, and 15,000 at the first anniversary, which RBC values at up to $1,500 in travel. The anniversary piece means keeping the card into year two and paying the fee again. From year two, the card is $120 against 1 point per dollar, so it only beats a no-fee 1% card if you redeem Avion well above 1 cent, typically on flights from RBC’s fixed-points chart. If you clear Visa Infinite income, Avion Infinite gives you 1.25x on travel and Infinite extras for the same fee. Additional cards are $50 each.',
     rewardsExplained:
-        'This card earns RBC Avion points. The detailed features currently describe 1.25 Avion points per dollar on travel-related purchases and 1 point per dollar on all other purchases — the same travel bump Avion Infinite advertises. The shorter features line on this card currently says 1x on travel and 1x on everything else. Until RBC’s page clears this up, assume Platinum is the accessible Avion earner and verify the travel multiplier. Groceries, gas, and restaurants are not a bonus category here; that everyday mix lives on ION and ION+. Avion can typically be used for flights and hotels through RBC, converted toward other rewards, or moved toward airline programs. Transferring is usually how Avion earns its reputation; cashing out is how it disappoints. If you already know you will fly WestJet this year, compare this against the WestJet RBC World Elite rather than assuming flexibility is free.',
+        'This card earns RBC Avion points: 1 point per dollar on travel-related purchases and 1 point per dollar on all other eligible purchases. Groceries, gas, and restaurants are not a bonus category here; that everyday mix lives on ION and ION+. Avion points can book any flight on 500+ airlines from RBC’s fixed-points Air Travel chart with no blackouts, pay for hotels and car rentals at 100 points = $1, be converted to WestJet, British Airways, American Airlines or Cathay Pacific programs, or pay down your balance. Transferring or using the flight chart is usually how Avion earns its reputation; cashing out is how it disappoints. Linking the card at Petro-Canada saves 3¢ a litre and adds 20% more points.',
     welcomeBonus:
-        'The current offer is two steps, not one: a welcome deposit of Avion points on approval, then a second deposit if you post a listed amount of qualifying spend in the first six months. You need both to match the “up to” point total and the estimated dollar value. Eligibility currently says applicants must not already have the RBC Avion Visa Platinum card. Transfers from another RBC personal card, and extra cardholders on the account, are the usual exclusions on RBC travel cards — confirm the live terms rather than assuming you can product-change from Infinite or ION into this bonus. Do not invent spend to clear the hurdle if that is not already in the budget.',
+        'For new applications received from August 13 to November 25, 2026, the offer is up to 70,000 Avion points in three pieces: 35,000 points on approval, 20,000 bonus points once $5,000 in qualifying net purchases or pre-authorized bill payments post in the first six months, and 15,000 anniversary points 12–16 weeks after your first account anniversary. RBC puts that at up to $1,500 in travel value. Additional cardholders, and existing RBC personal-card customers switching to this card during the offer, are not eligible, and closing or changing the card before the points post can cost you the rest. Do not invent spend to clear the $5,000 hurdle if that is not already in the budget.',
     faqs: [
         {
             question: 'Is the RBC Avion Visa Platinum worth it in 2026?',
             answer:
-                'It is worth it when you want Avion on a Visa without Infinite income, will use the welcome spend, and will actually redeem points for travel. It is not worth it as a grocery earner, an Air Canada cobrand substitute, or a card you plan to revolve.',
+                'It is worth it when you want Avion on a Visa without Infinite income, will use the welcome offer, and will actually redeem points for flights. It is not worth it as a grocery earner, an Air Canada co-brand substitute, or a card you plan to revolve.',
         },
         {
             question: 'Avion Platinum vs Avion Visa Infinite?',
             answer:
-                '[Infinite](/card/rbc-avion-visa-infinite/) currently lists a higher fee, Visa Infinite income, and the same 1.25x travel / 1x else story in its review, with Infinite extras. Platinum is the accessible Avion door. Choose Infinite if you already clear that income bar and want the Infinite welcome. Choose Platinum if Infinite would decline you on income.',
+                'Both cost $120. [Infinite](/card/rbc-avion-visa-infinite/) earns 1.25 points per dollar on travel-related purchases (1x elsewhere) and needs Visa Infinite income. Platinum earns 1x on everything and lists no minimum income. Choose Infinite if you clear its income bar. Choose Platinum if Infinite would decline you on income.',
         },
         {
             question: 'Avion Platinum vs RBC ION+ Visa?',
             answer:
-                '[ION+](/card/rbc-ion-plus-visa/) currently lists 3x Avion on groceries, dining, gas, and similar everyday categories at a much lower fee. Platinum is a travel-card Avion earner with a $120-class fee. Choose ION+ if grocery and restaurants are the spend. Choose Platinum if you want the Avion travel product and will book trips on it.',
+                '[ION+](/card/rbc-ion-plus-visa/) pays 3x Avion on groceries, gas, dining, food delivery, rideshare and streaming at a much lower fee. Platinum is a flat 1x travel card with a $120 fee and travel insurance. Choose ION+ if grocery and restaurants are the spend. Choose Platinum if you want the travel insurance and the welcome offer.',
         },
         {
             question: 'What income do I need for Avion Platinum?',
             answer:
-                'The current eligibility text says Platinum often has no strict minimum income requirement, unlike Avion Infinite, with a good-to-excellent credit score and permanent-resident wording. That is the product positioning. Approval is still a credit decision. Confirm the live RBC application.',
+                'RBC lists no minimum income for the Avion Visa Platinum. Approval is still a credit decision.',
         },
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian Visa Platinum cards add a foreign-conversion fee on foreign-currency purchases. This Avion card is not marketed as a no-FX product. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm RBC’s current FX rate in the cardmember agreement.',
+                'Yes. RBC converts foreign-currency transactions at 2.5% over its benchmark rate. For trip spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), which has no FX markup.',
         },
     ],
     extraHubSlugs: ['travel', 'premium'],

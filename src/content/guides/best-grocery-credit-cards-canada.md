@@ -53,7 +53,7 @@ If grocery spend is modest — a student, a single person who eats out, a househ
 
 [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) at 2% grocery (when you select that category) is the national default. 0.5% on everything else means you should not use it as the dining card if you also hold Cobalt.
 
-[PC Mastercard](/card/pc-mastercard/) / [PC World](/card/pc-world-mastercard/) / [PC World Elite](/card/pc-world-elite-mastercard/) are $0. World Elite is the richest Optimum earn if you meet the income bar. There is often no welcome bonus. Value is the Optimum you already collect.
+[PC Mastercard](/card/pc-mastercard/) / [PC World](/card/pc-world-mastercard/) / [PC World Elite](/card/pc-world-elite-mastercard/) are $0. At PC grocery stores they earn 1%, 2% and 3% back in points; World Elite is the richest Optimum earn if you meet the income bar. New cardholders who apply by December 31, 2026 can get 50,000 bonus points (worth $50) after a $100 spend at participating stores. After that, value is the Optimum you already collect.
 
 [Scene+ Visa](/card/scotiabank-scene-plus-visa-card/) is $0 and 2x at eligible Empire grocers. It is enough if you will not pay for Gold Amex.
 
