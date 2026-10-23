@@ -3,6 +3,8 @@ import { getCards } from '../lib/data';
 import { getGuides, guidePath } from '../lib/guides';
 import { getStackPersonas, stackPath } from '../lib/stacks';
 import { HUBS } from '../lib/hubs';
+import { getIssuerHubSlugs } from '../lib/issuers';
+import { isIndexableIssuer } from '../lib/issuerGuides';
 import { lastModified, latestDate, reviewSourceFile } from '../lib/contentDates';
 
 // Per-page <lastmod> from the git history of each page's own source files. Falls back to the
@@ -40,7 +42,15 @@ export const GET: APIRoute = async ({ site }) => {
         })),
         // Rebuilt from current welcome offers on every build, so its lastmod is the build time.
         { loc: `${baseUrl}/credit-card-offers/`, lastmod: buildTime.toISOString(), changefreq: 'daily', priority: '0.9' },
-        // Issuer hubs and /compare/ are noindex (thin listing / empty-state tool screens), so they stay out of the sitemap.
+        // Bank pages with editorial content are indexable. Other issuer hubs and /compare/ stay noindex and out of the sitemap.
+        ...getIssuerHubSlugs()
+            .filter(isIndexableIssuer)
+            .map((slug) => ({
+                loc: `${baseUrl}/issuer/${slug}/`,
+                lastmod: dateOf('src/lib/issuers.ts', 'src/lib/issuerGuides.ts', 'src/pages/issuer/[issuer].astro'),
+                changefreq: 'weekly',
+                priority: '0.8',
+            })),
         ...guides.map((guide) => ({
             loc: `${baseUrl}${guidePath(guide)}`,
             lastmod: (latestDate(lastModified(`src/content/guides/${guide.id}.md`), guide.data.updatedAt) ?? guide.data.publishedAt ?? buildTime).toISOString(),
