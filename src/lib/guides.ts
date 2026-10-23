@@ -150,6 +150,12 @@ const GUIDE_IMAGE_ALTS: Record<string, string> = {
         'Young adult at a cafe table holding a blank credit card and phone with a backpack on the chair, for the low or no minimum income credit cards guide',
     'credit-limit-increase-canada':
         'Hand holding a smartphone showing a credit limit gauge beside a blank credit card on a wooden table, for the credit limit increase guide',
+    'air-miles-credit-cards-canada':
+        'Hand holding a blank light-blue loyalty card at a store checkout beside a canvas grocery bag and a blank credit card, for the AIR MILES credit cards guide',
+    'secured-credit-cards-canada':
+        'Young man at a kitchen table setting down a blank credit card beside banknotes and a padlock, for the secured credit cards guide',
+    'business-credit-cards-canada':
+        'Small business owner in an apron holding a blank dark credit card beside a laptop in her workshop, for the business credit cards guide',
     'purchase-protection-extended-warranty-canada':
         'New laptop and headphones in open boxes beside a receipt and blank credit card on marble, for the purchase protection and extended warranty guide',
 };

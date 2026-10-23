@@ -1,0 +1,257 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CardGrid from './CardGrid';
+import HubLinks from './HubLinks.astro';
+import Byline from './Byline.astro';
+import { authorJsonLd, publisherJsonLd } from '../lib/author';
+import { lastModified, latestDate } from '../lib/contentDates';
+import { getCards, getDataFetchedAt } from '../lib/data';
+import { toHomepageCard } from '../lib/homepage';
+import { renderMarkdownParagraphs } from '../lib/inlineMarkdown';
+import {
+    cardsOnNetwork,
+    earnSummary,
+    firstYearNet,
+    getNetworkPickGroups,
+    offerDollarValue,
+    welcomeOfferText,
+} from '../lib/networkAndOffers';
+import type { NetworkPageDefinition } from '../lib/networkPages';
+import { formatCurrency } from '../lib/utils';
+
+interface Props {
+    page: NetworkPageDefinition;
+}
+
+const { page } = Astro.props;
+const cards = await getCards();
+const networkCards = cardsOnNetwork(cards, page.network).sort((a, b) =>
+    a.creditCardName.localeCompare(b.creditCardName)
+);
+const groups = getNetworkPickGroups(cards, page.network);
+const issuerCount = new Set(networkCards.map((card) => card.issuer)).size;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+const pageUpdated = latestDate(
+    lastModified('src/lib/networkPages.ts'),
+    lastModified('src/lib/networkAndOffers.ts'),
+    lastModified('src/components/NetworkBestPage.astro')
+);
+const dataFetchedAt = getDataFetchedAt();
+
+// One card per category in the summary table; if a card already leads another category, show the next one.
+const shownInSummary = new Set<string>();
+const topPicks = groups.flatMap((group) => {
+    const card = group.cards.find((candidate) => !shownInSummary.has(candidate.slug));
+    if (!card) return [];
+    shownInSummary.add(card.slug);
+    return [{ group, card }];
+});
+const pickedSlugs = [...new Set(groups.flatMap((group) => group.cards.map((card) => card.slug)))];
+
+function feeLabel(fee: string): string {
+    return fee === '$0' ? '$0' : fee;
+}
+
+function valueLabel(card: (typeof networkCards)[number]): string {
+    const value = offerDollarValue(card);
+    return value > 0 ? `Up to ${formatCurrency(value)}` : '';
+}
+
+const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: page.h1,
+    description: page.description,
+    url: canonical,
+    inLanguage: 'en-CA',
+    author: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
+    ...(pageUpdated ? { dateModified: pageUpdated.toISOString() } : {}),
+    mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: pickedSlugs.length,
+        itemListElement: pickedSlugs.map((slug, index) => {
+            const card = networkCards.find((c) => c.slug === slug)!;
+            return {
+                '@type': 'ListItem',
+                position: index + 1,
+                name: card.creditCardName,
+                url: new URL(`/card/${card.slug}/`, Astro.site).href,
+            };
+        }),
+    },
+};
+---
+
+<BaseLayout title={page.title} description={page.description}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">Home</a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">{page.h1}</li>
+            </ol>
+        </nav>
+
+        <header class="mb-8">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">{page.h1}</h1>
+            <p class="text-lg text-gray-600 max-w-3xl leading-relaxed mb-3">{page.intro}</p>
+            <Byline updated={pageUpdated} dataAsOf={dataFetchedAt} />
+        </header>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="top-picks-heading">
+            <h2 id="top-picks-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                Top {page.network} picks at a glance
+            </h2>
+            <p class="text-gray-600 mb-5 max-w-3xl">
+                {networkCards.length} {page.network} cards from {issuerCount} issuers are reviewed on this site. Here is
+                the top card in each category; the sections below show the runners-up.
+            </p>
+            <div class="overflow-x-auto">
+                <table class="min-w-full text-sm text-left">
+                    <thead>
+                        <tr class="border-b border-gray-200 text-gray-500">
+                            <th scope="col" class="py-2 pr-4 font-semibold">Category</th>
+                            <th scope="col" class="py-2 pr-4 font-semibold">Card</th>
+                            <th scope="col" class="py-2 pr-4 font-semibold">Annual fee</th>
+                            <th scope="col" class="py-2 font-semibold">Welcome offer</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {topPicks.map(({ group, card }) => (
+                            <tr class="border-b border-gray-100 align-top">
+                                <td class="py-3 pr-4 text-gray-700">
+                                    <a href={`#${group.id}`} class="hover:text-red-600">{group.label}</a>
+                                </td>
+                                <td class="py-3 pr-4">
+                                    <a href={`/card/${card.slug}/`} class="font-medium text-red-600 underline underline-offset-2">
+                                        {card.creditCardName}
+                                    </a>
+                                </td>
+                                <td class="py-3 pr-4 text-gray-700 whitespace-nowrap">{feeLabel(card.annualFeeDisplay)}</td>
+                                <td class="py-3 text-gray-700">{welcomeOfferText(card) || 'None listed'}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <div class="mb-8">
+            <HubLinks />
+        </div>
+
+        {groups.map((group) => (
+            <section id={group.id} class="mb-10 scroll-mt-24" aria-labelledby={`${group.id}-heading`}>
+                <h2 id={`${group.id}-heading`} class="text-2xl font-bold text-gray-900 mb-2">{group.heading}</h2>
+                <p class="text-gray-600 mb-1 max-w-3xl">{group.blurb}</p>
+                <p class="text-sm text-gray-500 mb-4 max-w-3xl">Ranked by: {group.rankedBy}</p>
+                <ol class="space-y-4">
+                    {group.cards.map((card, index) => (
+                        <li class="bg-white rounded-xl shadow-sm border border-gray-100 p-5">
+                            <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1 mb-2">
+                                <span class="text-sm font-semibold text-gray-400">#{index + 1}</span>
+                                <a href={`/card/${card.slug}/`} class="text-lg font-semibold text-gray-900 hover:text-red-600">
+                                    {card.creditCardName}
+                                </a>
+                                <span class="text-sm text-gray-500">{card.issuer}</span>
+                            </div>
+                            <dl class="grid grid-cols-1 sm:grid-cols-3 gap-3 text-sm">
+                                <div>
+                                    <dt class="text-gray-500">Annual fee</dt>
+                                    <dd class="font-medium text-gray-900">{feeLabel(card.annualFeeDisplay)}</dd>
+                                </div>
+                                <div>
+                                    <dt class="text-gray-500">{group.id === 'low-interest' ? 'Purchase rate' : 'Welcome offer value'}</dt>
+                                    <dd class="font-medium text-gray-900">
+                                        {group.id === 'low-interest'
+                                            ? card.purchaseInterestRateDisplay || 'See review'
+                                            : valueLabel(card) || 'No dollar value listed'}
+                                    </dd>
+                                </div>
+                                <div>
+                                    <dt class="text-gray-500">First-year value after fee</dt>
+                                    <dd class="font-medium text-gray-900">
+                                        {offerDollarValue(card) > 0 ? formatCurrency(firstYearNet(card)) : '—'}
+                                    </dd>
+                                </div>
+                            </dl>
+                            {earnSummary(card) && (
+                                <p class="text-gray-700 text-sm mt-3"><span class="font-medium">Key features:</span> {earnSummary(card)}</p>
+                            )}
+                            {welcomeOfferText(card) && (
+                                <p class="text-gray-700 text-sm mt-1"><span class="font-medium">Offer:</span> {welcomeOfferText(card)}</p>
+                            )}
+                            <a href={`/card/${card.slug}/`} class="inline-block mt-3 text-sm font-semibold text-red-600 hover:text-red-700">
+                                Read the {card.creditCardName} review →
+                            </a>
+                        </li>
+                    ))}
+                </ol>
+            </section>
+        ))}
+
+        <section class="mt-12 bg-white rounded-2xl shadow-md p-6 lg:p-8 max-w-4xl">
+            {page.analysis.map((part) => (
+                <div class="mb-8 last:mb-0">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-3">{part.heading}</h2>
+                    <div
+                        class="text-gray-700 leading-relaxed space-y-4 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+                        set:html={renderMarkdownParagraphs(part.body)}
+                    />
+                </div>
+            ))}
+        </section>
+
+        <section class="mt-8 bg-white rounded-2xl shadow-md p-6 lg:p-8 max-w-4xl">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">FAQ</h2>
+            <div class="divide-y divide-gray-100">
+                {page.faqs.map((faq) => (
+                    <div class="py-4">
+                        <h3 class="font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                        <div
+                            class="text-gray-700 leading-relaxed [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2"
+                            set:html={renderMarkdownParagraphs(faq.answer)}
+                        />
+                    </div>
+                ))}
+            </div>
+        </section>
+
+        <section class="mt-12" aria-labelledby="all-network-cards-heading">
+            <h2 id="all-network-cards-heading" class="text-2xl font-bold text-gray-900 mb-4">
+                Every {page.network} card on this site
+            </h2>
+            <div class="bg-white rounded-xl shadow-md p-4 mb-6">
+                <p class="text-gray-600">
+                    Showing <span class="font-semibold text-gray-900">{networkCards.length}</span> cards
+                </p>
+            </div>
+            <CardGrid client:visible cards={networkCards.map(toHomepageCard)} />
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">Related pages</h2>
+            <nav class="flex flex-wrap gap-2" aria-label="Related pages">
+                {page.relatedLinks.map((link) => (
+                    <a
+                        href={link.href}
+                        class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                    >
+                        {link.label}
+                    </a>
+                ))}
+            </nav>
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">More ways to browse</h2>
+            <HubLinks showIssuers />
+        </section>
+
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    </div>
+</BaseLayout>

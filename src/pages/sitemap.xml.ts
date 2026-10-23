@@ -32,6 +32,14 @@ export const GET: APIRoute = async ({ site }) => {
             changefreq: 'weekly',
             priority: '0.9',
         })),
+        ...['mastercard', 'visa'].map((slug) => ({
+            loc: `${baseUrl}/best/${slug}/`,
+            lastmod: dateOf('src/lib/networkPages.ts', 'src/lib/networkAndOffers.ts', 'src/components/NetworkBestPage.astro'),
+            changefreq: 'weekly',
+            priority: '0.9',
+        })),
+        // Rebuilt from current welcome offers on every build, so its lastmod is the build time.
+        { loc: `${baseUrl}/credit-card-offers/`, lastmod: buildTime.toISOString(), changefreq: 'daily', priority: '0.9' },
         // Issuer hubs and /compare/ are noindex (thin listing / empty-state tool screens), so they stay out of the sitemap.
         ...guides.map((guide) => ({
             loc: `${baseUrl}${guidePath(guide)}`,
