@@ -1,5 +1,6 @@
 ---
 title: "Credit Card Mobile Device Insurance in Canada: How Phone Coverage Really Works"
+metaTitle: "Credit Card Mobile Device Insurance in Canada, Explained"
 description: "How credit card mobile device insurance works in Canada: coverage limits ($1,000 to $1,500), buying or financing the phone on the card, depreciation and deductibles, claim limits, and how it compares with carrier insurance and AppleCare."
 excerpt: "Many Canadian credit cards now cover your phone if it's lost, stolen or broken, as long as you bought or financed it on the card. Here's how payouts are calculated and what trips people up."
 primaryKeyword: "credit card mobile device insurance canada"

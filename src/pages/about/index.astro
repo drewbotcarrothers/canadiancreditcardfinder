@@ -9,7 +9,7 @@ import { CONTACT_EMAIL, OPERATOR_NAME, SITE_NAME } from '../../lib/legal';
 const [cards, guides] = await Promise.all([getCards(), getGuides()]);
 const issuerCount = new Set(cards.map((card) => card.issuer).filter(Boolean)).size;
 
-const title = `About ${SITE_NAME} | Who Runs the Site and How Cards Are Reviewed`;
+const title = `About ${SITE_NAME}: Who Runs the Site`;
 const description = `${SITE_NAME} is run by ${OPERATOR_NAME}, a Toronto-based personal finance expert, DIY investor and life optimizer. How we compare Canadian credit cards, where card details come from, and how the site makes money.`;
 const personJsonLd = { '@context': 'https://schema.org', ...authorJsonLd(Astro.site) };
 ---

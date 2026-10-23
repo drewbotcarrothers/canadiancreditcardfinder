@@ -1,5 +1,6 @@
 ---
 title: "Credit Card Cash Advances in Canada: Fees, Interest and Hidden Triggers"
+metaTitle: "Credit Card Cash Advances in Canada: Fees and Interest"
 description: "How credit card cash advances work in Canada: why interest starts right away, typical cash advance rates, which transactions count as cash-like, how balance transfers fit in, and cheaper alternatives."
 excerpt: "A cash advance looks like a quick ATM withdrawal, but it starts charging interest the day you take it. Here's what counts as a cash advance and how to avoid paying for one by accident."
 primaryKeyword: "credit card cash advance canada"

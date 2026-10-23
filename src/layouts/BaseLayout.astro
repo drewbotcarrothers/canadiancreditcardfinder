@@ -15,13 +15,17 @@ interface Props {
 }
 
 const {
-    title,
+    title: rawTitle,
     description,
     image = '/og-default.png',
     imageAlt = 'Canadian Credit Card Finder',
     noindex = false,
     noAds = false,
 } = Astro.props;
+// Search results cut titles off around 60 characters, so the brand suffix is dropped when it would push past that.
+const SITE_SUFFIX = ' | Canadian Credit Card Finder';
+const title =
+    rawTitle.endsWith(SITE_SUFFIX) && rawTitle.length > 60 ? rawTitle.slice(0, -SITE_SUFFIX.length) : rawTitle;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(image, Astro.site).href;
 ---

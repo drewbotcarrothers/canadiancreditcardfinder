@@ -1,5 +1,6 @@
 ---
 title: "Balance Transfers Explained: How They Work in Canada and When They Save Money"
+metaTitle: "Balance Transfers Explained: How They Work in Canada"
 description: "How credit card balance transfers work in Canada: promotional rates, transfer fees, how payments are applied, what happens to new purchases, and a step-by-step plan to actually get out of debt."
 excerpt: "A balance transfer moves debt from a high-interest card to one with a lower promotional rate. It can save real money, but only if you understand the fee, the deadline and the payment rules."
 primaryKeyword: "balance transfer credit card canada"

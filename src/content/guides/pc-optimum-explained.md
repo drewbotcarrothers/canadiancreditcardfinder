@@ -1,5 +1,6 @@
 ---
 title: "PC Optimum Explained: How Loblaw's Points Program Works in Canada"
+metaTitle: "PC Optimum Explained: How Loblaw's Points Program Works"
 description: "How PC Optimum works: earning at Loblaw grocery stores, Shoppers Drug Mart and Esso/Mobil, what points are worth (10,000 = $10), how PC Financial Mastercards add points, and the 2-year inactivity rule."
 excerpt: "PC Optimum points look huge but are simple to value: 1,000 points = $1. Here's how to earn them, where PC Financial cards help, and the inactivity rule to watch."
 primaryKeyword: "pc optimum explained"
