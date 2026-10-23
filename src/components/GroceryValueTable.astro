@@ -1,0 +1,79 @@
+---
+import type { CreditCard } from '../lib/types';
+import { formatCurrency } from '../lib/utils';
+import { GROCERY_VALUE_SPEND, rankGroceryValue, type GroceryValueRow } from '../lib/groceryValue';
+
+interface Props {
+    cards: CreditCard[];
+}
+
+const rows = rankGroceryValue(Astro.props.cards, 10);
+
+const dollars = (amount: number) => {
+    const rounded = Math.round(amount);
+    const text = `$${Math.abs(rounded).toLocaleString('en-CA')}`;
+    return rounded < 0 ? `-${text}` : text;
+};
+
+function earnLabel(row: GroceryValueRow): string {
+    const parts = [row.rateLabel];
+    if (row.sobeysFamilyOnly) {
+        parts.push('at Sobeys-family stores');
+    }
+    if (row.capAnnual !== null && row.capAnnual < GROCERY_VALUE_SPEND) {
+        const base = row.rateLabel.endsWith('%') ? `${row.baseRate}%` : `${row.baseRate} pts/$1`;
+        parts.push(`(first ${dollars(row.capAnnual)} a year, then ${base})`);
+    }
+    return parts.join(' ');
+}
+---
+
+{
+    rows.length > 0 && (
+        <section class="mb-8 bg-white rounded-2xl shadow-md p-6 lg:p-8" aria-labelledby="grocery-value-heading">
+            <h2 id="grocery-value-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                Net grocery value: top {rows.length}
+            </h2>
+            <p class="text-sm text-gray-600 mb-4 max-w-3xl">
+                Assumes {dollars(GROCERY_VALUE_SPEND)} a year on groceries at each card's best grocery rate (caps
+                applied), points valued at the published redemption floors in{' '}
+                <a href="/guides/credit-card-points-value-canada/" class="text-red-600 underline underline-offset-2">
+                    how much credit card points are worth</a>, minus the annual fee and with no welcome bonus; cards whose points have no fixed value, such as
+                Aeroplan, are left out.
+            </p>
+            <div class="overflow-x-auto">
+                <table class="min-w-full text-sm text-left">
+                    <thead class="border-b border-gray-200 text-gray-500">
+                        <tr>
+                            <th scope="col" class="py-2 pr-3 font-semibold">#</th>
+                            <th scope="col" class="py-2 pr-3 font-semibold">Card</th>
+                            <th scope="col" class="py-2 pr-3 font-semibold">Grocery earn</th>
+                            <th scope="col" class="py-2 pr-3 font-semibold text-right">Rewards</th>
+                            <th scope="col" class="py-2 pr-3 font-semibold text-right">Annual fee</th>
+                            <th scope="col" class="py-2 font-semibold text-right">Net value</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-gray-100">
+                        {rows.map((row, index) => (
+                            <tr>
+                                <td class="py-2 pr-3 text-gray-500">{index + 1}</td>
+                                <td class="py-2 pr-3">
+                                    <a
+                                        href={`/card/${row.card.slug}/`}
+                                        class="font-medium text-gray-900 hover:text-red-600"
+                                    >
+                                        {row.card.creditCardName}
+                                    </a>
+                                </td>
+                                <td class="py-2 pr-3 text-gray-700">{earnLabel(row)}</td>
+                                <td class="py-2 pr-3 text-right text-gray-700">{dollars(row.grossValue)}</td>
+                                <td class="py-2 pr-3 text-right text-gray-700">{formatCurrency(row.annualFee)}</td>
+                                <td class="py-2 text-right font-semibold text-gray-900">{dollars(row.netValue)}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    )
+}

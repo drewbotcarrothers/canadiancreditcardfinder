@@ -1,6 +1,7 @@
 ---
 import { HUBS } from '../lib/hubs';
 import { ISSUER_HUBS } from '../lib/issuers';
+import { SOCIAL_PROFILES } from '../lib/social';
 
 const currentYear = new Date().getFullYear();
 const linkClass = 'text-gray-600 hover:text-red-600 transition-colors text-sm';
@@ -32,6 +33,21 @@ const linkClass = 'text-gray-600 hover:text-red-600 transition-colors text-sm';
                     Helping Canadians find the best credit cards for their needs.
                     Compare rewards, cashback, travel, and low interest cards.
                 </p>
+                <ul class="mt-4 flex flex-wrap gap-x-4 gap-y-2" aria-label="Follow Canadian Credit Card Finder">
+                    {SOCIAL_PROFILES.map((profile) => (
+                        <li>
+                            <a
+                                href={profile.url}
+                                class={linkClass}
+                                rel="me noopener"
+                                target="_blank"
+                                aria-label={profile.label}
+                            >
+                                {profile.name}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
             </div>
 
             <nav class="min-w-0" aria-labelledby="footer-explore-heading">
