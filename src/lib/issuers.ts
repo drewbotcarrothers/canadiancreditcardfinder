@@ -72,7 +72,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
     {
         slug: 'rbc',
         name: 'RBC',
-        title: 'Best RBC Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best RBC Credit Cards in Canada (2026), Compared',
         h1: 'Best RBC Credit Cards in Canada (2026)',
         description:
             'Compare RBC credit cards in Canada for 2026. See Avion, WestJet, ION, and cash-back annual fees, welcome bonuses, and full reviews.',
@@ -84,7 +84,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
     {
         slug: 'td',
         name: 'TD',
-        title: 'Best TD Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best TD Credit Cards in Canada (2026), Compared',
         h1: 'Best TD Credit Cards in Canada (2026)',
         description:
             'Compare TD credit cards in Canada for 2026. See Aeroplan, travel, cash-back, and U.S. dollar cards with current fees and bonuses.',
@@ -96,7 +96,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
     {
         slug: 'cibc',
         name: 'CIBC',
-        title: 'Best CIBC Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best CIBC Credit Cards in Canada (2026), Compared',
         h1: 'Best CIBC Credit Cards in Canada (2026)',
         description:
             'Compare CIBC credit cards in Canada for 2026. See Aeroplan, Aventura, Dividend, Costco, and student cards with fees and bonuses.',
@@ -108,7 +108,7 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
     {
         slug: 'scotiabank',
         name: 'Scotiabank',
-        title: 'Best Scotiabank Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best Scotiabank Credit Cards in Canada (2026), Compared',
         h1: 'Best Scotiabank Credit Cards in Canada (2026)',
         description:
             'Compare Scotiabank credit cards in Canada for 2026. See Scene+, Passport, Momentum, and Scotiabank American Express fees and bonuses.',
@@ -120,10 +120,10 @@ export const ISSUER_HUBS: IssuerHubDefinition[] = [
     {
         slug: 'bmo',
         name: 'BMO',
-        title: 'Best BMO Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best BMO Credit Cards in Canada (2026), Compared',
         h1: 'Best BMO Credit Cards in Canada (2026)',
         description:
-            'Compare BMO credit cards in Canada for 2026. See Eclipse, CashBack, Blue Rewards, and VIPorter annual fees, bonuses, and reviews.',
+            'Compare BMO credit cards in Canada for 2026: CashBack, Eclipse, Ascend, Blue Rewards (formerly AIR MILES) and VIPorter, with fees, rates and reviews.',
         intro:
             'BMO cards include Eclipse rewards, CashBack, Blue Rewards, VIPorter, and a student CashBack option. Eclipse points can cover travel and everyday redemptions, while CashBack is a simpler statement-credit path. Compare annual fees, welcome bonuses, and grocery or transit earn. The cards below are the BMO cards we currently track.',
         navLabel: 'BMO',

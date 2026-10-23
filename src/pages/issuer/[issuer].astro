@@ -3,9 +3,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
 import RelatedGuide from '../../components/RelatedGuide.astro';
-import { getCardsForIssuerHub } from '../../lib/data';
+import Byline from '../../components/Byline.astro';
+import { authorJsonLd, publisherJsonLd } from '../../lib/author';
+import { lastModified, latestDate } from '../../lib/contentDates';
+import { getCardsForIssuerHub, getDataFetchedAt } from '../../lib/data';
 import { getRelatedGuidesForIssuer } from '../../lib/guides';
 import { getIssuerHubBySlug, getIssuerHubSlugs, isIssuerHubSlug } from '../../lib/issuers';
+import { getIssuerGuide } from '../../lib/issuerGuides';
+import { renderInlineMarkdown } from '../../lib/inlineMarkdown';
+import { isUsDollarCard } from '../../lib/hubs';
+import type { CreditCard } from '../../lib/types';
 
 export async function getStaticPaths() {
     return getIssuerHubSlugs().map((issuer) => ({
@@ -24,12 +31,116 @@ const hubCards = await getCardsForIssuerHub(issuer);
 const relatedGuides = await getRelatedGuidesForIssuer(issuer);
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 
-const jsonLd = {
+// Issuers with editorial content (src/lib/issuerGuides.ts) are indexable bank pages; the rest stay noindex listings.
+const guide = getIssuerGuide(issuer);
+const indexable = guide !== null && hubCards.length > 0;
+const bySlug = new Map(hubCards.map((card) => [card.slug, card]));
+
+const picks = (guide?.picks ?? [])
+    .map((pick) => ({
+        need: pick.need,
+        cards: pick.cards.flatMap((entry) => {
+            const card = bySlug.get(entry.slug);
+            return card ? [{ card, note: entry.note }] : [];
+        }),
+    }))
+    .filter((pick) => pick.cards.length > 0);
+
+const CATEGORY_ORDER = ['Cash Back', 'Rewards', 'Travel', 'Low Interest', 'US', 'Student'];
+const categoryRank = (category: string) => {
+    const index = CATEGORY_ORDER.indexOf(category);
+    return index === -1 ? CATEGORY_ORDER.length : index;
+};
+const tableCards = [...hubCards].sort(
+    (a, b) => categoryRank(a.category) - categoryRank(b.category) || a.annualFee - b.annualFee || a.creditCardName.localeCompare(b.creditCardName)
+);
+const categoryLabel = (card: CreditCard) => (card.category === 'US' ? 'U.S. dollar' : card.category || 'Other');
+const rewardsLabel = (card: CreditCard) => (!card.rewardsProgram || /^n\/?a$/i.test(card.rewardsProgram) ? 'None' : card.rewardsProgram);
+const offerLabel = (card: CreditCard) => {
+    const value = card.welcomeBonusValue || '';
+    return !value || /^(n\/?a|none|no )/i.test(value) ? '—' : value;
+};
+
+// Lineup summary built from the current card list.
+const categoryCounts = new Map<string, number>();
+for (const card of hubCards) {
+    const label = card.category === 'US' ? 'U.S. dollar' : categoryLabel(card).toLowerCase();
+    categoryCounts.set(label, (categoryCounts.get(label) ?? 0) + 1);
+}
+const countPhrase = [...categoryCounts.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([label, count]) => `${count} ${label}`)
+    .join(', ');
+const noFeeCards = hubCards.filter((card) => card.annualFee === 0);
+const cadFees = hubCards.filter((card) => !isUsDollarCard(card) && card.annualFee > 0).map((card) => card.annualFee);
+const feeRange =
+    cadFees.length > 0
+        ? `$${Math.min(...cadFees).toLocaleString('en-CA')} to $${Math.max(...cadFees).toLocaleString('en-CA')}`
+        : null;
+const lineupSummary = `${hub.name} has ${hubCards.length} credit cards on this page (${countPhrase}). ${
+    noFeeCards.length > 0 ? `${noFeeCards.length} of them ${noFeeCards.length === 1 ? 'has' : 'have'} no annual fee` : 'None of them is fee-free'
+}${feeRange ? `, and annual fees on the rest run from ${feeRange}${cadFees.length < hubCards.length - noFeeCards.length ? ' (U.S. dollar cards aside)' : ''}` : ''}.`;
+
+// FAQ: questions answered from the current card list, then bank-specific ones.
+const link = (card: CreditCard) => `[${card.creditCardName}](/card/${card.slug}/)`;
+const listNames = (cards: CreditCard[]) => {
+    const names = cards.map(link);
+    return names.length <= 1 ? names.join('') : `${names.slice(0, -1).join(', ')} and ${names[names.length - 1]}`;
+};
+const faqs: { question: string; answer: string }[] = [];
+if (indexable && guide) {
+    faqs.push({
+        question: `Which ${hub.name} credit cards have no annual fee?`,
+        answer:
+            noFeeCards.length > 0
+                ? `${noFeeCards.length === 1 ? 'The' : 'These'} ${hub.name} ${noFeeCards.length === 1 ? 'card currently lists' : 'cards currently list'} a $0 annual fee: ${listNames(noFeeCards)}.`
+                : `None of the ${hub.name} cards on this page currently lists a $0 annual fee.`,
+    });
+    const printedRates = hubCards.filter((card) => Number.isFinite(card.purchaseInterestRate) && card.purchaseInterestRate > 0);
+    const variableRates = hubCards.filter((card) => /prime/i.test(card.purchaseInterestRateDisplay));
+    if (printedRates.length > 0) {
+        const lowest = printedRates.reduce((min, card) => (card.purchaseInterestRate < min.purchaseInterestRate ? card : min));
+        faqs.push({
+            question: `Which ${hub.name} credit card has the lowest interest rate?`,
+            answer: `Among ${hub.name}’s cards with a fixed purchase rate, the ${link(lowest)} lists the lowest, at ${lowest.purchaseInterestRateDisplay}.${
+                variableRates.length > 0
+                    ? ` ${listNames(variableRates)} ${variableRates.length === 1 ? 'has' : 'have'} a variable rate (${variableRates[0].purchaseInterestRateDisplay}), which moves with the prime rate.`
+                    : ''
+            } Your assigned rate can differ, so confirm it on the application.`,
+        });
+    }
+    const usdCards = hubCards.filter(isUsDollarCard);
+    faqs.push({
+        question: `Does ${hub.name} have a U.S. dollar credit card?`,
+        answer:
+            usdCards.length > 0
+                ? `Yes. ${usdCards.map((card) => `The ${link(card)} has a ${card.annualFeeDisplay} annual fee`).join('. ')}. A U.S. dollar card bills in USD, so it suits people who already hold U.S. dollars. Compare it with other banks’ on the [U.S. dollar card list](/best/us-dollar/).`
+                : `Not among the cards on this page. See the [U.S. dollar card list](/best/us-dollar/) for other banks’ options.`,
+    });
+    for (const build of guide.faqs) {
+        const faq = build(hubCards);
+        if (faq) faqs.push(faq);
+    }
+}
+
+const issuerUpdated = latestDate(lastModified('src/lib/issuerGuides.ts'), lastModified('src/lib/issuers.ts'));
+const dataFetchedAt = getDataFetchedAt();
+const stripLinks = (text: string) => text.replace(/\[([^\]]+)\]\((\/[^)]+)\)/g, '$1');
+
+const collectionJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
     name: hub.h1,
     description: hub.description,
     url: canonical,
+    ...(indexable
+        ? {
+              inLanguage: 'en-CA',
+              author: authorJsonLd(Astro.site),
+              publisher: publisherJsonLd(Astro.site),
+              ...(issuerUpdated ? { dateModified: issuerUpdated.toISOString() } : {}),
+          }
+        : {}),
     mainEntity: {
         '@type': 'ItemList',
         numberOfItems: hubCards.length,
@@ -41,9 +152,22 @@ const jsonLd = {
         })),
     },
 };
+const faqJsonLd =
+    faqs.length > 0
+        ? {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: faqs.map((faq) => ({
+                  '@type': 'Question',
+                  name: faq.question,
+                  acceptedAnswer: { '@type': 'Answer', text: stripLinks(faq.answer) },
+              })),
+          }
+        : null;
+const jsonLd = [collectionJsonLd, faqJsonLd].filter(Boolean);
 ---
 
-<BaseLayout title={hub.title} description={hub.description} noindex noAds>
+<BaseLayout title={hub.title} description={hub.description} noindex={!indexable} noAds>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <nav class="mb-6" aria-label="Breadcrumb">
             <ol class="flex items-center space-x-2 text-sm">
@@ -64,7 +188,93 @@ const jsonLd = {
             <p class="text-lg text-gray-600 max-w-3xl leading-relaxed">
                 {hub.intro}
             </p>
+            {
+                indexable && guide && (
+                    <div class="mt-4 max-w-3xl space-y-3 text-gray-700 leading-relaxed">
+                        <p>{lineupSummary}</p>
+                        {guide.lineup.map((paragraph) => (
+                            <p set:html={renderInlineMarkdown(paragraph)} />
+                        ))}
+                    </div>
+                )
+            }
+            {indexable && <Byline updated={issuerUpdated} dataAsOf={dataFetchedAt} class="mt-4" />}
         </header>
+
+        {
+            indexable && picks.length > 0 && (
+                <section class="mb-8 bg-white rounded-2xl shadow-md p-6 lg:p-8" aria-labelledby="issuer-picks-heading">
+                    <h2 id="issuer-picks-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                        Which {hub.name} card should you pick?
+                    </h2>
+                    <p class="text-gray-600 mb-6 max-w-3xl">
+                        Start with what you want the card to do. Each card links to its full review with fees,
+                        earn rates and eligibility.
+                    </p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                        {picks.map((pick) => (
+                            <div>
+                                <h3 class="font-semibold text-gray-900 mb-2">{pick.need}</h3>
+                                <ul class="space-y-1.5 text-gray-700">
+                                    {pick.cards.map(({ card, note }) => (
+                                        <li>
+                                            <a href={`/card/${card.slug}/`} class="text-red-600 hover:text-red-700 font-medium underline underline-offset-2">
+                                                {card.creditCardName}
+                                            </a>
+                                            <span class="text-gray-600"> ({card.annualFeeDisplay} annual fee): {note}</span>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            )
+        }
+
+        {
+            indexable && (
+                <section class="mb-8 bg-white rounded-2xl shadow-md p-6 lg:p-8" aria-labelledby="issuer-table-heading">
+                    <h2 id="issuer-table-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                        {hub.name} credit cards compared
+                    </h2>
+                    <p class="text-gray-600 mb-4 max-w-3xl">
+                        Every {hub.name} card on this site, grouped by type. Fees and rates change, so confirm them
+                        with {hub.name} before you apply.
+                    </p>
+                    <div class="overflow-x-auto">
+                        <table class="min-w-full text-sm text-left">
+                            <thead>
+                                <tr class="border-b border-gray-200 text-gray-500">
+                                    <th scope="col" class="py-2 pr-4 font-semibold">Card</th>
+                                    <th scope="col" class="py-2 pr-4 font-semibold">Type</th>
+                                    <th scope="col" class="py-2 pr-4 font-semibold">Annual fee</th>
+                                    <th scope="col" class="py-2 pr-4 font-semibold">Purchase rate</th>
+                                    <th scope="col" class="py-2 pr-4 font-semibold">Earns</th>
+                                    <th scope="col" class="py-2 font-semibold">Welcome offer</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-100 text-gray-700">
+                                {tableCards.map((card) => (
+                                    <tr>
+                                        <th scope="row" class="py-2 pr-4 font-medium">
+                                            <a href={`/card/${card.slug}/`} class="text-red-600 hover:text-red-700 underline underline-offset-2">
+                                                {card.creditCardName}
+                                            </a>
+                                        </th>
+                                        <td class="py-2 pr-4 whitespace-nowrap">{categoryLabel(card)}</td>
+                                        <td class="py-2 pr-4 whitespace-nowrap">{card.annualFeeDisplay}</td>
+                                        <td class="py-2 pr-4 whitespace-nowrap">{card.purchaseInterestRateDisplay || 'Not listed'}</td>
+                                        <td class="py-2 pr-4">{rewardsLabel(card)}</td>
+                                        <td class="py-2">{offerLabel(card)}</td>
+                                    </tr>
+                                ))}
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            )
+        }
 
         <RelatedGuide guides={relatedGuides} />
 
@@ -79,6 +289,24 @@ const jsonLd = {
         </div>
 
         <CardGrid client:load cards={hubCards} />
+
+        {
+            faqs.length > 0 && (
+                <section class="mt-12 bg-white rounded-2xl shadow-md p-6 lg:p-8 max-w-4xl" aria-labelledby="issuer-faq-heading">
+                    <h2 id="issuer-faq-heading" class="text-2xl font-bold text-gray-900 mb-4">
+                        {hub.name} credit card FAQ
+                    </h2>
+                    <div class="divide-y divide-gray-100">
+                        {faqs.map((faq) => (
+                            <div class="py-4">
+                                <h3 class="font-semibold text-gray-900 mb-2">{faq.question}</h3>
+                                <p class="text-gray-700 leading-relaxed" set:html={renderInlineMarkdown(faq.answer)} />
+                            </div>
+                        ))}
+                    </div>
+                </section>
+            )
+        }
 
         <section class="mt-12 bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 lg:p-12 text-center text-white">
             <h2 class="text-2xl lg:text-3xl font-bold mb-4">
