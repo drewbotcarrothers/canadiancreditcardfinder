@@ -248,10 +248,10 @@ export const HUBS: HubDefinition[] = [
     },
     {
         slug: 'premium',
-        title: 'Best Premium Visa & Mastercard Credit Cards in Canada (2026)',
+        title: 'Best Premium Credit Cards in Canada (2026): Perks & Fees',
         h1: 'Best Premium Credit Cards in Canada (2026)',
         description:
-            'Compare the best premium credit cards in Canada for 2026: Visa Infinite and Infinite Privilege, World Elite Mastercard, and Amex cards with fees and perks.',
+            'Compare the best premium credit cards in Canada for 2026: lounge access, travel insurance, annual credits and higher earn rates, weighed against the annual fee.',
         intro:
             'Premium credit cards in Canada usually charge a higher annual fee in exchange for stronger earn rates, travel insurance, lounge access, or a larger welcome bonus. Typical names include Visa Infinite Privilege, World Elite, Reserve, and The Platinum Card. Weigh the fee against benefits you will actually use — a $150 card can be a better fit than a $599 card if you will not use the extras. The cards below currently list an annual fee of at least $120, excluding student products and basic cash-back cards that only meet the fee cut.',
         navLabel: 'Premium',
