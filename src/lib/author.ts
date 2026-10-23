@@ -1,3 +1,5 @@
+import { SOCIAL_SAME_AS } from './social';
+
 /**
  * The site's single author. Public name only: never add a surname.
  * The bio below is Andrew's approved wording; keep it verbatim.
@@ -31,6 +33,7 @@ export function publisherJsonLd(site: URL | string | undefined) {
         '@id': `${new URL('/', base).href}#organization`,
         name: 'Canadian Credit Card Finder',
         url: new URL('/', base).href,
+        sameAs: SOCIAL_SAME_AS,
         logo: {
             '@type': 'ImageObject',
             url: new URL('/images/logo-512.png', base).href,

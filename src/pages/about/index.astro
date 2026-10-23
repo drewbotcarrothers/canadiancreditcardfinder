@@ -4,6 +4,7 @@ import { getCards } from '../../lib/data';
 import { getGuides } from '../../lib/guides';
 import { HUBS } from '../../lib/hubs';
 import { AUTHOR_BIO, authorJsonLd } from '../../lib/author';
+import { SOCIAL_PROFILES } from '../../lib/social';
 import { CONTACT_EMAIL, OPERATOR_NAME, SITE_NAME } from '../../lib/legal';
 
 const [cards, guides] = await Promise.all([getCards(), getGuides()]);
@@ -66,6 +67,13 @@ const personJsonLd = { '@context': 'https://schema.org', ...authorJsonLd(Astro.s
     <p>
         Spotted an out-of-date fee, rate, or offer? Please tell us. Email {OPERATOR_NAME} at{' '}
         <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> or visit the <a href="/contact/">contact page</a>.
+    </p>
+
+    <h2 id="follow">Follow the site</h2>
+    <p>
+        Credit card explainer videos are on{' '}
+        <a href={SOCIAL_PROFILES[0].url} rel="me noopener">YouTube</a>, and {SITE_NAME} is also on{' '}
+        <a href={SOCIAL_PROFILES[1].url} rel="me noopener">Instagram</a>.
     </p>
     <script type="application/ld+json" set:html={JSON.stringify(personJsonLd)} />
 </LegalPage>

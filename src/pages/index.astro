@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import HomeContent from '../components/HomeContent';
+import { SOCIAL_SAME_AS } from '../lib/social';
 import {
     getCards,
     getUniqueCategories,
@@ -36,6 +37,7 @@ const siteJsonLd = [
             availableLanguage: 'en',
         },
         publishingPrinciples: new URL('/editorial-policy/', Astro.site).href,
+        sameAs: SOCIAL_SAME_AS,
         logo: {
             '@type': 'ImageObject',
             url: new URL('/images/logo-512.png', Astro.site).href,

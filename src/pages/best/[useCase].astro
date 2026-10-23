@@ -4,6 +4,7 @@ import CardGrid from '../../components/CardGrid';
 import HubLinks from '../../components/HubLinks.astro';
 import RelatedGuide from '../../components/RelatedGuide.astro';
 import Byline from '../../components/Byline.astro';
+import GroceryValueTable from '../../components/GroceryValueTable.astro';
 import { authorJsonLd, publisherJsonLd } from '../../lib/author';
 import { lastModified } from '../../lib/contentDates';
 import { getCardsForHub, getDataFetchedAt } from '../../lib/data';
@@ -84,6 +85,8 @@ const jsonLd = {
         <div class="mb-8">
             <HubLinks currentSlug={hub.slug} />
         </div>
+
+        {hub.slug === 'groceries' && <GroceryValueTable cards={hubCards} />}
 
         <div class="bg-white rounded-xl shadow-md p-4 mb-6">
             <p class="text-gray-600">
