@@ -1,8 +1,10 @@
 ---
-title: "Best Cash Back Credit Cards for Everyday Spending"
-description: "Best cash back credit cards in Canada for 2026: category vs flat rates, no-fee vs Infinite, and when points cards still beat statement credits."
+title: "How to Choose a Cash Back Credit Card: Category vs Flat Rate"
+metaTitle: "How to Choose a Cash Back Credit Card in Canada (2026)"
+listHub: { href: "/best/cash-back/", label: "best cash back cards" }
+description: "How to choose a cash back credit card in Canada: category vs flat rates, caps and merchant codes, the year-two fee test, and when points beat cash."
 excerpt: "Pay in full, then pick category cash back if two bills dominate, or a flat rate if spend is scattered. Points only win if you will redeem them like cash."
-primaryKeyword: "best cash back credit card canada"
+primaryKeyword: "how to choose a cash back credit card"
 publishedAt: 2026-09-20
 sortOrder: 4
 hubLinks:

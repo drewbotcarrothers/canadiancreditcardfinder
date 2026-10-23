@@ -1,5 +1,6 @@
 ---
 title: "Cash Back vs Points Credit Cards in Canada: Which Pays You More?"
+metaTitle: "Cash Back vs Points Credit Cards in Canada: Which Pays More?"
 description: "Cash back or points? How to compare Canadian credit card rewards in real dollars: what Scene+, Aeroplan, BMO Rewards and Membership Rewards points are worth, worked examples, and who should pick each."
 excerpt: "A 5x points card isn't automatically better than a 2% cash back card. Convert both to dollars and the answer usually becomes obvious. Here's how."
 primaryKeyword: "cash back vs points credit card canada"

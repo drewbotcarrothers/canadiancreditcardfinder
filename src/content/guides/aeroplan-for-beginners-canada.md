@@ -1,5 +1,6 @@
 ---
 title: "Aeroplan for Beginners: How to Earn, Book and Not Waste Your Points"
+metaTitle: "Aeroplan for Beginners: How to Earn and Book (2026)"
 description: "A plain-English Aeroplan guide for Canadians: how points are earned, how dynamic pricing and the Flight Reward Chart work, partner fees, Family Sharing, expiry and credit card perks."
 excerpt: "Aeroplan is Air Canada's loyalty program and the most common travel currency in Canadian wallets. Here is how it works, from your first point to your first reward flight."
 primaryKeyword: "aeroplan for beginners"

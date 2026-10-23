@@ -1,5 +1,5 @@
 {
-  "_doc": "Manual video -> card mapping for scripts/sync_card_videos.py. Only long-form videos listed under 'videos' are embedded. Single-card review -> that card; head-to-head -> both cards; roundup/persona -> only the clear main picks (max ~4). Unknown/unsure videos go under 'skip' with a reason. Optional per-video keys: 'description' (short blurb override), 'title' (display-title override). Card slugs are validated against the live card sheet.",
+  "_doc": "Manual video -> card mapping for scripts/sync_card_videos.py. Only long-form videos listed under 'videos' are embedded. Single-card review -> that card; head-to-head -> both cards; roundup/persona -> only the clear main picks (max ~4). Unknown/unsure videos go under 'skip' with a reason. Optional per-video keys: 'description' (short blurb override), 'title' (display-title override). Card slugs are validated against the live card sheet. Merge-safe: the sync never drops a video that is already embedded; to take one off the site, list it under 'remove' as {\"<videoId>\": \"reason\"}.",
   "videos": {
     "iDF-WmTz7pM": {
       "cards": [
@@ -593,10 +593,36 @@
       ],
       "kind": "guide",
       "description": "Cash back or points in Canada? A simple break-even test using Tangerine Money-Back, SimplyCash Preferred and RBC Avion to show when points beat straight cash back."
+    },
+    "UbXBACps7dA": {
+      "cards": [
+        "the-platinum-card",
+        "american-express-aeroplan-reserve-card",
+        "scotiabank-passport-visa-infinite-privilege-card",
+        "bmo-eclipse-visa-infinite-privilege-card"
+      ],
+      "kind": "best-of",
+      "description": "Best premium credit cards in Canada for 2026: The Platinum Card, Aeroplan Reserve, Scotiabank Passport Visa Infinite Privilege and BMO Eclipse Visa Infinite Privilege compared on annual fees, yearly credits, lounge access and who each card fits."
+    },
+    "CDjGxVa5bIw": {
+      "cards": [
+        "bmo-blue-rewards-mastercard"
+      ],
+      "kind": "review",
+      "note": "Review of the no-fee BMO AIR MILES Mastercard, which BMO renamed BMO Blue Rewards Mastercard when AIR MILES became Blue Rewards (June 2, 2026). No AIR MILES card on the site; the World Elite version is a different card and is not named in the title.",
+      "description": "Video review of the BMO AIR MILES Mastercard, recorded before BMO renamed it the BMO Blue Rewards Mastercard in June 2026. Earn rates and the welcome offer have changed since, so check the current card details on this page."
+    },
+    "YDWu5skx5Qo": {
+      "cards": [
+        "bmo-preferred-rate-mastercard"
+      ],
+      "kind": "review",
+      "description": "Video review of the BMO Preferred Rate Mastercard: interest rates, annual fee, balance transfer offer and who the card suits."
     }
   },
   "skip": {
     "Rgr0pBhMOUc": "BMO AIR MILES World Elite review: the site card is now BMO Blue Rewards World Elite (different program and earn), so the video would mislead on that page.",
     "9WuX27CdJ34": "BMO AIR MILES Mastercard for Students: no matching card on the site (AIR MILES rebranded to Blue Rewards; no student Blue Rewards card in the sheet)."
-  }
+  },
+  "remove": {}
 }

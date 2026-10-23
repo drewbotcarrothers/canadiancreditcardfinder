@@ -1,5 +1,6 @@
 ---
 title: "Purchase Protection and Extended Warranty on Credit Cards in Canada"
+metaTitle: "Purchase Protection & Extended Warranty on Credit Cards"
 description: "How credit card purchase protection and extended warranty insurance work in Canada: the usual 90-day window, how warranties are extended, limits, exclusions, how to claim, and no-fee cards that include them."
 excerpt: "Many Canadian credit cards, including no-fee cards, quietly insure what you buy against theft and damage and add time to the manufacturer's warranty. Here's how it works and how to claim."
 primaryKeyword: "credit card purchase protection canada"

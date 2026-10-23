@@ -1,5 +1,6 @@
 ---
 title: "How Credit Scores Work in Canada: Equifax, TransUnion and What Moves Your Score"
+metaTitle: "How Credit Scores Work in Canada: Equifax & TransUnion"
 description: "A clear explanation of Canadian credit reports and scores: the 300 to 900 range, what Equifax and TransUnion track, the factors that matter, how long information stays, and how to check for free."
 excerpt: "Your credit score is a three-digit summary of your credit report. Here is what goes into it in Canada, how credit cards affect it, and how to check both bureaus without paying."
 primaryKeyword: "how credit scores work canada"

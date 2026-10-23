@@ -65,7 +65,7 @@ Income tests matter. Visa Infinite, Infinite Privilege, World Elite, and Amex Pl
 Most Canadian rewards Visas and Mastercards still add a foreign-transaction fee, commonly about 2.5% on the converted amount. On $4,000 of USD and euro spend, that is about $100 CAD before you count the mid-market versus the network rate.
 
 - If that $4,000 is real every year, a no-FX card such as Passport can beat a $0 card that charges FX.
-- If you spend in USD *and* already keep a U.S. dollar bank account, a [USD-billed card](/guides/best-us-dollar-credit-cards-canada/) can remove conversion on USD merchants. It does nothing for euros.
+- If you spend in USD *and* already keep a U.S. dollar bank account, a [USD-billed card](/guides/best-us-dollar-credit-cards-canada/) can remove conversion on USD merchants. It does nothing for euros. The [U.S. dollar card list](/best/us-dollar/) shows current fees.
 - Canadian Amex personal cards are not no-FX cards: American Express Canada adds a currency conversion commission (commonly 2.5%) set out in each card’s information box. Acceptance abroad is a second trade-off.
 
 Do not double-count. A no-FX Visa *and* a USD card is only useful if you have both USD bills and multi-currency trips.

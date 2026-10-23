@@ -1,5 +1,6 @@
 ---
 title: "Where Is Amex Accepted in Canada? Acceptance Gaps and How to Work Around Them"
+metaTitle: "Where Is Amex Accepted in Canada? Gaps and Workarounds"
 description: "Why some Canadian merchants don't take American Express, where gaps are most common (including Costco), how to check acceptance, and how to build a wallet that never gets stuck."
 excerpt: "American Express is widely accepted in Canada, but not everywhere. Here is why gaps exist, how to check before you pay, and the simple backup-card setup that solves it."
 primaryKeyword: "amex acceptance canada"

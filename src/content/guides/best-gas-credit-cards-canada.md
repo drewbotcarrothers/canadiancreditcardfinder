@@ -1,5 +1,6 @@
 ---
 title: "Best Gas Credit Cards in Canada: Cash Back, Points and Cents-Off at the Pump"
+metaTitle: "Best Gas Credit Cards in Canada (2026): Cash Back & Points"
 description: "How to pick a gas credit card in Canada: the cards that pay 3% to 4% on gas and EV charging, the annual caps that limit them, Costco and Canadian Tire fuel programs, and how to stack fuel savings."
 excerpt: "The best gas card isn't just the highest percentage. Caps, what counts as a gas station, and fuel-loyalty programs all change the answer. Here's how to compare them."
 primaryKeyword: "best gas credit card canada"

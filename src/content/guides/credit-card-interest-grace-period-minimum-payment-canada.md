@@ -1,5 +1,6 @@
 ---
 title: "Credit Card Interest, Grace Periods and Minimum Payments in Canada"
+metaTitle: "Credit Card Interest, Grace Periods & Minimum Payments"
 description: "How credit card interest really works in Canada: the 21-day grace period, why paying less than the full balance costs interest from the purchase date, how minimum payments are calculated, and how long minimums take to pay off a balance."
 excerpt: "Pay your full statement balance by the due date and you pay no interest on purchases. Miss that by even a dollar and the maths changes. Here's how interest, grace periods and minimum payments work."
 primaryKeyword: "credit card grace period canada"

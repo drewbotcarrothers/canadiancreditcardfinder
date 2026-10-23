@@ -1,5 +1,6 @@
 ---
 title: "Credit Card Travel Insurance in Canada, Explained: Medical, Cancellation and the Fine Print"
+metaTitle: "Credit Card Travel Insurance in Canada, Explained"
 description: "How credit card travel insurance works in Canada: emergency medical day limits, age cut-offs at 65, trip cancellation and interruption, pre-existing conditions, top-ups and how to make a claim."
 excerpt: "Credit card travel insurance can be excellent, but it is full of limits: 15 or 21 days, coverage that shrinks at 65, and stability clauses. Here is how to read your coverage before you leave."
 primaryKeyword: "credit card travel insurance canada"

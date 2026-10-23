@@ -1,5 +1,6 @@
 ---
 title: "Visa Infinite and World Elite Income Requirements in Canada, Explained"
+metaTitle: "Visa Infinite & World Elite Income Requirements in Canada"
 description: "Why Canadian premium cards have income requirements ($60,000 for Visa Infinite, $80,000 for World Elite, $150,000 for Visa Infinite Privilege), how household income and assets count, and what to do if you don't qualify."
 excerpt: "Visa Infinite usually needs $60,000 personal income, World Elite $80,000. Here's where those numbers come from, how household income and assets count, and your options if you're below the line."
 primaryKeyword: "world elite income requirement canada"

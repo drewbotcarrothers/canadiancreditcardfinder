@@ -39,7 +39,7 @@ const updatedAt =
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const heroImage = getGuideImage(guide.id);
 const heroImageUrl = new URL(heroImage.src, Astro.site).href;
-const title = `${guide.data.title} | Canadian Credit Card Finder`;
+const title = guide.data.metaTitle ?? `${guide.data.title} | Canadian Credit Card Finder`;
 
 const jsonLd = {
     '@context': 'https://schema.org',
@@ -119,6 +119,24 @@ const jsonLd = {
                     )
                 }
             </header>
+
+            {
+                guide.data.listHub && (
+                    <aside class="mb-6 rounded-xl border border-red-200 bg-red-50 p-4 sm:p-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+                        <p class="text-gray-800">
+                            <strong class="text-gray-900">Just want the list?</strong> This guide is about how to
+                            choose. The full card list, with current fees, is on its own page.
+                        </p>
+                        <a
+                            href={guide.data.listHub.href}
+                            class="inline-flex shrink-0 items-center justify-center rounded-lg bg-red-600 px-4 py-2 font-semibold text-white hover:bg-red-700 transition-colors"
+                        >
+                            See the {guide.data.listHub.label}
+                            <span aria-hidden="true" class="ml-1">→</span>
+                        </a>
+                    </aside>
+                )
+            }
 
             <div class="bg-white rounded-2xl shadow-md p-6 lg:p-10 mb-10">
                 <div class="guide-prose">

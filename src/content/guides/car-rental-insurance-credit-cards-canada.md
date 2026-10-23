@@ -1,5 +1,6 @@
 ---
 title: "Car Rental Insurance on Credit Cards in Canada: How CDW Coverage Works"
+metaTitle: "Credit Card Car Rental Insurance in Canada: How CDW Works"
 description: "How credit card car rental collision and loss damage insurance works in Canada: what it covers, rental length and vehicle value limits, why you must decline the rental company's waiver, what it doesn't cover, and cards that include it."
 excerpt: "Your credit card may let you skip the rental counter's collision damage waiver. Here's what that coverage actually includes, the limits that catch people, and what you still need."
 primaryKeyword: "credit card car rental insurance canada"

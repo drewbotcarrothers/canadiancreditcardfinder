@@ -1,0 +1,259 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import HubLinks from '../../components/HubLinks.astro';
+import Byline from '../../components/Byline.astro';
+import { authorJsonLd, publisherJsonLd } from '../../lib/author';
+import { formatDisplayDate, formatIsoDate, lastModified, latestDate } from '../../lib/contentDates';
+import { getCards, getDataFetchedAt } from '../../lib/data';
+import { cardNetwork, getCurrentOffers } from '../../lib/networkAndOffers';
+import { formatCurrency } from '../../lib/utils';
+
+// Built from the current card records on every build: the list, order and date refresh each time the site is rebuilt.
+const cards = await getCards();
+const builtAt = getDataFetchedAt() ?? new Date();
+const offers = getCurrentOffers(cards, builtAt);
+const valued = offers.filter((offer) => offer.value > 0);
+const other = offers
+    .filter((offer) => offer.value <= 0)
+    .sort((a, b) => a.card.creditCardName.localeCompare(b.card.creditCardName));
+const withDeadline = offers.filter((offer) => offer.deadline).sort((a, b) => a.deadline!.getTime() - b.deadline!.getTime());
+
+const monthYear = builtAt.toLocaleDateString('en-CA', { month: 'long', year: 'numeric', timeZone: 'America/Toronto' });
+const title = `Credit Card Offers This Month in Canada (${monthYear}): Best Welcome Bonuses`;
+const h1 = `Credit card offers this month in Canada (${monthYear})`;
+const description = `Current Canadian credit card welcome offers for ${monthYear}, sorted by advertised value: ${valued.length} offers with a dollar value plus intro-rate and points offers, with annual fees and links to full reviews.`;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const pageUpdated = latestDate(
+    lastModified('src/pages/credit-card-offers/index.astro'),
+    lastModified('src/lib/networkAndOffers.ts')
+);
+
+const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: h1,
+    description,
+    url: canonical,
+    inLanguage: 'en-CA',
+    author: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
+    dateModified: builtAt.toISOString(),
+    mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: offers.length,
+        itemListElement: [...valued, ...other].map((offer, index) => ({
+            '@type': 'ListItem',
+            position: index + 1,
+            name: offer.card.creditCardName,
+            url: new URL(`/card/${offer.card.slug}/`, Astro.site).href,
+        })),
+    },
+};
+
+const thClass = 'py-2 pr-4 font-semibold';
+const tdClass = 'py-3 pr-4 align-top';
+---
+
+<BaseLayout title={title} description={description}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">Home</a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">Credit card offers this month</li>
+            </ol>
+        </nav>
+
+        <header class="mb-8">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">{h1}</h1>
+            <p class="text-lg text-gray-600 max-w-3xl leading-relaxed mb-3">
+                These are the welcome offers currently listed for the Canadian credit cards reviewed on this site,
+                sorted by the value the issuer advertises, highest first. Offers with a stated deadline that has
+                passed are left out. A big number isn't automatically the best deal: check the spending you need to
+                hit, the annual fee after year one, and whether you're eligible before you apply.
+            </p>
+            <p class="text-sm font-medium text-gray-800 mb-2">
+                Last updated <time datetime={formatIsoDate(builtAt)}>{formatDisplayDate(builtAt)}</time>
+            </p>
+            <Byline updated={pageUpdated} dataAsOf={builtAt} />
+        </header>
+
+        <div class="mb-8">
+            <HubLinks />
+        </div>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="valued-offers-heading">
+            <h2 id="valued-offers-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                Welcome offers ranked by advertised value
+            </h2>
+            <p class="text-gray-600 mb-5 max-w-3xl">
+                {valued.length} offers list a dollar value. The value is the issuer's own "up to" figure, which usually
+                assumes you meet every spending tier and, for points, redeem at the issuer's suggested rate.
+            </p>
+            <div class="overflow-x-auto">
+                <table class="min-w-full text-sm text-left">
+                    <thead>
+                        <tr class="border-b border-gray-200 text-gray-500">
+                            <th scope="col" class={thClass}>#</th>
+                            <th scope="col" class={thClass}>Card</th>
+                            <th scope="col" class={thClass}>Advertised value</th>
+                            <th scope="col" class={thClass}>Offer</th>
+                            <th scope="col" class={thClass}>Annual fee</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {valued.map((offer, index) => (
+                            <tr class="border-b border-gray-100">
+                                <td class={`${tdClass} text-gray-400`}>{index + 1}</td>
+                                <td class={tdClass}>
+                                    <a href={`/card/${offer.card.slug}/`} class="font-medium text-red-600 underline underline-offset-2">
+                                        {offer.card.creditCardName}
+                                    </a>
+                                    <span class="block text-xs text-gray-500 mt-0.5">
+                                        {offer.card.issuer}{cardNetwork(offer.card) && cardNetwork(offer.card) !== offer.card.issuer ? ` · ${cardNetwork(offer.card)}` : ''}
+                                    </span>
+                                </td>
+                                <td class={`${tdClass} font-semibold text-gray-900 whitespace-nowrap`}>
+                                    {formatCurrency(offer.value)}
+                                </td>
+                                <td class={`${tdClass} text-gray-700`}>
+                                    {offer.offer}
+                                    {offer.deadline && (
+                                        <span class="block text-xs text-gray-500 mt-0.5">
+                                            Deadline: {formatDisplayDate(offer.deadline)}
+                                        </span>
+                                    )}
+                                </td>
+                                <td class={`${tdClass} text-gray-700 whitespace-nowrap`}>{offer.card.annualFeeDisplay}</td>
+                            </tr>
+                        ))}
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        {other.length > 0 && (
+            <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="other-offers-heading">
+                <h2 id="other-offers-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                    Points, intro-rate and other offers
+                </h2>
+                <p class="text-gray-600 mb-5 max-w-3xl">
+                    These {other.length} offers don't list a single dollar value: they're points-only bonuses,
+                    introductory interest rates on purchases or balance transfers, or promotional earn rates. Open the
+                    review to see what each one is worth for you.
+                </p>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full text-sm text-left">
+                        <thead>
+                            <tr class="border-b border-gray-200 text-gray-500">
+                                <th scope="col" class={thClass}>Card</th>
+                                <th scope="col" class={thClass}>Offer</th>
+                                <th scope="col" class={thClass}>Annual fee</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {other.map((offer) => (
+                                <tr class="border-b border-gray-100">
+                                    <td class={tdClass}>
+                                        <a href={`/card/${offer.card.slug}/`} class="font-medium text-red-600 underline underline-offset-2">
+                                            {offer.card.creditCardName}
+                                        </a>
+                                        <span class="block text-xs text-gray-500 mt-0.5">{offer.card.issuer}</span>
+                                    </td>
+                                    <td class={`${tdClass} text-gray-700`}>
+                                        {offer.offer}
+                                        {offer.deadline && (
+                                            <span class="block text-xs text-gray-500 mt-0.5">
+                                                Deadline: {formatDisplayDate(offer.deadline)}
+                                            </span>
+                                        )}
+                                    </td>
+                                    <td class={`${tdClass} text-gray-700 whitespace-nowrap`}>{offer.card.annualFeeDisplay}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+        )}
+
+        {withDeadline.length > 0 && (
+            <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8 max-w-4xl" aria-labelledby="deadline-heading">
+                <h2 id="deadline-heading" class="text-2xl font-bold text-gray-900 mb-2">Offers with a deadline</h2>
+                <p class="text-gray-600 mb-4">These offers list an apply-by date, soonest first.</p>
+                <ul class="space-y-2 text-gray-700">
+                    {withDeadline.map((offer) => (
+                        <li>
+                            <span class="font-medium">{formatDisplayDate(offer.deadline!)}:</span>{' '}
+                            <a href={`/card/${offer.card.slug}/`} class="text-red-600 underline underline-offset-2">
+                                {offer.card.creditCardName}
+                            </a>
+                        </li>
+                    ))}
+                </ul>
+            </section>
+        )}
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 max-w-4xl mb-8">
+            <h2 class="text-2xl font-bold text-gray-900 mb-3">How to read these offers</h2>
+            <div class="text-gray-700 leading-relaxed space-y-4 [&_a]:text-red-600 [&_a]:underline [&_a]:underline-offset-2">
+                <p>
+                    <strong>"Up to" means every tier.</strong> Many of the largest offers are paid in stages: some
+                    points on the first purchase, more after a spending target in the first few months, and sometimes
+                    a final bonus near the end of the first year. If you won't spend that much naturally, the real
+                    value to you is smaller.
+                </p>
+                <p>
+                    <strong>Points values are estimates.</strong> Where an offer is paid in points, the advertised
+                    dollar value depends on how you redeem. Our <a href="/guides/credit-card-points-value-canada/">points
+                    value guide</a> explains typical values for Aeroplan, Avion, Scene+ and other programs.
+                </p>
+                <p>
+                    <strong>Fees come back in year two.</strong> A first-year fee waiver is part of several offers.
+                    Note the regular annual fee and decide in advance whether you'll keep, downgrade or cancel the
+                    card. Our <a href="/guides/product-switch-vs-cancel-credit-card-canada/">product switch vs cancel
+                    guide</a> covers the options.
+                </p>
+                <p>
+                    <strong>Eligibility rules apply.</strong> Many issuers exclude people who held the same card, or
+                    any card in the same family, in the last 12 months or more. Read our
+                    <a href="/guides/welcome-bonus-eligibility-rules-canada/">welcome bonus eligibility guide</a>
+                    before applying for several cards.
+                </p>
+                <p>
+                    Offers change often. Confirm the current terms on the issuer's page, linked from each review,
+                    before you apply.
+                </p>
+            </div>
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">Related pages</h2>
+            <nav class="flex flex-wrap gap-2" aria-label="Related pages">
+                {[
+                    { href: '/best/mastercard/', label: 'Best Mastercard cards' },
+                    { href: '/best/visa/', label: 'Best Visa cards' },
+                    { href: '/best/travel/', label: 'Best travel cards' },
+                    { href: '/best/cash-back/', label: 'Best cash back cards' },
+                    { href: '/guides/welcome-bonus-eligibility-rules-canada/', label: 'Welcome bonus rules' },
+                ].map((link) => (
+                    <a
+                        href={link.href}
+                        class="inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors"
+                    >
+                        {link.label}
+                    </a>
+                ))}
+            </nav>
+        </section>
+
+        <section class="mt-10">
+            <h2 class="text-lg font-semibold text-gray-900 mb-4">More ways to browse</h2>
+            <HubLinks showIssuers />
+        </section>
+
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    </div>
+</BaseLayout>

@@ -8,7 +8,7 @@ import { authorJsonLd, publisherJsonLd } from '../../lib/author';
 import { lastModified } from '../../lib/contentDates';
 import { getCardsForHub, getDataFetchedAt } from '../../lib/data';
 import { getRelatedGuidesForHub } from '../../lib/guides';
-import { renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
+import { renderInlineMarkdown, renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
 import { getHubBySlug, getHubSlugs, isHubSlug } from '../../lib/hubs';
 
 export async function getStaticPaths() {
@@ -76,6 +76,12 @@ const jsonLd = {
             <p class="text-lg text-gray-600 max-w-3xl leading-relaxed mb-3">
                 {hub.intro}
             </p>
+            {hub.guideNote && (
+                <p
+                    class="text-base text-gray-700 max-w-3xl leading-relaxed mb-3 border-l-4 border-red-600 pl-3"
+                    set:html={renderInlineMarkdown(hub.guideNote)}
+                />
+            )}
             <Byline updated={hubUpdated} dataAsOf={dataFetchedAt} />
         </header>
 

@@ -1,6 +1,7 @@
 ---
 title: "RBC vs TD vs Scotiabank Credit Cards: Which Bank Ecosystem Fits You?"
-description: "RBC vs TD vs Scotiabank credit cards in Canada: Avion vs Aeroplan vs Scene+, cash-back ladders, USD cards, and when to stay in one bank login."
+metaTitle: "RBC vs TD vs Scotiabank Credit Cards (2026)"
+description: "RBC vs TD vs Scotiabank credit cards: Avion vs Aeroplan vs Scene+, TD vs RBC cash back cards side by side, USD cards, and when to stay with one bank."
 excerpt: "Pick the bank whose currency you will redeem — Avion at RBC, Aeroplan at TD, Scene+ or Momentum at Scotia — then add a $0 backup network if the till needs it."
 primaryKeyword: "rbc vs td vs scotiabank credit cards"
 publishedAt: 2026-09-20
@@ -70,9 +71,33 @@ Scotia Momentum Visa Infinite is the 4%-class grocery-and-bills cash-back Infini
 
 Pick cash or points. Mixing Momentum and Gold Amex only makes sense if grocery is huge *and* you redeem Scene+ elsewhere. Most households need one.
 
+## TD vs RBC cash back cards
+
+Both banks sell a $0 cash-back card and a paid one. On paper they look alike. In practice the split is grocery versus bills, and Mastercard versus Visa.
+
+| | [RBC Cash Back Mastercard](/card/rbc-cash-back-mastercard/) | [TD Cash Back Visa](/card/td-cash-back-visa-card/) | [RBC Cash Back Preferred World Elite](/card/rbc-cash-back-preferred-world-elite-mastercard/) | [TD Cash Back Visa Infinite](/card/td-cash-back-visa-infinite-card/) |
+| --- | --- | --- | --- | --- |
+| Annual fee | $0 | $0 | $120 | $139 |
+| Groceries | 2% | 1% | 3% | 3% |
+| Gas and EV charging | 1% | 1% | 3% | 3% |
+| Transit | 1% (rideshare too) | 1% | 3% (rideshare too) | 3% |
+| Recurring bills | 0.5% | 1% | 1% | 3% |
+| Streaming and digital gaming | 0.5% | 1% | 3% | 3% |
+| Dining and food delivery | 0.5% | 0.5% | 3% | 1% |
+| Everything else | 0.5% | 0.5% | 1% | 1% |
+| Caps on the bonus rates | None listed | First $5,000 a year per category | None listed | First $15,000 a year per category |
+| Income test | None listed | None listed | $80,000 personal or $150,000 household | $60,000 personal or $100,000 household |
+| Network | Mastercard | Visa | Mastercard | Visa |
+
+**No-fee cards: RBC for groceries, TD for bills.** RBC pays 2% at grocery stores against TD’s 1%, and it is a Mastercard, so it also works at Costco. TD’s 1% covers recurring bills and streaming, where RBC pays 0.5%. If the supermarket is your biggest line, the RBC card earns more. If phone, internet, and subscriptions are bigger, TD’s wider list catches more of the month.
+
+**Paid cards: RBC covers dining, TD covers bills.** Both pay 3% on groceries, gas, and transit. RBC adds dining and food delivery at 3% with no cap listed, for a lower fee, but it needs World Elite income. TD adds recurring bills at 3% and has a lower income bar, but each bonus category drops to 1% after $15,000 a year. Welcome offers differ as well. TD markets up to $600 in value. RBC offers 15% extra cash back on the first $2,000 in the first 3 months if you apply by February 2, 2027. Check both card pages for the current terms before you apply.
+
+If neither bank matters to you, compare them against the full [cash back list](/best/cash-back/) before you decide. A $0 card from a different bank can beat both no-fee versions.
+
 ## USD, students, and low interest
 
-All three banks sell a USD card. TD’s is the no-rewards cheap Visa; RBC’s earns Avion; Scotia’s is plain. See the [USD guide](/guides/best-us-dollar-credit-cards-canada/).
+All three banks sell a USD card. TD’s is the no-rewards cheap Visa; RBC’s earns Avion; Scotia’s is plain. See the [USD guide](/guides/best-us-dollar-credit-cards-canada/), or compare fees on the [best U.S. dollar credit cards](/best/us-dollar/) list.
 
 Scotia has the thicker **student** shelf in our catalog (Scene+, Momentum, Amex). RBC and TD students often land on adult $0 cards. See the [student guide](/guides/best-student-credit-cards-canada/).
 

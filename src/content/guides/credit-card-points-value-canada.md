@@ -1,5 +1,6 @@
 ---
 title: "How Much Are Credit Card Points Worth in Canada? Cents per Point by Program"
+metaTitle: "How Much Are Credit Card Points Worth in Canada?"
 description: "What Aeroplan, Amex Membership Rewards, Avion, Scene+, TD Rewards, BMO Rewards, Aventura and PC Optimum points are worth in cents, and how to calculate value yourself."
 excerpt: "A point is only worth what you redeem it for. Here is how Canadian programs price their points, where the fixed values sit, and a simple formula for checking any redemption."
 primaryKeyword: "credit card points value canada"

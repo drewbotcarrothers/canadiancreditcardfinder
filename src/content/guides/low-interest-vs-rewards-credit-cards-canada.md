@@ -1,8 +1,10 @@
 ---
-title: "Low-Interest Credit Cards in Canada: When They Beat Rewards Cards"
-description: "Best low interest credit card Canada: when a lower purchase rate beats cash back or travel points, and how to compare TD, RBC, BMO, and CIBC low-rate cards."
+title: "Low Interest vs Rewards Credit Cards: Which Should You Get?"
+metaTitle: "Low Interest vs Rewards Credit Cards in Canada (2026)"
+listHub: { href: "/best/low-interest/", label: "best low interest cards" }
+description: "Low interest vs rewards credit cards in Canada: the break-even when you carry a balance, purchase vs transfer teasers, prime-plus rates, and a payoff plan."
 excerpt: "If you will carry a balance, a low-rate card beats 4% cash back. If you pay in full, skip low-interest products and take rewards or $0 cash back."
-primaryKeyword: "best low interest credit card canada"
+primaryKeyword: "low interest vs rewards credit card"
 publishedAt: 2026-09-20
 sortOrder: 8
 hubLinks:
