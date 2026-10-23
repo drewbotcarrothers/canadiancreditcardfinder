@@ -1,5 +1,28 @@
 # Deploying to Hostinger
 
+## Automatic deploy (current setup)
+
+`.github/workflows/deploy.yml` builds the site on GitHub (Node 22) and uploads `dist/` to Hostinger over FTP:
+
+* Every push to `main` (a merged PR) builds and deploys, live in about 3 minutes.
+* A daily run at 13:30 UTC rebuilds so card-data sheet edits go live without a code change.
+* Pull requests only build, to catch broken builds before merge.
+* It can be run by hand from the Actions tab ("Run workflow").
+
+It needs these GitHub repo secrets (Settings > Secrets and variables > Actions), taken from hPanel > Files > FTP Accounts:
+
+| Secret | Value |
+| --- | --- |
+| `FTP_SERVER` | FTP host (IP or `ftp.canadiancreditcardfinder.com`) |
+| `FTP_USERNAME` | FTP username |
+| `FTP_PASSWORD` | FTP password |
+
+If the FTP account's root is not the site's `public_html`, set the repo variable `FTP_SERVER_DIR` to the path of `public_html` relative to the FTP root, ending in `/`.
+
+Hostinger's own Git auto-deploy should be disconnected so the two don't overwrite each other. The workflow never deletes server files that aren't in `dist/`.
+
+The rest of this document describes the older Hostinger Git deploy and a manual upload, kept for reference.
+
 The site is a static Astro build. Hostinger does not need a Node server at runtime. Use GitHub auto-deploy (or upload the `dist/` folder) with the settings below.
 
 ## Hostinger GitHub auto-deploy

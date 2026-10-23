@@ -1,0 +1,82 @@
+name: Build and deploy
+
+# Builds the static Astro site on GitHub and uploads dist/ to Hostinger over FTP.
+# - Pull requests: build only (catches broken builds before merge).
+# - Push to main (i.e. a merged PR): build + deploy.
+# - Daily schedule: rebuild + deploy so card-data sheet edits go live without a code change.
+# - Manual: "Run workflow" button in the Actions tab.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  schedule:
+    # 13:30 UTC daily (after the morning card accuracy review)
+    - cron: '30 13 * * *'
+  workflow_dispatch:
+
+concurrency:
+  group: deploy-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - run: npm ci
+
+      - run: npm run build
+
+      - name: Sanity-check build output
+        run: |
+          test -f dist/index.html
+          test -f dist/ads.txt
+          test -f dist/robots.txt
+          ls dist/card | wc -l
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist/
+          retention-days: 3
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist/
+
+      - name: Upload to Hostinger over FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          protocol: ftp
+          port: 21
+          local-dir: ./dist/
+          # Folder on the server that serves canadiancreditcardfinder.com, relative to the FTP account root.
+          # Set the repo variable FTP_SERVER_DIR if it isn't the FTP root (e.g. domains/canadiancreditcardfinder.com/public_html/).
+          server-dir: ${{ vars.FTP_SERVER_DIR || './' }}
+          timeout: 60000
+          # Never wipe files that aren't in dist/ (keeps .htaccess etc. on the server).
+          dangerous-clean-slate: false
+
+      - name: Check the live homepage responds
+        run: |
+          sleep 20
+          code=$(curl -sL -c /tmp/cj -b /tmp/cj -o /dev/null -w '%{http_code}' https://canadiancreditcardfinder.com/)
+          echo "Homepage HTTP $code"
+          test "$code" = "200"
