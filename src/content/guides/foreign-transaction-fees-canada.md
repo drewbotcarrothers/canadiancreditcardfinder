@@ -1,5 +1,6 @@
 ---
 title: "Foreign Transaction Fees in Canada: What They Cost and How to Avoid Them"
+metaTitle: "Foreign Transaction Fees in Canada: Costs and How to Avoid"
 description: "How Canadian credit card foreign transaction fees work, the usual 2.5% charge, dynamic currency conversion, refunds, cash advances abroad, and practical ways to avoid paying extra."
 excerpt: "Most Canadian credit cards add about 2.5% to anything charged in another currency, including online purchases. Here is how the fee is calculated and the cleanest ways to avoid it."
 primaryKeyword: "foreign transaction fees canada"

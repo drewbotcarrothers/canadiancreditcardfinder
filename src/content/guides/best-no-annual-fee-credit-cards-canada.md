@@ -1,8 +1,10 @@
 ---
-title: "Best No-Annual-Fee Credit Cards in Canada Right Now"
-description: "Best no-annual-fee credit cards in Canada for 2026: $0 cash-back, Scene+, Optimum, and Amex options, plus when a paid card is still cheaper."
+title: "How to Choose a No-Annual-Fee Credit Card in Canada"
+metaTitle: "How to Choose a No-Fee Credit Card in Canada (2026)"
+listHub: { href: "/best/no-annual-fee/", label: "best no annual fee cards" }
+description: "How to choose a no-annual-fee credit card in Canada: match a $0 card to how you shop, check eligibility and bonus rules, and know when a paid card wins."
 excerpt: "Start with a $0 card that matches how you already shop. Tangerine, Simplii, Scene+, PC Optimum, and no-fee Amex cash back cover most Canadians who pay in full."
-primaryKeyword: "best no annual fee credit card canada"
+primaryKeyword: "how to choose a no annual fee credit card"
 publishedAt: 2026-09-20
 sortOrder: 2
 hubLinks:
@@ -91,7 +93,7 @@ International students should read the eligibility text. Some Scotiabank student
 Skip a no-annual-fee rewards card if:
 
 - You will carry a balance for months. Interest dominates. Use a low-rate Visa or Mastercard and a written payoff plan.
-- You travel enough that FX fees and lounge passes matter. [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or a USD card may pay for itself — see [how to choose a travel card](/guides/how-to-choose-travel-credit-card-canada/).
+- You travel enough that FX fees and lounge passes matter. [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) or a [U.S. dollar card](/best/us-dollar/) may pay for itself — see [how to choose a travel card](/guides/how-to-choose-travel-credit-card-canada/).
 - You already qualify for a grocery Infinite or World Elite whose extra earn clears the fee after year one.
 
 A $0 card with a 0.5% catch-all is a weak “everything card.” Two $0 cards with complementary networks and categories is a stronger everyday setup than one paid card you resent.

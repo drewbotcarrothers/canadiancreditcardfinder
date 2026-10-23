@@ -1,5 +1,6 @@
 ---
 title: "USD Credit Cards for Canadians Who Shop or Travel in the States"
+metaTitle: "USD Credit Cards for Canadians: Who Needs One (2026)"
 description: "Best US dollar credit card Canada for 2026: USD-billed TD, BMO, RBC, and CIBC cards versus a no-FX CAD Visa, and when a USD account is required."
 excerpt: "A USD-billed Canadian card is worth it when you already keep a U.S. dollar account and spend in USD often enough to beat the USD annual fee. It does not help with euros."
 primaryKeyword: "best us dollar credit card canada"

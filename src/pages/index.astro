@@ -9,6 +9,8 @@ import {
 } from '../lib/data';
 import { toHomepageCard } from '../lib/homepage';
 import BrowseSections from '../components/BrowseSections.astro';
+import HomeLinkSections from '../components/HomeLinkSections.astro';
+import HomeGuideLinks from '../components/HomeGuideLinks.astro';
 import { CONTACT_EMAIL } from '../lib/legal';
 
 const [allCards, categories, issuers, rewardsPrograms] = await Promise.all([
@@ -78,6 +80,8 @@ const siteJsonLd = [
         </div>
     </section>
 
+    <HomeLinkSections cards={allCards} />
+
     <HomeContent
         client:load
         cards={cards}
@@ -87,4 +91,6 @@ const siteJsonLd = [
     >
         <BrowseSections />
     </HomeContent>
+
+    <HomeGuideLinks />
 </BaseLayout>

@@ -4,6 +4,7 @@ import AddToCompareButton from '../../components/AddToCompareButton';
 import CardGrid from '../../components/CardGrid';
 import CardReview from '../../components/CardReview.astro';
 import CardVideos from '../../components/CardVideos.astro';
+import RelatedGuide from '../../components/RelatedGuide.astro';
 import Byline from '../../components/Byline.astro';
 import { authorJsonLd, publisherJsonLd } from '../../lib/author';
 import { firstPublished, lastModified, reviewSourceFile } from '../../lib/contentDates';
@@ -14,6 +15,8 @@ import { filterCardsForIssuer, getIssuerHubForName } from '../../lib/issuers';
 import { HUBS, filterCardsForHub } from '../../lib/hubs';
 import { renderMarkdownParagraphs } from '../../lib/inlineMarkdown';
 import { buildCardProductJsonLd } from '../../lib/productSchema';
+import { getGuides } from '../../lib/guides';
+import { getRelatedGuidesForCard } from '../../lib/cardGuides';
 import type { CreditCard } from '../../lib/types';
 
 export async function getStaticPaths() {
@@ -41,6 +44,7 @@ const relatedSlugs = new Set([card.slug, ...relatedCards.map((c) => c.slug)]);
 const issuerSiblings = issuerHub
     ? filterCardsForIssuer(allCards, issuerHub.slug).filter((c) => !relatedSlugs.has(c.slug)).slice(0, 8)
     : [];
+const cardGuides = getRelatedGuidesForCard(card, await getGuides());
 const memberHubs = HUBS.filter((hub) => filterCardsForHub(allCards, hub.slug).some((c) => c.slug === card.slug));
 const imageSrc = cardImageSrc(card.imageFile);
 const heading = review?.h1 ?? card.creditCardName;
@@ -362,6 +366,20 @@ const jsonLd = [productJsonLd, articleJsonLd, faqJsonLd].filter(Boolean);
         )}
 
         <CardVideos slug={card.slug} />
+
+        {cardGuides.guides.length > 0 && (
+            <div class="mb-8">
+                <RelatedGuide guides={cardGuides.guides} heading="Related guides" />
+                {cardGuides.hub && (
+                    <p class="-mt-4 text-gray-700">
+                        <strong class="text-gray-900">Just want the list?</strong>{' '}
+                        <a href={`/best/${cardGuides.hub.slug}/`} class="text-red-600 hover:text-red-700 font-medium underline underline-offset-2">
+                            See the best {cardGuides.hub.navLabel} credit cards in Canada
+                        </a>
+                    </p>
+                )}
+            </div>
+        )}
 
         <section class="bg-gradient-to-r from-gray-900 to-gray-800 rounded-2xl p-8 lg:p-12 text-center text-white mb-8">
             <h2 class="text-2xl lg:text-3xl font-bold mb-4">

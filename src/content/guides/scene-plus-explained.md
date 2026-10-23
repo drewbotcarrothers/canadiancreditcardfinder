@@ -1,5 +1,6 @@
 ---
 title: "Scene+ Explained: How Canada's Scotiabank, Sobeys and Cineplex Points Program Works"
+metaTitle: "Scene+ Explained: How the Scene+ Points Program Works"
 description: "A plain-English guide to Scene+: how you earn points at Sobeys, Cineplex and with Scotiabank cards, what points are worth (100 points = $1 on travel and groceries), Scene+ Travel, Apply Points to Travel and expiry rules."
 excerpt: "Scene+ points are simple to value: in most redemptions, 100 points equal $1. Here's how to earn them, where they go furthest, and the rules that can make them expire."
 primaryKeyword: "scene plus explained"

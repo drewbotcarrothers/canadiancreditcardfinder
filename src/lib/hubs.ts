@@ -22,6 +22,8 @@ export interface HubDefinition {
     intro: string;
     navLabel: string;
     teaser: string;
+    /** Short pointer to the companion "how to choose" guide, shown under the intro. Inline markdown links allowed. */
+    guideNote?: string;
     /** Longer buying advice shown under the card list. Inline markdown links allowed. */
     analysis?: { heading: string; body: string }[];
     faqs?: { question: string; answer: string }[];
@@ -79,13 +81,15 @@ export const HUBS: HubDefinition[] = [
     },
     {
         slug: 'cash-back',
-        title: 'Best Cash Back Credit Cards in Canada (2026), Compared',
+        title: 'Best Cash Back Credit Cards in Canada (2026): No-Fee Picks',
         h1: 'Best Cash Back Credit Cards in Canada (2026)',
         description:
-            'Compare the best cash back credit cards in Canada for 2026, from no annual fee cards to premium picks. See earn rates, fees, welcome bonuses and reviews.',
+            'The best cash back credit cards in Canada for 2026, including no annual fee cash back cards and premium picks. Compare earn rates, fees and welcome bonuses.',
         intro:
-            'Cash back credit cards return a percentage of what you spend, typically as a statement credit. They are often the simplest rewards option in Canada if you would rather not track points or airline programs. Compare bonus categories such as groceries and gas, how cash back is redeemed, and whether a higher annual fee is worth the extra earning rate. This list includes every cash back card we currently track.',
+            'Cash back credit cards return a percentage of what you spend, typically as a statement credit. They are often the simplest rewards option in Canada if you would rather not track points or airline programs. Compare bonus categories such as groceries and gas, how cash back is redeemed, and whether a higher annual fee is worth the extra earning rate. No annual fee cash back cards sit in the same list as paid ones, so check the annual fee on each card. This list includes every cash back card we currently track.',
         navLabel: 'Cash Back',
+        guideNote:
+            'Not sure whether category or flat-rate cash back fits your spending? Read [how to choose a cash back credit card](/guides/best-cash-back-credit-cards-canada/) for caps, merchant codes and the year-two fee test.',
         teaser: 'Statement credits on everyday spending',
     },
     {
@@ -98,10 +102,12 @@ export const HUBS: HubDefinition[] = [
             'No annual fee credit cards charge $0 per year to keep the account open. That can make them a practical everyday card, a student option, or a complement to a premium travel card. Compare earning rates, welcome bonuses, and purchase interest rates — a $0 fee does not automatically mean the best overall value. The cards below currently list a $0 annual fee.',
         navLabel: 'No Annual Fee',
         teaser: 'Cards that currently list a $0 annual fee',
+        guideNote:
+            'Deciding which kind of $0 card to open first? Read [how to choose a no-annual-fee credit card](/guides/best-no-annual-fee-credit-cards-canada/) for eligibility, welcome-bonus rules and when a paid card wins.',
     },
     {
         slug: 'students',
-        title: 'Best Student Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best Student Credit Cards in Canada (2026), Compared',
         h1: 'Best Student Credit Cards in Canada (2026)',
         description:
             'Compare the best student credit cards in Canada for 2026. See no-fee and student versions of cash back, travel, and rewards cards with current fees.',
@@ -162,14 +168,16 @@ export const HUBS: HubDefinition[] = [
     },
     {
         slug: 'low-interest',
-        title: 'Best Low Interest Credit Cards in Canada (2026)',
+        title: 'Best Low Interest Credit Cards in Canada (2026), Compared',
         h1: 'Best Low Interest Credit Cards in Canada (2026)',
         description:
-            'Compare the best low interest credit cards in Canada for 2026. See low rate cards side by side by purchase rate and annual fee if you carry a balance.',
+            'Looking for a low interest credit card? Compare the best low interest credit cards in Canada for 2026 by purchase rate, annual fee and balance transfer terms.',
         intro:
             'Low interest credit cards charge a lower purchase rate than typical Canadian cards, which can matter if you sometimes carry a balance. Rewards are usually modest compared with cash-back or travel cards. Compare the annual fee against the rate difference, and whether a promotional rate expires. The cards below are the low-interest cards we currently track.',
         navLabel: 'Low Interest',
         teaser: 'Lower purchase rates if you carry a balance',
+        guideNote:
+            'Not sure you need a low interest credit card at all? Read [low interest vs rewards credit cards](/guides/low-interest-vs-rewards-credit-cards-canada/) for the break-even and a payoff strategy.',
         analysis: [
             {
                 heading: "Who a low interest card is for",
@@ -201,7 +209,7 @@ export const HUBS: HubDefinition[] = [
     },
     {
         slug: 'us-dollar',
-        title: 'Best U.S. Dollar Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best U.S. Dollar Credit Cards in Canada (2026), Compared',
         h1: 'Best U.S. Dollar Credit Cards in Canada (2026)',
         description:
             'Compare the best U.S. dollar credit cards in Canada for 2026. See USD billing, foreign-exchange savings, fees, and rewards.',
@@ -240,10 +248,10 @@ export const HUBS: HubDefinition[] = [
     },
     {
         slug: 'premium',
-        title: 'Best Premium Credit Cards in Canada (2026) | Canadian Credit Card Finder',
+        title: 'Best Premium Visa & Mastercard Credit Cards in Canada (2026)',
         h1: 'Best Premium Credit Cards in Canada (2026)',
         description:
-            'Compare the best premium credit cards in Canada for 2026. See Infinite Privilege, World Elite, and high-fee travel and rewards cards.',
+            'Compare the best premium credit cards in Canada for 2026: Visa Infinite and Infinite Privilege, World Elite Mastercard, and Amex cards with fees and perks.',
         intro:
             'Premium credit cards in Canada usually charge a higher annual fee in exchange for stronger earn rates, travel insurance, lounge access, or a larger welcome bonus. Typical names include Visa Infinite Privilege, World Elite, Reserve, and The Platinum Card. Weigh the fee against benefits you will actually use — a $150 card can be a better fit than a $599 card if you will not use the extras. The cards below currently list an annual fee of at least $120, excluding student products and basic cash-back cards that only meet the fee cut.',
         navLabel: 'Premium',

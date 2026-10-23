@@ -1,5 +1,6 @@
 ---
 title: "Authorized Users and Additional Cardholders in Canada: How They Work"
+metaTitle: "Authorized Users on Credit Cards in Canada: How They Work"
 description: "What it means to add an authorized user or additional cardholder to a Canadian credit card: who pays, age minimums, fees, rewards, insurance, and whether it builds credit (FCAC says it doesn't)."
 excerpt: "Adding a partner or teen to your credit card can earn more rewards and share perks, but the primary cardholder owes every dollar. Here's how authorized users really work in Canada."
 primaryKeyword: "authorized user credit card canada"

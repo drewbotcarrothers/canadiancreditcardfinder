@@ -1,5 +1,6 @@
 ---
 title: "Credit Cards for Newcomers to Canada: How to Get Approved and Build Credit"
+metaTitle: "Credit Cards for Newcomers to Canada: How to Get Approved"
 description: "How newcomers to Canada can get a first credit card without Canadian credit history: bank newcomer programs, secured cards, American Express Global Card Transfer, and habits that build a strong score."
 excerpt: "Your credit history from home doesn't follow you to Canada automatically. Here is how newcomers get a first card, what the bank programs offer, and how to build a Canadian score quickly."
 primaryKeyword: "credit cards for newcomers to canada"

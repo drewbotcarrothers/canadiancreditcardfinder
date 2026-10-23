@@ -1,5 +1,6 @@
 ---
 title: "Welcome Bonus Eligibility Rules in Canada: Amex, RBC, TD, CIBC, BMO and Scotiabank"
+metaTitle: "Welcome Bonus Eligibility Rules in Canada (2026)"
 description: "Who qualifies for a credit card welcome bonus in Canada: Amex's once-per-card rule, Scotiabank's 2-year rule, TD and CIBC 12-month rules, BMO and RBC product-switch exclusions, and Aeroplan's own restriction."
 excerpt: "Every Canadian issuer has fine print on who can earn a welcome bonus. Here is what each big bank's offer terms say, so you don't open a card expecting points that never arrive."
 primaryKeyword: "welcome bonus eligibility rules canada"

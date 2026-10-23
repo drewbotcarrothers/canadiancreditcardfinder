@@ -1,5 +1,6 @@
 ---
 title: "Costco Credit Card Options in Canada: What Works at the Warehouse, Gas Bar and Costco.ca"
+metaTitle: "Costco Credit Card Options in Canada: What Works Where"
 description: "Which credit cards work at Costco Canada (Mastercard in warehouses, Visa too on Costco.ca), how the CIBC Costco Mastercard's cash back and gift certificate work, and how it compares with the Executive Membership 2% reward."
 excerpt: "Costco Canada warehouses take Mastercard but not Visa or Amex. Here's how payment works at each Costco channel, how the CIBC Costco Mastercard pays out, and how to think about other options."
 primaryKeyword: "costco credit card canada"
@@ -100,7 +101,7 @@ Our [Costco family card stack](/stacks/costco-family/) shows one way to pair a C
 
 ## Shopping at Costco in the United States
 
-If you visit U.S. Costco warehouses, payment rules differ by country, so check before you go. Remember that a Canadian card charging in U.S. dollars usually adds a foreign transaction fee of about 2.5%. Our [foreign transaction fees guide](/guides/foreign-transaction-fees-canada/) explains how to avoid it.
+If you visit U.S. Costco warehouses, payment rules differ by country, so check before you go. Remember that a Canadian card charging in U.S. dollars usually adds a foreign transaction fee of about 2.5%. Our [foreign transaction fees guide](/guides/foreign-transaction-fees-canada/) explains how to avoid it. If you spend in U.S. dollars often, compare the [U.S. dollar credit cards](/best/us-dollar/) too.
 
 ## FAQ
 

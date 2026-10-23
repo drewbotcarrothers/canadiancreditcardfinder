@@ -1,5 +1,6 @@
 ---
 title: "Paying Rent and Taxes with a Credit Card in Canada: Does It Make Sense?"
+metaTitle: "Paying Rent and Taxes With a Credit Card in Canada"
 description: "How Canadians pay rent and CRA taxes by credit card through services like Chexy, PaySimply and Plastiq, what the fees cost, the break-even math on rewards, and when it isn't worth it."
 excerpt: "Your landlord and the CRA don't take credit cards directly, but payment services will, for a fee. Here's how it works, how to do the break-even math, and when it costs you money."
 primaryKeyword: "pay rent with credit card canada"
