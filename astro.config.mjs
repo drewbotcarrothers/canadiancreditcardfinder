@@ -12,6 +12,8 @@ export default defineConfig({
   // Static fallback for retired URLs (meta refresh + canonical). Apache serves the real 301s from public/.htaccess first.
   redirects: {
     '/card/bmo-air-miles-mastercard': '/card/bmo-blue-rewards-mastercard/',
+    // RBC discontinued RateAdvantage; the old product URL now serves Classic Low Rate.
+    '/card/rbc-rateadvantage-visa': '/card/rbc-visa-classic-low-rate-option/',
   },
   integrations: [react()],
   vite: {

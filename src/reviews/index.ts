@@ -76,7 +76,6 @@ import rbcCashBackMastercard from './rbc-cash-back-mastercard';
 import rbcCashBackPreferredWorldEliteMastercard from './rbc-cash-back-preferred-world-elite-mastercard';
 import rbcIonPlusVisa from './rbc-ion-plus-visa';
 import rbcIonVisa from './rbc-ion-visa';
-import rbcRateadvantageVisa from './rbc-rateadvantage-visa';
 import rbcUSDollarVisaGold from './rbc-u-s-dollar-visa-gold';
 import rbcVisaClassicLowRateOption from './rbc-visa-classic-low-rate-option';
 import rbcVisaPlatinum from './rbc-visa-platinum';
@@ -230,7 +229,6 @@ const REVIEW_LIST: CardEditorialReview[] = [
     nationalBankMycreditMastercard,
     nationalBankPlatinumMastercard,
     nationalBankSyncroMastercard,
-    rbcRateadvantageVisa,
     rbcUSDollarVisaGold,
     rbcVisaClassicLowRateOption,
     rbcVisaPlatinum,

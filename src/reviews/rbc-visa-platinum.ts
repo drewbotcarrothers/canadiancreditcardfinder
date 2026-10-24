@@ -18,7 +18,7 @@ const review: CardEditorialReview = {
     whoShouldSkip: [
         'Travellers who wanted 1.25x Avion on flights. That is [Avion Visa Platinum](/card/rbc-avion-visa-platinum/), at a $120-class fee — a different product that shares a confusingly similar name.',
         'Households that wanted 1.5x Avion on groceries, gas, and streaming. That is [ION](/card/rbc-ion-visa/), also $0.',
-        'People who wanted a low purchase rate. That is RateAdvantage or Classic Low Rate, not this Platinum offers card.',
+        'People who wanted a low purchase rate. That is [Classic Low Rate](/card/rbc-visa-classic-low-rate-option/), not this Platinum offers card.',
         'Anyone chasing a welcome bonus. There is often none.',
     ],
     pros: [
@@ -36,9 +36,9 @@ const review: CardEditorialReview = {
         'Name collision with Avion Visa Platinum is a real shopping-cart error. Apply to the right SKU.',
     ],
     feesAndValue:
-        'This is a $0-fee card, with extra cards at $0. There is no welcome-bonus value, so the first-year snapshot will look empty. Value is Petro-Canada cents-off, Avion Rewards loaded offers, purchase protection, and extended warranty. If you wanted Avion on spend, ION currently lists 1.5x on a grocery/gas/streaming list at the same $0 — that is usually the better everyday RBC Visa. If you wanted travel-category Avion and insurance you would actually use, paid Avion Platinum is the other Platinum-named product. If you wanted a low rate, Classic Low Rate or RateAdvantage is the conversation. Offers change. Pay in full. The purchase rate is a typical rewards rate.',
+        'This is a $0-fee card, with extra cards at $0. There is no welcome-bonus value, so the first-year snapshot will look empty. Value is Petro-Canada cents-off, Avion Rewards loaded offers, purchase protection, and extended warranty. If you wanted Avion on spend, ION currently lists 1.5x on a grocery/gas/streaming list at the same $0 — that is usually the better everyday RBC Visa. If you wanted travel-category Avion and insurance you would actually use, paid Avion Platinum is the other Platinum-named product. If you wanted a low rate, [Classic Low Rate](/card/rbc-visa-classic-low-rate-option/) is the conversation. Offers change. Pay in full. The purchase rate is a typical rewards rate.',
     rewardsExplained:
-        'Do not expect ION’s 1.5x table. The rewards-program description currently says the card earns Petro-Points (20% more) and access to Avion Rewards. Features currently describe unlocking deals from Avion Rewards, offers from a large brand list, and extra points and savings from Petro-Canada, Rexall, and DoorDash. Detailed features currently add $0, 3¢/L at Petro-Canada, purchase security, and extended warranty. Load offers before you shop; unearned “access” does nothing at the till. Put grocery you wanted 1.5x Avion on [RBC ION Visa](/card/rbc-ion-visa/). Put travel-category Avion on [Avion Visa Platinum](/card/rbc-avion-visa-platinum/). Put a revolving balance on RateAdvantage. This $0 Platinum is the offers-and-warranty Visa.',
+        'Do not expect ION’s 1.5x table. The rewards-program description currently says the card earns Petro-Points (20% more) and access to Avion Rewards. Features currently describe unlocking deals from Avion Rewards, offers from a large brand list, and extra points and savings from Petro-Canada, Rexall, and DoorDash. Detailed features currently add $0, 3¢/L at Petro-Canada, purchase security, and extended warranty. Load offers before you shop; unearned “access” does nothing at the till. Put grocery you wanted 1.5x Avion on [RBC ION Visa](/card/rbc-ion-visa/). Put travel-category Avion on [Avion Visa Platinum](/card/rbc-avion-visa-platinum/). Put a revolving balance on [RBC Visa Classic Low Rate Option](/card/rbc-visa-classic-low-rate-option/). This $0 Platinum is the offers-and-warranty Visa.',
     welcomeBonus:
         'The current welcome line says there is often none, as it is a strictly no-fee card focused on savings. No detailed terms, value estimate, or eligibility terms are listed. Treat that as “none on file.” If RBC is running a points or statement-credit offer on the live Visa Platinum page, use that page. Do not copy an ION or Avion Platinum wrap onto this card.',
     faqs: [
@@ -72,7 +72,7 @@ const review: CardEditorialReview = {
     relatedCardSlugs: [
         'rbc-ion-visa',
         'rbc-avion-visa-platinum',
-        'rbc-rateadvantage-visa',
+        'rbc-visa-classic-low-rate-option',
     ],
 };
 
