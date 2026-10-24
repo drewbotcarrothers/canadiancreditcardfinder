@@ -8,7 +8,7 @@ const review: CardEditorialReview = {
     metaDescription:
         'RBC U.S. Dollar Visa Gold review for 2026: 1 Avion per USD, $65 USD fee, vs TD and BMO USD cards, and who should skip it.',
     intro:
-        'The RBC U.S. Dollar Visa Gold is the only USD card in this batch that currently prints a rewards line: 1 Avion point per U.S. dollar on qualifying purchases, a $65-class USD annual fee, extra cards at a $30-class USD add-on, and eligibility copy that currently says you need an RBC U.S. dollar bank account to pay the statement even if it is not strictly required to apply. There is currently no listed welcome offer. This RBC U.S. Dollar Visa Gold review is the Avion-versus-FX-math comparison with [TD U.S. Dollar Visa](/card/td-u-s-dollar-visa-card/) and [BMO U.S. Dollar Mastercard](/card/bmo-u-s-dollar-mastercard/), and tells you when [RBC ION Visa](/card/rbc-ion-visa/) is the CAD Avion card you should have opened instead.',
+        'The RBC U.S. Dollar Visa Gold is the only USD card in this batch that currently prints a rewards line: 1 Avion point per U.S. dollar on qualifying purchases, a $65-class USD annual fee, extra cards at a $30-class USD add-on, and no minimum income listed. There is currently no listed welcome offer. This RBC U.S. Dollar Visa Gold review is the Avion-versus-FX-math comparison with [TD U.S. Dollar Visa](/card/td-u-s-dollar-visa-card/) and [BMO U.S. Dollar Mastercard](/card/bmo-u-s-dollar-mastercard/), and tells you when [RBC ION Visa](/card/rbc-ion-visa/) is the CAD Avion card you should have opened instead.',
     whoItsFor: [
         'RBC customers who already collect Avion, already keep a USD account at the bank, and will put real U.S. merchant spend on this Gold so 1x Avion is not a brochure line on a card they never swipe.',
         'Households that will pay the $65-class USD fee (and any extra-card fees) from USD, not by converting CAD at the bill.',
@@ -25,14 +25,14 @@ const review: CardEditorialReview = {
         '1 Avion point per U.S. dollar on qualifying purchases is a real earn line none of the other USD cards in this batch currently print.',
         'Those points land in the same Avion pool as ION, Platinum, and Infinite, so Florida spend can still become a later flight through RBC.',
         'Visa Gold acceptance is straightforward at U.S. merchants — just not at Costco.',
-        'Eligibility currently prints no minimum personal or household income (currently listed as $0 / no minimum indicated), which is easier copy than CIBC’s USD Aventura Gold household bar.',
+        'RBC lists no minimum personal or household income, unlike CIBC’s USD Aventura Gold household bar.',
         'You stay inside RBC: CAD Avion on ION, USD Avion here, one redemption catalogue.',
     ],
     cons: [
         'The $65-class USD fee, plus $30-class USD extra cards, is the steepest USD membership in this batch. TD and Scotiabank currently list lower USD fees with no Avion.',
         'Welcome bonus, detail, and value currently say none / N/A. Year one is the fee versus 1x Avion plus FX savings.',
-        'Eligibility currently cites a good-to-excellent credit recommendation in a high band. This is not a student USD product.',
-        'Check the issuer’s site for current insurance coverage. Gold in the name is not travel medical coverage.',
+        'There is no travel medical insurance, so U.S. trips still need separate medical coverage.',
+        'The insurance that is included is travel accident, rental car (vehicles up to $65,000 MSRP), trip cancellation and interruption (up to $2,500), delayed baggage, purchase security and extended warranty.',
         '1x Avion cashed out poorly can lose to simply using a cheaper USD Visa and buying Avion another way.',
     ],
     feesAndValue:
