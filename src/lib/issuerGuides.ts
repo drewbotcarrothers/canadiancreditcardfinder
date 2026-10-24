@@ -294,8 +294,7 @@ export const ISSUER_GUIDES: Partial<Record<IssuerHubSlug, IssuerGuide>> = {
             {
                 need: 'Carrying a balance',
                 cards: [
-                    { slug: 'rbc-rateadvantage-visa', note: 'no annual fee, variable rate tied to prime' },
-                    { slug: 'rbc-visa-classic-low-rate-option', note: 'fixed low purchase rate' },
+                    { slug: 'rbc-visa-classic-low-rate-option', note: 'printed low purchase rate, plus a balance-transfer teaser' },
                 ],
             },
             {

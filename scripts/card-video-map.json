@@ -318,12 +318,6 @@
       ],
       "kind": "review"
     },
-    "eHwv4zB8D_M": {
-      "cards": [
-        "rbc-rateadvantage-visa"
-      ],
-      "kind": "review"
-    },
     "073_m67rnWA": {
       "cards": [
         "rbc-visa-platinum"
@@ -624,5 +618,7 @@
     "Rgr0pBhMOUc": "BMO AIR MILES World Elite review: the site card is now BMO Blue Rewards World Elite (different program and earn), so the video would mislead on that page.",
     "9WuX27CdJ34": "BMO AIR MILES Mastercard for Students: no matching card on the site (AIR MILES rebranded to Blue Rewards; no student Blue Rewards card in the sheet)."
   },
-  "remove": {}
+  "remove": {
+    "eHwv4zB8D_M": "RBC RateAdvantage Visa review. The card is discontinued, so the video should not stay on a card page."
+  }
 }

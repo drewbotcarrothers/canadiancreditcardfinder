@@ -18,7 +18,7 @@ relatedCardSlugs:
   - scotia-momentum-visa-infinite-card
 ---
 
-**Choose the bank whose rewards currency matches trips and weekly spend you already have, not the bank with the flashiest welcome email.** RBC is the **Avion** shop — flexible travel points, WestJet cobrands, ION everyday earn, and a no-fee low-rate Visa. TD is the **Aeroplan** shop on Visa, plus First Class / Platinum travel, cash-back Visas, and a cheap USD Visa. Scotiabank is the **Scene+** shop, with Passport for no-FX travel, Momentum for grocery cash back, and American Express cards issued by Scotia if you want Amex inside the same login.
+**Choose the bank whose rewards currency matches trips and weekly spend you already have, not the bank with the flashiest welcome email.** RBC is the **Avion** shop — flexible travel points, WestJet cobrands, ION everyday earn, and a low-rate Visa. TD is the **Aeroplan** shop on Visa, plus First Class / Platinum travel, cash-back Visas, and a cheap USD Visa. Scotiabank is the **Scene+** shop, with Passport for no-FX travel, Momentum for grocery cash back, and American Express cards issued by Scotia if you want Amex inside the same login.
 
 You can hold cards at more than one bank. Many people should. What you should not do is pay three Infinite fees for three currencies you will never combine. Start with one ecosystem, add a $0 card on the other network if tills require it, and use the [finder](/finder/) if the constraints are mixed.
 
@@ -35,7 +35,7 @@ Open the live lineups: [RBC](/issuer/rbc/), [TD](/issuer/td/), [Scotiabank](/iss
 | Everyday points | ION / ION+ | TD Rewards Visa | Scene+ Visa / Gold Amex |
 | No-FX travel Visa | Not the headline product | Not the headline product | [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) |
 | USD card | USD Visa Gold (Avion) | [USD Visa](/card/td-u-s-dollar-visa-card/) (no rewards) | USD Visa (plain) |
-| Low interest | RateAdvantage, Classic Low Rate | [Low Rate Visa](/card/td-low-rate-visa-card/) | Value Visa |
+| Low interest | [Classic Low Rate](/card/rbc-visa-classic-low-rate-option/) | [Low Rate Visa](/card/td-low-rate-visa-card/) | Value Visa |
 | Student | Thinner student set in our catalog | Thinner student set | Scene+, Momentum, Amex student cards |
 | Welcome-rule personality | Offer end dates; Avion hurdles | Multi-part Aeroplan bonuses | Two-year personal-card exclusion |
 
@@ -47,7 +47,7 @@ The honest reason to stay inside one bank is operations: one login, one relation
 
 The dishonest reason is loyalty for its own sake. A chequing account does not make Avion better than Aeroplan if you fly Air Canada every month.
 
-- **RBC clients** who want travel without picking an airline should read Avion Infinite, then Platinum if income is short, then Privilege only if grocery/dining earn will use the extra rate. WestJet cobrands if that is the airline. [ION+](/card/rbc-ion-plus-visa/) if you want everyday Avion without a full travel-card fee story. [RateAdvantage](/card/rbc-rateadvantage-visa/) if you revolve.
+- **RBC clients** who want travel without picking an airline should read Avion Infinite, then Platinum if income is short, then Privilege only if grocery/dining earn will use the extra rate. WestJet cobrands if that is the airline. [ION+](/card/rbc-ion-plus-visa/) if you want everyday Avion without a full travel-card fee story. [Classic Low Rate](/card/rbc-visa-classic-low-rate-option/) if you revolve.
 - **TD clients** who fly Air Canada should compare [TD Aeroplan Visa Infinite](/card/td-aeroplan-visa-infinite-card/) with Privilege and with [Amex Aeroplan](/card/american-express-aeroplan-card/). TD wins Visa acceptance and grocery/gas categories; Amex often wins dining. If you do not fly AC, TD Cash Back or First Class Travel is the other door — do not buy Aeroplan as a generic points pile.
 - **Scotia clients** must choose **Scene+ versus Momentum**. They are different products. Gold Amex and Scene+ Visa feed movies and Empire grocers. Momentum feeds cash back on grocery and recurring bills. Passport feeds FX-free travel and lounge passes. Holding Passport *and* Momentum *and* Gold Amex is three fees unless waivers make two of them cheap.
 
@@ -101,7 +101,7 @@ All three banks sell a USD card. TD’s is the no-rewards cheap Visa; RBC’s ea
 
 Scotia has the thicker **student** shelf in our catalog (Scene+, Momentum, Amex). RBC and TD students often land on adult $0 cards. See the [student guide](/guides/best-student-credit-cards-canada/).
 
-Low interest: TD Low Rate (purchase teaser), RBC RateAdvantage (prime-plus, $0), Scotia Value Visa. See the [low-interest guide](/guides/low-interest-vs-rewards-credit-cards-canada/).
+Low interest: TD Low Rate (purchase teaser), RBC Classic Low Rate (printed rate), Scotia Value Visa. See the [low-interest guide](/guides/low-interest-vs-rewards-credit-cards-canada/).
 
 ## Cross-bank pairs that are sane
 
