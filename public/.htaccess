@@ -9,6 +9,8 @@ RewriteEngine On
 # Retired URLs that still get Google impressions (one is the 404 in Search Console).
 # BMO AIR MILES Mastercard became the BMO Blue Rewards Mastercard (BMO calls it "formerly AIR MILES").
 RewriteRule ^card/bmo-air-miles-mastercard/?$ https://canadiancreditcardfinder.com/card/bmo-blue-rewards-mastercard/ [R=301,L]
+# RBC RateAdvantage Visa is discontinued. RBC now serves Visa Classic Low Rate at that product URL.
+RewriteRule ^card/rbc-rateadvantage-visa/?$ https://canadiancreditcardfinder.com/card/rbc-visa-classic-low-rate-option/ [R=301,L]
 RewriteRule ^card/scotiabank-scene-visa-card/?$ https://canadiancreditcardfinder.com/card/scotiabank-scene-plus-visa-card/ [R=301,L]
 RewriteRule ^guides/are-premium-credit-card-worth-it-canada/?$ https://canadiancreditcardfinder.com/guides/are-premium-credit-cards-worth-it-canada/ [R=301,L]
 

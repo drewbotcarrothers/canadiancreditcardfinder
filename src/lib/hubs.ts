@@ -37,7 +37,7 @@ const CASH_BACK_CATEGORY = /cash[\s-]?back|cashback|money[\s-]?back/i;
 const STUDENT_CATEGORY = /student/i;
 const REWARDS_CATEGORY = /rewards/i;
 const LOW_INTEREST_CATEGORY = /low\s*interest|low\s*rate/i;
-const LOW_INTEREST_NAME = /low\s*(interest|rate)|preferred\s*rate|rateadvantage/i;
+const LOW_INTEREST_NAME = /low\s*(interest|rate)|preferred\s*rate/i;
 const US_CATEGORY = /^us$/i;
 const US_DOLLAR_NAME = /u\.?s\.?\s*dollar/i;
 const GROCERY_WORD = /grocer(?:y|ies)/i;
@@ -185,7 +185,7 @@ export const HUBS: HubDefinition[] = [
             },
             {
                 heading: "How to choose",
-                body: "Compare the purchase interest rate first, then the annual fee. The cards on this page range from no-fee options such as the Desjardins Flexi Visa and MBNA True Line, at roughly 11% to 13%, to cards with fees of about $20 to $39 and rates from about 9% to 14%. A few are variable: the RBC RateAdvantage Visa lists prime plus 4.99%, and the National Bank Syncro lists prime plus 4%, so their rate moves with the Bank of Canada. Also check the cash advance rate. Some low-rate cards keep it low, while others charge close to 25% on cash advances, which is no different from a regular card.",
+                body: "Compare the purchase interest rate first, then the annual fee. The cards on this page range from no-fee options such as the Desjardins Flexi Visa and MBNA True Line, at roughly 11% to 13%, to cards with fees of about $20 to $39 and rates from about 9% to 14%. Some are variable: the National Bank Syncro lists prime plus 4%, so its rate moves with the Bank of Canada. Also check the cash advance rate. Some low-rate cards keep it low, while others charge close to 25% on cash advances, which is no different from a regular card.",
             },
             {
                 heading: "A worked example",

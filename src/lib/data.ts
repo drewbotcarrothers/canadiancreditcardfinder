@@ -7,6 +7,17 @@ import { slugify } from './utils';
 
 const CSV_URL = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQNMup_DS4IXwkwpnueP7v4q3KZoLxZyBPHWKr5b2g8CMUohPXZ8jpzuAzFVYOHKG-cWfHODG7H6Arw/pub?gid=272625262&single=true&output=csv'
 
+/**
+ * Discontinued products. Dropped from every public list, hub, compare set, and
+ * sitemap even if the published catalog still has a row. Old URLs 301 in
+ * astro.config.mjs and public/.htaccess.
+ */
+const RETIRED_CARD_SLUGS = new Set(['rbc-rateadvantage-visa']);
+
+function isRetiredCard(card: Pick<CreditCard, 'slug' | 'creditCardName'>): boolean {
+    return RETIRED_CARD_SLUGS.has(card.slug) || /rateadvantage/i.test(card.creditCardName);
+}
+
 interface CSVRow {
     ID: string;
     Credit_Card_Name: string;
@@ -85,7 +96,7 @@ function parseCSV(csvText: string): CreditCard[] {
         insurance: publicText(row.Insurance),
         productLink: row.Product_Link || '',
         slug: slugify(row.Credit_Card_Name || ''),
-    })).map(applyPublishedCardFacts);
+    })).map(applyPublishedCardFacts).filter((card) => !isRetiredCard(card));
 }
 
 export async function getCards(): Promise<CreditCard[]> {

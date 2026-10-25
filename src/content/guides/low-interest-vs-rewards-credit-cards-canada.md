@@ -11,7 +11,7 @@ hubLinks:
   - { href: "/best/low-interest/", label: "Best low-interest cards" }
 relatedCardSlugs:
   - td-low-rate-visa-card
-  - rbc-rateadvantage-visa
+  - rbc-visa-classic-low-rate-option
   - bmo-preferred-rate-mastercard
   - cibc-select-visa-card
 ---
@@ -37,7 +37,7 @@ Rewards do not survive revolving. That is the whole guide.
 | Pay in full always | Rewards or $0 cash back | The low rate never fires |
 | New large spend you will pay down in months | Purchase teaser (e.g. [TD Low Rate](/card/td-low-rate-visa-card/) 0% purchase window in our review) | The debt is not already on another card |
 | Balance already sitting on another issuer | Transfer teaser ([BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is 0% for 18 months with a 3% fee; [CIBC Select](/card/cibc-select-visa-card/) is a separate Visa teaser) | You are moving principal; the BMO fee is 3% |
-| Ongoing revolving, strong file, $0 fee | [RBC RateAdvantage](/card/rbc-rateadvantage-visa/) (Prime + formula in our review) | No membership fee; confirm the assigned rate |
+| Ongoing revolving, $0 fee | [Desjardins Flexi Visa](/card/desjardins-flexi-visa/) | No membership fee; confirm the printed purchase rate |
 | Costco is the revolving bill | A low-rate **Mastercard** | Costco Canada declines Visa |
 | You “might” revolve once | Rewards + pay in full | Do not buy a worse earn rate for a maybe |
 
@@ -53,9 +53,9 @@ After any teaser, you are on the ongoing rate plus any annual fee. If the balanc
 
 ## Variable prime-plus versus a printed rate
 
-**[RBC RateAdvantage Visa](/card/rbc-rateadvantage-visa/)** is $0, with purchase and cash-advance both listed as Prime + 4.99%, and a note that the low variable rate is based on your credit rating. No welcome bonus is listed. It is not [RBC Visa Classic Low Rate](/card/rbc-visa-classic-low-rate-option/), which is the sibling that has carried a printed low rate and a transfer-style teaser in our reviews.
+**[National Bank Syncro Mastercard](/card/national-bank-syncro-mastercard/)** is a variable prime-plus purchase rate (prime + 4% in that review, with a floor) at a small annual fee. Prime moves. A prime-plus card is a floating bill. Confirm the live rate before you treat the formula as a promise.
 
-Prime moves. A prime-plus card is a floating bill. Confirm the assigned rate before you treat the marketing formula as a promise.
+**[RBC Visa Classic Low Rate](/card/rbc-visa-classic-low-rate-option/)** is RBC’s low-rate Visa: a printed purchase rate and a transfer-style teaser, with a small annual fee. RBC no longer offers a separate $0 prime-plus rate Visa.
 
 **[MBNA True Line](/card/mbna-true-line-mastercard/)** is another low-rate shape if the big banks are not the right file. Read that page; do not assume a 12% print. (The [Home Trust Preferred Visa](/card/home-trust-preferred-visa/) is not a low-rate card: it charges a standard purchase rate, and its pitch is no foreign transaction fees.)
 
