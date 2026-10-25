@@ -188,7 +188,7 @@ export const FINDER_QUESTIONS: Record<FinderQuestionId, FinderQuestion> = {
             {
                 value: 'westjet',
                 label: 'WestJet',
-                description: 'WestJet Dollars cobrand cards',
+                description: 'WestJet points cobrand cards',
             },
             {
                 value: 'hotel',

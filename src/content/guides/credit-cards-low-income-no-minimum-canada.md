@@ -29,7 +29,7 @@ relatedCardSlugs:
 **Non-student cards with no published minimum:**
 
 - **American Express** cards such as the [Cobalt](/card/american-express-cobalt-card/) and [SimplyCash](/card/simplycash-card-from-american-express/) list being a Canadian resident with a Canadian credit file, and the age of majority, rather than an income figure.
-- **[RBC Visa Classic Low Rate Option](/card/rbc-visa-classic-low-rate-option/)** ($20): RBC says no specific minimum income is required.
+- **[RBC Visa Classic Low Rate Option](/card/rbc-visa-classic-low-rate-option/)** ($20): RBC lists no minimum income.
 - **[Scotiabank Scene+ Visa](/card/scotiabank-scene-plus-visa-card/)** ($0): no minimum income listed, with a $500 minimum credit limit.
 
 "No minimum income" doesn't mean "no credit check." The issuer still reviews your credit report and decides your limit.
