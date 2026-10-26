@@ -102,7 +102,7 @@ export const STACK_PERSONAS: readonly StackPersona[] = [
             {
                 slug: 'rogers-red-world-mastercard',
                 role: 'Rogers path with World Mastercard benefits',
-                note: 'Still $0 in our catalog — confirm current earn and caps on the card page.',
+                note: 'No annual fee, but it needs $50,000 personal or $80,000 household income. Accelerated earn runs on the first $26,000 a year (vs $16,000 on Rogers Red), and it adds purchase protection and extended warranty.',
             },
         ],
         notForYou: [
