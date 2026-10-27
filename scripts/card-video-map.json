@@ -612,6 +612,16 @@
       ],
       "kind": "review",
       "description": "Video review of the BMO Preferred Rate Mastercard: interest rates, annual fee, balance transfer offer and who the card suits."
+    },
+    "JGUVTXuAnaA": {
+      "cards": [
+        "cibc-aventura-visa-infinite-card",
+        "cibc-aeroplan-visa-infinite-card",
+        "cibc-dividend-visa-infinite-card",
+        "cibc-costco-mastercard"
+      ],
+      "kind": "offers",
+      "description": "CIBC credit cards ranked by welcome offer (October 2026): Aventura Visa Infinite, Aeroplan Visa Infinite, Dividend Visa Infinite and Costco Mastercard, with the spend target, annual fee and who each one fits."
     }
   },
   "skip": {
