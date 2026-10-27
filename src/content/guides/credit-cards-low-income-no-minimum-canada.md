@@ -4,7 +4,7 @@ description: "Canadian credit cards you can get with a low income or no income r
 excerpt: "You don't need a high salary to get a useful credit card in Canada. These cards have low published income requirements, or none at all, and still earn rewards."
 primaryKeyword: "credit card no minimum income canada"
 publishedAt: 2026-10-15T12:00:00-04:00
-updatedAt: 2026-10-15T12:00:00-04:00
+updatedAt: 2026-10-27T12:00:00-04:00
 sortOrder: 37
 hubLinks:
   - { href: "/best/no-annual-fee/", label: "Best no annual fee cards" }
@@ -31,6 +31,8 @@ relatedCardSlugs:
 - **American Express** cards such as the [Cobalt](/card/american-express-cobalt-card/) and [SimplyCash](/card/simplycash-card-from-american-express/) list being a Canadian resident with a Canadian credit file, and the age of majority, rather than an income figure.
 - **[RBC Visa Classic Low Rate Option](/card/rbc-visa-classic-low-rate-option/)** ($20): RBC lists no minimum income.
 - **[Scotiabank Scene+ Visa](/card/scotiabank-scene-plus-visa-card/)** ($0): no minimum income listed, with a $500 minimum credit limit.
+- **[Scotia Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/)** ($0): no minimum income listed. 1% cash back on groceries, gas, transit, drugstores and recurring bills (up to $15,000 a year), 0.5% on everything else.
+- **[Scotiabank Value Visa](/card/scotiabank-value-visa-card/)** ($29): no minimum income listed, and a 13.99% rate on purchases and cash advances.
 
 "No minimum income" doesn't mean "no credit check." The issuer still reviews your credit report and decides your limit.
 
@@ -39,8 +41,7 @@ relatedCardSlugs:
 | Card | Annual fee | Listed income requirement |
 |---|---|---|
 | [Scotiabank Gold American Express](/card/scotiabank-gold-american-express-card/) | $120 | $12,000 personal |
-| [Scotia Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/) | $0 | $12,000 |
-| [Scotiabank Value Visa](/card/scotiabank-value-visa-card/) | $29 | $12,000 personal |
+| [Scotiabank American Express Card](/card/scotiabank-american-express-card/) | $0 | $12,000 personal |
 | [CIBC Dividend Visa](/card/cibc-dividend-visa-card/) | $0 | $15,000 household |
 | [CIBC Aeroplan Visa](/card/cibc-aeroplan-visa-card/) | $0 | $15,000 household |
 | [CIBC Costco Mastercard](/card/cibc-costco-mastercard/) | $0 (Costco membership required) | $15,000 |
