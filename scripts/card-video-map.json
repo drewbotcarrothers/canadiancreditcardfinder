@@ -612,6 +612,14 @@
       ],
       "kind": "review",
       "description": "Video review of the BMO Preferred Rate Mastercard: interest rates, annual fee, balance transfer offer and who the card suits."
+    },
+    "6qAawYKAxJ0": {
+      "cards": [
+        "rbc-avion-visa-infinite",
+        "td-first-class-travel-visa-infinite-card"
+      ],
+      "kind": "head-to-head",
+      "description": "RBC Avion Visa Infinite vs TD First Class Travel Visa Infinite: annual fees, welcome offers, how each card earns points and which bank travel card suits you."
     }
   },
   "skip": {
