@@ -612,6 +612,16 @@
       ],
       "kind": "review",
       "description": "Video review of the BMO Preferred Rate Mastercard: interest rates, annual fee, balance transfer offer and who the card suits."
+    },
+    "WAdY7HaAgkA": {
+      "cards": [
+        "bmo-cashback-world-elite-mastercard",
+        "rbc-cash-back-preferred-world-elite-mastercard",
+        "brim-mastercard"
+      ],
+      "kind": "persona",
+      "note": "Landlord stack: 3 slots (BMO CashBack WE, RBC Cash Back Preferred WE, Brim); all 3 are the video's picks.",
+      "description": "A landlord credit card stack for Canada: why card acceptance matters more than points, how to use the interest-free float without carrying a balance, and keeping rental spending on its own card for clean books."
     }
   },
   "skip": {
