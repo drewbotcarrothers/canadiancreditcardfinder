@@ -97,7 +97,8 @@ def short_description(text: str, limit: int = 200) -> str:
     first = ''
     for line in (text or '').splitlines():
         line = line.strip()
-        if line and not re.match(r'^(👉|🔗|http)', line):
+        # Skip link lines, incl. the tracked 'Compare ...: https://...' first line (2026-10-23+).
+        if line and not re.match(r'^(👉|🔗|http)', line) and 'http' not in line:
             first = line
             break
     first = re.sub(r'https?://\S+', '', first)
