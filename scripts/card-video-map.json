@@ -620,6 +620,14 @@
       ],
       "kind": "head-to-head",
       "description": "RBC Avion Visa Infinite vs TD First Class Travel Visa Infinite: annual fees, welcome offers, how each card earns points and which bank travel card suits you."
+    },
+    "npKYv2Wd6p4": {
+      "cards": [
+        "westjet-rbc-world-elite-mastercard",
+        "bmo-viporter-world-elite-mastercard"
+      ],
+      "kind": "head-to-head",
+      "description": "WestJet RBC World Elite Mastercard vs BMO VIPorter World Elite Mastercard: annual fees, welcome offers, airline perks and which card fits your home airport."
     }
   },
   "skip": {
