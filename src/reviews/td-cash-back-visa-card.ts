@@ -24,7 +24,7 @@ const review: CardEditorialReview = {
     pros: [
         'No annual fee, so 1% on a wide bonus stack does not have to beat a membership first.',
         'The bonus list is the same personality as Infinite — grocery, gas, EV, transit, recurring bills, streaming — just at 1% instead of 3%.',
-        'Additional cards currently show $0, which is kinder than Infinite’s first extra-card fee.',
+        'Up to 3 additional cards cost $0, which is kinder than Infinite’s first extra-card fee.',
         'No Infinite income test in the eligibility text. This is the accessible TD cash-back Visa.',
         'Visa acceptance is straightforward at Canadian merchants that still skip American Express. Costco is still a Mastercard problem, not a TD problem.',
     ],
@@ -33,12 +33,12 @@ const review: CardEditorialReview = {
         'Each 1% category currently has its own annual spend cap in the detailed terms. Four caps sound generous until one of them is the whole grocery year.',
         'This card currently lists no welcome bonus, detailed offer, dollar value, or bonus eligibility. Year-one value is just the earn rates.',
         '“Recurring bills” and “streaming” depend on how the merchant flags the charge. A bill you pay manually in the app may miss the 1% bucket.',
-        'Check the issuer’s site for current insurance coverage. This is a $0 cash-back Visa, not a travel-medical product.',
+        'Insurance is limited to purchase security and extended warranty (90 days). There is no built-in travel coverage. The purchase rate is 21.99%.',
     ],
     feesAndValue:
         'This is a $0-fee card, with extra cards at $0, so the usual “bonus minus annual fee” snapshot on this page will look empty or unhelpful. Value is 1% on the bonus stack minus 0.5% on everything else, until a category cap bites. If those bonus buckets cover most of what you already spend and you stay under the caps, this is a simple TD everyday card. If two Tangerine categories would cover more of the month, Tangerine wins at the same $0. If grocery, bills, and streaming are large enough that an extra 2% (Infinite’s 3% minus this card’s 1%) clears Infinite’s fee, Infinite wins. There is no first-year fee rebate to hide a weak fit. Offers change; if TD is running a limited-time 10%-style window on Infinite, this card currently does not copy it.',
     rewardsExplained:
-        'This card pays Cash Back Dollars, TD’s name for cash back. Eligible grocery, gas and EV charging, public transit, recurring bill payments, and streaming, digital gaming, and media purchases earn 1%. All other purchases earn 0.5%. Those percentages only apply when the network codes the merchant into those buckets, and only until the annual cap in each listed category — the detailed feature list currently names a per-category cap, then the 0.5% base rate. A warehouse club, a restaurant inside a grocer, a prepaid streaming gift card, or a “bill” paid by e-transfer will usually miss 1%. Redeem Cash Back Dollars as a statement credit or according to TD’s current redemption menu. If you want the same stack at 3% and 1%, that is Infinite. If you want chosen 2% categories at $0, that is Tangerine.',
+        'This card pays Cash Back Dollars, TD’s name for cash back. Eligible grocery, gas and EV charging, public transit, recurring bill payments, and streaming, digital gaming, and media purchases earn 1%. All other purchases earn 0.5%. Those percentages only apply when the network codes the merchant into those buckets, and only until the annual cap in each listed category — the detailed feature list currently names a per-category cap, then the 0.5% base rate. A warehouse club, a restaurant inside a grocer, a prepaid streaming gift card, or a “bill” paid by e-transfer will usually miss 1%. Redeem Cash Back Dollars toward your balance at any time (minimum $25) or once a year. They do not expire while the account is open and in good standing. If you want the same stack at 3% and 1%, that is Infinite. If you want chosen 2% categories at $0, that is Tangerine.',
     welcomeBonus:
         'This card currently lists no welcome bonus, detailed offer, dollar value, or eligibility text. Treat that as “none on file,” not as a hidden 10% window copied from Infinite. If TD is running a limited-time cash offer on the no-fee Visa, it will be on their application page — use that, not this paragraph.',
     faqs: [

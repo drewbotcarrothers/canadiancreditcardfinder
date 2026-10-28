@@ -147,7 +147,7 @@ const PATCHES: Record<string, CardFactPatch> = {
         featuresDetailed:
             "1 Aeroplan point per $1 on gas, EV charging, grocery and Air Canada purchases (up to $80,000 of those a year), and 1 point per $1.50 on everything else.\n\nWhat it means: $1,500 a month split evenly between bonus and other spending earns about 15,000 points a year.",
         welcomeBonusDetailed:
-            "10,000 Aeroplan points when you make your first purchase, plus 5,000 more when you spend $1,000 within 90 days of opening the account.",
+            "10,000 Aeroplan points when you make your first purchase, plus 10,000 more when you spend $1,500 within 90 days of opening the account. The first-year annual fee is rebated for the primary cardholder (activate and make the first purchase within 3 months) and for up to 3 additional cardholders added within 3 months.",
         welcomeBonusEligibility:
             "To be eligible, you must be approved for a TD Aeroplan Visa Platinum Card account while this offer is in effect, and must not have opened any TD Aeroplan Visa account (for example Platinum, Infinite, Infinite Privilege or Business) in the last 12 months.",
     },
