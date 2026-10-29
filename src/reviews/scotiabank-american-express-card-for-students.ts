@@ -51,7 +51,7 @@ const review: CardEditorialReview = {
         {
             question: 'Student Scotia Amex vs adult Scotiabank American Express Card?',
             answer:
-                'Earn currently matches. Adult [Scotia Amex](/card/scotiabank-american-express-card/) currently lists a smaller welcome (up to 5,000) with different offer windows. This student card currently requires enrolment at a Canadian post-secondary school and lists up to 10,000 Scene+ through November 1, 2026. Choose student if that is your file. Choose adult if you are not a student.',
+                'Earn and the current welcome offer (up to 10,000 Scene+ for accounts opened by November 1, 2026) match. Adult [Scotia Amex](/card/scotiabank-american-express-card/) lists a $12,000 minimum personal income; this student card requires enrolment at a Canadian post-secondary school. Choose student if that is your file. Choose adult if you are not a student.',
         },
         {
             question: 'Student Amex vs Scene+ Visa for students?',

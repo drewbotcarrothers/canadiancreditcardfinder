@@ -4,7 +4,7 @@ description: "Why Canadian credit card applications get declined, how to find ou
 excerpt: "A declined application stings, but it's usually fixable. Here's how to find the real reason, protect your credit score, and choose a better-matched card next time."
 primaryKeyword: "credit card application declined canada"
 publishedAt: 2026-10-15T12:00:00-04:00
-updatedAt: 2026-10-15T12:00:00-04:00
+updatedAt: 2026-10-27T12:00:00-04:00
 sortOrder: 31
 hubLinks:
   - { href: "/best/no-annual-fee/", label: "Best no annual fee cards" }
@@ -71,9 +71,9 @@ When you try again, pick a card whose requirements you clearly meet. Some lower-
 |---|---|---|
 | [CIBC Dividend Visa](/card/cibc-dividend-visa-card/) | $0 | $15,000 minimum household income |
 | [Simplii Financial Cash Back Visa](/card/simplii-financial-cash-back-visa/) | $0 | $15,000 minimum household income; not available in Quebec |
-| [Scotia Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/) | $0 | $12,000 minimum income |
+| [Scotia Momentum No-Fee Visa](/card/scotia-momentum-no-fee-visa-card/) | $0 | No minimum income listed |
 | [CIBC Dividend Visa for Students](/card/cibc-dividend-visa-card-for-students/) | $0 | No minimum income; credit limit up to $5,000 for Canadian students, $2,000 for international students |
-| [Scotiabank Value Visa](/card/scotiabank-value-visa-card/) | $29 | $12,000 personal income; 13.99% purchase rate |
+| [Scotiabank Value Visa](/card/scotiabank-value-visa-card/) | $29 | No minimum income listed; 13.99% purchase rate |
 
 If you still can't get approved, a secured credit card (backed by a deposit you provide) is a common way to start building history. Ask your bank whether it offers one.
 
