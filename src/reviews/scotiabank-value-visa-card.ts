@@ -6,12 +6,12 @@ const review: CardEditorialReview = {
     h1: 'Scotiabank Value Visa Card Review',
     primaryKeyword: 'scotiabank value visa card review',
     metaDescription:
-        'Scotiabank Value Visa Card review for 2026: 13.99% rate, $29 fee, 0.99% balance-transfer intro vs TD Low Rate and BMO Preferred Rate, who should skip it.',
+        'Scotiabank Value Visa Card review for 2026: 13.99% rate, $29 fee, 0% balance-transfer intro vs TD Low Rate and BMO Preferred Rate, who should skip it.',
     intro:
-        'The Scotiabank Value Visa Card is Scotiabank’s low-rate Visa, not a Momentum cash-back card: a 13.99%-class purchase rate that currently matches the cash-advance rate, a $29-class annual fee waived in year one on the current welcome line, and a 0.99% promotional rate on balance transfers for nine months with a 2% transfer fee. Rewards are N/A. This Scotiabank Value Visa Card review treats the product as a rate tool, compares that transfer teaser with [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) and [TD Low Rate Visa](/card/td-low-rate-visa-card/), and tells you when [Scotia Momentum Visa](/card/scotia-momentum-visa-card/) is the better Scotia card because you pay in full.',
+        'The Scotiabank Value Visa Card is Scotiabank’s low-rate Visa, not a Momentum cash-back card: a 13.99%-class purchase rate that currently matches the cash-advance rate, a $29-class annual fee waived in year one with the current offer, and a 0% promotional rate on balance transfers for nine months with a 1% transfer fee (for accounts opened by January 3, 2027). Rewards are N/A. This Scotiabank Value Visa Card review treats the product as a rate tool, compares that transfer teaser with [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) and [TD Low Rate Visa](/card/td-low-rate-visa-card/), and tells you when [Scotia Momentum Visa](/card/scotia-momentum-visa-card/) is the better Scotia card because you pay in full.',
     whoItsFor: [
-        'People who will transfer a balance, can live with a 2% transfer fee, and will repay that transfer before the nine-month 0.99% window ends.',
-        'Applicants who meet the modest personal-income figure in eligibility, have not held a Scotiabank personal credit card in the past two years if they want the teaser, and who understand this is not 2% grocery cash back.',
+        'People who will transfer a balance, can live with a 1% transfer fee, and will repay that transfer before the nine-month 0% window ends.',
+        'Applicants who have not held a Scotiabank personal credit card in the past two years if they want the teaser (Scotiabank lists no minimum income), and who understand this is not 2% grocery cash back.',
         'Scotiabank customers who want extra cards at $0 — the issuer currently lists additional cards at $0.',
         'Anyone whose problem is an existing card’s balance, not a Scene+ grocery month.',
     ],
@@ -23,34 +23,34 @@ const review: CardEditorialReview = {
     ],
     pros: [
         'Purchase and cash-advance rates currently match at a 13.99%-class figure below typical Canadian rewards cards.',
-        'The current welcome line pairs 0.99% on balance transfers for nine months, a 2% transfer fee, and a first-year annual-fee waiver.',
+        'The current offer pairs 0% on balance transfers for nine months, a 1% transfer fee (minimum $5), and a first-year annual-fee waiver.',
         'Additional cards currently show $0.',
-        'The income bar in the eligibility text is modest next to Passport Infinite.',
+        'Scotiabank lists no minimum income for this card.',
         'Visa acceptance is straightforward at Canadian merchants that still skip American Express — just not at Costco.',
     ],
     cons: [
         'There is no rewards program. Features currently say you save on interest and pay down higher-rate balances faster — that is the product, not a consolation prize.',
-        'The two-year Scotiabank-card exclusion currently applies to this teaser. A recent Momentum or Scene+ card can kill the 0.99% window.',
-        'Welcome-value currently empty / not a cash gift. The first-year snapshot will not manufacture a bonus from a transfer teaser. Ignore affiliate “cash bonus” asides in the detailed feature list unless Scotiabank itself is paying them.',
+        'The two-year Scotiabank-card exclusion currently applies to this teaser. A recent Momentum or Scene+ card can kill the 0% window. Missing two minimum payments in a row also ends it, and the rates then jump to 24.99% on purchases and 27.99% on cash advances.',
+        'There is no cash welcome bonus. The first-year snapshot will not turn a transfer teaser into a bonus value.',
         'A Visa cannot check out at Costco Canada.',
-        'Check the issuer’s site for current insurance coverage. This is a low-rate Visa, not a travel-medical product.',
+        'There is no built-in insurance; Scotia Credit Card Protection is optional and costs extra.',
     ],
     feesAndValue:
-        'The fee table shows a $29-class card; the detail line currently notes a first-year waiver, with extra cards at $0. There is no welcome-bonus value to subtract, so the first-year snapshot on this page will not look like a cash gift. Year one is $0 fee plus 0.99% on a transfer minus the 2% transfer fee. Year two is $29 versus a 13.99%-class purchase rate with no teaser. If you pay in full, Momentum is the better Scotiabank card. If you needed 0% on new purchases, TD Low Rate is the comparison. If you needed a Mastercard and a Performance-chequing rebate, BMO Preferred Rate is the other transfer-shaped product. Offers change. A 2% transfer fee still costs money even at 0.99% interest. Pay the promo down before it ends.',
+        'The annual fee is $29, waived in the first year on the current offer, with extra cards at $0. There is no welcome-bonus value to subtract, so the first-year snapshot on this page will not look like a cash gift. Year one is $0 fee plus 0% on a transfer, minus the 1% transfer fee. Year two is $29 versus a 13.99%-class purchase rate with no teaser. If you pay in full, Momentum is the better Scotiabank card. If you needed 0% on new purchases, TD Low Rate is the comparison. If you needed a Mastercard and a Performance-chequing rebate, BMO Preferred Rate is the other transfer-shaped product. Offers change. A 1% transfer fee still costs money even at 0% interest. Pay the promo down before it ends.',
     rewardsExplained:
-        'This card does not pay Scene+ or Momentum cash back. Rewards currently say N/A; detailed features currently restate a low interest rate on purchases, cash advances, and balance transfers. Put a revolving balance or an incoming transfer here. Put grocery you pay in full on [Scotia Momentum Visa Card](/card/scotia-momentum-visa-card/) or [Tangerine Money-Back](/card/tangerine-money-back-credit-card/). Put Sobeys Scene+ on a Scotia Amex. Costco Canada is still Mastercard-only, so this Visa will not help at the warehouse even at 13.99%.',
+        'This card does not pay Scene+ or Momentum cash back. There is no rewards program; the value is a 13.99% rate on purchases, cash advances, and balance transfers. Put a revolving balance or an incoming transfer here. Put grocery you pay in full on [Scotia Momentum Visa Card](/card/scotia-momentum-visa-card/) or [Tangerine Money-Back](/card/tangerine-money-back-credit-card/). Put Sobeys Scene+ on a Scotia Amex. Costco Canada is still Mastercard-only, so this Visa will not help at the warehouse even at 13.99%.',
     welcomeBonus:
-        'The current welcome line is a 0.99% promotional interest rate on balance transfers for the first nine months with a 2% balance-transfer fee, plus no annual fee in year one. Eligibility currently excludes current or former primary or secondary Scotiabank personal cardholders in the past two years, including product-changers. The detailed feature list mentions some affiliates offering a cash bonus — that is not a Scotiabank welcome bonus. Do not transfer more than you can repay before the teaser ends.',
+        'The current offer, for accounts opened July 2, 2026 to January 3, 2027, is a 0% promotional interest rate on balance transfers (and other cash advances) for the first nine months, with a 1% fee on each transfer (minimum $5), plus no annual fee in year one. After nine months, any remaining transferred balance moves to 13.99%. If you miss the minimum payment twice in a row, you lose the promotional rate and the standard rates (currently 24.99% on purchases and 27.99% on cash advances) apply. Current or former primary or secondary Scotiabank personal cardholders in the past two years, including people who switched cards, are not eligible. Do not transfer more than you can repay before the teaser ends.',
     faqs: [
         {
             question: 'Is the Scotiabank Value Visa Card worth it in 2026?',
             answer:
-                'It is worth it when you will complete a transfer, the 0.99% window and 13.99%-class ongoing rate beat the card you have now after the 2% fee, and you have a payoff date. It is not worth it as a cash-back Visa or as a card you pay in full.',
+                'It is worth it when you will complete a transfer, the 0% window and 13.99% ongoing rate beat the card you have now after the 1% fee, and you have a payoff date. It is not worth it as a cash-back Visa or as a card you pay in full.',
         },
         {
             question: 'Value Visa vs TD Low Rate vs BMO Preferred Rate?',
             answer:
-                'This Visa currently lists 13.99%, a $29-class fee waived in year one, and 0.99% on transfers for nine months with a 2% fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists a lower ongoing purchase rate and 0% on purchases. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is a Mastercard at 13.99% on purchases, with 0% on balance transfers for 18 months and a 3% transfer fee. Match purchases versus transfers to the debt you actually have.',
+                'This Visa currently lists 13.99%, a $29-class fee waived in year one, and 0% on transfers for nine months with a 1% fee. [TD Low Rate](/card/td-low-rate-visa-card/) currently lists a lower ongoing purchase rate and 0% on purchases. [BMO Preferred Rate](/card/bmo-preferred-rate-mastercard/) is a Mastercard at 13.99% on purchases, with 0% on balance transfers for 18 months and a 3% transfer fee. Match purchases versus transfers to the debt you actually have.',
         },
         {
             question: 'Value Visa vs Scotia Momentum Visa?',
