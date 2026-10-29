@@ -30,7 +30,7 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'Rewards are N/A. No welcome bonus, detail, value, or eligibility terms are listed either — year one is the fee versus FX savings, full stop.',
-        'Check the issuer’s site for current insurance coverage. Do not assume travel medical coverage from a USD Visa.',
+        'Insurance is a short list: trip interruption up to $5,000 per person, common carrier travel accident up to $500,000, delayed and lost baggage up to $1,000, auto rental collision/loss damage (up to 48 days), and purchase security / extended warranty. There is no built-in travel medical coverage.',
         'A Visa cannot check out at Costco. BMO’s USD Mastercard is the warehouse comparison.',
         'Eligibility does not print a USD-account requirement the way BMO’s listing does, but you still need a USD source to avoid converting CAD at the bill. Confirm TD’s funding rules.',
         'Cash-advance interest is higher than purchases. USD cash from an ATM is not the feature.',
@@ -65,7 +65,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card cover euros or other currencies?',
             answer:
-                'The card’s features talk about U.S. dollars, not a global no-FX policy. For mixed-currency travel from a CAD card, compare Passport Infinite, and confirm TD’s treatment of non-USD foreign transactions in the agreement.',
+                'No. TD says purchases in currencies other than U.S. dollars are converted to U.S. dollars and charged a foreign currency conversion fee. For mixed-currency travel from a CAD card, compare Passport Infinite.',
         },
     ],
     extraHubSlugs: ['us-dollar'],
