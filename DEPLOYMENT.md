@@ -94,4 +94,4 @@ Hostinger env vars do not reach this static FTP build, so set these under **GitH
 | `PUBLIC_PLAYBOOK_BUNDLE_FOLDER_URL` / `PUBLIC_PLAYBOOK_BUNDLE_DOWNLOAD_URL` | Drive folder / zip for the $49 tier |
 | `PUBLIC_PLAYBOOK_SCRIPTS_FOLDER_URL` / `PUBLIC_PLAYBOOK_SCRIPTS_DOWNLOAD_URL` | Drive folder / zip for the $9 tier |
 
-Until a Payment Link variable is set, its buy buttons fall back to `#buy`. After changing variables, re-run the deploy workflow on master.
+Until a Payment Link variable is set, its buy buttons fall back to `#buy`. After changing variables, re-run the deploy workflow on main.
