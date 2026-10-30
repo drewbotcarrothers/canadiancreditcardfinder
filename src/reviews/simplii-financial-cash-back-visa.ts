@@ -6,66 +6,66 @@ const review: CardEditorialReview = {
     h1: 'Simplii Financial Cash Back Visa Review',
     primaryKeyword: 'simplii financial cash back visa review',
     metaDescription:
-        'Simplii Financial Cash Back Visa review for 2026: dining cash back, grocery and gas caps, conflicting fee details, and whether Simplii is worth it.',
+        'Simplii Financial Cash Back Visa review for 2026: $0 fee, 4% dining cash back, 1.5% gas and grocery caps, the welcome offer, and whether Simplii is worth it.',
     intro:
-        'The Simplii Financial Cash Back Visa is CIBC’s digital-bank cash-back card, aimed at people who eat out and want a Visa they can use at almost any till. The issuer currently describes elevated cash back on restaurants, bars, and coffee, then 1.5% on gas, groceries, drugstores, and pre-authorized payments with annual caps, and a lower rate on everything else. It also disagrees with itself on the annual fee and lists a welcome offer that mentions Aeroplan — odd for a cash-back Visa. This Simplii Financial Cash Back Visa review sticks to the earn mix we can describe, flags those conflicts, and compares the card with [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) and CIBC’s own Dividend line.',
+        'The Simplii Financial Cash Back Visa is CIBC’s digital-bank cash-back card, aimed at people who eat out and want a Visa they can use at almost any till. It has no annual fee for the primary cardholder or up to 3 additional cardholders. It pays 4% cash back on restaurants, bars and coffee shops (first $5,000 a year), 1.5% on gas, groceries, drugstores and pre-authorized payments (first $15,000 a year), and 0.5% on everything else. This Simplii Financial Cash Back Visa review covers the caps, the dining-focused welcome offer, and how the card compares with [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) and CIBC’s own Dividend line.',
     whoItsFor: [
-        'People whose restaurant, bar, and coffee spend is large enough for Simplii’s elevated dining category to matter, and who will watch the caps.',
-        'Households that also put gas, groceries, drugstores, and pre-authorized bills on one Visa and can live with the 1.5% rate.',
-        'CIBC or Simplii customers who want a digital-bank card without walking into a branch for the application.',
-        'Anyone who pays in full. The purchase rate is not a feature.',
+        'People whose restaurant, bar and coffee spend is large enough for the 4% dining category to matter, and who will watch the $5,000 annual cap.',
+        'Households that also put gas, groceries, drugstores and pre-authorized bills on one Visa and can live with 1.5% up to $15,000 a year.',
+        'People who want a no-fee card with up to 3 free additional cardholders whose spending earns cash back for the primary account.',
+        'Anyone who pays in full. The 21.99% purchase rate is not a feature.',
     ],
     whoShouldSkip: [
-        'Travellers collecting Aeroplan on purpose. Even though the welcome offer text currently mentions Aeroplan points, this product is positioned as cash back — do not pick it as an Air Canada cobrand.',
+        'Travellers collecting Aeroplan or other points on purpose. This card pays cash back only.',
         'Shoppers who want to choose 2% categories instead of living inside Simplii’s dining-and-caps box. That is [Tangerine Money-Back](/card/tangerine-money-back-credit-card/).',
         'Applicants who qualify for a 4% grocery Visa Infinite such as the [CIBC Dividend Visa Infinite Card](/card/cibc-dividend-visa-infinite-card/) and will spend enough at the supermarket to clear that fee.',
-        'Anyone who hates tracking caps. The 1.5% buckets are explicitly capped in the feature list; once you blow past them, the rate drops.',
+        'Quebec residents. Simplii’s eligibility list excludes Quebec.',
     ],
     pros: [
-        'Dining, bars, and coffee are the personality of the card, which is a better everyday story than a flat 1% Visa if you actually eat out.',
-        '1.5% on gas, groceries, drugstores, and pre-authorized payments covers a lot of a Canadian month — until the annual caps hit.',
+        'No annual fee for the primary cardholder or up to 3 additional cardholders.',
+        '4% on restaurants, bars and coffee shops (first $5,000 a year) is a strong dining rate for a $0 Visa.',
+        '1.5% on gas, groceries, drugstores and pre-authorized payments (first $15,000 a year) covers a lot of a Canadian month.',
         'Visa acceptance is the practical advantage over an American Express cash-back card at grocers and small merchants.',
-        'Simplii is built for people who already do their banking in an app, without a Big Five branch requirement on the product page.',
-        'The detailed features tell you to confirm current rates and caps on Simplii’s site, which is the right instinct for a card whose listed details are messy.',
+        'Low $15,000 household income requirement, plus a free Skip+ membership when you link the card.',
     ],
     cons: [
-        'The headline currently shows a non-zero annual fee, while the detailed features say “no annual fee.” Until Simplii’s live page settles that, do not budget from this review’s fee tile alone.',
-        'The welcome offer text currently bundles a large “up to” value with Aeroplan points and a first-year fee rebate. That reads like a cobrand offer sitting on a cash-back card. We will not treat those Aeroplan figures as a Simplii signup gift.',
-        'Annual caps on the 1.5% categories mean heavy grocery or bill-pay households fall back to the lower rate partway through the year.',
-        'Additional-card fees, the cash-advance rate, eligibility terms, and insurance are not currently listed.',
-        'Cash back will not book a lie-flat seat. If you want Aeroplan, use an Aeroplan cobrand and ignore this card’s bonus wording.',
+        'Annual caps on dining ($5,000) and everyday 1.5% ($15,000) mean heavy spenders drop to 0.5% partway through the year.',
+        'Cash back is paid once a year as a credit on the primary cardholder’s January statement, not monthly.',
+        'Foreign-currency purchases carry a 2.5% conversion fee.',
+        'Insurance is limited to purchase security (90 days) and extended protection (doubles the manufacturer’s warranty, up to one extra year). There is no built-in travel insurance.',
+        'The welcome offer is small: the bonus on top of the regular 4% is capped at $40.',
     ],
     feesAndValue:
-        'Start with the fee line, then open Simplii’s own page. The headline annual fee and the detailed features currently tell two different stories: one looks like a mid-tier paid card, the other like the no-fee digital Visa Simplii has long been known for. The welcome offer text also mentions a first-year fee rebate, which only makes sense if a fee exists. This review will not pick a winner between those figures. If the live product is $0, value is just dining cash back minus caps. If the live product charges the listed fee, dining and the 1.5% buckets have to clear that bar the same way any other paid cash-back card does. Offers change. Pay the statement in full either way.',
+        'There is no annual fee for the primary cardholder or up to 3 additional cardholders, so value is simply the cash back you earn. $400 a month at restaurants and $700 a month on gas, groceries and bills would earn about $192 + $126 = $318 a year before the 0.5% on everything else. Above the caps the rate falls to 0.5%. The purchase rate is 21.99% and the cash advance rate is 22.99%, so pay the statement in full. Offers change.',
     rewardsExplained:
-        'This is a cash-back Visa, not an Aeroplan card, despite what the welcome offer text currently says. The card’s features describe elevated cash back on restaurants, bars, and coffee; 1.5% on gas, groceries, drugstores, and pre-authorized payments with annual caps; and a lower rate on everything else. Merchant coding still applies: a grocery-store hot bar, a coffee counter inside a bookstore, or a “pre-authorized” payment that the network does not flag as recurring can miss the bonus bucket. Redeem as cash back according to Simplii’s rules, not as flight rewards.',
+        'This is a cash-back Visa. Simplii pays 4% on eligible restaurant, bar, coffee shop, fast food and caterer purchases on the first $5,000 a year; 1.5% on eligible gas, grocery and drugstore purchases and pre-authorized payments on the first $15,000 a year; and 0.5% on everything else, including spend above those limits. The limits reset after your December statement, and cash back is credited once a year on the primary cardholder’s January statement. Additional cardholders’ purchases earn cash back for you. Merchant coding still applies: a grocery-store hot bar or a coffee counter inside a bookstore can miss the bonus bucket.',
     welcomeBonus:
-        'The current welcome bonus describes a large “up to” value that includes Aeroplan points and a first-year fee rebate. That looks like a listing error, and it is a poor fit for a Simplii cash-back Visa. This review will not walk you through how to unlock 50,000-class Aeroplan on a product whose earn mix is restaurants and groceries. Use Simplii’s application page. If that page shows a cash offer, a fee rebate, or no bonus at all, believe Simplii. If it shows Aeroplan, you are likely looking at the wrong product. No eligibility terms are listed, so a 12-month exclusion is not confirmed either — though most Canadian issuers apply one.',
+        'For new cardholders approved from October 26, 2026, Simplii doubles the dining rate to 8% (the regular 4% plus a 4% bonus) on restaurant, bar and coffee shop purchases for your first 3 monthly statement periods or your first $1,000 of those purchases, whichever comes first. That is up to $80 in total cash back, of which $40 is the bonus. Those purchases still count toward the $5,000 annual dining limit. You are not eligible if you opened or cancelled a Simplii Cash Back Visa in the last 12 months, and Simplii can change or withdraw the offer at any time.',
     faqs: [
         {
             question: 'Is the Simplii Financial Cash Back Visa worth it in 2026?',
             answer:
-                'It is worth it when dining and coffee are a real share of spend, you will respect the 1.5% caps, and Simplii’s live fee matches what you are willing to pay. It is not worth it as an Aeroplan strategy or as a 5% grocery card.',
+                'It is worth it when dining and coffee are a real share of spend, you will stay under the caps, and you want a $0 fee Visa. It is not worth it as a points or travel card, or as a 5% grocery card.',
         },
         {
             question: 'Does the Simplii Cash Back Visa have an annual fee?',
             answer:
-                'The listing currently disagrees with itself: the headline annual fee shows a paid card, and the detailed features call it a no-annual-fee cash-back Visa. Confirm on Simplii’s site before you apply, and treat this page’s fee tile as a prompt to check, not as the last word.',
+                'No. Simplii lists a $0 annual fee for the primary cardholder and up to 3 additional cardholders.',
         },
         {
-            question: 'Does this card earn Aeroplan points?',
+            question: 'What is the Simplii Cash Back Visa welcome offer?',
             answer:
-                'The rewards program is cash back. A welcome bonus that mentions Aeroplan is not the same thing as an Aeroplan cobrand. If you want Aeroplan, look at the [CIBC Aeroplan Visa Infinite Card](/card/cibc-aeroplan-visa-infinite-card/) instead.',
+                'For cards approved from October 26, 2026, you earn 8% cash back on restaurant, bar and coffee shop purchases for your first 3 statement periods or first $1,000 in those purchases, whichever comes first (up to $80 total, $40 of it bonus). It is not available if you had this card in the last 12 months.',
         },
         {
             question: 'Simplii vs Tangerine Money-Back?',
             answer:
-                '[Tangerine](/card/tangerine-money-back-credit-card/) currently lists a $0 fee and lets you pick 2% categories. Simplii hard-wires dining plus capped 1.5% everyday categories. Choose Tangerine for control; choose Simplii if restaurants are the whole point and the live Simplii fee is acceptable.',
+                '[Tangerine](/card/tangerine-money-back-credit-card/) currently lists a $0 fee and lets you pick 2% categories. Simplii hard-wires 4% dining plus capped 1.5% everyday categories at $0. Choose Tangerine for control; choose Simplii if restaurants are the whole point.',
         },
         {
             question: 'Simplii vs CIBC Dividend Visa Infinite?',
             answer:
-                '[Dividend Visa Infinite](/card/cibc-dividend-visa-infinite-card/) is CIBC’s paid grocery-and-gas cash-back card with Visa Infinite income rules. Simplii is the digital, dining-led sibling under the same parent. They are not substitutes: one is a supermarket Infinite card, the other is an everyday Visa with caps.',
+                '[Dividend Visa Infinite](/card/cibc-dividend-visa-infinite-card/) is CIBC’s paid grocery-and-gas cash-back card with Visa Infinite income rules. Simplii is the digital, dining-led $0 sibling under the same parent. They are not substitutes: one is a supermarket Infinite card, the other is an everyday Visa with caps.',
         },
     ],
     extraHubSlugs: ['cash-back', 'groceries'],

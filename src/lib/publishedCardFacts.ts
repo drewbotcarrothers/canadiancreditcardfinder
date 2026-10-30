@@ -57,9 +57,9 @@ const PATCHES: Record<string, CardFactPatch> = {
     },
     'american-express-aeroplan-card': {
         features:
-            "2 points per $1 on eligible Air Canada and Air Canada Vacations purchases, 1.5 per $1 on eligible dining and food delivery in Canada, and 1 per $1 on everything else.",
+            "2 points per $1 on eligible Air Canada and Air Canada Vacations purchases, 1.5 per $1 on eligible dining and food delivery in Canada and at participating Hyatt hotels and resorts, and 1 per $1 on everything else.",
         featuresDetailed:
-            "Earns Aeroplan points: 2 per $1 directly with Air Canada and Air Canada Vacations, 1.5 per $1 on eligible dining and food delivery in Canada, and 1 per $1 on everything else. Points don't expire while you hold the card, and cardmembers can often book flight rewards at preferred pricing. Points can also go to hotels, car rentals, vacation packages and merchandise.\n\nWhat it means: outside Air Canada and restaurants this is a 1-point-per-dollar card, so $1,000 of everyday spend earns 1,000 points.",
+            "Earns Aeroplan points: 2 per $1 directly with Air Canada and Air Canada Vacations, 1.5 per $1 on eligible dining and food delivery in Canada, 1.5 per $1 directly at participating Hyatt hotels and resorts (July 15, 2026 to July 15, 2029), and 1 per $1 on everything else. A free first checked bag on Air Canada flights for you and up to 8 companions on the same reservation. Points don't expire while you hold the card, and cardmembers can often book flight rewards at preferred pricing. Points can also go to hotels, car rentals, vacation packages and merchandise. Amex has announced a $150 annual fee and new benefits from January 12, 2027.\n\nWhat it means: outside Air Canada and restaurants this is a 1-point-per-dollar card, so $1,000 of everyday spend earns 1,000 points.",
         cardEligibility:
             "Canadian resident with a Canadian credit file, and the age of majority in your province or territory.",
     },
