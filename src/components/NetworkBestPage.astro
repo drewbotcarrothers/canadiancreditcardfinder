@@ -1,4 +1,5 @@
 ---
+import PlaybookCTA from './PlaybookCTA.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import CardGrid from './CardGrid';
 import HubLinks from './HubLinks.astro';
@@ -232,6 +233,8 @@ const jsonLd = {
             </div>
             <CardGrid client:visible cards={networkCards.map(toHomepageCard)} />
         </section>
+
+        <PlaybookCTA placement={`best-${Astro.url.pathname.split('/').filter(Boolean).pop() ?? 'network'}`} />
 
         <section class="mt-10">
             <h2 class="text-lg font-semibold text-gray-900 mb-4">Related pages</h2>

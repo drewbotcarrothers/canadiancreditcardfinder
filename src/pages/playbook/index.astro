@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { PLAYBOOK_LINKS, PLAYBOOK_PRICE, BUNDLE_PRICE, SCRIPTS_PRICE, checklistUrl } from '../../lib/playbook';
+import { getCards } from '../../lib/data';
+import { getStackPersonas } from '../../lib/stacks';
+const cards = await getCards();
+const personas = getStackPersonas();
+const L = PLAYBOOK_LINKS;
+const coreHref = L.corePaymentLink || '#buy';
+const bundleHref = L.bundlePaymentLink || '#buy';
+const scriptsHref = L.scriptsPaymentLink || '#buy';
+const inside = [
+    ['The Canadian Credit Card Playbook 2027 (30-page PDF)', 'Nine chapters plus four appendices: the four questions, real return math, the annual-fee break-even test, 10 persona stacks, welcome offers, insurance, approval, carrying a balance and the yearly review.'],
+    ['Card Fit Workbook (6 printable pages)', 'Spending audit, break-even calculator, points vs cash back, 12-month application plan and the yearly review grid.'],
+    ['Persona Cheat Sheets (10 pages)', 'One page per stack with each card’s job, fee and purchase rate from our live catalog.'],
+    [`Full ${cards.length}-card reference catalog`, 'Every card we track, with its annual fee, purchase rate and rewards program, plus the lowest-rate and no-fee lists.'],
+    ['Start Here guide', 'What to open first, and the first hour, step by step.'],
+];
+const faqs = [
+    ['Is this financial advice?', 'No. It is educational information for Canadians. Confirm every fee, rate and offer with the issuer before you apply.'],
+    ['How do I get the files?', 'Right after checkout you land on a download page with a folder link and a one-click zip. Stripe also emails your receipt.'],
+    ['What if it is not for me?', 'Email contact@canadiancreditcardfinder.com within 30 days for a full refund.'],
+    ['How current is the data?', 'Catalog data is as of October 30, 2026. If we publish a corrected reissue of the 2027 edition before December 31, 2027, you get it free.'],
+    ['Do you earn commissions?', 'Canadian Credit Card Finder may earn a commission from some issuer links on the website. The Playbook teaches a method you can use with any card.'],
+    ['Who wrote it?', 'Andrew, who runs Canadian Credit Card Finder.'],
+];
+---
+<BaseLayout
+    title="The Canadian Credit Card Playbook 2027 | $29 CAD"
+    description="A 30-page Canadian credit card playbook with worksheets: break-even math on real cards, 10 persona stacks, a 12-month plan and approval rules. $29 CAD."
+    image="/images/playbook/playbook-cover.webp"
+    imageAlt="The Canadian Credit Card Playbook 2027 cover"
+    noAds
+>
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <section class="grid gap-8 md:grid-cols-[1fr_260px] items-center mb-12">
+            <div>
+                <p class="text-xs font-bold uppercase tracking-widest text-red-600 mb-2">The 2027 edition · By Andrew</p>
+                <h1 class="text-3xl lg:text-5xl font-bold text-gray-900 mb-4">The Canadian Credit Card Playbook 2027</h1>
+                <p class="text-lg text-gray-700 mb-6">Choose one to three cards that each have a job, check that every annual fee pays for itself, and leave with a written 12-month plan. Built on our live catalog of {cards.length} Canadian cards.</p>
+                <div class="flex flex-wrap gap-3 items-center">
+                    <a href={coreHref} class="inline-block bg-red-600 hover:bg-red-700 text-white py-4 px-8 rounded-lg font-semibold text-lg" data-buy="core">Buy the Playbook — ${PLAYBOOK_PRICE} CAD</a>
+                    <a href="#bundle" class="text-red-600 hover:text-red-700 font-medium underline underline-offset-2">Or get the ${BUNDLE_PRICE} bundle</a>
+                </div>
+                <p class="text-sm text-gray-500 mt-3">Instant PDF download · 30-day refund · Educational only, not financial advice</p>
+            </div>
+            <img src="/images/playbook/playbook-cover.webp" alt="The Canadian Credit Card Playbook 2027 cover" width="260" height="336" class="w-48 md:w-full mx-auto rounded-lg shadow-xl" />
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">What’s inside</h2>
+            <ul class="space-y-3">
+                {inside.map(([t, d]) => (
+                    <li class="flex gap-3"><span class="text-red-600 font-bold">✓</span><span><strong class="text-gray-900">{t}.</strong> <span class="text-gray-700">{d}</span></span></li>
+                ))}
+            </ul>
+        </section>
+
+        <section class="grid gap-6 md:grid-cols-2 mb-10">
+            <div class="bg-gray-50 rounded-2xl p-6 border border-gray-200">
+                <h2 class="text-xl font-bold text-gray-900 mb-3">Free on this site</h2>
+                <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                    <li>Card reviews, fees and offers</li>
+                    <li>Best-of lists and the finder</li>
+                    <li>Guides that explain how things work</li>
+                    <li>Persona stack pages</li>
+                </ul>
+            </div>
+            <div class="bg-white rounded-2xl p-6 border-2 border-red-600">
+                <h2 class="text-xl font-bold text-gray-900 mb-3">Only in the Playbook</h2>
+                <ul class="list-disc pl-5 text-gray-700 space-y-1">
+                    <li>Break-even tests worked on real cards (Cobalt, Momentum VI, Passport VI)</li>
+                    <li>A 12-month application and minimum-spend plan</li>
+                    <li>Printable worksheets to run your own numbers</li>
+                    <li>A yearly keep, switch or cancel checklist</li>
+                    <li>{personas.length} one-page persona cheat sheets</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">A sample of the math</h2>
+            <p class="text-gray-700 mb-3">Break-even spend = annual fee ÷ (the paid card’s return − your best no-fee card’s return).</p>
+            <p class="text-gray-700">Chapter 3 applies this formula to real cards, using fees and earn rates from our catalog, and shows how monthly spending caps change the answer. The workbook lets you run it on your own cards.</p>
+            <div class="grid grid-cols-2 gap-4 mt-6">
+                <img src="/images/playbook/workbook-sample-2.webp" alt="Card Fit Workbook sample page" loading="lazy" class="rounded border border-gray-200" />
+                <img src="/images/playbook/workbook-sample-3.webp" alt="Card Fit Workbook sample page" loading="lazy" class="rounded border border-gray-200" />
+            </div>
+        </section>
+
+        <section id="buy" class="grid gap-6 md:grid-cols-3 mb-10">
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col">
+                <h3 class="text-lg font-bold text-gray-900">Playbook</h3>
+                <p class="text-3xl font-bold text-gray-900 my-2">${PLAYBOOK_PRICE} <span class="text-base font-medium text-gray-500">CAD</span></p>
+                <p class="text-sm text-gray-600 flex-1">Playbook PDF, Card Fit Workbook, Persona Cheat Sheets, Start Here.</p>
+                <a href={coreHref} class="mt-4 text-center bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-semibold" data-buy="core">Buy — ${PLAYBOOK_PRICE} CAD</a>
+            </div>
+            <div id="bundle" class="bg-white rounded-2xl shadow-md p-6 flex flex-col border-2 border-red-600">
+                <h3 class="text-lg font-bold text-gray-900">Playbook Bundle</h3>
+                <p class="text-3xl font-bold text-gray-900 my-2">${BUNDLE_PRICE} <span class="text-base font-medium text-gray-500">CAD</span></p>
+                <p class="text-sm text-gray-600 flex-1">Everything in the Playbook, plus the Points & Aeroplan Redemption Kit, the Card Tracker 2027 spreadsheet (Excel or Google Sheets) and the Call Script Pack.</p>
+                <a href={bundleHref} class="mt-4 text-center bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg font-semibold" data-buy="bundle">Buy the bundle — ${BUNDLE_PRICE} CAD</a>
+            </div>
+            <div class="bg-white rounded-2xl shadow-md p-6 flex flex-col">
+                <h3 class="text-lg font-bold text-gray-900">Call Script Pack</h3>
+                <p class="text-3xl font-bold text-gray-900 my-2">${SCRIPTS_PRICE} <span class="text-base font-medium text-gray-500">CAD</span></p>
+                <p class="text-sm text-gray-600 flex-1">Eight word-for-word scripts: retention offers, product switches, fee reversals, limit increases, clean cancellations and disputes.</p>
+                <a href={scriptsHref} class="mt-4 text-center bg-gray-900 hover:bg-gray-800 text-white py-3 rounded-lg font-semibold" data-buy="scripts">Buy — ${SCRIPTS_PRICE} CAD</a>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-10">
+            <h2 class="text-2xl font-bold text-gray-900 mb-4">FAQ</h2>
+            <div class="divide-y divide-gray-100">
+                {faqs.map(([q, a]) => (<div class="py-4"><h3 class="font-semibold text-gray-900 mb-1">{q}</h3><p class="text-gray-700">{a}</p></div>))}
+            </div>
+        </section>
+
+        <p class="text-center text-gray-600 mb-6">Not ready? <a href={checklistUrl('playbook-page')} class="text-red-600 underline underline-offset-2">Download the free Card Fit Checklist</a>.</p>
+        <p class="text-xs text-gray-500 max-w-3xl mx-auto text-center">Educational information only, not financial advice. Card fees, rates, earn rates, welcome offers and eligibility change; confirm them with the issuer before you apply. Rewards advice assumes you pay your balance in full every month.</p>
+    </div>
+</BaseLayout>

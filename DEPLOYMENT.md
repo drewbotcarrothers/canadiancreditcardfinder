@@ -78,3 +78,20 @@ The production output includes:
 Push to the connected GitHub branch. Hostinger will run `npm install && npm run build` and publish `dist/`.
 
 If you deploy manually, rebuild locally and replace the contents of `public_html` with the new `dist/` files.
+
+## Paid ebook (Playbook 2027) variables
+
+The sales page `/playbook/` and the noindexed `/playbook/thank-you/` read checkout and buyer-download URLs at build time.
+Hostinger env vars do not reach this static FTP build, so set these under **GitHub → Settings → Secrets and variables → Actions → Variables**
+(they must be passed to `npm run build` in `.github/workflows/deploy.yml` with an `env:` block; see the PR description). Leave them empty locally. Paid files are never committed here.
+
+| Variable | Value |
+|---|---|
+| `PUBLIC_PLAYBOOK_PAYMENT_LINK` | Stripe Payment Link, Playbook $29 CAD |
+| `PUBLIC_PLAYBOOK_BUNDLE_PAYMENT_LINK` | Stripe Payment Link, Bundle $49 CAD |
+| `PUBLIC_PLAYBOOK_SCRIPTS_PAYMENT_LINK` | Stripe Payment Link, Call Script Pack $9 CAD |
+| `PUBLIC_PLAYBOOK_FOLDER_URL` / `PUBLIC_PLAYBOOK_DOWNLOAD_URL` | Drive folder / zip download for the $29 tier |
+| `PUBLIC_PLAYBOOK_BUNDLE_FOLDER_URL` / `PUBLIC_PLAYBOOK_BUNDLE_DOWNLOAD_URL` | Drive folder / zip for the $49 tier |
+| `PUBLIC_PLAYBOOK_SCRIPTS_FOLDER_URL` / `PUBLIC_PLAYBOOK_SCRIPTS_DOWNLOAD_URL` | Drive folder / zip for the $9 tier |
+
+Until a Payment Link variable is set, its buy buttons fall back to `#buy`. After changing variables, re-run the deploy workflow on main.

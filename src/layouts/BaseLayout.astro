@@ -12,6 +12,8 @@ interface Props {
     noindex?: boolean;
     /** Skip the AdSense loader on screens without publisher content (tools, empty states, errors). */
     noAds?: boolean;
+    /** With noindex, also add nofollow (private buyer screens such as /playbook/thank-you/). */
+    nofollow?: boolean;
 }
 
 const {
@@ -21,6 +23,7 @@ const {
     imageAlt = 'Canadian Credit Card Finder',
     noindex = false,
     noAds = false,
+    nofollow = false,
 } = Astro.props;
 // Search results cut titles off around 60 characters, so the brand suffix is dropped when it would push past that.
 const SITE_SUFFIX = ' | Canadian Credit Card Finder';
@@ -39,7 +42,7 @@ const ogImage = new URL(image, Astro.site).href;
         <meta name='impact-site-verification' value='1116745954' />
         <title>{title}</title>
         <meta name="description" content={description} />
-        {noindex && <meta name="robots" content="noindex, follow" />}
+        {noindex && <meta name="robots" content={nofollow ? 'noindex, nofollow' : 'noindex, follow'} />}
         <meta name="google-adsense-account" content="ca-pub-7909541570116920" />
         <link rel="canonical" href={canonical} />
         <link rel="icon" href="/favicon.ico?v=20261004" sizes="48x48" />

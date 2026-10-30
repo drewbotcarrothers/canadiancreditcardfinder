@@ -77,6 +77,12 @@ export default function Header() {
                             About
                         </a>
                         <a
+                            href="/playbook/?utm_source=site&utm_medium=cta&utm_campaign=ebook&utm_content=nav"
+                            className="bg-red-600 hover:bg-red-700 text-white font-semibold px-3 py-1.5 rounded-lg transition-colors"
+                        >
+                            $29 Card Playbook
+                        </a>
+                        <a
                             href="/compare/"
                             className="text-gray-600 hover:text-gray-900 font-medium transition-colors flex items-center"
                         >
@@ -155,6 +161,13 @@ export default function Header() {
                                 onClick={() => setMobileMenuOpen(false)}
                             >
                                 Contact
+                            </a>
+                            <a
+                                href="/playbook/?utm_source=site&utm_medium=cta&utm_campaign=ebook&utm_content=nav-mobile"
+                                className="text-red-600 hover:text-red-700 font-semibold transition-colors"
+                                onClick={() => setMobileMenuOpen(false)}
+                            >
+                                $29 Card Playbook
                             </a>
                             <a
                                 href="/compare/"
