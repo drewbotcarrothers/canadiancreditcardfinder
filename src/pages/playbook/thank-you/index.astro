@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { PLAYBOOK_LINKS } from '../../../lib/playbook';
+const L = PLAYBOOK_LINKS;
+const tiers = [
+    { id: 'core', name: 'The Canadian Credit Card Playbook 2027', folder: L.coreFolder, zip: L.coreZip },
+    { id: 'bundle', name: 'Playbook Bundle', folder: L.bundleFolder, zip: L.bundleZip },
+    { id: 'scripts', name: 'Call Script Pack', folder: L.scriptsFolder, zip: L.scriptsZip },
+];
+---
+<BaseLayout title="Thank you: your download" description="Download your Canadian Credit Card Finder purchase." noindex nofollow noAds>
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <h1 class="text-3xl font-bold text-gray-900 mb-3">Thank you. Your files are ready.</h1>
+        <p class="text-gray-700 mb-8">Open the folder and start with <strong>00-Start-Here.pdf</strong>, or download everything as one zip. Bookmark this page.</p>
+        {tiers.map((t) => (
+            <section class="bg-white rounded-2xl shadow-md p-6 mb-6" data-tier={t.id}>
+                <h2 class="text-xl font-bold text-gray-900 mb-4">{t.name}</h2>
+                {t.folder || t.zip ? (
+                    <div class="flex flex-wrap gap-3">
+                        {t.folder && <a href={t.folder} target="_blank" rel="noopener" class="bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded-lg font-semibold">Open download folder</a>}
+                        {t.zip && <a href={t.zip} class="bg-gray-900 hover:bg-gray-800 text-white py-3 px-6 rounded-lg font-semibold">Download zip</a>}
+                    </div>
+                ) : (
+                    <p class="text-gray-700">Your download link is on its way by email. If it hasn’t arrived within 24 hours, email contact@canadiancreditcardfinder.com.</p>
+                )}
+            </section>
+        ))}
+        <p class="text-sm text-gray-600">Questions, or a refund within 30 days: contact@canadiancreditcardfinder.com. Please don’t share these links.</p>
+    </div>
+    <script is:inline>
+        (function () {
+            var t = new URLSearchParams(location.search).get('tier');
+            if (!t) return;
+            document.querySelectorAll('[data-tier]').forEach(function (el) { if (el.getAttribute('data-tier') !== t) el.style.display = 'none'; });
+        })();
+    </script>
+</BaseLayout>

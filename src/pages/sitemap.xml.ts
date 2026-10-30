@@ -40,6 +40,8 @@ export const GET: APIRoute = async ({ site }) => {
             changefreq: 'weekly',
             priority: '0.9',
         })),
+        { loc: `${baseUrl}/playbook/`, lastmod: dateOf('src/pages/playbook/index.astro', 'src/lib/playbook.ts'), changefreq: 'monthly', priority: '0.8' },
+        { loc: `${baseUrl}/card-fit-checklist/`, lastmod: dateOf('src/pages/card-fit-checklist/index.astro'), changefreq: 'monthly', priority: '0.6' },
         // Rebuilt from current welcome offers on every build, so its lastmod is the build time.
         { loc: `${baseUrl}/credit-card-offers/`, lastmod: buildTime.toISOString(), changefreq: 'daily', priority: '0.9' },
         // Bank pages with editorial content are indexable. Other issuer hubs and /compare/ stay noindex and out of the sitemap.

@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import PlaybookCTA from '../../components/PlaybookCTA.astro';
+import { CHECKLIST_PDF } from '../../lib/playbook';
+---
+<BaseLayout
+    title="Free Card Fit Checklist: 10 Checks Before You Apply (Canada)"
+    description="A free one-page checklist for Canadians: 10 checks to run before applying for a credit card, including fees, income tiers and welcome offers."
+    image="/images/playbook/checklist-cover.webp"
+    imageAlt="Card Fit Checklist preview"
+>
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+        <section class="grid gap-8 md:grid-cols-[1fr_240px] items-center mb-8">
+            <div>
+                <p class="text-xs font-bold uppercase tracking-widest text-red-600 mb-2">Free PDF · By Andrew</p>
+                <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">The Card Fit Checklist</h1>
+                <p class="text-lg text-gray-700 mb-6">Ten checks to run before you apply for your next Canadian credit card: paying in full, break-even on annual fees, earn caps, income tiers, welcome-offer minimum spend, Amex backups and when to review the card.</p>
+                <a href={CHECKLIST_PDF} download class="inline-block bg-red-600 hover:bg-red-700 text-white py-4 px-8 rounded-lg font-semibold text-lg" data-cta="checklist-download">Download the free checklist (PDF)</a>
+                <p class="text-sm text-gray-500 mt-3">No email required. Educational only, not financial advice.</p>
+            </div>
+            <img src="/images/playbook/checklist-cover.webp" alt="Card Fit Checklist preview" width="240" height="310" class="w-44 md:w-full mx-auto rounded-lg shadow-lg border border-gray-200" />
+        </section>
+        <PlaybookCTA placement="checklist-page" heading="Want the worked math and a full plan?" />
+    </div>
+</BaseLayout>

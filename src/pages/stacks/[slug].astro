@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import HubLinks from '../../components/HubLinks.astro';
 import RelatedGuide from '../../components/RelatedGuide.astro';
 import StackSlot from '../../components/StackSlot.astro';
+import PlaybookCTA from '../../components/PlaybookCTA.astro';
 import Byline from '../../components/Byline.astro';
 import { authorJsonLd, publisherJsonLd } from '../../lib/author';
 import { firstPublished, lastModified } from '../../lib/contentDates';
@@ -247,6 +248,8 @@ const articleJsonLd = {
                     {persona.notForYou.map((item) => <li>{item}</li>)}
                 </ul>
             </section>
+
+            <PlaybookCTA placement={`stack-${persona.slug}`} heading="Get this stack as a printable plan" />
 
             {
                 relatedGuides.length > 0 && (
