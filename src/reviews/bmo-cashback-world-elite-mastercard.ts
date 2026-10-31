@@ -26,7 +26,7 @@ const review: CardEditorialReview = {
         '4% transit (including ride share, taxis, and public transportation) and 3% gas plus EV charging cover commuting, not just the weekly shop.',
         '2% on recurring bills such as phone, gym, and streaming is a quiet win if you actually code those as recurring.',
         '1% on everything else means the card does not fall off a cliff outside bonus categories.',
-        'The current welcome package stacks monthly cash back, a first-year annual-fee rebate, and roadside assistance into a large “up to” value.',
+        'The current welcome offer pays up to $480 in cash back ($40 for each of the first 12 months you spend at least $2,000), plus a first-year annual-fee rebate and roadside assistance that BMO counts toward a larger headline figure.',
     ],
     cons: [
         'World Elite income thresholds lock out a lot of otherwise good cash-back customers.',
