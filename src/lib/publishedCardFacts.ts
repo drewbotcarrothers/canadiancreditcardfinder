@@ -129,7 +129,7 @@ const PATCHES: Record<string, CardFactPatch> = {
     },
     'simplycash-preferred-card-from-american-express': {
         featuresDetailed:
-            "4% cash back on eligible gas and stand-alone grocery store purchases on up to $30,000 a year combined (then 2%), and 2% on everything else. The annual fee is $9.99 a month ($119.88 a year). Cash back is paid once a year as a statement credit.\n\nWhat it means: at 2%, about $6,000 a year of spending covers the fee before the 4% categories add anything.",
+            "4% cash back at stand-alone gas stations and stand-alone grocery stores in Canada on up to $30,000 a year combined (then 2%), and 2% on everything else. Superstores, wholesale clubs, alcohol retailers and general merchandise retailers don't count as gas or grocery. The annual fee is $9.99 a month ($119.88 a year; $119 a year for Quebec residents). Cash back is paid once a year as a statement credit on the September statement. Up to $60 a year in Instacart statement credits through December 31, 2027 (registration required).\n\nWhat it means: at 2%, about $6,000 a year of spending covers the fee before the 4% categories add anything.",
         cardEligibility:
             "Canadian resident with a Canadian credit file, and the age of majority in your province or territory.",
     },
