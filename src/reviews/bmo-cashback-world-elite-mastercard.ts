@@ -22,7 +22,7 @@ const review: CardEditorialReview = {
         'Anyone who revolves a balance. A 5% grocery rate is meaningless next to 20%+ interest.',
     ],
     pros: [
-        '5% cash back on groceries is the rare headline that still sounds aggressive in Canada; the detailed features currently call it the highest grocery cash-back earn rate in the country.',
+        '5% cash back on groceries (on the first $500 per statement period) is the rare headline that still sounds aggressive in Canada; BMO calls it the highest grocery cash-back earn rate in the country.',
         '4% transit (including ride share, taxis, and public transportation) and 3% gas plus EV charging cover commuting, not just the weekly shop.',
         '2% on recurring bills such as phone, gym, and streaming is a quiet win if you actually code those as recurring.',
         '1% on everything else means the card does not fall off a cliff outside bonus categories.',
@@ -31,16 +31,17 @@ const review: CardEditorialReview = {
     cons: [
         'World Elite income thresholds lock out a lot of otherwise good cash-back customers.',
         'After year one, the annual fee returns unless a new promotion says otherwise. Grocery spend has to keep clearing that bar.',
-        'Additional cards currently carry their own annual fee.',
+        'Additional cards cost $50 a year each, and the first-year fee waiver doesn’t cover them.',
+        'Every bonus category is capped per statement period: $500 of groceries at 5%, $300 of transit at 4%, $300 of gas and EV charging at 3%, and $500 of recurring bills at 2%. Spending above that earns 1%.',
         'Merchant coding will fight you: a warehouse club, a restaurant inside a grocer, or a “grocery” delivery app may not pay 5%.',
         'Cash back is simple, but it will not book a lie-flat seat the way a well-used Aeroplan cobrand can.',
     ],
     feesAndValue:
         'Start with the annual fee in the table. The current welcome-bonus detail describes a first-year annual-fee rebate, monthly cash-back chunks tied to a high minimum spend, and a roadside-assistance item, marketed together as first-year value. If you are a new cardmember who actually spends at that monthly pace, year one can look excellent because the fee may be rebated and the cash back is paid in cash, not in a made-up point value. Year two is the full fee versus 5% groceries and the other bonus categories. Do a simple check: grocery spend times 5%, plus smaller categories, minus the ongoing fee. If that net is smaller than what a $0 card would pay you, do not keep World Elite for the metal. Offers change; minimum-spend cash back is easy to miss if your grocery month is light.',
     rewardsExplained:
-        'This card pays cash back, not points. The current stack is 5% on groceries, 4% on transit (ride sharing, taxis, public transportation), 3% on gas and EV charging, 2% on recurring bills (phone, gym, streaming, and similar), and 1% on everything else. Those percentages only apply when the merchant category matches BMO’s rules. A big-box banner, a meal kit, or a delivery platform can land in 1%. Cash back is typically redeemed as a statement credit, which is the point of the product: no transfer partners, no award charts. If you also want travel insurance and World Elite extras, read BMO’s certificate of insurance before you count on coverage.',
+        'This card pays cash back, not points. The current stack is 5% on the first $500 of groceries per statement period, 4% on the first $300 of transit (ride sharing, taxis, public transportation), 3% on the first $300 of gas and EV charging, 2% on the first $500 of recurring bills (phone, gym, streaming, and similar), with spending above those limits at 1%, and 1% on everything else. Those percentages only apply when the merchant category matches BMO’s rules. A big-box banner, a meal kit, or a delivery platform can land in 1%. Cash back can be redeemed any time from $1 as a statement credit or a deposit to a BMO account, which is the point of the product: no transfer partners, no award charts. Built-in insurance is modest: travel medical covers only the first 8 days of a trip (ages 64 and under), and no trip cancellation or mobile device cover is listed.',
     welcomeBonus:
-        'The current offer is a bundle, not a single grocery bonus: monthly cash back if you hit a high spend floor each month in the first year, an annual-fee rebate for that first year, and roadside assistance, added up to an “up to” value. That monthly spend floor is steep. Miss it and the cash-back portion of the welcome math collapses even if the fee is still rebated. Eligibility wording is thin and mostly restates the first-year value. Assume BMO will exclude people who already hold or recently held the card, as most issuers do, and read the live application. Do not force extra spend to hit $2,000-class months if that is not your life.',
+        'The current offer is a bundle, not a single grocery bonus: monthly cash back if you hit a high spend floor each month in the first year, an annual-fee rebate for that first year, and roadside assistance, added up to an “up to” value. That monthly spend floor is steep. Miss it and the cash-back portion of the welcome math collapses even if the fee is still rebated. The cash back part is $40 for each of the first 12 billing cycles with at least $2,000 in purchases (up to $480). Applications must be received by October 31, 2027. BMO excludes current or former cardholders who reinstate a closed account or open a new one for the same card, and product transfers don’t get the fee waiver. The offer also adds a 0% balance-transfer rate for 12 months (2% fee). Do not force extra spend to hit $2,000-class months if that is not your life.',
     faqs: [
         {
             question: 'Is the BMO CashBack World Elite Mastercard worth it?',
@@ -55,7 +56,7 @@ const review: CardEditorialReview = {
         {
             question: 'Does this card charge foreign-exchange fees?',
             answer:
-                'Most Canadian World Elite Mastercards add a foreign-conversion fee on foreign-currency purchases. This is a grocery card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), and confirm BMO’s current FX rate in the agreement.',
+                'Yes. BMO adds 2.5% to foreign-currency purchases. This is a grocery card, not a no-FX travel card. For overseas spend, compare [Scotiabank Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/).',
         },
         {
             question: 'BMO CashBack World Elite vs the regular BMO CashBack Mastercard?',
