@@ -1,8 +1,22 @@
 [
   {
+    "videoId": "QA4a229ga_c",
+    "title": "Scotiabank Credit Cards Ranked by Welcome Offer (November 2026)",
+    "publishAt": "2026-11-01T17:00:00Z",
+    "duration": "PT5M8S",
+    "cards": [
+      "scotia-momentum-visa-infinite-card",
+      "scotiabank-passport-visa-infinite-card",
+      "scotiabank-gold-american-express-card",
+      "scotiabank-scene-plus-visa-card"
+    ],
+    "description": "Scotiabank credit cards ranked by welcome offer: the Gold Amex, Passport Visa Infinite, Momentum Visa Infinite and Scene+ Visa, with what the same first-months spend earns on each and who each card fits.",
+    "kind": "best-of"
+  },
+  {
     "videoId": "kvuuq_VgHVQ",
     "title": "Low Interest vs Rewards Credit Cards in Canada: Which One Should You Carry?",
-    "publishAt": "2026-10-30T16:00:00Z",
+    "publishAt": "2026-10-30T16:00:11Z",
     "duration": "PT4M16S",
     "cards": [
       "td-low-rate-visa-card",
@@ -15,7 +29,7 @@
   {
     "videoId": "npKYv2Wd6p4",
     "title": "WestJet RBC World Elite vs BMO VIPorter World Elite: Which Airline Card?",
-    "publishAt": "2026-10-29T16:00:00Z",
+    "publishAt": "2026-10-29T16:00:28Z",
     "duration": "PT5M1S",
     "cards": [
       "westjet-rbc-world-elite-mastercard",
@@ -27,7 +41,7 @@
   {
     "videoId": "ezi4HGbo6mw",
     "title": "Best Low Interest Credit Cards in Canada (2026): When the Rate Beats Rewards",
-    "publishAt": "2026-10-28T16:00:00Z",
+    "publishAt": "2026-10-28T16:00:34Z",
     "duration": "PT5M55S",
     "cards": [
       "national-bank-syncro-mastercard",
@@ -271,7 +285,7 @@
       "td-cash-back-visa-infinite-card",
       "cibc-dividend-visa-infinite-card"
     ],
-    "description": "Compare these cards side by side:",
+    "description": "TD Cash Back Visa Infinite vs CIBC Dividend Visa Infinite: 4% vs 3% at the grocery store, a $19 fee gap, and caps that change the winner for heavy spenders.",
     "kind": "head-to-head"
   },
   {
@@ -297,7 +311,7 @@
       "american-express-cobalt-card",
       "american-express-gold-rewards-card"
     ],
-    "description": "Compare these cards side by side:",
+    "description": "Amex Cobalt vs Amex Gold Rewards: same Membership Rewards points, different winners. Here's which one fits how you spend in Canada.",
     "kind": "head-to-head"
   },
   {
@@ -310,7 +324,7 @@
       "tangerine-money-back-credit-card",
       "scotiabank-passport-visa-infinite-card"
     ],
-    "description": "Compare the top picks side by side:",
+    "description": "Your family doesn't need six credit cards. It needs three jobs filled: a grocery and bills earner, a no-fee catch-all, and a no foreign transaction fee card for trips.",
     "kind": "persona"
   },
   {
