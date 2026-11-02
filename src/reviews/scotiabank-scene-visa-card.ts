@@ -8,16 +8,16 @@ const review: CardEditorialReview = {
     metaDescription:
         'Scotiabank Scene+ Visa Card review for 2026: no annual fee, 2x Sobeys Scene+, 1x everywhere else, welcome bonus, and vs Gold Amex and Momentum.',
     intro:
-        'The Scotiabank Scene+ Visa Card is the no-fee Scene+ earner: two points per dollar at Sobeys, Safeway, IGA, Foodland, participating Co-ops, and other banners in the detailed features, and one point per dollar everywhere else. It is the card you open when you already shop those grocers and will not pay for [Gold American Express](/card/scotiabank-gold-american-express-card/) or Passport. This Scotiabank Scene+ Visa Card review covers the two-step welcome, the two-year Scotiabank-card exclusion, and when [Scotia Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/) or [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the better $0-or-paid everyday card.',
+        'The Scotiabank Scene+ Visa Card is the no-fee Scene+ earner: two points per dollar at Sobeys, Safeway, IGA, Foodland, participating Co-ops, and other banners in the detailed features, and one point per dollar everywhere else. It is the card you open when you already shop those grocers and will not pay for [Gold American Express](/card/scotiabank-gold-american-express-card/) or Passport. This Scotiabank Scene+ Visa Card review covers the two-year Scotiabank-card exclusion on welcome offers, and when [Scotia Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/) or [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is the better $0-or-paid everyday card.',
     whoItsFor: [
         'Households that already shop at Sobeys-family and participating Co-op banners and want Scene+ on a Visa that those tills will take, without an annual fee.',
         'People who redeem Scene+ at the movies, on groceries, or through Scene+ Travel and would rather collect a modest pile than learn a second program.',
-        'Applicants who have not held a Scotiabank personal credit card in the past two years if they care about the welcome points, and who pay in full.',
+        'People who pay in full and want Scene+ on a $0 Visa.',
         'Households that want extra cards at no cost — the issuer currently lists additional cards at $0 — so a partner can feed the same Scene+ account.',
     ],
     whoShouldSkip: [
         'Shoppers whose grocer is Loblaws, Metro, Walmart, or Costco. 2x at Sobeys-family stores does nothing at those tills.',
-        'Anyone who held a Scotiabank personal credit card in the past two years and is only applying for the bonus. Current eligibility excludes current and former primary or secondary cardholders, product-changers, and Scotiabank employees.',
+        'Anyone applying only for a welcome bonus. The up-to-5,000-point offer (accounts opened July 2 to November 1, 2026) has ended, and Scotiabank had not posted a new offer when we checked on November 2, 2026.',
         'People who will pay for 6x grocery and 5x dining. That mix lives on [Gold American Express](/card/scotiabank-gold-american-express-card/), often with a fee waiver if you hold an eligible Scotia account.',
         'Cash-back shoppers who do not use Scene+. [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/) or Tangerine will annoy you less at redemption time.',
     ],
@@ -25,27 +25,25 @@ const review: CardEditorialReview = {
         'No annual fee on a Scene+ Visa is the headline. You are not racing a $120 Gold Amex bill to make grocery points “worth it.”',
         '2x at eligible Sobeys, Safeway, IGA, Foodland, and participating Co-ops is a real supermarket rate if that is already your banner, and Visa is accepted there.',
         '1x everywhere else still earns Scene+ on the rest of the month, which a store-only loyalty card will not.',
-        'The current welcome path pays a first chunk after a small three-month spend, then a larger chunk if you hit a still-modest first-three-months hurdle — easier gates than Gold Amex or Platinum Amex.',
         'Additional cards currently show no annual fee, so a partner can help without a second membership.',
     ],
     cons: [
         '1x on everything outside the grocery, Home Hardware, and Cineplex lists is ordinary. Dining, gas, and bills need Gold Amex, Passport, or Momentum if you care about those categories.',
-        'The two-year Scotiabank-card exclusion is the same strict rule as the paid Scotia cards. If you already have Momentum or Passport, this bonus is probably not for you.',
+        'There is no welcome offer right now. When Scotiabank runs one, its two-year card exclusion usually rules out anyone who already has Momentum or Passport.',
         'Scotiabank does not list a minimum income for this card, only a $500 minimum credit limit. Approval is still a credit decision; there is a student version of this card if that is the actual product you need.',
         'Scotiabank does not list built-in insurance on this card. Optional Scotia Credit Card Protection is sold separately. This is a $0 rewards Visa, not a travel-medical product.',
-        'The welcome-value estimate lists Scene+ points, not dollars. The first-year snapshot on this page may treat that number like cash — it is not.',
     ],
     feesAndValue:
-        'The issuer currently lists no annual fee on the primary card and $0 on additional cards, so there is no fee to earn back. The value test is whether 2x Scene+ at eligible grocers plus 1x everywhere else beats a $0 cash-back Mastercard, and whether you will later wish you had paid for Gold Amex’s 6x. If those banners are already the weekly shop and you redeem Scene+ anyway, this card is the obvious no-fee way to collect. If you wanted 2% cash in chosen categories, [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is simpler and does not care which grocer you use. If you will open an eligible Scotiabank account and shop Sobeys heavily, Gold Amex’s 6x (and 5x dining) can justify its headline fee — or have it waived. The first-year snapshot compares the listed welcome value against a $0 fee; remember that value is points, not CAD. Offers change. Pay in full; the purchase rate is a typical rewards rate.',
+        'The issuer currently lists no annual fee on the primary card and $0 on additional cards, so there is no fee to earn back. The value test is whether 2x Scene+ at eligible grocers plus 1x everywhere else beats a $0 cash-back Mastercard, and whether you will later wish you had paid for Gold Amex’s 6x. If those banners are already the weekly shop and you redeem Scene+ anyway, this card is the obvious no-fee way to collect. If you wanted 2% cash in chosen categories, [Tangerine Money-Back](/card/tangerine-money-back-credit-card/) is simpler and does not care which grocer you use. If you will open an eligible Scotiabank account and shop Sobeys heavily, Gold Amex’s 6x (and 5x dining) can justify its headline fee — or have it waived. Offers change. Pay in full; the purchase rate is a typical rewards rate.',
     rewardsExplained:
         'You earn Scene+ points, not cash back and not Aeroplan. Scotiabank currently lists 2 points per dollar at Sobeys, Safeway, FreshCo, participating IGA, Foodland, participating Co-ops, and more; 2 points per dollar at Home Hardware and Home Building Centre locations and homehardware.ca; 2 points per dollar at Cineplex theatres, the Cineplex app, and cineplex.com; and 1 point per dollar everywhere else. Hotels and car rentals booked through Scene+ Travel, Powered by Expedia earn an extra 3 points per dollar. The short features line only says you earn Scene+ on every purchase; the detailed feature list is the rate table. Those multipliers only apply when the merchant category matches and the charge is a purchase. The eligibility note currently reminds you that cash advances, balance transfers, cash-like transactions, fees, and interest do not earn. A grocery banner outside the eligible list, a restaurant, or a gas station will typically land in 1x. Scene+ redeems at Scene partners, Empire-family groceries, dining, entertainment, and Scene+ Travel. If you do not use those partners, 2x is just a number. For 6x at the same grocers plus 5x dining, that is Gold Amex, not this Visa.',
     welcomeBonus:
-        'The current offer, for accounts opened July 2 to November 1, 2026, is up to 5,000 bonus Scene+ points in two spend gates inside the first three months: 2,500 points after $250 in everyday purchases, then 2,500 more after $1,000. You need both to reach 5,000. Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees are not eligible. That catches almost everyone who already has a Scotia card, including the student version of this product if they were a cardholder. Read the live application. Do not open the Scene+ Visa as a product-change from Momentum and expect the bonus, and do not invent spend to clear a four-figure-class hurdle on a $0 card.',
+        'There is no welcome offer right now. The last one, up to 5,000 bonus Scene+ points (about $50) for $1,000 in purchases in the first three months, was for accounts opened July 2 to November 1, 2026, and it has ended. Scotiabank’s page still showed it on November 2, 2026, but its terms had not been extended and no new offer was posted. Past Scotiabank welcome offers have excluded current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open the Scene+ Visa as a product-change from Momentum and expect a bonus.',
     faqs: [
         {
             question: 'Is the Scotiabank Scene+ Visa Card worth it in 2026?',
             answer:
-                'It is worth it as a $0 Scene+ grocery Visa if you already shop eligible Sobeys-family stores and will redeem the points. It is not worth it if your grocer is outside that family, you wanted cash back, or you held a Scotia card in the last two years and only wanted the bonus.',
+                'It is worth it as a $0 Scene+ grocery Visa if you already shop eligible Sobeys-family stores and will redeem the points. It is not worth it if your grocer is outside that family, you wanted cash back,.',
         },
         {
             question: 'Scene+ Visa vs Scotiabank Gold American Express?',
@@ -55,7 +53,7 @@ const review: CardEditorialReview = {
         {
             question: 'Scene+ Visa vs Scotia Momentum Visa Infinite?',
             answer:
-                '[Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/) pays grocery and recurring-bill cash back, not Scene+, at an Infinite fee (with a first-year waiver on the current offer on that card). This card pays Scene+ at $0. Choose Momentum if you want statement-credit cash. Choose Scene+ Visa if movies, Empire grocers, and Scene+ Travel are already how you redeem.',
+                '[Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/) pays grocery and recurring-bill cash back, not Scene+, at an Infinite fee. This card pays Scene+ at $0. Choose Momentum if you want statement-credit cash. Choose Scene+ Visa if movies, Empire grocers, and Scene+ Travel are already how you redeem.',
         },
         {
             question: 'Scene+ Visa vs Tangerine Money-Back?',
@@ -65,7 +63,7 @@ const review: CardEditorialReview = {
         {
             question: 'Is there a student version of this card?',
             answer:
-                'There is also a Scotiabank Scene+ Visa Card for students, with its own page. This review is the standard no-fee Scene+ Visa. If you are applying as a student, use the student product page rather than assuming this card’s welcome terms apply.',
+                'There is also a Scotiabank Scene+ Visa Card for students, with its own page. This review is the standard no-fee Scene+ Visa. If you are applying as a student, use the student product page rather than assuming this card’s terms apply.',
         },
     ],
     extraHubSlugs: ['rewards', 'no-annual-fee', 'groceries'],

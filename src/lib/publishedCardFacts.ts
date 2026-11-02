@@ -111,7 +111,7 @@ const PATCHES: Record<string, CardFactPatch> = {
     },
     'marriott-bonvoy-american-express-card': {
         featuresDetailed:
-            "5 points per $1 at participating Marriott Bonvoy properties and Bonvoy stores, and 2 per $1 on everything else. An Annual Free Night Award after your first year (rooms up to 35,000 points), 15 Elite Night Credits each calendar year, automatic Silver Elite status, and Gold Elite after $30,000 in net purchases in a card year.\n\nWhat it means: the yearly free night is the main reason to keep the card, and it's only worth something if you'll actually book a Marriott stay.",
+            "5 points per $1 at participating Marriott Bonvoy properties and Bonvoy stores, and 2 per $1 on everything else. An Annual Free Night Award after your first year (rooms up to 35,000 points), 15 Elite Night Credits each calendar year, automatic Silver Elite status, and Gold Elite after $30,000 in net purchases before your annual reset date (or 10 qualifying paid nights in a calendar year plus the card's 15 Elite Night Credits).\n\nWhat it means: the yearly free night is the main reason to keep the card, and it's only worth something if you'll actually book a Marriott stay.",
         insurance:
             "Rental car theft and damage (MSRP up to $85,000, up to 48 days), flight and baggage delay (up to $500 combined), lost baggage (up to $500), hotel burglary (up to $500), $500,000 travel accident, purchase protection and up to 1 extra year of warranty.\n\nWhat it means: no travel medical or trip cancellation is listed, so arrange those separately.",
     },
