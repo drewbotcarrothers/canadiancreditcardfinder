@@ -17,7 +17,7 @@ const review: CardEditorialReview = {
     ],
     whoShouldSkip: [
         'Shoppers whose grocer is Loblaws, Metro, Walmart, or Costco. 2x at Sobeys-family stores does nothing at those tills.',
-        'Anyone applying only for a welcome bonus. The up-to-5,000-point offer (accounts opened July 2 to November 1, 2026) has ended, and Scotiabank had not posted a new offer when we checked on November 2, 2026.',
+        'Anyone applying only for a welcome bonus. The current offer is up to 10,000 Scene+ points (about $100) for $1,500 in purchases in the first 3 months, for accounts opened November 2, 2026 to April 30, 2027.',
         'People who will pay for 6x grocery and 5x dining. That mix lives on [Gold American Express](/card/scotiabank-gold-american-express-card/), often with a fee waiver if you hold an eligible Scotia account.',
         'Cash-back shoppers who do not use Scene+. [Momentum Visa Infinite](/card/scotia-momentum-visa-infinite-card/) or Tangerine will annoy you less at redemption time.',
     ],
@@ -29,7 +29,7 @@ const review: CardEditorialReview = {
     ],
     cons: [
         '1x on everything outside the grocery, Home Hardware, and Cineplex lists is ordinary. Dining, gas, and bills need Gold Amex, Passport, or Momentum if you care about those categories.',
-        'There is no welcome offer right now. When Scotiabank runs one, its two-year card exclusion usually rules out anyone who already has Momentum or Passport.',
+        'The current welcome is modest (up to 10,000 points, about $100), and Scotiabank’s two-year card exclusion usually rules out anyone who already has Momentum or Passport.',
         'Scotiabank does not list a minimum income for this card, only a $500 minimum credit limit. Approval is still a credit decision; there is a student version of this card if that is the actual product you need.',
         'Scotiabank does not list built-in insurance on this card. Optional Scotia Credit Card Protection is sold separately. This is a $0 rewards Visa, not a travel-medical product.',
     ],
@@ -38,7 +38,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Scene+ points, not cash back and not Aeroplan. Scotiabank currently lists 2 points per dollar at Sobeys, Safeway, FreshCo, participating IGA, Foodland, participating Co-ops, and more; 2 points per dollar at Home Hardware and Home Building Centre locations and homehardware.ca; 2 points per dollar at Cineplex theatres, the Cineplex app, and cineplex.com; and 1 point per dollar everywhere else. Hotels and car rentals booked through Scene+ Travel, Powered by Expedia earn an extra 3 points per dollar. The short features line only says you earn Scene+ on every purchase; the detailed feature list is the rate table. Those multipliers only apply when the merchant category matches and the charge is a purchase. The eligibility note currently reminds you that cash advances, balance transfers, cash-like transactions, fees, and interest do not earn. A grocery banner outside the eligible list, a restaurant, or a gas station will typically land in 1x. Scene+ redeems at Scene partners, Empire-family groceries, dining, entertainment, and Scene+ Travel. If you do not use those partners, 2x is just a number. For 6x at the same grocers plus 5x dining, that is Gold Amex, not this Visa.',
     welcomeBonus:
-        'There is no welcome offer right now. The last one, up to 5,000 bonus Scene+ points (about $50) for $1,000 in purchases in the first three months, was for accounts opened July 2 to November 1, 2026, and it has ended. Scotiabank’s page still showed it on November 2, 2026, but its terms had not been extended and no new offer was posted. Past Scotiabank welcome offers have excluded current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open the Scene+ Visa as a product-change from Momentum and expect a bonus.',
+        'The current offer, for new accounts opened November 2, 2026 to April 30, 2027, is up to 10,000 bonus Scene+ points (about $100): 2,500 for $500 in purchases in the first three months and 7,500 more at $1,500 in the same window, plus a 0.99% introductory rate on balance transfers for 9 months (2% fee per transfer, then 22.99%). Scotiabank’s offers exclude current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open the Scene+ Visa as a product-change from Momentum and expect a bonus.',
     faqs: [
         {
             question: 'Is the Scotiabank Scene+ Visa Card worth it in 2026?',

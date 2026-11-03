@@ -19,7 +19,7 @@ const review: CardEditorialReview = {
     whoShouldSkip: [
         'Students who can use the [Momentum Visa for students](/card/scotia-momentum-visa-card-for-students/) and whose everyday list is large enough that 2% after a mid fee beats 1% at $0.',
         'Scene+ collectors who shop Sobeys. That is the [Scene+ Visa for students](/card/scotiabank-scene-plus-visa-card-for-students/) or the student Scotia Amex.',
-        'Anyone applying only for a welcome bonus. The 5% offer (accounts opened by November 1, 2026) has ended, and Scotiabank had not posted a new offer when we checked on November 2, 2026.',
+        'Anyone applying only for a welcome bonus. The current 5% offer (accounts opened November 2, 2026 to April 30, 2027) is worth up to $100.',
         'Students with a steady income above $12,000 a year. Scotiabank says they may qualify for other cards.',
     ],
     pros: [
@@ -36,11 +36,11 @@ const review: CardEditorialReview = {
         'The purchase rate is 20.99% and cash advances are 22.99%, so carrying a balance wipes out the 1%.',
     ],
     feesAndValue:
-        'The annual fee is $0, and so are supplementary cards. There is no welcome offer right now (the 5% offer ended with accounts opened by November 1, 2026), so every year is $0 versus 1% on capped everyday categories and 0.5% on the rest. Do that math against student Momentum Visa’s 2% list at $49 a year, against student Scene+ if Sobeys is the grocer, and against Tangerine at $0 if you can get approved. Offers change. Pay in full.',
+        'The annual fee is $0, and so are supplementary cards. The current welcome (accounts opened November 2, 2026 to April 30, 2027) adds up to $100 in year one; after that, every year is $0 versus 1% on capped everyday categories and 0.5% on the rest. Do that math against student Momentum Visa’s 2% list at $49 a year, against student Scene+ if Sobeys is the grocer, and against Tangerine at $0 if you can get approved. Offers change. Pay in full.',
     rewardsExplained:
         'This card pays cash back, not Scene+. Scotiabank pays 1% on eligible grocery, gas, EV charging, transit, rideshare, food delivery, drugstore and pharmacy, and recurring bill payments, up to an annual spend limit on that accelerated list, then 0.5% after the cap and on all other eligible purchases. Recurring means the merchant flags the charge as recurring. A warehouse club or a restaurant inside a grocer may not count. Redeem according to Momentum rules. If you want 2% on a similar campus mix, that is the student Momentum Visa. If you want Scene+ at Sobeys, that is a student Scotia Amex or Scene+ Visa, not Momentum.',
     welcomeBonus:
-        'There is no welcome offer right now. The last one, 5% cash back on the first $2,000 in eligible purchases in the first three months (up to $100) plus a 0.99% introductory rate on balance transfers and cash advances for nine months, was for new accounts opened July 2 to November 1, 2026, and it has ended; Scotiabank had not posted a new offer when we checked on November 2, 2026. Its eligibility was strict: current or former primary or secondary Scotiabank personal cardholders in the past two years, including people who switched from an existing Scotiabank personal card, are not eligible. Do not product-change into this card and expect a bonus.',
+        'The current offer, for new accounts opened November 2, 2026 to April 30, 2027, is 5% cash back on the first $2,000 in eligible purchases in the first three months (up to $100) plus a 0.99% introductory rate on balance transfers and cash advances for nine months (2% fee per transfer, then 22.99%). Its eligibility is strict: current or former primary or secondary Scotiabank personal cardholders in the past two years, including people who switched from an existing Scotiabank personal card, are not eligible. Do not product-change into this card and expect a bonus.',
     faqs: [
         {
             question: 'Is the student Momentum No-Fee Visa actually no-fee?',

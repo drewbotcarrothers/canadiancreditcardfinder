@@ -20,7 +20,7 @@ const review: CardEditorialReview = {
         'Students whose grocer is Loblaws, Metro, Walmart, or Costco. 2x at Sobeys-family stores does nothing at those tills.',
         'Students who wanted 3x grocery and 2x dining and will keep an Amex backup. That is the [student Scotia Amex](/card/scotiabank-american-express-card-for-students/).',
         'Cash-back students who do not use Scene+. [Momentum No-Fee for students](/card/scotia-momentum-no-fee-visa-card-for-students/) currently lists $0 cash back.',
-        'Anyone applying only for a welcome bonus. The up-to-5,000-point offer (accounts opened July 2 to November 1, 2026) has ended, and Scotiabank had not posted a new offer when we checked on November 2, 2026.',
+        'Anyone applying only for a welcome bonus. The current offer is up to 10,000 Scene+ points (about $100) for $1,500 in purchases in the first 3 months, for accounts opened November 2, 2026 to April 30, 2027.',
     ],
     pros: [
         'No annual fee on a Scene+ Visa is the headline. You are not racing a Gold bill.',
@@ -30,7 +30,7 @@ const review: CardEditorialReview = {
     ],
     cons: [
         '1x on everything outside those bonus banners is ordinary. Dining, gas, and bills need the student Amex’s 2x list or Momentum if you care about those categories.',
-        'There is no welcome offer right now, and Scotiabank’s two-year card exclusion on past offers is the same strict rule as the paid Scotia cards.',
+        'Scotiabank’s two-year card exclusion on its welcome offers is the same strict rule as the paid Scotia cards.',
         'Eligibility currently requires Canadian citizenship or permanent residence. International students should read CIBC’s student cards or BMO’s citizenship line rather than assuming Scotia will stretch this Visa.',
         'No built-in insurance is listed on the student Scene+ Visa page (optional Scotia Credit Card Protection is sold separately). This is a $0 rewards Visa, not travel medical.',
     ],
@@ -39,7 +39,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Scene+ points, not cash back. Detailed features currently award 1 Scene+ per dollar on all purchases, then 2x at Sobeys, Safeway, participating IGA, Foodland, participating Co-ops, FreshCo, Chalo! FreshCo, Thrifty Foods, Rachelle Béry, Les Marchés Tradition, and Voila banners; 2x at eligible Home Hardware, Home Building Centre, Home Hardware Building Centre, Home Furniture, and homehardware.ca; and 2x at Cineplex theatres, the Cineplex app, and cineplex.com. Adult Scene+ Visa in our reviews leads with grocery 2x and 1x else — this student card’s detailed features are the ones that name hardware and Cineplex. Merchant coding still applies. Redeem at Scene partners, Empire grocers, and Scene+ Travel. For 3x grocery and 2x dining, that is the student Amex. For statement-credit cash, that is student Momentum.',
     welcomeBonus:
-        'There is no welcome offer right now. The last one, up to 5,000 bonus Scene+ points (about $50) for $1,000 in purchases in the first three months, was for accounts opened July 2 to November 1, 2026, and it has ended. Scotiabank’s page still showed it on November 2, 2026, but its terms had not been extended and no new offer was posted. Past Scotiabank welcome offers have excluded current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open this as a product-change from student Momentum and expect a bonus.',
+        'The current offer, for new accounts opened November 2, 2026 to April 30, 2027, is up to 10,000 bonus Scene+ points (about $100): 2,500 for $500 in purchases in the first three months and 7,500 more at $1,500 in the same window, plus a 0.99% introductory rate on balance transfers for 9 months (2% fee per transfer, then 22.99%). Scotiabank’s offers exclude current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open this as a product-change from student Momentum and expect a bonus.',
     faqs: [
         {
             question: 'Is the Scotiabank Scene+ Visa Card for students worth it in 2026?',
