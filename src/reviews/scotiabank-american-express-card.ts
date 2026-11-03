@@ -17,7 +17,7 @@ const review: CardEditorialReview = {
     ],
     whoShouldSkip: [
         'Shoppers whose grocer is Loblaws, Metro, Walmart, or Costco. 3x at Sobeys-family stores does nothing at those tills, and Costco Canada will not take American Express.',
-        'Anyone applying only for a welcome bonus. The up-to-10,000-point offer (accounts opened May 1 to November 1, 2026) has ended, and Scotiabank had not posted a new offer when we checked on November 2, 2026.',
+        'Anyone applying only for a welcome bonus. The current offer is up to 5,000 Scene+ points (about $50) for accounts opened November 2, 2026 to July 1, 2027.',
         'People who will pay for 6x grocery and 5x dining, or can get Gold’s fee waived with an eligible Scotia account. That mix lives on Gold Amex.',
         'Shoppers who need Visa as their only card. This is still American Express; the $0 Scene+ Visa exists for that job at 2x grocery.',
     ],
@@ -29,7 +29,7 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'It is still American Express. Plenty of Canadian merchants will send you to the backup card, which then misses the 3x and 2x.',
-        'There is no welcome offer right now. When Scotiabank runs one, its two-year card exclusion usually rules out anyone who already has Momentum or Passport.',
+        'The current welcome is small (up to 5,000 points, about $50), and Scotiabank’s two-year card exclusion rules out anyone who already has Momentum or Passport.',
         '1x on everything outside the bonus list is ordinary. A month of electronics and Amazon is not why this card exists.',
         'Insurance is limited to mobile device coverage (up to $500) plus purchase security and extended warranty. There is no travel medical coverage, and this is not a no-FX card the way Gold Amex is.',
     ],
@@ -38,7 +38,7 @@ const review: CardEditorialReview = {
     rewardsExplained:
         'You earn Scene+ points, not Membership Rewards and not cash back. Scotiabank currently lists 3 Scene+ per dollar at Sobeys, Safeway, FreshCo, Foodland, IGA, Voila, Thrifty Foods, and other listed Empire-family and Co-op banners; 2x on other grocery, dining, entertainment, gas, daily transit, and select streaming; and 1x on everything else. The 3x and 2x rates apply to the first $50,000 in purchases in those categories each calendar year, then 1x. Those multipliers only apply when the merchant takes Amex and the category matches. A grocery banner outside the eligible list, a restaurant inside a hotel, or a streaming service billed through a platform that codes as general retail can land in 1x. Scene+ redeems at Scene partners, Empire-family groceries, dining, entertainment, and Scene+ Travel. For 6x at the same grocers plus 5x dining, that is Gold Amex. For 2x on every Amex-accepted purchase, that is Platinum.',
     welcomeBonus:
-        'There is no welcome offer right now. The last one, up to 10,000 bonus Scene+ points (about $100 toward travel) for $1,000 in purchases in the first three months, was for accounts opened May 1 to November 1, 2026, and it has ended. Scotiabank’s page still showed it on November 2, 2026, but its terms had not been extended and no new offer was posted. Past Scotiabank welcome offers have excluded current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open this Amex as a product-change and expect a bonus.',
+        'The current offer, for new accounts opened November 2, 2026 to July 1, 2027, is up to 5,000 bonus Scene+ points (about $50 toward travel): 2,500 for $250 in purchases in the first three months and 2,500 more at $1,000 in the same window. That is half the previous 10,000-point offer. Scotiabank’s offers exclude current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open this Amex as a product-change and expect a bonus.',
     faqs: [
         {
             question: 'Is the Scotiabank American Express Card worth it in 2026?',
