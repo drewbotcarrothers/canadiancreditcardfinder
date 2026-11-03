@@ -8,7 +8,7 @@ const review: CardEditorialReview = {
     metaDescription:
         'Scotiabank Gold American Express Card review for 2026: 6x Sobeys Scene+, no FX fees, annual-fee waiver, welcome bonus, and who should skip it.',
     intro:
-        'The Scotiabank Gold American Express Card is a Scene+ earner dressed as a mid-fee Amex: 6x at Sobeys-family grocers, 5x at other eligible grocery stores and on dining, delivery, and entertainment, 3x on gas, daily transit, and select streaming services, and no foreign-transaction fees. The annual fee is often the headline people remember — and the detail line says it can be waived with an eligible Scotiabank account. This Scotiabank Gold American Express Card review covers who actually shops those grocery banners, how strict the two-year welcome-bonus exclusion is, and when [Cobalt](/card/american-express-cobalt-card/) or [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) is the better Scene+ or dining card.',
+        'The Scotiabank Gold American Express Card is a Scene+ earner dressed as a mid-fee Amex: 6x at Sobeys-family grocers, 5x at other eligible grocery stores and on dining, delivery, and entertainment, 3x on gas, daily transit, and select streaming services, and no foreign-transaction fees. The annual fee is often the headline people remember — and the detail line says it can be waived with an eligible Scotiabank account. This Scotiabank Gold American Express Card review covers who actually shops those grocery banners, how strict Scotiabank’s two-year welcome-bonus exclusion is, and when [Cobalt](/card/american-express-cobalt-card/) or [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/) is the better Scene+ or dining card.',
     whoItsFor: [
         'Households that already shop at Sobeys, Safeway, FreshCo, Foodland, or other eligible Scene+ grocery banners often enough for 6x to move the needle.',
         'People who eat out, order delivery, and go to movies, and can stack the 5x bucket on the same Amex.',
@@ -17,7 +17,7 @@ const review: CardEditorialReview = {
     ],
     whoShouldSkip: [
         'Shoppers whose grocer is Loblaws, Metro, Walmart, or Costco. 6x at Sobeys-family stores does nothing at those tills.',
-        'Anyone who held a Scotiabank personal credit card in the past two years and is only applying for the bonus. The current eligibility text excludes current and former primary or secondary cardholders, product-changers, and Scotiabank employees.',
+        'Anyone applying only for a welcome bonus. The up-to-50,000-point offer (accounts opened July 2 to November 1, 2026) has ended, and Scotiabank had not posted a new offer when we checked on November 2, 2026.',
         'People who need lounge passes as the reason to pay a fee. That is [Passport Visa Infinite](/card/scotiabank-passport-visa-infinite-card/), not Gold Amex.',
         'Anyone who might carry a balance. Scene+ is not a cheap line of credit.',
     ],
@@ -31,22 +31,22 @@ const review: CardEditorialReview = {
     ],
     cons: [
         'It is still American Express. Canadian grocers in the Sobeys family generally take it; plenty of other merchants do not. You need a backup card.',
-        'The welcome bonus currently requires two spend hurdles, and the two-year Scotiabank-card exclusion is among the strictest of the cards we track.',
+        'There is no welcome offer right now, and Scotiabank’s two-year card exclusion on past offers is among the strictest of the cards we track.',
         'Additional cards currently carry their own annual fee.',
         'The accelerated 6x, 5x, and 3x rates apply to the first $50,000 in purchases each calendar year, and only to purchases in Canadian dollars. Foreign-currency purchases earn 1x.',
         'Income listed in eligibility is unusually low for this earn mix, but approval is still a credit decision. Do not treat the minimum as a guarantee.',
     ],
     feesAndValue:
-        'Look at the fee table and the detail line together. The issuer shows an annual fee that is waived with an eligible bank account. If you already have (or will open) that account, year-two cost can be $0 and the card is mostly “does 6x grocery plus 5x dining beat the hassle of Amex acceptance?” If you will not hold the qualifying account, treat this like any other mid-fee rewards card: bonus categories minus the fee, versus a no-fee Mastercard. The first-year snapshot on this page compares estimated welcome-bonus value with the headline fee; it does not assume the waiver. Additional cards are extra and are not described as waived. Offers change. Pay in full.',
+        'Look at the fee table and the detail line together. The issuer shows an annual fee that is waived with an eligible bank account. If you already have (or will open) that account, year-two cost can be $0 and the card is mostly “does 6x grocery plus 5x dining beat the hassle of Amex acceptance?” If you will not hold the qualifying account, treat this like any other mid-fee rewards card: bonus categories minus the fee, versus a no-fee Mastercard. There is no welcome bonus right now (the last offer ended with accounts opened by November 1, 2026). Additional cards are extra and are not described as waived. Offers change. Pay in full.',
     rewardsExplained:
         'You earn Scene+ points, not Membership Rewards and not cash back. Scotiabank currently lists 6x at Sobeys, Safeway, FreshCo, Foodland, IGA, and other participating Sobeys-family grocers; 5x at other eligible grocery stores and on dining, food delivery, food subscriptions, and entertainment (movies, theatre, ticket agencies); 3x on gas, daily transit (rideshares, buses, taxis), and select streaming services; and 1x on everything else. The accelerated rates apply to the first $50,000 in purchases each calendar year, then 1x. Those multipliers only apply when the merchant category matches. A grocery banner outside the eligible list, a restaurant inside a hotel, or a streaming service billed through a platform that codes as general retail can land in 1x. Scene+ redeems at Scene partners, groceries in the Empire family, dining, entertainment, and Scene+ Travel. If you do not use those partners, 6x is just a big number. No foreign-transaction fees apply to foreign-currency purchases on this card, but those purchases earn 1x — still carry a Visa or Mastercard where Amex is not taken.',
     welcomeBonus:
-        'The current offer, for accounts opened July 2 to November 1, 2026, is up to 50,000 bonus Scene+ points in two spend gates: 30,000 points after $2,000 in everyday purchases in the first 3 months, then 20,000 more after $7,500 in the first year. Scotiabank wraps that into an “up to $950” first-year value estimate. You need both to match the “up to” point total and the estimated value wrap (which also mentions first-year rewards and savings). Eligibility is strict: current or former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees are not eligible. That catches almost everyone who already has a Scotia Momentum or Passport card. Read the live application. Do not open Gold Amex as a product-change and expect the bonus.',
+        'There is no welcome offer right now. The last one, up to 50,000 bonus Scene+ points (Scotiabank’s “up to $950” figure also counted first-year earn and savings), was for accounts opened July 2 to November 1, 2026, and it has ended. Scotiabank’s page still showed it on November 2, 2026, but its terms had not been extended and no new offer was posted. Past Scotiabank welcome offers have excluded current and former primary or secondary cardholders of a Scotiabank personal credit card in the past two years, people who switch from an existing Scotiabank personal card, and Scotiabank employees. Do not open Gold Amex as a product-change and expect a bonus.',
     faqs: [
         {
             question: 'Is the Scotiabank Gold American Express Card worth it in 2026?',
             answer:
-                'It is worth it when you shop eligible Sobeys-family stores, will use 5x dining, and either get the fee waived or spend enough for 6x to clear the fee. It is not worth it if your grocer is outside that family, you cannot get Amex accepted, or you held a Scotia card in the last two years and only wanted the bonus.',
+                'It is worth it when you shop eligible Sobeys-family stores, will use 5x dining, and either get the fee waived or spend enough for 6x to clear the fee. It is not worth it if your grocer is outside that family, you cannot get Amex accepted,.',
         },
         {
             question: 'Can the annual fee be waived?',
