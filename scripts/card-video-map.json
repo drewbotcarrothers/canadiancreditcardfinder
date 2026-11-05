@@ -704,6 +704,14 @@
       ],
       "kind": "persona",
       "description": "A three-card family stack for Canada: one card for groceries, one for Costco, and one fee card for trips, with when the fee pays off."
+    },
+    "_QvzEttCjgU": {
+      "cards": [
+        "bmo-eclipse-visa-infinite-card",
+        "rbc-ion-plus-visa"
+      ],
+      "kind": "head-to-head",
+      "description": "BMO eclipse Visa Infinite Card vs RBC ION+ Visa: $120 vs $48 annual fee, 5x vs 3x everyday points, what each point is worth and the roughly $500-a-month break-even."
     }
   },
   "skip": {
