@@ -695,6 +695,15 @@
       ],
       "kind": "best-of",
       "description": "Scotiabank credit cards ranked by welcome offer: the Gold Amex, Passport Visa Infinite, Momentum Visa Infinite and Scene+ Visa, with what the same first-months spend earns on each and who each card fits."
+    },
+    "iCQ4H7frilA": {
+      "cards": [
+        "pc-world-elite-mastercard",
+        "cibc-costco-mastercard",
+        "scotiabank-passport-visa-infinite-card"
+      ],
+      "kind": "persona",
+      "description": "A three-card family stack for Canada: one card for groceries, one for Costco, and one fee card for trips, with when the fee pays off."
     }
   },
   "skip": {
