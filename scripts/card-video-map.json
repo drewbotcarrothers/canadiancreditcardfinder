@@ -735,6 +735,15 @@
       ],
       "kind": "persona",
       "description": "Four Canadian personas matched to one anchor card each: Scotia Momentum Visa Infinite for families, RBC Cash Back Preferred World Elite for freelancers, Tangerine Money-Back for landlords, and Scotiabank Passport Visa Infinite for travellers."
+    },
+    "TIVIs6OhXqA": {
+      "cards": [
+        "td-u-s-dollar-visa-card",
+        "bmo-u-s-dollar-mastercard",
+        "scotiabank-passport-visa-infinite-card"
+      ],
+      "kind": "guide",
+      "description": "USD credit cards vs no-foreign-fee cards for Canadians spending in the States: the funding test that decides whether TD or BMO's U.S. dollar card, or Scotiabank Passport Visa Infinite, actually skips the conversion."
     }
   },
   "skip": {
