@@ -501,7 +501,7 @@
         "scotiabank-passport-visa-infinite-privilege-card"
       ],
       "kind": "best-of",
-      "description": "Best travel credit cards in Canada for 2026: pick by airline program — Aeroplan, WestJet, Porter or Scene+ — with fees, earn rates and who each card fits."
+      "description": "Best travel credit cards in Canada for 2026: pick by airline program \u2014 Aeroplan, WestJet, Porter or Scene+ \u2014 with fees, earn rates and who each card fits."
     },
     "v9IkUYTTPyE": {
       "cards": [
@@ -725,6 +725,15 @@
       ],
       "kind": "head-to-head",
       "description": "MBNA Rewards World Elite Mastercard vs National Bank World Elite Mastercard: both pay 5x on groceries, but the limits work very differently. Fees, the 5x limits, welcome offer and travel extras compared."
+    },
+    "TIVIs6OhXqA": {
+      "cards": [
+        "td-u-s-dollar-visa-card",
+        "bmo-u-s-dollar-mastercard",
+        "scotiabank-passport-visa-infinite-card"
+      ],
+      "kind": "guide",
+      "description": "USD credit cards vs no-foreign-fee cards for Canadians spending in the States: the funding test that decides whether TD or BMO's U.S. dollar card, or Scotiabank Passport Visa Infinite, actually skips the conversion."
     }
   },
   "skip": {
