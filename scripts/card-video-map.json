@@ -744,6 +744,16 @@
       ],
       "kind": "guide",
       "description": "USD credit cards vs no-foreign-fee cards for Canadians spending in the States: the funding test that decides whether TD or BMO's U.S. dollar card, or Scotiabank Passport Visa Infinite, actually skips the conversion."
+    },
+    "6_12iM0_f9k": {
+      "cards": [
+        "pc-world-elite-mastercard",
+        "triangle-world-elite-mastercard",
+        "cibc-costco-mastercard",
+        "tangerine-money-back-credit-card"
+      ],
+      "kind": "best-of",
+      "description": "$0 Grocery Cards in Canada: PC, Triangle, Costco and Tangerine Compared — match the no-fee card to where you already shop."
     }
   },
   "skip": {
