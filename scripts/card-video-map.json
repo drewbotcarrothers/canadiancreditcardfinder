@@ -501,7 +501,7 @@
         "scotiabank-passport-visa-infinite-privilege-card"
       ],
       "kind": "best-of",
-      "description": "Best travel credit cards in Canada for 2026: pick by airline program — Aeroplan, WestJet, Porter or Scene+ — with fees, earn rates and who each card fits."
+      "description": "Best travel credit cards in Canada for 2026: pick by airline program \u2014 Aeroplan, WestJet, Porter or Scene+ \u2014 with fees, earn rates and who each card fits."
     },
     "v9IkUYTTPyE": {
       "cards": [
@@ -725,6 +725,17 @@
       ],
       "kind": "head-to-head",
       "description": "MBNA Rewards World Elite Mastercard vs National Bank World Elite Mastercard: both pay 5x on groceries, but the limits work very differently. Fees, the 5x limits, welcome offer and travel extras compared."
+    },
+    "1vgjSsTEpW0": {
+      "cards": [
+        "american-express-aeroplan-reserve-card",
+        "the-platinum-card",
+        "american-express-gold-rewards-card",
+        "american-express-cobalt-card"
+      ],
+      "kind": "offers",
+      "note": "5 cards ranked in the video; Green ($0 / 10k) is the no-fee option and left off to respect the ~4-card cap.",
+      "description": "American Express Canada welcome offers ranked three ways: bonus-only value, first-year value after the annual fee, and the spending each offer asks for \u2014 Cobalt, Gold Rewards, Platinum and Aeroplan Reserve."
     }
   },
   "skip": {
