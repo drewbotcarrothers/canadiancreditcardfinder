@@ -725,6 +725,16 @@
       ],
       "kind": "head-to-head",
       "description": "MBNA Rewards World Elite Mastercard vs National Bank World Elite Mastercard: both pay 5x on groceries, but the limits work very differently. Fees, the 5x limits, welcome offer and travel extras compared."
+    },
+    "cyxNPVdGank": {
+      "cards": [
+        "scotia-momentum-visa-infinite-card",
+        "rbc-cash-back-preferred-world-elite-mastercard",
+        "tangerine-money-back-credit-card",
+        "scotiabank-passport-visa-infinite-card"
+      ],
+      "kind": "persona",
+      "description": "Four Canadian personas matched to one anchor card each: Scotia Momentum Visa Infinite for families, RBC Cash Back Preferred World Elite for freelancers, Tangerine Money-Back for landlords, and Scotiabank Passport Visa Infinite for travellers."
     }
   },
   "skip": {
