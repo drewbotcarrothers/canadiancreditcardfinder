@@ -765,6 +765,13 @@
       "kind": "offers",
       "note": "5 cards ranked in the video; Green ($0 / 10k) is the no-fee option and left off to respect the ~4-card cap.",
       "description": "American Express Canada welcome offers ranked three ways: bonus-only value, first-year value after the annual fee, and the spending each offer asks for — Cobalt, Gold Rewards, Platinum and Aeroplan Reserve."
+    },
+    "kYAfvYzaGz8": {
+      "cards": [
+        "rbc-avion-visa-infinite",
+        "td-aeroplan-visa-infinite-card",
+        "scotiabank-gold-american-express-card"
+      ]
     }
   },
   "skip": {
