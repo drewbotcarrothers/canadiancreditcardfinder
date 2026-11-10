@@ -772,6 +772,17 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "SpCpB7d2hW0": {
+      "cards": [
+        "simplycash-card-from-american-express",
+        "tangerine-money-back-world-mastercard",
+        "rogers-red-world-elite-mastercard",
+        "bmo-cashback-mastercard"
+      ],
+      "kind": "best-of",
+      "note": "5 picks in the video; CIBC Dividend Visa Card (#5) left off to respect the ~4-card cap.",
+      "description": "Five no annual fee cash back cards compared on the same illustrative spending: base rate, category caps and income rules decide the payout more than the headline percentage."
     }
   },
   "skip": {
