@@ -772,6 +772,14 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "pu0QonbAY-8": {
+      "cards": [
+        "cibc-aeroplan-visa-infinite-privilege-card",
+        "american-express-aeroplan-reserve-card"
+      ],
+      "kind": "head-to-head",
+      "description": "CIBC Aeroplan Visa Infinite Privilege vs Amex Aeroplan Reserve: both cost $599 a year today, then split to $699 and $799 on January 12, 2027, and the earn rates split by spending mix."
     }
   },
   "skip": {
