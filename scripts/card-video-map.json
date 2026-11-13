@@ -772,6 +772,14 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "Om0VzyIDdSQ": {
+      "cards": [
+        "scotiabank-american-express-card-for-students",
+        "student-bmo-cashback-mastercard",
+        "scotiabank-scene-plus-visa-card-for-students",
+        "bmo-cashback-mastercard"
+      ]
     }
   },
   "skip": {
