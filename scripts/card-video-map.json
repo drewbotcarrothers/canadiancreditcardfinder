@@ -772,6 +772,14 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "Y9-sNT0vrGM": {
+      "cards": [
+        "td-aeroplan-visa-infinite-card",
+        "cibc-aeroplan-visa-infinite-card",
+        "westjet-rbc-world-elite-mastercard",
+        "desjardins-odyssey-world-elite-mastercard"
+      ]
     }
   },
   "skip": {
