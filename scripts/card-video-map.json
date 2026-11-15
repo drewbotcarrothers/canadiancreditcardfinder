@@ -772,6 +772,16 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "eFh9y6yuyB0": {
+      "cards": [
+        "bmo-viporter-world-elite-mastercard",
+        "bmo-ascend-world-elite-mastercard",
+        "bmo-eclipse-visa-infinite-card",
+        "bmo-cashback-world-elite-mastercard"
+      ],
+      "kind": "offers",
+      "description": "Four BMO credit cards ranked by welcome offer, with the spend each full bonus needs, the annual fee and who each one fits."
     }
   },
   "skip": {
