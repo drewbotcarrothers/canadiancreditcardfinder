@@ -772,6 +772,15 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "dpI9ocuBj5k": {
+      "cards": [
+        "tangerine-money-back-credit-card",
+        "cibc-dividend-visa-card",
+        "scotiabank-scene-plus-visa-card"
+      ],
+      "kind": "persona",
+      "description": "A first-card stack for students and newcomers in Canada: the Tangerine Money-Back, CIBC Dividend Visa and optional Scotiabank Scene+ Visa, all with no annual fee, plus the habit of autopaying the full balance."
     }
   },
   "skip": {
