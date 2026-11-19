@@ -772,6 +772,17 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "z2zzPQ0cD6Q": {
+      "cards": [
+        "scotiabank-scene-plus-visa-card",
+        "scotiabank-gold-american-express-card",
+        "scotiabank-passport-visa-infinite-card",
+        "scotiabank-platinum-american-express-card"
+      ],
+      "kind": "roundup",
+      "note": "Best-of roundup: five Scene+ cards ranked by where you spend; main picks listed.",
+      "description": "Scotiabank's five Scene+ cards ranked from $0 to $399 a year: the fee doesn't buy more grocery points, so pick by where you spend."
     }
   },
   "skip": {
