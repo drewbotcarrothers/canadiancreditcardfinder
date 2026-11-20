@@ -772,6 +772,14 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "didtcRDydwM": {
+      "cards": [
+        "rbc-ion-plus-visa",
+        "rbc-ion-visa"
+      ],
+      "kind": "compare",
+      "note": "Head-to-head: RBC ION+ vs RBC ION Visa, is the $48 fee worth it."
     }
   },
   "skip": {
