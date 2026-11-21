@@ -772,6 +772,16 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "Eyhci9JnEtw": {
+      "cards": [
+        "student-bmo-cashback-mastercard",
+        "tangerine-money-back-credit-card",
+        "scotiabank-value-visa-card"
+      ],
+      "kind": "guide",
+      "note": "Guide explainer (how credit scores work, 5 habits): the 3 no-fee starter cards used as worked examples are mapped.",
+      "description": "How credit scores work in Canada: the five habits that move yours, from on-time payments and low reported utilization to keeping a no-fee card open."
     }
   },
   "skip": {
