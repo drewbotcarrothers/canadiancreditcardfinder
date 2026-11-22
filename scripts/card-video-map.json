@@ -772,6 +772,17 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "VL6Yc0Tz_Ic": {
+      "cards": [
+        "walmart-rewards-mastercard",
+        "simplycash-card-from-american-express",
+        "amazon-ca-rewards-mastercard",
+        "rogers-red-world-elite-mastercard"
+      ],
+      "kind": "roundup",
+      "note": "Black Friday no-annual-fee roundup: the four cards featured are mapped.",
+      "description": "Black Friday 2026 in Canada: which no-annual-fee credit card to use at Walmart, Amazon and everywhere else, and for protecting big-ticket buys."
     }
   },
   "skip": {
