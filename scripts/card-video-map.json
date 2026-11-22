@@ -772,6 +772,16 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "-Q7pvxjq3X4": {
+      "cards": [
+        "td-aeroplan-visa-infinite-card",
+        "cibc-aeroplan-visa-infinite-card",
+        "american-express-aeroplan-card"
+      ],
+      "kind": "guide",
+      "note": "Guide explainer (Aeroplan for Canadians): the three entry Aeroplan cards compared in the video are mapped.",
+      "description": "Aeroplan explained for Canadians: how points are earned and redeemed, and how to pick between the TD, CIBC and American Express Aeroplan cards."
     }
   },
   "skip": {
