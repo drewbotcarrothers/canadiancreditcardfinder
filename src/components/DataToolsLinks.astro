@@ -1,0 +1,35 @@
+---
+import { CARD_INDEX_PATH, NO_FX_PATH } from '../lib/cardIndex';
+import { POINTS_CALCULATOR_PATH } from '../lib/pointValues';
+
+interface Props {
+    current?: 'index' | 'nofx' | 'calculator';
+}
+
+const { current } = Astro.props;
+
+const links: { id: NonNullable<Props['current']>; href: string; label: string }[] = [
+    { id: 'index', href: CARD_INDEX_PATH, label: 'Credit card index' },
+    { id: 'nofx', href: NO_FX_PATH, label: 'No foreign transaction fee cards' },
+    { id: 'calculator', href: POINTS_CALCULATOR_PATH, label: 'Points value calculator' },
+];
+
+const pillClass =
+    'inline-flex items-center rounded-full border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:border-red-600 hover:text-red-600 transition-colors';
+const activePillClass =
+    'inline-flex items-center rounded-full border border-red-600 bg-red-600 px-4 py-2 text-sm font-medium text-white';
+---
+
+<nav aria-label="Data and tools" class="flex flex-wrap gap-2">
+    {
+        links.map((link) =>
+            link.id === current ? (
+                <span class={activePillClass}>{link.label}</span>
+            ) : (
+                <a href={link.href} class={pillClass}>
+                    {link.label}
+                </a>
+            )
+        )
+    }
+</nav>

@@ -1,0 +1,14 @@
+---
+import { formatDisplayDate, formatIsoDate } from '../lib/contentDates';
+
+interface Props {
+    date: Date;
+    class?: string;
+}
+
+const { date, class: className = '' } = Astro.props;
+---
+
+<p class:list={['text-sm font-medium text-gray-800', className]}>
+    As of <time datetime={formatIsoDate(date)}>{formatDisplayDate(date)}</time>
+</p>

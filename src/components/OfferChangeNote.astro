@@ -1,0 +1,11 @@
+---
+import { OFFERS_CHANGE_NOTE } from '../lib/cardIndex';
+
+interface Props {
+    class?: string;
+}
+
+const { class: className = '' } = Astro.props;
+---
+
+<p class:list={['text-sm text-gray-600 leading-relaxed', className]}>{OFFERS_CHANGE_NOTE}</p>

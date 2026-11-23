@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import DataToolsLinks from '../../components/DataToolsLinks.astro';
 import HubLinks from '../../components/HubLinks.astro';
 import { getGuideImage, getGuides, guidePath } from '../../lib/guides';
 
@@ -56,6 +57,11 @@ const jsonLd = {
         <div class="mb-8">
             <HubLinks />
         </div>
+
+        <section class="mb-8" aria-labelledby="data-tools-heading">
+            <h2 id="data-tools-heading" class="text-sm font-semibold text-gray-900 mb-3">Data & tools</h2>
+            <DataToolsLinks />
+        </section>
 
         <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
             {

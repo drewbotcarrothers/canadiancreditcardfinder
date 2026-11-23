@@ -1,0 +1,47 @@
+---
+import type { CreditCard } from '../lib/types';
+import { formatCurrency } from '../lib/utils';
+
+interface Props {
+    cards: CreditCard[];
+    /** Open card links in a new tab (embed viewed on someone else's site). */
+    newTab?: boolean;
+}
+
+const { cards, newTab = false } = Astro.props;
+const thClass = 'py-2 pr-4 font-semibold text-gray-500';
+const tdClass = 'py-3 pr-4 align-top text-gray-900';
+---
+
+<div class="overflow-x-auto">
+    <table class="min-w-full text-sm text-left">
+        <caption class="sr-only">Credit cards with a 0% foreign transaction fee</caption>
+        <thead>
+            <tr class="border-b border-gray-200">
+                <th scope="col" class={thClass}>Card</th>
+                <th scope="col" class={thClass}>Issuer</th>
+                <th scope="col" class={thClass}>Annual fee</th>
+            </tr>
+        </thead>
+        <tbody>
+            {
+                cards.map((card) => (
+                    <tr class="border-b border-gray-100">
+                        <th scope="row" class={`${tdClass} font-medium`}>
+                            <a
+                                href={`/card/${card.slug}/`}
+                                class="text-red-600 hover:text-red-700 underline underline-offset-2"
+                                target={newTab ? '_blank' : undefined}
+                                rel={newTab ? 'noopener' : undefined}
+                            >
+                                {card.creditCardName}
+                            </a>
+                        </th>
+                        <td class={tdClass}>{card.issuer}</td>
+                        <td class={tdClass}>{card.annualFeeDisplay || formatCurrency(card.annualFee)}</td>
+                    </tr>
+                ))
+            }
+        </tbody>
+    </table>
+</div>

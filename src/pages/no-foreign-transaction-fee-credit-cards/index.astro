@@ -1,0 +1,114 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import AsOf from '../../components/AsOf.astro';
+import Byline from '../../components/Byline.astro';
+import DataToolsLinks from '../../components/DataToolsLinks.astro';
+import EmbedSnippet from '../../components/EmbedSnippet.astro';
+import NoFxCardTable from '../../components/NoFxCardTable.astro';
+import OfferChangeNote from '../../components/OfferChangeNote.astro';
+import { authorJsonLd, publisherJsonLd } from '../../lib/author';
+import {
+    FX_GUIDE_PATH,
+    NO_FX_EMBED_PATH,
+    NO_FX_PATH,
+    buildCardIndex,
+} from '../../lib/cardIndex';
+import { lastModified, latestDate } from '../../lib/contentDates';
+import { getCards, getDataFetchedAt } from '../../lib/data';
+
+const cards = await getCards();
+const asOf = getDataFetchedAt();
+if (!asOf) throw new Error('Card catalog has no fetch date.');
+const index = buildCardIndex(cards, Astro.site ?? 'https://canadiancreditcardfinder.com');
+const listed = index.noFxCards;
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+
+const title = 'No Foreign Transaction Fee Credit Cards in Canada | Canadian Credit Card Finder';
+const description = `${listed.length} Canadian credit cards in our catalog whose features state a 0% foreign transaction fee, with the issuer, annual fee, and a link to each card page.`;
+
+const pageUpdated = latestDate(
+    lastModified('src/pages/no-foreign-transaction-fee-credit-cards/index.astro'),
+    lastModified('src/lib/cardIndex.ts'),
+);
+
+const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'No foreign transaction fee credit cards in Canada',
+    description,
+    url: canonical,
+    inLanguage: 'en-CA',
+    author: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
+    dateModified: asOf.toISOString(),
+    mainEntity: {
+        '@type': 'ItemList',
+        numberOfItems: listed.length,
+        itemListElement: listed.map((card, position) => ({
+            '@type': 'ListItem',
+            position: position + 1,
+            name: card.creditCardName,
+            url: new URL(`/card/${card.slug}/`, Astro.site).href,
+        })),
+    },
+};
+---
+
+<BaseLayout title={title} description={description}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">Home</a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">No foreign transaction fee cards</li>
+            </ol>
+        </nav>
+
+        <header class="mb-8 max-w-3xl">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                No foreign transaction fee credit cards in Canada
+            </h1>
+            <p class="text-lg text-gray-600 leading-relaxed mb-4">
+                These {listed.length} cards state a 0% foreign transaction fee in the features on their card
+                pages. For how the fee is calculated, and what a U.S. dollar card does differently, read the{' '}
+                <a href={FX_GUIDE_PATH} class="text-red-600 hover:text-red-700 font-medium">
+                    foreign transaction fees guide
+                </a>.
+            </p>
+            <AsOf date={asOf} class="mb-2" />
+            <Byline updated={pageUpdated} class="mb-3" />
+            <OfferChangeNote />
+        </header>
+
+        <section class="mb-8" aria-labelledby="data-tools-heading">
+            <h2 id="data-tools-heading" class="text-sm font-semibold text-gray-900 mb-3">Data & tools</h2>
+            <DataToolsLinks current="nofx" />
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="nofx-list-heading">
+            <h2 id="nofx-list-heading" class="text-2xl font-bold text-gray-900 mb-2">
+                Cards that state a 0% foreign transaction fee
+            </h2>
+            <p class="text-gray-600 mb-5 max-w-3xl">
+                A card is listed when its features say there is no foreign transaction fee, no foreign
+                exchange fee, or a 0% currency conversion charge. A waiver that covers only U.S. dollar
+                purchases stays off this list. Cards that do not state a fee are left off, rather than
+                assigned one.
+            </p>
+            {listed.length > 0 ? <NoFxCardTable cards={listed} /> : <p class="text-gray-700">No card in the current catalog states a 0% foreign transaction fee.</p>}
+        </section>
+
+        <div class="mb-8">
+            <EmbedSnippet
+                iframePath={NO_FX_EMBED_PATH}
+                iframeTitle="Canadian credit cards with no foreign transaction fee"
+                creditPath={NO_FX_PATH}
+                height={640}
+            />
+        </div>
+
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    </div>
+</BaseLayout>
