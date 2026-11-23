@@ -772,6 +772,15 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "8qCNOYyaVBU": {
+      "cards": [
+        "tangerine-money-back-world-mastercard",
+        "scotia-momentum-visa-infinite-card",
+        "td-aeroplan-visa-infinite-card"
+      ],
+      "kind": "persona",
+      "description": "A couple's credit card stack for Canada: add your partner as an additional cardholder or get them their own card, with what each choice means for welcome bonuses, rewards and credit history."
     }
   },
   "skip": {
