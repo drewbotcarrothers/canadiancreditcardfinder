@@ -1,0 +1,33 @@
+---
+import EmbedLayout from '../../../layouts/EmbedLayout.astro';
+import AsOf from '../../../components/AsOf.astro';
+import NoFxCardTable from '../../../components/NoFxCardTable.astro';
+import OfferChangeNote from '../../../components/OfferChangeNote.astro';
+import { AUTHOR_NAME, AUTHOR_PATH } from '../../../lib/author';
+import { NO_FX_PATH, buildCardIndex } from '../../../lib/cardIndex';
+import { getCards, getDataFetchedAt } from '../../../lib/data';
+
+const cards = await getCards();
+const asOf = getDataFetchedAt();
+if (!asOf) throw new Error('Card catalog has no fetch date.');
+const listed = buildCardIndex(cards, Astro.site ?? 'https://canadiancreditcardfinder.com').noFxCards;
+const creditHref = new URL(NO_FX_PATH, Astro.site).href;
+const title = 'No foreign transaction fee credit cards in Canada';
+const description = `${listed.length} Canadian credit cards that state a 0% foreign transaction fee.`;
+---
+
+<EmbedLayout title={title} description={description} canonicalPath={NO_FX_PATH}>
+    <h1 class="text-xl font-bold text-gray-900 mb-2">{title}</h1>
+    <AsOf date={asOf} class="mb-1" />
+    <p class="text-sm text-gray-500 mb-3">
+        By <a href={AUTHOR_PATH} rel="author" class="underline underline-offset-2 hover:text-red-600">{AUTHOR_NAME}</a>
+    </p>
+    <OfferChangeNote class="mb-4" />
+    {listed.length > 0 ? <NoFxCardTable cards={listed} newTab /> : <p>No card in the current catalog states a 0% foreign transaction fee.</p>}
+    <p class="text-sm text-gray-600 mt-4">
+        Source:{' '}
+        <a href={creditHref} class="font-medium text-red-600 hover:text-red-700 underline underline-offset-2">
+            Canadian Credit Card Finder
+        </a>
+    </p>
+</EmbedLayout>

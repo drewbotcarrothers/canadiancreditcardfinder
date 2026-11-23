@@ -1,0 +1,177 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AsOf from '../../../components/AsOf.astro';
+import Byline from '../../../components/Byline.astro';
+import DataToolsLinks from '../../../components/DataToolsLinks.astro';
+import EmbedSnippet from '../../../components/EmbedSnippet.astro';
+import IndexSummary from '../../../components/IndexSummary.astro';
+import OfferChangeNote from '../../../components/OfferChangeNote.astro';
+import { authorJsonLd, publisherJsonLd } from '../../../lib/author';
+import {
+    CARD_INDEX_CSV_PATH,
+    CARD_INDEX_EDITION,
+    CARD_INDEX_EMBED_PATH,
+    CARD_INDEX_PATH,
+    NO_FX_PATH,
+    buildCardIndex,
+    formatPercent,
+} from '../../../lib/cardIndex';
+import { lastModified, latestDate } from '../../../lib/contentDates';
+import { getCards, getDataFetchedAt } from '../../../lib/data';
+import { POINTS_CALCULATOR_PATH } from '../../../lib/pointValues';
+
+const cards = await getCards();
+const asOf = getDataFetchedAt();
+if (!asOf) throw new Error('Card catalog has no fetch date.');
+const index = buildCardIndex(cards, Astro.site ?? 'https://canadiancreditcardfinder.com');
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const csvUrl = new URL(CARD_INDEX_CSV_PATH, Astro.site).href;
+
+const title = `Canadian Credit Card Index, ${CARD_INDEX_EDITION} | Canadian Credit Card Finder`;
+const description = `${CARD_INDEX_EDITION} summary of ${index.total} Canadian credit cards in our catalog: counts by issuer and network, annual-fee median and range, the share with no annual fee, median purchase APR, cards with no foreign transaction fee, and average welcome bonus value.`;
+
+const pageUpdated = latestDate(
+    lastModified('src/pages/data/credit-card-index/index.astro'),
+    lastModified('src/lib/cardIndex.ts'),
+);
+
+const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Dataset',
+    name: `Canadian Credit Card Index, ${CARD_INDEX_EDITION}`,
+    description,
+    url: canonical,
+    inLanguage: 'en-CA',
+    creator: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
+    dateModified: asOf.toISOString(),
+    distribution: {
+        '@type': 'DataDownload',
+        encodingFormat: 'text/csv',
+        contentUrl: csvUrl,
+    },
+};
+---
+
+<BaseLayout title={title} description={description}>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">Home</a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">Credit card index</li>
+            </ol>
+        </nav>
+
+        <header class="mb-8 max-w-3xl">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                Canadian Credit Card Index, {CARD_INDEX_EDITION}
+            </h1>
+            <p class="text-lg text-gray-600 leading-relaxed mb-4">
+                A summary of the {index.total} Canadian credit cards published on this site: who issues them,
+                which network they run on, what the annual fees and purchase APRs look like, how many state
+                no foreign transaction fee, and the average welcome bonus value in our catalog.
+            </p>
+            <AsOf date={asOf} class="mb-2" />
+            <Byline updated={pageUpdated} class="mb-3" />
+            <OfferChangeNote />
+        </header>
+
+        <section class="mb-8" aria-labelledby="data-tools-heading">
+            <h2 id="data-tools-heading" class="text-sm font-semibold text-gray-900 mb-3">Data & tools</h2>
+            <DataToolsLinks current="index" />
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="summary-heading">
+            <h2 id="summary-heading" class="text-2xl font-bold text-gray-900 mb-5">Summary</h2>
+            <IndexSummary index={index} />
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="method-heading">
+            <h2 id="method-heading" class="text-2xl font-bold text-gray-900 mb-4">How these figures are calculated</h2>
+            <div class="max-w-3xl text-gray-700 leading-relaxed space-y-3">
+                <p>
+                    Every number comes from the same card records that render our card pages. Where a card
+                    does not state a figure, it is left out of that calculation.
+                </p>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li>
+                        The annual-fee median and range use the annual fee column for {index.cadFeeCount} cards
+                        billed in Canadian dollars.
+                        {index.usdFeeCount} cards list a U.S. dollar annual fee and are left out of that median and range.
+                    </li>
+                    <li>
+                        The no-annual-fee share is cards with a $0 annual fee, out of all {index.total} cards.
+                    </li>
+                    <li>
+                        The purchase APR median uses {index.singleAprCount} cards with one stated purchase APR.
+                        {index.aprRangeCount > 0 && (
+                            <> {index.aprRangeCount} cards list a range, which is not collapsed into one rate.</>
+                        )}
+                        {index.aprMissingCount > 0 && (
+                            <> {index.aprMissingCount} cards do not list a purchase APR.</>
+                        )}
+                        {index.aprOtherCount > 0 && (
+                            <> {index.aprOtherCount} cards list a purchase rate that is not a single percent.</>
+                        )}
+                        {index.aprMedian !== null && (
+                            <> The median of the single rates is {formatPercent(index.aprMedian)}.</>
+                        )}
+                    </li>
+                    <li>
+                        The no-foreign-transaction-fee count is cards whose features state no foreign transaction
+                        fee or a 0% conversion charge ({index.noFxCards.length} cards). A waiver that applies only
+                        to U.S. dollar purchases is not counted. Cards that do not state a fee are not given one.
+                        The list is on the{' '}
+                        <a href={NO_FX_PATH} class="text-red-600 hover:text-red-700 font-medium">
+                            no foreign transaction fee cards
+                        </a>{' '}
+                        page.
+                    </li>
+                    <li>
+                        The welcome bonus average is the mean of the dollar amounts in the welcome bonus value
+                        field ({index.welcomeValueCount} cards). Cards whose field has no dollar amount are
+                        left out ({index.welcomeExcludedCount} cards). The annual fee is not subtracted, and
+                        first-year net value is not used.
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8 mb-8" aria-labelledby="download-heading">
+            <h2 id="download-heading" class="text-2xl font-bold text-gray-900 mb-2">Download the card file</h2>
+            <p class="text-gray-600 mb-4 max-w-3xl">
+                One row per card: name, issuer, network, annual fee, purchase APR, FX fee, welcome bonus
+                value, and the card page URL. FX fee is blank when the catalog does not state one. Welcome
+                bonus value is the catalog field, not a first-year net.
+            </p>
+            <a
+                href={CARD_INDEX_CSV_PATH}
+                download="credit-card-index-2026-q4.csv"
+                class="inline-block bg-red-600 hover:bg-red-700 text-white py-3 px-6 rounded-lg font-semibold transition-colors"
+            >
+                Download the Q4 2026 CSV
+            </a>
+        </section>
+
+        <div class="mb-8">
+            <EmbedSnippet
+                iframePath={CARD_INDEX_EMBED_PATH}
+                iframeTitle={`Canadian Credit Card Index, ${CARD_INDEX_EDITION}`}
+                creditPath={CARD_INDEX_PATH}
+                height={720}
+            />
+        </div>
+
+        <p class="text-gray-600 mb-8">
+            Estimate a points balance with the{' '}
+            <a href={POINTS_CALCULATOR_PATH} class="text-red-600 hover:text-red-700 font-medium">
+                points value calculator
+            </a>.
+        </p>
+
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    </div>
+</BaseLayout>

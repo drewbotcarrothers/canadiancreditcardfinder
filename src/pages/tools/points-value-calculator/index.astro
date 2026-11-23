@@ -1,0 +1,143 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import AsOf from '../../../components/AsOf.astro';
+import Byline from '../../../components/Byline.astro';
+import DataToolsLinks from '../../../components/DataToolsLinks.astro';
+import OfferChangeNote from '../../../components/OfferChangeNote.astro';
+import PointsValueCalculator from '../../../components/PointsValueCalculator';
+import { authorJsonLd, publisherJsonLd } from '../../../lib/author';
+import { OFFERS_CHANGE_NOTE } from '../../../lib/cardIndex';
+import { formatDisplayDate, formatIsoDate, lastModified, latestDate } from '../../../lib/contentDates';
+import { getGuides } from '../../../lib/guides';
+import { POINT_PROGRAMS, POINTS_GUIDE_PATH, formatCentsPerPoint } from '../../../lib/pointValues';
+
+const guides = await getGuides();
+const pointsGuide = guides.find((guide) => guide.id === 'credit-card-points-value-canada');
+if (!pointsGuide) throw new Error('Missing credit-card-points-value-canada guide.');
+const asOf =
+    latestDate(
+        lastModified('src/content/guides/credit-card-points-value-canada.md'),
+        pointsGuide.data.updatedAt,
+    ) ?? pointsGuide.data.publishedAt;
+
+const canonical = new URL(Astro.url.pathname, Astro.site).href;
+const title = 'Credit Card Points Value Calculator (Canada) | Canadian Credit Card Finder';
+const description =
+    'Estimate the Canadian-dollar value of a points balance using the cents-per-point floors published in our points value guide: Amex Membership Rewards, RBC Avion, Scene+, TD Rewards, BMO Rewards and PC Optimum.';
+
+const pageUpdated = latestDate(
+    lastModified('src/pages/tools/points-value-calculator/index.astro'),
+    lastModified('src/lib/pointValues.ts'),
+    asOf,
+);
+
+const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebApplication',
+    name: 'Credit card points value calculator',
+    description,
+    url: canonical,
+    applicationCategory: 'FinanceApplication',
+    operatingSystem: 'Web',
+    offers: {
+        '@type': 'Offer',
+        price: '0',
+        priceCurrency: 'CAD',
+    },
+    inLanguage: 'en-CA',
+    author: authorJsonLd(Astro.site),
+    publisher: publisherJsonLd(Astro.site),
+    dateModified: asOf.toISOString(),
+};
+
+const thClass = 'py-2 pr-4 font-semibold text-gray-500';
+const tdClass = 'py-3 pr-4 align-top text-gray-900';
+---
+
+<BaseLayout title={title} description={description} noAds>
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <nav class="mb-6" aria-label="Breadcrumb">
+            <ol class="flex items-center space-x-2 text-sm">
+                <li>
+                    <a href="/" class="text-gray-500 hover:text-red-600 transition-colors">Home</a>
+                </li>
+                <li class="text-gray-400">/</li>
+                <li class="text-gray-900 font-medium truncate">Points value calculator</li>
+            </ol>
+        </nav>
+
+        <header class="mb-8 max-w-3xl">
+            <h1 class="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+                Credit card points value calculator
+            </h1>
+            <p class="text-lg text-gray-600 leading-relaxed mb-4">
+                Pick a program and a point balance. The estimate uses the cents-per-point floors in{' '}
+                <a href={POINTS_GUIDE_PATH} class="text-red-600 hover:text-red-700 font-medium">
+                    How much are credit card points worth in Canada?
+                </a>{' '}
+                The math runs in your browser.
+            </p>
+            <AsOf date={asOf} class="mb-2" />
+            <Byline updated={pageUpdated} class="mb-3" />
+            <OfferChangeNote />
+        </header>
+
+        <section class="mb-8" aria-labelledby="data-tools-heading">
+            <h2 id="data-tools-heading" class="text-sm font-semibold text-gray-900 mb-3">Data & tools</h2>
+            <DataToolsLinks current="calculator" />
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
+            <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8" aria-labelledby="rates-heading">
+                <h2 id="rates-heading" class="text-2xl font-bold text-gray-900 mb-2">Published rates</h2>
+                <p class="text-gray-600 mb-4">
+                    These are the fixed floors from the guide, as of{' '}
+                    <time datetime={formatIsoDate(asOf)}>{formatDisplayDate(asOf)}</time>.
+                    The guide does not assign a fixed cents-per-point rate to Aeroplan, CIBC Aventura or
+                    Air Miles, so those programs are left out.
+                </p>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full text-sm text-left">
+                        <thead>
+                            <tr class="border-b border-gray-200">
+                                <th scope="col" class={thClass}>Program</th>
+                                <th scope="col" class={thClass}>Published rate</th>
+                                <th scope="col" class={thClass}>Cents per point</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {
+                                POINT_PROGRAMS.map((program) => (
+                                    <tr class="border-b border-gray-100">
+                                        <th scope="row" class={`${tdClass} font-medium`}>
+                                            {program.name}
+                                        </th>
+                                        <td class={tdClass}>{program.basis}</td>
+                                        <td class={tdClass}>{formatCentsPerPoint(program.centsPerPoint)}</td>
+                                    </tr>
+                                ))
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="bg-white rounded-2xl shadow-md p-6 lg:p-8" aria-labelledby="calculator-heading">
+                <h2 id="calculator-heading" class="text-2xl font-bold text-gray-900 mb-4">Calculator</h2>
+                <PointsValueCalculator client:load />
+            </section>
+        </div>
+
+        <aside class="bg-gray-50 border border-gray-200 rounded-xl p-5 mb-8 max-w-3xl">
+            <p class="text-sm text-gray-600 leading-relaxed">
+                <strong class="text-gray-800">How to read the estimate.</strong>{' '}
+                Value is the point balance times the guide's cents per point, shown in Canadian dollars.
+                A fixed floor is what you get from the published redemption, such as a statement credit or
+                travel booked at the program's rate. It is not a promise that a flight reward will be worth
+                more. {OFFERS_CHANGE_NOTE}
+            </p>
+        </aside>
+
+        <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+    </div>
+</BaseLayout>

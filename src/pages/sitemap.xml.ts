@@ -44,6 +44,10 @@ export const GET: APIRoute = async ({ site }) => {
         { loc: `${baseUrl}/card-fit-checklist/`, lastmod: dateOf('src/pages/card-fit-checklist/index.astro'), changefreq: 'monthly', priority: '0.6' },
         // Rebuilt from current welcome offers on every build, so its lastmod is the build time.
         { loc: `${baseUrl}/credit-card-offers/`, lastmod: buildTime.toISOString(), changefreq: 'daily', priority: '0.9' },
+        // Index and no-FX list are rebuilt from the card catalog on every build.
+        { loc: `${baseUrl}/data/credit-card-index/`, lastmod: buildTime.toISOString(), changefreq: 'weekly', priority: '0.8' },
+        { loc: `${baseUrl}/no-foreign-transaction-fee-credit-cards/`, lastmod: buildTime.toISOString(), changefreq: 'weekly', priority: '0.8' },
+        { loc: `${baseUrl}/tools/points-value-calculator/`, lastmod: dateOf('src/pages/tools/points-value-calculator/index.astro', 'src/lib/pointValues.ts', 'src/content/guides/credit-card-points-value-canada.md'), changefreq: 'monthly', priority: '0.7' },
         // Bank pages with editorial content are indexable. Other issuer hubs and /compare/ stay noindex and out of the sitemap.
         ...getIssuerHubSlugs()
             .filter(isIndexableIssuer)

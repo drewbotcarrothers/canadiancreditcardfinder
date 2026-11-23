@@ -1,23 +1,17 @@
 import type { CreditCard } from './types';
+import { centsForCatalogProgram } from './pointValues';
 import { estimateWelcomeFeeMath } from './reviewMath';
 
 /** Yearly grocery spend used for the ranking on /best/groceries/. */
 export const GROCERY_VALUE_SPEND = 8000;
 
 /**
- * Cents per point, taken from the published redemption floors in the
- * "How much are credit card points worth in Canada?" guide. Programs with no
- * fixed value there (Aeroplan, Aventura and others) are left out on purpose.
+ * Cash back is already a percent, so 1 cent per point turns "3%" into 3 cents
+ * per dollar. Points programs use the floors in pointValues.ts. Programs the
+ * points guide does not give a fixed rate (Aeroplan, Aventura and others) stay
+ * unpriced, same as before.
  */
-const CENTS_PER_UNIT: Record<string, number> = {
-    'cash back': 1,
-    'amex membership rewards': 1,
-    'scene+ points': 1,
-    avion: 1,
-    'td rewards': 0.5,
-    'bmo rewards points': 100 / 150,
-    'pc optimum': 0.1,
-};
+const CASH_BACK_CENTS = 1;
 
 export interface GroceryValueRow {
     card: CreditCard;
@@ -37,7 +31,8 @@ export interface GroceryValueRow {
 
 function centsPerUnit(card: CreditCard): number | null {
     const key = card.rewardsProgram.trim().toLowerCase();
-    return key in CENTS_PER_UNIT ? CENTS_PER_UNIT[key] : null;
+    if (key === 'cash back') return CASH_BACK_CENTS;
+    return centsForCatalogProgram(key);
 }
 
 /**

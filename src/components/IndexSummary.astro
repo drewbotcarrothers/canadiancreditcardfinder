@@ -1,0 +1,131 @@
+---
+import {
+    formatCountShare,
+    formatPercent,
+    type CardIndex,
+} from '../lib/cardIndex';
+import { formatCurrency } from '../lib/utils';
+
+interface Props {
+    index: CardIndex;
+    /** Issuer and network counts. The embed shows the summary table only. */
+    breakdown?: boolean;
+}
+
+const { index, breakdown = true } = Astro.props;
+const thClass = 'py-2 pr-4 font-semibold text-gray-500';
+const tdClass = 'py-3 pr-4 align-top text-gray-900';
+const feeRange = `${formatCurrency(index.feeMin)} to ${formatCurrency(index.feeMax)}`;
+---
+
+<div class="space-y-8">
+    <div class="overflow-x-auto">
+        <table class="min-w-full text-sm text-left">
+            <caption class="sr-only">Canadian credit card index summary</caption>
+            <thead>
+                <tr class="border-b border-gray-200">
+                    <th scope="col" class={thClass}>Measure</th>
+                    <th scope="col" class={thClass}>Figure</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="border-b border-gray-100">
+                    <th scope="row" class={`${tdClass} font-medium`}>Cards in the catalog</th>
+                    <td class={tdClass}>{index.total}</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                    <th scope="row" class={`${tdClass} font-medium`}>Issuers</th>
+                    <td class={tdClass}>{index.byIssuer.length}</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                    <th scope="row" class={`${tdClass} font-medium`}>Median annual fee (CAD)</th>
+                    <td class={tdClass}>
+                        {formatCurrency(index.feeMedian)}
+                        <span class="block text-gray-500 font-normal">
+                            {index.cadFeeCount} cards with a Canadian-dollar annual fee
+                        </span>
+                    </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                    <th scope="row" class={`${tdClass} font-medium`}>Annual fee range (CAD)</th>
+                    <td class={tdClass}>{feeRange}</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                    <th scope="row" class={`${tdClass} font-medium`}>No annual fee</th>
+                    <td class={tdClass}>{formatCountShare(index.noAnnualFeeCount, index.total)}</td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                    <th scope="row" class={`${tdClass} font-medium`}>Median purchase APR</th>
+                    <td class={tdClass}>
+                        {index.aprMedian === null ? 'Not listed' : formatPercent(index.aprMedian)}
+                        <span class="block text-gray-500 font-normal">
+                            {index.singleAprCount} cards with a single stated purchase APR
+                        </span>
+                    </td>
+                </tr>
+                <tr class="border-b border-gray-100">
+                    <th scope="row" class={`${tdClass} font-medium`}>No foreign transaction fee</th>
+                    <td class={tdClass}>{index.noFxCards.length}</td>
+                </tr>
+                <tr>
+                    <th scope="row" class={`${tdClass} font-medium`}>Average welcome bonus value</th>
+                    <td class={tdClass}>
+                        {index.welcomeAverage === null ? 'Not listed' : formatCurrency(index.welcomeAverage)}
+                        <span class="block text-gray-500 font-normal">
+                            Mean of {index.welcomeValueCount} cards with a dollar amount in the welcome bonus value field
+                        </span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    {
+        breakdown && (
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="overflow-x-auto">
+                    <table class="min-w-full text-sm text-left">
+                        <caption class="text-left font-semibold text-gray-900 mb-2">Cards by issuer</caption>
+                        <thead>
+                            <tr class="border-b border-gray-200">
+                                <th scope="col" class={thClass}>Issuer</th>
+                                <th scope="col" class={thClass}>Cards</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {index.byIssuer.map((row) => (
+                                <tr class="border-b border-gray-100">
+                                    <th scope="row" class={`${tdClass} font-medium`}>
+                                        {row.label}
+                                    </th>
+                                    <td class={tdClass}>{row.count}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="min-w-full text-sm text-left">
+                        <caption class="text-left font-semibold text-gray-900 mb-2">Cards by network</caption>
+                        <thead>
+                            <tr class="border-b border-gray-200">
+                                <th scope="col" class={thClass}>Network</th>
+                                <th scope="col" class={thClass}>Cards</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {index.byNetwork.map((row) => (
+                                <tr class="border-b border-gray-100">
+                                    <th scope="row" class={`${tdClass} font-medium`}>
+                                        {row.label}
+                                    </th>
+                                    <td class={tdClass}>{row.count}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        )
+    }
+</div>
