@@ -772,6 +772,12 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "8yKzJrMqu4Y": {
+      "cards": [
+        "american-express-cobalt-card",
+        "scotiabank-gold-american-express-card"
+      ]
     }
   },
   "skip": {
