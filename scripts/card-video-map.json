@@ -772,6 +772,12 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "-EdNZRiD77s": {
+      "cards": [
+        "cibc-dividend-visa-infinite-card",
+        "simplycash-preferred-card-from-american-express"
+      ]
     }
   },
   "skip": {
