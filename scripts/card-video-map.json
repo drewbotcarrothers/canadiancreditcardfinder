@@ -772,6 +772,13 @@
         "td-aeroplan-visa-infinite-card",
         "scotiabank-gold-american-express-card"
       ]
+    },
+    "-M7Jvp35vZ0": {
+      "cards": [
+        "national-bank-platinum-mastercard",
+        "desjardins-flexi-visa",
+        "national-bank-echo-cashback-mastercard"
+      ]
     }
   },
   "skip": {
